@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>Bibliothèque Sainte-Geneviève MS. 3731</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="StGen-3731-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#StGen">Bibliothèque Sainte-Geneviève, Paris</repository>
+						<idno>MS. 3731</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="no">
+							
+							<note>Contains translations of sagas into French with translated texts on recto
+								leaves and notes on verso leaves.</note>
+						</titlePage>
+						
+						<msItem n="1" class="isl">
+							<locus from="1r:1" to="135r:21"/>  							
+							<title type="uniform">Bjarnar saga Hítdælakappa <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Bjarnar saga Hitdaelakappa</rubric>
+							<incipit>Il faut maintenant raconter quelque chose sur les Íslendingar</incipit>
+							<explicit>Et ici s'achéve ce récit.</explicit>
+							<note>Note on fol. 1r: <q>Edition de Reykjavík 1898.</q></note>
+							<note>Indices on fols. 127r-135r.</note>	
+							<note>Dated 30 Jun 1918 on fol. 135r.</note>
+													
+						</msItem>
+						
+						<msItem n="2" class="fas">
+							<locus from="136r:1" to="259:19"/>  							
+							<title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Þorsteins saga Víkingssonar</rubric>
+							<incipit>Le commencement de cette saga est qu'il y avait un roi nommé Logi</incipit>
+							<explicit>Ainsi achevons hous <add place="inline">ici</add> la saga de Þorsteinn
+							Víkingsson; elle est des plus amusantes.</explicit>
+							<note>Note on fol. 136r: <q>Edition de Reykjavík 1886</q></note>
+							<note>Fols. 217-227 crossed-out, but otherwise blank.</note>
+							<note>Indices on fols. 254r-259r.</note>
+							<note>Dated 8 July 1918 on fol. 259r</note>
+							
+						</msItem>
+						
+						<msItem n="3" class="fas">
+							<locus from="260r:1" to="323r:26"/>  							
+							<title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Egils saga einhenda ok Ásmundar berserkjabana</rubric>
+							<incipit>Il y avait un roi appelé Hertryggr</incipit>
+							<explicit>Et ici nous mettons fin à cette saga</explicit>
+							<colophon>parceque le parchemain diminne l'enae s'épaissit, les yeux s'alvurdissent, 
+								la main se fatigue, la plume s'émousse et que ... vague tout 
+							et qui sert à écrire. Amen.</colophon>
+							<!-- ... = struck-through; illegible -->
+							<note>Note on fol. 260r: <q>Edition de Reykjavík 1889.</q></note>
+							<note>Indices on fols. 321r-323r</note>
+							<note>Dated 14 July 1918 on fol. 323r</note>
+							
+						</msItem>
+						
+						<msItem n="4" class="fas">
+							<locus from="324r:1" to="368r:30"/>  							
+							<title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Hálfdanar saga Brǫnufóstra</rubric>
+							<incipit>Il y avait un roi appelé Hringr</incipit>
+							<explicit>Et ici se termine la saga de Hálfdan Brǫnufóstri</explicit>
+							<note>Note on fol. 324r: <q>Edition de Reykjavík 1889.</q></note>
+							<note>Indices on fols. 367r-368r</note>
+							
+							
+						</msItem>
+						
+						<msItem n="5" class="fas">
+							<locus from="369r:1" to="393r:20"/>  							
+							<title type="uniform" ref="#hsgr">Hrómundar saga Gripssonar <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Hrómundar saga Gripssonar</rubric>
+							<incipit>Un roi appelé Óláfr regnait sur Garðar en Danmǫrk</incipit>
+							<explicit>Et ici finit la saga de Hrómundr Greipsson.</explicit>
+							<note>Note on fol. 369r: <q>Edition de Reykjavík</q></note>
+							<note>Indices on fols. 392r-393r</note>
+							<note>Dated 19 July 1918 on fol. 393r</note>
+							
+							
+						</msItem>
+						
+						<msItem n="6" class="isl">
+							<locus from="394r:1" to="399r:29"/>  							
+							<title type="uniform">Ljósvetninga saga <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Ljósvetninga saga</rubric>
+							<incipit>Eyjólfr et Koðrún, fils de Guðmundr</incipit>
+							<explicit>Et ainsi finit cette saga.</explicit>
+							<note>Note on fol. 394r: <q>(Fin de la ____ d'apris le MSS 514 4o AM. Edition de Reykjavík 1896</q></note>
+							<note>Contains only the end of the saga and references fasc. XVII of his own collection 
+							(Bib. St. Geneviéve MS. 3721)</note>
+							<note>Indices on fols. 398r-399r</note>
+							<note>Dated 21 July 1918 on fol. 399r</note>
+							
+						</msItem>
+						
+						<msItem n="7" class="konth">
+							<locus from="400r:1" to="414rb:14"/>  							
+							<title type="uniform">Ólafs þáttur Geirstaðaálfs <note>(French)</note></title>
+							<title type="parallel">Ólafs þáttr Geirstaðaálfs</title>
+							<textLang mainLang="fr"/>
+							<rubric>Þáttr Óláfs geirstaða álfs</rubric>
+							<incipit>Óláfr fils de Gudrǫðr veiðikonungr fut un vaillant homme</incipit>
+							<explicit>que Jesús Kristr les mit en lumière.</explicit>
+							<note>Note on fol. 400r: <q>Flateyjarbók T. II. p. 6. Christiania 1862. 
+								Et chapitre 106 de la saga d'Óláfr enn helgi. Flateyjarbók T. II. p. 134.</q></note>
+							<note>Indices on fol. 414r</note>
+							<note>Dated 23 July 1918 on fol. 414r</note>
+							
+							
+						</msItem>
+						
+						<msItem n="8" class="konth">
+							<locus from="415r:1" to="423rb:13"/>  							
+							<title type="uniform">Haralds þáttur grenska <note>(French)</note></title>
+							<title type="parallel">Haralds þáttr grenska</title>
+							<textLang mainLang="fr"/>
+							<rubric>Haralds þáttr grenska</rubric>
+							<incipit>Il y avait en Nóregr une femme de vnorn et de haute naissance appeleé Cecilia</incipit>
+							<explicit>et du projet fuit pas le roi Haraldr de l'abandonner.</explicit>
+							<note>Note on fol. 415r: <q>Flateyjarbók T. II. p. 3. Christiania. 1862.</q></note>
+							<note>Indices on fol. 423r.</note>
+							<note>Dated 24 July 1918 on fol. 423r</note>
+							
+						</msItem>
+						
+						<msItem n="9" class="konth">
+							<locus from="424r:1" to="431rc:4"/>  							
+							<title type="uniform">Sigurðar þáttur slefu <note>(French)</note></title>
+							<title type="parallel">Sigurðar þáttr slefu</title>
+							<textLang mainLang="fr"/>
+							<rubric>Þáttr frá Sigurði konungi slefu syni Gunnhildar</rubric>
+							<incipit>On rapporte que lorsque les fils de Gunnhildr regnaiant sur la Nóregr</incipit>
+							<explicit>on [..... ..'.. .....] <add place="above">de tint favour</add> une ancêtreux feurrace.</explicit>
+							<!-- dots struck-through; illegible -->
+							<note>Note on fol. 424r: <q>Flateyjarbók T. I. p. 19. Christania 1860.</q></note>
+							<note>Indices on fol. 431r</note>
+							
+						</msItem>
+						
+						<msItem n="10" class="konth">
+							<locus from="432r:1" to="442rb:15"/>  							
+							<title type="uniform">Styrbjarnar þáttur Svíakappa <note>(French)</note></title>
+							<title type="parallel">Styrbjarnar þáttr Svíakappa</title>
+							<textLang mainLang="fr"/>
+							<rubric>Styrbjarnar þáttr Svíakappa</rubric>
+							<incipit>Il est à dire qu'Eirekr et Óláfr, les fils de Bjǫrn</incipit>
+							<explicit>bon fut de prendre ce qui contre des blessures.</explicit>
+							<colophon>Comme récompense Þorvaldr reçut un anneau d'un Danimarc
+							pour chaque strophe; autant qu'on le sache il n'avait jamais encore
+							composé de strophes et n'en compose plus dans la suite.</colophon>
+							<note>Note on fol. 432r: <q>Flateyjarbók. T.II. p. 70. Christiania. 1862.</q></note>
+							<note>Indices on fol. 442r</note>
+							
+						</msItem>
+						
+						<msItem n="11" class="konth">
+							<locus from="443r:1" to="458r:18"/>  							
+							<title type="uniform">Hauks þáttur hábrókar <note>(French)</note></title>
+							<title type="parallel">Hauks þáttr hábrókar</title>
+							<textLang mainLang="fr"/>
+							<rubric>Hauks þáttr hábrókar</rubric>
+							<incipit>Bjǫrn de Haugr etait roi de Svíþjóð</incipit>
+							<explicit>qu'il disait avoir encoutré en Nóregr.</explicit>
+							<note>Note on fol. 443r: <q>Flateyjarbók. T.I. p. 577. Christiania 1860.</q></note>
+							<note>Index on fol. 458r.</note>
+							<note>Dated 28 July 1918 on fol. 458r</note>
+							
+						</msItem>
+						
+						<msItem n="12" class="">
+							<!-- Not sure how to class this -->
+							<locus from="459r:1" to="464r:9"/>  							
+							<title type="uniform">Konungs skuggsjá <note>(Extracts, French)</note></title>
+							<title type="parallel">Speculum regale</title>
+							<textLang mainLang="fr"/>
+							<rubric>Extraits du Konungs skuggsjá [Speculum regale]</rubric>
+							<incipit>En ce pays dans le boer appelé Glumelaga</incipit>
+							<explicit>et les écureciels a'grimpes sur les arbres.</explicit>
+							<note>Note on fol. 459r: <q>Edition Oscar Brenner. München 1881.</q></note>
+							<note>Notes on 'La mot gelt' on fol. 464r</note>
+							<note>Dated 29 July 1918 on fol. 464r</note>
+							
+						</msItem>
+						
+						<msItem n="13" class="islt" defective="true">
+							<locus from="465r:1" to="488r:6"/>  							
+							<title type="uniform">Þorleifs þáttur jarlsskálds <note>(French)</note></title>
+							<title type="parallel">Þorleifs þáttur jarlaskálds</title>
+							<title type="parallel">Þorleifs þáttr jarlsskálds</title>
+							<title type="parallel">Þorleifs þáttr jarlaskálds</title>
+							<textLang mainLang="fr"/>
+							<rubric>Þorleifs þáttr jarlaskálds</rubric>
+							<incipit>A cette époque Ásgeir rauðfeldr habitait à Brekka</incipit>
+							<explicit>Et ici finit de parler de Þorleifr.</explicit>
+							<note>Indices on fols. 486r-488r</note>
+							<note>Dated 31 July 1918 on fol. 488r.</note>
+							<note>Note on fol. 465r: <q>Flateyjarbók. T.I. Chapitres 168 à 174 de la saga d'Óláfr Tryggvason.
+							Christania 1860.</q></note>
+							
+						</msItem>
+						
+						<msItem n="14" class="fas">
+							<locus from="489r:1" to="498r:2"/>  							
+							<title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar <note>(Extracts, French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Chapitres 32 et 33 de la Hrólfs saga Gautrekssonar</rubric>
+							<incipit>Aprés que Hrólfr roi du Jiar ait rassemblé</incipit>
+							<explicit>bon accuil pour sa pière.</explicit>
+							<note>Note on fol. 489r: <q>Edition de Reykjavík. 1889.</q></note>
+							
+						</msItem>
+						
+						<msItem n="15" class="regist">
+							<locus from="498r:3" to="498r:18"/>
+							<title type="supplied">Table of Contents</title>
+							<textLang mainLang="fr"/>
+							<rubric>Table du fascicule 27</rubric>
+							<incipit>Bjarnar saga Hítdaelakappa</incipit>
+							<explicit>Chapiter 32 et 33 de la Hrólfs saga Gautrekssonar</explicit>
+							<note>Dated 1 August 1918 on fol. 498r</note>
+							
+						</msItem>
+						
+						
+												
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="498"/>
+									<num type="back-flyleaf" value="1"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="270"/>
+										<width unit="mm" quantity="230"/>
+									</dimensions>
+									
+									<watermark ana="no"/>
+									
+								</support>
+								
+								<foliation ana="contemporary fol">Foliation numbers are given in each opening. Fols. 443-468 
+									bound after fol. 498</foliation>
+								
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-prose" columns="1 3" writtenLines="15 29">
+									<note>Some indices written in two or three columns</note>									
+									
+									<num type="wpl" atLeast="11" atMost="15"/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity="230"/>
+										<width unit="mm" quantity="160"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#LouLeP001" scope="sole" script="hum cursiva"/>
+						</handDesc>
+						
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						
+						<additions ana="no"/>
+						
+						<bindingDesc>
+							<binding ana="plain" contemporary="true">
+								<p>Bound in contemporary paper bindings with later laminate reinforcement.</p>
+							</binding>							
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate when="1918"/>
+							<origPlace key="FR"/>
+						</origin>
+						
+						<provenance>
+							<name key="LouLeP001" type="person" role="owner"/> 
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-01-18" who="#JSL">Generated record from Calames catalogue</change>
+			<change when="2013-02-19" who="#JSL">Cataloged from manuscripts</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

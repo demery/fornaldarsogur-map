@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1762 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1762-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1762 4to</idno>
+               </msIdentifier>
+               <msContents>
+                 <!-- <titlePage ana="contemporary">
+                     <titlePart>Søgu-Bok og rímna m<ex>ed</ex> h<ex>endi</ex> Gillis
+                     àrnasonar á Bjargi í Papey og síra Sveins Pétrssonar á Hofi í álptafirdi</titlePart> <!-\- check spelling! -\->
+                  </titlePage>--> <!-- check! -->
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="20v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="21r" to="38v"/>
+                     <title type="uniform">Dínus saga drambláta</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="39r" to="60v"/>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="61r" to="95v"/>
+                     <title type="uniform">Mágus saga</title>
+                     <title type="parallel">Mágus saga jarls</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Bragða-Mágus</rubric>
+                  </msItem>
+                  <msItem n="5" class="rimur">
+                     <locus from="96r" to="108"/>
+                     <title type="uniform">Ingvars rímur Ölvessonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Rímur af Ingvari Ölverssyni</rubric>
+                     <author key="MagHja001">Magnús Hjaltason</author>
+                     <note>12 stanzas</note>
+                  </msItem>
+                  <msItem n="6" class="rimur">
+                     <locus from="108" to="117v"/>
+                     <title type="uniform">Otúels rímur frækna</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Rímur af Otúel Halitassyni</rubric>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <note>8 stanzas</note>
+                  </msItem>
+                  <msItem n="7" class="rimur">
+                     <locus from="118r" to="156"/>
+                     <title type="uniform">Bálants rímur og Ferakúts</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Rímur af Ferakút</rubric>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <note>24 stanzas</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/> 
+                           <num type="book-block" value="157"/>
+                          <!-- <num type="back-flyleaf" value=""></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="207"/>
+                              <width unit="mm" quantity="163"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="fol">In the former part</foliation>
+                       <!-- <condition ana=""></condition>-->
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <note>Blank leaves <locus>38v</locus>, <locus>117v</locus></note>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#GilArn001" scope="major" script="unknown">Gillir Árnason á Bjargi í Papey</handNote>
+                     <handNote scribeRef="#SvePet001" scope="major" script="unknown">sr. Sveinn Pétursson á Hofi í Álptafirði</handNote>
+                  </handDesc>
+                 <!-- <decoDesc ana="">
+                     <decoNote></decoNote>
+                  </decoDesc>
+                  <additions ana=""></additions>-->
+                 <!-- <bindingDesc>
+                     <binding ana="" contemporary=""> 
+                        <p>Leather binding</p></binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1800" notAfter="1822">ca. 1812</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonArn009">Jón Árnason á Bjargi í Papey</name>
+                     <name type="person" role="owner" key="JonTho056">Jón Þorvarðarson yngri á Bjargi í Papey</name>
+                     <name type="person" role="owner" key="SteEmi001">Steinn Emilsson skólapiltur í Reykjavík</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:02.247+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-01" who="#SK">Added items, location and other information from the P.E.Ó.-catalogue</change>
+         <!-- Lacking information from the ms itself for checking location and adding layout and such-->
+         <change when="2013-08-29" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Engestr. B. III. 1. 20.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Engestr-B-III-1-20" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Engestr. B. III. 1. 20.</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="5r"/>
+                     <title type="uniform">Heimskringla</title>
+                     <textLang mainLang="sv" otherLangs="la"/>
+                     <note>Excerpts</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="8r" to="18v"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <rubric>Her byrjiast Sagan af Hrólfi Sturlaugssyni, er kalladr var Gaungu Hrólfr</rubric>
+                     <incipit>Þat er upphaf á sögu þessari at Hreggvidr er konungr nefndr</incipit>
+                     <textLang mainLang="sv" otherLangs="la"/>
+                  </msItem>
+                  <msItem n="3" class="fas" defective="true">
+                     <locus from="20r" to="29r"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <rubric>Her birgiar sogo Jóns Svipdagssonar ok Eiriks forvitna</rubric>
+                     <incipit>Vilhialmur hefir konungr heitit er réð fyrir Vallandi</incipit>
+                     <textLang mainLang="sv" otherLangs="la"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#Perg-4to-nr-6" ana="antigraph">Perg. 4to nr 6</ref>.</p>
+                     </filiation>
+                     <note>Ends defective</note>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="31r" to="36r"/>
+                     <title type="uniform">Karlamagnus saga</title>
+                     <textLang mainLang="sv" otherLangs="la"/>
+                     <note>Summary</note>
+                  </msItem>
+                  <msItem n="5" class="ridd" defective="true">
+                     <locus from="37r" to="37r"/>
+                     <title type="uniform">Viktors saga ok Blávus</title>
+                     <textLang mainLang="sv" otherLangs="la"/>
+                     <note>Summary</note>
+                  </msItem>
+                  <msItem n="6" class="ridd" defective="true">
+                     <locus from="39r" to="39r"/>
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <textLang mainLang="sv" otherLangs="la"/>
+                     <note>Excerpts</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="41"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" min="330" max="360"/>
+                              <width unit="mm" min="208" max="212"/>
+                           </dimensions>
+                           <watermark ana="yes">Large X crossed with a small x. 'HI &amp; G'.</watermark>
+                        </support>
+                        <foliation ana="later fol">In pencil.</foliation>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="37 59">
+                           <num type="wpl" atLeast="10" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" min="265" max="320"/>
+                              <width unit="mm" min="95" max="165"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JohLil001" scope="sole" script="kurrent">J. G. Liljegren</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>A paper label has been stuck on the inside front cover in the top left-hand corner. It reads: <q>B-III
+                           1-20</q>. There is a small round Kungliga Bibliotek stamp on the first flyleaf recto. A typed sheet
+                        with a list of the contents has been pasted onto the first front flyleaf.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>This volume is bound in grey paper pasted onto cardboard boards. On a yellow label pasted in the botton
+                           left-hand corner of the cover is printed: <q>Riks-Bibliotek STOCKHOLM Handskrifter. No. E. S.</q>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1830"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JohLil001"/>
+                     <name type="person" role="owner" key="LarEng001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:01.528+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-11" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

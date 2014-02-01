@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>R 757</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-757" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 757</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1ra:1" to="7rb:27"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <!--                     <textLang mainLang=""/>-->
+                     <rubric>HERVARAR SAGA cum MSSto Archivi ex jmpress Ol:Verelii collata atq correcta ab J Peringero.</rubric>
+                     <note>Variants taken against Verelius' ed.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="8"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="164"/>
+                           </dimensions>
+                           <note>Fols. 7v-8v blank.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag later">Paginated in pencil in top outer corners.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="2" writtenLines="27 30">
+                           <num type="wpl" atLeast="8" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#PetSal001" scope="sole" script="late kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Notes about the provenance of the manuscript on the front inner binding: <q>Har tillhört Petrus Nicolai
+                           Salanus och varit inbunden jemte Fosterbrödernas Eigles og Asmunds Saga m. m. Celsiska Saml. No 74 <add hand="later">R: 709</add>
+                           <add hand="even later">m. fl.</add> Handstilen <subst>
+                              <del>liknar</del>
+                              <add place="supralinear" hand="even later">är</add>
+                           </subst> Petrus Nicolai Salans</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in thick cream paper.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1697"/><!-- catalogue states 1670-97 as origDate -->
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <!-- add P. Salan and M. von Celse? -->
+                     <p>The manuscript was once part of a larger codex (with the shelf-mark Celsiska 74), together with R 709 and
+                        other manuscripts.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:14.794+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-10" who="SH">Added information from catalogue and from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 297 a 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0297a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 297 a 4to</idno>
+               </msIdentifier>
+         
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="24v:4"/>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga Halfdanar Brónuföstra</rubric>
+                     <incipit><supplied instant="false">H</supplied>ringur er kongur nefndur er ried fyrer Danmorku</incipit>
+                     <explicit>Ok lykst her nu sagha Halfdanar Brónuföstra.</explicit>
+                     
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#JS02-0028-en" ana="antigraph">JS 28 fol.</ref></p>
+                     </filiation>
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+<!--                           <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="24"/>
+<!--                           <num type="back-flyleaf" value=""/>-->
+                           
+                           <!--<dimensions type="leaf">
+                              <!-\-<height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>-\->
+                           </dimensions>-->
+                           
+                           <!--<watermark ana="unknown"/>-->
+                           
+                        </support>
+                           
+                        <foliation ana="fol">Foliated in the upper corner of recto leaves</foliation>
+                           
+                        <condition ana="average"/> <!-- check condition -->
+                     
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21">
+                           <num type="wpl" atLeast="8" atMost="9"/>
+                           <!--<dimensions type="written">
+                              <!-\-<height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>-\->
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MagEin007" scope="sole" script="hum cursiva">Magnús Einarsson</handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Contains occasional marginal emendations in a later hand. A note in the hand of AM reads:
+                        <q>Þesse Halfdanar Saga Bronufostra kom til min 1727 fra Magnuse Einarssyne ä Vatzhorne. Er af honum ritud epter hendi Sr.
+                           Jons Erlendzsonar i Villingahollte, i bok Jons Hakonarssonar, þeirre in folio, sem fyrrum hefr ätt Mag. Bryniolfur, og
+                           gefed Helgu Magnussdottur i Brædratungu</q> (i.e. JS 28 fol.)</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in early 20th century marbled paper boards. 
+                           Previously bound in manuscript waste containing Latin text with neums; now fol. 48 in HS 1 (Missale
+                        Scardense) of AM Accessoria 7.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+               
+                  <origin>
+                     <origDate notBefore="1690" notAfter="1710"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     <name type="person" role="owner" key="MagEin007">Magnús Einarsson</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:09.647+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:18.835+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:28.673+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:43.951+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:22.37+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-03-19" who="#JSL">Supplemented with details from Kålund and handrit catalogs. Cataloged MS
+         from photograph images.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

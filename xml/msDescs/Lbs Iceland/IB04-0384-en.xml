@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 384 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0384-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 384 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="texfr isl">
+                     <locus from="1r" facs="#IB04-0384-0001r" to="4v">1r-4v</locus>
+                     <title type="unifrom">Reykdæla saga [Variants]</title>
+                     <rubric>Orðamunur í útgáfu hins Konunglega norræna fornfræðafélags (1830) af
+                        sögu Vémundar og Vígaskútu og handriti hins Íslenska bókmenntafélags
+                        [...]</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="5r" facs="#IB04-0384-0005r" to="16v">5r-16v</locus>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="17r" facs="#IB04-0384-0017r" to="22v">17r-22v</locus>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <rubric>Hér byrjast þáttur Gríms loðin-kinna sonar Ketils hængs</rubric>
+                     <colophon>Endað dag 2. maii 1799 <locus from="22v" to="22v"/></colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="23r" facs="#IB04-0384-0023r" to="66v">23r-66v</locus>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <rubric>Hér byrjar sögu af Örvar-Oddi syni Gríms loðinkinna</rubric>
+                     <colophon>1799, þann 13da júlii <locus from="66v" to="66v"/></colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="67r" facs="#IB04-0384-0067r" to="118v">67r-118v</locus>
+                     <title type="uniform">Vatnsdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="isl textfr">
+                     <locus from="123r" facs="#IB04-0384-0123r" to="151v">123r-151v</locus>
+                     <title type="uniform">Finnboga saga ramma</title>
+                    <msItem n="6.1" class="isl"> 
+                       <locus from="123r" facs="#IB04-0384-0123r" to="151r">123r-151r</locus>
+                     <title type="uniform">Finnboga saga ramma</title>
+                     <textLang mainLang="non"/>
+                       <note>With variants in the margins by <name type="person" key="HalHja001">Halldór Hjálmarsson</name> konrektor</note>
+                    </msItem>
+                     <msItem n="6.2" class="textfr">
+                        <locus from="151v" facs="#IB04-0384-0151v" to="151v"/>
+                           <title type="supplied">On the present text of Finnboga saga ramma</title>
+                           <author key="HalHja001">Halldór Hjálmarsson konrektor</author>
+                        <textLang mainLang="is"/>
+                        </msItem>
+                  </msItem>
+                  <msItem n="7" class="isl texfr">
+                     <locus from="155r" facs="#IB04-0384-0155r" to="193v">155r-193v</locus>
+                     <title type="uniform">Reykdæla saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Variants in the margins by <name type="person" key="HalHja001">Halldór Hjálmarsson</name> konrektor</note>
+                  </msItem>
+                  <msItem n="8" class="islt">
+                     <locus from="195r" facs="#IB04-0384-0195r" to="198v">195r-198v</locus>
+                     <title type="uniform">Þorsteins þáttur stangarhöggs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="islt">
+                     <locus from="200r" facs="#IB04-0384-0200r" to="203v">200r-203v</locus>
+                     <title type="uniform">Egils þáttur Síðu-Hallssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="isl">
+                     <locus from="203v" facs="#IB04-0384-0203v" to="206v">203v-206v</locus>
+                     <title type="uniform">Ölkofra þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="islt">
+                     <locus from="207r" facs="#IB04-0384-0207r" to="208v">207r-208v</locus>
+                     <title type="uniform">Þorgríms þáttur Hallasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="islt">
+                     <locus from="208v" facs="#IB04-0384-0208v" to="213v">208v-213v</locus>
+                     <title type="uniform">Hrafns þáttur Guðrúnarsonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="islt">
+                     <locus from="213v" facs="#IB04-0384-0213v" to="214v">213v-214v</locus>
+                     <title type="uniform">Þorsteins þáttur Austfirðings</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="islt">
+                     <locus from="214v" facs="#IB04-0384-0214v" to="219v">214v-219v</locus>
+                     <title type="uniform">Hreiðars þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="islt">
+                     <locus from="219v" facs="#IB04-0384-0219v" to="223r">219v-223r</locus>
+                     <title type="uniform">Halldórs þáttur Snorrasonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Halldórs þáttur hinn síðari</note>
+                  </msItem>
+                  <msItem n="16" class="islt">
+                     <locus from="223r" facs="#IB04-0384-0223r" to="224r">223r-224r</locus>
+                     <title type="uniform">Þorsteins þáttur forvitna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="17" class="konth">
+                     <locus from="224r" facs="#IB04-0384-0224r" to="233r">224r-233r</locus>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="18" class="islt">
+                     <locus from="233r" facs="#IB04-0384-0233r" to="234r">233r-234r</locus>
+                     <title type="uniform">Stúfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <note>Stúfs þáttur hinn skemmri</note>
+                  </msItem>
+                  <msItem n="19" class="isl">
+                     <locus from="234v" facs="#IB04-0384-0234v" to="240v">234v-240v</locus>
+                     <title type="uniform">Þorsteins saga Síðu-Hallssonar</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>According to a note on fol <locus>234v</locus>: <ref type="ms" target="Kgl ? 4to" ana="antigraph"><q>Ex. Membrana Bibliothecæ Regiæ in 4to</q></ref>.</p>
+                        </filiation>
+                    
+                  </msItem>
+                  <msItem n="20" class="draum">
+                     <locus from="241r" facs="#IB04-0384-0241r" to="241v">241r-241v</locus>
+                     <title type="uniform">Draumur Þorsteins Síðu-Hallssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="21" class="islt">
+                     <locus from="242r" facs="#IB04-0384-0242r" to="249v">242r-249v</locus>
+                     <title type="uniform">Sneglu-Halla þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="22" class="islt">
+                     <locus from="249v" facs="#IB04-0384-0249v" to="251v">249v-251v</locus>
+                     <title type="uniform">Þorsteins þáttur tjaldstæðings</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="23" class="isl textfr">
+                     <locus from="255r" facs="#IB04-0384-0255r" to="274v">255r-274v</locus>
+                     <title type="uniform">Vopnfirðinga saga</title>
+                    <msItem n="23.1" class="isl"> 
+                       <locus from="255r" facs="#IB04-0384-0255r" to="273v">255r-273v</locus>
+                     <title type="uniform">Vopnfirðinga saga</title>
+                     <textLang mainLang="non"/>
+                    </msItem>
+                  <msItem n="23.1" class="texfr handfr">
+                     <locus from="274r" to="274v"/>
+                     <title type="supplied">On the text and the scribes of Vopnfirðingasaga</title>
+                     <author key="HalHja001">Halldór Hjálmarsson konrektor</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  </msItem>
+                  <msItem n="24" class="islt">
+                     <locus from="275r" facs="#IB04-0384-0275r" to="283v">275r-283v</locus>
+                     <title type="uniform">Grænlendinga þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="25" class="kon">
+                     <locus from="284r" facs="#IB04-0384-0284r" to="300v">284r-300v</locus>
+                     <title type="uniform">Færeyinga saga</title>
+                     <colophon>og lýkur þar þessari sögu þann 31a augústii 1799</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="26" class="isl">
+                     <locus from="303r" facs="#IB04-0384-0303r" to="306v">303r-306v</locus>
+                     <title type="uniform">Þorsteins saga hvíta</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="27" class="kvad">
+                     <locus from="307r" facs="#IB04-0384-0307r" to="314v">307r-314v</locus>
+                     <title type="supplied">Fyrsti flokkur tögdrápulag eða hrunhenduháttur</title>
+                     <textLang mainLang="is"/>
+                     <author>Árni Böðvarsson</author>
+                     <note>Kvæði í 7 flokkum</note>
+                  </msItem>
+                  <msItem n="28" class="islt textfr">
+                     <locus from="315r" facs="#IB04-0384-0315r" to="332r">315r-332r</locus>
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <msItem n="28.1" class="islt">
+                     <locus from="315r" facs="#IB04-0384-0315r" to="331v">315r-331v</locus>
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="28.2" class="texfr handfr">
+                     <locus from="332r" to="332r"/>
+                     <title type="supplied">On the present text of Hænsa-Þóris sögu</title>
+                     <author key="HalHja001">Halldór Hjálmarsson konrektor</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  </msItem>
+                  <msItem n="29" class="regist">
+                     <locus from="332v" facs="#IB04-0384-0332v" to="332v">332v-332v</locus>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="332"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" min="206" max="211"/>
+                              <width unit="mm" min="168" max="175"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p>Old pagination: 1-57 (123r-151r); 1-78; 1-8 (195r-198v); 1-14
+                              (200r-206v); 1-39 (255r-274r)</p>
+                        </foliation>
+                        <condition ana="good "><p>High quality paper; has not been trimmed on the
+                              right-hand side</p></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="24 28">
+                           <num type="wpl" atLeast="9" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="9"><!--
+                     <summary>Ýmsar hendur ; Skrifarar:</summary>-->
+                     <handNote scribeRef="#SigJon016" scope="minor" script="hum cursiva"> I. Sig. L.
+                           Jónasson, fols. <locus from="1r" facs="#IB04-0384-0001r" to="4v">1r-4v</locus>
+                     </handNote>
+                     <handNote scribeRef="#PalSve002" scope="minor" script="kurrent"> II. Páll
+                        Sveinsson á <placeName>Steinsstöðum</placeName>, fols.
+                        <locus from="5r" facs="#IB04-0384-0005r" to="118v">5r-118v</locus>, 
+                        <locus from="155r" facs="#IB04-0384-0155r" to="193r">55r-193r</locus>, 
+                        <locus from="195r" facs="#IB04-0384-0195r" to="198v">195r-198v</locus>,
+                        <locus from="275r" facs="#IB04-0384-0275r" to="300v">275r-300v</locus>,
+                        <locus from="315r" facs="#IB04-0384-0315r" to="331v">315r-331v</locus>
+                     </handNote>
+                     <handNote scribeRef="#HalHja002" scope="minor" script="hum cursiva"> III.
+                        Halldór Hjálmarsson konrektor, fols. <locus from="123r" facs="#IB04-0384-0123r" to="151v">123r-151v</locus>,
+                        <locus from="200r" facs="#IB04-0384-0200r" to="206v"> 200r-206v</locus>
+                     </handNote>
+                     <handNote scribeRef="#GisKon001" scope="minor" script="hum cursiva"> IV. Gísli
+                        Konráðsson, fols. <locus from="207r" facs="#IB04-0384-0207r" to="251v">207r-251v</locus>, <locus from="303r" facs="#IB04-0384-0303r" to="306v">303r-306v</locus>
+                     </handNote>
+                     <handNote scribeRef="#EinBja003" scope="minor" script="hum cursiva"> V. Einar
+                        Bjarnason á <placeName>Mælifelli</placeName>, fols.
+                        <locus from="307r" facs="#IB04-0384-0307r" to="314v">307r-314v</locus>
+                     </handNote>
+                     <handNote scribeRef="#GudTho005" scope="minor" script="kurrent"> VI. Guðmundur
+                        Þorláksson, fols. <locus from="332v" facs="#IB04-0384-0332v" to="332v">332v</locus>
+                     </handNote>
+                     <handNote scribeRef="#MagArn002" scope="minor" script="unknown"> VII. Síra Magnús
+                        Árnason, fols. <locus from="255r" facs="#IB04-0384-0255r" to="273v">255r-273v</locus>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Initials and headings (see: <name type="person" key="GisKon001">Gísli Konráðsson</name>)</decoNote>
+                     <decoNote type="vignette" subtype="tailpiece">Bókahnútar (interlace) on fols. <locus from="16v" facs="#IB04-0384-0016v" to="16v">16v</locus> and <locus from="300v" facs="#IB04-0384-0300v" to="300v">300v</locus>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>A printed picture accompanies the manuscript; could be a queen from a deck of cards</p>
+                     <p><list>
+                        <item><name type="person" key="SigJon016">Sigurður L. Jónasson</name> added the first leaves
+                           leaves, <locus from="1r" to="4v">1r-4v</locus>, probably later than 1850</item> 
+                        
+                        <item><locus from="122v" facs="#IB04-0384-0122v" to="122v"/> The
+                           name <q>Guðmund<ex>ur</ex> Þorláksson</q> can be read</item>
+                        
+                        <item><locus from="151v" to="151v"/> Notes on <title type="uniform">Finnboga saga ramma</title> by
+                           Halldór Hjálmarsson konrektor</item>
+                        
+                        <!--<term key="lrnd">--><item><locus from="274r" to="274v"/> 
+                           Notes on <title type="uniform">Vopnfirðingasögu</title> by
+                           Halldór Hjálmarsson konrektor</item>
+                        
+                     <item><!--<term key="lrnd">--><locus from="332r" to="332r"/>
+                        Notes on <title type="uniform">Hænsa-Þóris sögu</title> by Halldór
+                           Hjálmarsson konrektor</item>
+                     
+                        <item><locus from="332r" facs="#IB04-0384-0332r" to="332r"/>
+                           <name type="person" key="GudTho005">Guðmundur Þorláksson</name> wrote: <q>Þessa bók eignaðist eg 9. ágústin. 1874. Guðmund<ex>ur</ex> Þorláksson.</q>
+                        </item>
+                     <item><name type="person" key="GudTho005">Guðmundur Þorláksson</name> wrote the register <locus from="332v" to="332v"/>
+                       after 1874, the same year he became the owner of the manuscript</item>
+                        
+                     </list></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Library binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1799" to="1822">1799-1822</origDate>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name role="owner" type="person" key="GudTho005">Guðmundur Þorláksson</name>
+                       bought the book in 1874 (<locus from="332r" facs="#IB04-0384-0332r" to="332r">332r</locus>).
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:01.281+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:11.618+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:32.744+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:08.695+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-03" who="#SK">Addapted to FASNL and added some information from the
+            manuscripts XML-file on handrit.is and other sources</change>
+         <change when="2012-05" who="#SK">Added some information from the manuscript
+            itself.</change>
+         <change when="2013-08-07" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

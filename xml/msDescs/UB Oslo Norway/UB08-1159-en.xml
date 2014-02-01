@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	
+	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>UB 1159 8vo</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="UB08-1159-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 1159 8vo</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="contemporary">
+							<titlePart>Fornaldarsögr Norður-landa. af Heidreki konungi ok Hervöru. af Sigurdi Fafnisbana. af Ragnari Lodbrók ok sonum
+								hans.</titlePart>
+						</titlePage>
+						
+						<msItem n="1" class="fas">
+							<!-- errors in pagination in MS and in numbering of photos; loci may be slightly inaccurate throughout -->
+							<locus from="1r:1" to="40v:23"/>  							
+							<title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+							<title type="parallel">Hervarar saga</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Heiðreki konúngi vitra ok Hervöru Ángantýrs-dóttir</rubric>
+							<incipit>Sva finnst skrifat í fornum bókum at Álfzheimar varu kalladir</incipit>
+							<explicit>ok réð ríkinu til daudadags, ok varð sóttdaudr.</explicit>
+							<finalRubric>Lýkr hér sögunni af Hervöru ok Heiðreki konúngi vitra.</finalRubric>
+																				
+						</msItem>
+						
+						<msItem n="2" class="riddf">
+							<locus from="41r:1" to="75v:21"/>  							
+							<title type="uniform">Vilmundar saga viðutan</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Vilmundi Viðutan</rubric>
+							<incipit>Vísivaldr er k<ex>onún</ex>gr nefndr; hann rédi fyrir Hólmgördum</incipit>
+							<explicit>ok áttu eigi börn saman</explicit>
+							
+						</msItem>
+						
+						<msItem n="3" class="riddf">
+							<locus from="76r:1" to="102v:22"/>  							
+							<title type="uniform">Partalópa saga</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Partalopa ok Marmoríu</rubric>
+							<incipit>Sva er sagt at fyrir Miklagardi rédi sá keisari er Saragus hét</incipit>
+							<explicit>hann tók ríki eftir þaw, er hér ekki um han<ex>n</ex> ritað</explicit>
+							<finalRubric>Lýkr hér þessari sögw</finalRubric>
+							
+						</msItem>
+						
+						<!-- photo of table of contents (flyleaf?) inserted between photos of 103r and 103v -->
+						<msItem n="4" class="riddf">
+							<locus from="103r:1" to="113v:21"/>  							
+							<title type="uniform">Sigurðar saga fóts</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Sigurði k<ex>onún</ex>gi "fót" ok Ásmundi Húnakonúngi</rubric>
+							<incipit>Þat er upphaf þessarar sögu at Knútr er k<ex>onún</ex>gr nefndr</incipit>
+							<explicit>sva illa sem á horfdis þeirra í milli</explicit>
+							<finalRubric>Ok lúkum vér sögunni af Sigurdi k<ex>onún</ex>gi ok Ásmundi Húnakonúngi</finalRubric>
+							
+						</msItem>
+						
+						<msItem n="5" class="riddst">
+							<locus from="114r:1" to="136v:22"/>  							
+							<title type="uniform">Knúts saga heimska</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Knúti Steinssyni Heimska</rubric>
+							<incipit>Þat er upphaf þessarar sögu at í Nordlandi sem er einn partr af Svyaríki</incipit>
+							<explicit>þó þess sé hé eigi gefið</explicit>
+							<finalRubric>Ok lúkum vér hér með sögunni af Knúti inum heimska.</finalRubric>
+							
+						</msItem>
+						
+						<!-- from a chapbook, correct?; not sure how to class -->
+						<msItem n="6" class="unknown">
+							<locus from="137r:1" to="154v:25"/>  							
+							<title type="uniform">Skanderbeg saga fursta</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Skanderbeg fursta í Epiró</rubric>
+							<incipit>Ecki mörgum árum ádr en Tyrkjar yfirun<ex>n</ex>u Konstantinopel</incipit>
+							<explicit><ex>ok</ex> haft s<ex>em</ex> an<ex>n</ex>an<ex>n</ex> helgidóm á sér í orugu<ex>m</ex>[?].</explicit>
+							<finalRubric>Lýkr sva þ<ex>ess</ex>ari sögu</finalRubric>
+							
+						</msItem>
+						
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+								<!--	<num type="front-flyleaf" value=""/> -->
+									<!-- possibly 163 leaves? cf. Matthew's notes -->
+									<num type="book-block" value="154"/>
+								<!-- 	<num type="back-flyleaf" value=""/> -->
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="195"/>
+										<width unit="mm" quantity="160"/>
+									</dimensions>
+									
+								<!--	<watermark ana="no|yes"/> -->
+									
+								</support>
+								
+								<foliation ana="pag">
+									<p>Paginated 1-80, 1-144, [165]-246.</p>
+								</foliation>
+								
+							<!-- 	<condition ana="poor|average|good"/> -->
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-separate" columns="1" writtenLines="21 25">									
+									
+							 		<num type="wpl" atLeast="8" atMost="9"/> 
+									
+							<!-- 	<dimensions type="written">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions> -->
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#MagJon001" scope="sole" script="unknown">Almost entirely in the hand of Magnús Jónsson. Fol. 154
+							written in another, unknown hand.</handNote>
+						</handDesc>
+						
+						<!-- 
+						<decoDesc ana="no|low|medium|high">
+							<decoNote type="border"/>
+						</decoDesc> -->
+						
+						<additions ana="low">
+							<!-- perhaps on rear flyleaf - not able to tell from photos -->
+							<p>Six lines of text in a child's(?) hand on rear pastedown: 
+								<q>Myar ek su / moldu likar / varu þeim at beðin bjorg / svartr sarnur[?] / ok solviða / Knuts saga heimmska</q></p>
+						</additions>
+						
+						<!--
+						<bindingDesc>
+							<binding ana="plain|moderate|decorative" contemporary="false">
+								<p/>
+							</binding>							
+						</bindingDesc> -->
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1850" notAfter="1875"/>
+							<origPlace key="IS"/>
+						</origin>
+						
+						<provenance>
+							<p>UB 1156-1159 8vo purchased by the University of Oslo from Albert Ólafsson á Hvarfi (Gvarv) in Telemark in 1932.</p>
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-25" who="#JSL">Cataloged from photographs.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

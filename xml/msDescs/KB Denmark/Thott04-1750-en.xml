@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Thott 1750 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Thott04-1750-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Thott 1750 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="27v"/> 
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                     <rubric/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="27"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/> 
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes">large crown on coat of arms or emblem</watermark>
+                        </support>
+                        <foliation ana="pag fol later">paginated 1-9; sparse modern foliation</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="22">
+                           <num type="wpl" atLeast="7" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="low"><p>A few crosses in the margins</p></additions> 
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Marbeled paper on cardboard. Sticker with handwritten title (in Danish) on the spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name key="OttTho001" type="person" role="owner"/>
+                     <name key="JacLan001" type="person" role="owner"/>
+                     <p>According to the catalog "Bibl Lang. No. 418".</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:18.456+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-15" who="#BES">Added catalog info.</change>
+         <change when="2013-06-10" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

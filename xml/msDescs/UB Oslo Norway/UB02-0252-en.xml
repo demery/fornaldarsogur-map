@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+	
+		<fileDesc>
+			<titleStmt>
+				<title>UB 252 fol.</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="UB02-0252-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 252 fol.</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<!--<titlePage ana="no|contemporary|later">
+							<titlePart></titlePart>
+						</titlePage>-->
+						
+						<msItem n="1" class="fas">
+							<locus from="1r:X" to="32v:X"/>  							
+							<title type="uniform" ref="#gsgr">Gautreks saga</title>
+							<textLang mainLang="non"/>
+							<rubric>Fra Gauta konungi inum millda</rubric>
+							<incipit/>
+							<explicit/>
+														
+							<filiation>
+								<p>Copy of <ref type="ms" target="#AM02-0152-en" ana="antigraph">copy of AM 152 fol.</ref> [cf. typescript catalog].</p>
+							</filiation> 
+													
+						</msItem>
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="book-block" value="32"/>
+									<dimensions type="leaf">
+										<height unit="mm" quantity="311"/>
+										<width unit="mm" quantity="200"/>
+									</dimensions>
+									
+									<!--<watermark ana="no|yes"/>-->
+									
+								</support>
+								
+								<!--<foliation ana="unknown"/>-->
+								
+								<condition ana="unknown"/>
+									
+							</supportDesc>
+							<!--<layoutDesc>
+								<layout ana="unknown" columns="x" writtenLines="x x">									
+									
+									<num type="wpl" atLeast="" atMost=""/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions>
+								</layout>
+							</layoutDesc>-->
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="unknown" scope="sole" script="unknown">Attributed to a certain Oddur Jónsson, but refuted
+							by Jónas Kristjánsson (cf. typescript catalog).</handNote>
+						</handDesc>
+						
+						<!--<decoDesc ana="unknown">
+							<decoNote type="border"/>
+						</decoDesc>-->
+						
+						<!--<additions ana="unknown">
+							<p/>
+						</additions>-->
+						
+						<!--<bindingDesc>
+							<binding ana="unknown" contemporary="false">
+								<p/>
+							</binding>							
+						</bindingDesc>-->
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<p>Dated to the <origDate notBefore="1750" notAfter="1799"/> 
+								by Jónas Kristjánsson.</p>							
+							<origPlace key="IS"/>
+						</origin>
+						
+						<provenance>
+							<p>Purchased from <name type="person" role="owner" key="PetPet005">Petersen bergráði</name> in 1849 
+								(cf. typescript catalog).</p>
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-17" who="#JSL">Inserted template elements and entered information from Jónas Kristjánsson's typescript
+				catalog, "Skrá um íslenzk handrit í Noregi"</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

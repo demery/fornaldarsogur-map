@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 272 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs02-0272-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 272 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="1r">1r</locus>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="2r" to="20v">2r-20v</locus>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <rubric>Sagan af Þorsteini Víkingssyni</rubric>
+                     <colophon>... og endar hér þessa sögu Þorsteins Víkingssonar en upp byrjast af
+                        Friðþjófi syni Þorsteins</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="20v" to="27v">20v-27v</locus>
+                     <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                     <note>Without a title but see the colophon in the previous saga, Þorsteins saga Víkingssonar:
+                         og endar hér þessa sögu Þorsteins Víkingssonar en upp
+                         byrjast af Friðþjófi syni Þorsteins</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="28r" to="38v">28r-38v</locus>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <rubric xml:lang="is">Saga af Konráð keisarasyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="39r" to="49v">39r-49v</locus>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <rubric>Sagan af Hjálmtér og Ölver</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="isl" defective="true">
+                     <locus from="50r" to="59v">50r-59v</locus>
+                     <title type="uniform">Víga-Glúms saga</title>
+                     <note>Part of the title cut</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="60r" to="70r">60r-70r</locus>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <rubric>Hér byrjar söguna af Án bogsveigir</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="almb">
+                     <locus from="70r" to="74r">70r-74r</locus>
+                     <title>Ævintýri af meistara Perus</title>
+                     <rubric>Ævintýrið af meistaranum Perus og hans missýningum</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="74v" to="85v">74v-85v</locus>
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <rubric>Sagan af Hænsna-Þórir</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9.1" class="laus kvad">
+                     <locus from="85v" to="85v"/>
+                     <title type="supplied">Vísa um Hænsa-Þóri</title>
+                     <incipit>Hýruna hænsna-Þórir ...</incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="86r" to="89v">86r-89v</locus>
+                     <title type="uniform">Tiodels saga riddara</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="isl">
+                     <locus from="90r" to="119v">90r-119v</locus>
+                     <title type="uniform">Vatnsdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="fas" defective="true">
+                     <locus from="120r" to="154v?"/> <!-- check ending-->
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                     <note>No division is made between Völsunga saga and Ragnars saga loðbrókar: the latter follows straight on afterwards without a
+                        title</note>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="120r?" to="154v"/> <!-- check beginning-->
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <note>Ragnars saga loðbrókar appears straight after Völsunga saga without title</note>
+                  </msItem>
+                  <msItem n="13.1" class="laus kvad">
+                     <locus from="120r" to="120r">120r</locus>
+                     <title type="supplied">Andlátsvísa Ragnars loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Fýsunst hins að hætta ...</incipit>
+                     <colophon>Þetta skal eiga að vera andlátsvísa Ragnars loðbrókar</colophon>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="155r" to="176v">155r-176v</locus>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <rubric>Sagan af Hrólfi kóngi kráka og Fróðaþáttur</rubric>
+								<rubric>Cap: 1</rubric>
+                            <incipit>Madur er nefndur Hälf dän, en<ex>n</ex> anddar Fröde Brædúr tveijr og könga
+                                <supplied reason="damage" instant="false">syn</supplied>er og stÿrde sÿnu rÿker hver þeirra</incipit>
+                            <explicit>og endar hier sógúna Hrölfs Kongs Kraka og kappa han<ex>n</ex>s.</explicit>
+                            <filiation>
+                               <ref type="ms" target="#JS02-0027-en" ana="antigraph">JS 27
+                                  fol.</ref>
+                               <ref type="ms" target="#IBR04-0010-en" ana="apograph">ÍBR 10 4to</ref>
+                            </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="ridd">
+                     <locus from="177r" to="192v">177r-192v</locus>
+                     <title type="uniform">Dínus saga drambláta</title>
+                     <rubric xml:lang="is">Sagan af Dínus drambláta</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="fas">
+                     <locus from="193r" to="200v">193r-200v</locus>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast sagan af Bósa</rubric>
+                  </msItem>
+                  <msItem n="16" class="ridd">
+                     <locus from="201r" to="208v">201r-208v</locus>
+                     <title type="uniform">Partalópa saga</title>
+                     <rubric>Sagan af Partalopa og Marmoria</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="17" class="fas">
+                     <locus from="209r" to="219v">209r-219v</locus>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <rubric>Sagan af Hálfdani Brönufóstra</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="18" class="ridd">
+                     <locus from="220r" to="224v">220r-224v</locus>
+                     <title type="uniform">Ála flekks saga</title>
+                     <rubric>Hér byrjar söguna af Álaflekk</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="224"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="290"/>
+                              <width unit="mm" quantity="190"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag later fol">
+                           <p>There are remnants of an older pagination, and a later pencil foliation in the mid
+										bottom margin.</p>
+                        </foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="39 44">
+                        <note>Verses are marked with a different script style</note>
+                           <num type="wpl" atLeast="10" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="260"/>
+                              <width unit="mm" quantity="170"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="major" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                            <decoNote type="paratext">Decorative V-endings</decoNote>
+                            <decoNote type="paratext">Decorative cross ending, <locus>fol.
+									49</locus>
+                            </decoNote>
+                            <decoNote type="paratext">horizontal ornamental curls,
+								<locus>?</locus>
+                            </decoNote>
+                            <decoNote type="initial">Decorated initials at many places</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                                <p>There are several marginal
+								remarks with information on ownership, repairs and binding, size,
+								relation to the printed edition, date from Mödruvallabók and a poem.
+								The marginalia are: <list type="simple">
+                                    <item>G. Halldórsson frá (added in a different hand in blue ink)
+										E. Jónssyni Miklabæ, <locus>1v</locus>
+                                    </item>
+                                    <item>Möðruvallabók. 1330, <locus>50r</locus>
+                                    </item>
+                                    <item>þessa bók á G. Halldórsson frá E. Jónssyni Presti
+										 (Bundin og bætt 1898), <locus>89v</locus>
+                                    </item>
+                                    <item>x Ósamkynja við sögu þá sem prentuð er í Forn s - Norðurl
+										1889 VI. VA III B (og útgáfu Rafns), <locus>209
+											r</locus>
+                                    </item>
+                                    <item>Kapp<ex>ar</ex> Hrolfs K: XII.,
+										<locus>???????</locus>
+                                    </item>
+                                    <item>Vÿsa M: J: S: úm<ex>m</ex> Hænsna Þörer
+											<locus>???????</locus>
+                                    </item>
+                                    <item>Handrit þetta er 1024 blaðsíður á stærð - sama sem 512
+										arkir, <locus>???</locus>
+                                    </item>
+                                </list></p>
+                     <p>Inner board-leaves and fly-leaves originate from the magazine Fjallkonan
+                        1896</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Leather covered spine and corners</p>
+                        <p>Folio (<locus from="89v" to="89v">89v</locus>) contains
+						  information that the book was extended and bound in 1898.
+						  The binding's lining and flyleaves are taken from the magazine
+						  Fjallkonan from 1896.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1700"/>
+                  </origin>
+                  <provenance>
+                     <p>The book has probably been written on the initiative of <name key="MagJon008" type="person">Magnús Jónsson</name> at <placeName>Vigur</placeName>,
+                        according the P.E.Ó.-catalogue</p>.
+                     <p><name key="GooHal001" type="person" role="owner">G. Halldórsson</name>, in
+                     1889, received it from <name key="EinJon003" type="person" role="owner">from E[inar] Jónsson</name>
+                     prestur (<locus from="89v" to="89v">89v</locus>)</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:29.484+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:39.575+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:57.367+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:31.72+02:00" who="#EAH"> Extracted layout data from previous
+            version. </change>
+         <change when="2012-12-18" who="#SK">Made some changes and added information</change>
+         <change when="2013-04-12" who="#BES"> Added missing information from TL's files.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

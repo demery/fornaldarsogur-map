@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 3834 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-3834-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 3834 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r" to="25r"/>
+                     <title type="supplied">Kvæði af Hálfs sögu og Hálfsrekka</title>
+                     <note>Poem by Gísli Konráðsson</note>
+                     <note>Ævi Hálfs konungs og rekka hans</note>
+                     <note>Seven stanzas</note>
+                     <note>in the hand of Einar Bjarnason</note>
+                     <note>seems to have been added to the manuscript at binding</note>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="28r" to="46v"/>
+                     <title type="uniform">Geiplur</title>
+                     <note>eftir Gísla Konráðsson</note>
+                     <note>5 rímur</note>
+                     <note>In the hand of Skúli Guðmundsson</note>
+                  </msItem>
+                  <msItem n="3" class="rimur">
+                     <locus from="47r" to="80v"/>
+                     <title type="uniform">Rímur af Attila húnakóngi</title>
+                     <note>eftir Gísla Konráðsson</note>
+                     <note>9 rímur</note>
+                     <note>In the author's own hand</note>
+                  </msItem>
+                  <msItem n="4" class="rimur">
+                     <locus from="80v" to="104v"/>
+                     <title type="uniform">Rímur af Flórentínu fögru</title>
+                     <note>by Gísli Konráðsson</note>
+                     <note>5 rímur</note>
+                     <note>In the author's own hand</note>
+                     </msItem>
+                     <msItem n="5" class="rimur">
+                        <locus from="106r" to="136r"/>
+                        <title type="uniform">Rímur af Tútu og Gvilhelmínu</title>
+                        <note>by Hallgrímur Jónsson</note>
+                        <note>Prinsessan með langa nefið</note>
+                        <note>8 rímur</note>
+                        <note>in the hand of Skúli Guðmundsson</note>
+                        <colophon>Párað af SGuðmundssyni. Mikið skrifaði sá Skúli</colophon>
+                     </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="137">27, 78, 32 leaves</num>
+                           <num type="back-flyleaf" value="1"/>
+                           <!--<dimensions type="leaf">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary">item 1 unfoliated, item 2 and 3 foliated
+                           together, item 4 foliated separately</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="18 27">
+                           <num type="wpl" atLeast="4" atMost="11"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="153"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#EinBja003" scope="minor" script="unknown">Einar Bjarnason,
+                        Starrastaðir in Skagafjörður</handNote>
+                     <handNote scribeRef="#GisKon001" scope="major" script="hum cursiva">Gísli
+                        Konráðsson</handNote>
+                     <!-- formerly encoded as #SkuGud002 (not in auth file); possibly the same as SkuGud001? -->
+                     <handNote scribeRef="ambig" scope="major" script="unknown">Skúli
+                        Guðmundsson, Veðramót, Gönguskörð in Skagafjörður</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>bókina á <name type="person" role="owner" key="JonSig041">Jón Sigurðsson á Írafelli&gt;</name></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>leather on wooden boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1899"/>
+                     <origPlace key="Skagaf01"/>
+                     <note>Scribes and owner indicate the origin of the manuscript being in
+                        Skagafjörður</note>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig041">Jón Sigurðsson á Írafelli</name>
+                        <name type="person" role="signatory" key="JonSig041">Jón Sigurðsson á Írafelli</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:23.881+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05" who="#SK">Added information from the P.E.Ó-catalogue and the
+            manuscript itself</change>
+         <change when="2012-11-09" who="#SMM">Added some categories to comply to FASNL requirements and translated some text into English</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>GKS 2450 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS04-2450-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>GKS 2450 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><titlePart>Historien om Rolf Krage Konge i Danmark, Af det Islandske sprog, udsat paa danske.</titlePart></titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" to="126v"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka [Danish]</title>
+                     <rubric>Historien om Rolf Krage</rubric>
+                     <textLang mainLang="da"/>
+                     <note>Danish transl. by Torfæus</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="126"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="194"/>
+                              <width unit="mm" quantity="151"/>
+                           </dimensions>
+                           <watermark ana="yes">Circular watermark with image inside</watermark>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="good">Binding a little worn</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="13">
+                           <num type="wpl" atLeast="6" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="100" atMost="110"/>
+                              <width unit="mm" atLeast="100" atMost="110"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent">Kurrent for main text, chancery for rubrics
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some inititals decorated</decoNote>
+                     <decoNote type="paratext">Squiggles</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Very few underlinings, e.g. fol. <locus>12v</locus>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown leather binding, plain white pastedown, colorful cut; Golden imprint on the spine: floral ornaments.
+                        The leather is somewhat worn off.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="DK" cert="medium"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:05.716+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-19" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-06-20" who="#BES">Added missing information with manuscript in situ.</change>
+         <change when="2013-08-26" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>UB 547 4to</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="UB04-0547-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 547 4to</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<!--<titlePage ana="no|contemporary|later">
+							<titlePart></titlePart>
+						</titlePage>-->
+						
+						<msItem n="1" class="unknown">
+							<locus from="1r:X" to="22v:X"/>  							
+							<title type="supplied">Fornyrdi eptir Alphabetho</title>
+							<textLang mainLang="non"/>
+							<rubric/>
+							<incipit/>
+							<explicit/>
+																				
+						</msItem>
+						
+						<msItem n="2" class="bragfr">
+							<locus from="23r:X" to="44v:X"/>  							
+							<title type="supplied">Háttalykill</title>
+							<textLang mainLang="non"/>
+							<rubric>Haatta Lykill Snorra Sturlu sunar</rubric>
+							<incipit/>
+							<explicit/>
+							
+							<note>Unidentified metrical treatise (Snorri's Háttatal?).</note>
+							
+						</msItem>
+						
+						<msItem n="3" class="unknown">
+							<locus from="45r:X" to="52v:X"/>  							
+							<title type="supplied">Lilia Bródr Eysteins</title>
+							<textLang mainLang="non"/>
+							<rubric>Lilia Bródr Eysteins</rubric>
+							<incipit/>
+							<explicit/>
+							
+						</msItem>
+						
+						<msItem n="4" class="kon">
+							<locus from="53r:X" to="172v:X"/>  							
+							<title type="uniform">Heimskringla</title>
+							<textLang mainLang="non"/>
+							<rubric/>
+							<incipit/>
+							<explicit/>
+							
+							<filiation>
+								<ref type="ms" target="#AM02-0045-en" ana="antigraph">A copy Fríssbók (AM 45 fol.).</ref>
+							</filiation>
+							
+							<note>First half of the work. Ends at ch. 90 of Ólafs saga Tryggvasonar. Text is followed by a verse:
+							<q>Nu hafim ættir Iófra / ynnt sem Snorri kynnti / er redu Rógnis fliödi / raddygge til mógs Tryggva: / þraut þa Odins ædi
+								/ æst; enn Kristur glæsti / dag þann dregr ä þeigi / dimt und Friderich Fimta</q></note>
+							
+						</msItem>
+						
+						<msItem n="5" class="isl">
+							<locus from="173r:X" to="193r:X"/>  							
+							<title type="uniform">Hænsa-Þóris saga</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagann af Hænsna Þorer</rubric>
+							<incipit/>
+							<explicit/>
+							
+							<filiation>
+								<ref type="ms" target="#Kall-0616-en" ana="protograph">Possibly an indirect copy of Kall 616 4to.</ref>
+							</filiation>
+							
+						</msItem>
+						
+						<msItem n="6" class="islt">
+							<locus from="193r:X" to="202v:X"/>  							
+							<title type="uniform">Grænlendinga þáttur</title>
+							<title type="parallel">Grænlendinga þáttr</title>
+							<textLang mainLang="non"/>
+							<rubric>Grænlendinga þaatur edur af Einare Sockasyne</rubric>
+							<incipit/>
+							<explicit/>
+							
+						</msItem>
+						
+						<msItem n="7" class="fas">
+							<locus from="203r:X" to="208r:X"/>  							
+							<title type="uniform" ref="#hs">Hervarar saga og Heiðreks <note>(Extracts)</note></title>
+							<title type="parallel">Hervarar saga ok Heiðreks</title>
+							<textLang mainLang="non"/>
+							<rubric/>
+							<incipit/>
+							<explicit/>
+							
+							<filiation>
+								<p>Related to the copies of the riddles in AM 281 4to and AM 597b 4to.</p>
+								<ref type="ms" target="#AM04-0281-en" ana="protograph"/>
+								<ref type="ms" target="#AM04-0597b-en" ana="protograph"/>
+							</filiation>
+														
+						</msItem>
+						
+						<msItem n="8" class="fas">
+							<locus from="208r:X" to="214r:X"/>  							
+							<title type="uniform" ref="#gsgr">Gautreks saga <note>(Extracts)</note></title>
+							<title type="parallel">Gautreks saga ok Gjafa-Refs</title>
+							<title type="parallel">Starkaðar þáttr gamla</title>
+							<textLang mainLang="non"/>
+							<rubric>Þaattur af Starkade Gamla</rubric>
+							<incipit/>
+							<explicit/>
+							
+							<note>Corresponds to chs. 3-7 in the 1900 ed. of Gautreks saga (cf. typescript cat.).</note>
+							
+						</msItem>
+						
+						<msItem n="9" class="unknown">
+							<locus from="208r:X" to="214r:X"/>  							
+							<title type="uniform">Krákumál</title>
+							<textLang mainLang="non"/>
+							<rubric/>
+							<incipit/>
+							<explicit/>
+							
+							<filiation>
+								<p>Related to the copy in Uppsala R 702 (cf. typescript cat.). Variants from NKS 1824b 4to included in the margins.</p>
+								<ref type="ms" target="#R702-en" ana="protograph"/>
+							</filiation>
+														
+						</msItem>
+						
+						<msItem n="10" class="unknown">
+							<locus from="219r:X" to="226r:X"/>  							
+							<title type="supplied">Appendix</title>
+							<textLang mainLang="non"/>
+							<rubric>Bilag</rubric>
+							<incipit>Forntólud Riettmæle ur Norrænu</incipit>
+							<explicit>rackur</explicit>
+							
+						</msItem>
+						
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="226"/>
+									<num type="back-flyleaf" value="1"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="202"/>
+										<width unit="mm" quantity="160"/>
+									</dimensions>
+									
+									<!--<watermark ana="no|yes"/>-->
+									
+								</support>
+								
+								<!--<foliation ana="no|contemporary|later|pag|col|fol">
+									<p>Table of contents added to front flyleaf.</p>
+								</foliation>-->
+								
+								<condition ana="unknown"/>
+									
+							</supportDesc>
+							<!--<layoutDesc>
+								<layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">									
+									
+									<num type="wpl" atLeast="" atMost=""/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions>
+								</layout>
+							</layoutDesc>-->
+							
+						</objectDesc>
+						
+						<handDesc hands="5">
+							<handNote scribeRef="unknown" scope="major" script="unknown"/>
+						</handDesc>
+						
+						<!--<decoDesc ana="unknown">
+							<decoNote type="border"/>
+						</decoDesc>-->
+						
+						<additions ana="low">
+							<p>Inscription on front flyleaf reads: <q>Bók er med verdi keypt ad Holti i Ønundarfirdi þann 17da August 1811 af Þorvalldi
+							Bödvarssyni</q></p>
+						</additions>
+						
+						<!--<bindingDesc>
+							<binding ana="plain|moderate|decorative" contemporary="false">
+								<p/>
+							</binding>							
+						</bindingDesc>-->
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1750" notAfter="1775"/>
+							<origPlace key="IS"/>
+						</origin>
+						
+						<provenance>
+							<p>Previously owned by <name type="person" role="owner" key="ThoBod001">Þorvaldur Böðvarsson</name>. Given to the
+							University of Oslo by <name type="person" role="owner" key="RudKey001">Rudolf Keyser</name>, who probably purchased
+							it in Iceland.</p>
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-23" who="#JSL">Inserted template elements and entered information from Jónas Kristjánsson's typescript
+				catalog, "Skrá um íslenzk handrit í Noregi"</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

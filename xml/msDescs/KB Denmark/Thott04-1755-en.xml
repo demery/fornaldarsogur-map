@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Thott 1755 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Thott04-1755-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Thott 1755 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1v:1" to="71r:22">1r-71r</locus>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier byriast Saga af Hroolfe Könge Kraka</rubric>
+                     <rubric>Cap: 1</rubric>
+                     <incipit>Madúr het Halfdän en<ex>n</ex> an<ex>n</ex>ar Frodebrædúr
+                        tveir og konga sÿner</incipit>
+                     <explicit>og endar hier sögú Hrölfs köngs kraka, og kappa
+                        hans.</explicit>
+                     <filiation>Copy of <ref type="ms" target="#AM04-922-en" ana="antigraph">Copy of AM 922 4to</ref>
+                        (including most of <name role="scholar" type="person" key="ArnMag01">Árni
+                           Magnússon's</name>collations in black
+                        ink).</filiation>
+                     <note>Divided into 36 numbered chapters.</note>
+                  </msItem>
+               </msContents>
+              
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="71"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="203"/>
+                              <width unit="mm" quantity="163"/>
+                           </dimensions>
+                           <watermark ana="yes">Circle-shaped watermark
+                              with a small royal crown on the
+                              top</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Recent foliation in pencil in the upper right hand corner on
+                              every tenth folio and at the end on <locus>71r</locus>.</p>
+                        </foliation>
+                        <condition ana="good"><p>The manuscript is in excellent condition and shows very
+                           few traces of use. The paper is perfectly clean with very light
+                           yellow hue.</p></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="20 25">
+                           <num type="wpl" atLeast="6" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent">
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Slightly enlarged first letter in the rubric
+                        and first line.</decoNote>
+                     <decoNote type="paratext">Curly letters in the rubric area.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Marginalia;
+                        Double line underlinings and
+                        collations in a hand that very much resembles the hand of the main
+                        text. According to Slay, <ref type="secondary" target="BiblArn24">The
+                           manuscripts of Hrólfs saga kraka</ref>, the underlinings and
+                        collations are copied from <ref type="ms" target="#AM04-922-en" ana="antigraph">AM 922
+                           4o</ref>. The writer of T has adopted some of the alterations
+                        and disregarded others.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Binding with white leather corners and spine, lined with white
+                           parchment with pink and violet watercolour ornaments resembling
+                           flowers. On the spine, <q>Hrolf Krakes
+                              Saga Islandice MS.</q> is written in dark
+                           yellow ink that was originally probably golden.</p>
+                     </binding>
+                  </bindingDesc>
+      </physDesc>
+      <history>
+         <origin>
+            <origDate notBefore="1700" notAfter="1799">18th century</origDate>,
+            <origPlace key="DK" cert="medium">may have been written in Denmark</origPlace>
+         </origin>
+         <provenance>
+            <p>According to Slay, <ref type="secondary" target="BiblArn24">The manuscripts of
+               Hrólfs saga kraka</ref>, it is not unlikely that the manuscipt was
+            commissioned by <name key="JacLan001" type="person" role="commissioner">Jacob Langebek</name>.
+            The manuscript was owned by <name role="owner" type="person" key="JacLan001">Jacob Langebek</name>, and later by <name key="OttTho001" role="owner" type="person">Otto Thott</name>.
+            The manuscript came into the Royal Library with Otto Thott's collection.</p>
+         </provenance>
+      </history>
+      </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:20.143+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-04-15" who="#BES">Added information based on TL's file.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

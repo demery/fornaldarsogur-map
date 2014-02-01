@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>MS 21.5.2</title>
+			</titleStmt>
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="MS-2152" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#ADV">Advocates Library, Edinburgh</repository>
+						<idno>MS 21.5.2</idno>
+					</msIdentifier>
+					<msContents>
+						<msItem class="edd" n="1">
+							<locus from="1r" to="10v"/>
+							<title type="uniform">Völuspá</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="2">
+							<locus from="10v" to="30v"/>
+							<title type="uniform">Hávamál</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="2.1">
+							<locus from="27r" to="30v"/>
+							<title type="uniform">Hávamál</title>
+							<title type="supplied">Rúnatals þáttur Óðins</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						</msItem>
+						<msItem class="edd" n="3">
+							<locus from="30v" to="37v"/>
+							<title type="uniform">Vafþrúðnismál</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="4">
+							<locus from="37v" to="45r"/>
+							<title type="uniform">Grímnismál</title>
+							<textLang mainLang="is"/>
+						<msItem class="edd" n="4.1">
+							<locus from="37v" to="38v"/>
+							<title type="uniform">Grímnismál</title>
+							<title type="uniform">Frá sonum Hrauðungs Konungs</title>
+							<note>Extract</note>
+						</msItem>
+						</msItem>
+						<msItem class="edd" n="5">
+							<locus from="45r" to="50v"/>
+							<title type="uniform">Skírnismál</title>
+							<title type="suuplied">För Skírnis</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="6">
+							<locus from="50v" to="56v"/>
+							<title type="uniform">Hárbarðsljóð</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="7">
+							<locus from="56v" to="62r"/>
+							<title type="uniform">Hymiskviða</title>
+							<title type="supplied">Þórr dró Miðgarðsorm</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="8">
+							<locus from="62r" to="71v"/>
+							<title type="uniform">Lokasenna</title>
+							<textLang mainLang="is"/>
+						<msItem class="edd" n="8.1">
+							<locus from="62r" to="62v"/>
+							<title type="uniform">Lokasenna</title>
+							<title type="supplied">Frá Egi oc Goþom</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						</msItem>
+						<msItem class="edd" n="9">
+							<locus from="71v" to="76v"/>
+							<title type="uniform">Þrymskviða</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="10">
+							<locus from="76v" to="79v"/>
+							<title type="uniform">Baldrs draumr</title>
+							<title type="supplied">Vegtamskviða</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="11">
+							<locus from="79v" to="83r"/>
+							<title type="uniform">Grottasöngr</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="12">
+							<locus from="83r" to="85r"/>
+							<title type="uniform">Grógaldr</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="13">
+							<locus from="85r" to="89v"/>
+							<title type="uniform">Fjölsvinnsmál</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="14">
+							<locus from="89v" to="96v"/>
+							<title type="uniform">Hyndluljóð</title>
+							<title type="supplied">Hyndluljóð in gamlu</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="15">
+							<locus from="96v" to="103r"/>
+							<title type="uniform">Völundarkviða</title>
+							<textLang mainLang="is"/>
+						<msItem class="edd" n="15.1">
+							<locus from="96v" to="97r"/>
+							<title type="uniform">Völundarkviða</title>
+							<title type="supplied">Frá Völundi</title>
+							<note>Extract</note>
+						</msItem>
+						<msItem class="edd" n="15.2">
+							<locus from="97r" to="103r"/>
+							<title type="uniform">Völundarkviða</title>
+							<title type="supplied">Frá Völundi oc Niþuði</title>
+							<note>Extract</note>
+						</msItem>
+						</msItem>
+						<msItem class="edd" n="16">
+							<locus from="103r" to="107v"/>
+							<title type="uniform">Alvíssmál</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="17">
+							<locus from="107v" to="116v"/>
+							<title type="uniform">Helgakviða Hundingsbana I</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="18">
+							<locus from="116v" to="124v"/>
+							<title type="uniform">Helgakviða Hjörvarðssonar</title>
+							<title type="supplied">Helgakviða Haddingaskata</title>
+							<title type="supplied">Frá Hjörvarði ok Sigrlinn</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="19">
+							<locus from="124v" to="135v"/>
+							<title type="uniform">Helgakviða Hundingsbana II</title>
+							<textLang mainLang="is"/>
+						<msItem class="edd" n="19.1">
+							<locus from="124v" to="126r"/>
+							<title type="uniform">Helgakviða Hundingsbana II</title>
+							<title type="supplied">Frá Völsungum</title>
+						</msItem>
+						</msItem>
+						<msItem class="edd" n="20">
+							<locus from="135v" to="136v"/>
+							<title type="supplied">Frá dauða Sinfjötla</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="21">
+							<locus from="136v" to="145v"/>
+							<title type="uniform">Gripisspá</title>
+							<title type="uniform">Sigurðarkviða Fáfnisbana fyrsta</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="22">
+							<locus from="145v" to="151r"/>
+							<title type="uniform">Reginsmál</title>
+							<title type="supplied">Sigurðarkviða Fáfnisbana önnur</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="23">
+							<locus from="151r" to="157v"/>
+							<title type="uniform">Fáfnismál</title>
+							<title type="supplied">Frá dauða Fáfnis</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="24">
+							<locus from="157v" to="163v"/>
+							<title type="uniform">Sigrdrifumál</title>
+							<note>On f.163r there appears a note: <q>hæc sequentia inferit liber
+								chartaceus alter</q>, followed by several verses until f. 163v.</note>
+						</msItem>
+						<msItem class="edd" n="25">
+							<locus from="163v" to="166v"/>
+							<title type="uniform">Brot af Sigurðarkviðu</title>
+							<title type="supplied">Brynhilldarkviða</title>
+							<textLang mainLang="is"/>
+						<msItem class="edd" n="25.2">
+							<locus from="166v" to="167r"/>
+							<title type="uniform">Brot af Sigurðarkviðu</title>
+							<title type="supplied">Frá dauða Sigurðar</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						</msItem>
+						<msItem class="edd" n="26">
+							<locus from="167r" to="171r"/>
+							<title type="uniform">Guðrúnarkviða I</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="27">
+							<locus from="171r" to="182r"/>
+							<title type="uniform">Sigurðarkviða hin skamma</title>
+							<title type="supplied">Sigurðarkviða</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="28">
+							<locus from="182r" to="184r"/>
+							<title type="uniform">Helreið Brynhildar</title>
+							<title type="supplied">Brynhilldr reið helveg</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="29">
+							<locus from="184r" to="184v"/>
+							<title type="uniform">Dráp Niflunga</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="30">
+							<locus from="184v" to="191r"/>
+							<title type="uniform">Guðrúnarkviða II</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="31">
+							<locus from="191r" to="191v"/>
+							<title type="uniform">Guðrúnarkviða III</title>
+							<textLang mainLang="is"/>
+							<rubric>Capituum: Herkia hét ambótt Atla...</rubric>
+							<note>Extract</note>
+						<msItem class="edd" n="31.1">
+							<locus from="191v" to="193r"/>
+							<title type="uniform">Guðrúnarkviða III</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						</msItem>
+						<msItem class="edd" n="32.1">
+							<locus from="193r" to="193r"/>
+							<title type="uniform">Oddrúnargrátur</title>
+							<title type="supplied">Frá Borgnyu oc Oddrunu</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						</msItem>
+						<msItem class="edd" n="32.2">
+							<locus from="193r" to="197v"/>
+							<title type="uniform">Oddrúnargrátur</title>
+							<textLang mainLang="is"/>							
+						</msItem>
+						<msItem class="edd" n="33">
+							<locus from="197v" to="197v"/>
+							<title type="uniform">Atlakviða</title>
+							<title type="supplied">Dauði Atla</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						<msItem class="edd" n="33.1">
+							<locus from="197v" to="204v"/>
+							<title type="uniform">Atlakviða</title>
+							<title type="supplied">Atlakviða hin grænlensku</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						</msItem>
+						<msItem class="edd" n="34">
+							<locus from="204v" to="219r"/>
+							<title type="uniform">Atlamál hin grænlensku</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="35">
+							<locus from="219r" to="219v"/>
+							<title type="uniform">Guðrúnarhvöt</title>
+							<title type="supplied">Frá Guðrún</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						<msItem class="edd" n="35.1">
+							<locus from="219v" to="223r"/>
+							<title type="uniform">Guðrúnarhvöt</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						</msItem>
+						<msItem class="edd" n="36">
+							<locus from="223r" to="227v"/>
+							<title type="uniform">Hamðismál</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="37">
+							<locus from="228r" to="231v"/>
+							<title type="uniform">Hrafnagaldur Óðins</title>
+							<title type="supplied">Forspjallsljóð</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="38">
+							<locus from="231v" to="241r"/>
+							<title type="uniform">Sólarljóð</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="39">
+							<locus from="241r" to="251v"/>
+							<title type="supplied">Gullkársljóð</title>
+							<textLang mainLang="is"/>
+							<incipit>Hefnt hafa ítar</incipit>
+						</msItem>
+						<msItem class="edd" n="40">
+							<locus from="251v" to="266r"/>
+							<title type="supplied">Hyndluljóð en yngri</title>
+							<textLang mainLang="is"/>
+							<incipit>Heþin frag ec kóngr</incipit>
+						</msItem>
+						<msItem class="fas" n="41">
+							<locus from="266r" to="271r"/>
+							<title type="uniform">Krákumál</title>
+							<title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+							<title type="supplied">Lodbrókarkviða en forna</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						</msItem>
+						<msItem class="fas" n="42">
+							<locus from="271v" to="271v"/>
+							<title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+							<title type="supplied">Vísa Tremanns mosavaxens í Seamseyo sem var XL.
+								álna hár</title>
+							<textLang mainLang="is"/>
+							<note>Verses taken from Ragnars saga</note>
+						</msItem>
+						<msItem class="fas" n="43">
+							<locus from="272r" to="281r"/>
+							<title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+							<title type="parallel">Getspeki Heiðreks konungs</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						</msItem>
+						<msItem class="edd" n="44">
+							<locus from="281r" to="282r"/>
+							<title type="supplied">Gátur noccrar</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="fas" n="45">
+							<locus from="282r" to="292v"/>
+							<title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+							<title type="uniform" ref="#oeos">Örvar-Odds drápa</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						</msItem>
+						<msItem class="drott" n="46">
+							<locus from="292v" to="297r"/>
+							<title type="uniform">Gísla saga Súrssonar</title>
+							<title type="supplied">Kvæði Gísla Surssonar</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						</msItem>
+						<msItem class="drott" n="47">
+							<locus from="297r" to="300v"/>
+							<title type="uniform">Egils saga Skallagrímssonar</title>
+							<title type="uniform">Sonatorrek</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						</msItem>
+						<msItem class="drott" n="48">
+							<locus from="300v" to="303r"/>
+							<title type="uniform">Egils saga Skallagrímssonar</title>
+							<title type="uniform">Höfuðlausn</title>
+							<textLang mainLang="is"/>
+							<note>Extract</note>
+						</msItem>
+						<msItem class="drott" n="49">
+							<locus from="303r" to="303v"/>
+							<title type="supplied">Vísur Síra Einars Skúla sonar / um hinar
+								nafnkunnugri eyar við Noreg</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="fornth" n="50">
+							<locus from="303v" to="307v"/>
+							<title type="uniform">Bergbúa þáttr</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="51">
+							<locus from="307v" to="308v"/>
+							<title type="uniform">Þórnaldarþula</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="drott" n="52">
+							<locus from="308v" to="311r"/>
+							<title type="supplied">Sextan vísur sem funduz skrifadar á skinni
+								(:havda / skinn visso menn ecci:) nęrri sió hiá einom hól av
+								stanverdt á Skaga fyrir nordan á ofan verdom dỏgom Magnus konungs
+								lagabǫtis</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="drott" n="53">
+							<locus from="311r" to="334v"/>
+							<title type="uniform">Merlínusspá</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="54">
+							<locus from="334v" to="338v"/>
+							<title type="uniform">Hugsvinnsmál</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="edd" n="55">
+							<locus from="339r" to="340v"/>
+							<title type="uniform">Ljúflingsljóð</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="drott" n="56">
+							<locus from="340v" to="347v"/>
+							<title type="uniform">Ynglingatal</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="drott" n="57">
+							<locus from="347v" to="348v"/>
+							<title type="uniform">Hornklofavísur</title>
+							<title type="supplied">Kvæði það er orti Þorbiorn hornklofi um Haralld
+								konung harfagra</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="drott" n="58">
+							<locus from="349r" to="350v"/>
+							<title type="uniform">Háleygjatal</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="drott" n="59">
+							<locus from="350v" to="353v"/>
+							<title type="uniform">Hákonarmál</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="drott" n="60">
+							<locus from="353v" to="356v"/>
+							<title type="uniform">Kringilnefju vísur</title>
+							<textLang mainLang="is"/>
+						</msItem>
+						<msItem class="drott" n="61">
+							<locus from="357r" to="358v"/>
+							<title type="supplied">Nockrar vv. Eivindar sk. sp.</title>
+							<textLang mainLang="is"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="361"/>
+									<num type="back-flyleaf" value="0"/>
+									<dimensions type="leaf">
+										<height unit="mm" quantity="202"/>
+										<width unit="mm" quantity="160"/>
+									</dimensions>
+									<watermark ana="yes"/>
+								</support>
+								<foliation ana="contemporary pag"/>
+								<foliation ana="later fol"/>
+								<condition ana="good"/>
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-separate" columns="1" writtenLines="27 29">
+									<num type="wpl" atLeast="2" atMost="10"/>
+									<dimensions type="written">
+										<height unit="mm" quantity="170"/>
+										<width unit="mm" quantity="95"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote scribeRef="#EggOla001" scope="sole" script="chancery">(see Lassen, Hrafnagaldur Óðins, p.58)</handNote>
+						</handDesc>
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						<additions ana="medium">
+							<p>On fol. 1r there is a note in Grímr Þorkelín's hand: 'quondam e
+								liberis Skulonis Theodri Thorlacii'</p>
+							<p>On fol. 334v, after Merlínusspá, there is a note 'Exscriptum þessarar
+								Merlins Spär var / i Breta Sỏgum ä Membrana i A, Magnæi /
+								Bibliotheca skrifud A˚1758. i K.hỏfn / af Odde (sem öll Böken).</p>
+							<p>On fol. 340v, 'NB. Epter-ritud þriu Fornskällda kvæde / eru ä
+								Iofra-skinnu, og efter henne / skrifud; enn variantes lectiones eru
+								/ tekner ür ỏdrum gödum Codicibus / er vid höndena voru' (this
+								refers to Ynglingatal, Hrfansmál and Háleygjatal)</p>
+						</additions>
+						<bindingDesc>
+							<binding ana="decorative" contemporary="true">
+								<p/>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate notBefore="1755" notAfter="1758"/>
+							<origPlace key="DK">Copenhagen</origPlace>
+						</origin>
+						<provenance>
+							<name type="person" role="owner" key="SkuTho002"/>
+							<name type="person" role="owner" key="GriTho002"/>
+						</provenance>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when="2012-12-11" who="#PTL">Information from Ólafur Halldórsson's unpublished
+				catalogue entered</change>
+			<change when="2013-01-23" who="#PTL">Additional information added in Edinburgh.</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<surface/>
+	</facsimile>
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

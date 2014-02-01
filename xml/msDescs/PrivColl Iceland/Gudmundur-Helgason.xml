@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Guðmundur Helgason 4</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Gudmundur-Helgason" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#PRIV1">Private collections</repository>
+                  <idno>Guðmundur Helgason 4</idno>
+               </msIdentifier>
+               <msContents>
+                 <!-- <titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="isl">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl" defective="true">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Missing one page at the beginning and another at the end of the saga.</note>
+                  </msItem>
+                  <msItem n="3" class="sagnps">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="uniform">Alexanders saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="uniform">Valla-Ljóts saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="konth">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="uniform">Hauks þáttur hábrókar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="almb">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="uniform">Marslilíus saga og Rosamundu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="other">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="supplied">Þáttur af Bragða perusi</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <!--<locus from="" to=""></locus>-->
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <!--<num type="book-block" value=""/>-->
+                          <!-- <num type="back-flyleaf" value=""/>-->
+                           <dimensions type="leaf"> 
+                              <height unit="mm" quantity="160"/> 
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <!--<watermark ana=""></watermark>-->
+                        </support>
+                        <!--<foliation ana=""></foliation>-->
+                        <!--<condition ana=""></condition>-->
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="999"> 
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">Many hands</handNote> 
+                  </handDesc>
+                  <!--<decoDesc ana=""><decoNote/></decoDesc>-->
+                  <!--<additions ana="no"><p>Nothing known about additions.</p></additions>-->
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1849"/>
+                     <origPlace key=""/> <!-- IS? -->
+                  </origin>
+                  <provenance>
+                     <name key="GudHel003" type="person" role="owner">Guðmundur Helgason</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:06.328+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-06-19" who="#BES">Added information form MJD's papers.</change>
+         <change when="2013-09-12" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+	
+		<fileDesc>
+			<titleStmt>
+				<title>UB 310 4to</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="UB04-0310" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 310 4to</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<!--<titlePage ana="no|contemporary|later">
+						    <titlePart></titlePart>
+						</titlePage>-->
+						
+						<msItem n="1" class="fas">
+							<locus from="1r:X" to="5v:X"/>  							
+							<title type="uniform" ref="#hs">Hervarar saga og Heiðreks <note>(Extracts)</note></title>
+							<title type="parallel">Hervarar saga ok Heiðreks</title>
+							<textLang mainLang="non"/>
+							<rubric>Formäle at Getspeki Heidreks kongs</rubric>
+							<incipit/>
+							<explicit/>
+							
+							<note>Riddles (as in Uppsala R 692) with riddle prologue.</note>
+																				
+						</msItem>
+						
+						<msItem n="2" class="edd">
+							<locus from="5v:X" to="7r:X"/>  							
+							<title type="uniform">Baldurs draumar</title>
+							<title type="parallel">Baldrs draumar</title>
+							<textLang mainLang="non"/>
+							<rubric>Wegtams kuiþa</rubric>
+							<incipit/>
+							<explicit/>
+							
+						</msItem>
+						
+						<msItem n="3" class="edd">
+							<locus from="7r:X" to="8v:X"/>  							
+							<title type="uniform">Gróttasöngur</title>
+							<title type="parallel">Gróttasöngr</title>
+							<textLang mainLang="non"/>
+							<rubric/>
+							<incipit>Gull er kallat miölfróþa</incipit>
+							<explicit/>
+							
+							<note>Some marginal commentary. A note on fol. 8v reads: 
+							<q>Þessar þriär Qviþr Getspeki Heidrics kongs, Uegtams Qviþa og Grottusaungr eru rettar Corrigeradar effter godri Eddu, 
+								utan hvad observerast þarf literatura og audsien feil sem ej verdur i þessum gomlu blodum Corrigerad helldur 
+								Comitterast skrifaranum til hægre verka. Allar eru Qvidurnar fullkomnar. Her effter a Grougaldur at koma</q></note>
+							
+						</msItem>
+						
+						<msItem n="4" class="islt">
+							<locus from="9r:X" to="15v:X"/>  							
+							<title type="uniform">Bergbúa þáttur</title>
+							<title type="uniform">Bergbúa þáttr</title>
+							<textLang mainLang="non"/>
+							<rubric>Ein Litel oc fäheird frasaga</rubric>
+							<incipit/>
+							<explicit/>
+							
+							<note>Possibly related to copy in Rask 99</note>
+							
+						</msItem>
+						
+						<msItem n="5" class="islt">
+							<locus from="16r:X" to="23r:X"/>  							
+							<title type="uniform">Stjörnu-Odda draumur</title>
+							<title type="parallel">Stjörnu-Odda draumr</title>
+							<textLang mainLang="non"/>
+							<rubric/>
+							<incipit/>
+							<explicit/>
+							
+						</msItem>
+						
+						<msItem n="6" class="islt">
+							<locus from="23r:X" to="23v:X"/>  							
+							<title type="uniform">Kumlbúa þáttur</title>
+							<title type="uniform">Kumlbúa þáttr</title>
+							<textLang mainLang="non"/>
+							<rubric>Þáttur eirn litill af Þorsteine Þorvardssyne a Jslande skrifadur effter sömu Membrana</rubric>
+							<incipit/>
+							<explicit/>
+							
+						</msItem>
+						
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="book-block" value="26"/>
+									<dimensions type="leaf">
+										<height unit="mm" quantity="205"/>
+										<width unit="mm" quantity="165"/>
+									</dimensions>
+									
+									<!--<watermark ana="no|yes"/>-->
+									
+									<note>Composite manuscript. Formerly three separate items.</note>
+									
+								</support>
+								
+								<!--<foliation ana="no|contemporary|later|pag|col|fol"/>-->
+								
+								<condition ana="unknown"/>
+									
+							</supportDesc>
+							<!--<layoutDesc>
+								<layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">									
+									
+									<num type="wpl" atLeast="" atMost=""/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions>
+								</layout>
+							</layoutDesc>-->
+							
+						</objectDesc>
+						
+						<handDesc hands="4">
+							<handNote scribeRef="#AsgJon001" scope="minor" script="unknown">Fols. 1-8 attributed to Ásgeir Jónsson, but this
+							is refuted by Jónas Kristjánsson (cf. typescript cat.).</handNote>
+							<handNote scribeRef="unknown" scope="major" script="unknown">Fols. 9-23 in three unknown hands.</handNote>
+						</handDesc>
+						
+						<!--<decoDesc ana="no|low|medium|high">
+							<decoNote type="border"/>
+						</decoDesc>-->
+						
+						<!--<additions ana="unknown">
+							<p/>
+						</additions>-->
+						
+						<!--<bindingDesc>
+							<binding ana="plain|moderate|decorative" contemporary="false">
+								<p/>
+							</binding>							
+						</bindingDesc>-->
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1750" notAfter="1799"/>
+							<origPlace key="IS"/>
+						</origin>
+						
+						<provenance>
+							<p>Previously in the possession of <name type="person" role="owner" key="CarAnk001">Carsten Anker</name> (cf. typescript cat.)</p>
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-22" who="#JSL">Added template elements and input data from Jónas Kristjánsson's typescript catalog,
+				"Skrá um íslenzk handrit í Noregi".</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

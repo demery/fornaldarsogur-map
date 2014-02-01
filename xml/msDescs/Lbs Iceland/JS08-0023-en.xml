@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 23 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0023-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 23 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Aðskiljanleg kvæði og rímur og gamans samstæður</titlePart>
+                     
+                  </titlePage>
+                  <msItem n="1" class="salm">
+                     <locus from="2r" to="15v"/>
+                     <!-- title? -->
+                     <rubric>Heims speckinga skole</rubric>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <author key="PalJon008">Páll skáldi Jónsson</author>
+                     <author key="JonJon044">Jón Jónsson</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="15v" to="41r"/>
+                     <title type="uniform">Rímur af Hermanni illa</title>
+                     <author key="GudJon024">Guðbrandur Jónsson Fjeldmann</author>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="mals">
+                     <locus from="41v" to="41v"/>
+                     <title type="supplied">Málshættir</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="gudfr">
+                     <locus from="42r" to="72r"/>
+                     <title type="supplied">Guðhræðslan er affara góð</title>
+                     <note>Translation into Icelandic</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="72r" to="80v"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <rubric>Hér byrjar saga af Grími er kallaður var loðin kin</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="80v" to="87v"/>
+                     <title type="uniform">Dínus saga drambláta</title>
+                     <rubric>Sagan af Dínusi drambláta</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="salm">
+                     <locus from="88r" to="107v"/>
+                     <title type="supplied">Various poems</title>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <author key="PalJon008">Páll skáldi Jónsson</author>
+                     <author key="JonJon044">Jón Jónsson</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="8" class="rimur">
+                     <locus from="108r" to="116r"/>
+                     <title type="uniform">Eylandsrímur</title>
+                     <rubric>Ein sön historia er nefnist Eilansrýmur</rubric>
+                     <author key="PalBja002">Páll Bjarnason</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="tjos">
+                     <locus from="116r" to="122v"/>
+                     <title type="supplied">Árnaskjal</title>
+                     <rubric>Ein frásaga er nefnist Árnaskjal.</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="10" class="salm">
+                     <locus from="122v" to="133v"/>
+                     <title type="supplied">Various poems</title>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <author key="PalJon008">Páll skáldi Jónsson</author>
+                     <author key="JonJon044">Jón Jónsson</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="132"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="101"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+							   <foliation ana="no"/>
+							   <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 32">
+                           <num type="wpl" atLeast="22" atMost="32"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="154"/>
+                              <width unit="mm" quantity="90"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="2">
+							<handNote scribeRef="#FilJon002" scope="sole" script="unknown">
+                        <name type="person" key="FilJon002">Filippus Jónsson</name>. </handNote>
+							<handNote scribeRef="#SveTho003" scope="sole" script="unknown">
+                        <name type="person" key="SveTho003">Sveinn Þorvaldsson</name>.
+							</handNote>
+						</handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+							<binding ana="moderate" contemporary="true">
+								<p>Leather binding.</p>
+							</binding>
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate when="1817"/>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+      <change when="2011-04-11T12:13:21.71+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+      <change when="2011-05-06T17:53:28.88+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+      <change when="2011-05-07T18:42:47.214+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+      <change when="2012-09-11" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2012-09-29" who="#SMM">Added msItems and locus from ms photographs from the Arnamagnaean collection in Copenhagen.</change>
+         <change when="2012-10-05" who="#SMM">Completed msDesc.</change>
+         <!-- script missing -->
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

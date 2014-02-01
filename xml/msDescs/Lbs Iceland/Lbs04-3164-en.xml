@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 3164 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-3164-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 3164 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="185"/>
+                           <!-- <dimensions type="leaf">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <watermark ana=""/> -->
+                        </support>
+                        <foliation ana="later pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc><!-- BES: I don't think the layout desc should be here if there are separate ones for the parts... -->
+                        <layout ana="verse-prose" columns="1" writtenLines="23 36">
+                           <num type="wpl" atLeast="6" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="192"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoSku002" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <!-- <bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc> -->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1879"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Lbs 3164 4to 1st part</idno>
+                  </altIdentifier>
+                     <msContents>
+                        <msItem n="1" class="riddst">
+                           <locus from="1r" to="34r"/>
+                           <title type="uniform">Hinriks saga heilráða</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Sagan af Hinriki inum heilráða</rubric>
+                        </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="34"/>
+                              <!-- <dimensions type="leaf">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                              <watermark ana=""/> -->
+                           </support>
+                           <foliation ana="later pag"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc> 
+                           <layout ana="verse-prose" columns="1" writtenLines="23 36">
+                              <num type="wpl" atLeast="6" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="196"/>
+                                 <width unit="mm" quantity="155"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#ThoSku002" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Lbs 3164 4to 2nd part</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="2" class="ridd">
+                        <locus from="1r" to="2v"/>
+                        <title type="uniform">Ajax saga keisarasonar</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan af Ajax keisarasyni</rubric>
+                     </msItem>
+                     <msItem n="3" class="riddst">
+                        <locus from="3r" to="18r"/>
+                        <title type="uniform">Knúts saga Steinssonar heimska</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan af Knúti heimska</rubric>
+                     </msItem>
+                     <msItem n="4" class="ridd">
+                        <locus from="19r" to="46v"/>
+                        <title type="uniform">Sigurðar saga turnara</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan af Sigurði Vilhjálmsyni turnara</rubric>
+                     </msItem>
+                     <msItem n="5" class="fas">
+                        <locus from="46v" to="65r"/>
+                        <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="6" class="fas">
+                        <locus from="65v" to="73r"/>
+                        <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="7" class="ridd">
+                        <locus from="73r" to="78r"/>
+                        <title type="uniform">Ajax saga frækna</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan af Ajax inum frækna</rubric>
+                     </msItem>
+                     <msItem n="8" class="ridd">
+                        <locus from="78v" to="89r"/>
+                        <title type="uniform">Þorgríms saga konungs og kappa hans</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan af Þorgrími konungi og köppum hans</rubric>
+                     </msItem>
+                     <msItem n="9" class="rimur">
+                        <locus from="89v" to="114r"/>
+                        <title type="uniform">Rímur af Sigurði og Smáfríði</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="10" class="fas">
+                        <locus from="114v" to="151v"/>
+                        <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan af Þorsteini Víkingssyni</rubric>
+                        <note>ends defective</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="151"/>
+                              <!-- <dimensions type="leaf">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                              <watermark ana=""/> -->
+                           </support>
+                           <foliation ana="later pag"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1 2" writtenLines="27 35">
+                              <num type="wpl" atLeast="7" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="189"/>
+                                 <width unit="mm" quantity="148"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#ThoSku002" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                     </additions>
+                  </physDesc>
+               </msPart>
+             </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <revisionDesc>
+            <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+            <change when="2011-05-06T17:54:07.922+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+            <change when="2013-01-03" who="#SMM">Looked at pictures from the Arnamagnæan collection in Copenhagen. Provided new msItems and other msDesc values.</change>
+            <!-- watermark, layoutDesc and bindingDesc missing -->
+         </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

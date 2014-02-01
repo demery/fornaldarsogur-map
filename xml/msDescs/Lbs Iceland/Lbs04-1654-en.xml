@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1654 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1654-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1654 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="21r"/>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <rubric>Hér byrjar sögu af Kon[ráði Keisara]syni</rubric>
+                     <colophon>Anno MDC.LXXVII. XVIII octobris (23.10.1677)</colophon>
+                  </msItem>
+                  <msItem n="2" class="ridd" defective="true">
+                     <locus from="21v" to="47v"/>
+                     <title type="uniform">Bærings saga</title>
+                     <rubric>Bærings saga byrjast</rubric>
+                     <note>defective, one leaf missing, that containing part of chapter 27, 28 and part of 29</note>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="48r" to="64v"/>
+                     <title type="uniform">Partalópa saga</title>
+                     <rubric>Hér skrifast sagan af Par[ta]lopa</rubric>
+                     <colophon>Anno 1687 17. november</colophon>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="65r" to="85r"/>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <rubric>Sagan af Hjálmtér og Ölver</rubric>
+                     <colophon>Anno 1682. 28. nóvember</colophon>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="85v" to="118r"/>
+                     <title type="uniform">Elís saga og Rósamundu</title>
+                     <rubric>Hér byrjar Elis sögu</rubric>
+                     <colophon>Anno 1682 6. december</colophon>
+                     <note>A prologue for Þorsteins saga Víkingssonar is added by the scribe
+                        at a later date in a space left at the end of Elis saga</note>
+                  </msItem>
+                  <msItem n="6" class="fas" defective="true">
+                     <locus from="118r" to="141v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <rubric>Hér byrjar sögu af Víkingi og Þorsteini Víkingssyni</rubric>
+                     <note>the end is defective</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="141"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="193"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="contemporary fol"/>
+                        <condition ana="poor">leaves 39, 49-69 and some at the end
+                        are missing. Restored.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="30 32">
+                           <num type="wpl" atLeast="11" atMost="16"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     <handNote scribeRef="#">commissioned by <name type="person" key="MagJon001">Magnús Jónsson í
+                           Vigur</name></handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"/>
+                     <decoNote type="initial"/>
+                     <decoNote type="vignette"/>
+                     <decoNote type="paratext"/>
+                     <!--athuga hvort orðið á að nota tail-piece eða vignette yfir bókahnút-->
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>A prologue to Þorsteins saga Víkingssonar by the scribe.
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <p>binding lost</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1677" to="1687"/>
+                     <origPlace key="IS">Iceland North-West, Norður-Ísafjarðarsýsla</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:01.699+02:00" who="#EAH"> Introduced repository auth file.
+         Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-09" who="#SK">Added information from the P.E.Ó-catalogue and the
+            manuscript itself</change>
+         <change when="2012-09" who="#SK">Added the last bit of information from the manuscript itself</change>
+          </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

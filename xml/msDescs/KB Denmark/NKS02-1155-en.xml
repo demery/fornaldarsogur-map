@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1155 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1155-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1155 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><titlePart>Herrauds ok Bøgu-Bósa Saga. (Efter No. 510. Membr. Anræ Magnæi Bibliotheque)</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" to="27v"/>
+                     <title type="uniform" ref="#bsh">Bósa saga</title>
+                     <incipit>Hríngur hefur Konúngur heítit hann reþ fyrir Eystra-Gautlandi hann var son Gauta konúngs
+                        sonar Oþins er konungur var i Sviþióþ. oc kominn utan af Asia.</incipit>
+                     <explicit>heít streingdi kóngur þess at gipta þeim manni dottur
+                        sina er ynni i ormin þat giordi Ragnar Loþbrók. oc lykur her sogu
+                        Bósa.</explicit>
+                     <filiation>
+                       <p>Copy of <ref type="ms" target="#AM04-0510-is" ana="antigraph">AM 510 4to</ref>.</p>
+                     </filiation>
+                     <note>older vers.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="27r" to="43v"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <rubric>[28r] Friðþiófs Frænka Saga. (Er skrevenn efter No: 510. þau Menbrana af Arnæ Magnæi Bibliotheque.)</rubric>
+                     <incipit>[29r] Her hefur Saugu af Friðþioófi frækna. Beli hefur konungur
+                        heítiþ er reþ fyrir Signa fylki.</incipit>
+                     <explicit>leiþi launnarinn þióþir. lífs á himna slóþir. Amen.</explicit>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0510-is" ana="antigraph">copy of AM 510 4to</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="43bisr" to="104v"/>
+                     <title type="uniform">Finnboga saga ramma</title>
+                     <incipit>[44r] Ásbiorn het madr. hann var kallaðr dettiáss. hann var Gúnnbiarnarsón Ingiallzksónar</incipit>
+                     <explicit>ok þóttu aller mikilhæfir menn. ok lýk ek þar Finn bog
+                        sógu</explicit>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0510-is" ana="antigraph">copy of AM 510 4to</ref>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="105"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="317"/>
+                              <width unit="mm" quantity="198"/>
+                           </dimensions>
+                           <watermark ana="yes">Multiple watermarks: "JHoning et Zoonen", maid of dort, coat of arms, circular watermark with crown on top and some writing around the edges,</watermark> 
+                        </support>
+                        <foliation ana="pag contemporary">Separate pagination for each item.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                  <layoutDesc>
+                     <layout ana="verse-separate" columns="1" writtenLines="26 31">
+                        <num type="wpl" atLeast="7" atMost="8"/>
+                        <dimensions type="written">
+                           <height unit="mm" quantity="247"/>
+                           <width unit="mm" quantity="142"/>
+                        </dimensions>
+                        <catchwords ana="no"/>
+                     </layout>
+                  </layoutDesc>
+                  </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Possibly more than one hand. Pages with
+                           titles partially in kurrent.
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>On the front flyleaf,
+                           <name key="PetSuh001" type="person" role="scholar">Peter Suhm</name> wrote a note.
+                        A smaller leaf (counted as 43bis) is slipped in between <locus>43v and 44r</locus>. It reads: <q>Finnboga ramma saga. 
+                           udskreven af Codex membraneus i A. Magnæi Bibliot: Num. 132. 
+                           NB. noget defect pag 3-4</q>.
+                        Few notes and marginal additions (mostly in Danish), possibly by Peter Suhm.
+                        There is a loose slip with the shelf mark inside of item 2.</p>
+                     </additions>
+                     <bindingDesc>
+                        <binding ana="moderate" contemporary="unknown">
+                           <p>Brown leather binding on card board. On the spine, there are golden ornaments and the title of the first text, <q>Herrauds saga</q>.</p>
+                        </binding>
+                     </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="medium"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="sigantory">Peter Suhm</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:31.202+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-19" who="#BES">Added infirmation form Kålund's catalog.</change>
+         <change when="2013-04-24" who="#BES">Added missing information with the ms in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Kall 614 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Kall04-0614-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Kall 614 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="41v"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                     <note>fol. 9 and 9bis</note>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="42r" to="53v"/>
+                     <title type="uniform">Gibbons saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="54r" to="58v"/>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="59r" to="63v"/>
+                     <title type="uniform" ref="#hsg">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="64r" to="79r"/>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="79r" to="99v"/>
+                     <title type="uniform">Úlfars saga sterka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="100r" to="107v"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="forns">
+                     <locus from="108r" to="126v"/>
+                     <title type="uniform">Haralds saga Hringsbana</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="konth">
+                     <locus from="127r" to="131v"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="islt">
+                     <locus from="131v" to="134v"/>
+                     <title type="uniform">Egils þáttur Síðu-Hallssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="islt">
+                     <locus from="135r" to="135v"/>
+                     <title type="uniform">Þorsteins þáttur forvitna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="136r" to="153r"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="almb">
+                     <locus from="154r" to="165r"/>
+                     <title type="uniform">Virgilíus saga</title>
+                     <note>Translated from Dutch</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="165r" to="168v"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <note>A- and B-vers.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="avint">
+                     <locus from="169r" to="171r"/>
+                     <title type="supplied">"Æfenntyr af Affversus gydinge"</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="biblsog">
+                     <locus from="171r" to="175v"/>
+                     <title type="uniform">"Nockuð minnelegt um forföðurinn Adam"</title>
+                     <textLang mainLang="non"/>
+                     <note>translated?</note>
+                  </msItem>
+                  <msItem n="17" class="trurit">
+                     <locus from="175v" to="177v"/>
+                     <title type="supplied">Om Machometh</title>
+                     <title type="parallel">Idolum Judaicum</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="18" class="landfr?">
+                     <locus from="178r" to="193r"/>
+                     <title type="uniform">Det gamle Grønlands nye Perlustration [Icelandic]</title>
+                     <title type="parallel">Ný ummferð til skoðunar hinnar fornu Grænlands bigðar</title>
+                     <textLang mainLang="is"/>
+                     <author>Hans Poulsen Egedes</author>
+                     <note>Translated 1729 from the Norwegian book</note>
+                  </msItem>
+                  <msItem n="19" class="other">
+                     <locus from="194r" to="194v"/>
+                     <title type="supplied">List of Sagas</title>
+                     <rubric>Registur yfer sögur sem afveit</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="20" class="attat">
+                     <locus from="197r" to="197v"/>
+                     <title type="supplied">Genealogy from Adam to Bishop Jón Arason</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="21" class="regist">
+                     <locus from="198v" to="198v"/>
+                     <title type="supplied">Table of contents <note>[inaccurate]</note></title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="199"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="194"/>
+                              <width unit="mm" quantity="153"/>
+                           </dimensions>
+                        <watermark ana="yes">Difficult to see, possibly a crown and some letters.</watermark> 
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="25 30">
+                           <num type="wpl" atLeast="10" atMost="18"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva">The scribe uses hum cursiva and kurrent.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>A new (and correct) table of contents has been added on the front flyleaf.
+                  Some underlinings.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Plain brown binding with leather on the corners and spine. Golden imprint on the spine : title <q>Islendinga sögur</q> and lilies</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1749"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JohKal001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:35.486+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-25" who="#BES">Added information from catalog and Sidsel's notes.</change>
+         <change when="2013-06-07" who="#BES">Added missing information with manscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

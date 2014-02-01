@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>SÁM 51</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="SAM-51-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>SÁM 51</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Damms Antikvariat nr. 60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="edd">
+                     <locus from="1r" to="7v">1r-7v</locus>
+                     <title type="uniform">Skírnismál</title>
+                     <title type="paralell">För Skírnis</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Skírnisför</rubric>
+                     <incipit>Freyr sonur Njarðar hafði sest í Hliðskjálf</incipit>
+                     <explicit>en sjá hálf hýnótt.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 90-96</ref>). Fol.
+                           <locus from="8r" to="8v">8</locus> is blank.</note>
+                  </msItem>
+                  <msItem n="2" class="edd">
+                     <locus from="9r" to="16r">9r-16r</locus>
+                     <title type="uniform">Hárbarðsljóð</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hárbarðsljóð</rubric>
+                     <incipit>Þór fór úr austurvegi og kom að sundi einu</incipit>
+                     <explicit>hafi allan gramir.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 97-104</ref>). Fol.
+                           <locus from="16v" to="16v">16v</locus> is blank.</note>
+                  </msItem>
+                  <msItem n="3" class="edd">
+                     <locus from="17r" to="24r">17r-24 r</locus>
+                     <title type="uniform">Hymiskviða</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þór dró Miðgarðsorm eður Hymiskviða</rubric>
+                     <incipit>Ár valtívar veiðar námu</incipit>
+                     <explicit>öldur að Ægis eitt hörmeitið.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 105-112</ref>). Fol.
+                           <locus from="24r" to="24r">24r </locus> is mostly blank and fol. <locus from="24v" to="24v">24v</locus> is blank.</note>
+                  </msItem>
+                  <msItem n="4" class="edd">
+                     <locus from="25r" to="35v">25r-35v</locus>
+                     <title type="uniform">Lokasenna</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="4.1" class="edd">
+                        <locus from="26r" to="26v">26r-26v</locus>
+                        <title type="uniform">Frá Ægi og goðum</title>
+                        <rubric>Frá Ægi og goðum eður Ægisdrekka</rubric>
+                        <incipit>Ægir er öðru nafni hét Gymir</incipit>
+                        <explicit>Loki hvarf aftur og hitti úti Eldi. Loki kvaddi hann.</explicit>
+                     </msItem>
+                     <msItem n="4.2" class="edd">
+                        <locus from="27r" to="36v">26v-36v</locus>
+                        <title type="uniform">Lokasenna</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Lokasenna eður Lokaglefsa</rubric>
+                        <incipit>Segðu það Eldir</incipit>
+                        <explicit>það eru nú kallaðir jarðskjálftar.</explicit>
+                        <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                           113-123</ref>). Fol. <locus from="36r" to="36v">36</locus> blank.</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="5" class="edd">
+                     <locus from="37r" to="47v">37r-47v</locus>
+                     <title type="uniform">Helgakviða Hundingsbana I</title>
+                     <title type="paralell">Helgakviða Hundingsbana hin fyrri</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefir upp kviðu frá Helga Hundingsbana þá ena fyrstu</rubric>
+                     <incipit>Ár var alda</incipit>
+                     <explicit>Þá er sókn lokið.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 179-189</ref>). Fol.
+                           <locus from="47v" to="47v">47v</locus>is mostly blank; fol. <locus from="48r" to="48v">48</locus> is blank.</note>
+                  </msItem>
+                  <msItem n="6" class="edd">
+                     <locus from="49r" to="52v">49r-52v</locus>
+                     <locus from="63r" to="71r">63r-71r</locus>
+                     <title type="uniform">Helgakviða Hundingsbana II</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá Völsungum eður kviða Helga Hundingsbana en önnur</rubric>
+                     <incipit>Sigmundur konungur Völsungsson átti Borghildi af Brálundi</incipit>
+                     <explicit>svo sem segir í Káruljóðum og var hún valkyrja.</explicit>
+                     <note>Some of the leaves are bound in the wrong order, so that items 6 and 7 are mixed up.</note>
+                     <note>Fols. <locus from="71v" to="72v">71v-72v</locus> are blank.</note>
+                  </msItem>
+                  <msItem n="7" class="edd">
+                     <locus from="59r" to="62v">59r-62v</locus>
+                     <locus from="53r" to="58r">53r-58r</locus>
+                     <title type="uniform">Helgakviða Hjörðvarðssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá Hjörvarði og Sigurlinn eður Kviða Helga Haddingjaskata</rubric>
+                     <incipit>Hjörðvarður hét konungur</incipit>
+                     <explicit>Helgi og Svava er sagt að væri endurborin.</explicit>
+                     <note>Some of the leaves are bound in the wrong order, so that the two Helgakviða got mixed up. 
+                        According to Bugge's ed. (1965) Helgakviða
+                           Hjörvarðssonar is on leaves: 59-62 ( Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                              171-174</ref>) and 53-58 (Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                              174-178</ref>); Helgakviða Hundingsbana I: 37-47(Cf. <ref>Sæmundar
+                              edda, Bugge, Sophus 1965: 179-189</ref>); Helgakviða Hundingsbana II:
+                           49–52 (Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 190-193</ref>) and
+                           63-71 (Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 193-204</ref>).
+                        </note>
+                  </msItem>
+                  <msItem n="8" class="edd">
+                     <locus from="73r" to="74r">73r-74r</locus>
+                     <title type="uniform">Frá dauða Sinfjötla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá dauða Sinfjötla eður Sinfjötlalok</rubric>
+                     <incipit>Sigmundur Völsungsson var konungur í Frakklandi</incipit>
+                     <explicit>og hann kalla allir menn í fornfræðum um alla menn fram og
+                        göfgastan herkónga.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 202-203</ref>). Fol.
+                           <locus from="74r" to="74r">74r</locus> is mostly blank; fol. <locus from="74v" to="74v">74v</locus> is blank. </note>
+                  </msItem>
+                  <msItem n="9" class="edd">
+                     <locus from="75r" to="86r">75r-86r</locus>
+                     <title type="uniform">Grípisspá</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Kviða Sigurðar Fáfnisbana eður Grípisspá</rubric>
+                     <incipit>Grípir hét son Eylima bróðir Hjördísar</incipit>
+                     <explicit>mína ævi ef þú mættir það.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 204-211</ref>). Fol.
+                           <locus from="86r" to="86r">86r</locus> is mostly blank; fol. <locus from="86v" to="86v">86v</locus> is blank. </note>
+                  </msItem>
+                  <msItem n="10" class="edd">
+                     <locus from="87r" to="87v">87r-v</locus>
+                     <locus from="93r" to="101r">93r–101r</locus>
+                     <title type="uniform">Grímnismál</title>
+                     <textLang mainLang="non"/>
+                     <note>The order of the leaves is incorrect. See item 10.2</note>
+                     <msItem n="10.1" class="edd">
+                        <locus from="87r" to="87v">87r-87v</locus>
+                        <title type="uniform">Grímnismál <note>[Prose]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Frá sonum Hrauðungs konungs</rubric>
+                        <incipit>Hrauðungur konungur átti tvo sonu</incipit>
+                        <explicit>að feldurinn brann af Grímni. Hann kvað.</explicit>
+                        <note>Fol. <locus from="92r" to="92r">92r</locus> is mostly blank; Fol.
+                              <locus from="92v" to="92v">92v</locus> is blank. </note>
+                     </msItem>
+                     <msItem n="10.2" class="edd">
+                        <locus from="93r" to="101r">93r-101r</locus>
+                        <title type="uniform">Grímnismál <note>[Verse]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Grímnismál</rubric>
+                        <incipit>Heitur ertu hripuður</incipit>
+                        <explicit>en Agnar var þar konungur lengi síðan.</explicit>
+                        <note>The order of leaves is incorrect. The correct order would be: 87
+                           (Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 75-76</ref>), 93-95 (Cf.
+                              <ref>Sæmundar edda, Bugge, Sophus 1965: 76-80</ref>), 97 (Cf.
+                              <ref>Sæmundar edda, Bugge, Sophus 1965: 80-81</ref>), 96 (Cf.
+                              <ref>Sæmundar edda, Bugge, Sophus 1965: 82-83</ref>), 99 (Cf.
+                              <ref>Sæmundar edda, Bugge, Sophus 1965: 83-84</ref>), 98 (Cf.
+                              <ref>Sæmundar edda, Bugge, Sophus 1965: 85-86</ref>), 100-101 (Cf.
+                              <ref>Sæmundar edda, Bugge, Sophus 1965: 86-88</ref>).</note>
+                        <note>Fol. <locus from="101r" to="101r">101r</locus> is half blank; fol.
+                              <locus from="101v" to="101v">101v</locus> is blank. </note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="11" defective="true" class="edd">
+                     <locus from="88r" to="92r">88r-92r</locus>
+                     <title type="uniform">Alvíssmál</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">er ek vil snimma hafa</incipit>
+                     <explicit>nú skín sól í sali.</explicit>
+                     <note>The first leaf is missing. This is equivalent to verses 1–7. The leaves are out of order.
+                        The correct order would be: 89 (Cf. <ref>Sæmundar edda, Bugge,
+                           Sophus 1965: 130-131</ref>), 88 (Cf. <ref>Sæmundar edda, Bugge, Sophus
+                           1965: 131-132</ref>) and 90-92 (Cf. <ref>Sæmundar edda, Bugge, Sophus
+                           1965: 132-134</ref>).</note>
+                  </msItem>
+                  <msItem n="12" class="edd">
+                     <locus from="102r" to="110r">102r-110r</locus>
+                     <title type="uniform">Vafþrúðnismál</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Vafþrúðnismál</rubric>
+                     <incipit>Ráð þú mér nú Frigg</incipit>
+                     <explicit>þú ert æ vísastur vera.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 65-74</ref>). Fols.
+                           <locus from="110v" to="111v">110v-111v</locus> are blank.</note>
+                  </msItem>
+                  <msItem n="13" class="edd">
+                     <locus from="112r" to="118r">112r-118r</locus>
+                     <title type="uniform">Þrymskviða</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þrymskviða eður Hamarsheimt</rubric>
+                     <incipit>Reiður var þá Vingþór</incipit>
+                     <explicit>Svo kom Óðins sonur endur að hamri.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 124-128</ref>). Fol.
+                           <locus from="118r" to="118r">118r</locus> is mostly blank; fols. <locus from="119r" to="119v">119r-v</locus> are blank.</note>
+                  </msItem>
+                  <msItem n="14" class="edd">
+                     <locus from="120r" to="128v">120r-128v</locus>
+                     <title type="uniform">Völundarkviða</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="14.1" class="edd">
+                        <locus from="120r" to="120v">120r-120v</locus>
+                        <title type="uniform">Frá Völundi</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Frá Völundi</rubric>
+                        <incipit>Níðuður hét konungur í Svíþjóð</incipit>
+                        <explicit>Níðuður lét hann höndum taka svo sem hér er kveðið.</explicit>
+                     </msItem>
+                     <msItem n="14.2" class="edd">
+                        <locus from="120v" to="128v">120v-128v</locus>
+                        <title type="uniform">Völundarkviða</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Frá Völundi og Níðuði eður Völundarkviða</rubric>
+                        <incipit>Meyjar flugu sunnan</incipit>
+                        <explicit>ég vætur honum vinna kunnag.</explicit>
+                        <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                           163-170</ref>). Fol. <locus from="128v" to="128v">128v</locus> is half blank; 
+                           fol. <locus from="129r" to="129v">129</locus> is blank.
+                        </note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="15" class="edd">
+                     <locus from="130r" to="135v">130r-135v</locus>
+                     <title type="uniform">Reginsmál</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Kviða Sigurðar Fáfnisbana önnur</rubric>
+                     <incipit>Sigurður gekk til stóðs Hjálpreks</incipit>
+                     <explicit>Sigurður hljóp úr gröfinni og sá þá hver þeirra annan.</explicit>
+                     <note>A short prose section which usually follows Fáfnismál is here following Reginsmál. (Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 212-218
+                        (19)</ref>).</note>
+                  </msItem>
+                  <msItem n="16" class="edd">
+                     <locus from="136r" to="143r">136r-143r</locus>
+                     <title type="uniform">Fáfnismál</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá dauða Fáfnis eður Fáfnismál</rubric>
+                     <incipit>Fáfnir kvað. Sveinn og sveinn hverjum</incipit>
+                     <explicit>fyrr en Sigurður steig á bak honum.</explicit>
+                     <note>A short prose chapter which usually belongs to Fáfnismál follows Reginsmál in this MS (see item 15).</note>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 219-226</ref>). Fol.
+                           <locus from="143r" to="143r">143r</locus> is half blank; fol. <locus from="143v" to="143v">143v</locus> is blank. </note>
+                  </msItem>
+                  <msItem n="17" class="edd" defective="true">
+                     <locus from="144r" to="149r">144r-149r</locus>
+                     <title type="uniform">Sigurdrífumál</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Kviða Brynhildar Buðladóttur</rubric>
+                     <incipit>Sigurður reið upp á Hindarfjall og stefndi suður til Frakklands
+                       </incipit>
+                     <explicit defective="true">Það ræð ég þér ið sjötta þótt með seggjum fari</explicit>
+                     <colophon>Desunt minimum oct folia scribit A. Magnæus in membrana ut
+                        existimo".</colophon>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 227-233</ref>). The end is missing just like in Codex Regius.</note>
+                     <note>The colophon is on fol. <locus from="149r" to="149r">149r</locus> which is half blank.</note>
+                     <!-- <note>Brot af Sigurðarkviðu follows Sigurdrífumálum without break. (See item 18).</note> -->
+                  </msItem>
+                  <msItem n="18" defective="true" class="edd">
+                     <locus from="149v" to="153r">149v-153r</locus>
+                     <title type="uniform">Brot af Sigurðarkviðu</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Hvað hefir Sigurður til saka unnið</incipit>
+                     <explicit>en eiturdropum innan fáðar.</explicit>
+                     <note>The beginning is missing just like in Codex Regius. (Cf.
+                              <ref>Sæmundar edda, Bugge, Sophus 1965: 237-240</ref>).</note>
+                  </msItem>
+                  <msItem n="19" class="edd">
+                     <locus from="154r" to="154r">154r</locus>
+                     <title type="supplied">Frá dauða Sigurðar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá dauða Sigurðar</rubric>
+                     <incipit>Hér segir í þessi kviðu frá dauða Sigurðar</incipit>
+                     <explicit>Þetta er enn kveðið um Guðrúnu.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                        241-242</ref>).</note>
+                  </msItem>
+                  <msItem n="20" class="edd">
+                     <locus from="154r" to="159r">154r-159r</locus>
+                     <title type="uniform">Guðrúnarkviða I</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Ár var þaz Guðrún </incipit>
+                     <explicit>er hún sár um leit á Sigurði.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                        242-246</ref>). Short prose section in the end (<locus from="159r" to="159r">159r</locus>). Fol. <locus from="159v" to="159v">159v</locus> is blank.</note>
+                  </msItem>
+                  <msItem n="21" class="edd">
+                     <locus from="160r" to="172v">160r-172v</locus>
+                     <title type="uniform">Sigurðarkviða hin skamma</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Kviða Sigurðar</rubric>
+                     <incipit>'Ar var þaz Sigurður</incipit>
+                     <explicit>sva man eg láta.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 247-259</ref>). Fol.
+                        <locus from="172v" to="172v">172v</locus> is half blank; fol. <locus from="173r" to="173v">173</locus> is blank. </note>
+                  </msItem>
+                  <msItem n="22" class="edd">
+                     <locus from="174r" to="176v">174r-176v</locus>
+                     <title type="uniform">Helreið Brynhildar</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="22.1" class="edd">
+                        <locus from="174r" to="176v">174r-176v</locus>
+                        <title type="supplied">Helreið Brynhildar <note>[Prose]</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Eftir dauða Brynhildar voru gör bál tvö</incipit>
+                        <explicit>þar er gígur nokkur bjó.</explicit>
+                     </msItem>
+                     <msItem n="22.2" class="edd">
+                        <locus from="174r" to="176v">174r-176v</locus>
+                        <title type="supplied">Helreið Brynhildar <note>[Verses]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Brynhildur reið helveg</rubric>
+                        <incipit>Skaltu í gögnum</incipit>
+                        <explicit>sökstu gígjar kyn.</explicit>
+                        <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                           260-263</ref>). Fol. <locus from="176v" to="176v">176v</locus> is half blank; 
+                           fol. <locus from="177r" to="177v">177</locus> is blank.</note>
+                     </msItem>
+                     <msItem n="23" class="edd">
+                        <locus from="178r" to="186v">178r-186v</locus>
+                        <title type="uniform">Guðrúnarkviða hin forna</title>
+                        <title type="paralell">Guðrúnarkviða II</title>
+                        <textLang mainLang="non"/>
+                        <msItem n="23.1" class="edd">
+                           <locus from="178r" to="178r">178r</locus>
+                           <title type="supplied">Guðrúnarkviða II <note>[Prose]</note></title>
+                           <rubric>Dráp Niflunga</rubric>
+                           <incipit>Gunnar og Högni tóku þá gullið allt Fáfnis</incipit>
+                           <explicit>Þjóðrekur og Guðrún kærðu harma sín á milli. Hún sagði hánum
+                              og kvað.</explicit>
+                        </msItem>
+                        <msItem n="23.2" class="edd">
+                           <locus from="178r" to="186v">178r-186v</locus>
+                           <title type="supplied">Guðrúnarkviða II <note>[Verses]</note></title>
+                           <textLang mainLang="non"/>
+                           <rubric>Kviða Guðrúnar</rubric>
+                           <incipit>Mær var eg meyja</incipit>
+                           <explicit>það man eg görva.</explicit>
+                           <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                                 264-273</ref>).</note>
+                        </msItem>
+                     </msItem>
+                  </msItem>
+                  <msItem n="24" class="edd">
+                     <locus from="187r" to="188v">187r-188v</locus>
+                     <title type="uniform">Guðrúnarkviða III</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="24.1" class="edd">
+                        <locus from="187r" to="187r">187r</locus>
+                        <title type="supplied">Guðrúnarkviða III <note>[Prose]</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Herkja hét ambótt Atla</incipit>
+                        <explicit>Atli var þá allókátur. Þá kvað Guðrún.</explicit>
+                     </msItem>
+                     <msItem n="24.2" class="edd">
+                        <locus from="187r" to="188v">187r-188v</locus>
+                        <title type="supplied">Guðrúnarkviða III <note>[Verses]</note></title>
+                        <rubric>Guðrúnarkviða</rubric>
+                        <incipit>Hvað er þér Atli</incipit>
+                        <explicit>sína harma.</explicit>
+                        <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                           274-275</ref>). Fol. <locus from="189r" to="189v">189</locus> 
+                           is blank.</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="25" class="edd">
+                     <locus from="190r" to="195r">190r-195r</locus>
+                     <title type="uniform">Oddrúnargrátur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá Borgnýju og Oddrúnu</rubric>
+                     <msItem n="25.1" class="edd">
+                        <locus from="174r" to="176v">174r-176v</locus>
+                        <title type="supplied">Oddrúnargrátur <note>[Prose]</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Heiðrekur hét konungur. Dóttir hans hét Borgný</incipit>
+                        <explicit>hún hafði verið unnusta Gunnars Gjúkasonar. Um þessa sögu er hér
+                           kveðið.</explicit>
+                     </msItem>
+                     <msItem n="25.2" class="edd">
+                        <locus from="174r" to="176v">174r-176v</locus>
+                        <title type="supplied">Oddrúnargrátur <note>[Verses]</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Heyrða ek segja / í sögum fornum</incipit>
+                        <explicit>nú er umgenginn / grátur Oddrúnar.</explicit>
+                        <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                           276-281</ref>). Fol. <locus from="195v" to="195v">195v</locus> is blank.</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="26" class="edd">
+                     <locus from="196r" to="204r">196r-204r</locus>
+                     <title type="uniform">Atlakviða</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="26.1" class="edd">
+                        <locus from="196r" to="196r">196r</locus>
+                        <title type="supplied">Atlakviða <note>[Prose]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Dauði Atla</rubric>
+                        <incipit>Guðrún Gjúkadóttir hefndi bræðra sinna</incipit>
+                        <explicit>um þetta er sjá kviða ort.</explicit>
+                     </msItem>
+                     <msItem n="26.2" class="edd">
+                        <locus from="196r" to="204r">196r-204r</locus>
+                        <title type="supplied">Atlakviða <note>[Verses]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Atlakviða hin grænlenska</rubric>
+                        <incipit>Sendi Atli / ár til Gunnars</incipit>
+                        <explicit>björt áður sylti.</explicit>
+                        <colophon>Enn segir glöggra í Atlamálum enum grænlenskum.</colophon>
+                        <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 282-291</ref>). 
+                           The colophon is on Fol. <locus from="204r" to="204r">204r</locus>.
+                              Fol. <locus from="204r" to="204r">204r</locus> is half blank;
+                              fols. <locus from="204v" to="205v">204v-205v</locus> are blank.</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="27" class="edd">
+                     <locus from="206r" to="223r">206r-223r</locus>
+                     <title type="uniform">Atlamál hin grænlensku</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefir Atlamál en grænlensku</rubric>
+                     <incipit>Frétt hefir öld ófu þá</incipit>
+                     <explicit>hvargi er þjóð heyrir.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 292-310</ref>). Fol.
+                              <locus from="223v" to="223v">223v</locus> is blank.</note>
+                  </msItem>
+                  <msItem n="28" class="edd">
+                     <locus from="224r" to="227v">224r-227v</locus>
+                     <title type="uniform">Guðrúnarhvöt</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="28.1" class="edd">
+                        <locus from="224r" to="224r">224r</locus>
+                        <title type="supplied">Guðrúnarhvöt <note>[Prose]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Frá Guðrúnu</rubric>
+                        <incipit>Guðrún gekk til sævar</incipit>
+                        <explicit>en er það spurði Guðrún þá kvaddi hún sonu sína.</explicit>
+                     </msItem>
+                     <msItem n="28.2" class="edd">
+                        <locus from="224r" to="227v">224r-227v</locus>
+                        <title type="supplied">Guðrúnarhvöt <note>[Verses]</note></title>
+                        <rubric>Guðrúnarhvöt</rubric>
+                        <incipit>Þá frá ek sennu</incipit>
+                        <explicit>um talið væri</explicit>
+                        <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 311-315</ref>).</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="29" class="edd">
+                     <locus from="228r" to="232v">228r-232v</locus>
+                     <title type="uniform">Hamðismál</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hamðismál en fornu</rubric>
+                     <incipit>Spruttu á tái / tregnar íðir</incipit>
+                     <explicit>en harmur hné / að húsbaki.</explicit>
+                     <finalRubric>Þetta eru kölluð Hamðismál hin fornu.</finalRubric>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 316-323</ref>). Fol.
+                        <locus from="232v" to="232v">232v</locus> is half blank; fol.
+                              <locus from="233r" to="233v">233</locus> is blank.</note>
+                  </msItem>
+                  <msItem n="30" class="edd">
+                     <locus from="234r" to="237r">234r-237r</locus>
+                     <title type="uniform">Vegtamskviða</title>
+                     <title type="paralell">Baldursdraumar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Vegtamskviða</rubric>
+                     <incipit>Senn voru æsir / allir á þingi</incipit>
+                     <explicit>og ragnarök / rúfendur koma.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 135-140</ref>). Fol.
+                        <locus from="237r" to="237r">237r</locus> is half blank. Fol. <locus from="237v" to="237v">237v</locus>is blank.
+                        Items 30-36 are not in the <ref type="ms">Konungsbók eddukvæða (Codex Regius) GKS 2365 4to</ref></note>
+                  </msItem>
+                  <msItem n="31" class="edd">
+                     <locus from="238r" to="243r">238r-243r</locus>
+                     <title type="uniform">Fjölsvinsmál</title>
+                     <title type="paralell">Svipdagsmál</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fjölsvinsmál</rubric>
+                     <incipit>Utan garða</incipit>
+                     <explicit>að við slíta skulum / æfi og aldri saman.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 343-351</ref>). Grógaldur
+                           and Fjölsvinsmál are both called Svipdagsmál. 
+                           Fol. <locus from="243r" to="243r">243r</locus> is mostly blank; fol. <locus from="243v" to="243v">243v</locus> is blank.</note>
+                  </msItem>
+                  <msItem n="32" class="edd">
+                     <locus from="244r" to="252r">244r-252r</locus>
+                     <title type="uniform">Hyndluljóð</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hyndluljóð</rubric>
+                     <incipit>Vaki mær meyja</incipit>
+                     <explicit>öll goð duga.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 152-162</ref>). Leaves
+                           <locus from="252v" to="253v">252v-253v</locus> are blank. </note>
+                  </msItem>
+                  <msItem n="33" class="edd">
+                     <locus from="254r" to="256r">254r-256r</locus>
+                     <title type="uniform">Grógaldur</title>
+                     <title type="paralell">Svipdagsmál</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Gróu galdur</rubric>
+                     <incipit>Vaki þú Gróa</incipit>
+                     <explicit>meðan þú mín orð um manst.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 338-342</ref>). Grógaldur
+                        and Fjölsvinsmál are both called Svipdagsmál. 
+                        Fols. <locus from="256v" to="257v">256v-257v</locus> are blank. </note>
+                  </msItem>
+                  <msItem n="34" class="edd">
+                     <locus from="258r" to="269r">258r-269r</locus>
+                     <title type="uniform">Sólarljóð</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sólarljóð</rubric>
+                     <incipit>Fé og fjörvi rænti</incipit>
+                     <explicit>að áður heyrði Sólarljóðs sögu.</explicit>
+                     <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965: 357-370</ref>). Fol.
+                           <locus from="269r" to="269r">269r</locus> is half blank; fol. <locus from="269v" to="269v">269v</locus> is blank.</note>
+                  </msItem>
+                  <msItem n="35" class="edd">
+                     <locus from="270r" to="275r">270r-275r</locus>
+                     <title type="uniform">Gróttasöngur</title>
+                     <title type="paralell">Grottasöngur</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="35.1" class="edd">
+                        <locus from="270r" to="271r">270r-271r</locus>
+                        <title type="supplied">Gróttasöngur <note>[Prose]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Frá Fenju og Menju</rubric>
+                        <incipit>Gull er kallað mjöl Fróða</incipit>
+                        <explicit>og þá var sær saltur síðan.</explicit>
+                     </msItem>
+                     <msItem n="35.2" class="edd">
+                        <locus from="224r" to="227v">224r-227v</locus>
+                        <title type="supplied">Gróttasöngur <note>[Verses]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Grottasöngur</rubric>
+                        <incipit>Nú erum komnar</incipit>
+                        <explicit>hafa fullstaðið fljóð að meldri.</explicit>
+                        <note>(Cf. <ref>Sæmundar edda, Bugge, Sophus 1965:
+                           324-329</ref>). Fol. <locus from="275v" to="275v">275v</locus> is blank.</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="36" class="fas">
+                     <locus from="276r" to="290r">276r-290r</locus>
+                     <title ref="#hs" type="uniform">Hervarar saga <note>[Riddles]</note></title>
+                     <textLang mainLang="non"/>
+                     <title type="parallel">Heiðreks gátur</title>
+                     <title type="paralell">Gátur Gestumblinda</title>
+                     <msItem n="36.1" class="formal">
+                        <locus from="276r" to="277r">276r-277r</locus>
+                        <title type="supplied">Heiðreks gátur <note>[Introduction]</note></title>
+                        <textLang mainLang="is"/>
+                        <rubric>Formáli að getspeki Heiðreks konungs</rubric>
+                        <incipit>Heiðrekur hét kóngur ágætur</incipit>
+                        <explicit>kvað það og vel fallið.</explicit>
+                     </msItem>
+                     <msItem n="36.2" class="edd gat fas">
+                        <locus from="277r" to="290r">277r-290r</locus>
+                        <title type="uniform" ref="#hs">Hervarar saga <note>[Riddles]</note></title>
+                        <textLang mainLang="non"/>
+                        <title type="supplied">Gátur Gestumblinda</title>
+                        <incipit>Hafa vildak</incipit>
+                        <explicit>því ber hann stýfðan stert.</explicit>
+                        <note>Fol. <locus from="290r" to="290r">290r</locus> is half blank; fols.
+                              <locus from="290v" to="291v">290v-291v</locus> are blank. Fol. <locus from="275v" to="275v">275v</locus>
+                              is blank.</note>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="153"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="pag later"/>
+                        <condition ana="average">At least eight leaves missing; several leaves bound in incorrect order (see above).</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 23">
+                           <num type="wpl"/> <!-- add  atLeast="" atMost="" -->
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc n="1">
+                     <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="border">Double red line around writing surface (except for on the bottom)</decoNote>
+                     <decoNote type="initial">Initials rendered in red (e.g. fol. <locus>102r</locus> and <locus>130r</locus>).</decoNote>
+                  </decoDesc>
+                  <additions ana="medium"><p><name key="JonHel003" type="person" role="scholar">Jón Helgason</name>added four leaves of A4 in which he notes the incorrect order 
+                     of leaves according to Bugge's edition and writes about the origin of the manuscript. It is dated <q>København <date when="1972-02-07">7. febr.
+                        1972.</date></q>
+                  Another slip with information on the manuscript is added, followed by two more A4 leaves.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>The manuscript is bound in red velvet. On the spine, there is a little white slip with the number <q>700</q> printed into it with dark ink.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <!--<origPlace key="unknown"/>-->
+                  </origin>
+                  <provenance><p>The manuscript used to belong to 
+                     <name type="organisation" role="owner" key="Dam001">Damms Antikvariat (Oslo).</name> It was catalogued there in <date when="1977-02">February 1977</date>
+                     in catalog nr. 586 as manuscript nr. 60.
+                     <name key="ThoPhi001" type="person" role="owner"></name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2013-07-15" who="#BES">Created file and added information from extensive record on handirt.is.</change>
+         <change when="2013-08-26" who="#BES">Proofread.</change>
+      </revisionDesc> <!-- info on wpl missing. -->
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

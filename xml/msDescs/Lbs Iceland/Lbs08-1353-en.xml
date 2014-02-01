@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1353 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1353-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1353 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>              
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="68r"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <rubric>Sagan af Göngu-Hrólfi</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="68"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="96"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="19 25">
+                           <num type="wpl" atLeast="5" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="153"/>
+                              <width unit="mm" quantity="91"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Some contemporary corrections in the margin</p>
+                  </additions>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1810" notAfter="1840"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:15.518+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-09" who="#SMM">Added msDesc codes and completed with some information.</change>
+         <change when="2012-11-29" who="#SMM">Added some information from black and white picture from the Arnamagnaean collection in Copenhagen.</change>
+         <!-- Watermark and bindingDesc missing -->
+         <change when="2013-08-30" who="#TL">Checked markup consistency</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

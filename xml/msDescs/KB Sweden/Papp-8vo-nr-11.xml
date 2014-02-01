@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 8vo nr 11</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-8vo-nr-11" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 8vo nr 11</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="14r"/>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <note>younger vers.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="14v" to="65v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>younger vers.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="65"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="31 36">
+                           <num type="wpl" atLeast="11" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="145"/>
+                              <width unit="mm" quantity="90"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">ff. 1r-61r</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">ff. 61v-65r</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">f. 65v</handNote>
+                  </handDesc>
+                  <!-- more detail needed 
+                  <decoDesc ana="yes">
+                     <decoNote/>
+                  </decoDesc> -->
+                  <additions ana="low">
+                     <p>On the back flyleaves a list of sagas has been written in alphabetical order.</p>
+                     <p>A note on Rugman and Reenhielm (Jakoppur Istmen) is found on the first front flyleaf.</p>
+                     <p>On f. 65v a list of the previous contents of the manuscript has been written (see Gödel p. 372).</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Cream parchment on card board. On the spine the following is written. <q>Saga HROLFS G. S.
+                              65 II Islandica</q>. A red label is attached to the front cover in the bottom
+                           left-hand corner. On the label: <q>Riks-Bibliotek STOCKHOLM Handskrifter. Islandica
+                              Pappir 8o No 11</q>. On the front inside cover a print from a book of a heron's (ardea
+                           piscatrix) skeleton has been pasted. </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1630" notAfter="1658"/>
+                     <!-- Sweden? -->
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonJon030"/>
+                     <name type="person" role="owner" key="JacRee001"/>
+                     <name type="organisation" role="owner" key="AntKol001">Antikvitetskollegiet</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:59.098+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-05" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

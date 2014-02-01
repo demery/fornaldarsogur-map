@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westin 89</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Westin-89" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>Westin 89</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem n="1" class="fas">
+                     <locus from="3r:1" to="75r:21">3r-75r</locus>
+                     <title type="uniform" ref="#vs">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                     <!-- mixture of modern and old eg herraudur, rikr, oc, þat, ä giætur -->
+                     <incipit>Hier Hefur upp og Seiger Fra þeim Manne er Sige er nefndur</incipit>
+                     <explicit><ex>oc</ex> vox Aslavg þ<ex>ar</ex> up<ex>p</ex> i mikilli fátækt, <ex>oc</ex> illu
+                        atlæti,</explicit>
+                     <colophon>oc endast hier Wolsunga þättur</colophon>
+                     <note>Including parts of Sigdrífumál, Guðrúnarkviða, Helreið Brynhildar and other verses and explanatory
+                        texts. Followed by a verse.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="76r:1" to="118r:12">76r-118r</locus>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <!-- mixture of modern and old eg herraudur, rikr, oc, þat, ä giætur -->
+                     <rubric>Sagann Aff Ragnar</rubric>
+                     <incipit>Herraudur hiet Jarl Rikr oc ä giætur ä Gautlandi</incipit>
+                     <explicit>Þetta þotte mönnum Undarlegt og Sögdu odrum mönnum,</explicit>
+                     <colophon>og Endar Hier Sögu Ragnars og Sona han<ex>n</ex>s.</colophon>
+                     <note>With Krákumál, derived from NKS 1824 b 4o. Followed by a verse.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="118"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <note>Fols. 1v, 75v and 118v blank, fol. 1r originally blank.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <!-- what is printed foliation? -->
+                        <foliation ana="fol later">Printed foliation in top right corners, fol. 54 omitted.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="23 25">
+                           <num type="wpl" atLeast="7" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" script="unknown"/>
+                  </handDesc>                  
+                  <decoDesc ana="low">
+                     <decoNote type="mixed">Decorated initials on fols. 2r and 76r. Red book edge</decoNote>
+                  </decoDesc>
+                  <additions ana="medium"><p>Marginalia. Fol. 1r: <q>e<ex>x</ex> libris Birgeri Thorlacii</q> and <q>Köpt på
+                           Auction efter afledne Professor ok Riddaren Birger Thorlacius i Köpenhamn den 6 September 1830 Jacob
+                           Westin</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in cardboard with marbled pattern.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance><p>The manuscript was once owned by <name key="BirTho001" type="person" role="owner">Birger Thorlacius</name>.
+                        After his death, <name type="person" role="owner" key="JacWes001">Jacob Westin</name> bought it at an auction on <date when="1830-09-06">6 September 1830</date>, according to a note on the first
+                     page.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:25.938+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-05" who="SH">Added missing information from the catalogue by Jónas Kristjánsson and from
+            photographs.</change>
+         <change when="2013-04-09" who="SH">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

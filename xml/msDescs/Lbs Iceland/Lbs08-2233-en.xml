@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2233 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-2233-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2233 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="12r"/>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="13r" to="32v"/>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <rubric>Saga af Hjalter (sic) og Ölver</rubric>
+                     <colophon>og lúkum vier þessare frasögu hvör skrifuð var á því áre Ao 1730
+                        og enduð d 11 Decembris</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="laus">
+                     <locus from="32v" to="32v"/>
+                     <title type="supplied">Vísa</title>
+                     <incipit>Hialter ogso Hilldesif</incipit>
+                     <explicit>eldur lud neiter</explicit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="33r" to="54v"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="55r" to="70v"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>younger version</note>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="71r" to="115v"/>
+                     <title type="uniform">Flóvents saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="islst" defective="true">
+                     <locus from="116r" to="129r"/>
+                     <title type="uniform">Hrana saga hrings</title>
+                     <note>defective</note>
+                     <incipit>III Cap. Það var eitt haust að menn skyldu leita geldfjársins til
+                        fjalla </incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="attfr">
+                     <locus from="129r" to="129v"/>
+                     <title type="supplied">Langfeðgatal Guðmundar Eyjólfssonar</title>
+                     <note>defective</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="ridd" defective="true">
+                     <locus from="130r" to="133v"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <note>fragment, missing the end</note>
+                     <explicit> meira skal yður þó um finnast þá þér sjáið Hermann kóng og skildu so
+                        þetta tal</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="134r" to="142r"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <rubric>Hér byrjar þátt af Katli hæng</rubric>
+                     <colophon>og endar so þessa söguþætti frá Katli hæng of Grími
+                        loðinkinn.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="landfr">
+                     <locus from="142r" to="143v"/>
+                     <title type="supplied">Ágrip um Ninive og Babýlon</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="143v" to="153r"/>
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="rimur">
+                     <locus from="153r" to="157v"/>
+                     <title type="uniform">Rímur af Sigurði Bárðarsyni</title>
+                     <author>Jón Pálsson á Möðruvöllum</author>
+                     <note>fragment</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="vedfr" defective="true">
+                     <locus from="158r" to="159r"/>
+                     <title type="supplied">Veðurspár</title>
+                     <note>fragment</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="15" class="run" defective="true">
+                     <locus from="159v" to="15v"/>
+                     <title type="supplied">Rúnastafir</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="16" class="dyrfr">
+                     <locus from="160r" to="180v"/>
+                     <title type="supplied">Dýrafræði</title>
+                     <note>fragment</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="17" class="ferds">
+                     <locus from="181r" to="216v"/>
+                     <title type="supplied">Reisuhistoria Fridricks Andressonar Bollings</title>
+                     <note>Bolling, Frederik Andersen, Danish theologian and sailor b.c.1645,
+                        d.1685</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="18" class="rimur">
+                     <locus from="217r" to="unknown"/>
+                     <title type="uniform">Rímur af Sigurði snarfara</title>
+                     <author>séra Snorri Björnsson á Húsafelli</author>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="19" class="pred">
+                     <locus from="227r" to="240v"/>
+                     <title type="supplied">Prédikun</title>
+                     <note>fragment</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="241"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="163" atMost="180"/>
+                              <width unit="mm" atLeast="100" atMost="111"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no">Only from time of restoration in pencil. Wrong by one number
+                           number after f.116 (since that number is omitted).</foliation>
+                        <condition ana="poor">Text is mostly legible following restoration. Loose from the
+                           binding and in loose leaves.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines=" 23 31">
+                           <num type="wpl" atLeast="6" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="144" atMost="158"/>
+                              <width unit="mm" atLeast="82" atMost="100"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                           <note>Some scribes use catchwords, but they are in the minority.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="99">
+                     <handNote scribeRef="unknown">Various unidentified hands, at least fourteen. A few kurrent, most of them hum cursiva</handNote>
+                     <handNote scribeRef="unknown" script="kurrent">I</handNote>
+                     <handNote scribeRef="unknown" script="kurrent">II</handNote>
+                     <handNote scribeRef="unknown" script="kurrent">III</handNote>
+                     <handNote scribeRef="unknown" script="kurrent">IV</handNote>
+                     <handNote scribeRef="unknown" script="kurrent">VI</handNote>
+                     <handNote scribeRef="unknown" script="hum cursiva">VII</handNote>
+                     <handNote scribeRef="unknown" script="hum cursiva">VIII</handNote>
+                     <handNote scribeRef="unknown" script="hum cursiva">IX</handNote>
+                     <handNote scribeRef="unknown" script="hum cursiva">X</handNote>
+                     <handNote scribeRef="unknown" script="hum cursiva">XI</handNote>
+                     <handNote scribeRef="unknown" script="hum cursiva">XII</handNote>
+                     <handNote scribeRef="unknown" script="hum cursiva">XIII</handNote>
+                     <handNote scribeRef="unknown" script="hum cursiva">XIV</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="illustration"><locus from="241v" to="241v"/>: A leaf of ornate
+                        drawings with a pattern of letters in the middle: RIDH</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>
+                        <locus from="32v" to="32v"/>: A verse: Hialter ogso Hildisif, Hringur og
+                        Hervör heitir, Alsólar og Ölves skrif, eldur lúðneytir </p>
+                     <p><locus from="53v" to="53v"/>: Some scribbles: Æruprýddum og velforsogtum
+                        dánumanni. Þessi penni er gauð</p><p><locus from="216v" to="216v"/>: Guðmundur
+                     Jónsson, Friðrik Andresson Bolling, reverse on the bottom of the page: æða blóð
+                     úr unnar glóða villdi brusaði flóði bunaði beljaðist óð og dunaði.
+                           </p><p><locus from="241v" to="241v"/>: Raghheiður Jónsdóttir á þennan miða.
+                        Rétt og bæði Ragnheiður Jónsdóttir fríð og góð henni veiti hjálp og gæði
+                        herrann mestur fyrr og síð.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain">
+                        <p>Very plain, leather envelope</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="SigNor001">Sigurður Nordal</name>
+                     <p>: On three handwritten pages signed SJ with the rubric: Skrá yfir handrit send
+                        dr Sigurði Nordal is a list of 30 manuscripts, this one being the last</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:20.239+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-06" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources</change>
+         <change when="2012-05" who="#SK">Added information from the manuscript itself, location and layout and some more.</change>
+         <change when="2013-10-02" who="#TL">Checked markup</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

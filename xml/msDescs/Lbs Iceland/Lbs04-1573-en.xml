@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1573 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1573-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1573 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="Ffl1v" to="Ffl1v"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <rubric>Innihald bókarinnar</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="179"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="159"/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="9">
+                     <handNote scribeRef="ambig" scope="major" script="unknown"/>
+                  </handDesc>
+                  <!--<additions ana="">
+                     <p>Front flyleaf's v-side: Innihald bókarinnar [table of contents]</p>
+                     <p>Squiggle on back flyleaf's v-side</p>
+                     <p>Last back flyleaf (loose) is an envelope sent to: Virðulegum
+                        sjálfseignarbónda sgr. <name type="person" key="GudMag004">Guðmundi
+                           Magnússyni</name> á <placeName>Syðrivarðgjá</placeName>, on which there is a poem:
+                        Berlings læt ég brókarlög, eftir eldri Guðna eyfirska.</p>
+                     <p>On the glue side of the pastedown leaf there is a letter from: Akureyri 2an janúar mán. 1857, frá
+                           <name type="person" key="JohGud002">Jóhanni Guðnasyni</name>
+                     </p>
+                  </additions>-->
+                  <bindingDesc>
+                     <p>Leather covered spine and corners</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     
+                     <origDate from="1810" to="1877">[1810-1877?]</origDate>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="JonTho020">Jónathan
+                           Þorláksson</name> Front-flyleaf 1r-v and Rear-flyleaf 1r</p>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1573 4to 1st part</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" facs="#Lbs04-1573-0001r" to="16v">1r-16v</locus>
+                        <title type="uniform">Droplaugarsona saga</title>
+                     </msItem>
+                     <msItem n="2" class="islst">
+                        <locus from="17r" facs="#Lbs04-1573-0017r" to="26v">17r-26v</locus>
+                        <title type="uniform">Hrana saga hrings</title>
+                     </msItem>
+                     <msItem n="3" class="forns">
+                        <locus from="27r" facs="#Lbs04-1573-0027r" to="44r">27r-44r</locus>
+                        <title type="uniform">Huldar saga hinnar miklu</title>
+                        <note>Cf. the edition of 1911, Sagan af Huld hinni miklu og fjölkunnugu
+                           trölldrotningu</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="44"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="202"/>
+                                 <width unit="mm" quantity="159"/>
+                              </dimensions>
+                           </support>
+                           <!--<foliation ana="">
+                              <p>Traces 1-35 (27r-44r)</p>
+                           </foliation>-->
+                        </supportDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GisKon001" scope="sole" script="hum cursiva">Gísli Konráðsson</handNote>
+                     </handDesc>
+                     <!--<decoDesc ana="">
+                        <decoNote>Big initials and slightly decorated</decoNote>
+                     </decoDesc>-->
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate from="1810" to="1877">[1810-1877?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1573 4to 2nd part</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="konth">
+                        <locus from="45r" facs="#Lbs04-1573-0045r" to="53v">45r-53v</locus>
+                        <title type="uniform">Ólafs þáttur Geirstaðaálfs</title>
+                        <note>See Ólafs saga helga</note>
+                     </msItem>
+                     <msItem n="2" class="islt">
+                        <locus from="53v" facs="#Lbs04-1573-0053v" to="54v">53v-54v</locus>
+                        <title type="uniform">Þorsteins þáttur sögufróða</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="10"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="202"/>
+                                 <width unit="mm" quantity="159"/>
+                              </dimensions>
+                           </support>
+                           <!--<foliation ana="">
+                              <p>(45v-46r)</p>
+                           </foliation>-->
+                        </supportDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <summary>Ein hönd</summary>
+                        <handNote scribeRef="#" scope="major" script="unknown"/>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate from="1810" to="1877">[1810-1877?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1573 4to 3rd part</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="islst">
+                        <locus from="55r" facs="#Lbs04-1573-0055r" to="62v">55r-62v</locus>
+                        <title type="uniform">Atla saga Ótryggssonar</title>
+                     </msItem>
+                     <msItem n="2" class="konth">
+                        <locus from="63r" facs="#Lbs04-1573-0063r" to="66r">63r-66r</locus>
+                        <title type="uniform">Helga þáttur og Úlfs</title>
+                     </msItem>
+                     <msItem n="3" class="bisks">
+                        <locus from="67r" facs="#Lbs04-1573-0067r" to="90r">67r-90r</locus>
+                        <title type="uniform">Jóns saga helga</title>
+                     </msItem>
+                     <msItem n="4" class="samt">
+                        <locus from="91r" facs="#Lbs04-1573-0091r" to="111r">91r-111r</locus>
+                        <title type="uniform">Hrafns saga Sveinbjarnarsonar</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="57"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="202"/>
+                                 <width unit="mm" quantity="159"/>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <summary>Ein hönd</summary>
+                        <handNote scribeRef="#" scope="major" script="unknown"/>
+                     </handDesc>
+                     <!--<decoDesc ana="">
+                        <decoNote>Big initials and slightly decorated</decoNote>
+                     </decoDesc>-->
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate from="1810" to="1877">[1810-1877?]</origDate>
+                     </origin>
+                     <provenance>
+                        <p>Owners of the manuscript: <name type="person" role="owner" key="JonTho020">Jónatan
+                              Þorláksson</name> og <name type="person" role="owner" key="SteArn002">Stefán
+                              Kristján Árnason</name> (<locus from="111v" facs="#Lbs04-1573-0111v" to="111v">111v</locus> see Handritaskrá)</p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1573 4to 4th part</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="rimur">
+                        <locus from="112r" facs="#Lbs04-1573-0112r" to="119v">112r-119v</locus>
+                        <title type="uniform">Rímur af Skáld-Helga</title>
+                        <note>7 rímur</note>
+                     </msItem>
+                     <msItem n="2" class="isl">
+                        <locus from="120r" facs="#Lbs04-1573-0120r" to="126v">120r-126v</locus>
+                        <title type="uniform">Eiríks saga rauða</title>
+                        <note>Fol. 122-125 are wrapped in a paper cover because of a loan to an exhibition (see comment on the paper cover)</note>
+                     </msItem>
+                     <msItem n="3" class="isl">
+                        <locus from="127r" facs="#Lbs04-1573-0127r" to="134v">127r-134v</locus>
+                        <title type="uniform">Vopnfirðinga saga</title>
+                     </msItem>
+                     <msItem n="4" class="isl">
+                        <locus from="134v" facs="#Lbs04-1573-0134v" to="149r">134v-149r</locus>
+                        <title type="uniform">Flóamanna saga</title>
+                     </msItem>
+                     <msItem n="5" class="bisks">
+                        <locus from="149r" facs="#Lbs04-1573-0149r" to="157r">149r-157r</locus>
+                        <title type="uniform">Þorláks saga helga</title>
+                     </msItem>
+                     <msItem n="6" class="forns">
+                        <locus from="158r" facs="#Lbs04-1573-0158r" to="169r">158r-169r</locus>
+                        <title type="uniform">Huldar saga hinnar miklu</title>
+                        <note>See edition from 1909, Sagan af Huld drottningu hinni ríku. The saga ends
+                           suddenly (see <ref target="IB04-0320" type="ms">ÍB 320 4to</ref>
+                           and says at the end: Cætera desunt [since the rest is missing]</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="58"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="202"/>
+                                 <width unit="mm" quantity="159"/>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#ThoGis005" scope="sole" script="other">
+                           (<locus from="119v" facs="#Lbs04-1573-0119v" to="119v">119v</locus> see Páll Eggert
+                           Ólason)</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate from="1821" to="1823">1821-1823</origDate>
+                     </origin>
+                     <provenance>
+                        <p>Owner of the manuscript: <name type="person" key="JonTho020">Jónatan
+                              Þorláksson</name> (<locus from="119v" facs="#Lbs04-1573-0119v" to="119v">119v</locus> see Handritaskrá)</p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1573 4to 5th part</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="170r" facs="#Lbs04-1573-0170r" to="175v">170r-175v</locus>
+                        <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                        <rubric>Þáttur af Vikur kóngi og Gjafa-Ref</rubric>
+                        <note>A part of the story</note>
+                     </msItem>
+                     <msItem n="2" class="forns riddst">
+                        <locus from="176r" facs="#Lbs04-1573-0176r" to="177r">176r-177r</locus>
+                        <title type="uniform">Jóns saga Upplendingakonungs</title>
+                     </msItem>
+                     <msItem n="3" class="konth">
+                        <locus from="177v" facs="#Lbs04-1573-0177v" to="179v">177v-179v</locus>
+                        <title type="uniform">Völsa þáttur</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="10"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="202"/>
+                                 <width unit="mm" quantity="159"/>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                        <!--<layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="27 29">
+                              <num type="wpl" atLeast="10" atMost="13"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#HalDav001" scope="sole" script="kurrent hum cursiva">
+                           H[alldór] Davíðsson<locus from="177r" facs="#Lbs04-1573-0177r" to="177r">177r</locus> see The P.E.Ó.-catalogue
+                          </handNote>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial"><locus from="176r" facs="#Lbs04-1573-0176r" to="176r">176r</locus>, <locus from="177v" facs="#Lbs04-1573-0177v" to="177v">177v</locus>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate from="1815" to="1865">[1815-1865?]</origDate>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="owner" key="ArnTho014">Árni
+                              Þorsteinsson</name> prófastur af <placeName>Kirkjubæ</placeName> 1824
+                              (<locus from="175v" facs="#Lbs04-1573-0175v" to="175v">175v</locus>),
+                              <name type="person" role="owner" key="JonTho020">Jónathan Þorláksson</name> (<locus from="179v" facs="#Lbs04-1573-0179v" to="179v">179v</locus>)
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:41.81+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:00.068+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:18.649+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:51.586+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-12-20" who="#SK">Added information to part IV from the digital version on handrit.is and the P.E.Ó.-catalogue </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

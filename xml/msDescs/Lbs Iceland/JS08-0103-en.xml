@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 103 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0103-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 103 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r:1" to="52r:10"/>
+                     <author key="BerOdd001">Bergþór Oddsson</author>
+                     <title type="supplied">Rímur af Úlfi Uggasyni</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Her hefur Rijmur af Ulfe Uggasini</rubric>
+                     <incipit>Fyrsta Ríma. Valur flijgur visku Lands</incipit>
+                     <explicit>Hrödrar Lending nadest valla:</explicit>
+                     <colophon>Arid 1789</colophon>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="53r:1" to="65v:14"/>
+                     <title type="uniform" ref="#snfdsv">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi <note>(fragment)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>Brꜳvalla <damage>bardagi</damage> millum Haralld<damage>s</damage> Hilldetannar og S<damage>igurdar</damage> Hrings</rubric>
+                     <incipit>Þꜳ er Haralldur ko<damage>nungur</damage> Hilldetøn<ex>n</ex> v<ex>ar</ex>
+                        orden<ex>n</ex> so gam<ex>all</ex> ad han<ex>n</ex> hafde halt an<ex>n</ex>ad hundrad
+                        vetra</incipit>
+                     <explicit>frꜳsøgnúm úm þ<ex>ad</ex> foolker alfar kalladest var miklú frijd<ex>ara</ex>e
+                        annad Man<ex>n</ex>kin Hier ꜳ Nörd<ex>ur</ex>løndu<ex>m</ex>.</explicit>
+                     <note>The text ranges from chapter 7 to the beginning of chapter 10 in Rafn's edition.</note>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="66r:1" to="96r:4"/>
+                     <title type="supplied">Ála flekks saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier byriar Alaflecks Søgu</rubric>
+                     <incipit>Fyrste Capitúle. Rigardur hefur kongur heitid han<ex>n</ex> riede firer Englande</incipit>
+                     <explicit>hringúr hans ꜳ Eing Lande og <damage>liu</damage>ku<ex>m</ex> vier hier sógún<ex>n</ex>e
+                        af Ꜳlaf<damage>lekk</damage></explicit>
+                     <colophon>An<ex>n</ex>o 1788.1788</colophon>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="96"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="101"/>
+                              <width unit="mm" quantity="76"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+							   <foliation ana="no"/>
+							   <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="12 15">
+                           <num type="wpl" atLeast="4" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="94"/>
+                              <width unit="mm" quantity="69"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+							<handNote scribeRef="unknown" scope="sole" script="chancery"/>
+						</handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+							<binding ana="plain" contemporary="true">
+								<p>Leather binding</p>
+							</binding>
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate notBefore="1788" notAfter="1789"/>
+                     <origPlace key="IS">Ísland</origPlace>
+						</origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:22.971+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:29.72+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:48.067+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-09-12" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2013-08-22" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

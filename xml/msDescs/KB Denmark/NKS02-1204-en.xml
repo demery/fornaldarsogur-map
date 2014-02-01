@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1204 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1204-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1204 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="66v"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs [Variants and excerpts]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Variant readings from AM 471 4to compared to Rudbeck's edition from 1697. 
+                        At the end, there are several chapters given, including chapters 44, 60, 68.</note>
+                     <filiation>
+                        <ref type="book" target="#OloRud1697" ana="antigraph">Olof Rudbeck/Ísleifur Þorleifsson's ed. from 1697</ref>
+                        <ref type="ms" target="#AM04-0471-is" ana="antigraph">AM 471 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="67r" to="70v"/> 
+                     <title type="uniform">Króka-Refs saga</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Variant readings only from AM. 471 4to compared to Editiones Islandica</note>
+                     <filiation>
+                        <ref type="book" ana="antigraph">Editiones Islandica</ref>
+                        <ref type="ms" target="#AM04-0471-is" ana="antigraph">AM 471 4to</ref>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="71"><note>fol. <locus>66bis</locus>is blank.</note></num>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Coin-like watermark: "GR" in the centre, a crown on top with leaves at the side and around it; a small maid of Dort "ProPatria".</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">separately paginated.</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 4" writtenLines="24 30"> 
+                           <num type="wpl" atLeast="2" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="246"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="#MMagnu001" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p><name key="PetSuh001" type="person" role="owner">Suhm</name> added on fol. <locus>1r</locus> <q>af Magnussen</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Thin paper binding; watermark on the past-down: "Honig <ex>et</ex> Zoonen" with a coat of arms on the same page: top looks like a crown, a simple loop inside it</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="owner"/>
+                     <note>Formerly Suhm's collection no 966 fol.</note>
+                  </provenance> 
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:33.753+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-04-30" who="#BES">Added information from Kålund's catalog and black-and-white pictures.</change>
+         <change when="2013-05-17" who="#BES">Added missing information with manuscript in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

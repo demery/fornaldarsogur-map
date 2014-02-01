@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 552 k β 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0552k-beta-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 552 k β 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="21"/>
+                           <num type="back-flyleaf" value="1"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="unknown"/>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="plain" when="1992-10" contemporary="false">
+                        <p>Binding from october 1992 (<dimensions type="binding" unit="mm">
+                              <height>214</height>
+                              <width>187</width>
+                              <depth>12</depth>
+                           </dimensions>).</p>
+                     </binding>
+                     <binding ana="plain" notBefore="1772" notAfter="1780" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance>
+                     <p>
+                        <name key="ArnMag001" role="owner" type="person">Árni Magnússon</name> got the manuscript from séra
+                           <name key="OlaGis002" role="owner" type="person">Ólafur Gíslason</name> in <name type="place">Hofur í Vopnafjörður</name>.</p>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 552 k β 1 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="18r">1r-18r</locus>
+                        <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="laus">
+                        <locus from="18r" to="18v">18r-18v</locus>
+                        <title type="supplied">Kvæði</title>
+                        <note>The poems are composed for the readers of the manuscript.</note>
+                        <textLang mainLang="is"></textLang>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="18"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="202"/>
+                                 <width unit="mm" quantity="162"/>
+                              </dimensions>
+                              <!--<watermark ana=""/>-->
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="35 38"> <!-- add ana attribute -->
+                              <num type="wpl" /> <!--atLeast="" atMost=""-->
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="178"/>
+                                 <width unit="mm" quantity="138"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="ambig" scope="sole" script="kurrent">Written by <name type="person">Þórður Jónsson</name> í <name type="place">Kálfavík</name>.
+                        <!-- scribeRef ? -->
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="low"> 
+                        <decoNote type="initial">Thick initials decorated in black ink.</decoNote>
+                     </decoDesc>
+<!--                     <additions ana="">
+                        <p/>
+                     </additions>-->
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1683"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 552 k β 2 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="alm">
+                        <locus from="19r" to="19v">19r-v</locus>
+                        <title type="supplied">Almanak</title>
+                        <textLang mainLang="is"></textLang>
+                     </msItem>
+                     <msItem n="2" class="sendbr">
+                        <locus from="20r" to="20v">20r-v</locus>
+                        <title type="supplied">Sendibréf</title>
+                        <textLang mainLang="is"></textLang>
+                        <note>
+                           Fragment of a letter to <name type="person" key="JonAra002">Jón
+                                 Arason</name>, school headmaster from 1633-1636 in <name type="place" key="Skálh01">Skálholt</name>.
+                        </note>
+                     </msItem>
+                     <msItem n="3" class="versl">
+                        <locus from="21r" to="21r">21r</locus>
+                        <title type="supplied">Verslunarreikningur</title>
+                        <textLang mainLang="is"></textLang>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="3"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="199"/>
+                                 <width unit="mm" quantity="144"/>
+                              </dimensions>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1">
+                              <!--<num type="wpl" atLeast="" atMost=""/>-->
+                              <!--<dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="9">
+                        <handNote scribeRef="unknown" scope="major" script="unknown"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1633" notAfter="1658"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p>On fol. <locus from="21v" to="21v">21v</locus>: <q xml:lang="la">Sum ex libris Vigfusi Gudbrandi</q>.
+                           <name type="person" role="owner" key="VigGud003">Vigfús Guðbrandsson</name> was the grandson of Jón Arason in
+                           Vatnsfjörður.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:27.05+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:30.4+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:39.57+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:55.685+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:33.486+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-06-25" who="#SMM">Added information from handrit.is.</change>
+         <!-- no pictures at the Arnamagnæan collection, Copenhagen -->
+         <!-- various items missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

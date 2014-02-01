@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 12</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-12" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 12</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="isl">
+                     <locus from="1r:1" to="26v:3"/>
+                     <title type="uniform">Gísla saga Súrssonar</title>
+                     <textLang mainLang="non"/>
+                     <colophon>1 6 fynis 8 0</colophon>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="26v:4" to="26v:10"/>
+                     <title type="supllied">Rímur</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Rauna þattur ritadur Man<ex>n</ex>z, Riett s<ex>e</ex>m sagan<ex>n</ex></incipit>
+                     <explicit>gat Ey fluid daudan<ex>n</ex>z dan<ex>n</ex>z</explicit>
+                     <colophon>h þ(?) k þ i</colophon>
+                  </msItem>
+                  <msItem n="3" class="islt">
+                     <locus from="26v:11" to="35r:11"/>
+                     <title type="uniform">Þorsteins þáttr uxafóts</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="35r:12" to="39v:15"/>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>An<ex>n</ex>o 1680 finis</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2">An older paper front cover is preserved and now counted as second
+                              front-flyleaf.</num>
+                           <num type="book-block" value="39"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes">Two lions holding coat of arms with a large crown with a cross on top.</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p/>
+                        </foliation>
+                        <condition ana="average">stains of water on some leaves.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="30 32">
+                           <num type="wpl" atLeast="9" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <!-- displays oddly since only the one handNote is shown -->
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some initials are decorated with faces.</decoNote>
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="low"><p>A few marginal additions to the text, possibly by the scribe himself. On the older front
+                        cover, there are two stickers and a note with the shelfmark.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern binding with marbeled paper on cardboard; white leather on spine and corners. A former front
+                           cover is preserved at the front of the manuscript and now counted as a flyleaf.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1680"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript got most likely into the <name type="organisation" role="owner" key="AntKol001">
+                        Antikvitetskollegie</name>'s possession through Guðmundur Ólafsson.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:51.823+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-01" who="#BES">quick prep. for library. still catalog info missing.</change>
+         <change when="2013-03-07" who="#BES">Measured and checked with the manuscript in situ.</change>
+         <change when="2013-04-04" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

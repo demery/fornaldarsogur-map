@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1766 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1766-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1766 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="riddst">
+                     <locus from="1r" facs="#Lbs04-1766-0001r" to="23v">1r-23v</locus>
+                     <title type="uniform">Líkafróns saga og kappa hans</title>
+                     <textLang mainLang="is"/>
+                     <colophon>Útenduð þann 16. janúarii 1808 af O.S.syni. - Faðir Líkafróns sem hér
+                        er nefndur Períandus var einn af þeim 7 vísu mönnum í Grikklandi er so hétu:
+                        Thales, Bías, Pittaeus, Cleobulus, Chilón, Sólonn, og Períander, sem Halldór
+                        Jakobson kallar Penander, sjá Tímatalsregistur § 5, pag 9. item kalla sumir
+                        lærðir auctores hann Menandes. Tantum</colophon>
+                  </msItem>
+                  <msItem n="2" class="skalds">
+                     <locus from="24r" facs="#Lbs04-1766-0024r" to="36v">24r-36v</locus>
+                     <title type="uniform">Parmes saga loðinbjarnar</title>
+                     <textLang mainLang="is"/>
+                     <author key="JonBja005">Jón Bjarnason</author>
+                     <colophon>Lokið að Melum 1808 af O. Sigurðssyni</colophon>
+                     <note>The scribe describes irregularity in the copying on fol. <locus from="34v" facs="#Lbs04-1766-0034v" to="34v">34v</locus>, 
+                        the correct order being: <locus>35v</locus>, <locus>34v</locus>,
+                        <locus>35r</locus>, <locus>36r-36v</locus></note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="37r" facs="#Lbs04-1766-0037r" to="46v">37r-46v</locus>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast saga af Sturlaugi starfsama og hljóðar svo fyrir yðrum
+                        kærleika sem fylgir</rubric>
+                     <colophon>Endað að Melum við Hrútafjörð á Matthíasmessu á því áttunda ári ins
+                        fyrsta tugar þeirrar nítjándu aldar af Ol. S.syni</colophon>
+                     <note>A verse at the end on Sturlaugur</note>
+                     <msItem n="3.1" class="laus">
+                        <locus from="46v" facs="#Lbs04-1766-0046v" to="46v">46v</locus>
+                        <title type="supplied">Vísa</title>
+                        <textLang mainLang="is"/>
+                        <incipit>Sturlaugur háði hulin gerð</incipit>
+                     </msItem>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="47r" facs="#Lbs04-1766-0047r" to="52v">47r-52v</locus>
+                     <title type="uniform">Gunnars saga Keldugnúpsfífls</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Enduð að Melum við Hrútafjörð þann 23. febrú. anno 1807 af O.
+                        Sigurðssyni</colophon>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="52v" facs="#Lbs04-1766-0052v" to="56v">52v-56v</locus>
+                     <title type="uniform">Ajax saga frækna</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Rituð að Melum 1808 af O. Sigurðssyni</colophon>
+                     <note>According to Simek/Pálsson it seems that Ajax saga frækna og Ajax saga
+                        keisarasonar are the same story but that is not the case here</note>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="56v" facs="#Lbs04-1766-0056v" to="59r">56v-59r</locus>
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <textLang mainLang="non"/>
+                     <colophon>1808 O. S.son </colophon>
+                  </msItem>
+                  <msItem n="7" class="konth">
+                     <locus from="59v" facs="#Lbs04-1766-0059v" to="62v">59v-62v</locus>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Góða þökk tilheyrendur, bestu lesendur, öngva skrifari. - Lokið að
+                        Melum við Hrútafjörð þann 22. febrúarii af O. Sigurðssyni á því áttunda ári
+                        innar nítjándu aldar</colophon>
+                  </msItem>
+                  <msItem n="8" class="rimur">
+                     <locus from="63r" facs="#Lbs04-1766-0063r" to="66r">63r-66r</locus>
+                     <title type="uniform">Skundaríma</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="rimur">
+                     <locus from="66r" facs="#Lbs04-1766-0066r" to="75r">66r-75r</locus>
+                     <title type="uniform">Malararíma</title>
+                     <textLang mainLang="is"/>
+                     <note>... incerti authoris</note>
+                  </msItem>
+                  <msItem n="10" class="rimur">
+                     <locus from="75v" facs="#Lbs04-1766-0075v" to="78v">75v-78v</locus>
+                     <title type="uniform">Rostungsríma</title>
+                     <textLang mainLang="is"/>
+                     <author key="ThoMag016">Þorvaldur Magnússon</author>
+                     <colophon>At the back in the hand of Ólafur Sigurðsson: Endað að Stað við
+                        Hrútaf. 1807 af O. Sigurðssyni. - Hvað misskrifast hefur í þessum bæklingi:
+                        Er góðfús lesari umbeðinn að lagfæra og lesa í málið; og gjöra það þá svo
+                        betur fari. Punktum </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="78"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="197"/>
+                              <width unit="mm" min="142" max="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">From time of digitization.<note>The scribe
+                              describes irregularity in the copying (<locus from="34v" facs="#Lbs04-1766-0034v" to="34v">34v</locus>), the correct order being, <locus>35v</locus>,
+                              <locus>34v</locus>, <locus>35r</locus>, <locus>36r-36v</locus></note></foliation>
+                        <condition ana="average">Stains and discoloration. 
+                           <note>Folios <locus>41-42</locus> and <locus>57-58</locus> have irregular, bold horizontal lines (accounting paper?)</note></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="27 31">
+                           <note>Verses are written separately but not in verse-lines. </note>
+                           <num type="wpl" atLeast="16" atMost="21"/>
+                           <dimensions type="written">
+                              <height unit="mm"/>
+                              <width unit="mm"/>
+                           </dimensions>
+                           <catchwords ana="yes">There are decorations in connection with several
+                              catchwords</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#OlaSig001" scope="major" script="cursiva">I. Síra
+                        Ólafur Sigurðsson wrote fols. <locus>1r-62v</locus> in curisva and hum cursiva</handNote>
+                     <handNote scribeRef="#JonSig023" scope="minor" script="kurrent">II. Síra Jónatan
+                        Sigurðsson <locus>63r-78v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="miniature">In connection with catchwords: 7v, 8r-8v, 10v, 12v,
+                        14r </decoNote>
+                     <decoNote type="initial">initials and rubrics decorated</decoNote>
+                     <decoNote type="frieze" subtype="tailpiece">Bookknot , e.g. on fol. <locus>52v</locus> </decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Front board inner leaf ("paste-down") contains a table of contents (seemingly contemporary)</p>
+                     <p>Two of the front fly leaves are old, two are younger.</p>
+                     <p>Front flyleaf 1-2 and rear flyleaf 3 are reports for Klausturpósturinn from the years 
+                        1821-1824</p>
+                     <p>Front flyleaf 4r has a second table of contents in a different hand</p>
+                     <p>Rear flyleaf 1r-1v has a list of the income of Flateyjarkirkja for the year
+                        1822</p>
+                     <p>Rear flyleaf 2r has a list of the expenses of Múlakirkja but 2v a list of
+                        the same churchs income 1820 og 1821</p>
+                     <p>There are some scribbles on the Rear-innerboard-leaf</p>
+                     <p>On front flyleaf 3v is written the name: <q>Petur Jens Thorsteinson Bíldudal</q>
+                        and stamped at the top of ffl4r: <q><name type="person" key="PetTho002">P.J.Thorsteinsson</name>, Bíldudal</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Embossed leather on wooden boards. On the spine (and part of the front and back covers)
+                           is a large white sticker with the shelfmark.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1807" to="1808">1807-1808</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="PetTho002"/></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:43.552+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:02.776+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:21.44+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2013-01" who="#SK">Adapted to FASNL and information from the digitized version
+            on handrit.is</change>
+         <change when="2013-08-29" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

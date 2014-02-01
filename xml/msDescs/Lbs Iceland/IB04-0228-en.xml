@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 228 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0228-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 228 4to</idno>
+               </msIdentifier>
+               <msContents>
+                 <!-- <titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="1r"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                       <rubric>Þessi sögubók hefur inni að halda eftirfylgjandi sögur, nefnilega:</rubric> 
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="2r" to="14v"/>
+                     <title type="uniform">Samsons saga fagra</title>  
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="15r" to="26v"/>
+                     <title type="uniform">Sálus saga og Nikanórs</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="27r" to="39v"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <rubric>Sagan af Eigli einhenta</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="40r" to="53v"/>
+                     <title type="uniform">Fertrams saga og Platós</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="almb">
+                     <locus from="54r" to="64v"/>
+                     <title type="uniform">Flóres saga og Leós</title>
+                     <rubric>Sagan af Flóres sonum hans</rubric> 
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="65r" to="76v"/>
+                     <title type="uniform">Flóres saga og Blankiflúr</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="77r" to="113v"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <!--<rubric type="uniform">Sigurði þögla</rubric>-->
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="114r" to="132v"/>
+                     <title type="uniform">Gibbons saga og Gregu</title>
+                     <!--<title type="uniform">Gibbons saga</title>-->
+                     <rubric>Gibbons saga kongi og Eskopart</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="133r" to="160v"/>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                     <rubric>Vilhjálmi saga sjóðs</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="161r" to="174v"/>
+                     <title type="uniform">Nikulás saga leikara</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="175r" to="187v"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <rubric>Sagan af Hálfdani Eysteinssyni</rubric>
+                     <textLang mainLang="is"/>
+                     <note>B-vers.</note>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="188r" to="217v"/>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <rubric>Sagan af Hálfdani Brönufóstra</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="14" class="ridd">
+                     <locus from="218r" to="232v"/>
+                     <title type="uniform">Blómsturvalla saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="15" class="forns">
+                     <locus from="233r" to="238v"/>
+                     <title type="uniform">Úlfs saga Uggasonar</title>
+                     <rubric>Sagan af Úlfi Uggasyni</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="16" class="tjodt alfs">
+                     <locus from="239r" to="242v"/>
+                     <title type="uniform">Árna saga Vilhjálmssonar</title>
+                     <textLang mainLang="is"/>
+                     <note>Other titles for same story: Árna saga ljúflings, Saga
+                        Álfa-Árna, Seleyjar-Árna, Sauðeyjar-Árna, Árnaskjal. </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="242"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="204"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later pag fol">Pagination from the time of cataloguing in violet pencil rather crude;
+                           foliation from time of restoration in pencil</foliation>
+                        
+                        <condition ana="poor">Restored with fill-in paper. Many pages are
+                           fragmentary and others unreadable due to fading ink.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="33 35">
+                           <num type="wpl" atLeast="12" atMost="14"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="197"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">Headings</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>
+                     Contemporary and learned additions.
+                  </p>
+                     <p>Two slips from different later times contain registers</p></additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>No binding, boxed</p>
+                        <p>Remnants from binding: A register and: <q>Frá Pétri Friðrikssyni Eggertz 4.1. 1866</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1730" notAfter="1770"/>
+                  </origin>
+                  <provenance>
+                     <p> <name type="person" role="owner" key="PetEgg001">Pétur Eggerz</name> acquired the manuscript in 1866.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:50.921+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-04" who="#SK">Corrected and added to a primitive XML-catloguing on
+            handrit.is from the P.E.Ó.-catlogue and other sources</change>
+         <change when="2012-11-07" who="#SK">Added locus, layout and other information from the manuscript itself</change>
+         <change when="2013-08-06" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+    
+      <fileDesc>
+         <titleStmt>
+            <title>UBB Ms. 58</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="UBB-Ms-58" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBBRG">Universitetsbiblioteket, Bergen</repository>
+                  <idno>UBB Ms. 58</idno>
+               </msIdentifier>
+               <msContents>
+                <titlePage ana="contemporary">
+                <titlePart>Modus legendi abbreviaturas Sveo Göthicas<locus from="004" to="007"/></titlePart>
+                </titlePage>
+                  <msItem n="1" defective="true" class="fas">
+                            <locus from="1r" to="22v">1r-22v</locus>
+                            <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana </title>
+                           <!-- <note>p. 25 missing</note> check!-->
+                            <rubric>1693 af P. Salano. på min omkostnad</rubric>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="24r" to="76r">24r-76r</locus>
+                            <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Hier byriar Sógu af Hrolfe Konge Krøku, og skrifast hier
+                                fyrst þätturin<ex>n</ex> af Fröda k<ex>on</ex>ge og Halfdäne
+                                    Bröd<ex>ur</ex> h<ex>an</ex>s.</rubric> 
+                            <rubric>Cap. 1.</rubric>
+                            <incipit>Madur hiet Haldän, en<ex>n</ex> an<ex>n</ex>ar Fröde, brædur
+                                tveir og K<ex>on</ex>ga syner, <ex>ok</ex> stÿrde sÿnu
+                                rÿke huør þ<ex>eir</ex>ra.</incipit>
+                            <explicit>og endar hier suo søgu Hrolfs kongs kraka og kappa
+                                h<ex>a</ex>ns.</explicit>
+                            <filiation>
+                                <p>Derived from <ref type="ms" target="#Papp-4to-nr-17" ana="protograph">Papp. 4to nr 17</ref>.</p>
+                            </filiation>
+                            <note>Divided into 30 chapters marked with Arabic numerals.</note>
+                        </msItem>
+                        <msItem n="3" class="ridd">
+                            <locus from="77r" to="100r">77r-100r</locus>
+                            <title type="uniform">Samsons saga</title>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="4" class="fas">
+                            <locus from="101r" to="110v">101r-110v</locus>
+                            <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="5" class="fas">
+                            <locus from="110r" to="126v">110r-126v</locus>
+                            <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                            <colophon>Huor endud var þan<ex>n</ex> 11: Augusti Anno
+                                1683</colophon>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="6" class="kon">
+                            <locus from="126r" to="129r">126r-129r</locus>
+                            <title type="supplied">Konunga Saugur</title>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="7" class="kon">
+                            <locus from="129v" to="155v">129v-155v</locus>
+                            <title type="uniform">Heimskringla</title>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="8" class="att">
+                            <locus from="159r" to="159r">159r</locus>
+                            <title type="supplied">Ættartala</title>
+                            <rubric>Ættartala Sverris Kongs fodur
+                                Hakonar kongz f<ex>odur</ex> Hakonar kgs f<ex>odur</ex> Magnus kongs</rubric>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="9" class="sagnfr">
+                            <locus from="163r" to="165r">163r-165r</locus>
+                            <title type="uniform">Guta saga</title>
+                            <title type="supplied">Quomodo Gotlandia inventa et culta</title>
+                            <rubric>af Gotlands lagens MSS. uso Archivo</rubric>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                        <msItem n="10" class="sagnfr">
+                            <locus from="165v" to="166v">165v-166v</locus>
+                            <!-- qvalit or qualit, I think? -->
+                            <title type="supplied">Bellica expeditio qvualit
+                                conditione sucepta olim fuerit.</title>
+                            <textLang mainLang="la"/>
+                        </msItem>
+                        <msItem n="11" defective="true" class="kon">
+                            <locus from="168" to="172">168r-172v</locus>
+                            <title type="uniform">Ólafs saga Tryggvasonar <note>[Excerpts]</note></title>
+                            <title type="supplied">Af Ólafssögu Tryggvasonar</title>
+                            <rubric>Trandheimensium</rubric>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="12" class="kon">
+                            <locus from="173r" to="176v">173r-176v</locus>
+                            <title type="uniform">Færeyinga saga <note>[Excerpts]</note></title>
+                            <title type="parallel">Sigmundar þáttur Brestissonar</title>
+                            <title>Sögubrot af Sigmunde Brestis Syne</title>
+                            <rubric>ed. Skalh. p. 112 Cap. 109</rubric>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="13" defective="true" class="fas">
+                            <locus from="177r" to="178v">177r-178v</locus>
+                            <title ref="#hsh" type="uniform">Sörla þáttur</title>
+                            <title type="supplied">Her hefur upp Sörla þätt</title>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="14" class="fas">
+                            <locus from="181r" to="109v">181r-209v</locus>
+                            <title ref="#fsf" type="uniform">Friðþjófs saga <note>[Swedish]</note></title>
+                            <textLang mainLang="sv"/>
+                        </msItem>
+                        <msItem n="15" class="fas">
+                            <locus from="210r" to="246v">210r-246v</locus>
+                            <title ref="#sss" type="uniform">Sturlaugs saga starfsama <note>[Swedish]</note></title>
+                            <rubric>1694 ut gongen på min omkostand og SKänK Sole merket Ilandan,
+                                ofer [...]</rubric>
+                            <textLang mainLang="sv"/>
+                        </msItem>
+                        <msItem n="16" class="ridd">
+                            <locus from="147r" to="304v">247r-304v</locus>
+                            <title type="uniform">Vilhjálms saga sjóds</title>
+                            <finalRubric>Holmiæ hanc historiam ...</finalRubric>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="17" defective="true" class="fas">
+                            <locus from="305r" to="308v">305r-308v</locus>
+                            <title ref="#esv" type="uniform" xml:lang="sw">Eiríks saga vidförla <note>[Swedish summary]</note></title>
+                            <textLang mainLang="sv"/>
+                            <note>written for <name key="OloRud001" type="person">Olof Rudbeck the elder</name></note>
+                        </msItem>
+                        <msItem n="18" class="sendbr">
+                            <locus from="309r" to="310v">309r-310v</locus>
+                            <title type="supplied">Letter from Salan</title>
+                            <textLang mainLang="sv"/>
+                            <note>written for <name key="OloRud001" type="person">Olof Rudbeck the elder</name></note>
+                        </msItem>
+                        <msItem n="19" defective="true" class="ridd">
+                            <locus from="311r" to="332v">311r-332v</locus>
+                            <title type="uniform">Vilhjálms saga sjóds <note>[Swedish summary]</note></title>
+                            <textLang mainLang="sv"/>
+                            <note>written for <name key="OloRud001" type="person">Olof Rudbeck the elder</name></note>
+                        </msItem>
+                        <msItem n="20" class="sendbr">
+                            <locus from="333r" to="334v">333r-334v</locus>
+                            <title type="supplied">letter from Salan</title>
+                            <textLang mainLang="sv"/>
+                            <note>written for <name key="OloRud001" type="person">Olof Rudbeck the elder</name></note>
+                        </msItem>
+                        <msItem n="21" defective="true" class="fas">
+                            <locus from="335r" to="344r">335r-344r</locus>
+                            <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar <note>[Swedish summary]</note></title>
+                            <textLang mainLang="sv"/>
+                            <note>written for <name key="OloRud001" type="person">Olof Rudbeck the elder</name></note>
+                        </msItem>
+                    </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="11"/>
+                           <num type="book-block" value="353"/>
+                           <num type="back-flyleaf" value="0"/> <!-- check -->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                            <watermark ana="yes">Item 1 has a foolscap mark. Other items have a large royal crown
+                                watermark</watermark>
+                        </support>
+                         <foliation ana="pag contemporary">Contemporary pagination in
+                             dark brown ink in the upper corner. There are earlier separate
+                             paginations in five parts of the manuscript. 24r-76r (HSK);
+                             100r-109v; 126r-154v; 311r-332r, 335r-364v</foliation>
+                         <condition ana="average">There are almost no user traces, but the manuscript is
+                             slightly damaged with curled leaves and brown spots.</condition>
+                     </supportDesc>
+                   <layoutDesc>
+                       <layout ana="verse-prose" columns="1" writtenLines="21 26">
+                           <num type="wpl" atLeast="6" atMost="12"/>
+                           <dimensions type="written">
+                               <height unit="mm" quantity="190"/>
+                               <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                       </layout>
+                   </layoutDesc>
+                  </objectDesc>
+                   <handDesc hands="4">
+                       <handNote scope="major" scribeRef="unknown" script="kurrent">Items
+                           1-13, <locus from="1r" to="178v"/> written in an unknown hand, possibly more than one. A note at
+                           the beginning, <locus>1r</locus>, reads: <q>1693 af P. Salano på min
+                               omkostnad</q>
+                       </handNote>
+                       <handNote scribeRef="unknown" scope="minor" script="kurrent">Items
+                           14-15, <locus from="181r" to="246v"/> written in an unknown hand different from the other
+                           items</handNote>
+                       <handNote scribeRef="#JohPer001" scope="minor" script="kurrent">Item
+                           16, <locus from="147r" to="304v"/> written by <name type="person">Johan
+                               Peringskiöld</name>
+                       </handNote>
+                       <handNote scope="major" scribeRef="#PetSal001" script="kurrent">Items
+                           17-21, <locus from="305r" to="344r"/> written by <name type="person">Petter Salan</name>
+                       </handNote>
+                   </handDesc>
+                   <decoDesc ana="no"><decoNote/></decoDesc>
+                   <additions ana="medium">
+                       <p>On the first front-flyleaf, there is a list of contents [Swedish].
+                          On the 8th to 10th flyleaf, there is another index to the volume.</p>
+                       <p>A strip of paper with chronology bound in with fol.
+                           <locus>166r</locus>.</p>
+                       <p>Marginalia, e.g.
+                           <list type="simple">
+                               <item>
+                                   <locus from="001"/>Denne Samling har tillhørt Professor
+                                   Olof Rudbeck den älldre, som synes af hans i kanterne gjorde
+                                   anmärckningar, ehuruvähl i den af Jon. Salan till Hickesso
+                                   sände förteckning på Rudbeckska MSS: i Sidsta delen af dess
+                                   Thessauro desse Sagor intet finnas omtalte.</item>
+                               <item>
+                                   <locus from="001"/>Ex. libris C.H.Braad Holmiæ in
+                                   Novemb: 1745 Conss 2A ...</item>
+                               <item>
+                                   <locus from="1r"/>1693 af P. Salano på min omkostnad</item>
+                               <item>
+                                   <locus from="23v"/>Ex. Cap. 24. Rolvonis krakes Historia
+                                   Epter þetta rÿdur Hrolfur Kongur og kappar hans
+                                   till hallar Adils kongs og flÿcker allar borgar lÿdur
+                                   upp i hina hæstu turna borgarinnar ad sia prydi
+                                   Hrolfs Kgs -------- þetta var orde sannara ad þar
+                                   þusti brÿniadur madur undan huor skauti þa
+                                   þ<ex>a</ex>r hofdu komist ÿfer grafernar, -- </item>
+                               <item>
+                                   <locus from="23v"/>Hialmters Saga af mig försuanskad
+                                   Samson fagre Riddare incipit a R<gap/> Arto
+                                   Anglice. Hrolfe Sturlaugs Sÿne Saga.</item>
+                               <item>
+                                   <locus from="23v"/>Same extract as above, one line longer,
+                                   part torn out, written in pencil. Perhaps comparison with
+                                   another exemplar.</item>
+                               <item>
+                                   <locus from="24r"/>Ex Archivo Mss 48</item>
+                               <item>
+                                   <locus from="25r"/>þrätt</item>
+                               <item>
+                                   <locus from="47r"/>NB - runer</item>
+                               <item>
+                                   <locus from="50r"/>`` - gautum </item>
+                               <item>
+                                   <locus from="64v"/>Kung
+                                   HälgedrotningUsafärsteman</item>
+                               <item>
+                                   <locus from="65r"/>NB - Adils blotm<ex>adur</ex>
+                               </item>
+                               <item>
+                                   <locus from="65v"/>hundur garmur</item>
+                               <item>
+                                   <locus from="67r"/>Svia gris</item>
+                               <item>
+                                   <locus from="67r"/>Rolfr ridur fran Upsala ofer
+                                   NB&gt;Fÿrisväl</item>
+                               <item>
+                                   <locus from="67v"/>sár gulle så fast att
+                                   wägerlÿsor af gull på fÿriswal</item>
+                               <item>
+                                   <locus from="68v"/>N odin den gamle</item>
+                               <item>
+                                   <locus from="69r"/>fara til  Danmark</item>
+                               <item>
+                                   <locus from="73r"/>NB - mægd og XII bü</item>
+                               <item>
+                                   <locus from="74r"/>NB - i Valhøll gista</item>
+                               <item>
+                                   <locus from="75v"/>V - Gallterus</item>
+                               <item>
+                                   <locus from="96r"/>NB citerar Ragnar Lodbroks Saga</item>
+                               <item>
+                                   <locus from="126r"/>M.J.Pering af Archivo</item>
+                               <item>
+                                   <locus from="128v"/>Hoc Caput non convenit in
+                                   totum cum Vers. Dan.</item>
+                               <item>
+                                   <locus from="166r"/>note in Icelandic on the Norwegian and
+                                   Danish kings</item>
+                               <item>
+                                   <locus from="178r"/>Title-page: Sagann  af
+                                    Frid=þiof frakna Þorsteins sÿne</item>
+                               <item>
+                                   <locus from="271r"/>vid Atland Tom: II p:35 90
+                                   nomina &gt;monstror</item>
+                               <item>
+                                   <locus from="304v"/>Holmiæ hanc historiam descripsi 
+                                   mense Septembri 1683. Johan Peringer</item>
+                           </list>
+                       </p>
+                   </additions>
+                   <bindingDesc>
+                       <binding ana="moderate" contemporary="false">
+                           <p>Yellow marble paper lining with brown leather edges and spine. The binding is in good condition.</p>
+                       </binding>
+                   </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1683" notAfter="1693"/>
+                      <origPlace key="SE"/>
+                  </origin>
+                   <provenance>
+                       <p>Most likely owned by <name key="OloRud001" type="person" role="owner">Olof Rudbeck the elder</name>.
+                       It is likely that the manuscript was inherited by <name key="OloRud002" type="person" role="owner">Olof Rudbeck the younger</name>
+                       and that it was offered for sale in a public auction of his manuscripts in
+                       <date>1741</date>. The next owner was <name key="ChrBra001" type="person" role="owner">Christopher Henric Braad</name>, who wrote his name
+                       in the manuscript in <date>1745</date> at <name type="place">Copenhagen</name>. Braad's manuscripts are said to have been
+                       acquired by <name key="JAALue001" type="person" role="owner">J.A.A. Lüdeke</name> and sold at auction
+                       in <date>1840</date>.
+                           Bergen Museum received the manuscript in <date>1840</date> as a
+                           gift from <name key="KarXIV001" type="person" role="other">Charles XIV</name>, king of Sweden and
+                           Norway.</p>
+                   </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+          
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:22.279+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+          <change when="2013-04-15" who="#BES">Added information from TL's file.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 45317</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-45317" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 45317</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A collection of notes and translations by William Morris which have been bound together.
+                  It would seem that they were never previously part of different bindings.</summary>
+                  <msItem class="tyd isl" n="1">
+                     <locus from="1r" to="18r"/>
+                     <title type="uniform">Egils saga Skallagrímssonar</title>
+                  </msItem>
+                  <msItem class="tyd fas" n="2">
+                     <locus from="19r" to="28r"/>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                  </msItem>
+                  <msItem class="tyd isl" n="3">
+                     <locus from="29r" to="44r"/>
+                     <title type="uniform">Laxdæla saga</title>
+                  </msItem>
+                  <msItem class="tyd isl" n="4" defective="true">
+                     <locus from="45r" to="46v"/>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <note>These two leaves are of a different format than the rest of the notes, written on a leaf of dimensions
+                        150 x 115.
+                     An attempt is made to reproduce a pseudo-Carolingian style script. </note>
+                  </msItem>
+                  <msItem class="tyd kvad" n="5">
+                     <locus from="47r" to="75r"/>
+                     <title type="uniform">Shah Namah</title>
+                     <note>Translation from Persian into English</note>
+                  </msItem>
+                  <msItem class="tyd" n="6">
+                     <locus from="76r" to="76r"/>
+                     <title type="uniform">A copy by Morris of extracts from a book or treatise in French on economics</title>
+                     <note>Translation from French into English</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="76"/>
+                           <num type="back-flyleaf" value="4"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="310"/>
+                              <width unit="mm" quantity="195"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later fol">
+                        </foliation>
+                        <condition ana="poor"/>	
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="17 34">									
+                           <num type="wpl" atLeast="4" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="290"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>	
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#WilMor001" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>	
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1850" notAfter="1890"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="WilMor001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:57.349+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-15" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

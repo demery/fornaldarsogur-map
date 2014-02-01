@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 39</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-39" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 39</idno>
+               </msIdentifier>
+               <msContents>
+<!--                  <titlePage ana=""/>-->
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="98v"/>
+                     <title type="uniform">Orkneyinga saga <note>[Danish]</note></title>
+                     <textLang mainLang="da"/>
+                     <note>Danish transl.</note>
+                     <!-- beginning related to Fornljóti og hans ættmönnum -->
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart"/>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" script="unknown"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1615"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:03.203+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-21" who="#BES">Contains Orkneyinga saga, not #ff.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

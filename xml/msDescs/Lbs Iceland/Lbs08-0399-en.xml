@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 399 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-0399-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 399 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/> 
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="9r"/>
+                     <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                     <rubric>Bygging Íslands, tunga Norðrlanda og frá Fornjóti</rubric>
+                     <textLang mainLang="non"/>
+                     <note>Fragment.</note>
+                  </msItem>
+                  <msItem n="2" class="bokmfr">
+                     <locus from="9r" to="19r"/>
+                     <title type="supplied">Um sögulestur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="stadl">
+                     <locus from="19r" to="22v"/>
+                     <title type="supplied">Um nokkur sérleg platz og Borgarnöfn i Gyðinga Landi</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="alm">
+                     <locus from="23r" to="34v"/>
+                     <title type="supplied">Um mánuðina</title>
+                     <textLang mainLang="is"/>
+                     <note>Fragment.</note>
+                  </msItem>
+                  <msItem n="5" class="bokmfr">
+                     <locus from="35r" to="41v"/>
+                     <title type="supplied">Samtíningr: Nokkrar spurningar, Qvæstiones lepidæ de Deo Patre o.fl.</title>
+                     <textLang mainLang="is" otherLangs="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="55"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="103"/>
+                              <width unit="mm" quantity="81"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="12 19">
+                           <num type="wpl" atLeast="3" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="71"/>
+                              <width unit="mm" quantity="66"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="unknown"/>
+                     <handNote scribeRef="unknown" scope="major" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Fol. 41v and 42r are filled out with pen trials.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1680" notAfter="1720"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:12.82+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-06-29" who="#SMM">Added msItems (classes missing) and missing codes for msDesc</change>
+         <change when="2013-05-22" who="SMM">Completed cataloguing after looking at pictures on handrit.is.</change>
+         <!-- msItems 1 and 2 need checking for locus - very unclear -->
+         <change when="2013-08-28" who="#TL">Checked markup consistency.</change>
+         <!--condition-->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

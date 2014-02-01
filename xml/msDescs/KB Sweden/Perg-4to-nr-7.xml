@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Perg. 4to nr 7</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Perg-4to-nr-7" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Perg. 4to nr 7</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  
+                  <msItem n="1" class="ridd" defective="true">
+                     <locus from="1r" to="9v"/>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <rubric/>
+                     <incipit>at ek sk<ex>al</ex> kep<ex>p</ex>a</incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="10r" to="27v:30"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <incipit>[...] til <supplied reason="damage" instant="false">at</supplied> ketill var x vetra</incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="27v:30" to="39r:34"/>
+                     <title type="uniform">Jómsvíkinga saga</title>
+                     <rubric>H<ex>er</ex> hefr upp iomsuikinga saugu</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="39r:34" to="43r"/>
+                     <title type="uniform" ref="#ask">Ásmundar saga kappabana</title>
+                     <rubric>Her hefr upp saugo Asmundar er kalladr er kappa bani</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="43v" to="57r:20"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit>Grimr het madr lodinkin<ex>n</ex>i</incipit>
+                     <explicit/>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="6" class="isl" defective="true">
+                     <locus from="57r:20" to="58v"/>
+                     <title type="uniform">Egils saga Skallagrímssonar</title>
+                     <rubric/>
+                     <incipit><supplied reason="omitted" instant="false">U</supplied>lfr het m<ex>adr</ex>. h<ex>ann</ex> v<ex>ar</ex> son bialfa</incipit>
+                     <explicit>ok fer vm sumarit in<ex>n</ex> i sogn en for heim norðr er haustadi.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="mixed">
+                        <support>
+                           <!-- the text within the <num> fields does not display - how to encode? -->
+                           <num type="front-flyleaf" value="4">chart</num>
+                           <num type="book-block" value="60">58 perg + 2 chart</num>
+                           <num type="back-flyleaf" value="3">2 perg + 1 chart</num>
+                           <note>Two leaves inserted between fols. <locus>9 and 10</locus>.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="225"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes">Watermark on inserted paper leafs: two lions holding a coat of arms with a crown on top.</watermark>
+                        </support>
+                        <foliation ana="fol">
+                           <p>Older foliation 51-59 and 75-122 in the bottom margin.</p>
+                        </foliation>
+                        <condition ana="average">The leaves are well preserved, although some text lost during trimming. 
+                           The binding is in a rather poor condition.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="36 37">
+                           <num type="wpl" atLeast="15" atMost="24"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <!-- not sure we need this <handNote> twice for the same information, unless we get more details on either
+                        scribe? -->
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p>Fols. <locus from="1r" to="9v">1-9</locus> were written alternately by two scribes.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p>Fols. <locus from="1r" to="9v">1-9</locus> were written alternately by two scribes.</p>
+                     </handNote>
+                        <handNote scribeRef="unknown" scope="major" script="textualis"><locus from="10r" to="58v">10r-58v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">red ink</decoNote>
+                     <decoNote type="paratext">rubrics in red ink and squiggles</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>A total of nine blank leaves were added during binding. 2 parchment, 7 paper leaves: 
+                        4 paper leaves in front, now counted as front flyleaves, 
+                        2 paper leaves between items 1 and item 2; the 2 parchment leaves and 1 paper leaf in the back, 
+                        counted as back flyleaves.
+                        A later scholar added on the recto side of the second front flyleaf in black ink: <q>Isl. in 4o No 7
+                        1. Konráðs Saga keisarasonar. Frgm.
+                        2. Hrólfs S Gautrekssonar. Frgm.
+                        3. Jómsvíkinga Saga.
+                        4. Ásmundar Saga kappabana.
+                        5. Ørvarodds Saga.
+                        6. Egils Saga. Frgm.
+                        Från begynnelsen af 14de århundr.t</q>. Another hand in pencil wrote: 
+                        <q>Begagnades(?) 1877 i Lund af docenten Cederschiöld. ja ända till 1882</q>. On the recto side of the
+                        first back flyleaf, 
+                        another table of contents is added, written in different hands and with page numbers.
+                     In the margins, a few additions can be seen, e.g. musical notes on fol. <locus>24v</locus>.
+                     In between the front flyleaves, two smaller loose leaves are found, one being a facsimile of one 
+                     of the leaves, the other being a slip with notes from counting the leaves.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbeled paper on cardboard; leather spine and corners. 
+                           Different stickers with the shelf mark were fastened on the spine and front cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1300" notAfter="1324"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JorSee001"/>
+                     <p>The manuscript used to be part(s) of a larger codex. The other surviving 
+                        remnants are now found in <ref type="ms" target="#AM04-0580-en">AM 580 4to</ref>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:55:07.887+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-18" who="#BES">Prepared for visit at the library. Added catalog info.</change>
+         <change when="2013-03-04" who="#BES">Measured and checked with the manuscript in situ.</change>
+         <change when="2013-03-20" who="#BES">Added missing information from the black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

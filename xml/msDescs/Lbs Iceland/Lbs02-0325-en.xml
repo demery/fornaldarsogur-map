@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 325 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs02-0325-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 325 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="18r"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <note>The beginning of the first chapter is lacking</note>
+                     <incipit>Þar gera þeir [gröf] djúpa so Oddur komst varla upp. Síðan drepa þeir
+                        Faxa ... </incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="18v" to="34r"/>
+                     <title type="uniform">Mágus saga jarls</title>
+                     <rubric>Hér byrjar Sagan af Máusi jarli</rubric>
+                     <note>With the next two items makes Mágus saga jarls hin meiri</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2.1" class="fornth">
+                     <locus from="34r" to="37r"/>
+                     <title type="uniform">Hrólfs þáttur skuggafífls</title>
+                     <rubric>Hér eftir fylgir Þáttur af Hrólfi skuggafífli</rubric>
+                     <note>Makes Mágus saga jarls hin meiri with Geirarðs þáttur.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2.2" class="ridd" defective="true">
+                     <locus from="37r" to="39v"/>
+                     <title type="uniform">Geirarðs þáttur</title>
+                     <rubric>Hér næst byrjar söguna af Geirhall jarli</rubric>
+                     <note>The last part of Mágus saga jarls hin meiri</note>
+                     <note>Lacking the end</note>
+                     <explicit>... gaf Geirall kongur ollum godar gjafi. Hann gaf þeim sveinum sínum
+                        Smálönd </explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd" defective="true">
+                     <locus from="40r" to="47v"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <rubric>Jarlmanns saga</rubric>
+                     <note>The beginning is missing</note>
+                     <incipit>... þar var ég barnfæddur en sá kóngur sendi mig hingað er Hermann
+                        heitir hann stýrir mörgum ríkjum ... </incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="47v" to="47v"/>
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <rubric>Saga af Eiríki víðförla</rubric>
+                     <note>A-version, the beginning of first chapter only</note>
+                     <incipit>Kóngur er þrándur nefndur ...</incipit>
+                     <explicit>kóngsynir og ætluðu að kanna víða heiminn ... grikkjaóngur þeim
+                        forkunna vel í ölum hlutum en er þeir höfðu ...</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="rim">
+                     <locus from="48" to="76"/>
+                     <title type="uniform">Rímur af Flóres og Leó</title>
+                     <rubric>Rímur af Flóres og Leó. Kveðnar af Bjarna Jónssyni 15 en 9 af séra
+                        Hallgrími Péturssyni</rubric>
+                     <author key="BjaJon001">Bjarni Jónsson 15 rímur</author>
+                     <author key="HallPet001">Hallgrímur Pétursson 9 rimur</author>
+                     <note>Lacking 70th-81st verses of 7th ríma and the end from verse 105. Also the
+                        first 4 verses from the 8th ríma, the end of the last ríma from verse 36, and the
+                        love song (mansöng) from the 15th ríma 15th in its entirety.</note>
+                     <explicit>Hann var krýndur í helgum stað / af hilmir Frakka landa /Englands
+                        kóngdóm eftir það / átti fyrir að standa. Mæt ... þar ...</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="rim" defective="true">
+                        <locus from="77" to="95v"/>
+                        <title type="uniform">Rímur af Hervöru Angantýsdóttur</title>
+                        <rubric>Rímur af Hervöru Angantýsdóttur</rubric>
+                        <author key="AsmSae001">Ásmundur Sæmundsson</author>
+                        <note>Missing the beginning. Starts with the second ríma at verse 27. The
+                           ending of the 20th rima from mid-verse 16 is missing</note>
+                        <incipit>Af hrannar ljóma hjöltin skulu og handfang blika/ og í járni öngvu
+                           saka /og ei heldur við ryði taka</incipit>
+                        <explicit>Hlöður lét hann heygja þar á hóli þessum stóra og ...</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="rim" defective="true">
+                        <locus from="96r" to="115v"/>
+                        <title type="uniform">Rímur af Víglundi og Ketilríði</title>
+                        <rubric>Hér skrifast rímur af Víglundi væna</rubric>
+                        <author key="AsgMag001">Ásgrímur Magnússon</author>
+                        <note>Missing the ending</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="115"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="286"/>
+                              <width unit="mm" quantity="190"/>
+                           </dimensions>
+                           <note>Pages cut at both top and bottom</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Has more or less disappeared as a result of tearing and
+                           cutting</foliation>
+                        <foliation ana="later fol">In pencil, added during the restoration process</foliation>
+                        <condition ana="poor">Worn and torn and subsequently cut at the time of binding,
+                           losing a bit of text, as well as later poor-quality restoration.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="36 47">
+                           <num type="wpl" atLeast="11" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="285"/>
+                              <width unit="mm" quantity="170"/>
+                           </dimensions>
+                           <catchwords ana="yes">a part of a sentence 3-5 words</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Three main
+                        scribes but where there has been damage different hands have filled in the gaps</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Not skilfully done</decoNote>
+                     <decoNote type="border">Decoration pattern on chequered background between
+                        different kind of borders<locus from="18r" to="18r"/></decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>A verse <locus from="18r" to="18r">18r</locus>: Lítt er nú hér letur bætt/
+                        leitt er það í fáu neytt/ nýttu það so raunar rétt/reitt fram þó af hendi
+                        greitt</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Library binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1640" notAfter="1680"/>
+                     <origPlace key="IS">Northern Eyjafjörður</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:39.842+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-06" who="#SK">Added information from the P.E.Ó.-catalogue and other
+         sources</change>
+         <change when="2011-11" who="#SK">Finished the cataloguing with information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

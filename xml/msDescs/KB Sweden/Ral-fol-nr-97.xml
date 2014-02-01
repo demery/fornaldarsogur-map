@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rål. fol. nr 97</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ral-fol-nr-97" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Rål. fol. nr 97</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="28v"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <rubric>KETILLI HÆNGII ET GRIMONIS HIRSUTIENÆ PATRIS ET FILII HISTORIA</rubric>
+                     <textLang mainLang="is" otherLangs="la"/>
+                     <note>Introduction on ff. 1v-3r.</note>
+                     <note>Icelandic text on versos with Latin translation facing on rectos</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="28v" to="41r"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="is" otherLangs="la"/>
+                     <note>This saga is not distinguished from the previous one; it begins at chapter 7.</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="43r" to="57v"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <rubric>Kietil Hängs och Grim Luditkindz Saga, Effter den Högwällborne Herres, Baron och
+                     Hofmarschalkens Hr Gustaf Rålambs Befallning, Förswänskatt af Nils Hufwedson Dal.
+                     Uti Junii Månad åhr 1716.</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="58r" to="64r"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="sv"/>
+                     <note>This saga is not distinguished from the previous one; it begins at chapter 7.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="66"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="315"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes">Rampant lion in a circle topped by a crown.</watermark>
+                        </support>
+                        <foliation ana="fol later">Pencil foliation, every ten pages 1, 11, 21 etc.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 34">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="238"/>
+                              <width unit="mm" quantity="142"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#JohPer001" scope="sole" script="kurrent">ff. 1-42</handNote>
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent">ff. 43-66</handNote>
+                  </handDesc>
+                  <!-- MS appears to be decorated, but unsure how or to what extent -->
+                  <decoDesc ana="low">
+                     <decoNote/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>On the inside front cover is written in black ink: <q>Ms No 97</q>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound with colourful marbeled paper on cardboard boards with dark brown leather on the spine 
+                           and corners. On the spine there is a red paper label, upon which has been written <q>Sa.gor.</q> 
+                           On a yellow label pasted over the spine below is printed: <q>Riks-Bibliotek STOCKHOLM Handskrifter. 
+                           Rålambs samling No.</q>, but no number has been filled in.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1697" notAfter="1715"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:10.832+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-08" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

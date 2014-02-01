@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 8vo nr 8</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-8vo-nr-8" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 8vo nr 8</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="11v"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <incipit>hann færde konge eiin gull hring</incipit>
+                     <colophon>klorad þann 11 november anno 1651 </colophon>
+                     <textLang mainLang="non"/>
+                     <note>begins defective</note>
+                  </msItem>
+                  <msItem n="2" class="riddf">
+                     <locus from="12r" to="41r:9"/>
+                     <title type="supplied">Sigrgarðar saga ok valbrandar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="41r:10" to="59r"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <rubric>Hier bÿriar þjalarJons søgu</rubric>
+                     <incipit>Wylhialmr hefur kongr heijtit hann riedi firir vallandi</incipit>
+                     <explicit>liet odrum til gamans og skemtunar AMEN</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="60r" to="98v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <rubric>Hier biriast saga af gaungu hrolfe</rubric>
+                     <incipit>þad er upphaf a søgu þessare ad Hreggvidur er konungr nefndur</incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="99r" to="135v"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="hels">
+                     <locus from="136r" to="140v:25"/>
+                     <title type="uniform">Placidus saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="avint">
+                     <locus from="140v:26" to="146"/>
+                     <title type="supplied">Æfintýr</title>
+                     <textLang mainLang="non"/>
+                     <note>Seemingly five different unidentified æfinyri</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="146"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atMost="175" atLeast="165"/>
+                              <width unit="mm" atMost="110" atLeast="95"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="fol">Not consistent, pencil leaf numbers appear intermittently.</foliation>
+                        <condition ana="poor">A great deal of water damage, some repairs have been made to the worst affected
+                           leaves.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="24 37">
+                           <num type="wpl" atLeast="10" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" atMost="150" atLeast="125"/>
+                              <width unit="mm" atMost="100" atLeast="85"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Fols. 17v and 18r, various pen trials, notes and comments have been written on two previously blank pages.</p>
+                     <p>Fol. 59v, various notes and comments have been written on a previously blank page.</p>
+                     <!-- Gödel's catlog also mentions an added slip with a table of contents in the hand of Guðmundur Ólafsson -->
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbelled paper on cardboard. The spine and the corners are in white leather. On the spine the
+                           shelfmark is imprinted with golden letters. <q>COD. ISL. PAPP. 8:o N:o 8</q>. A previous binding made
+                           from a medieval parchment leaf containing a religious text in Latin has been bound in when the volume
+                           was rebound. It appears that some kind of clasp was made from thin strips of the parchment and these
+                           are still present. The leaf is extremely dark and the text faded.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1651"/>
+                   <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="organisation" role="owner" key="AntKol001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:00.383+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-06" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>Bibliothèque Sainte-Geneviève MS. 3713</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="StGen-3713-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#StGen">Bibliothèque Sainte-Geneviève, Paris</repository>
+						<idno>MS. 3713</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						
+						<titlePage ana="no">
+							
+							<note>Contains translations of sagas into French. All items have translations
+								on recto leaves and notes on verso.</note>
+							
+						</titlePage>
+						
+						
+						<msItem n="1" class="samt">
+							<locus from="1r:1" to="10r:10"/>  							
+							<title type="uniform">Þorgils saga og Hafliða <note>(Extracts, French)</note></title>
+							<title type="parallel">Sturlunga saga</title>
+							<title type="running">Une noce en 1119</title>
+							<textLang mainLang="fr"/>
+							<rubric>Un repas de noces a Reykjahólar de Reykjanes en 1119</rubric>
+							<incipit>Á cette époque Yngvildr fille de Þórðr habitait dans l'ouest en Ísafjorðr</incipit>
+							<explicit>beaucoup de jens touants en histoire liament-ils cette saga pour vraie</explicit>
+							<note>Contains the wedding scene from Þorgils saga ok Hafliða. (rubric indicates that it comes
+								from Chap. 10, Sturlunga saga I.16)</note>
+																										
+						</msItem>
+						
+						<msItem n="2" class="kon">
+							<locus from="11r:1" to="26r:15"/>  							
+							<title type="uniform">Hálfdanar þáttur svarta <note>(French)</note></title>
+							<title type="parallel">Hálfdanar þáttr svarta</title>
+							<title type="parallel">Hálfdanar saga svarta</title>
+							<textLang mainLang="fr"/>
+							<rubric>Þáttr de Hálfdan svarti</rubric>
+							<incipit>Hálfdan svarti pris, á l'âge de dix huit ans</incipit>
+							<explicit>jusquà ceque cette practique fut incendite par ses parents</explicit>
+							<note>Note on fol. 11r indicates it was taken from <q>Flateyjarbók I.361. sq</q></note>
+							
+						</msItem>
+						
+						<msItem n="3" class="kon">
+							<locus from="27r:1" to="51r:10"/>  							
+							<title type="uniform">Ólafs saga Tryggvasonar <note>(Extracts, French)</note></title>
+							
+							<msItem n="3.1" class="konth">
+								<locus from="27r:1" to="40r:14"/>
+								<title type="supplied">Albanus þáttur og Sunnifu <note>(French)</note></title>
+								<title type="parallel">Albanus þáttr og Sunnifu</title>
+								<textLang mainLang="fr"/>
+								<rubric>Þáttr d' Albanus et de Sunnifa</rubric>
+								<incipit>On dit qu'aux jours de Hákon jarl</incipit>
+								<explicit>toujours vénérée à cause de ses éfreuves terrestres</explicit>
+								<note>Note on fol. 27r reads: <q>Flateyjarbók. Saga s. Óláfr Tryggvason. T.1. p. 242. sq</q></note>
+								
+							</msItem>
+							
+							<msItem n="3.2" class="konth">
+								<locus from="41r:1" to="51r:10"/>
+								<title type="supplied">Hákonar þáttur Sigurðarsonar <note>(French)</note></title>
+								<title type="parallel">Hákonar þáttr Sigurðarsonar</title>
+								<title type="running">Mort de Hákon jarl</title>
+								<!-- Not sure this is the correct title -->
+								<textLang mainLang="fr"/>
+								<rubric>Derniers jours de Hákon Sigurðarson, jarl de Hlaðir</rubric>
+								<incipit>Hákon était en banquet à Meðalhús en Gauladælr</incipit>
+								<explicit>celui de la sainte foi et de la vraie religion</explicit>
+								<note>Text on every leaf has been crossed-out with blue pencil</note>
+								<note>Note on fol. 41r reads: <q>Heimskringla. Chap. 48, 49 et 50 de la saga d'Óláfr
+								Tryggvason. [Edition Finnur Jónsson. TI. p. 348 sq.</q></note>
+								
+							</msItem>
+		
+						</msItem>
+						
+						<msItem n="4" class="bisks">
+							<locus from="52r:1" to="72:8"/>  							
+							<title type="uniform">Guðmundar saga biskups <note>(Extracts, French)</note></title>
+							<title type="parallel">Guðmundar saga góða</title>
+							<textLang mainLang="fr"/>
+							<rubric>Saga de Guðmundr góði dite aussi Saga du prêlde Guðmundr</rubric>
+							<incipit>Et comme les bicus qu'avait possédés Ari revenaient à son fils Guðmundr</incipit>
+							<explicit>et Guðmundr Arason prit en maines l'affaire de meurlde [meuitte?].</explicit>
+							<!-- unsure about last word -->
+							<note>Note on fol. 52r reads: <q>extraits de la Sturlunga saga edition de
+							Guðbrandr Vigfússon. Oxford 1878. p. 93 sq. T.I.</q></note>
+							
+						</msItem>
+						
+						<msItem n="5" class="kon">
+							<locus from="73r:1" to="119r:11"/>  							
+							<title type="uniform">Ólafs saga Tryggvasonar <note>(Extracts, French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Extraits de l'Heimskringla. Saga d'Olafr Tryggvason</rubric>
+							<incipit>Rauðr enn ramme est le nom d'un bóndi</incipit>
+							<explicit>en toute autorité le jarl Eirikr était le premier de ces frères.</explicit>
+							<note>Note on fol. 73r reads: <q>ch. 79 et 80 - 88 - 93 et 94 - et de 97 à 113. 
+								Edition de Finnur Jónsson.</q> Text on each leaf crossed-out in blue pencil.</note> 
+							
+						</msItem>
+						
+						<msItem n="6" class="kon">
+							<locus from="120r:1" to="136r:14"/>  							
+							<title type="uniform">Magnús saga góða <note>(Extracts, French)</note></title>
+							<title type="uniform">Haralds saga hardráða <note>(Extracs, French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Oddr Ófeigsson et le roi Haraldr harðráði</rubric>
+							<incipit>Un été arrive d'Ísland Oddr fils d'Ófeigr fils de Skiði</incipit>
+							<explicit>et jamais ne fut plus dans l'amitié de loi.</explicit>
+							<note>Note on fol. 120r read: <q>Extrait de la Saga de Magnús góði et de
+							Haraldr harðráði. Flateyjarbók. T III. p. 381. sq.</q></note>
+							
+						</msItem>
+						
+						<msItem n="7" class="kon">
+							<locus from="137r:1" to="143v:11"/>  							
+							<title type="uniform">Ólafs saga helga <note>(Extracts, French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Óláfr Haraldsson en France (le roi Saint Óláfr)</rubric>
+							<incipit>Dixième combat, en Hringsfjorðr</incipit>
+							<explicit>Le roi Óláfr arriva en Norðmandi en automne et y passa
+							l'hiver pres la Signa, et y est une feue de paix.</explicit>
+							<note>Note on fol. 137r reads: <q>Chap de 16 à 20 de le saga d'Óláfr enn helgi. Heimskringla
+							Tom II. Edition Finnur Jónsson.</q></note>
+							<note>Two leaves of notes containing commentary to Ólafs saga helga have been
+							inserted between fols. 143 and 144. They have been paginated by the compiler as 144I-144IIII.</note>
+							
+						</msItem>
+						
+						<msItem n="8" class="fas">
+							<locus from="144r:1" to="190r:11"/>  							
+							<title type="uniform" ref="#oeos">Örvar-Odds saga <note>(Extracts, French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Chapitres de 17 à 31 de la Saga d' Ǫrvar Oddr</rubric>
+							<incipit>Et quand finit la saison, Oddr et ses compagnons séparent</incipit>
+							<explicit>et maintenant il est fini de parler de Hjálmarr</explicit>
+							<note>Note on fol. 144r reads: <q>Edition R.C. Boer</q></note>
+							<note>Fols. 188-190 contain an index.</note>
+							
+						</msItem>
+						
+						<msItem n="9" class="fas">
+							<locus from="190v:1" to="193r:15"/>
+							<title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka <note>(Extracts, French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Le marmennill dans le saga de Hálfr et des Hálfsrekkar</rubric>
+							<incipit>Cet automne, un père et un fils</incipit>
+							<explicit>un þraell et une servante</explicit>
+							<note>Text on each leaf has been crossed-out in blue pencil</note>
+						</msItem>
+						
+						<msItem n="10" class="kon">
+							<locus from="194r:1" to="197r:10"/>
+							<title type="uniform">Ólafs saga Tryggvasonar <note>(Extracts, French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Heimskringla. Saga d'Oláfr Tryggvason.</rubric>
+							<incipit>Haraldr Gormsson, roi de Danir, appuis que le jarl Hákon</incipit>
+							<explicit>et jaimais plus ne paya tribut au roi des Danis</explicit>
+							<note>Note on fol. 194r reads: <q>Chap. 33. Edition Finnur Jónsson. Tome I.</q></note>
+							<note>Text on each leaf has been crossed-out in blue pencil</note>
+						</msItem>
+						
+						<msItem n="11" class="kon">
+							<locus from="198r:1" to="366r:20"/>  							
+							<title type="uniform">Færeyinga saga <note>(Extracs, French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Færeyinga saga</rubric>
+							<incipit>Il y eut un homme appele Grímr kambæn</incipit>
+							<explicit>On n'a pas mentionné d'autres hauts faits de Sigmundr Brestisson et de ses descendants.</explicit>
+							<note>Note on fol. 198r reads: <q>Edition de Rafn et Mohmille. Copenhague 1833. et
+							Flateyjarbók. Christiania. 1860-1868</q></note>
+							<note>Fols. 360-366 contain supplementary material (index and chronology)</note>
+							
+						</msItem>
+						
+						<msItem n="12" class="regist">
+							<locus from="367r:1" to="367r:14"/>
+							<title type="supplied">Table of Contents</title>
+							<textLang mainLang="fr"/>
+							<rubric>Table du fascicule</rubric>
+							<incipit>1. Ein repas de noces i Reykjahólar en 1119</incipit>
+							<explicit>11. Færeyinga saga (Edition Rafn)</explicit>
+						</msItem>
+						
+						
+												
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="368"/>
+									<num type="back-flyleaf" value="1"/>
+									<note>Foliation numbers are given in each opening. Fol. 368 and numerous leaf versos are blank</note>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="270"/>
+										<width unit="mm" quantity="200"/>
+									</dimensions>
+									
+									<watermark ana="no"/>
+									
+								</support>
+								
+								<foliation ana="contemporary fol"/>
+								
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-prose" columns="1" writtenLines="15">									
+									
+									<num type="wpl" atLeast="10" atMost="13"/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity="230"/>
+										<width unit="mm" quantity="160"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#LouLeP001" scope="sole" script="hum cursiva"/>
+						</handDesc>
+						
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						
+						<additions ana="low">
+							<p>Small, hand-drawn map of the Faroes taped on to fol. 199v</p>
+						</additions>
+						
+						<bindingDesc>
+							<binding ana="plain" contemporary="true">
+								<p>Bound in contemporary paper bindings with later laminate reinforcement.</p>
+							</binding>							
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1892"/>
+							<origPlace key="FR"/>
+							<note>Composed some time after 1892, the date of Boer's edition of Örvar-Odds saga.</note>
+						</origin>
+						
+						<provenance>
+							<name key="LouLeP001" type="person" role="owner"/> 
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-01-18" who="#JSL">Generated record from Calames catalogue</change>
+			<change when="2013-02-16" who="#JSL">Cataloged from manuscript</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

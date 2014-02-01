@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 363 I-III 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0363-I-III-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 363 I-III 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">  
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="24"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="196"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc ana="2">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Same for AM 363 I and III 4to.</handNote>
+                     <handNote scribeRef="#ArnMag001" scope="minor" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding notBefore="1772" notAfter="1780" contemporary="false" ana="plain"> <!-- need to check binding ana -->
+                        <p>Binding from 1772-1780 (<dimensions type="binding" unit="mm">
+                              <height>202</height>
+                              <width>162</width>
+                              <depth>70</depth>
+                           </dimensions>).</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <!--<history>
+                  <provenance>
+                     <p/>
+                  </provenance>
+               </history>-->
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 363 I 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="6v">1r-6v</locus>
+                        <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                        <textLang mainLang="non"/>
+                        <note>Copy of a manuscript written by séra Jón Erlendsson í Villingaholti, AM 169 d fol. (see <name key="ArnMag001" type="person">Árna Magnússon</name>'s comment on 1r).</note>
+                        <note>Fols. 7 and 8 blank; fol. 6v mostly blank.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="8"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="196"/>
+                                 <width unit="mm" quantity="159"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="27">
+                              <num type="wpl" atLeast="10" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="161"/>
+                                 <width unit="mm" quantity="144"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc ana="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent">Same scribe as AM 363 III 4to.</handNote>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="secondary" subtype="initial">
+                           <p>Fol. 1r: Initial slightly bigger.</p>
+                        </decoNote>
+                        <decoNote type="secondary" subtype="rubric">
+                           <p>Fol. 1r: Letters in the rubric slightly bigger.</p>
+                        </decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>Comment on 1r.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1690" notAfter="1710"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <!--<provenance>
+                        <p/>
+                     </provenance>-->
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 363 II 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="6r">1r-6r</locus>
+                        <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                        <textLang mainLang="non"/>
+                        <note>The beginning of the Latin translation of the saga on fol. 6v is crossed out.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="6"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="157"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>                           
+                           <condition ana="good">
+                              <p>Text on 6v crossed out.</p>
+                           </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="25 26">
+                              <num type="wpl" atLeast="8" atMost="13"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="166"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc ana="1">
+                        <handNote scribeRef="#ArnMag001" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="medium">
+                        <p>
+                           <list>
+                              <item n="1">Rubrics in the margins.</item>
+                              <item n="2">Variants in the margins of 1r and 1v.</item>
+                              <item n="3">Remarks on the text on 6r.</item>
+                              <item n="4">Squiggles on 1r (bottom).</item>
+                           </list>
+                        </p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1690" notAfter="1710"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <!--<provenance>
+                        <p/>
+                     </provenance>-->
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 363 III 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="10r">1-10r</locus>
+                        <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                        <textLang mainLang="non"/>
+                        <note>Fol. 10v blank.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="10"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="196"/>
+                                 <width unit="mm" quantity="159"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="23 30">
+                              <num type="wpl" atLeast="7" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="163"/>
+                                 <width unit="mm" quantity="139"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc ana="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent">Same scribe as AM 363 I 4to.</handNote>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="secondary" subtype="initial">
+                           <p>Fol. 1r: Initial slightly decorated.</p>
+                        </decoNote>
+                        <decoNote type="secondary" subtype="initial">
+                           <p>Fol. 5v and 8v: Initials slightly bigger.</p>
+                        </decoNote>
+                        <decoNote type="secondary" subtype="rubric">
+                           <p>Letters in the rubrics slightly bigger.</p>
+                        </decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>
+                           <list>
+                              <item n="1">Comment on fol. 1r by <name key="ArnMag001" type="person">Árni Magnússon</name>.</item>
+                              <item n="2">Ornamental letter: 7r.</item>
+                           </list>
+                        </p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1690" notAfter="1710"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p>
+                           <name key="ArnMag001" role="owner" type="person">Árni Magnússon</name> got the manuscript from an
+                           unidentified Björn (1r).</p>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:23.594+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:28.148+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:37.536+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:53.447+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:31.349+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-06-17" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <!-- watermark missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

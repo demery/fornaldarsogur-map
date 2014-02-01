@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 89</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-89" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 89</idno>
+               </msIdentifier>
+               <msContents>
+                  <!-- this displays strangely; not sure what to do with it -->
+                  <titlePage ana="contemporary">
+                     <titlePart>I. N. F. Triga Historiarum Hyperborearum</titlePart>
+                     <titlePart>Ia De GRIMERO HIRTIGENA.</titlePart>
+                     <titlePart>IIa De CATILLO HÆNGERO.</titlePart>
+                     <titlePart>IIIa De ODDO IAEULATORE</titlePart>
+                     <titlePart>qvam Latiali Sermone, Studioqvo potuit, donavit.</titlePart>
+                     <titlePart>SVENO-G. WILSKMAN.</titlePart>
+                     <titlePart>Philos. MAG. et V. Translator in Regio Antiqvitat. Archivo</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="3r" to="14r:14"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna <note>[Latin]</note></title>
+                     <textLang mainLang="la"/>
+                     <filiation>
+                        <p>Based on 
+                        <ref type="ms" target="#Papp-fol-nr-73" ana="protograph">Papp. fol. nr 73</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="14v" to="41r:13"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs <note>[Latin]</note></title>
+                     <textLang mainLang="la"/>
+                     <filiation>
+                        <p>Based on 
+                        <ref type="ms" target="#Papp-fol-nr-73" ana="protograph">Papp. fol. nr 73</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="41v" to="219r"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga <note>[Latin]</note></title>
+                     <textLang mainLang="la"/>
+                     <filiation>
+                        <p>Based on 
+                        <ref type="ms" target="#Papp-fol-nr-73" ana="protograph">Papp. fol. nr 73</ref>.</p>
+                     </filiation>
+                     <note>Younger vers.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="220"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes">Oval shaped watermark; no recognisable images</watermark>
+                        </support>
+                        <foliation ana="pag fol later">
+                           <p>Double pagination (pencil and brown ink); foliation on every tenth leaf</p>
+                        </foliation>
+                        <condition ana="good">Occasionally the ink is bleeding through</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="19 20">
+                           <num type="wpl" atLeast="2" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="265"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#SveWil001" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="other">Rubrics partly rendered with darker ink and sparkling particles.</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>On first front flyleaf: <q>Island. Chart. in folio. No 8<del>7</del><add>9</add>. Inbunden år 1843
+                        G.O.H.C.J(?). Denna öfversättning är utarbetad år 1744 af Mag. Sven Wilskman efter E.J.Bioerners Svenska
+                        öfversättning (Isl. Chart. in fol. No 73. 1.2.3.)</q>.</p> <p>On the second front flyleaf, another hand wrote:
+                        <q>Mti(?) Kongl: Antiquitets Archivo indlefvererad d. 13. Aprilis 1745.</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with leather spine and corners. The golden imprint on the spine reads:
+                              <q>Historia Hyperboreæ de Grimero Hirtigena, Catillo Hangero et Oddo Jaeulatore. Latine P. S. G.
+                              Wilskman</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1744"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:06.332+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. catalog info still missing.</change>
+         <change when="2013-03-06" who="#BES">Measured and checked at the library.</change>
+         <change when="2013-03-25" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

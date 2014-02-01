@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11117</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11117" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11117</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="fas" n="1">
+                     <locus from="1r" to="330v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Gaungu Hrólfs Saga skrifat eptir No. 338 fiögra blada formi (i 4to) Trínitatis turni í Kaupmannahöfn</rubric>
+                     <incipit>Sva biriar þessa frásögu: at Hreggvidr er konúngr nefndr</incipit>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0338-en" ana="antigraph">AM 338 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="330"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="205"/>
+                              <width unit="mm" quantity="175"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Two consecutive leaves are marked 321 and a leaf is unfoliated after f. 328</foliation>
+                        <condition ana="good"/>	
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="14 16">									
+                           <num type="wpl" atLeast="5" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="145"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>	
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#HanWiu001" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="illustration">f. 138 - a sword</decoNote>
+                  </decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1780" notAfter="1820"/>
+                     <origPlace key="Copen01"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:54.064+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-08" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

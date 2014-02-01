@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>JS 112 8vo</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="JS08-0112-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                        <idno>JS 112 8vo</idno>
+                    </msIdentifier>
+                    <msContents>
+                       <!-- <titlePage ana=""></titlePage>-->
+                        <msItem n="1" class="laus">
+                            <locus from="1r" facs="#JS08-0112-0001r" to="5v">1r-5v</locus>
+                            <title type="supplied">Vísur</title>
+                            <rubric>Vísur úr Víglundar sögu</rubric>
+                            <incipit>Veit ek gullhrings gætir</incipit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="2" class="isl">
+                            <locus from="6r" facs="#JS08-0112-0006r" to="6v">6r-6v</locus>
+                            <title type="uniform">Bandamanna saga <note>[Parts]</note></title>
+                            <rubric>Úr Bandamanna sögu</rubric>
+                            <incipit>Fyrr var sæmra</incipit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="3" class="drott">
+                            <locus from="7r" facs="#JS08-0112-0007r" to="9r">7r-9r</locus>
+                            <author key="GisIll001">Gísl Illugason</author>
+                            <title type="supplied">Verses on king Magnús berbeinn</title>
+                            <rubric>Gísl Illugason um Magnús konung berbein</rubric>
+                            <incipit>Ungr framdi hann sik</incipit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="4" class="drott">
+                            <locus from="9v" facs="#JS08-0112-0009v" to="10r">9v-10r</locus>
+                            <author key="Thoooo012">Þórarinn stuttfeldur</author>
+                            <title type="uniform">Stuttfeldardrápa</title>
+                            <rubric>Í Stuttfeldar drápu. Þórarinn stuttfeldi um Sigurð Jórsalafara</rubric>
+                            <incipit>Dreif til handa</incipit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="5" class="drott">
+                            <locus from="10v" facs="#JS08-0112-0010v" to="10v">10v</locus>
+                            <author key="Halooo004">Halldór skvaldri</author>
+                            <title type="uniform">Útfarardrápa</title>
+                            <rubric>Halldór skvaldri í drápu þeirri er hann orti um Sigurð
+                            Jórsalafara</rubric>
+                            <incipit>Ok fádýrir fóru</incipit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="6" class="fas kvad">
+                            <locus from="11r" facs="#JS08-0112-0011r" to="14v">11r-14v</locus>
+                            <title type="uniform" ref="#hs">Hervarar saga og Heiðreks <note>[Verses]</note></title>
+                            <rubric>Hervör kvað í Sámseyju</rubric>
+                            <incipit>Vakna þú Angantýr</incipit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="7" class="kont">
+                            <locus from="16r" facs="#JS08-0112-0016r" to="29v">16r-29v</locus>
+                            <title type="uniform">Noregs konunga tal</title>
+                            <rubric>Noregskonungatal ex cod: Flat. col. 587</rubric>
+                            <incipit>Þat verðr skylt</incipit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="8" class="kvad tul">
+                            <locus from="30r" facs="#JS08-0112-0030r" to="40r">30r-40r</locus>
+                            <title type="uniform">Rígsþula</title>
+                            <rubric>Hér aftan við stendur Rígsþula</rubric>
+                            <colophon><gap/> skrifað eftir hendi M. Jóns Ólafssonar, <gap/> Kaupmannahöfn
+                                25. april 1740 (<locus from="40r" facs="#JS08-0112-0040r" to="40r">40r</locus>)</colophon>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="9" defective="true" class="malfr">
+                            <locus from="40v" facs="#JS08-0112-0040v" to="43v">40v-43v</locus>
+                            <title type="uniform">Fjórða málfræðiritgerðin</title>
+                            <rubric>Úr trópólógía eður rhetorik <gap/></rubric>
+                            <note>Part of the work.</note>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="10" class="helgkv">
+                            <locus from="44r" facs="#JS08-0112-0044r" to="47v">44r-47v</locus>
+                            <title type="uniform">Krosskvæði</title>
+                            <rubric>Krosskvæði</rubric>
+                            <incipit>Heill heilagur kross</incipit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="11" class="helgkv">
+                            <locus from="47v" facs="#JS08-0112-0047v" to="51r">47v-51r</locus>
+                            <author key="JonAra001">Jón Arason</author>
+                            <title type="uniform">Krossvísur</title>
+                            <rubric>Aðrar Krossvísur. Biskup Jón</rubric>
+                            <incipit>María drottning mild og skær</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="12" class="helgkv">
+                            <locus from="51v" facs="#JS08-0112-0051v" to="52r">51v-52r</locus>
+                            <author key="JonPal002">Jón Pálsson</author>
+                            <title type="supplied">Maríuvísur</title>
+                            <rubric>Maríuvísur af Jóni Maríuskáldi sem var faðir Finnboga lögmanns </rubric>
+                            <incipit>Sankta María mater mild</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="13" class="helgkv">
+                            <locus from="52r" facs="#JS08-0112-0052r" to="55r">52r-55r</locus>
+                            <author key="LofGut001">Loftur Guttormsson</author>
+                            <title type="supplied">Maríuvísur (?)</title>
+                            <rubric>Aðrar Lofts ríka</rubric>
+                            <incipit>María móðirin skæra</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem><msItem n="14" class="helgkv">
+                            <locus from="55r" facs="#JS08-0112-0055r" to="56r">55r-56r</locus>
+                            <author key="LofGut001">Loftur Guttormsson</author>
+                            <title type="supplied">Maríuvísur</title>
+                            <rubric>Maríuvísur Lofts ríka</rubric>
+                            <incipit>María heyr mig háleitt víf</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="15" class="helgkv">
+                            <locus from="56r" facs="#JS08-0112-0056r" to="56v">56r-56v</locus>
+                            <title type="supplied">Maríuvísur</title>
+                            <rubric>Enn Maríuvísur</rubric>
+                            <incipit>Dýrðarlegast dyggðablóm</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="16" class="helgkv">
+                            <locus from="56v" facs="#JS08-0112-0056v" to="58v">56v-58v</locus>
+                            <title type="uniform">Pálsdiktur</title>
+                            <rubric>Sankti Pálsdiktur</rubric>
+                            <incipit>Bið eg að styrki málsnilld mína</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="17" class="helgkv">
+                            <locus from="58v" facs="#JS08-0112-0058v" to="60r">58v-60r</locus>
+                            <title type="uniform">Nikulásdiktur</title>
+                            <rubric>Nikulásdiktur</rubric>
+                            <incipit>Dýrðarfullur drottinn minn að dugðu mér…</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="18" class="kvad">
+                            <locus from="60v" facs="#JS08-0112-0060v" to="63r">60v-63r</locus>
+                            <title type="uniform">Ólafsvísur</title>
+                            <rubric>Sankti Ólafsdiktur</rubric>
+                            <incipit>Herra Ólafur hjálpin Noregslanda</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="19" class="helgkv">
+                            <locus from="64r" facs="#JS08-0112-0064r" to="66v">64r-66v</locus>
+                            <author key="DadHal001">Daði Halldórsson</author>
+                            <title type="supplied">Jungfrúr Maríædans</title>
+                            <rubric>Jungfrúr Maríædans</rubric>
+                            <incipit>Guðs almáttugs dóttir dýr</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="20" class="helgkv" defective="true">
+                            <locus from="67r" facs="#JS08-0112-0067r" to="67r">67r</locus>
+                            <author key="DadHal001">Daði Halldórsson</author>
+                            <title type="supplied">Maríu ærukrans</title>
+                            <rubric>Maríu ærukrans kveðinn af síra Daða Halldórssyni í Steinsholti,
+                            Hreppum</rubric>
+                            <incipit>Almáttugur einvaldsdrottinn</incipit>
+                            <note>Only 1st stanza.</note>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="21" class="helgkv">
+                            <locus from="70r" facs="#JS08-0112-0070r" to="71v">70r-71v</locus>
+                            <title type="uniform">Cecilíudiktur</title>
+                            <rubric>Ceciliukvæði, eftir pergamenti</rubric>
+                            <incipit>Guð minn sæti</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="22" class="helgkv">
+                            <locus from="72r" facs="#JS08-0112-0072r" to="77v">72r-77v</locus>
+                            <title type="uniform">Maríulykill</title>
+                            <rubric>Maríulykill</rubric>
+                            <incipit>Veittu mér eg verða mætti</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="23" class="kvad">
+                            <locus from="78r" facs="#JS08-0112-0078r" to="79r">78r-79r</locus> 
+                            <title type="supplied">Ljúflingsljóð</title>
+                            <rubric>Ljúflingsljóð</rubric>
+                            <incipit>Sofi sonur minn</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="24" class="salm">
+                            <locus from="80r" facs="#JS08-0112-0080r" to="80r">80r</locus>
+                            <title type="supplied">Sálmar</title>
+                            <rubric>Arbor nuptialis Islandica</rubric>
+                            <incipit>Sem blóm<supplied reason="illegible">skrúð</supplied> er stendur stöðug á mörk …</incipit>
+                            <textLang mainLang="is" otherLangs="la"/>
+                        </msItem>
+                        <msItem n="25" class="kvad">
+                            <locus from="81r" facs="#JS08-0112-0081r" to="81r">81r</locus>
+                            <!-- title? -->
+                            <incipit>Hver lýr harma snæri?</incipit>
+                            <colophon>1738 Þ.Ls. (<locus from="81r" facs="#JS08-0112-0081r" to="81r">81r</locus>)</colophon>
+                            <note>Beginnig missing.</note>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="26" class="kvad">
+                            <locus from="81v" facs="#JS08-0112-0081v" to="82r">81v-82r</locus>
+                            <!-- title? -->
+                            <rubric>Fáorð fararheillaósk</rubric>
+                            <incipit>Vörður hers veðra storðar</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="27" class="kvad">
+                            <locus from="82v" facs="#JS08-0112-0082v" to="82v">82v</locus>
+                            <title type="supplied">Kvæði</title>
+                            <textLang mainLang="da"/>
+                        </msItem>
+                        <msItem n="28" class="kvad">
+                           <locus from="83r" facs="#JS08-0112-0083r" to="83r">83r</locus>
+                           <title key="supplied">Kvæði</title>
+                           <incipit>Bikarinn hjóna ber eg hér</incipit>
+                           <note>Without a title</note>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="29" class="kvad">
+                           <locus from="83v" facs="#JS08-0112-0083v" to="83v">83v</locus>
+                           <title key="supplied">Kvæði</title>
+                           <incipit>Hjartans hryggð er hverfur burt</incipit>
+                           <note>Without a title</note>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="30" class="kon drott">
+                           <locus from="84r" facs="#JS08-0112-0084r" to="85v">84r-85v</locus>
+                            <title type="uniform">Knýtlinga saga <note>[Verses]</note></title>
+                           <rubric>Ex Knýtlinga saga</rubric>
+                           <incipit>Komtu í land ok lendir</incipit>
+                           <textLang mainLang="is" otherLangs="la"/>
+                        </msItem>
+                        <msItem n="31" class="salm">
+                           <locus from="86r" facs="#JS08-0112-0086r" to="86r">86r</locus>
+                            <title type="supplied">Sálmar (?)</title>
+                           <rubric>Carmina concordantia</rubric>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="32" class="salm">
+                           <locus from="86v" facs="#JS08-0112-0086v" to="86v">86v</locus>
+                           <author key="HalPet001">Hallgrímur Pétursson</author>
+                            <title type="supplied">Sálmar</title>
+                           <rubric>Síra H<ex>allgrímur</ex> P<ex>éturs</ex>son</rubric>
+                           <incipit>Best er að trúa einn guð á</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="33" class="salm">
+                           <locus from="87r" facs="#JS08-0112-0087r" to="88v">87r-88v</locus>
+                            <title type="supplied">Sálmar (?)</title>
+                           <rubric>De cruce</rubric>
+                           <incipit>Carmen vetustis simum</incipit>
+                            <textLang mainLang="is" otherLangs="la"/>
+                        </msItem>
+                        <msItem n="34" class="salm">
+                           <locus from="89r" facs="#JS08-0112-0089r" to="91r">89r-91r</locus>
+                           <author key="JonGud012">Jón Guðmundsson</author>
+                            <title type="supplied">Sálmar</title>
+                           <rubric>Psálmur síra Jóns Guðmundssonar sem var fyrst prestur að
+                                Laugardælum í Flóa, nú að Sólheimum og Dyrhólum</rubric>
+                           <incipit>Einn gullkálf tilbað Ísrael</incipit>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="35" class="salm">
+                           <locus from="92r" facs="#JS08-0112-0092r" to="97r">92r-97r</locus>
+                           <author key="JonMag008">Jón Magnússon</author>
+                            <title type="supplied">Sálmar</title>
+                           <rubric>In egressu anni 1636. Qvo abut præceptor meus summe dilectus Dn:
+                                Magnus Olai Laufasiæ, et ingressu novi anni 1637. Memoriale</rubric>
+                           <incipit>Gáum vær Guð sem játum</incipit>
+                            <textLang mainLang="is" otherLangs="la"/>
+                        </msItem>
+                        <msItem n="36" class="kvad">
+                           <locus from="97v" facs="#JS08-0112-0097v" to="97v">97v</locus>
+                            <title type="supplied">A Hebrew poem (?)</title>
+                           <rubric>Hebresk ljóðmæli heilags anda um lof guðhræddrar kvinnu í 31.
+                                kap. orðskviðanna Salomonis</rubric>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="book-block" value="97"/> <!-- flyleaves ? -->
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="164"/>
+                                        <width unit="mm" quantity="102"/>
+                                    </dimensions>
+                                    <watermark ana="yes"/>
+                                </support>
+                                <foliation ana="contemporary pag later fol">Paginated 1-80 (<locus>1r-40v</locus>) and 1-8 (<locus>41r-48r</locus>).
+                                    Foliation in pencil for digitization.</foliation>
+                                <condition ana="good"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="18 20">
+                                    <num type="wpl" atLeast="5" atMost="8"/>
+                                    <!--<dimensions type="written">
+                                        <height unit="mm" quantity=""/>
+                                        <width unit="mm" quantity=""/>
+                                    </dimensions>-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="999">
+                            <handNote scribeRef="unknown" scope="minor" script="unknown"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="low">
+                            <p>Some corrections or additions in the margins.</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="plain" contemporary="false">
+                                <p>Embossed leather binding. Originally a leather cover.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1700" to="1799"/>
+                            <origPlace key="IS"/>
+                        </origin>
+                        <provenance>
+                            <name type="person" role="owner" key="JonSig004"/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-07-22" who="#SMM">Cataloguing from pictures on handrit.is.</change>
+            <!-- layout dimensions missing -->
+            <change when="2013-08-27" who="#BES">Proofread as far as possible.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

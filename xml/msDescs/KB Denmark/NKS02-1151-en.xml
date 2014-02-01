@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1151 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1151-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1151 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="regist">
+                     <locus from="1r:1" to="1r:16"/>
+                     <title type="supplied">Table of contents</title>
+                     <textLang mainLang="la" otherLangs="non"/>
+                     <colophon>Mangus (et) Isfold</colophon>
+                  </msItem>
+                  <msItem n="2" class="konth" defective="true">
+                     <locus from="2r" to="17v"/>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                       <p>Copy of <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="18r" to="39v"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <note>H-vers.</note>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="4" class="sagnps" defective="true">
+                     <locus from="40r" to="86r:"/>
+                     <title type="uniform">Trójumanna saga</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="5" class="sagnps" defective="true">
+                     <locus from="86r" to="197v"/>
+                     <title type="uniform">Breta sögur</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="5.1" class="kvad">
+                        <locus from="145r:15" to="170v:12"/>
+                        <title type="uniform">Merlinusspá</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="198r" to="222v"/>
+                     <title type="uniform">Eiríks saga rauða</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="223"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="302"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                              <watermark ana="yes">Maid of Dort "ProPatria"</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="26">
+                           <num type="wpl" atLeast="3" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="240"/>
+                              <width unit="mm" quantity="138"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>                  
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote script="chancery" scope="sole" scribeRef="#GudHel001">Guðmundur Helgason signed with "Magnus (et) Issfold"</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>
+                        <name type="person" key="PetSuh001" role="scholar">Suhm</name> added some notes (e.g. fol.
+                        <locus>1r</locus>).</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Light brown leather binding with golden floral ornaments and the title of the first text <q>HRALL SAGA</q> on the spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="scholar" key="PetSuh001">Peter Suhm</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:30.95+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-19" who="#BES">Added infirmation form Kålund's catalog.</change>
+         <change when="2013-04-24" who="#BES">Added missing information with the ms in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

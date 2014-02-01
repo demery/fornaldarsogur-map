@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 627 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0627-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 627 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="110"/>
+                           <!--<num type="back-flyleaf" value=""></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="24 39">
+                           <num type="wpl" atLeast="9" atMost="18"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="178"/>
+                              <width unit="mm" quantity="159"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="3">
+							<handNote scribeRef="unknown" scope="major" script="unknown"/>
+						</handDesc>
+                  <decoDesc ana="low">
+                     <decoNote/>
+                  </decoDesc>
+                  <additions ana="low"/>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate from="1790" to="1825"/>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                     <note>From a collection in 19 volumes: <ref target="JS04-623" type="ms">JS 623
+                        4to</ref> - <ref target="JS04-641" type="ms">JS 641 4to</ref>
+                     </note>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+							<idno>JS 627 4to I</idno>
+						</altIdentifier>
+                  <msContents>
+                     <titlePage ana="later"/>
+                     <msItem n="1" class="forns">
+                        <locus from="1r" facs="#JS04-0627-0001r" to="41v"/>
+                        <title type="uniform">Starkaðar saga gamla</title>
+                        <note>Preface on fol. 24r: Þáttur af Ívari víðfaðma, Helga hvassa
+									og Hræreki kóngi, Haraldi hilditönn og Brávallarbardaga</note>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="islt">
+                        <locus from="42r" facs="#JS04-0627-0042r" to="47v"/>
+                        <title type="uniform">Grænlendinga þáttur</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+								<supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="47"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+								   <foliation ana="later fol"/>
+								   <condition ana="poor"/>
+                        </supportDesc>
+								<layoutDesc>
+								   <layout ana="verse-separate" columns="1 2" writtenLines="24 30">
+                              <num type="wpl" atLeast="9" atMost="18"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="183"/>
+                                 <width unit="mm" quantity="145"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+							</objectDesc>
+                     <handDesc hands="1">
+								<handNote scribeRef="unknown" scope="major" script="unknown"/>
+							</handDesc>
+                     <decoDesc ana="low">
+								<decoNote type="miniature">Miniature on folio: <locus from="33r" facs="#JS04-0627-0033r" to="33r">33r</locus></decoNote>
+							</decoDesc>
+                     <additions ana="low">
+                        <p>Title page on flyleaf <locus from="ffl2r" facs="#JS04-0627-0002r" to="ffl2r">ffl2r</locus> and a table of contents on flyleaf <locus from="ffl2v" facs="#JS04-0627-0002v" to="ffl2v">ffl2v</locus>, 
+                           by <name type="person" key="PalPal003">Páll Pálsson</name>
+                           the student</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+								<origDate from="1800" to="1825"/>
+                        <origPlace key="IS"/>
+							</origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+							<idno>JS 627 4to II</idno>
+						</altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="48r" facs="#JS04-0627-0048r" to="71v"/>
+                        <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="kon">
+                        <locus from="72r" facs="#JS04-0627-0072r" to="82v"/>
+                        <title type="uniform">Færeyinga saga</title>
+                        <note>Part of the saga</note>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="ridd">
+                        <locus from="83r" facs="#JS04-0627-0083r" to="92r"/>
+                        <title type="uniform">Flóres saga og Blankiflúr</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+								<supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="45"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+								   <foliation ana="later fol">Folio count is skipped on <locus from="73r" facs="#JS04-0627-0073r" to="73r">fol. 73r</locus> and resumes with the count '73' and so on from <locus from="74r" facs="#JS04-0627-0074r" to="74r">fol. 74r</locus>.</foliation>
+								   <condition ana="average"/>
+                        </supportDesc>
+								<layoutDesc>
+								   <layout ana="verse-prose" columns="1" writtenLines="31 36">
+                              <num type="wpl" atLeast="11" atMost="15"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="168"/>
+                                 <width unit="mm" quantity="144"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+							</objectDesc>
+                     <handDesc hands="1">
+								<handNote scribeRef="unknown" scope="major" script="unknown"/>
+							</handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+								<origDate when="1794"/>
+                        <origPlace key="IS"/>
+							</origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+							<idno>JS 627 4to III</idno>
+						</altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="93r" facs="#JS04-0627-0093r" to="110r"/>
+                        <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+								<supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="18"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+								   <foliation ana="later fol"/>
+                           <condition ana="poor">
+                              <p>Of fol. <locus>108</locus>, only a little fragment is preserved; Fols. <locus>107-108</locus> are loose.
+										   </p>
+									</condition>
+                        </supportDesc>
+								<layoutDesc ana="verse-prose">
+                           <layout columns="1" writtenLines="26 30">
+                              <num type="wpl" atLeast="9" atMost="15"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="174"/>
+                                 <width unit="mm" quantity="133"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+							</objectDesc>
+                     <handDesc hands="1">
+								<handNote scribeRef="unknown" scope="major" script="unknown"/>
+							</handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>The fragment of fol. <locus>108</locus> is glued onto a leaf from a former binding, on which there are 
+                        the remnants of the name <q>Ingv. Torfa.</q></p> 
+                        <p>Fols. <locus>109-110</locus> are added and written by <name type="person" role="scribe" key="PalPal003">Páll Pálsson</name>.
+                        These leaves contain the same text as fols.
+                        <locus>107r-108r</locus>.</p>
+                     </additions>
+                     <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+                  </physDesc>
+                  <history>
+                     <origin>
+								<origDate from="1790" to="1820"/>
+                        <origPlace key="IS"/>
+							</origin>
+                     <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:20.003+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:53:26.076+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:42:44.9+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:18:20.104+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2012-09-05" who="#SMM">Added missing codes and information.</change>
+         <!-- missing information regarding layoutDesc -->
+         <change when="2012-09-29" who="#SMM">Added msItems and locus from ms photographs from the Arnamagnaean collection in Copenhagen.</change>
+         <!-- missing information that can be acquired from ms itself only, i.e. bindingDesc -->  
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

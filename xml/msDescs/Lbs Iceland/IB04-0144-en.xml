@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 144 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0144-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 144 4to</idno>
+               </msIdentifier>
+               <msContents>
+                 <!-- <titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="46v"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <rubric>Saga af Göngu Hrólfi</rubric>
+                     <incipit>Þad er upphaf þess<supplied reason="damage">ara</supplied>
+                         sógu ad Hreggvidur hef<supplied reason="damage">ur</supplied>
+                       k<ex>ongu</ex>r Heijted Han<ex>n</ex> Riede f<ex>yrer</ex>
+                        Garda Rijki</incipit>
+                     <explicit>Son<ex>ur</ex> Hromund<ex>ar</ex> V<ex>ar</ex> Arnar
+                        Fader Jngölfs. er fijrstur bijgde JssLand. ä Ofan<ex>n</ex>
+                           Verdum<ex>m</ex>
+                        dőgum<ex>m</ex> Haralldar Harfagra.</explicit>
+                     <finalRubric>Og Lűkum<ex>m</ex> Vi<ex>er</ex>
+                        So Hier med Sőgu af Hrölfe Sturlaugz
+                        sijne:</finalRubric>
+                     <colophon>Bijriud i October. en<ex>n</ex> Endud i Novemb<ex>er</ex>
+                        <date when="1771">1771</date>/.</colophon>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="47r" to="73v"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <rubric>Sagan Samson fagra</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="74r" to="110v"/>
+                     <title ref="#ssst" type="uniform">Sörla sterka</title>
+                     <rubric>Sagan af Sörla sterka</rubric>
+                     <incipit>A þeim Dógum<ex>m</ex> s<ex>e</ex>m Hälfdan<ex>n</ex>
+                        k<ex>ongu</ex>r Brónufőstre stijrde (H)
+                        Svijarijke, Hvórt H<ex>an</ex>n Van<ex>n</ex> med Her
+                        skijllde af Agn<ex>ar</ex>e Hinum<ex>m</ex> Audga
+                        En<ex>n</ex> sette mäg sin<ex>n</ex>
+                        Astő yfer Eingland</incipit>
+                     <explicit>s<ex>e</ex>m eftt<ex>er</ex> H<ex>an</ex>n stijrde
+                        Einglande ä dogu<ex>m</ex> Har<ex>allds</ex> k<ex>o</ex>ngs
+                        Hilldetan<ex>n</ex><ex>ar</ex>. þor<ex>er</ex>
+                        st<ex>er</ex>ke V<ex>ar</ex> Jarl ä medan Hőgne
+                        Rijkte. En<ex>n</ex> Sval
+                        gi<ex>or</ex>de Han<ex>n</ex> Hertuga</explicit>
+                     <finalRubric>og Endast Hier Sorla Sterka
+                        Saga.</finalRubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="almb">
+                     <locus from="111r" to="178v"/>
+                     <title type="uniform">Pontanus saga Persakonungs</title>
+                     <rubric>Sagan af Pontiano, hans syni Diocletiano og þeim sjö
+                        meisturum</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="179r" to="195v"/>
+                     <title type="uniform">Blómsturvalla saga</title>
+                     <rubric>Sagan af Blómsturvöllum</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd" defective="true">
+                     <locus from="196r" to="245v"/>
+                     <title type="uniform">Mágus saga</title>
+                     <rubric>Sagan af Mágusi jarli með þáttum</rubric>
+                     <note>End missing.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="245"/>
+                         <!--  <num type="back-flyleaf" value=""/>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 25">
+                           <num type="wpl" atLeast="6" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="181"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#JakSig001" scope="minor" script="chancery">Jakob Sigurðsson wrote <locus from="1r" to="110v">1r-110v</locus>; chancery and kurrent</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="unknown"><locus from="111r" to="245v">111r-245v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                     <additions ana="medium"><p><locus>P. 89, right margin</locus>: <q>Fall
+                       Halfd<supplied reason="damage">ar</supplied>
+                        köng<supplied reason="damage">s</supplied></q>.</p> 
+                        <p><locus>P.
+                           92, left margin</locus>: <q>Daude
+                             drottn<ex>ingar</ex>
+                              Halfd<ex>anar</ex> k<ex>ongs</ex></q>.</p>
+                       <p> <locus>P. 114, left
+                                 margin</locus>: <q><supplied reason="damage">B</supplied>ardage 
+                                    <supplied reason="damage">So</supplied>rla st<ex>er</ex>ka
+                                    <supplied reason="damage">i</supplied> Svijþiod</q>. <locus>P.
+                                       116, left margin</locus>: <q>Fall 
+                                         Sigmund<ex>ar</ex></q>.</p>
+                       <p> <locus>P. 84, left margin</locus>: <q>Bardage
+                           <supplied reason="damage">H</supplied>alfd<ex>anar</ex>
+                           k<ex>onge</ex>
+                          og Sörla.</q></p>
+                        <p><locus>P. 93, right margin</locus>: <q>Geis
+                           <ex>og</ex>
+                           ofse Branfri<supplied reason="damage">jdar</supplied>
+                          Drottn<supplied reason="damage">i</supplied>ngar</q>.</p> 
+                        <p><locus>P. 104, left
+                                 margin</locus>: <q xml:lang="is"><supplied reason="damage">Ba</supplied>rdage 
+                                    <supplied reason="damage">H</supplied>őgna 
+                                    <supplied reason="damage">Há</supplied>lfd<ex>anar</ex>Son<ex>ar</ex>
+                                    <supplied reason="damage">i</supplied> upplondum.</q>
+                        <locus>P. 107, right margin</locus>: <q>Fall
+                           Erl<ex>ijngz</ex> k<ex>ongs</ex></q>.</p> 
+                       <p> <locus>P. 109, right
+                              margin</locus>: <q>Kijnge 
+                                 <ex>og</ex> brogd Hilldigunnar</q>.</p> 
+                       <p> <locus>P. 119,
+                                    right margin</locus>: <q>An<ex>n</ex>ar <supplied reason="damage">Bar</supplied>dage 
+                                       So<supplied reason="damage">rla</supplied>
+                                    i Svij <supplied reason="damage">þiod</supplied>.</q></p>
+                                       <p><locus>P. 124, left margin</locus>: <q>B<ex>ar</ex>dage Einvijge Hógna <ex>og</ex>
+                                          <supplied reason="damage">S</supplied>orla
+                                          st<ex>er</ex>ka</q>.</p> 
+                       <p> <locus>P. 126, left margin</locus>:
+                        <q>Ö Sigur SorLa.</q> All in the hand of the
+                        scribe and concerning the text. Other additions: <locus>P. 117, top
+                           margin</locus>: <q>gudmundur steph</q> and
+                        <locus>p. 120, top margin</locus>: <q>gudmundur
+                           Steffa</q>. <locus>P. 1</locus>, inside the initial: <q>Marteinn Jónsson 12/12/60.</q></p>
+                       <p> <locus>P. 47, bottom
+                           margin<!-- 1st page of Samsons saga --></locus>: <q>Madama Gudmundur sal Stephansson</q>. <locus>P. 99, right
+                                 margin</locus>: <q>Skrif holl skyst skalkur hugsi
+                                    fugsi silfurs trusi herdid eí herians lus a
+                                    dræíngeí</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>leather binding.
+                           <note>Items 1-3 seem to have been bound in the wrong order as items 2 and 3 should come before item 1.</note></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1771"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <!--<provenance></provenance>-->
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:51:50.118+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-10-16" who="#SMM">Completed xml encoding and provided some missing information from handrit.is. Translated into English.</change>
+         <change when="2012-11-07" who="#SMM">Black and white from the Arnamagnaean collection in Copenhagen checked for layout dimensions and more.</change>
+         <change when="2013-01-17" who="#BES">Added information from SVH's diss: rubrics, additions, hands, watermark and binding information</change>
+         <change when="2013-08-06" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

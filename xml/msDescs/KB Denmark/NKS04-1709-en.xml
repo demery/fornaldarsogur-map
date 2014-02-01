@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1709 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1709-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1709 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 96 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/> 
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="1v"/>
+                     <title type="supplied">Table of contents</title>
+                     <textLang mainLang="da"/>
+                     <note>With information on source manuscripts</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="2r" to="7r:3"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna [Excerpt]</title>
+                     <incipit>... eigi haufðu þau Grómr oc LOpthæna lengi saman verit</incipit>
+                     <explicit> Grímr þótti mikill maðr fyrir sier oc lykr svo hans sögu.</explicit>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="#AM04-0340-en" ana="antigraph">copy of AM 340 4to</ref></filiation>
+                     <note>Beginning omitted</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="7r:4" to="179r:3"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="#AM04-0340-en" ana="antigraph">copy of AM 340 4to</ref></filiation>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="179r:4" to="227v:6"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="#AM04-0340-en" ana="antigraph">copy of AM 340 4to</ref></filiation>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="227v:6" to="272v"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="#AM04-0340-en" ana="antigraph">copy of AM 340 4to</ref></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/> 
+                           <num type="book-block" value="272"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="192"/> 
+                              <width unit="mm" quantity="154"/>
+                           </dimensions>
+                           <watermark ana="yes">"JHonig <ex>et</ex> Zoonen"; Maid of Dort "ProPatria"</watermark>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="13 19">
+                           <num type="wpl" atLeast="2" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="145"/>
+                              <width unit="mm" quantity="107"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GudHel001" scope="sole" script="hum cursiva">Hum cursiva for main text; chancery for rubrics and titles.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>
+                     On the verso side of the first front flyleaf, <name key="PetSuh001" type="person" role="owner">Suhm</name> made a note and signed it <q>PFSuhm</q>. 
+                     Scholarly notes in the margin in his hand.
+                  </p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown leather binding with fore-edge painted blue and marbled paper on pastedown. Golden imprint in the spine: title of item 1 and floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" key="PetSuh001" role="owner">Formerly Suhm's collection no. 96 4to.</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:39.2+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-02" who="#BES">Added catalog info.</change>
+         <change when="2013-06-22" who="#BES">Addes missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

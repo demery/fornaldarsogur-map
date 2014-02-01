@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 25</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-25" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 25</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1v" to="130v"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <rubric>Hier byrjast Saga Af Hrölfe Könge Kraka (Krøku) Og Hefst Hier Fyrst Fröda þättur</rubric>
+                     <colophon>Lyktad i Stockholm 14. Januarij. Anno 1686</colophon>
+                     <filiation>Collation of <ref type="ms" target="#Papp04-0013-en" ana="antigraph">Papp. 4to nr 13</ref>, <ref type="ms" target="#Papp04-0017-en" ana="antigraph">Papp. 4to nr 17</ref>, <ref type="ms" target="#Papp02-0001-en" ana="antigraph">Papp. fol. nr 1</ref> The variants are either combined into
+                        one reading or they are given in brackets as alternatives.</filiation>
+                     <textLang mainLang="non"/>
+                     <note>Divided into seven þættir with descriptive headings and independent numbering. The 52
+                        chapters are also numbered consecutively from beginning to end. Each chapter has a title composed by the
+                        scribe.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="130"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes">Large watermark with two small animals (dogs or lions?) holding an emblem, a royal
+                              crown and ornaments on top of that. The watermark on the flyleaves is a bee hive with floral
+                              ornaments. "1910" and "No 2". On the opposite side it reads "LESSEBO" </watermark>
+                        </support>
+                        <foliation ana="fol later">Modern pencil foliation in the upper right hand corner on every tenth
+                           page.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="29 31">
+                           <num type="wpl" atLeast="8" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="240"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <note>written on verso-side only. recto-side left blank.</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#HelOla001" scope="sole" script="hum cursiva">Helgi Ólafsson used hum cursiva for main
+                        text and chancery for rubrics and title.</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">decorated with ornaments, black ink</decoNote>
+                     <decoNote type="other">rubric in black ink, decorated with ornaments</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Mostly underlining and corrections by a later hand. The spine of the original binding is glued onto the
+                        inside of the front cover. It reads: <q>HROLS KRAKES dana-Kong S.</q>
+                        <q>ADILS Svia <supplied reason="damage" instant="false">Kongs</supplied></q>. The last word is glued over
+                        with a strip of paper: <q>No 25 Islandica</q><q>2</q>. There are two more stickers with the shelfmark on
+                        the inside of the binding.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="false">
+                        <p>Modern binding: Cardboard boards with marbeled paper, with leather on the spine. The imprint on the
+                           spine reads: <q>Cod Isl. P. Fol. N:o 25</q> A strip of the original binding is glued onto the inside of
+                           the front cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1686"/>
+                     <origPlace key="SE">Stockholm</origPlace>
+                  </origin>
+                  <provenance>
+                     <!-- add to auth -->
+                     <name type="organisation" role="commissioner" key="AntKol001">Antikvitetskollegiet</name>
+                     <name type="organisation" role="owner" key="AntKol001">Antikvitetskollegiet</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:02.695+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-26" who="#BES">Prepared for visit at the library.</change>
+         <change when="2013-03-05" who="#BES">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

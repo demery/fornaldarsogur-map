@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 167 b 8vo</title>
+         </titleStmt>
+
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc xml:id="AM08-0167b-III-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 167 b III 8vo</idno>
+               </msIdentifier>
+
+               <msContents>
+                  
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="13v:21"/>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks <note>(Extracts)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>Vr sogu Heidrekz kongz</rubric>
+                     <incipit>Heidrekur kongur liet ala gollt mikin<ex>n</ex></incipit>
+                     <explicit>þ<ex>ei</ex>r toku suerdid Tyrfyng <ex>og</ex> allt fie þ<ex>ad</ex> er in<ex>n</ex>e var <ex>og</ex> hofdu a burtt
+                     m<ex>ed</ex> sier.</explicit>
+                     
+                     <note>Contains only the riddles with an abridged version of Björn Jónsson á Skarðsá's commentary</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="2" class="gat">
+                     <locus from="14r:1" to="14v:6"/>
+                     <title type="supplied">Bird riddles and Year riddle</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Bonde spurde huskarl sin<ex>n</ex> þuy han<ex>n</ex> hefdi so leinge burtt verid</incipit>
+                     <explicit>xij manuder iv vikur vij dagar</explicit>              
+                    
+                  </msItem>
+                  
+                  <msItem n="3" class="texfr?">
+                     <locus from="14v:7" to="24r:17"/>
+                     <title type="supplied">Commentary on Sigrdrífumál</title>
+                     <textLang mainLang="is"/>
+                     <rubric>M.S. Radnyng Bry<supplied instant="false">n</supplied>hilldar lioda</rubric>
+                     <incipit>Huor Brynhilldur Budla dotter kuad til Sigurdar Fofnsbana</incipit>
+                     <explicit>o<ex>c</ex> var kollud Vidfin<ex>n</ex>a vølufegri</explicit>
+                  </msItem>
+                  
+                  <msItem n="4" class="edd">
+                     <locus from="24v:1" to="25v:19"/>
+                     <title type="uniform">Hárbarðsljóð <note>(Extracts)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>Vr Harbardz liödum</rubric>
+                     <incipit>Þor for austur o<ex>c</ex> kom ad sundi einu</incipit>
+                     <explicit/>
+                     <!-- explicit difficult to read in image, but 5 lines follow the end of the material in Hárbarðsljóð. 
+                        Last words appear to be 'oþorf donum' -->
+                     
+                     <note>A prose summary of Hárbarðsljóð</note>
+                  </msItem>
+                  
+                     
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="25"/>
+                          <!-- <num type="back-flyleaf" value=""/>-->
+                           
+                           <!--<dimensions type="leaf">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           
+                         <!--  <watermark ana="no|yes"/>-->
+                           
+                        </support>
+                        
+                        <foliation ana="fol">Foliated in the lower margin of recto leaves. An earlier foliation also visible
+                        in the lower margins.</foliation>
+                        
+                       <!-- <condition ana="poor|average|good"/>-->
+                        
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21">									
+                           
+                           <num type="wpl" atLeast="8" atMost="9"/>
+                         
+                           
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="medium">
+                     <p>Autographs at the foot of fol. <locus>1v</locus>: <q>Jön Jonsson[?]</q>
+                        and <locus>3v</locus>: <q>Þorsteyne Olafsson</q>.</p> 
+                        <p>Religious couplet at the foot of fol. <locus>2v</locus>.</p> 
+                     <p>Occasional marginalia throughout.</p>
+                  </additions>
+                  
+                 <!-- <bindingDesc>
+                     <binding ana="plain|moderate|decorative" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>-->
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"><!--Árni Magnússon--></name>
+                     <note>Fols. <locus>12-25</locus> were previously <ref type="ms">AM 164 8vo</ref>, fols. <locus>70-83</locus>. They were moved to this manuscript
+                        in 1963.</note>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:51.095+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-03-21" who="#JSL">Supplied information from handrit and Kålund catalogs. 
+            Cataloged MS from photographic images.</change>
+         <change when="2013-08-23" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

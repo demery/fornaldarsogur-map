@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1700 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1700-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1700 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no 1274 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>
+                        <note>Separate title pages.</note>
+                     </titlePart>
+                  </titlePage>
+                  <msItem n="1" class="handfr">
+                     <locus from="1r" to="4r"/>
+                     <title type="supplied">Notes about the Edda manuscripts of Árni Magnússon</title>
+                     <textLang mainLang="da"/> 
+                  </msItem>
+                  <msItem n="2" class="ordb">
+                     <locus from="5r" to="11v"/>
+                     <title type="supplied">Glossary</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fornmæle</rubric>
+                     <incipit>Anndþverte. audstreimur</incipit>
+                     <explicit>Ymugustur. ill for þeinkíng sem bæde kann ad vera sónn og loginn</explicit>
+                     <filiation><ref type="ms" target="#AM04-0738-en" ana="antigraph">copy of AM 738 4to</ref></filiation>
+                     <textLang mainLang="is"/> 
+                  </msItem>
+                  <msItem n="3" class="ordb">
+                     <locus from="12r" to="23r"/>
+                     <title type="supplied">Glossary</title>
+                     <rubric>Nockrar Islendskar Glósur sem eru svo auðskilldar epter því sem nú tíðkazt. hvoriar að finnazt opt í þeim gómlum Vísum</rubric>
+                     <incipit>Vo. það er ein glósa í því gamla mále</incipit>
+                     <explicit>Feningsgrós. þau feck Brana Hálldán hálfvir sínum fördum.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="attat">
+                     <locus from="29r" to="35v"/>
+                     <title type="supplied">Ættartala</title>
+                     <filiation><ref type="ms" target="#AM04-0738-en" ana="antigraph">copy of AM 738 4to</ref></filiation>
+                     <rubric>Lítitl Ættartala frá Adam til Noregs Konga. Udskreven efter Cod. Chart ... No 738 af Magnusen</rubric>
+                     <note>From Adam to Sigurður hjörtur</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <title type="supplied">Verses from two fornaldarsögur</title>
+                     <rubric>Vísur úr Hrafnistumanna-saugu</rubric>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  <msItem n="4.1" class="fas kvad">
+                     <locus from="38r" to="49r:2"/>
+                     <title type="uniform">Gríms saga loðinkinna [verses]</title>
+                     <filiation><ref type="ms" target="#AM04-0738-en" ana="antigraph">copy of AM 738 4to</ref></filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4.2" class="fas kvad">
+                     <locus from="49r:3" to="66v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga [verses]</title>
+                     <filiation><ref type="ms" target="#AM04-0738-en" ana="antigraph">copy of AM 738 4to</ref></filiation>
+                     <textLang mainLang="non"/>
+                  </msItem></msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="book-block" value="66"/>
+                        <num type="back-flyleaf" value="1"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="210"/> 
+                           <width unit="mm" quantity="165"/>
+                        </dimensions>
+                        <watermark ana="yes">Maid of Dort "ProPatria"</watermark>
+                     </support>
+                        <foliation ana="contemporary pag">Separately paginated.</foliation>
+                        <foliation ana="later fol">Not on every leaf.</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="16 20">
+                           <num type="wpl" atLeast="2" atMost="5">
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="150"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </num>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MMagnu001" scope="sole" script="hum cursiva"/><!-- M.Magnusen most likely different from #MagMag009 -->
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>On fol. <locus>1r</locus>, <name key="PetSuh001" type="person" role="owner">Suhm</name> 
+                     made a note which he signed <q>PFSuhm</q>. Other notes by Suhm on title pages of texts, e.g. fol. <locus>37r</locus>.
+                  Some marks and additions in the margins.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Pale paper binding. On the spine are some titles of the items (handwritten).</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 1274 4to.</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:38.191+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-05-01" who="#BES">Added catalog info.</change>
+         <change when="2013-05-23" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

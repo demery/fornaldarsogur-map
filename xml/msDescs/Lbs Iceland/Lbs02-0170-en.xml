@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 170 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs02-0170-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 170 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="39v"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <rubric>Hér byrjar söguna af Hrólfi kóngi kraka og skrifst Saga Hrólfs konungs
+                     kraka og skrifast fyrst þáttur af Fróða kóngs</rubric>
+                     <filiation>
+                        <ref type="ms" target="AM04-285-en" ana="protograph">Based on AM 285 4to</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="forns">
+                     <locus from="41r" to="56v"/>
+                     <title type="uniform">Haralds saga Hringsbana</title>
+                     <rubric>Sagan af Haraldi Hringsbana</rubric>
+                     <note>Later prose version based on rímur, in turn based on a lost fornaldarsaga</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="57r" to="86v"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <rubric>Sagan af Sigurði Fáfnisbana</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="86v" to="105r"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <rubric>Sagan af Ragnari loðbrók og sonum hans</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4.1" class="hetkv">
+                     <locus from="105r" to="107r"/>
+                     <title type="uniform">Krákumál</title>
+                     <rubric>Hér hefur Krákumál er sumir kalla Loðbrókarkviðu</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="107"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="309"/>
+                              <width unit="mm" quantity="195"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="35 38">
+                           <num type="wpl" atLeast="3" atMost="14">
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="272"/>
+                                 <width unit="mm" quantity="155"/>
+                              </dimensions>
+                              <catchwords ana="sometimes"/>
+                           </num>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial" subtype="decorated"/><decoNote/>
+                  </decoDesc>
+                  <additions ana="low"/>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Front- and back-leaves have been added with the later binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="PetEgg001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:38.18+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-07" who="#SK">Added information from the P.E.Ó.-catalogue and other
+         sources</change>
+         <change when="2011-11" who="#SK">Finished the cataloguing with information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

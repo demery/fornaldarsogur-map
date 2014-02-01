@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Kall 611 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Kall04-0611-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Kall 611 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="back-flyleaf" value="1"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions ana="low"><p>Table of contents for the whole codex added later on the front flyleaf.
+                  Fol. <locus>116</locus> was added later.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Plain brown half binding with few golden ornaments and title <q>Islendinga
+                           sögur</q> on the spine. This is a later binding containing both parts.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance>
+                     <name type="person" role="owner" key="JohKal001"/>
+                  </provenance>
+               </history>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>Kall 611 4to I</idno>
+                  </altIdentifier>
+               <msContents>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" to="64v"/>
+                     <title type="uniform">Grettis saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifad ef so mä heita A Biarneyu<ex>m</ex> An<ex>n</ex>o 1704. Af Eynare Eiriks<ex>yne</ex>(?)</colophon>
+                  </msItem>
+               </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="64"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="195"/> 
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="fol later"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="27 30">
+                              <num type="wpl" atLeast="11" atMost="18"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="170"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scope="sole" scribeRef="#EinEir003" script="hybrida">Fols. <locus>1-64</locus>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">Larger and ornamented initials (red and black), red rubrics</decoNote>
+                        <decoNote type="vignette">Slightly larger vignettes in colored ink</decoNote>
+                        <decoNote type="paratext">Squiggles and decorative lines were partly cut off during trimming when the manuscript was rebound.</decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>A few repairs with slips from printed paper</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1704"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart> 
+               <msPart>
+                  <altIdentifier>
+                     <idno>Kall 611 4to II</idno>
+                  </altIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="65r" to="73r:21"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas"> 
+                     <locus from="73r:22" to="76v"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="77r" to="116r:19"/> 
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="116r:20" to="116r:24"/> 
+                     <title type=" supplied">Verse on Örvar-Oddr</title>
+                     <author>Magnús Jónsson</author> 
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="117r" to="128v"/>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="129r" to="152v"/>
+                     <title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="88"/> 
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="196"/> 
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="poor">Many repairs, text is partially cut off.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="25 26">
+                           <num type="wpl" atLeast="13" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="#KetJor001" script="hybrida">Fols. <locus>65-152</locus> most likely
+                        written by him.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium">
+                     <p>On fol. <locus>65r</locus>, text in the lower margin reads: <q>Þessa bok a Eg Arne p. Jonsson a Hvitadal
+                        [...]</q>. Many additions but mostly illegible because they have been cut off during the process of rebinding.
+                        </p></additions>
+               </physDesc>
+                  <history>
+                     <provenance>
+                        <name key="ArnJon013" type="person" role="owner">Árni P. Jónsson á Hvítadal</name>
+                     </provenance>
+                  </history>
+               </msPart>
+                  
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:34.542+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-25" who="#BES">Added information from catalog.</change>
+         <change when="2013-06-07" who="#BES">Added missing information with manscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>AM Acc. 52</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+					Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+					3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+				<msDesc xml:id="AMAcc52" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+						<idno>AM Acc. 52</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="contemporary">
+							<titlePart>Fundin<ex>n</ex> Noregur</titlePart>
+						</titlePage>
+						
+						<msItem n="1" class="fas">
+							<locus from="1r:1" to="13v:10"/>  							
+							<title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+							<textLang mainLang="non"/>
+							<rubric>Fundin Noregur</rubric>
+							<incipit>innehalldande umm Noregs bygging</incipit>
+							<explicit>han<ex>n</ex>s dotter Ragnhillþur, hennar sun Haralldur enn Harfagri</explicit>
+														
+							<filiation>
+								<p>Note on title page reads: <q>(Efter Björners aftryk)</q></p>
+							</filiation> 
+													
+						</msItem>
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="14"/>
+									<num type="back-flyleaf" value="1"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="158"/>
+										<width unit="mm" quantity="98"/>
+									</dimensions>
+									
+									<watermark ana="yes">Multiple. Coat of arms(?) on front flyleaf; city walls on fols. 1-2; part
+									of a name (COMP) on rear flyleaf</watermark>
+									
+								</support>
+								
+								<foliation ana="contemporary pag">
+									<p>Paginated 1-24. Fol. 14 blank.</p>
+								</foliation>
+								
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-prose" columns="1" writtenLines="16 22">									
+									
+									<num type="wpl" atLeast="6" atMost="7"/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity="133"/>
+										<width unit="mm" quantity="81"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#FreSch002" scope="sole" script="cursive"/>
+						</handDesc>
+						
+						<decoDesc ana="no">
+							<decoNote/>
+						</decoDesc>
+						
+						<additions ana="low">
+							<p>Annotations on title page concerning exemplar (see note to item 1), scribe and date:
+							<q>Skrevet af Schaldemose 1817.)</q>. Lines ruled in pencil.</p>
+						</additions>
+						
+						<bindingDesc>
+							<binding ana="moderate" contemporary="true">
+								<p>Bound in 19th c. marbled (gray and brown) paper boards with calf spine. Provenance sticker affixed to
+								foot of spine: <q>Nykjöbing Cath-Skole Bibliothek</q></p>
+							</binding>							
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate when="1817"/>
+							<origPlace key="DK"/>
+						</origin>
+						
+						<provenance>
+							<p>Given as a gift to the <name type="organisation" role="owner" key="NykKat">Nykøbing
+								Katedralskole</name> in 1816 by <name type="person" role="owner" key="FreSch002">Frederik Schaldemose</name>.
+								Acquired from the school by the AMS in April 2007 as a gift. Library sticker from the school on the foot of the spine.</p>							
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2014-01-10" who="#JSL">Catalogued from manuscript.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

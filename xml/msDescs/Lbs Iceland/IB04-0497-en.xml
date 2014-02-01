@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 497 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0497-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 497 4to</idno>
+               </msIdentifier>
+               <msContents>
+                 <titlePage ana="no"/>
+                  <msItem n="1" class="riddst">
+                     <locus from="1r" to="6r"/>
+                     <title type="uniform">Faustus saga og Ermenu í Serklandi</title>
+                     <title type="uniform">Fástus saga og Ermenu</title>
+                     <note>ends defective</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="6r" to="12v"/>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <note>ends defective in chapter 11</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="12"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="161"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">1-12</foliation>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="35 40">
+                           <num type="wpl" atLeast="8" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="176" atMost="185"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">In heading and first letter of sagas</decoNote>
+                  </decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none">
+                        <p>No binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1780" notAfter="1820"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                     <name type="person" role="donor" key="JonBor001">Jón Jónsson</name> gave the manuscripts <ref type="ms">ÍB 495-520 4to</ref> to the 
+                     <name type="organisation" role="owner" key="IslBom">Bókmenntafélag Íslands</name> during the years 1895-1912.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:52.626+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-03" who="#SK">Added titles and classes and other information from the P.E.Ó.-catalogue</change>
+         <change when="2013-02" who="#SK">Finished cataloguing from the digital version on handrit.is</change>
+         <change when="2013-08-14" who="#BES">proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

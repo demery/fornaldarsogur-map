@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>BAC Pamph b no VI</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BAC-Pamph-b-no-VI" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#EDL">The Icelandic Collection, Elizabeth Dafoe Library, Winnipeg, Canada</repository>
+                  <idno>BAC Pamph b no VI</idno>
+               </msIdentifier>
+               <msContents>
+                  
+                  <msItem n="1" class="ridd">
+<!--                     <locus/>-->
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     </msItem>
+                  <msItem n="2" class="ridd">
+<!--                     <locus/>-->
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+<!--                     <locus/>-->
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                  </msItem>
+                  <msItem n="4" class="fas">
+<!--                     <locus/>-->
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                  </msItem>
+                  <msItem n="5" class="fas">
+<!--                     <locus/>-->
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+<!--                     <locus/>-->
+                     <title type="uniform">Fertrams saga og Platós</title>
+                  </msItem>
+                  <msItem n="7" class="forns">
+<!--                     <locus/>-->
+                     <title type="uniform">Úlfs saga Uggasonar</title>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+<!--                     <locus/>-->
+                     <title type="uniform">Dínus saga dramblátar</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block"/>
+                           <watermark ana="unknown"/>
+                           <dimensions type="leaf"> 
+                              <height unit="mm"/> 
+                              <width unit="mm"/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="999"> 
+                     <handNote scribeRef="unknown" script="unknown"/> 
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"><p/></additions>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>unknown</origDate>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name key="JonBja001" type="organisation" role="owner"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2013-06-25" who="#BES">Created enty based on Einar G. Pétursson's list who referres to a letter by Viðar Hreinsson.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

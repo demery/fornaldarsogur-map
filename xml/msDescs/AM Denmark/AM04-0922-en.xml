@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 922 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0922-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 922 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas">
+                     <locus from="1v:1" to="178r:12"/>  							
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <rubric>Saga af Hrölfe könge kraka</rubric>
+                     <rubric>Historia Hrolfi regis krakæ</rubric>
+                     <incipit>Madur hiet Halfdän en<ex>n</ex> an<ex>n</ex>ar Fröde brædur tveir</incipit>
+                     <incipit>Fratres duo Halfdanus et Frotho nominibus fuere</incipit>
+                     <finalRubric>og endar hier sǫgu Hrölfs k<ex>on</ex>gs kraka og kappa hans.</finalRubric>
+                     <finalRubric>historia Hrolfi regis krakæ et heroum illius hic definit</finalRubric>
+                     
+                     <filiation>
+                        <p>Thought to be indirectly derived from <ref type="ms" target="#AM08-0109-a-II-en" ana="protograph">AM 109a II 8vo</ref>. 
+                        </p>
+                     </filiation> 
+                     
+                     <note>Contains a copy of Hrólfs saga kraka with a facing-page Latin translation.</note> 
+                     
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="180"/>
+                           <num type="back-flyleaf" value="1"/>
+                          
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="215"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">Coat of arms; crown</watermark>
+                                                      
+                        </support>
+                        
+                        <foliation ana="pag">Paginated in upper outside corner, possibly by the original scribe. Quires signed A-Z in 8s</foliation>
+                        
+                        
+                        <condition ana="good"/>
+                        
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="16 20">									
+                           
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                            
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <note>Fols. <locus>179</locus> and <locus>180</locus> are blank</note>
+                        </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                     <handNote scribeRef="#ArnMag001" scope="major" script="kurrent">Fols. <locus>1-60v</locus> in the hand of Árni Magnusson.</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Inscription on fol. <locus>1r</locus> reads: 
+                     <q>Christianum hanc historiam conscripsisse .tet ex p. 319.</q></handNote>
+                     <!-- first word on second line (.tet) obscured by binding tape -->
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="medium">
+                     <p>Occasional marginalia throughout. Note on fol. <locus>1v</locus> reads: <q>Collatum cum codice Regio 
+                        in recentissima membrana, quo hic sæpius longe completior est.</q> The text has been collated with 
+                        <ref target="#GKS02-1002-en">GKS 1002 fol.</ref> Marginal notes are in three hands, two of which
+                        are unidentified. One unknown hand may be contemporary, with a second, later hand adding further 
+                        notes in a lighter ink. From <locus>168v</locus> the notes are in the hand of 
+                        <name type="person" key="ArnMag001">Árni Magnússon</name>. Several items in both the Old Norse 
+                        and the Latin texts are underlined. Extensive emendations in the Latin version on fols. <locus>99r-103r</locus>.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in late 19th or early 20th century marbled boards. According to Kålund, the MS was previously 
+                           bound in MS waste containing text from Jónsbók.</p>
+                     </binding>							
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1675" notAfter="1725"/>
+                     <origPlace cert="medium" key="DK">Probably written in Copenhagen between 1675 and 1725.</origPlace>
+                  </origin>
+                  
+                  <provenance>
+                     <name key="ArnMag001" type="person" role="owner">Árni Magnússon</name>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:46.65+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:45.34+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:42:09.835+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2013-01-08" who="#JSL">Added details from Kålund and handrit catalogs as well as dissertation information
+         from Tereza Vachunova.</change>
+         <change when="2013-01-09" who="#JSL">Cataloged from manuscript in situ.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

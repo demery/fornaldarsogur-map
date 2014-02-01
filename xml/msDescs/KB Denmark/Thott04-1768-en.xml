@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Thott 1768 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Thott04-1768-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Thott 1768 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="4r"/>
+                     <title type="uniform" ref="#ff">Frá Fornjóti og ættmönnum hans</title>
+                     <title type="parallel">Fundinn Noregur</title> 
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="regist">
+                     <locus from="4v" to="5r"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="la"/> 
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="7r" to="16v"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM02-202f-en" ana="antigraph">copy of AM 202 f fol.</ref> <!-- where does this info come from?? -->
+                     </filiation>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="17r" to="49v"/>
+                     <title type="uniform">Þorðar saga hreðu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="51r" to="94v"/>
+                     <title type="uniform">Svarfdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="99r" to="129v"/>
+                     <title type="uniform">Flóamanna saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>[...] Kaupenhafn 1687 2 Junij</colophon>
+                  </msItem>
+                  <msItem n="7" class="islt">
+                     <locus from="131r" to="139v"/>
+                     <title type="uniform">Hreiðars þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="islt">
+                     <locus from="140r" to="149r"/>
+                     <title type="uniform">Sneglu-Halla þáttur</title>
+                     <rubric>An<ex>n</ex>ar þattr af Halla Islending</rubric> 
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="islt">
+                     <locus from="151r" to="156v"/>
+                     <title type="uniform">Brandkrossa þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="isl">
+                     <locus from="157r" to="177v"/>
+                     <title type="uniform">Droplaugarsona saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="isl">
+                     <locus from="178r" to="232v"/>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="konth">
+                     <locus from="233r" to="238r"/>
+                     <title type="uniform">Völsa þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="isl">
+                     <locus from="239r" to="259v"/>
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="261r" to="268v"/>
+                     <title type="uniform" ref="#hsgr">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="konth">
+                     <locus from="269r" to="276v"/>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="ridd">
+                     <locus from="277r" to="294v"/>
+                     <title type="uniform">Möttuls saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/> 
+                           <num type="book-block" value="294"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/> 
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes">different watermarks, e.g. coat of arms, foolscap</watermark>
+                        </support>
+                        <foliation ana="pag contemporary fol later">some parts paginated; sparse modern foliation</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="20 26">
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="160" atMost="180"/>
+                              <width unit="mm" atLeast="110" atMost="120"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#AsgJon001" scope="major" script="hum cursiva"/>
+                     <handNote scope="minor" scribeRef="#JonOla003" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="high"><p><name key="JonOla003" type="person" role="owner">Jón Ólafsson frá Grunnavík</name> wrote the table of contents,
+                  marginalia and a long note on Ásgeir Jónsson on fol. <locus>129v</locus></p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="false">
+                        <p>Brown embossed leather on thin wooden boards. Floral ornaments, lines and spirals all over the binding.
+                           The inside of the binding contains a fragment of a contract as well as a personal letter in Icelandic from the year 1743.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                     <name key="JonOla003" type="person" role="owner">Jón Ólafsson frá Grunnavík</name> seems to have inherited
+                        the manuscript in 1754.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:18.456+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-15" who="#BES">Added catalog info.</change>
+         <change when="2013-06-12" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

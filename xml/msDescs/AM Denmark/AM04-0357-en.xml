@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 357 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0357-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 357 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r:1" to="19v:x"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Bijriar Hrolfs Søgu.</rubric>
+                     <incipit>Þad er vpphaf þ<ex>ess</ex>arar søgu ad Gautrekur son gauta k<ex>onun</ex>gs ried f<ex>ijrir</ex> Gaut landj</incipit>
+                     <explicit defective="true">longu<ex>m</ex> dríug<ex>ur</ex>, <ex>ok</ex> snerist þa
+                        man<ex>n</ex>fallid a Suiana <gap reason="illegible"/></explicit>
+                     
+                     <note>Defective. Lacks ending.</note>
+                     
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="19"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Flyleaves modern</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="205"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           
+                           <watermark ana="no"/>
+                           
+                        </support>
+                        <foliation ana="later fol">
+                           <p> 
+                              Foliated 1-19 in dark ink in the upper right hand corners by <name type="person" key="KriKaa001">Kålund</name>.</p>
+                        </foliation>
+                        
+                        <condition ana="average">
+                           <p>Some leaves are damaged at the inner margin. Lower margin of fol. <locus>3</locus> irregularly cut (prior to writing).
+                              Small lacuna in upper half of fol. <locus>7</locus>. After fol. <locus>17</locus> one
+                        leaf is missing. Fol. <locus>18</locus> is worn and has small holes.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="28 32">
+                           <num type="wpl" atLeast="13" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                  </handDesc>
+                  
+                  <decoDesc ana="low">
+                     <decoNote type="initial">MS is a palimpsest. Visible traces of colored initials from earlier text.</decoNote>
+                  </decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Two slips in the hand of AM. One reads: <q>fra Sveini Jonssyne ä Krossnese i Stranda Syslu.</q> The reverse reads:
+                        <q>Hugraness[?] sysla</q>. 
+                        The other reads: <q>Þetta blad <add place="above" hand="KriKaa001">Formodl bl 18</add> feck eg 24. Maji ä
+                           Finnbogastödum i Trekyllirs vik, sem epter hafdi orded af þordar Hredu sögu, þä Jon Magnusson
+                           feck hana, og fan<ex>n</ex>st ecke þad sinne. Ormur Dadason 1724.
+                           Nota bladed er ur Hrolfs Sögu Gautrekssonar, en<ex>n</ex> eigi ur þordar Hredu Sögu.</q>
+                     </p>
+                  </additions>
+                                    
+                  <bindingDesc>
+                     
+                      <binding ana="moderate" contemporary="false">
+                        <p>Bound in late nineteenth century marbled pasteboards.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Written <origDate when="1600">ca. 1600</origDate>.</p>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <p><name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> acquired the manuscript from
+                        <name type="person" role="owner" key="SveJon002">Sveinn Jónsson</name> from Krossnes, except
+                        for one leaf (probably fol. <locus>18</locus>) that <name key="OrmDad001" role="owner" type="person">Ormur
+                           Daðason</name> bought at Finnbogastaðir (Trékyllisvíkurhreppur, Strandasýsla,
+                        Western Iceland) in <date when="1724">1724</date>.</p>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:20.229+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:25.961+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:35.491+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:51.21+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:29.239+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-07-22" who="#JSL">Added details from Kålund and handrit catalogs. Cataloged from manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

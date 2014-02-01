@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 194 b fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0194b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 194 b fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="24v:44">1r-24v</locus>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <rubric>Saga Af Hrölfe Konge Gautrekssyne</rubric>
+                     <incipit>I Cap. Þad er Vpphaf þessrar Søgu: ad Gautrek er son Gauta köngs</incipit>
+                     <explicit>Margir soktu tign <ex>og</ex> frama til h<ex>an</ex>z, Finis</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="24"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="333"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="later fol">
+                           <p>Foliated 1-24 with dark ink in the top outer corners.</p>
+                        </foliation>
+                        <condition ana="good average">Leaves have been repaired on the edges.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="38 43">
+                           <num type="wpl" atLeast="10" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="277"/>
+                              <width unit="mm" quantity="153"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoKla001" scope="sole" script="late kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>A small slip with <q>AM 194, b.</q> is pasted on the inside of the cardboard binding.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Bound in a grey cardboard binding from <date notBefore="1730" notAfter="1780">c.
+                              1730-80</date> with <q xml:lang="is">No 194. B. Hrolfs Saga Gautrekssonar.</q> written on the front
+                           board. <!--<dimensions type="binding">
+                              <height>334</height>
+                              <width>215</width>
+                              <depth>9</depth>
+                           </dimensions>.--></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Written in <origPlace key="IS">Iceland</origPlace> in the <origDate notBefore="1650" notAfter="1699">second half of the seventeenth century</origDate>.</p>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:59.873+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:11.953+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:37.195+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:16.015+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-01-25" who="#BES">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 933 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0933-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 933 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="ridd">
+                     <locus from="1r:1" to="25r:25"/>
+                     <title type="uniform">Hálfdanar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Hálfdáne Gamla oc Sonum<ex>m</ex> h<ex>an</ex>s</rubric>
+                     <incipit>Hríngr hefr Konungr heítit, s<ex>e</ex>m Hríngarýci í N<ex>or</ex>egi er v<ex>it</ex>ként</incipit>
+                     <explicit>Lýcor hér nú at segja frá Hálfdáni Gamla oc Sonum Hans, oc Samtýdis món<ex>n</ex>um<ex>m</ex>
+                        þeírra</explicit>
+                  
+                  </msItem>
+                  
+                  <msItem n="2" class="fas">
+                     <locus from="25v:1" to="35r:13"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                     <title type="parallel">Hálfs saga koungs ok Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> Af Haalfi Kóngi oc Haalfs=Reckum<ex>m</ex></rubric>
+                     <incipit>AAlfrecr hét K<ex>onun</ex>gr er bió aa AAlfreksstød<ex>um</ex></incipit>
+                     <finalRubric>Oc lýcor hér Sógo af Haalfi Kóngi oc Reckum<ex>m</ex> han<ex>n</ex>s.</finalRubric>
+                     
+                     <filiation>
+                        
+                        <p>Fols. <locus>30r-38v</locus> in <ref type="ms" target="#IBR04-0009" ana="apograph">ÍBR 9 4to</ref> are copied from this manuscript.</p>
+                     </filiation>
+                  
+                  </msItem>
+                  
+                  <msItem n="3" class="fas">
+                     <locus from="35r:14" to="36v:15"/>
+                     <title type="uniform" ref="#ttht">Tóka þáttur Tókasonar</title>
+                     <title type="parallel">Tóka þáttr Tókasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þaattur Af Tóka Tókasýni</rubric>
+                     <incipit>J þan<ex>n</ex> Týma er Ólafr K<ex>onun</ex>gr hin<ex>n</ex> Helgi rédi Noreg</incipit>
+                     <finalRubric>Oc lýcor þar Tóka Þætti.</finalRubric>
+                     
+                  </msItem>
+                  
+                  <msItem n="4" class="forns">
+                     <locus from="37r:1" to="78r:3"/>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <title type="parallel">Starkaðar saga Stórvirkssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér Byriar Saugo af Starkade enum<ex>m</ex> Gamla</rubric>
+                     <incipit>Húnþiófr hefr K<ex>onun</ex>gr heítit er rédi f<ex>yrir</ex> Hørdal<ex>a</ex>ndi</incipit>
+                     <finalRubric>Oc lýcor þar Saugu Starkadar ens Gamla.</finalRubric>
+                     
+                     <note>Ch. 1 on fol. <locus>37r</locus> also labeled: <q>Vikars Þáttur</q>. 
+                        Chapter 20 on fol. <locus>60v</locus> begins with the following rubric: <q xml:lang="is">þáttur af 
+                    Helga Hvassa Hræreki K<ex>onun</ex>gi Haralde Hillditón<ex>n</ex>
+                           og Brávallar Bardaga</q>. All chapters have a chapter title.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="5" class=""> 
+                     <locus from="78r:4" to="78v:22"/>
+                     <title type="supplied">Afterword to Starkaðar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Til Lesarans</rubric>
+                     <incipit>Eg hefi vid þessa søgu flytirs uppskrift fyrir mér tvo manuscripta</incipit>
+                     <explicit>Ódin<ex>n</ex> kinde Haralldi kónge Hilldetónn.</explicit>
+                  
+                  </msItem>
+                  
+                  <msItem n="6" class="map">
+                     <locus from="79r" to="79r"/>
+                     <title type="supplied">Map of King Hringur's svínfylking</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                  
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="82"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <note>One modern flyleaf at front and rear of volume.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="220"/>
+                              <width unit="mm" quantity="170"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">Coat of arms with initials (C ...?) visible on fol. <locus>80</locus>.</watermark>
+                           
+                        </support>
+                        
+                        <foliation ana="later fol">
+                           <p>Foliated in pencil in the top right corner of recto pages. 
+                           </p>
+                        </foliation>
+                        
+                        <condition ana="good"/>
+                                                
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 3" writtenLines="30">
+                           <num type="wpl" atLeast="13" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <note>Fol. <locus>79v</locus> and fols. <locus>80-82</locus> blank.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scribeRef="#GisKon001" scope="sole" script="unknown">
+                        <p>According to Seelow (<bibl>
+                              <ref type="secondary" target="Rit20">Hálfs saga og Hálfsrekka</ref>, 49</bibl>), 
+                           the manuscript was written by <name type="person" key="GisKon001">Gísli
+                        Konráðsson</name>.</p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Title on fol. <locus>37r</locus> decorated with floral patterns.</decoNote>
+                     <decoNote type="illustration">Drawing of military arrangement in red and black ink on fol. <locus>79r</locus>.</decoNote>
+                  </decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Contains occasional marginal notes and alternate readings. 
+                        On fol. <locus>78r</locus> after the end of <title>Starkaðar saga gamla</title>
+            is written: <q xml:lang="is">Sc: G.K.S.</q> (S.K.S. ?)
+                     </p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Bound in modern (late 19th/early 20th c.) half-canvas over paper boards.</p>
+                     </binding>							
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                        <origDate notBefore="1800" notAfter="1820">c. 1810</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <p>Acquired from the <name type="organisation" role="owner" key="KglNordOld">Det kongelige
+                        nordiske Oldskriftselskab</name> in <date when="1833">1833</date>.</p>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:47.533+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:45.942+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:42:10.398+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:47.445+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-05-29" who="#JSL">Added information from handrit and Kålund catalogs. Cataloged from manuscript.</change>
+          <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

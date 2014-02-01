@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 356 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0356-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 356 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Sögu-safn. III</titlePart>
+                     <note>Front-flyleaf 0002r</note>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="front-flyleaf0002v"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <rubric>Þessi bók hefur inni að halda</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="1r" facs="#Lbs04-0356-0001r" to="71r">1r-71r</locus>
+                     <title type="uniform">Vatnsdæla saga</title>
+                     <rubric>Vatnsdæla</rubric>
+                     <note>leaf 72 is blank</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="73r" facs="#Lbs04-0356-0073r" to="92r">73r-92r</locus>
+                     <title type="uniform">Droplaugarsona saga</title>
+                     <note>Sagan af Droplaugarsonum og Fljótsdælum</note>
+                     <note>Leaf 85 has been added later by a
+                        different scribe</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="92v" facs="#Lbs04-0356-0092v" to="136v">92v-136v</locus>
+                     <title type="uniform">Fljótsdæla saga</title>
+                     <rubric>Sagan af þeim Helga og Grími Droplaugarsonum. Annars kölluð
+                        Njarðvíkingasaga.</rubric>
+                     <note>The last part of Droplaugarsonar saga is added to Fljótsdælu, as described at the beginning of the manuscript <locus from="79r" facs="#Lbs04-0356-0079r" to="79r">79r</locus>
+                        <locus from="92r" facs="#Lbs04-0356-0092r" to="92r">92r</locus>
+                     </note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="137r" facs="#Lbs04-0356-0137r" to="146v">137r-146v</locus>
+                     <title type="uniform">Gunnars saga Keldugnúpsfífls</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="islt">
+                     <locus from="147r" facs="#Lbs04-0356-0147r" to="150v">147r-150v</locus>
+                     <title type="uniform">Egils þáttur Síðu-Hallssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="kon">
+                     <locus from="151r" facs="#Lbs04-0356-0151r" to="151v">151r-151v</locus>
+                     <title type="uniform">Ólafs saga helga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas fornth">
+                     <locus from="151v" facs="#Lbs04-0356-0151v" to="153r">151v-153r</locus>
+                     <title type="uniform">Tóka þáttur Tókasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="tjos" defective="true">
+                     <locus from="153r" facs="#Lbs04-0356-0153r" to="156v">153r-156v</locus>
+                     <title type="uniform">Ásmundar saga flagðagæfu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="156"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="193"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes">
+                              <note>In the watermark the year 1810 can be read</note>
+                           </watermark>
+                        </support>
+                        <foliation ana="later fol">Every 10th page foliated at cataloguing</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="26 28">
+                           <num type="wpl" atLeast="11" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                           <catchwords ana="yes"/> 
+                           <note>The text is written within a frame drawn in pencil intially and within a red frame in the
+                              latter half of the manuscript. This starts with Droplaugarsona saga, 73r</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="chancery">scribe I. (<locus from="1r" facs="#Lbs04-0356-0001r" to="71r">1r-71r</locus>)</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"> scribe II. (<locus from="73r" facs="#Lbs04-0356-0073r" to="156v">73r-156v</locus>)</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="paratext">Headings.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Front flyleaf <locus from="0001r-FFl" facs="#Lbs04-0356-0001r" to="0001r-FFl">1r</locus> is a title page by <name type="person" key="BogBen001">Bogi Benediktsson</name>
+                     </p>
+                     <p>Front flyleaf <locus from="0002r-FFl" facs="#Lbs04-0356-0002r" to="0002r-FFl">2r</locus> is a title page by <name type="person" key="PalPal003">Páll Pálsson</name> the student</p>
+                     <p>Front flyleaf <locus from="0002v-FFl" facs="#Lbs04-0356-0002v" to="0002v-FFl">2v</locus> is a table of contents by <name type="person" key="BogBen001">Bogi Benediktsson</name>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Later time library binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     
+                     <origDate from="1810" to="1815">1810-1815</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>From <name type="person" key="BogBen001">Bogi Benediktsson</name>'s manuscript collection.
+                     </p>
+                     <p>3rd volume in a 9 volume collection: <ref target="Lbs04-0356" type="ms">Lbs 356
+                           4to</ref> - <ref target="Lbs04-0362" type="ms">Lbs 362 4to</ref>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:32.967+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:43.724+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:01.644+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:35.718+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2011-07" who="#SK">Put in a better order for the FAS-project and some
+         information added from the XML-catalouging and the manuscripts digital version on handrit.is</change>
+         <change when="2011-09" who="#SK">Filled in what was lacking from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

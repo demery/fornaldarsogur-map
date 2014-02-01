@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2121 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-2121-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2121 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="ferds">
+                     <locus from="1r" facs="#Lbs04-2121-0001r" to="9v">1r-9v</locus>
+                     <title type="supplied">Reisu- og raunasaga Juríns Jenssonar</title>
+                     <textLang mainLang="is"/>
+                     <msItem n="1.1" class="other">
+                        <locus from="9r" facs="#Lbs04-2121-0009r" to="9v">9r-9v</locus>
+                        <title type="supplied">Frásögn þýskra</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Frä Sógn þyskra</rubric>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="avint">
+                     <locus from="9v" facs="#Lbs04-2121-0009v" to="10v">9v-10v</locus>
+                     <title type="supplied">Lítið gamalt ævintýri</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="11r" facs="#Lbs04-2121-0011r" to="28r">11r-28r</locus>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast sagan af Hjálftér og Ölver</rubric>
+                  </msItem>
+                  <msItem n="3.1" class="kvad">
+                     <locus from="28r" to="28r"/>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Liöra hiarna mund, <ex>og</ex> muna </incipit>
+                     <colophon>1744 Jon S<ex>teingríms</ex>so<ex>n</ex></colophon>
+                     <note>One verse</note>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="28v" facs="#Lbs04-2121-0028v" to="28v">28v</locus>
+                     <title type="uniform">Herkúles saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="avint">
+                     <locus from="29r" facs="#Lbs04-2121-0029r" to="30v">29r-30v</locus>
+                     <title type="supplied">Eitt stutt ævintýri </title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="almb" defective="true">
+                     <locus from="30v" facs="#Lbs04-2121-0030v" to="30v">30v</locus>
+                     <title type="supplied">Lítil historía</title>
+                     <textLang mainLang="is"/>
+                     <note>Fragmentary</note>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="31r" facs="#Lbs04-2121-0031r" to="45r">31r-45r</locus>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar sögu af Hálfdani Brönufóstra</rubric>
+                  </msItem>
+                  <msItem n="8" class="forns">
+                     <locus from="45v" facs="#Lbs04-2121-0045v" to="53v">45v-53v</locus>
+                     <title type="uniform">Hálfdanar saga Barkarsonar</title>
+                     <rubric>Hér byrjar söguna af Hálfdani Barkarsyni</rubric>
+                     <textLang mainLang="is"/>
+                     <colophon>Enduð þann 13. januari anno 1744</colophon>
+                  <msItem n="8.1" class="kvad forns">
+                     <locus from="53v" facs="#Lbs04-2121-0045v" to="53v">53v</locus>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Hálfdans saga enduð er</incipit>
+                  </msItem>
+                  </msItem>
+                  <msItem n="9" class="almb">
+                     <locus from="54r" facs="#Lbs04-2121-0054r" to="63v">54r-63v</locus>
+                     <title type="supplied">Agöttu saga og Barbáru</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9.1" class="kvad laus">
+                     <locus from="63v" to="63v"/>
+                     <title type="supplied">Vísa um Agöttu</title>
+                     <textLang mainLang="is"/>
+                     <incipit> Agatta í orðum hóg</incipit>
+                     <colophon>Enduð þann 22. aprilis anno 1744. Jón Steingrímsson</colophon>
+                  </msItem>
+                  <msItem n="10" class="avint">
+                     <locus from="64r" facs="#Lbs04-2121-0064r" to="64v">64r-64v</locus>
+                     <title type="supplied">Fallegt ævintýrskorn af kokkapíkunni</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="laus">
+                     <locus from="64v" facs="#Lbs04-2121-0064v" to="64v">64v</locus>
+                     <title type="supplied">Vísa</title>
+                     <incipit>Gesturinn þurfti góða skó </incipit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="12" class="regist">
+                     <locus from="64v" facs="#Lbs04-2121-0064v" to="64v">64v</locus>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="13" class="laus">
+                     <locus from="64v" facs="#Lbs04-2121-0064v" to="64v">64v</locus>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Ísinn blár og ósar</incipit>
+                  </msItem>
+                  <msItem n="14" class="laus">
+                     <locus from="65r" facs="#Lbs04-2121-0065r" to="65r">65r</locus>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="is"/>
+                     <incipit>ÞRIA HEFUR PARTA ÞESSE BOOK</incipit>
+                     <explicit>Anno 1745 <gap/></explicit>
+                        <note>Written and decorated like a title page</note>
+                     <note>See also fol. <locus>115r</locus>: key for the letter used in the first rows.</note>
+                  </msItem>
+                  <msItem n="15" class="gat">
+                     <locus from="65v" facs="#Lbs04-2121-0065v" to="65v">65v</locus>
+                     <title type="supplied">Gáta</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Staddur var ég á fleti</incipit>
+                  </msItem>
+                  <msItem n="16" class="almb">
+                     <locus from="66r" facs="#Lbs04-2121-0066r" to="68v">66r-68v</locus>
+                     <title type="uniform">Griseldis saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="17" class="islt">
+                     <locus from="68v" facs="#Lbs04-2121-0068v" to="69v">68v-69v</locus>
+                     <title type="uniform">Þorsteins þáttur Austfirðings</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Ævintýrið af Þorsteini suðurfara</rubric>
+                  </msItem>
+                  <msItem n="18" class="ferds">
+                     <locus from="70r" facs="#Lbs04-2121-0070r" to="94r">70r-94r</locus>
+                     <title type="supplied">Reisubók Fridrichs Andréssonar Bollings</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="18.1" class="laus">
+                     <locus from="70r" facs="#Lbs04-2121-0070r" to="94r">70r-94r</locus>
+                     <title type="supplied">Vísa um Bolling</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Enduð saga Bollings býður</incipit>
+                     <colophon>Enduð þann 20. januari 1745, Jón Steingrímsson </colophon>
+                  </msItem>
+                  <msItem n="19" class="avint" defective="true">
+                     <locus from="94v" facs="#Lbs04-2121-0094v" to="94v">94v</locus>
+                     <title type="uniform">Falekanus saga keisara</title>
+                     <textLang mainLang="is"/>
+                     <note>A part</note>
+                  </msItem>
+                  <msItem n="20" class="ferds avis">
+                     <locus from="95r" facs="#Lbs04-2121-0095r" to="107r">95r-107r</locus>
+                     <title type="uniform">Reisubók séra Ólafs Egilssonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="21" class="kvad">
+                     <locus from="108r" facs="#Lbs04-2121-0108r" to="108r">108r</locus>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <author key="JonSte011">Jón Steingrímsson</author>
+                     <rubric>Til lesarans</rubric>
+                     <incipit>Þessa bók eg byrja vann</incipit>
+                     <colophon>Jón Steingrímsson með eigin hen[di]</colophon>
+                  </msItem>
+                  <msItem n="22" class="formal">
+                     <locus from="108v" facs="#Lbs04-2121-0108v" to="109r">108v-109r</locus>
+                     <title type="supplied">Formáli</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Þessa sögubók hefi ég saman skrifað</rubric>
+                     <note>Prologue to the manuscript</note>
+                 
+                  <msItem n="22.1" class="laus">
+                     <locus from="108v" facs="#Lbs04-2121-0108v" to="109r">108v-109r</locus>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="is"/>
+                     <note>Without a title</note>
+                     <incipit>Fari vel arfa fróðlind þjóð …</incipit>
+                     <colophon>Skrifað á Lækjarbakka á Ufsaströnd d. 21. augusti anno 1742.
+                     </colophon>
+                  </msItem>
+                  </msItem>
+                  <msItem n="23" class="kvad">
+                     <locus from="109v" facs="#Lbs04-2121-0109v" to="109v">109v</locus>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Remund þýða þráði </incipit>
+                     <note>Verses on the worrier that was possibly written about in the part of the manuscript that is now lost</note>
+                  </msItem>
+                  <msItem n="24" class="laus">
+                     <locus from="110r" facs="#Lbs04-2121-0110r" to="110r">110r</locus>
+                     <title type="supplied">Bókavísa</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Bókin sögu byrjast ein </incipit>
+                     <note>Without a title</note>
+                  </msItem>
+                  <msItem n="25" class="avint tjods">
+                     <locus from="110r" facs="#Lbs04-2121-0110r" to="112r">110r-112r</locus>
+                     <title type="supplied">Ævintýrskorn</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Í Trékyllisvík á vestanverðu Íslandi bjó maður einn sá Leifur hét </incipit>
+                     <note>Leifur bóndi and marbendill (Þá hló marbendill)</note>
+                  </msItem>
+                  <msItem n="26" class="tjos">
+                     <locus from="112r" facs="#Lbs04-2121-0112r" to="112v">112r-112v</locus>
+                     <title type="supplied">Ein lítil frásaga til skemmtunar</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Einn ungur ungur [sic] maður stórauðugur var eitt sinn í þýskalandi …
+                     </incipit>
+                  </msItem>
+                  <msItem n="27" class="laus">
+                     <locus from="113r" facs="#Lbs04-2121-0113r" to="113r">113r</locus>
+                     <title type="supplied">Ein vísa uppá 24 stafi</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Austra læt eg hlunns hest</incipit>
+                  </msItem>
+                  <msItem n="28" class="tjos">
+                     <locus from="113v" facs="#Lbs04-2121-0113v" to="113v">113v</locus>
+                     <title type="supplied">Um Júlíanum keisara trúarníðing</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Ævintýr</rubric>
+                  </msItem>
+                  <msItem n="29" class="nafsk">
+                     <locus from="114r" facs="#Lbs04-2121-0114r" to="114v">114r-114v</locus>
+                     <title type="supplied">Íslensk mannanöfn</title>
+                     <textLang mainLang="is"/>
+                     <note>Icelandi names in alphabetic order from A to Þ</note>
+                  </msItem>
+                  <msItem n="30" class="stafr">
+                     <locus from="115r" facs="#Lbs04-2121-0115r" to="115r">115r</locus>
+                     <title type="supplied">Alphabet (Key to special letters)</title>
+                     <textLang mainLang="is"/>
+                     <note>Used partly in the verses on fols. <locus>65r</locus> and <locus>110r</locus> </note>
+                  </msItem>
+                  <msItem n="31" class="laus vil">
+                     <locus from="115v" facs="#Lbs04-2121-0115v" to="115v">115v</locus>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="is"/>
+                     <incipit>[B]anda lét óbundið</incipit>
+                     <note>At the bottom of the page is a text in some kind of runic script.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="115"/><!-- flyleaves? Binding? -->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="192"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="unknown">Likely</watermark>
+                        </support>
+                        <foliation ana="contemporary pag">
+                           <p>Remnants of old foliation 274-276, 285-344,</p>
+                           <p>The manuscripts leaves are not in correct order. Folio <locus>107</locus> should be its last leaf.
+                              Folios 108-115 have been according to an old foliation 274-276 (113v-114v) formerly.</p>
+                        </foliation>
+                        <condition ana="poor">
+                           <p>Lacunae at the beginning. Between folios <locus>30-31</locus>, 10 leaves are missing according to
+                              the table of contents on folio <locus>65r</locus>., where Remundar saga and Melissinu is meant
+                              to be. One leaf is missing between <locus>94-95</locus>. </p>
+                           <p>According to a verse on folio <locus>65r</locus> "Þrjá hefur parta þessi bók", this
+                              manuscript might only be the first part of a three part manuscript.
+                              According to a verse on folio <locus>109v</locus> there might have been among other
+                              items <title type="uniform">Egils saga einhenda og Ásmundar bersekjabana</title> and <title type="uniform">Úlfs saga sterka</title>. </p>
+                           <p>Many leaves are damaged</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1 5" writtenLines="27 31">
+                           <num type="wpl" atLeast="10" atMost="12"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonSte011" scope="sole" script="kurrent">Jón Steingrímsson uses kurrent and chancery.
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Initials and headings</decoNote>
+                     <decoNote type="border">Some decorative ornaments and borders</decoNote>
+                     <decoNote type="vignette" subtype="tailpiece">Knotwork: <locus from="107r" facs="#Lbs04-2121-0107r" to="107r">107r</locus>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>The year 1741 in a verse on folio 108r is considered to be the manuscript's year of origin
+                     </p><!-- additions? move to a diiferent place in the code? -->
+                     <p>The loose poems at the end are probably composed by the scribe</p>
+                     <p>A certain <q>Jófríður</q> signed on fol. <locus>107r</locus></p>
+                     <p>Fol. <locus>107v</locus> squiggle, <q>Magnus Jonsson</q></p>
+                     <p>Fol. <locus>113r</locus>: <q>Læt eg téð. Lán fyrir bókar Lof af huga glöðum og íðil þakkir
+                        alúð með. Oddi á Suðurfjörðum.</q></p>
+                  </additions>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1741" to="1745">1741-1745</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="MagJon022">Magnús Jónsson</name>
+                        <name type="person" role="signatory" key="Jofooo001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:44.432+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:04.672+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:23.432+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:56.082+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2013-01-24" who="#SK">Adapted to FASNL an added a number of information from the digitized version on handrit.is</change>
+         <change when="2013-08-30" who="#BES">Proofread and added information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

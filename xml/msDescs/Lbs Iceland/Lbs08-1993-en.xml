@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1993 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1993-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1993 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r" to="26r"/>
+                     <title type="supplied">Kvæði eftir Ásmund Sæmundsson (Barnaber), síra Ólaf Einarsson, síra Jón Djarnason (Tobiasrimur, brot)</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="riddst">
+                     <locus from="26v" to="33r"/>
+                     <title type="uniform">Polostors saga frækna</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Saga af Polost(at)tor frækna</rubric>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="33v" to="50v"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Egli einhenda og Ásmundi berserkjabana</rubric>
+                  </msItem>
+                  <msItem n="4" class="rimur">
+                     <locus from="51r" to="64v"/>
+                     <title type="supplied">Rímur (Jannesarríma Guðmundar Bergþórssonar, Einyrkjaríma) og kvæði 3 (eitt eftir síra Þorstein Jónsson á Dvergasteini).</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="65r" to="87v"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Jarlmanns saga</rubric>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="87v" to="109r"/>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hjálmtýr og Ölver</rubric>
+                  </msItem>
+                  <msItem n="7" class="forns">
+                     <locus from="109r" to="119r"/>
+                     <title type="uniform">Sigurðar saga ganganda Barðarsonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Söguþáttr af Sigurði gangandi Barðarsyni</rubric>
+                  </msItem>
+                  <msItem n="8" class="salm">
+                     <locus from="119v" to="122v"/>
+                     <title type="uniform">Sorgar Psálmur Medallendinga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sorgar Psálmur Medalendijnga</rubric>
+                  </msItem>
+                  <msItem n="9" class="rimur">
+                     <locus from="123r" to="154v"/>
+                     <title type="uniform">Grobiansrímur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Rijmur [6] Grobbias kalls og Gribbu kiellingar /4 fyrstu hér eignaðar síra
+                        Grími Bessasyni, 5. ríman Vigfúsi Jónssyni á Leirulæk
+                        og sú 6. síra Brynjólfi Halldórssyni í Kirkjubæ</rubric>
+                  </msItem>
+                  <msItem n="10" class="riddst">
+                     <locus from="155r" to="180v"/>
+                     <textLang mainLang="is"/>
+                     <title type="uniform">Knúts saga heimska</title>
+                     <rubric>Sagan af Knúti Heimska</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="180"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="106"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">
+                           <p>Wrongly numbered: two numbers ahead.</p>
+                        </foliation>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="25 35">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="72"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <!-- previously marked as #SigSig027 (invalid), i.e. Sigurður Sigurðsson (1808-1849) (cf. handrit.is) -->
+                     <handNote scribeRef="ambig" scope="major" script="kurrent">Sigurður Sigurðsson</handNote>
+                     <handNote scribeRef="#JonTho049" scope="minor" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Titles and initials decorated in black ink.</decoNote>
+                  </decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1816" notAfter="1845"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:18.508+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-10" who="#SMM">Added msItems and updated msDesc codes. Completed information where possible.</change>
+         <change when="2013-05-29" who="SMM">Completed cataloguing after looking at pictures on handrit.is.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

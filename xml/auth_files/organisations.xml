@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Den Arnamagnæanske Samling</authority>
+                <pubPlace>København</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <listOrg>
+                    <org xml:id="AntKol001">
+                        <orgName xml:lang="en">
+                            <orgName>Antikvitetskollegiet</orgName>
+                        </orgName>
+                        <desc>The Antikvitetskollegium was an institution founded in 1630 by King Gustaphus II Adolphus of Sweden
+                            for the purpose of collecting and preserving antiquities. Located in Uppsala until 1690, when it was
+                            moved to Stockholm. The antikvitetsarkiv was folded into the Royal Library collection in 1751.</desc>
+                        <bibl>
+                            <ref>Nordisk familjebok</ref>
+                            <biblScope type="vol">1</biblScope>
+                            <biblScope type="cols">1139-1140</biblScope>
+                        </bibl>
+                    </org>
+                    
+                    <org xml:id="AMS">
+                        <orgName xml:lang="da">
+                            <orgName>Den Arnamagnæanske Samling</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Arnamagnæan Collection</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <desc xml:lang="da">Den Arnamagnæanske Samling er en enhed under Nordisk
+                            Forskningsinstitut. Samlingen blev i <date when="1956">1956</date>
+                            oprettet som et institut under det Humanistiske Fakultet, med det formål
+                            at videreføre den videnskabelige udnyttelse af Den Arnamagnæanske
+                            Håndskriftsamling, som den islandske filolog og historiker, <name
+                                type="person" key="ArnMag001">Arne Magnusson</name>, testamenterede
+                            til Københavns Universitet ved sin død i <date when="1730"
+                            >1730</date>.</desc>
+                        <desc xml:lang="en">The Arnamagnæan Institute is a teaching and research
+                            institute within the Faculty of Humanities at the University of
+                            Copenhagen whose function is to further the study of the manuscripts in
+                            the Arnamagnæan collection, in keeping with the terms of the Arnamagnæan
+                            Foundation, established in <date when="1760">1760</date>. The Institute
+                            is a unit under the Department of Scandinavian Research.</desc>
+                    </org>
+                    <org xml:id="AMK"  role="recipient">
+                        <orgName xml:lang="da">
+                            <orgName>Den Arnamagnæanske Kommission</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Arnamagnæan Commission</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <desc xml:lang="da">Den Arnamagnæanske Kommission blev nedsat i <date
+                                when="1772">1772</date> som bestyrelse for Den Arnamagnæanske
+                            Stiftelse, den samling af håndskrifter og trykte bøger som <name
+                                type="person" key="ArnMag001">Árni Magnússon</name> sammen med sin
+                            private formue testamenterede til Københavns Universitet ved sin død i
+                                <date when="1730">1730</date>.</desc>
+                        <desc xml:lang="en">The Arnamagnaean Commission was set up in <date
+                                when="1772">1772</date> as a governing body for the Arnamagnaean
+                            Foundation, the collection of manuscripts and printed books that <name
+                                type="person" key="ArnMag001">Árni Magnússon</name> bequeathed,
+                            along with his private estate, to the University of Copenhagen on his
+                            death in <date when="1730">1730</date>.</desc>
+                    </org>
+                    <org xml:id="BMRLR">
+                        <orgName xml:lang="de">
+                            <orgName>Bibliothek der Mecklenburgischen Ritter- und Landschaft</orgName>
+                            <name type="city">Rostock</name>
+                        </orgName>
+                        <desc>Dissolved in 1924, when the collections were transfered to the Universitätsbibliothek in Rostock.</desc>
+                        <bibl>
+                            <ref>CERL authority record</ref>
+                            <note>http://thesaurus.cerl.org/record/cnc00004117</note>
+                        </bibl>
+                    </org>
+                    
+                    <org xml:id="DSL">
+                        <orgName xml:lang="da">
+                            <orgName>Det danske Sprog- og Litteraturselskab</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <desc xml:lang="da">Det Danske Sprog- og Litteraturselskab udgiver og
+                            dokumenterer dansk sprog og litteratur fra de ældste tider til i dag - i
+                            bogform og på nettet. Selskabet beskæftiger ca. 30 videnskabelige
+                            medarbejdere og en væsentligt større kreds af medlemmer, som fører
+                            tilsyn med udgivelserne og udgør selskabets øverste myndighed. Selskabet
+                            blev stiftet i <date when="1911">1911</date></desc>
+                    </org>
+                    <org xml:id="GldaOrd">
+                        <orgName xml:lang="da">
+                            <orgName>Gammeldansk ordbog</orgName>
+                            <name type="org" key="DSL"/>
+                        </orgName>
+                        <desc>Gammeldansk Ordbog er en ordbog over middelalderens danske sprog. Den
+                            dækker perioden fra ca. 1100 til 1515. Gammeldansk Ordbog indgår i
+                            samarbejde med andre forskningsprojekter. Dele af seddelsamlingen kan
+                            stilles til rådighed for forskere, der arbejder i ordbogens lokaler, og
+                            redaktørerne besvarer spørgsmål, der kan belyses af ordbogens
+                            samlinger.</desc>
+                    </org>
+                    <org xml:id="JonBja001">
+                        <orgName>
+                            <orgName>The Jón Bjarnason Academy, Winnipeg</orgName>
+                        </orgName>
+                        <desc>A religious academy for Icelanders founded in 1911 by Rev. Jón Bjarnason, an Icelandic immigrant to
+                            Canada. Jón died in 1914, but the academy stayed open until 1940.</desc>
+                        <bibl>
+                            <ref>Dictionary of Canadian Biography (online, entry for Bjarnason, Jón)</ref>
+                            <note>http://www.biographi.ca/en/bio.php?BioId=41334</note>
+                        </bibl>
+                    </org>
+                    <org xml:id="Malmöhus">
+                        <orgName xml:lang="da">
+                            <orgName>Malmöhus slot</orgName>
+                            <name type="city" key="Malmö01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>Malmöhus Castle</orgName>
+                            <name type="city" key="Malmö01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="Moesgaard">
+                        <orgName xml:lang="da">
+                            <orgName>Moesgaard museum</orgName>
+                            <name type="city" key="Århus01"/>
+                        </orgName>
+                        <desc>The Manor House of Moesgård in the woods south of Århus is the home of
+                            Moesgård Museum with archaeological and ethnographic collections. The
+                            permanent exhibition presents many unique archaeological finds from
+                            prehistoric Denmark. Two finds from the Iron Age - the Grauballe Man,
+                            the only completely preserved bog body, and the impressive sacrifices of
+                            weapons from Illerup Ådal - are the absolute highlights. Changing
+                            special exhibitions deal with archaeological and ethnographic topics. To
+                            the north of the exhibition galleries various houses of the Viking
+                            Period have been reconstructed, among others the Hørning Stave Church. A
+                            prehistoric trackway passes reconstructions of an Iron Age house, and
+                            graves and cult sites from the Stone Age and Bronze Age. </desc>
+                    </org>
+                    <org xml:id="NordMus">
+                        <orgName xml:lang="sv">
+                            <orgName>Nordiska Museet</orgName>
+                            <name type="city" key="Stock01"/>
+                        </orgName>
+                        <desc>Selvstændig stiftelse i Stockholm med ansvarsområdet
+                            svensk kulturhistorie. I 1873 viste stifteren, Artur Hazelius, i
+                            Drottninggatan en udstilling, Skandinavisk-Etnografiska samlingen, som
+                            han i 1879 tilbød staten. Da tilbuddet blev afslået, grundlagde han
+                            Nordiska museet som det svenske folks ejendom; hans motto for museet var
+                            <q>Känn dig själv</q>. I 1882 skænkedes et område, Lejonsletten, på
+                            Djurgården til byggeplads for museet, der projekteredes som et
+                            firefløjet palads i Christian 4.s renæssancestil, der efter planen
+                            skulle rumme de fire nordiske landes folkekulturer; heraf museets navn.
+                            Blot én fløj opførtes. I 1891 føjedes hertil det nærliggende
+                            frilandsmuseum Skansen (selvstændig institution siden 1963). Til museet
+                            hører bl.a. Tyresjö slott, Svindersvik, tekstilmuseet i Högbo
+                            (Sandviken) og Julita gård, hvor et omfattende centralmagasin er opført.
+                            I tilknytning til museet og Stockholms universitet findes Institut för
+                            folklivsforskning, hvor Sigurd Erixon i 1934 tiltrådte som den første
+                            indehaver af professoratet.</desc>
+                    </org>
+                    <org xml:id="NykKat">
+                        <orgName xml:lang="da">
+                            <orgName>Nykøbing Katedralskole</orgName>
+                            <name type="city">Nykøbing</name>  
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>Nykøbing Cathedral School</orgName>
+                        </orgName>
+                    </org>                                        
+                    <org xml:id="Handrít">
+                        <orgName xml:lang="is">
+                            <orgName>Handritastofnun Íslands</orgName>
+                            <name type="city" key="Reykj01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Icelandic Manuscript Institute</orgName>
+                            <name type="city" key="Reykj01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="IS-Land">
+                        <orgName xml:lang="is">
+                            <orgName>Landsbókasafn Íslands</orgName>
+                            <name type="city" key="Reykj01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The National Library of Iceland</orgName>
+                            <name type="city" key="Reykj01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="Natmus">
+                        <orgName xml:lang="da">
+                            <orgName>Nationalmuseet</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <orgName xml:lang="da">
+                            <orgName>The National Museum of Denmark</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="KB">
+                        <orgName xml:lang="da">
+                            <orgName>Det Kongelige Bibliotek</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Royal Library of Denmark</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="KungBib">
+                        <orgName xml:lang="sv">
+                            <orgName>Kungliga Biblioteket</orgName>
+                            <name type="city" key="Stock01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Royal Library of Sweden</orgName>
+                            <name type="city" key="Stock01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="UniBib">
+                        <orgName xml:lang="sv">
+                            <orgName>Stockholms universitetsbibliotek</orgName>
+                            <name type="city" key="Stock01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>Stockholm University Library</orgName>
+                            <name type="city" key="Stock01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="UniOld">
+                        <orgName xml:lang="no">
+                            <orgName>Universitetets Oldsaksamling</orgName>
+                            <name type="city" key="Oslo01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The University's Historical Museum</orgName>
+                            <name type="city" key="Oslo01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="SA-Rigs">
+                        <orgName xml:lang="da">
+                            <orgName>Rigsarkivet</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Danish National Archives</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="Stadsbib">
+                        <orgName xml:lang="da">
+                            <orgName>Stadsbiblioteket</orgName>
+                            <name type="city" key="Århus01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The State and University Library</orgName>
+                            <name type="city" key="Århus01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="LandsNørr">
+                        <orgName xml:lang="da">
+                            <orgName>Landsarkivet for Nørrejylland</orgName>
+                            <name type="city" key="Vibor01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Provincial Archives of Northern Jutland</orgName>
+                            <name type="city" key="Vibor01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="UiBBib">
+                        <orgName xml:lang="no">
+                            <orgName>Universitetsbiblioteket i Bergen</orgName>
+                            <name type="city" key="Berge01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>University of Bergen Library</orgName>
+                            <name type="city" key="Berge01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="Arnastofnun">
+                        <orgName xml:lang="is">
+                            <orgName xml:lang="is">Stofnun Árna Magnússonar á Íslandi</orgName>
+                            <name type="city" key="Reykj01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Árni Magnússon Institute</orgName>
+                            <name type="city" key="Reykj01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="LundUniBib">
+                        <orgName xml:lang="sv">
+                            <orgName>Lunds Universitetsbibliotek</orgName>
+                            <name type="city" key="Lund01"/>
+                        </orgName>
+                        <orgName xml:lang="sv">
+                            <orgName>Lund University Libraries</orgName>
+                            <name type="city" key="Lund01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="OsloUniBib">
+                        <orgName xml:lang="no">
+                            <orgName>Universitetsbiblioteket i Oslo</orgName>
+                            <name type="city" key="Oslo01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>University Library of Oslo</orgName>
+                            <name type="city" key="Oslo01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="natmusBrede">
+                        <orgName xml:lang="da">
+                            <orgName>Nationalmuseet i Brede</orgName>
+                            <name type="city" key="Brede01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="IS-Hásk">
+                        <orgName xml:lang="is">
+                            <orgName>Háskólabókasafn</orgName>
+                            <name type="city" key="Reykj01"/>
+                        </orgName>
+                        <orgName xml:lang="da">
+                            <orgName>Islands Universitetsbibliotek</orgName>
+                            <name type="city" key="Reykj01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>National and University Library of Iceland</orgName>
+                            <name type="city" key="Reykj01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="KU">
+                        <orgName xml:lang="da">
+                            <orgName>Københavns Universitet</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>University of Copenhagen</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <desc xml:lang="da">Danmarks største forsknings- og
+                            uddannelsesinstitution.</desc>
+                        <desc xml:lang="en">The largest institution of research and education in
+                            Denmark.</desc>
+                    </org>
+                    <org xml:id="RibDom">
+                        <orgName xml:lang="da">
+                            <orgName>Ribe domkapitel</orgName>
+                            <name type="city" key="Ribe01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="StaÅrh">
+                        <orgName xml:lang="da">
+                            <orgName>Statsbiblioteket</orgName>
+                            <name type="city" key="Århus01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The State and University Library</orgName>
+                            <name type="city" key="Århus01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="NordiskÅrh">
+                        <orgName xml:lang="da">
+                            <orgName>Institut for Nordisk Sprog og Litteratur</orgName>
+                            <name type="org" key="ÅU"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="ÅU">
+                        <orgName xml:lang="da">
+                            <orgName>Århus Universitet</orgName>
+                            <name type="city" key="Århus01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="LandFyn">
+                        <orgName xml:lang="da">
+                            <orgName>Landsarkivet for Fyn</orgName>
+                            <name type="city" key="Odens01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="NordForsk">
+                        <orgName xml:lang="da">
+                            <orgName>Nordisk Forskningsinstitut</orgName>
+                            <name type="org" key="KU"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="Navneforsk">
+                        <orgName xml:lang="da">
+                            <orgName>Afdeling for Navneforskning</orgName>
+                            <name type="org" key="NordForsk"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Institute of Name Research</orgName>
+                            <name type="org" key="NordForsk"/>
+                        </orgName>
+                        <desc xml:lang="da">Afdeling for Navneforskning har til opgave 1) at udgive
+                            og udforske danske sted- og personnavne 2) at svare på spørgsmål som
+                            vedrører danske sted- og personnavne 3) at undervise i sted- og
+                            personnavneforskning</desc>
+                        <desc xml:lang="en">The Name Research Section has as its purpose 1)
+                            publishing and conducting research into Danish place-names and personal
+                            names 2) answering questions about Danish place-names and personal names
+                            3) teaching place-names and personal names</desc>
+                    </org>
+                    <org xml:id="UUB">
+                        <orgName xml:lang="sv">
+                            <orgName>Uppsala Universitetsbibliotek</orgName>
+                            <name type="city" key="Uppsa01"/>
+                        </orgName>
+                        <orgName xml:lang="sv">
+                            <orgName>Uppsala University Library</orgName>
+                            <name type="city" key="Uppsa01"/>
+                        </orgName>
+                        <desc xml:lang="da">Sveriges ældste forskningsbibliotek</desc>
+                        <desc xml:lang="en">Sweden's oldest research library</desc>
+                    </org>
+                    <org xml:id="NO-Riks">
+                        <orgName xml:lang="no">
+                            <orgName>Riksarkivet</orgName>
+                            <name type="city" key="Oslo01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The National Archival Services of Norway</orgName>
+                            <name type="city" key="Oslo01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="VetusLatina">
+                        <orgName xml:lang="en">
+                            <orgName>The Vetus Latina Institute</orgName>
+                            <name type="city" key="Beuro01"/>
+                        </orgName>
+                        <desc xml:lang="en">The Vetus Latina Institute was founded in Beuron in
+                                <date when="1945">1945</date> by the Benedictine monk Dom Bonifatius
+                            Fischer OSB (&#x271D; <date when="1997">1997</date>). Its goal is
+                            the complete collection and critical edition of all surviving remnants
+                            of the Old Latin translations of the Bible from manuscripts and
+                            citations in ancient writers. Following Dr Fischer, Professor Hermann
+                            Josef Frede (&#x271D; <date when="1998">1998</date>) was appointed
+                            as the second director of the Institute in <date when="1973"
+                            >1973</date>. Since 1998, the Institute has been under the direction of
+                            Monsignor Roger Gryson, Professor Emeritus at the Catholic University of
+                            Louvain-la-Neuve.</desc>
+                    </org>
+                    <org xml:id="KglNordOld">
+                        <orgName xml:lang="da">
+                            <orgName>Det kongelige nordiske Oldskriftselskab</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <orgName xml:lang="en">
+                            <orgName>The Royal Society for Nordic Antiquaries</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <desc>Det Kongelige Nordiske Oldskriftselskab er et af Europas ældste, endnu
+                            fungerende, antikvariske selskaber. Selskabet blev grundlagt i 1825
+                            under navnet Det Nordiske Oldskriftselskab af en kreds af mennesker med
+                            interesse for Nordens fortid - i særdeleshed dengang de islandske
+                            sagaer, kaldet oldskrifter. Blandt stifterne var Rasmus Rask og Carl
+                            Christian Rafn</desc>
+                    </org>
+                    <org xml:id="AdvLib">
+                        <orgName xml:lang="en">
+                            <orgName>The Advocates Library</orgName>
+                            <name type="org" key="NLS"/>
+                        </orgName>
+                        <desc>Founded in the 1680s; the philosopher David Hume was once its
+                            librarian.</desc>
+                    </org>
+                    <org xml:id="NLS">
+                        <orgName xml:lang="en">
+                            <orgName>National Library of Scotland</orgName>
+                            <name type="city" key="Edinb01"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="Britmus">
+                        <orgName xml:lang="en">
+                            <orgName>British Museum</orgName>
+                            <name type="city" key="Londo01"/>
+                        </orgName>
+                        <desc xml:lang="en">Established by act of Parliament in <date when="1753"
+                                >1753</date>, the museum was originally based on three collections:
+                            those of Sir Hans Sloane; Robert Harley, 1st earl of Oxford; and Sir
+                            Robert Cotton. The collections were opened to the public in <date
+                                when="1759">1759</date>. In <date when="1973">1973</date> the
+                            British Museum's library was joined by an act of Parliament with a
+                            number of other holdings to create the British Library. About half the
+                            national library's holdings were kept at the museum until a new library
+                            building was opened at St. Pancras in <date when="1997"
+                            >1997</date>.</desc>
+                        <desc xml:lang="da">Et af verdens største museer og Storbritanniens
+                            kulturhistoriske hovedmuseum; indtil <date when="1997">1997</date>
+                            rummede det tillige det britiske nationalbibliotek for humaniora og
+                            socialvidenskaberne.</desc>
+                    </org>
+                    <org xml:id="BL">
+                        <orgName xml:lang="en">
+                            <orgName>British Library</orgName>
+                            <name type="city" key="Londo01"/>
+                        </orgName>
+                        <desc>National library of United Kingdom, formed by the British Library Act
+                                (<date when="1972">1972</date>) and organized by <date
+                                when="1973-07-01">1 July 1973</date>. For much of the 20th century
+                            its holdings were divided among the <name type="org" key="Britmus"
+                                >British Museum library</name> (with some 12 million volumes) and
+                            several other buildings, but in <date from="1997" to="1998"
+                                >1997-98</date> a new complex was opened in London, England, near
+                            St. Pancras Station in order to unify its vast collections. The British
+                            Library holds more than 25 million printed books as well as hundreds of
+                            thousands of periodicals, microfilms, rare manuscripts, and titles in
+                            electronic form. Its special offerings include the Oriental and India
+                            Office Collections (transferred from the Foreign and Commonwealth Office
+                            in 1982), the National Sound Archive (formerly the British Institute of
+                            Recorded Sound, incorporated into the library in <date when="1983"
+                                >1983</date>), printed music, a map library, and philatelic
+                            materials.</desc>
+                    </org>
+                    <org xml:lang="BodleyOx">
+                        <orgName xml:lang="en">
+                            <orgName>Bodleian Library</orgName>
+                            <name type="org" key="UniOx"/>
+                        </orgName>
+                        <desc>Library of the University of Oxford and one of the oldest and most
+                            important nonlending reference libraries in Great Britain. A legal
+                            deposit library entitled to free copies of all books printed in Great
+                            Britain, the Bodleian is particularly rich in Oriental manuscripts and
+                            collections of English literature, local history, and early
+                            printing.</desc>
+                    </org>
+                    <org xml:id="UniOx">
+                        <orgName xml:lang="en">
+                            <orgName>University of Oxford</orgName>
+                            <name type="city" key="Oxfor01"/>
+                        </orgName>
+                        <desc>The oldest university in the English-speaking world.</desc>
+                    </org>
+                    <org xml:id="dafos">
+                        <orgName xml:lang="da">
+                            <orgName>Dansk Folkemindesamling</orgName>
+                            <name type="city" key="Copen01"/>
+                        </orgName>
+                        <desc>Dansk Folkemindesamling er Danmarks arkiv for folkeminder.
+                            Folkemindesamlingen bevarer almindelige menneskers livsopfattelser,
+                            erindringer, traditioner, sang, musik og dagligdags historier for
+                            eftertiden. Dansk Folkemindesamling forsker i alle befolkningsgruppers
+                            kultur, og arkivet gemmer på flere hundrede års dokumentation af de
+                            mennesker og det samfund, der er baggrunden for Danmark i dag. Pr <date
+                                when="2008-06-01">1 Juni 2008</date> er Dansk Folkemindesamling
+                            fusioneret med Det Kongelige Bibliotek som en del af
+                            Nationalbiblioteket.</desc>
+                    </org>
+                    <org xml:id="ISL" role="recipient">
+                        <orgName xml:lang="is">
+                            <orgName>Íslendingar</orgName>
+                        </orgName>
+                    </org>
+                    <org xml:id="Fogeti" role="recipient">
+                        <orgName xml:lang="is">
+                            <orgName>Land- og bæjarfógeti</orgName>
+                            <name type="city" key="Reykj01">Reykjavík</name>
+                        </orgName>
+                    </org>
+                    <org xml:id="Rente" role="recipient">
+                        <orgName xml:lang="is">
+                            <orgName xml:lang="is">Rentukammer</orgName>
+                            <orgName xml:lang="dk">Det kongelige rentekammer</orgName>
+                            <name type="city" key="Copen01">Kaupmannahöfn</name>
+                        </orgName>
+                        <desc>Rentukammer var stjórnardeild í danska einveldinu, sem lét sig efnahagsmál varða.</desc>
+                    </org>
+                    <org xml:id="IbuIsa" role="recipient">
+                        <orgName xml:lang="is">
+                            <orgName>Íbúar Ísafjarðarsýslu</orgName>
+                        </orgName>
+                    </org>
+                    <org xml:id="IslDan" role="scribe">
+                        <orgName xml:lang="is">
+                            <orgName>Íslendingar í Danmörku</orgName>
+                        </orgName>
+                    </org>
+                    <org xml:id="DirUni" role="recipient">
+                        <orgName xml:lang="is">
+                            <orgName xml:lang="dk">Den Kongelige Direction for Universitetet og Skolerne</orgName>
+                            <name type="city" key="Copen01">Kaupmannahöfn</name>
+                        </orgName>
+                    </org>
+                    <org xml:id="Oldsager" role="recipient">
+                        <orgName xml:lang="is">
+                            <orgName xml:lang="dk">Den kongelige Comission for Oldsagers Opbevaring</orgName>
+                            <name type="city" key="Copen01">Kaupmannahöfn</name>
+                        </orgName>
+                    </org>
+                    <org xml:id="IslBom">
+                        <orgName xml:lang="is">
+                            <orgName>Hið íslenska bókmenntafélag</orgName>
+                            <name type="city" key="Copen01">Reykjavík</name>
+                        </orgName>
+                        <org xml:id="Dam001">
+                            <orgName xml:lang="en">
+                                <orgName>Damms Antikvariat</orgName>
+                            </orgName>
+                            <name type="city" key="Oslo01"></name>
+                            <desc>4. desember 1843 offentliggjorde Niels Wilhelm Damm sin første salgsannonse. N.W. Damm (1816-1878) hadde samme år slått seg ned som bokbinder og bokhandler på Grønland, den gang en av Christianias forsteder. 
+                                Han drev som bokbinder og omsatte nye og gamle bøker. I 1846 ble han borger av Christiania og flyttet til Øvre Slottsgate 6 hvor forlag, bokhandel og antikvariat var samlokalisert i vel 110 år.
+                                Antikvariat og forlag har hatt separate eiere siden 1960-tallet. Forlaget N.W. Damm og Søn er senere fusjonert med Cappelens Forlag, og eies i dag av danske Egmont og svenske Bonnier.
+                                Etter vel 40 år i Tollbodgaten flyttet Damms Antikvariat til moderne lokaler på Christiania Torv øverst i Rådhusgaten og høsten 2011 til Frederik Stangs Gate på Frogner.
+                                Damms Antikvariat ble i mange år forbundet med Claes Nyegaard (1920-1999) som gjennom sin personlighet og enorme kunnskaper ble regnet som en institusjon langt utenfor landets grenser.
+                                I dag eies og drives Damms Antikvariat av Anders Guldhaug, som i en alder av 19 år startet nettopp i Damms Antikvariat. Etter studier og 14-årig drift av eget antikvariat (Antikvariat Gyldenlak på Frogner) tok han over som eier i 2002.</desc>
+                            <bibl>
+                                <ref>Nordisk familjebok</ref>
+                            </bibl>
+                        </org>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 2 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0002-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 2 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="32v:19">pp. 1-64</locus>
+                     <title type="uniform" ref="#vs">Völsunga saga</title>
+                     <rubric>Saga Af Ragnar Lodbrők og mørgum<ex>m</ex> kőngum<ex>m</ex> merkelegum<ex>m</ex></rubric>
+                     <rubric>I C<ex>a</ex>p<ex>itu</ex>l<ex>um</ex></rubric>
+                     <incipit>Hier Hefur Vpp og seiger fra þeim man<ex>n</ex>e er sige er nefndur.</incipit>
+                     <explicit>ok vard þ<ex>ei</ex>m þ<ex>ad</ex> ad alld<ex>r</ex> laghi</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="32v:20" to="51v:4">pp. 64-102</locus>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <rubric>XLI C<ex>a</ex>p<ex>itu</ex>l<ex>um</ex></rubric>
+                     <incipit>Heimir J hlyms dólum<ex>m</ex> Spir nu þ<ex>es</ex>se tijdinde</incipit>
+                     <explicit>Ok þetta þotti m<ex>onnu</ex>m vndarligt ok saugdu sijþ<ex>a</ex>n fra audrum<ex>m</ex> mon<ex>n</ex>um</explicit>
+                 <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="51va:5" to="54ra:1">pp. 102-107</locus>
+                     <title type="uniform">Krákumál</title>
+                     <rubric>Kraku Mal, Er Sumer Kalla Lodbrőkar qvidu</rubric>
+                     <incipit>Hiuggum<ex>m</ex> ver met hiørvi hitt var ej fÿrer laungu</incipit>
+                     <explicit>Lijfs eru lidnar stunder Hlæande skal ek deÿa.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="54"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="287"/>
+                              <width unit="mm" quantity="182"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol later pag contemporary">
+                           <p>The manuscript is paginated 1-107 in the outer top corners, and foliated 1-54
+                        in red ink by <name type="person" key="KriKaa001" role="scholar">Kålund</name> in the top
+                        margins.</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1 2" writtenLines="28 30">
+                           <num type="wpl" atLeast="8" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="142"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#PalSve001" scope="sole" script="early kurrent"/> 
+                        
+                     
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                     <decoNote type="other">The main rubric is decorated</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>There are two AM-slips, (a) and (b), in the manuscript containing information concerning possible
+                     scribes of the manuscript. Slip (a) reads: <q>Bryniolfr Einarsson
+                        seger, ad þessa Ragnars Saga se hverki skrifud af 
+                        Kolbeine Han<ex>n</ex>essyne nie Päle
+                        (α) Sveinssyne. Og verd eg þä ad corrigera þad,
+                        sem eg (in registro qvodam) hefi skrifad um hóndena ä Ragnars
+                           Sögu og Explicatione
+                              Sigurdrïfumäla i bők þe<ex>ss</ex>e
+                        er eg feck fra Þorlake Þordarsyne; Item Sögubokinne sem stendr in Bibliotheca ReSeniana pag. 259.
+                        α] Sr. Gisle Alfsson helldr þő fyrer
+                        vïst ad þetta sie hónd Pals Sveinssonar.
+                        Seger og <add place="above">ad</add> hónd Päls
+                        hafi umbreitst j þvi Päle hafi daprast siőn, og kunni
+                        þvi tvennar hans hendur őlïkar ad vera.</q></p>
+                     <p>AM-slip (b) reads: <q xml:lang="is">
+                           <del>Þetta</del><handShift/><add place="above">þesse Ragnars Saga</add>
+                           <handShift/>er med hende Kolbeins Hanneßonar ij
+                           Flöa. <handShift/> þat mun ei svo vera. þetta
+                           mun vera hónd Päls Sveinssonar. Bryniolfur
+                           Einarsson seger  Nei. þ<ex>ad</ex> er vist ad þ<ex>ess</ex>e sama
+                           hónd hefur skrifad f<ex>yrer</ex> Sr. Þorstein
+                           Biórnsson. vide titul ä þan<ex>n</ex> fragmentis folio, er
+                           eg feck af Isleife Einarssyne, og ätt
+                           hafde Þora ä Setberge. hvar ä Suppostitia Skiólldunga Saga.</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>The manuscript was formerly bound in leaves from a Latin liturgical book with musical
+                           notation (two overlapping leaves), written in Iceland in the <date notBefore="1400" notAfter="1499">fifteenth century</date>, 
+                           now <ref type="ms">AM Access. 7b, HS 34</ref>. 
+                           The parchment on the boards was removed in 1911 and replaced with marbeled paper. The parchment on the
+                           spine was retained in the newer binding.
+                        Since the script on the parchment on the spine is coming away, underlying material has become visible. It
+                        can be identified as Icelandic.
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Written in <origPlace key="IS">Iceland</origPlace> in the 
+                        <origDate notBefore="1600" notAfter="1699">seventeenth century</origDate>.</p>
+                  </origin>
+                  <provenance>
+                     <name key="ArnMag001" type="person" role="owner"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:40.761+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:00.177+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:41:24.933+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:04.613+02:00" who="#EAH">
+                Extracted layout data from previous version.
+         </change>
+         <change when="2013-02-18" who="#BES">Prepared for session with ms.</change>
+         <change when="2013-04-10" who="#BES">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

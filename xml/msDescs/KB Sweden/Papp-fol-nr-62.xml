@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 62</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-62" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 62</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="38r"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of
+                        <ref type="ms" target="#Papp-4to-nr-30" ana="antigraph">Papp 4to nr 30</ref>.</p>
+                     </filiation>
+                     <note>B-vers.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3">The original front cover is now the second front-flyleaf</num>
+                           <num type="book-block" value="39"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="325"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Fool with a seven-pointed collar. cf. Papp. fol. 20 and Papp. fol. 50. A different
+                              watermark on fol. <locus>20</locus>: A double circle with a cross in its centre. Between the two
+                              lines there are bold letters, possibly "VATTI" and four small circles. The watermark on the
+                              flyleaves is a bee hive with floral ornaments. "1910" and "No 2". On the opposite side it reads
+                              "LESSEBO".</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p>modern foliation on every tenth page</p>
+                        </foliation>
+                        <condition ana="good">Only some leaves darkened and with stains, a few with repairs.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="26 33">
+                           <num type="wpl" atLeast="3" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="265"/>
+                              <width unit="mm" quantity="80"/>
+                           </dimensions>
+                           <note>Laid out in two columns, but only one has been used.</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#ambig" scope="major" script="kurrent">Arngrímur Jónsson wrote <locus from="1r" to="19v">1r-19v</locus> and <locus from="21r" to="28r">21r-28r</locus>. N.B. Not the famous author.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">An unknown scribe, maybe Helgi Ólafsson, wrote <locus from="20r" to="20v">20r-20v.</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">decorated initials with ornaments.</decoNote>
+                     <decoNote type="paratext">squiggles beneath the catchwords</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>Some corrections to the text in the hand of Guðmundur Ólafsson. He suggests chapter title
+                     on <locus>25v and 26v</locus>. Squiggles and individual letter in the margins of <locus>31r, 31v, 36r and
+                        37r</locus>. On the original front cover, there are several stickers with the shelfmark. Traces of a
+                     shelfmark note on the thick paper itself.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with marbeled paper on the boards; spine and corners in white leather. The
+                           golden imprint on the spine reads: <q>Cod. Isl. Papp. Fol. N:o 62</q>. The front cover of the original
+                           binding is preserved in the front of the manuscript.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1683" notAfter="1691"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <name type="organisation" role="commissioner" key="AntKol001">Antikvitetskollegiet</name>
+                     <name type="organisation" role="owner" key="AntKol001">Antikvitetskollegiet</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:04.552+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. still catalog info missing.</change>
+         <change when="2013-03-05" who="#BES">Measured and checked at the library. Added catalog info. Info onl layout and scribes
+            still missing.</change>
+         <change when="2013-04-03" who="#PTL">Added remaining locus and layout details.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

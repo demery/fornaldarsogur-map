@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1366 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1366-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1366 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>           
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r:1" to="79r:13"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <incipit>vil eg bioda þier, þúj mælir Lopthæ<ex>na</ex></incipit>
+                     <explicit>og er þar mikel ætt frä hen<ex>n</ex>e komen<ex>n</ex> og liükum<ex>m</ex>
+                        vier hier sógu órfar odds hin<ex>n</ex>s vÿdfórla og er so endir fynis</explicit>
+                     <note>The beginning is missing.</note>
+                     <note>Some leaves are missing between ff.<locus from="49" to="49">49</locus> and
+                        <locus from="50" to="50">50</locus>.</note>
+                     <note>The text differs considerably from Rafn's edition.</note>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="79r:14" to="94r:23"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Katle Hæng</rubric>
+                     <incipit>Hallbiørn hiet madur og var kalladur hälftróll</incipit>
+                     <explicit>riede fÿrer Hrafnistú med meðan<ex>n</ex> han<ex>n</ex> lifde og
+                        er nú ender fÿnis</explicit>
+                     <note>Some leaves are missing between leaf <locus from="92" to="92">92</locus> and
+                        <locus from="93" to="93">93</locus>.</note>
+                  </msItem>
+                  <msItem n="3" class="fas" defective="true">
+                     <locus from="94v:1" to="98v:20"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sögu þattúr Grÿms Lodin<ex>n</ex>skin<ex>n</ex>u</rubric>
+                     <incipit>So er sagt af Grÿme sine Kietils ad han<ex>n</ex> være</incipit>
+                     <explicit>en<ex>n</ex> er han<ex>n</ex> hafði eÿ leinge leigið sier han hvar Kona</explicit>
+                     <note>The ending is missing.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="98"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="159"/>
+                              <width unit="mm" quantity="101"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor">Most of the leaves are somewhat damaged.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="90"/>
+                           </dimensions>
+                           <catchwords ana="true"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="early kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="none">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:15.798+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-09" who="#SMM">Added msDesc codes and completed with some information.</change>
+         <change when="2013-07-18" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-08-30" who="#TL">Checked markup consistency</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

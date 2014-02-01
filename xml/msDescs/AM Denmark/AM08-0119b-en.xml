@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 119 b 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM08-0119b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 119 b 8vo</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="avint">
+                     <locus from="1r:1" to="10r:12"/>
+                     <title type="uniform">Gnýs ævintýri</title>
+                     <textLang mainLang="non"/>
+                     <rubric><supplied reason="damage">E</supplied>itt æfen<ex>n</ex>tyr til
+                        gamanz af einu<ex>m</ex> kieisara er Joku<ex>m</ex> hiet og af entulus og gnyr</rubric>
+                     <incipit>Jochum hiet eirn<ex>n</ex> godur værn</incipit>
+                     <explicit>h<ex>an</ex>n reid a trie hestinu<ex>m</ex> sem<ex>m</ex> hønum sæmde</explicit>
+                     <finalRubric>Endar nu þetta æfin<ex>n</ex>ty</finalRubric>
+                     
+                  </msItem>
+                  
+                  <msItem n="2" class="fas">
+                     <locus from="10r:13" to="18v:20"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Æfin<ex>n</ex> Tyr af Þrände könge og Eiryk Vid førlä</rubric>
+                     <incipit>Þrandur Er Sä köngur Nefnd<ex>ur</ex> er first riedi f<ex>irir</ex> þränd heimi</incipit>
+                     <explicit>Er þessi fra saga eptir hønu<ex>m</ex> sialfu<ex>m</ex>
+                        søgd og h<ex>a</ex>nz føru naut</explicit>
+                     <finalRubric>ϐTε
+                        ερ ϕeττæ υψir
+                        Tjρ Finis</finalRubric>
+                  
+                  </msItem>
+                  
+                  <msItem n="3" class="fornth">
+                     <locus from="19r:1" to="23r:8"/>
+                     <title type="uniform">Ormars þáttur Framarssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eitt æfin<ex>n</ex> Tyr af Ormar for man<ex>n</ex>z syne</rubric>
+                     <incipit>Firir gaut landi riedi sa kong<ex>urs</ex> er hringur hiet</incipit>
+                     <explicit>og stirdi so ryki synu med söma høfum uier
+                        ey meir af hønum friett Finis etc</explicit>
+                     
+                     <note>Bottom portion of leaf cut away and restored with blank paper.</note>
+                  
+                  </msItem>
+                  
+                  <msItem n="4" class="avint" defective="true">
+                     <locus from="23v:1" to="23v:4"/>
+                     <title type="supplied">Unidentified æfintýri</title>
+                     <textLang mainLang="is"/>
+                     <rubric/>
+                     <incipit defective="true">aptur seigdu[?] h<ex>onu</ex>m og lyka</incipit>
+                     <explicit>og[?] læti firir god ár og[?] bar. Finis.</explicit>
+                     
+                     <note>Defective. Lacks beginning. Text rubbed and illegible in some places.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="5" class="unknown" defective="true">
+                     <locus from="23v:5" to="23v:7"/>
+                     <title type="supplied">Unidentified text</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Hvad erttu holldlegur mad<ex>ur</ex></incipit>
+                     <explicit defective="true">Qvad errtu cristin<ex>n</ex> madur</explicit>
+                     
+                     <note>Defective. Lacks ending. Laid out in three columns.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="6" class="avint">
+                     <locus from="24r:1" to="24r:11"/>
+                     <title type="supplied">Unidentified æfintýri</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eitt litid æfin<ex>n</ex> tyr</rubric>
+                     <incipit>Þad v<ex>ar</ex> ein<ex>n</ex> kong<ex>ur</ex> s<ex>em</ex> hafde þa
+                        f<ex>or</ex>uitne</incipit>
+                     <explicit><ex>og</ex> hef<ex>ur</ex> natt stal hia einu<ex>m</ex> k<ex>ongur</ex>
+                        h<ex>ann</ex>[?] v</explicit>
+                     
+                     <note>Defective? Only the beginning of an æfintýri.</note>
+                  
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="24"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Flyleaves modern</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="95"/>
+                           </dimensions>
+                           
+<!--                           <watermark ana="unknown"/>-->
+                           
+                        </support>
+                        
+                        <foliation ana="fol later">
+                           <p>Foliated in violet pencil in lower margins.</p>
+                        </foliation> 
+                        
+                        <condition ana="average">
+                           <p>Most leaves have sustained extensive wear and have been restored. The lower part of
+                        fol. <locus>23</locus> has been excised.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="18 20">
+                           <num type="wpl" atLeast="6" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="135"/>
+                              <width unit="mm" quantity="80"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="4">
+                     <handNote scribeRef="unknown" scope="major" script="unknown">The majority of the MS (items 1-3) are in the
+                     same, unknown hand. Items 4-6 are in there separate unknown hands.</handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                                    
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Rebound in 1963 in paper boards with a speckled wood pattern.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <p><origPlace key="IS" cert="medium">Iceland</origPlace>
+                    <origDate notBefore="1600" notAfter="1699"/></p>
+                  </origin>
+                  
+                  <provenance>
+                     <p>The manuscript was once bound in with <ref type="ms">AM 119 a 8vo</ref> which itself
+                was once part of a larger codex, now split up into <ref type="ms">AM 119 a 8vo</ref>, <ref type="ms">AM
+                    588 p 4to</ref> and <ref type="ms">AM 118 a 8vo</ref>. It is possible that AM 119 b 8vo was once part
+                of this larger codex, too.</p>
+                     <name type="person" role="owner" key="ArnMag001"><!--Árni Magnússon--></name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:52.985+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:50.193+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:42:13.752+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:50.618+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-05-03" who="#JSL">Supplied information from handrit and Kålund catalogs.</change>
+         <change when="2013-08-05" who="#JSL">Cataloged from manuscript.</change>
+         <change when="2013-08-15" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

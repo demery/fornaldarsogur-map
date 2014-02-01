@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+	
+		<fileDesc>
+			<titleStmt>
+				<title>UB 254 fol.</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="UB02-0254-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 254 fol.</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<!--<titlePage ana="no|contemporary|later">
+							<titlePart></titlePart>
+						</titlePage>-->
+						
+						<msItem n="1" class="fas">
+							<locus from="1r:X" to="24v:X"/>  							
+							<title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+							<textLang mainLang="non"/>
+							<rubric/>
+							<incipit/>
+							<explicit/>
+														
+							<filiation>
+								<p>Copy of <ref type="ms" target="#AM04-0343-en" ana="antigraph">copy of AM 343 4to</ref> according to scribal note.</p>
+							</filiation> 
+																				
+						</msItem>
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="book-block" value="24"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="311"/>
+										<width unit="mm" quantity="190"/>
+									</dimensions>
+									
+									<!--<watermark ana="no|yes"/>-->
+									
+								</support>
+								
+								<!--<foliation ana="no|contemporary|later|pag|col|fol"/>-->
+								
+								<condition ana="unknown"/>
+									
+							</supportDesc>
+							<!--<layoutDesc>
+								<layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">									
+									
+									<num type="wpl" atLeast="" atMost=""/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions>
+								</layout>
+							</layoutDesc>-->
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="unknown" scope="sole" script="unknown">Written by a certain Oddr Jónsson according
+							to typescript catalog.</handNote>
+						</handDesc>
+						
+						<!--<decoDesc ana="no|low|medium|high">
+							<decoNote type="border"/>
+						</decoDesc>-->
+						
+						<!--<additions ana="unknown">
+							<p/>
+						</additions>-->
+						
+						<!--<bindingDesc>
+							<binding ana="unknown" contemporary="false">
+								<p/>
+							</binding>							
+						</bindingDesc>-->
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1750" notAfter="1799"/>
+							<origPlace key="IS"/>
+						</origin>
+						
+						<provenance>
+							<p>Purchased from <name type="person" role="owner" key="PetPet005">Petersen bergráði</name> 
+								in 1849 (cf. typescript catalog).</p>
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-18" who="#JSL">Added template elements and input data from Jónas Kristjánsson's typescript catalog,
+				"Skrá um íslenzk handrit í Noregi".</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

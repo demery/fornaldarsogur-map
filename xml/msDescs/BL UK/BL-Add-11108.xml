@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11108</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11108" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11108</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart"/>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="ambig" script="unknown" scope="minor">Jón Sigurðsson á Sauðanesi</handNote>
+                     <!-- possibly GotJon002? -->
+                     <handNote scribeRef="ambig" script="unknown" scope="minor">Fols. 139-157 Gottskálk Jónsson and others</handNote>
+                     <handNote scribeRef="unknown" script="unknown" scope="major"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1761"/>
+                  </origin>
+               </history>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 I</idno>
+                  </altIdentifier>
+                  <msContents>                  
+                  <msItem class="fas" n="1">
+                     <locus from="2r" to="68"/>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="is"/>
+                     <note>Copy of Verelius' ed.; 2 copies of the saga?</note>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery">Unknown</handNote>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="fas" n="2">
+                     <locus from="69r" to="77v"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery">Unknown</handNote>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 III</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="fas" n="3">
+                     <locus from="78r" to="104v"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery">Unknown</handNote>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="fas" n="4">
+                     <locus from="105r" to="112r"/>
+                     <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery">Unknown</handNote>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 V</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="fas" n="5">
+                     <locus from="113r" to="138r"/>
+                     <title ref="#ssst" type="uniform">Sörla saga sterka</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 VI</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="tjos" n="6">
+                     <locus from="139" to="159"/>
+                     <title type="uniform">Jóns saga Upplendingakonungs</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 VII</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="fas" n="7">
+                     <locus from="160r" to="189r"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="is"/>
+                     <note>Followed by a list of Icelandic and foreign authors from the 11th to 15th century (fols. 1894-190v), signed "H.D. 1813",
+                        probably Halldór Davíðsson (cf. Jón Helgason unprinted cat. of Icelandic MSS in the BL).</note>
+                  </msItem>
+                  </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 VIII</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="fas" n="8">
+                     <locus from="191r" to="208v"/>
+                     <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 IX</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="fas" n="9">
+                     <locus from="209" to="216"/> 
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 X</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="fas" n="10">
+                     <locus from="217r" to="223v"/>
+                     <title type="uniform" key="#hsh">Sörla þáttur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 XI</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="fas" n="11">
+                     <locus from="224r" to="237r"/>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="is"/>
+                     <!-- note cropped?? complete and move to <filiation> -->
+                     <note>Older vers., derived from Papp. fol. nr 1 and</note>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 XII</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="konth" n="12">
+                     <locus from="238r" to="240v"/>                     
+                     <title type="uniform">Þáttur af Sigurði Slefu</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11108 XIII</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="" n="13">
+                     <locus from="241r" to="246v"/> 
+                     <title type="uniform">Søgu Þáttur af Sigurði Gangandi Barðar Sini</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="87"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="220"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="2" writtenLines="23">									
+                                 <num type="wpl" atLeast="13" atMost="15"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="160"/>
+                                    <width unit="mm" quantity="120"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>   
+                  </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:53.174+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-08" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

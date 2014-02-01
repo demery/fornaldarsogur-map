@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>GKS 1015 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS02-1015-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>GKS 1015 fol.</idno>
+               </msIdentifier>
+               <physDesc>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Red leather binding with king Frederik III's initials in gold on the front cover and golden imprints on the spine; golden cut. 
+                           Two fabric pieces on both front and back cover.
+                           The binding of volume I is in worse shape than the others.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                  <origDate when="1661">17th c.</origDate>
+                  <origPlace key="DK"/>
+                  </origin>
+                  <provenance>
+                     <name key="Friooo005" type="person" role="commissioner">King Frederik III</name>
+                     <name key="Friooo005" type="person" role="owner">King Frederik III</name>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>GKS 1015 fol I</idno>
+                  </altIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><titlePart>[1r]Den förste Part aff Norgis Kongers Historie
+                     [2r]Historie Om Nogle Konger oc Regenter 
+                     aff Norge. Skreffuet paa det Islandske Sproch aff to Prester ued naffn Her Jon Thordeson oc Her Magnus Thorlachson Anno 1390 
+                     Oc nu Vdsatt paa Danske effter Kongelige Mayestet naadigst befalning
+                  aff Thormod Torffueson Anno 1661.
+                  M.T. <gap/> Lib. z de Oratore. Historia est testis temporum, lux veritatis, vita memoriæ, magistra vitæ, nuntia vestustatis</titlePart></titlePage>
+                  <msItem n="1" class="formal">
+                     <locus from="2r" to="8v"/>
+                     <title type="supplied">Preface</title>
+                     <author><name key="ThoTor001" type="person" role="translator">Torfæus</name></author>
+                     <textLang mainLang="da"/>
+                     <colophon>Kiöbenhaffns Slott den 28. decemb. Anno 1661 [...] Thormod Torffueson Islender.</colophon>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9r" to="20v"/>
+                     <title type="uniform" ref="#ff">Frá Fornjóti og hans ættmönnum [Danish]</title>
+                     <title type="parallel">Hversu Noregur byggðist</title>
+                     <textLang mainLang="da"/>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="21r" to="730r">pp. 1-1419; 821 occurs twice</locus> 
+                     <title type="uniform">Ólafs saga Tryggvasonar [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non">Verses not translated</textLang>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                     <note>Ólafs saga Tryggvasonar hin mesta with inserted sagas and þættir but possibly some parts missing;
+                     Only some divisions marked.</note>
+                  <msItem n="3.12" class="fas">
+                     <locus from="340r" to="350r">pp. 637-659</locus>
+                     <title type="uniform" ref="#hsh">Sörla þáttur [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="3.23" class="fas">
+                     <locus from="432v" to="451r">pp. 821bis-858</locus>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="3.24" class="fas">
+                     <locus from="451r" to="456r">pp. 858-868</locus>
+                     <title type="uniform" ref="#hthth">Helga þáttur Þórissonar [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  </msItem>
+                  <msItem n="4" class="kon">
+                     <locus from="730v" to="737v">p. 1419-1433</locus>
+                     <title type="uniform">Hálfdanar þáttur svarta [Danish]</title>
+                     <textLang mainLang="da"/>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="5" class="kon">
+                     <locus from="738r" to="749v">76r-77r p. 1434-1457</locus>
+                     <title type="uniform">Haralds þáttur hárfagra [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non"/>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="6" class="kont">
+                     <locus from="749v" to="751v">pp. 1457-1461</locus>
+                     <title type="supplied">Noregskonungatal [Danish]</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="7" class="kon">
+                     <locus from="752r" to="761r">pp. 1462-1480</locus>
+                     <title type="uniform">Hauks þáttur hábrókar [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non"/>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="8" class="kont">
+                     <locus from="761r" to="762r">pp.1480-1482</locus>
+                     <title type="supplied">Noregskonungatal [Danish]</title>
+                     <textLang mainLang="da"/>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="16" class="kon">
+                     <locus from="762r" to="766r">1482-1490</locus>
+                     <title type="uniform">Haralds þáttur grenska [Danish]</title>
+                     <textLang mainLang="da"/>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="17" class="kon">
+                     <locus from="766r" to="771r">p. 1490-1500</locus>
+                     <title type="uniform">Ólafs þáttur Geirstaðaálfs [Danish]</title>
+                     <textLang mainLang="da"/>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="771"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="306"/> 
+                                 <width unit="mm" quantity="195"/>
+                              </dimensions>
+                              <watermark ana="yes">Two lions holding a coat of arms</watermark>
+                           </support>
+                           <foliation ana="pag contemporary">
+                              <p/>
+                           </foliation>
+                           <condition ana="good">The binding is in average shape</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="16 24">
+                              <num type="wpl" atLeast="6" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" atLeast="200" atMost="260"/>
+                                 <width unit="mm" atLeast="140" atMost="150"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent">Possibly written by <name key="ThoTor001" type="person" role="scribe">Torfæus</name>
+                         </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>GKS 1015 fol. II</idno>
+                  </altIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><titlePart>Den anden Part aff Norgis Koners Historie</titlePart></titlePage>
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="402v?">pp.1-</locus>
+                     <title type="uniform">Ólafs saga helga [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non">Verses not translated</textLang>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                     <note>Hardly any divisions forn inserted sagas and þættir; possibly parts missing.</note>
+                  <msItem n="1.6" class="fas">
+                     <locus from="122r" to="126r">pp. 243-245</locus>
+                     <title type="uniform" ref="#ttht">Tóka þáttur Tókasonar [Danish]</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  </msItem>
+                  
+                  <msItem n="2" class="kon">
+                     <locus from="402v?" to="204v">pp.804?-923</locus>
+                     <title type="uniform">Magnús saga góða og Haralds harðráða [Danish]</title>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="462r" to="470v">pp. 923-940</locus>
+                     <title type="uniform">Hemings þáttur Áslákssonar [Danish]</title>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                     <textLang mainLang="da"/>
+                  </msItem>
+               </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="4"/>
+                              <num type="book-block" value="470"/>
+                              <num type="back-flyleaf" value="2"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="302"/>
+                                 <width unit="mm" quantity="196"/>
+                              </dimensions>
+                              <watermark ana="yes">Foolscap</watermark>
+                           </support>
+                           <foliation ana="pag contemporary">
+                              <p/>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="22 27">
+                              <num type="wpl" atLeast="7" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" atLeast="245" atMost="260"/>
+                                 <width unit="mm" atLeast="140" atMost="160"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="999">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent">
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>GKS 1015 fol. III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="contemporary"><titlePart>Den Tredie Part aff Norgis Kongens Historie</titlePart></titlePage>
+                     <msItem n="1" class="kon">
+                        <locus from="1r" to="106v">pp. 1-222</locus> <!-- pp. 90-99 left out -->
+                        <title type="uniform">Orkneyinga saga [Danish]</title>
+                        <filiation>
+                           <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                        </filiation>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                  <msItem n="2" class="kon">
+                     <locus from="107r" to="236vr">pp. 223-483</locus> <!-- p. 412 left out -->
+                     <title type="uniform">Sverris saga [Danish]</title>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="237r" to="472r">pp. 484-955</locus><!-- p. 707 left out -->
+                     <title type="uniform">Hákonar saga Hákonarsonar</title>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="4" class="annal">
+                     <locus from="473r" to="531v">pp. 957-1074</locus>
+                     <title type="uniform">Flateyjarannáll [Danish]</title>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                     <textLang mainLang="da"/>
+                  </msItem>
+               </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="2"/>
+                              <num type="book-block" value="531"/>
+                              <num type="back-flyleaf" value="4"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="302"/>
+                                 <width unit="mm" quantity="196"/>
+                              </dimensions>
+                              <watermark ana="yes">Foolscap</watermark>
+                           </support>
+                           <foliation ana="pag contemporary">
+                              <p/>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="21 25">
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="250"/>
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="999">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent">
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                     </additions>
+                  </physDesc>
+               <history/>
+                  </msPart>
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>GKS 1015 fol. IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="contemporary"><titlePart>Continuation paa de Norske Kongens Historie</titlePart></titlePage>
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="8v"/>
+                     <title type="uniform">Haralds saga Sigurðarsonar</title>
+                     <rubric>Om Kong Olluf den kyrre (stille) Kong Harald Sigurds son</rubric>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                     <msItem n="2" class="kon">
+                        <locus from="9r" to="167v"/>
+                           <title type="uniform">Heimskringla</title>
+                        <title type="parallel">Magnús saga berfætts</title>
+                           <rubric>Kong Magnus Barfods Historie</rubric>
+                        <textLang mainLang="da" otherLangs="non"/>
+                        <note>Ends with the death of King Eystein Haraldsson</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="3"/>
+                              <num type="book-block" value="214"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="311"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <watermark ana="yes">Foolscap</watermark>
+                           </support>
+                           <foliation ana="fol contemporary">
+                              <p/>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="21 25">
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="999">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent">
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                     </additions>
+                  </physDesc>
+                  <history/>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:04.728+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-19" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-06-24" who="#BES">Added missing information with manuscript in situ.</change>
+         <change when="2013-08-26" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

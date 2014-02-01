@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1251 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1251-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1251 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas handfr">
+                     <locus from="1r" to="6v:9"/>
+                     <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                     <title type="parallel">Hversu Noregur byggist</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="attat">
+                     <locus from="6v:10" to="8r:15"/>
+                     <title type="supplied">Ættatölur frá Adam</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="sagnfr">
+                     <locus from="8r:16" to="8r:31"/>
+                     <title type="supplied">Frá Júlió og Romverja Höfðingjum</title>
+                     <incipit>Þá er lidit var fra upphafe veralldar</incipit>
+                     <explicit>Roma borg var smidut han hundrud og fimm ár.</explicit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="annal">
+                     <locus from="9r" to="11r"/>
+                     <title type="supplied">Nockrir annálar um upprunar Nordmanna</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="annal">
+                     <locus from="12r" to="22v"/>
+                     <title type="supplied">Annálar</title>
+                     <textLang mainLang="is"/>
+                     <note>from 1401 to 1620</note>
+                  </msItem>
+                  <msItem n="6" class="logfr malfr">
+                     <locus from="23r" to="27r"/>
+                     <title type="supplied">Fornyrði lögbókarinnar</title>
+                     <textLang mainLang="is"/>
+                     <note>in alphabetical order from D to V</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="27"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="340"/>
+                              <width unit="mm" quantity="225"/>
+                           </dimensions>
+                           <watermark ana="yes">"SUPRA FYNE <ex>et</ex> BYKORE"; beehive</watermark>
+                        </support>
+                        <foliation ana="pag fol later"><p>item 1 is paginated in the top corner; some folio numbers are written in
+                              the bottom right corner of the leaf.</p></foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="29 32">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="270"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="unknown" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium"><p>Scholarly notes and additions in the margins. On fols. <locus>1r</locus> and
+                           <locus>9r</locus> <name key="PetSuh001" type="person" role="signatory">Suhm</name> made detailed notes
+                     on the anitgraphs of
+                        items 1 - 4, two manuscripts in Langebek's library written by Ólafur Gíslason in 1765 and 1766. In the
+                        back, two loose slips are inserted, one on manuscripts containing <title>Hervarar saga</title>, the other
+                        on German literature.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Plain paper binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="signatory"/>
+                     <note>Suhm probably owned the manuscript. He signed his note
+                        on fol. <locus>1r</locus></note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:34.804+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-30" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-05-21" who="#BES">Added missing information with manucsript in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

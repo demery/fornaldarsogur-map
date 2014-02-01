@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 583 a 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0583a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 583 a 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="10v:34"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biriar sógu <gap reason="damage"/> steinz s<gap reason="damage"/></rubric>
+                     <incipit>A <supplied reason="damage">fi</supplied>rre man<ex>n</ex>a alldum[?] ried sa <gap reason="damage"/>
+                     Eystein hiet</incipit>
+                     <explicit>og hier med endast saga danar kongs Eystejnzsonum</explicit>
+                     <colophon>haffe sa bren<ex>n</ex>vynz skal er las en<ex>n</ex> þejr bior er hlyddur. Anno 1663 9 dag febr.</colophon>
+                  
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="10"/>
+                           <!--<num type="back-flyleaf" value=""/>-->
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="143"/>
+                           </dimensions>
+                           
+                          <!-- <watermark ana="no|yes"/>-->
+                        </support>
+                        
+                        <foliation ana="fol"> <!-- later? -->
+                           <p>Foliated in the lower margins of recto leaves.</p>
+                        </foliation>
+                        
+                        <condition ana="poor">
+                           <p>Large sections of margins and upper corners of most leaves 
+                              obliterated with substantial loss of text. Fol. <locus>3</locus> is a half
+                              sheet.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="41">
+                           <num type="wpl" atLeast="11" atMost="13"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Occasional marginalia. Autograph on fol. 3r: <q>olafur Jons.</q></p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" when="1984-07" contemporary="false"> <!-- plain? -->
+                        <p>Bindin from July 1984.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1663"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     <p/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:36.035+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:37.601+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:46.181+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:02.443+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:39.94+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-06-13" who="#JSL">Added details from handrit and Kålund catalogs.</change>
+         <change when="2013-06-18" who="#JSL">Cataloged from photographs.</change>
+         <change when="2013-08-22" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

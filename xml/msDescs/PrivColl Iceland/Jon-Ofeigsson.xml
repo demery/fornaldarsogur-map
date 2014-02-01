@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Jón Ófeigsson</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="Jon-Ofeigsson" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#PRIV1">Private collections</repository>
+                  <idno>Jón Ófeigsson</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  
+<!--                  <titlePage ana="no|contemporary|later"/>-->
+                  
+                  <msItem n="1" class="fas">
+                     <locus from="X:X" to="X:X"/>  							
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                                           
+                  </msItem>
+                  
+                  <msItem n="2" class="fas">
+                     <locus from="X:X" to="X:X"/>  							
+                     <title type="uniform" ref="#hsg">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                     
+                  </msItem>
+                  
+                  <msItem n="3" class="fas">
+                     <locus from="X:X" to="X:X"/>  							
+                     <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                     
+                  </msItem>
+                  
+                  <msItem n="4" class="fas">
+                     <locus from="X:X" to="X:X"/>  							
+                     <title type="uniform" ref="#ssst">Sörla saga sterka</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                     
+                  </msItem>
+                  
+                  <msItem n="5" class="fas">
+                     <locus from="X:X" to="X:X"/>  							
+                     <title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                     
+                  </msItem>
+                  
+                  <msItem n="6" class="fas">
+                     <locus from="1r:x" to="9v:x"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                     <filiation><p>Copy of <ref type="book" target="#C__Raf1829b" ana="antigraph">Rafn's ed.</ref></p></filiation>
+                     <note>B-vers.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="7" class="fas">
+                     <locus from="33r:x" to="85v:x"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                     
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <!-- 
+                        <support>
+                           <num type="front-flyleaf" value=""/>
+                           <num type="book-block" value=""/>
+                           <num type="back-flyleaf" value=""/>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           
+                           <watermark ana="no|yes"/>
+                           
+                        </support>
+                        
+                        <foliation ana="no|contemporary|later|pag|col|fol"/>
+                        
+                        <condition ana="poor|average|good"/> -->
+                        
+                     </supportDesc>
+                     
+                     <!-- 
+                     <layoutDesc>
+                        <layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">									
+                           
+                           <num type="wpl" atLeast="" atMost=""/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc> -->
+                     
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ambig" scope="sole" script="unknown">Sigurður Ófeigsson á Suðurhól</handNote>
+                  </handDesc>
+                  
+                  <!-- 
+                  <decoDesc ana="no|low|medium|high">
+                     <decoNote type="border"/>
+                  </decoDesc>
+                  
+                  <additions ana="no|low|medium|high">
+                     <p></p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain|moderate|decorative" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc> -->
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1880" notAfter="1881"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  
+                  <provenance>
+                     <p>The location of this manuscript and others known to have been in the possession of Jón Ófeigsson is
+                        currently unknown. Description based on typescript catalog housed at the Arnamagnæan Institute in
+                        Reykjavík.</p>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:19.232+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-07-26" who="#JSL">Added template elements. Entire description based on notes taken by SVH in 2009 from
+            a typescript catalog of Jón Ófeigsson's collection.</change>
+         <change when="2013-09-12" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 3627 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="LBS04-3627-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 3627 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" facs="#Lbs04-3627-0002r" to="8v">2r-8v</locus>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9r" facs="#Lbs04-3627-0009r" to="21v">9r-21v</locus>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="21v" facs="#Lbs04-3627-0021v" to="49r">21v-49r</locus>
+                     <title type="uniform">Ambáles saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="50v" facs="#Lbs04-3627-0050v" to="62v">50v-62v</locus>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar
+                        berserkjabana</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="kont">
+                     <locus from="62v" facs="#Lbs04-3627-0062v" to="63r">62v-63r</locus>
+                     <title type="supplied">Konungatal, aldabyrjun og árareikningur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="skalds">
+                     <locus from="63v" facs="#Lbs04-3627-0063v" to="72r">63v-72r</locus>
+                     <title type="uniform">Lukkunar veltihjól</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="salm">
+                     <locus from="72v" facs="#Lbs04-3627-0072v" to="75r">72v-75r</locus>
+                     <title type="supplied">Tólfstundasálmur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="regist">
+                     <locus from="75r" facs="#Lbs04-3627-0075r" to="75v">75</locus>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <textLang mainLang="non"/>
+                     <note>
+                        Also contains comment by the scribe regarding age of sagas.
+                        According to table of contents on fol. <locus from="75r" facs="#Lbs04-3627-0075r" to="75r">75r</locus> and scribal comments on fol. <locus from="75v" facs="#Lbs04-3627-0075v" to="75v">75v</locus>
+                       the part of the manuscript on which the sagas are written have originally been the last part of a bigger manuscript. This last part has contained the sagas of
+                         Ármann, Ásmundur og Tryggvi,
+                        Þorsteinn Víkingsson, Ambáles, Egill einhendi og Ásmundur
+                        berserkjabana and Lukkunnar veltihnottur. In the table of contents, Þorsteins þáttur bæjarmagns is the first, but while the sagas of Ásmundur og Tryggvi and Ármann are 6th and 7th in
+                        row, they don't appear here.
+                     </note>
+                  </msItem>
+                  <msItem n="9" class="dyggd">
+                     <locus from="76r" facs="#Lbs04-3627-0076r" to="129r">76r-129r</locus>
+                     <title type="uniform">Um þolinmæðinnar dyggð</title>
+                     <textLang mainLang="non"/>
+                     <rubric>[DE PAT]IENTIÆ VIRTUTE umm Þolinmædennar Dygd</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="129"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="184"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="28 43">
+                           <num type="wpl" atLeast="10" atMost="18"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#HalGud002" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="mixed">Some catchwords contain knotwork</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Names of owners found in the manuscript: <name type="person" role="owner" key="HalGud002">Halldór
+                        Guðmundsson</name> (<locus from="75v" facs="#Lbs04-3627-0075v" to="75v">75v</locus>), 
+                        <name type="person" role="owner" key="ambig">Jón Þorbjörnsson</name> (<locus from="129v" facs="#Lbs04-3627-0129v" to="129v">129v</locus>),
+                        <name type="person" role="owner" key="ArnSig001">Árni Sigurðsson</name> (front and
+                        back fly-leaves). </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>In the binding there is a fragment of a value registry for the western province from 1848-1849.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1825" to="1875">?</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                    <p><name type="person" role="owner" key="SigBar001">Sigurður Bárðarson</name> donated the manuscript in
+                           <date when="1952">1952</date>. His son <name type="person" role="other" key="LeoBre001">Leo Breiðfjörð</name>
+                           sent the manuscript to Háskóli Íslands in 1952, it was later handed over to the 
+                       <name type="organisation" role="owner" key="LBS">Landsbókasafn</name>. </p>
+                     <p>Previous owners: <name type="person" role="owner" key="HalGud002">Halldór Guðmundsson</name>,
+                        <name type="person" role="owner" key="ambig">Jón Þorbjörnsson</name> and
+                        <name type="person" role="owner" key="ArnSig001">Árni Sigurðsson</name>, silversmith in Reykjavík. </p>
+						</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:48.394+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:54:09.281+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-12-13" who="#SMM">Rectified FASNL encoding. Filled out information where possible from pictures on handrit.is</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

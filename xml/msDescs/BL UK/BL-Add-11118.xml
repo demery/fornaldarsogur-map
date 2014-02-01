@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>BL Add. 11118</title>
+			</titleStmt>
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="BL-Add-11118" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#BL">British Library, London</repository>
+						<idno>BL Add. 11118</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="codex">							
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="4"/>
+									<num type="book-block" value="259"/>
+									<num type="back-flyleaf" value="3"/>
+								</support>
+								<foliation ana="later fol">
+									<note>Between the sections blank pages have been inserted which are not included in the foliation
+										hence the foliation runs from 1-248 but there are 259 leaves</note>
+								</foliation>
+								<condition ana="good"/>	
+							</supportDesc>
+						</objectDesc>
+						<bindingDesc>
+							<binding ana="plain" contemporary="false">
+								<p/>
+							</binding>							
+						</bindingDesc>  
+					</physDesc>
+					<history>
+						<provenance>
+							<name type="person" role="owner" key="JosBan001">Joseph Banks</name>
+						</provenance>
+					</history>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 I</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="fas" n="1">
+								<locus from="1r" to="24v"/>
+								<title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+								<rubric>Her begÿnder Ingvar Vidförles og hand Søn, Svens Historie</rubric>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="24"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="170"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="26 27">
+										<num type="wpl" atLeast="8" atMost="10"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="190"/>
+											<width unit="mm" quantity="120"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="#BirTho001" scope="minor" script="kurrent">Item 1 written by Børge Thorlacius according to Rasmus Rask</handNote>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 II</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="2">
+								<locus from="25r" to="46v"/>
+								<title type="uniform">Brandkrossa þáttr</title>
+								<rubric xml:lang="da">En Fortælling om Studen med Stjernen i
+									Panden</rubric>
+								<note>Ends on f. 45v. On f. 46v there are a few words about this
+									þáttr.</note>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="22"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 III</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="3">
+								<locus from="47r" to="58v"/>
+								<title type="uniform">Stúfs þáttr</title>
+								<rubric xml:lang="da">Poeten Stuf Thordersens Biographie. Han var
+									Kong Harald den Haarderaades Samtidige</rubric>
+								<note>Verse and extracts from the saga</note>
+							</msItem>
+							<msItem class="islt" n="4">
+								<locus from="55r" to="58v"/>
+								<title type="uniform">Brands þáttr örva</title>
+								<rubric xml:lang="da">Brand den Gavmildes Vermundsöns
+									Biographie</rubric>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="12"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 IV</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="5">
+								<locus from="59r" to="84v"/>
+								<title type="uniform">Halldórs þáttr Snorrasonar</title>
+								<rubric xml:lang="da">Haldór Snorre den Godes (:: Ypperste
+									Afgudspræst og Herredsdommers) söns Biographie</rubric>
+								<note>Finnur Magnusson has added 'findes paa Dansk ved Repp i
+									Minerva Jul. 1818'</note>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="25"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent">Unknown</handNote>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 V</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="6">
+								<locus from="85r" to="122v"/>
+								<title type="uniform">Sneglu-Halla þáttr</title>
+								<rubric xml:lang="da">Thjodolv og Sneglu Halds Biographie. Hvilke
+									vare Kong Harald den Haarderaades Hofpoeter</rubric>
+								<note>Þáttr finishes on f. 121v but on f. 122r the writer has
+									written a few words about Bolli Bollason</note>
+								<note>A note on f. 85v: 'Det forreste af Sneglu Halla þætti som her
+									Professor Finnur Magnusses har ebtjent sig af er udförligere end
+									dette</note>
+								<note>On f. 122v: 'Nota fra Pagina 30 inclusive lige indtil
+									Fortællingens Udgang er efter det Fragment jeg eier og den
+									Afskrivt Hr Professor F. Magnussen har oversadt. For resten eier
+									nu Universitets Bibiliotheket (saavidt mig er bekendt) ikke et
+									eneste fuldstændigt haandskreven Exemplar af Sneglu-Halla
+									þætti</note>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="38"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent">Unknown</handNote>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 VI</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="7">
+								<locus from="123r" to="138v"/>
+								<title type="uniform">Auðunar þáttr vestfirzka</title>
+								<rubric xml:lang="da">Audunn den Islænders Biografie</rubric>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="16"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 VII</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="8">
+								<locus from="169r" to="197v"/>
+								<title type="uniform">Hrafns þáttr Hrútfirðings</title>
+								<rubric xml:lang="da">Ravn Sigvatsens Biographie</rubric>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="30"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 VIII</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="9">
+								<locus from="169r" to="197v"/>
+								<title type="uniform">Hreiðars þáttr heimska</title>
+								<rubric xml:lang="da">Reider Thorgrim-söns Biographie temp. Magni et
+									Haraldi</rubric>
+								<note>On the titlepage in Finnur Magnusson's hand: 'lystig'</note>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="28"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 IX</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="10">
+								<locus from="198r" to="217v"/>
+								<title type="uniform">Gísls þáttr Illugason</title>
+								<rubric xml:lang="da">Gisl Illhuga söns Biographie, som var samtidig
+									med Kong Magnus Barfod</rubric>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="20"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 X</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="11">
+								<locus from="218r" to="229v"/>
+								<title type="uniform">Gull-Ásu-Þórðar þáttr</title>
+								<rubric xml:lang="da">Thorder den Islænders fra Östfjordene som i
+									Norge blev kaldet Guld-Aase Thord Biographie</rubric>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="12"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>BL Add. 11118 XI</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="islt" n="12">
+								<locus from="230r" to="236r"/>
+								<title type="uniform">Ívars þáttr Ingimundarsonar</title>
+								<rubric xml:lang="da">Iver Ingemunder-söns Biographie</rubric>
+							</msItem>
+							<msItem class="misc" n="13">
+								<locus from="236v" to="237v"/>
+								<title type="supplied" ref="#hs">Some colloquial Icelandic phrases
+									with Danish translations</title>
+								<rubric xml:lang="is">Til uppfyllíngar á þessum ka bladsídum sezt
+									eptir=fÿlgiande</rubric>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="8"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="160"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="16 18">
+										<num type="wpl" atLeast="5" atMost="8"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="160"/>
+											<width unit="mm" quantity="150"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1800" notAfter="1850"/>
+							</origin>
+						</history>
+					</msPart>
+					<msPart>
+						<altIdentifier>
+							<idno>XII</idno>
+						</altIdentifier>
+						<msContents>
+							<msItem class="kon" n="14">
+								<locus from="238r" to="246v"/>
+								<author role="translator">Rasmus Rask</author>
+								<title type="uniform">Heimskringla</title>
+								<textLang mainLang="da"/>
+								<note>Prologue and chapters 1-20 (according to Finnur Jónsson's
+									edition chs. 1-17) of Ynglinga saga in Danish translation by
+									Rasmus Rask. Ends abruptly in the middle of fol. 246v</note>
+							</msItem>
+							<msItem class="isl" n="15">
+								<locus from="247r" to="248v"/>
+								<title type="uniform">Eíriks saga rauða</title>
+								<note>The beginning as far as p. 6 l. 13 in Storm's edition, with
+									variant readings. The copy is discontinued at the top of f. 248r.
+									According to Finnur Magnússon it was interrupted by Rask's
+									oriental journey.</note>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="chart">
+									<support>
+										<num type="book-block" value="11"/>
+										<dimensions type="leaf">
+											<height unit="mm" quantity="210"/>
+											<width unit="mm" quantity="170"/>
+										</dimensions>
+										<watermark ana="unknown"/>
+									</support>
+									<foliation ana="contemporary pag"/>
+									<foliation ana="later fol"/>
+									<condition ana="good"/>
+								</supportDesc>
+								<layoutDesc>
+									<layout ana="verse-prose" columns="1" writtenLines="30 31">
+										<num type="wpl" atLeast="6" atMost="10"/>
+										<dimensions type="written">
+											<height unit="mm" quantity="195"/>
+											<width unit="mm" quantity="130"/>
+										</dimensions>
+									</layout>
+								</layoutDesc>
+							</objectDesc>
+							<handDesc hands="1">
+								<handNote scribeRef="#RasRas001" scope="sole" script="kurrent"/>
+							</handDesc>
+							<additions ana="no"/>
+						</physDesc>
+						<history>
+							<origin>
+								<origDate notBefore="1810" notAfter="1816"/>
+								<origPlace key="Copen01"/>
+								<note>Said to have been interrupted by Rasmus Rask's journey to the east which started in 1816.</note>
+							</origin>
+						</history>
+					</msPart>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when="2012-12-17" who="#PTL">Information from Ólafur Halldórsson's unpublished catalogue entered</change>
+			<change when="2013-01-09" who="#PTL">Information supplemented</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<surface/>
+	</facsimile>
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

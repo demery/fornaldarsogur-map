@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>R 715</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-715" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 715</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="37v:12"/>
+                     <!-- ATH! FOLIATION IN MS IS INCORRECT! -->
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Byriast Heruarar Saga</rubric>
+                     <incipit>Suo Finst Ritad J Fornum Bokum ad Jotun heimar v<ex>or</ex>u kalladir Nordur um<ex>m</ex>
+                        Gandvyk</incipit>
+                     <explicit>h<ex>an</ex>n var skam<ex>m</ex>a stu<ex>n</ex>d k<ex>o</ex>ngur</explicit>
+                     <note>U redaction.</note>
+                  </msItem>
+                  <msItem n="2" class="hattal">
+                     <locus from="37v:13" to="40v:31"/>
+                     <title type="supplied">Háttalykill Lopts ríka Guttormssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Liöda Lijkill Loptz Guttormss<ex>onar</ex> Hinz Rijka til K. O. D.</rubric>
+                     <incipit>Fijrst vil eg mætu<ex>m</ex> Mvste</incipit>
+                     <explicit>ung<ex>er</ex> kuoddu<ex>m</ex> sam<ex>an</ex> stangad</explicit>
+                     <note>52 verses, including verses on bottom half of fol. 37v</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="41r:1" to="64r:14"/>
+                     <title type="uniform" ref="#bsh">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier bijriar Sogu Herraudz og Bösa þeirra fost Brædra</rubric>
+                     <incipit>Saga þ<ex>ess</ex>e hefst e<ex>ck</ex>i af lökleisu</incipit>
+                     <explicit>er sagt ad verid h<ex>efe</ex> Rijgard<ex>ur</ex> fad<ex>er</ex> konradz s<ex>e</ex>m for aa orma
+                           L<ex>a</ex>nd</explicit>
+                     <finalRubric>o<ex>g</ex> lukum vier hier sögu H<ex>errauds</ex> o<ex>g</ex> B<ex>osa</ex>
+                           H<ex>e</ex>f<ex>ur</ex> sa þöck s<ex>e</ex>m hlijddj en<ex>n</ex> hin<ex>n</ex> aungua s<ex>e</ex>m
+                        laas Finis</finalRubric>
+                     <note>Older vers.</note>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="64v:1" to="68r:13"/>
+                     <title type="supplied">Vinavísur</title>
+                     <author>Björn Jónsson á Skarðsá?</author>
+                     <textLang mainLang="non"/>
+                     <rubric>Þetta eru kalladar Vina Vysur</rubric>
+                     <rubric>med þad lag heyr þu Verollld hu<ex>ad</ex> eg t<ex>il</ex></rubric>
+                     <incipit>Vitsktu drotten<ex>n</ex> Veitu mier</incipit>
+                     <explicit>Vijsur þan<ex>n</ex>en<ex>n</ex> lin<ex>n</ex>e.</explicit>
+                     <finalRubric>Finis.</finalRubric>
+                     <note>51 verses</note>
+                  </msItem>
+                  <msItem n="5" class="forns">
+                     <locus from="69r:1" to="80v:20"/>
+                     <title type="supplied">Úlfs saga Uggasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Byriar SØguþatt vlfs vgga sonar</rubric>
+                     <incipit>Vggi h<ex>e</ex>f<ex>ur</ex> k<ex>o</ex>ng<ex>ur</ex> heit<ex>ed</ex></incipit>
+                     <explicit><ex>og</ex> hielldu vinattu t<ex>il</ex> dauda dagx</explicit>
+                     <finalRubric><ex>og</ex> luku v<ex>ær</ex> hier sögu vlfs vgga son<ex>ar</ex></finalRubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="80"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Second back fly-leaf torn out.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="165" atMost="170"/>
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="later fol">Incorrectly foliated.</foliation>
+                        <condition ana="good">Bottom half of fol. 68 cut off.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23 25">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="140"/>
+                              <width unit="mm" quantity="95"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <!-- possibly PalHal002? No mention of Núpufell in Isl. æv. entry but of Hólar which is close to it -->
+                     <handNote scribeRef="#PalHal002" scope="major" script="early kurrent">Fols. 3r-37v</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">Fols. 37v-40v and 64v-68r</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="early kurrent">Fols. 41r-64r and 69r-80v</handNote>
+                  </handDesc>
+                  <additions ana="high"><p>Many marginalia by <name type="person" key="JonJon030">Jonas Rugman</name>, including a
+                        preface on the second front fly-leaf. Some marginalia by <name type="person" key="JacRee001">Jacob
+                        Reenhielm</name>.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Bound in white parchment</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1630" notAfter="1658"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="JonJon030">Jonas Rugman</name> brought the manuscript from Iceland
+                        to Sweden in <date when="1658">1658</date> and gave it to <name type="person" role="owner" key="JacRee001">Jacob
+                           Istmen Reenhielm</name> in <date when="1666">1666</date>. He in turn gave it to <name type="person" role="owner" key="PetSal001">Petter Salan</name>. Uppsala Universitetsbiblioteket acquired Petter
+                        Salan's collection, among them this manuscript, in <date when="1717">1717</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:14.268+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-05" who="SH">Added information from catalogue by Gödel and from photographs.</change>
+         <change when="2013-04-11" who="SH">Added information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

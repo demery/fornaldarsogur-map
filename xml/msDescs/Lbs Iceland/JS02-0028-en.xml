@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 28 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS02-0028-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 28 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" facs="#JS02-0028-0001r" to="174v"/>
+                     <title type="uniform">Egils saga Skallagrímssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="179r" facs="#JS02-0028-0179r" to="204r"/>
+                     <title type="uniform">Kjalnesinga saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="islt">
+                     <locus from="205r" facs="#JS02-0028-0205r" to="211r"/>
+                     <title type="uniform">Jökuls þáttur Búasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="215r" facs="#JS02-0028-0215r" to="306v"/>
+                     <title type="uniform">Vatnsdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="309r" facs="#JS02-0028-0309r" to="327v"/>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="konth">
+                     <locus from="329r" facs="#JS02-0028-0329r" to="336v"/>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="kvad">
+                     <locus from="337r" facs="#JS02-0028-0337r" to="344r"/>
+                     <title type="uniform">Gullkársljóð</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="345"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="304"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+							   <foliation ana="no"/>
+                        <condition ana="good">
+									<p>Some leaves loosened from book spine, leaves <locus>338-345</locus> loose and kept separately.</p>
+								</condition>
+                     </supportDesc>
+							<layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 24">
+                           <num type="wpl" atLeast="5" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="143"/>
+                              <width unit="mm" quantity="99"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonErl001" scope="sole" script="unknown"/>
+						   </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p><locus from="0003r-FFl" facs="#JS02-0028-0003r-FFl" to="0003r-FFl">ffl3r</locus>: <q>Virdulegur Herra
+                        Biskupen<ex>n</ex> M<ex>onsiör</ex> <name type="person" key="BrySve001">Brynjolfur Sveins son</name>
+                        ad <placeName key="Skálh01">Skalholte</placeName>, min<ex>n</ex>
+                        dygdarikur og elskulegur velgørda og ætt-broder, gaf mer þessa
+                        søgubók, en<ex>n</ex> eg gef hana nu dóttur min<ex>n</ex>e <name type="person" key="JarHak001">Jarþrúde Hakonar dottur</name>
+                        til eignar. Skrifad af <placeName key="BræBis01">Brædratungu</placeName><date when="1675-01-31">31 Ianuarij, Anno 1675</date>.</q> 
+                        and underneath: <q><name type="person" key="HelMag001">Helga Magnus dottir</name>
+                        e<ex>igin</ex> h<ex>endi</ex></q></p>
+                     <p><locus from="0001r-FFl" facs="#JS02-0028-0001r-FFl" to="0001r-FFl">ffl1r</locus>: <q>þessa bok a eg underskrifade 1803 M Ketilson</q></p>
+                     <p>There is a smaller fragmentary leaf (fol. 71 bis) inserted between fols. <locus>71</locus> and <locus>72</locus>, most likley written by the scribe himself. It contains text from <title type="uniform">Egils saga Skallagrímssonar</title></p>
+                     <p>Originally, the binding contained manuscript waste beard a letter dated to the 4th of April 1853 from
+                        <name type="person" key="ValGud002">Valgerður Guðmundsdóttir</name> to <name type="person" key="KriSku001">Kristín Skúladóttir</name>.
+                        The letter is now additional material <locus from="addMat01r" to="addMat01v"/>.</p>
+                     
+						</additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <!-- what does 'print embossed' mean? -->
+							  <p>Pressed leather binding with wooden boards, spine embossed. 
+							     Signs of clasps having been on the manuscript, but the hook for the clasp seems to have been lost. 
+							     Corners crimped with metal covers.
+								Pastedown leaves made of printed texts in Danish and Latin.</p>
+                     </binding>
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate when="1660">ca. 1660</origDate>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                     <p>Bishop <name type="person" role="owner" key="BrySve001">Brynjólfur
+									Sveinsson</name> gave the manuscript to <name type="person" role="owner" key="HelMag001">Helga Magnúsdóttir</name>,
+							   and she to her daughter <name type="person" role="owner" key="JarHak001">Jarþrúður Hákonardóttir</name> in
+								1675. 
+							   <name type="person" role="owner" key="MagKet001">Magnús Ketilsson</name>owned the manuscript in 1803. 
+							   Later owned by <name type="person" role="owner" key="SkuMag002">Skúli Magnússon</name>,
+							   <name type="person" role="owner" key="JonEgg004">Jón Eggertsson </name>
+							   and <name type="person" role="owner" key="BogTho001">Bogi Thorarensen</name>. </p>
+						</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:14.654+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:21.743+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:41.217+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:18:16.685+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2012-10-22" who="#SMM">Adapted xml encoding to FASNL requirements. Translated text to English. Pictures on handrit.is yet to be checked.</change>
+         <change when="2012-10-26" who="#SMM">Pictures checked.</change>         
+         <change when="2012-11-06" who="#SMM">Black and white from the Arnamagnaean collection in Copenhagen checked for layout dimensions.</change>
+         <change when="2013-08-29" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1772 a 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1772a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1772 a 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 1333 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <physDesc>
+                  <additions ana="low"><p>A small piece of paper (15 x 35mm) came off of fol. <locus>25</locus> of part II and is kept in a plastic bag together with a note in the front of the manuscript.</p></additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>Loose collection of quires and leaves, held together by a plain bifolio (later).</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>NKS 1772 a 4to I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no">
+                        
+                     </titlePage>
+                     <msItem n="1" class="ridd">
+                        <locus from="1r" to="4v"/>
+                        <title type="uniform">Hrings saga og Tryggva [Notes]</title>
+                        <rubric>Saga af Hring og Tryggva. [Afskr. frá 17. öld]</rubric>
+                        <rubric>1 Definition</rubric>
+                        <incipit>Krigsbygnins konsten/: Architectura militaris :/ er en</incipit>
+                        <explicit>som ses(?) af fölgende</explicit>
+                        <textLang mainLang="da"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="4"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="207"/> 
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">Maid of Dort "ProPatria"; "JHonig <ex>et</ex> Zoon"</watermark>
+                           </support>
+                           <foliation ana="pag later">paginated a-d</foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="28 30">
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="85"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"><p>Nothing but a library stamp and the shelf mark.</p></additions>
+                     
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1600" notAfter="1699">according to rubric</origDate>
+                        <origPlace key="unknown"/>
+                     </origin>
+                     <provenance>
+                        <p>The first quire is not mentioned in Kålund's catalog and thus might be a later addition to this manuscript.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>NKS 1772 a 4to II</idno>
+                  </altIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="33r"/>
+                     <title type="uniform">Hrings saga og Tryggva</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="33v" to="39v:15"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <note>A- and B-vers.</note>
+                  </msItem>
+                  <msItem n="3" class="fas" defective="true">
+                     <locus from="39v:16" to="39v:20"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Eygle Einhenta og Wismunde Berserka Bana</rubric>
+                     <incipit>firer Rusya reide sa konur</incipit>
+                     <explicit>er þesse Saga giórdist góf</explicit>
+                     <note>first lines only</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="front-flyleaf" value="0"/>
+                        <num type="book-block" value="39"/>
+                        <num type="back-flyleaf" value="0"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="210"/> 
+                           <width unit="mm" quantity="163"/>
+                        </dimensions>
+                        <watermark ana="yes">Coat of arms</watermark>
+                     </support>
+                        <foliation ana="pag contemporary"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="21 28">
+                           <num type="wpl" atLeast="6" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" atLeast="145" atMost="155"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent">According to Kålund, written by an inexperienced hand. Kurrent for main text, chancery for rubrics</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext"/>
+                     <decoNote type="initial"/>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 1333 4to</name></p>
+                  </provenance>
+               </history>
+               </msPart>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:39.2+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-03" who="#BES">Added catalog info.</change>
+         <change when="2013-05-28" who="#BES">Added missing information with manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

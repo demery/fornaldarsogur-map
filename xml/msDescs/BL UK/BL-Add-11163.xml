@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11163</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11163" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11163</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="isl" n="1">
+                     <locus from="1r" to="49r"/>
+                     <title type="uniform">Ljósvetninga saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagann Af Gudmunde Rÿka Þorgeyre Goda og Þorkiele Haak Þesse saga er kollud ødrum nafne
+                        Reÿkdæla</rubric>
+                     <incipit>Þorgeyr Gode hiet madur er bio ad lioosavatne</incipit>
+                     <colophon>oc spyr ef hann vill nockut leggja bóta</colophon>
+                     <note>Ff. 33-49 have been inserted at a later date, probably around 1800, presumably due to the loss or
+                        damage to the leaves which have been replaced</note>
+                     <note>Appears to be the C-version as shown by the last chapter (XXX), ff. 47v-49r, which is Þórarins þáttr
+                        ofsa, traditionally appended to the C-version</note>
+                  </msItem>
+                  <msItem class="fas" n="2">
+                     <locus from="50r" to="67r"/>
+                     <title type="uniform" ref="#snfdsv">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Af Brävalla Bardaga</rubric>
+                     <incipit>Ivar hefur konungr heited er stiornade Svija Vellde</incipit>
+                     <colophon>Og endum vier so hier med Sógu af Braavalla Bardaga. FINIS Telos</colophon>
+                  </msItem>
+                  <msItem class="islt" n="3">
+                     <locus from="67v" to="76r"/>
+                     <title type="uniform">Hreiðars þáttur heimska</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Saga af Hreidare heimska</rubric>
+                     <incipit>Þordur hiet madur islendskiu Þorgrimz son hreidarz sonar</incipit>
+                     <colophon>Endud þann 8da Apr: Anno 1774</colophon>
+                  </msItem>
+                  <msItem class="fas" n="4">
+                     <locus from="76v" to="120r"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Saga af Hrölfe Sturla sÿne</rubric>
+                     <incipit>Hreggvidur hefur konungr heijted</incipit>
+                     <colophon>Skrifud in April: Aared 1774 af JSigurdss</colophon>
+                  </msItem>
+                  <msItem class="almb" n="5">
+                     <locus from="120v" to="136v"/>
+                     <title type="uniform">Griseldis saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan Af Gryshyllde þolinnmodu</rubric>
+                     <incipit>I Vallande vid sölarennar nidurgaungu edur vestan til a landenn</incipit>
+                     <colophon>stiörnade þui bæde vel og leinge i mörg aar med rijkdöme og þar med endar þessa sögu.
+                        FINIS</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="137"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="197"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <foliation ana="later fol">
+                           <note>Foliation runs from 1-136 but f.46 is written on two consecutive pages so there are actually 137
+                              leaves</note>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="25 27">
+                           <num type="wpl" atLeast="9" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JakSig001" script="kurrent">Jakob Sigurðsson á Hofi í Vopnafirði</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">
+                        <p>f.76v - an inhabited large initial</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1774"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="signatory" key="JakSig001"/>
+                     <name type="person" role="owner" key="FinMag001"/>
+                     <name type="person" role="owner" key="JosBan001"/>
+                     <p>According to note on flyleaf, purchased from Finnur Magnússon in July 1837</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:56.152+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-11" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

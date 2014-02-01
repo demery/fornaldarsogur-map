@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1767 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1767-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1767 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"> <!-- contemporary? check and complete!-->
+                     <titlePart>Tuttugu og sex fornsögur <gap/> Samansafnaðar og ritaðar af Jóhannesi Jónssyni</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1" to="23"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Sigurði þögula</rubric>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="23" to="33"/>
+                     <title type="uniform">Blómsturvalla saga </title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Blómsturvalla köppum</rubric>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="34" to="48"/>
+                     <title type="uniform">Dínus saga drambláta</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Dínusi hinum drambláta</rubric>
+                  </msItem>
+                  <msItem n="4" class="forns">
+                     <locus from="48" to="65"/>
+                     <title type="uniform">Hálfdanar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hálfdani konungi gamla og sonum hans</rubric>
+                  </msItem>
+                  <msItem n="5" class="forns riddst?">
+                     <locus from="87" to="94"/>
+                     <title type="uniform">Ambáles saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Ambáles</rubric>
+                     <colophon/>
+                  </msItem>
+                  <msItem n="6" class="almb">
+                     <locus from="65" to="87"/>
+                     <title type="uniform">Gríshildar saga góðu</title>
+                     <title type="uniform">Griseldis saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Gríshildi góðu</rubric>
+                     <colophon>Saman skrifuð eftir rímunum</colophon>
+                  </msItem>
+                  <msItem n="7" class="forns ridd?">
+                     <locus from="94" to="99"/>
+                     <title type="uniform">Úlf saga Uggasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Úlfi Uggasyni</rubric>
+                     <colophon>Skrifuð eftir gömlum rímnaskræðum</colophon>
+                  </msItem>
+                  <msItem n="8" class="riddst">
+                     <locus from="99" to="105"/>
+                     <title type="uniform">Gests saga og Gnatus</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Gesti og Gnatus</rubric>
+                     <colophon>Uppskrifuð eftir rímunum</colophon>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="105" to="109"/>
+                     <title type="uniform">Sigurðar saga turnara</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <colophon/>
+                  </msItem>
+                  <msItem n="10" class="konth">
+                     <locus from="109" to="112"/>
+                     <title type="uniform">Sagan af Hákoni norræna</title>
+                     <textLang mainLang="non"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <rubric>Sagan af Hákoni norræna</rubric>
+                  </msItem>
+                  <msItem n="11" class="tyd avint?">
+                     <locus from="112" to="114v"/>
+                     <title type="uniform">Jónatas ævintýri?</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Jónatan</rubric>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="115r" to="118r"/>
+                     <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hrómundi Greipssyni</rubric>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="118r" to="130v"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Herrauð og Bósa</rubric>
+                  </msItem>
+                  <msItem n="14" class="forns avint">
+                     <locus from="130v" to="137"/>
+                     <title type="uniform">Illuga saga Tagldarbana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Illhuga Talgdarbana</rubric>
+                  </msItem>
+                  <msItem n="15" class="ridd">
+                     <locus from="137" to="146"/>
+                     <title type="uniform">Bærings saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Bæring fagra</rubric>
+                  </msItem>
+                  <msItem n="16" class="ridd">
+                     <locus from="146" to="172"/>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Vilhjálmi sjóð</rubric>
+                  </msItem>
+                  <msItem n="17" class="ridd">
+                     <locus from="172" to="193v"/>
+                     <title type="uniform">Rémundar saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Remundi keisarasyni þeim fræga</rubric>
+                  </msItem>
+                  <msItem n="18" class="fas">
+                     <locus from="194r" to="210v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Þorsteini Víkingssyni</rubric>
+                  </msItem>
+                  <msItem n="19" class="ridd">
+                     <locus from="211" to="226"/>
+                     <title type="uniform">Hektors saga</title>
+                     <title type="uniform">Ektors saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hektori og köppum hans</rubric>
+                  </msItem>
+                  <msItem n="20" class="konth">
+                     <locus from="227" to="230"/>
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Rauðúlfi og sonum hans</rubric>
+                  </msItem>
+                  <msItem n="21" class="ridd riddst">
+                     <locus from="230" to="240"/>
+                     <title type="uniform">Marons saga sterka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Maroni sterka</rubric>
+                  </msItem>
+                  <msItem n="22" class="forns riddst?">
+                     <locus from="241" to="247"/>
+                     <title type="uniform">Hermanns saga illa</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hermanni illa</rubric>
+                  </msItem>
+                  <msItem n="23" class="riddst">
+                     <locus from="247" to="267"/>
+                     <title type="uniform">Andra saga jarls</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Andra jarli</rubric>
+                  </msItem>
+                  <msItem n="24" class="skalds avint? avis">
+                     <locus from="267" to="273"/>
+                     <title type="uniform">Skanderbergs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af þeim nafnfræga kappa Skanderberg</rubric>
+                  </msItem>
+                  <msItem n="25" class="avint skalds">
+                     <locus from="273" to="283"/>
+                     <title type="uniform">Parmes saga Loðinbjarnar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Parmesi Loðinbirni</rubric>
+                     <author key="JonBja005">Jón Bjarnason á Ballará</author>
+                  </msItem>
+                  <msItem n="26" class="forns skalds">
+                     <locus from="283" to="300"/>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Starkaði enum gamla</rubric>
+                     <author key="SnoBjo001">Snorri Björnsson á Húsafelli</author>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="300"/>
+                          <!-- <num type="back-flyleaf" value=""></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="218"/>
+                              <width unit="mm" quantity="179"/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>-->
+                     
+                  </objectDesc>
+                 <handDesc hands="1"> 
+                    
+                     <handNote scribeRef="ambig" scope="sole" script="kurrent">Possibly Jóhannes Jónsson á Smyrlahóli</handNote>
+                  </handDesc>
+                 <!-- <decoDesc ana="">
+                     <decoNote></decoNote>
+                  </decoDesc>
+                  <additions ana=""></additions>-->
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate notBefore="1857" notAfter="1863"/>
+                     <origPlace key=""/> <!-- Iceland? -->
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:03.028+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-01" who="SK">Added information from the P.E.Ó.-catalogue and other sources</change>
+         <!-- information on watermarks, layout etc. missing -->
+         <change when="2013-08-29" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

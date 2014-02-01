@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1745 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1745-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1745 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" to="24v"/>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <textLang mainLang="non"/>
+                     <note>Fol. 18v-24v is an index to the saga.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="25r" to="29v"/>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Kveðlingar Hálfsrekka</rubric>
+                     <note>Older vers., copy of AM 1008 4to</note>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="30r" to="32v"/>
+                     <title type="supplied">Vísur úr sögunni af Gunnlaugi ormstungu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="33r" to="40v"/>
+                     <title type="supplied">Lilia</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="tyd">
+                     <locus from="41r" to="43v"/>
+                     <title type="supplied">Heilræði úr þýsku útlögð</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="kvad">
+                     <locus from="44r" to="113v"/>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <author key="BjaGis001">Bjarni Gissurarson</author>
+                     <author key="BryHal001">Brynjólfur Halldórsson</author>
+                     <author key="EggOla001">Eggert Ólafsson</author>
+                     <author key="EirHal001">Eiríkur Hallsson</author>
+                     <author key="EysAsg001">Eysteinn Ásgrímsson</author>
+                     <author key="GudEin004">Guðbrandur Einarsson</author>
+                     <author key="HalPet001">Hallgrímur Pétursson</author>
+                     <author key="HogBar001">Högni Bárðarson</author>
+                     <author key="JakJon001">Jakob Jónsson</author>
+                     <author key="JonEgg001">Jón Eggertsson</author>
+                     <author key="JonTho016">Jón Vídalín</author>
+                     <author key="LofGut001">Loftur Guttormsson</author>
+                     <author key="PalJon008">Páll Jónsson</author>
+                     <author key="PalVid001">Páll Vídalín</author>
+                     <author key="SteOla004">Stefán Ólafsson</author>
+                     <author key="SveSol002">Sveinn Sölvason</author>
+                     <author key="ThoGud009">Þorlákur Guðbrandsson</author>
+                     <author key="ThoSte002">Þorvaldur Stefánsson</author>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="113"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="151"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="19 35">
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="146"/>
+                              <width unit="mm" quantity="92"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#SteTho015" scope="sole" script="early kurrent">Mostly one hand.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1840"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:18.235+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05" who="#SK">Added information from the P.E.Ó.-catalogue and other sources</change>
+         <change when="2013-05-29" who="SMM">Completed cataloguing after looking at pictures on handrit.is.</change>
+         <change when="2013-09-13" who="#TL">Added textLang, checked markup.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

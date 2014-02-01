@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Perg. 8vo nr 10 VI</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Perg-8vo-nr-10-VI" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Perg. 8vo nr 10 VI</idno>
+                  <!-- altIdentifier does not currently display -->
+                  <altIdentifier>
+                     <idno>Perg. 4:o nr 20 (Part 6)</idno>
+                  </altIdentifier>                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="3v"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <rubric/>
+                     <incipit>e<ex>r</ex> mitt eyre<ex>n</ex>di at e<ex>k</ex> bid k<ex>onun</ex>gz dott<ex>ur</ex></incipit>
+                     <explicit>m<ex>ik</ex>il vm hersir bonu<ex>m</ex> man<ex>n hv[...]</ex></explicit>
+                     <textLang mainLang="non"/>
+                     <note>older vers.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="3"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="125"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                        </support>
+                           <foliation ana="fol later">Foliated 2, 5 and 7 in pencil in the outer margin</foliation>
+                        <condition ana="poor">Leaves 2/7 and 5 from a former gathering; holes in the parchment and darkened.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23 24">
+                           <num type="wpl" atLeast="13" atMost="17"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="105"/>
+                              <width unit="mm" quantity="95"/>
+                           </dimensions>
+                           <catchwords ana="yes">On fol.<locus>5v</locus></catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="cursiva"><p/>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">slightly enlarged initials</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>In the bottom margin of fols. <locus>2r and 5r</locus>
+                        a later hand added <q>Saga af Friþiolfe Frækna ed. Sv. p. 5</q> and <q>p. 24</q>. Other marginalia faded
+                        or effaced.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>No binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1480" notAfter="1520"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <note>Previously shelfmarked Perg. 4:o nr 20 (Part 6)</note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:08.145+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+      <change when="2013-02-22" who="#BES">Prepared for visit at the library</change>
+         <change when="2013-03-05" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

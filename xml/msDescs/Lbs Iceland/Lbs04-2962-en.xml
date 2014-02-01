@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2962 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-2962-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2962 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="formal kon">
+                     <locus from="1r" to="1r">1r</locus>
+                     <title type="supplied">Formáli skrifara við Noregskonungasögur</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Sögu þessa hef ég ritað eftir 2. manuskriptum, önnur va með hönd síra
+                        Eyjólfs . . .</incipit>
+                  </msItem>
+                  <msItem n="2" class="kon">
+                     <locus from="2r" to="221v">2r-221v</locus>
+                     <title type="uniform">Ólafs saga helga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="konth">
+                     <locus from="222r" to="233v">222r-233v</locus>
+                     <title type="uniform">Eymundar þáttur Hringssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="kon">
+                     <locus from="235r" to="257r">235r-257r</locus>
+                     <title type="supplied">Viðuraukar við Ólafs konungs helga sögu </title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="konth">
+                     <locus from="257v" to="262v">257v-262v</locus>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="263r" to="264v">263r-264v</locus>
+                     <title ref="#ttht" type="uniform">Tóka þáttur Tókasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þáttur af Tóka Tókasyni</rubric>
+                     <incipit>Í þann tíma er Olafur konungur sat í Sarpsbor bar það til einn tæima</incipit>
+                  </msItem>
+                  <msItem n="7" class="konth">
+                     <locus from="264v" to="268v">264v-268v</locus>
+                     <title type="uniform">Eindriða þáttur og Erlings</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="islt">
+                     <locus from="269r" to="271r">269r-271r</locus>
+                     <title type="supplied">Frá Þórarni Nefjúlfssyni</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="konth">
+                     <locus from="271v" to="272r">271v-272r</locus>
+                     <title type="supplied">Frá Þórði Sjárekssyni</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="kon">
+                     <locus from="272r" to="274v">272r-274v</locus>
+                     <title type="supplied">Innfærslur í sögu Magnúsar góða og Haralds
+                        harðráða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="kon">
+                     <locus from="275r" to="275v">275</locus>
+                     <title type="supplied">Upphaf sögu Ólafs kyrra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="konth">
+                     <locus from="276r" to="277v">276r-277v</locus>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <title type="supplied">Úr Tósta þætti</title>
+                     <textLang mainLang="non"/>
+                     <note>Tósta þáttur is the latter part of Hemings þáttur Áslákssonar</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="278"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="197"/>
+                              <width unit="mm" quantity="161"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag"> Pag 1-466 (2r-233v), 1-84 (235r-275v), 90
+                           (276v). Blank pages: 1v, 234, 278r </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="25 30">
+                           <num type="wpl" atLeast="11" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="155" atMost="176"/>
+                              <width unit="mm" atLeast="122" atMost="135"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#EinBja003" scope="sole" script="hum cursiva"> Einar
+                        Bjarnason á Starrastöðum used humanist curisva and chancery</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Initials decorated</decoNote>
+                     <decoNote type="paratext">Elaborate headings</decoNote>
+                     <decoNote type="secondary" subtype="display-script">First line and names are
+                        often emphasized in scriptstyle</decoNote>
+                  </decoDesc>
+                  <additions ana="low">Folio 278v: Saga Olafs Helga</additions>
+                  <bindingDesc>
+                     <binding ana="moderate">
+                        <p>Leather on wooden boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1832">1832</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:46.646+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:07.399+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:26.228+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2013-01-31" who="#SK">Adapted, made some changes and added information from
+            the digitized version on handrit.is</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

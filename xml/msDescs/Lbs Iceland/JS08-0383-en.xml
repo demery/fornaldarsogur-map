@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 383 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0383-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 383 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+
+                  <msItem n="1" class="regist">
+                     <locus from="1v:1" to="1v:27"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Innihald</rubric>
+                     <incipit>Saga af Halfdáni Brønúfóstra. 133.</incipit>
+                     <explicit>M. Skegglof og Svúntuhrós. 431.</explicit>
+                  </msItem>
+                  <msItem n="2" class="kvad">
+                     <locus from="2r:1" to="13r:5">1-23</locus>
+                     <author>Vigfús Jónsson</author>
+                     <title type="supplied">Barnaljóð</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Barna=Liood ordt af Sal. Sira Vigfusa Johnssyni fordum Presti at Stød
+                        i Stødvar = Firdi Sudur = Parti Mula = Syslu</rubric>
+                     <incipit>Goodfuusi Lesari! Barna = Liood þau, er Modurbrodir minn sal. Sira Vigfus
+                        i Stød ordti 1739</incipit>
+                     <explicit>hvørt eg er lyfs, eda Lyk i Molldu. Amen.</explicit>
+                     <note>Printed in Copenhagen in 1780.</note>
+                  </msItem>
+                  <msItem n="3" class="grafsk">
+                     <locus from="13v:1" to="13v:27">24</locus>
+                     <title type="supplied">Grafskrift eftir síra Odd Jónsson á Felli</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Grafscript eptir <ex>sira</ex> Odd J:S á Felli</rubric>
+                     <incipit>Geimist hér upprisu, Fódur Klerkur</incipit>
+                     <explicit>Kvedja þig Ástviner! qvedia Sóknarbörn! Sæll ertu! Vér Sækium eptir!</explicit>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="14r:1" to="18v:18">25-34</locus>
+                     <author key="ThoTho008">Þorlákur Þórarinsson</author>
+                     <title type="supplied">Tíðavísur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Týda Výsur, 1759, þorláks próf þórarinssonar</rubric>
+                     <incipit>Firste Flock<ex>ur</ex>Fagne Tydu<ex>m</ex> Frúr og men<ex>n</ex></incipit>
+                     <explicit>Lifdu Broder fridar friáls, firdtr móde grida tals.</explicit>
+                  </msItem>
+                  <msItem n="5" class="kvad">
+                     <locus from="18v:19" to="26r:30">34-47</locus>
+                     <author key="JonHja001">Jón Oddsson Hjaltalín</author>
+                     <title type="supplied">Tíðavísur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Tyda Výsur Áred 1779 Qvednar af Sr.J.H.</rubric>
+                     <incipit>Vakne fryer Virdar hér, Vakne frúr og Sveinar</incipit>
+                     <explicit>mér ad þagna hendtar hast, hast þ<ex>vi</ex> gagn<ex>id</ex> menta brast.</explicit>
+                  </msItem>
+                  <msItem n="6" class="kvad">
+                     <locus from="26v:1" to="61v:32">48-118</locus>
+                     <title type="supplied">Tíðavísur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Tyda Vysur edr Tyda Tal</rubric>
+                     <incipit>Afram halda Oríons Tialda blisin<ex>n</ex></incipit>
+                     <finalRubric>Tyda Výsur yfir Ꜳrid 1816.</finalRubric>
+                     <note>Unknown authors</note>
+                     <note>Leaf <locus>62</locus> is missing, but a blank one has been inserted by a later bookbinder.</note>
+                  </msItem>
+                  <msItem n="7" class="kvad" defective="true">
+                     <locus from="63r:1" to="69r:18">121-133</locus>
+                     <author key="EggOla001">Eggert Ólafsson</author>
+                     <title type="supplied">Búnaðarbálkur <note>(fragment)</note></title>
+                     <textLang mainLang="is"/>
+                     <incipit>13. Nær gröfin öll hiá grönum<ex>m</ex> følna</incipit>
+                     <explicit>þeg<ex>ar</ex> madr<ex>inn</ex> deyr þa stadn<ex>ar</ex> blodid.</explicit>
+                     <note>Only the ending.</note>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="69r:19" to="91v:16">133-178</locus>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Halfdani Brønufóstra</rubric>
+                     <incipit>Hringr hefr kongr heit<ex>id</ex> er rédi f<ex>yrir</ex> Danmork.
+                        H<ex>an</ex>n v<ex>ar</ex> bædi vitr og vinsæll og hafdi i æsku sinni ver<ex>it</ex>
+                        h<ex>in</ex>n mesti bardaga m<ex>adr</ex></incipit>
+                     <explicit>h<ex>an</ex>n v<ex>ar</ex> hin<ex>n</ex> mesti afreksm<ex>aðr</ex>,
+                        <ex>og</ex> var um syd<ex>ir</ex> un<ex>n</ex>in<ex>n</ex> med herskildi
+                        i Miklagardi, og end<ex>ar</ex> so þessi Saga.</explicit>
+                  </msItem>
+                  <msItem n="9" class="riddf">
+                     <locus from="91v:17" to="109v:33">178-212</locus>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Samson fagra Riddara</rubric>
+                     <incipit>Artus hefr k<ex>onun</ex>gr heiti, er redi f<ex>yrir</ex> Engl<ex>andi</ex></incipit>
+                     <finalRubric>og er so þessi Saga á Enda af Samsone fagra Riddara.</finalRubric>
+                  </msItem>
+                  <msItem n="10" class="rimur">
+                     <locus from="110r:1" to="122r:23">213-237</locus>
+                     <author key="PalSve003">Páll Sveinsson</author>
+                     <title type="supplied">Rímur af Hinrik hertoga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Rýmr af Hinrick Hertoga</rubric>
+                     <incipit>1<ex>ta</ex> R<ex>ýma</ex>. Durners ára fevi<ex>nn</ex> fer, fr<ex>am</ex>m
+                        af þagn<ex>ar</ex> Landi</incipit>
+                     <explicit>valla freyr og sætr, fái allar god<ex>ar</ex> nætr.</explicit> 
+                     <colophon>Þessar Rymr er
+                        ordt af Pauli Sveinss<ex>yni</ex> i Storad<ex>al</ex></colophon>
+                  </msItem>
+                  <msItem n="12" class="rimur">
+                     <locus from="122r:24" to="163r:15">237-319</locus>
+                     <author key="SnoBjo001">Snorri Björnsson</author>
+                     <title type="supplied">Rímur af Sigurði snarfara</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Rimur af Sigurdi Snarfara kvedn<ex>ar</ex> af S<ex>i</ex>ra
+                        Snorra Biornssyni presti fyrá Stad i Adalvik og sid<ex>an</ex> a Húsafelli</rubric>
+                     <incipit>1<ex>ta</ex> R<ex>ima.</ex> Fiølners Rióma eg ren<ex>n</ex>a læt</incipit>
+                     <explicit>ydar gæti sialfr sen<ex>n</ex>, sá er Skapti heima.</explicit>
+                  </msItem>
+                  <msItem n="13" class="riddf">
+                     <locus from="163r:16" to="190r:35">319-373</locus>
+                     <title type="supplied">Amoratis saga konungs í Phrygia</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byriast Sagan af Amorati kongi og Børnu<ex>m</ex> h<ex>an</ex>ns.</rubric>
+                     <incipit>Þessi Saga hefr af einu<ex>m</ex> miög riku<ex>m</ex> <ex>og</ex> mektugu<ex>m</ex>
+                        k<ex>onun</ex>gi er Amorates hét.</incipit>
+                     <finalRubric>og er so þessi Saga á enda af Amorat k<ex>onun</ex>gi og h<ex>an</ex>ns
+                        Sonu<ex>m</ex> og mikid <supplied reason="illegible">fe</supplied>gl<ex>e</ex>gri Dóttr.</finalRubric>
+                  </msItem>
+                  <msItem n="14" class="riddf">
+                     <locus from="190v:1" to="219v:31">374-430</locus>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Sigurdi Þøgla Hlödverss<ex>yn</ex>i</rubric>
+                     <incipit>A dögu<ex>m</ex> Artus k<ex>onun</ex>gs hins fræga er rédi f<ex>yrir</ex>
+                        Brett<ex>landi</ex></incipit>
+                     <finalRubric>og endar her so þessi Sagan af Sigurdi þógla Hlódverss<ex>yni</ex> og
+                        Sedentionu Drottningu</finalRubric>
+                  </msItem>
+                  <msItem n="15" class="kvad">
+                     <locus from="220r:1" to="220r:28">431</locus>
+                     <title type="supplied">Skegglof og Svuntuhrós</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Skeggid mann skreiti</incipit>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="220"/> <!-- flyleaves? -->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="102"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+							   <foliation ana="pag">Paginated 1 - 431</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="28 38">
+                           <num type="wpl" atLeast="7" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="146"/>
+                              <width unit="mm" quantity="88"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+							<handNote scribeRef="#JonJon042" scope="sole" script="unknown"><name type="person" key="JonJon042">Jón Jónsson</name>.</handNote>
+						</handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"/>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Later binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate notBefore="1820" notAfter="1840"/>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:23.815+02:00" who="#EAH">Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:30.304+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:48.61+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-09-12" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2013-08-23" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 593 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0593-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 593 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="14v"/>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Illegible</note>
+                  </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="14v" to="60v"/>
+                        <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="fas" defective="true">
+                        <locus from="60v" to="82v"/>
+                        <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Saga af Göngu-Hrólfi Sturlaugssi starfsama</rubric>
+                        <note>Fragmentary</note>
+                     </msItem>
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="83r" to="113v"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <note>Derived from Rafn's ed.</note>
+                  </msItem>
+                  <msItem n="5" class="godfrg">
+                     <locus from="114r" to="119v"/>
+                     <title type="supplied">Tólf stórvirki Herkúlesar </title>
+                     <rubric>De duodecim laboribus Herculis um 12 stórvyrkjur Herculis, af
+                        einu gömlu skrifi kölluðu Veraldarspegill</rubric>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Derived from Veraldarspegill. M. Georgio Cieglero Speculum Mundi </note>
+                  </msItem>
+                  <msItem n="6" class="sagnfr">
+                     <locus from="120r" to="134v"/>
+                     <title type="supplied">Stutt ágrip um Alexander mikla og Persepolis </title>
+                     <textLang mainLang="non"/>
+                     <author>Henrik Bunting</author>
+                     <filiation><p>Copied from Ed. <ref type="book" target="Mg. Henrik Bunting, 1581" ana="antigraph">
+                        Stutt ágrip um Alexander mikla og höfuðstaðinn forna Persepolem í Persía (Henrik Buntin 1581)</ref>.</p></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                       <support>
+                         <!-- <num type="front-flyleaf" value=""/>-->
+                          <num type="book-block" value="135"/>
+                         <!-- <num type="back-flyleaf" value=""/>-->
+                          <dimensions type="leaf">
+                             <height unit="mm" quantity="165"/>
+                             <width unit="mm" quantity="105"/>
+                          </dimensions>
+                          <!--<watermark ana=""/>-->
+                       </support>
+                        <foliation ana="no"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="34 38">
+                           <num type="wpl" atLeast="9" atMost="13"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes">Very few.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonJon042" scope="major" script="kurrent">sr. Jón Jónsson í Miðmörk</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="high">
+                     <p>On pages <locus>106r</locus>, <locus>107r</locus> and <locus>129r</locus> there are  
+                        comments in another hand written around where the scribe has written the text.</p>
+                  </additions>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p></p>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1817" notAfter="1857"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonBor001">Jón Borgfirðingur</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:51:56.776+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-02" who="#SK">Added information from the P.E.Ó.-catalogue and other sources</change>
+         <change when="2012-02" who="#SK">Added information from the XML-file on handrit.is</change>
+         <change when="2013-06-14" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <!-- watermark, layout dimensions and bindingDesc missing -->
+         <change when="2013-08-20" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

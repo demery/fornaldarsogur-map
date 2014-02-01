@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1768 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1768-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1768 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 801 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <!-- title page partly in latin (note on antigraph) -->
+                  </titlePage>
+                  <msItem n="1" class="fas"> <!-- handfr -->
+                     <locus from="1r" to="8v"/> 
+                     <title type="uniform" ref="#bsh">Bósa saga ok Herrauðs [Variants]</title>
+                     <textLang mainLang="non"/> 
+                     <filiation>
+                        <ref type="ms" target="#AM04-0577-en" ana="antigraph">variants from AM 577 4to</ref>
+                     </filiation>
+                     <note>Variant readings only</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="front-flyleaf" value="0"/>
+                        <num type="book-block" value="8"/>
+                        <num type="back-flyleaf" value="0"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="212"/> 
+                           <width unit="mm" quantity="167"/>
+                        </dimensions>
+                        <watermark ana="yes">"GR" with a crown on top; Maid of Dort "ALP ProPatria"</watermark>
+                     </support>
+                        <foliation ana="pag contemporary"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="13 16">
+                           <num type="wpl" atLeast="2" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoMag014" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low"><p><name key="PetSuh001" type="person" role="owner">Suhm</name>'s name on the inside of the
+                     front cover. Another inscription above the name has been excised.
+                  Stamps and shelf mark added by the library.</p></additions> 
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Plain paper binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 801 4to</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:39.2+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-03" who="#BES">Added catalog info.</change>
+         <change when="2013-05-28" who="#BES">Added missing information with manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

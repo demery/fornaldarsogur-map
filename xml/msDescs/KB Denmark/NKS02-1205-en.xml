@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1205 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1205-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1205 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><note>With correcetions by Suhm</note></titlePage> 
+                  <msItem n="1" class="formal">
+                     <locus from="2r" to="4r"/>
+                     <title type="supplied">Introduction</title>
+                     <textLang mainLang="la" otherLangs="el"/>
+                     <filiation>
+                        <p>Copy of <ref type="book" target="#OloRud1697" ana="antigraph">Rudbeck's ed.</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="4v" to="77r"/> 
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>  
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Old Norse and Latin texts side by side</note>
+                     <filiation>Copy of <ref type="book" target="#OloRud1697" ana="antigraph">Rudbeck's ed.</ref></filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="77v" to="308v"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>   
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Old Norse and Latin texts side by side</note>
+                     <filiation><ref type="book" target="#OloRud1697" ana="antigraph">copy of Rudbeck's ed.</ref></filiation>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="309r" to="338r"/> 
+                     <title type="uniform" ref="#hsh">Sörla þáttur</title>   
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Old Norse and Latin texts side by side</note>
+                     <filiation>Copy of <ref type="book" target="#JónGuð1697" ana="antigraph">Jón Guðmundsson's ed.</ref></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="338"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="294"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes">"GR" with a crown on top; Maid of Dort.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary"/> 
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="27"> 
+                           <num type="wpl" atLeast="3" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="240"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="#GudHel001" script="hum cursiva">Hum cursiva for main text, chancery for rubrics and title</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium"><p>Notes on the margins of the Icelandic text, some by <name key="PetSuh001" type="person" role="owner">P.F. Suhm</name>, who also signed on fol. <locus>1r</locus>: <q>Havniæ 1776 PFSuhm</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown leather binding with golden imprint on spine: <q>KETILLI HÆNGII ET GRIMONIS HIRSUTIGENA HISTORIA</q> and floral ornaments</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no 749 fol.</name>
+                  </provenance> 
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:34.03+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-30" who="#BES">Added information from Kålund's catalog and black-and-white photographs.</change>
+         <change when="2013-05-17" who="#BES">Added missing information with manuscript in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

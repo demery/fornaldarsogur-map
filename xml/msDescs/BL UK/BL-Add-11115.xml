@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11115</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11115" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11115</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="108"/>
+                           <num type="back-flyleaf" value="3"/>
+                        </support>
+                        <foliation ana="later fol">
+                           <note>Between the three section three blank pages have been inserted which are not included in the foliation</note>
+                        </foliation>
+                        <condition ana="good"/>	
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>  
+               </physDesc>
+               <history>
+                  <provenance>
+                     <name type="person" role="owner" key="JosBan001">Joseph Banks</name>
+                  </provenance>
+               </history>
+                  <msPart>
+                     <altIdentifier>
+                        <idno>BL Add. 11115 I</idno>
+                     </altIdentifier>
+                     <msContents>   
+                     <msItem class="fas" n="1">
+                     <locus from="1r" to="50r"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                        <textLang mainLang="la"/>
+                     <rubric>Hrolfs Kraka saga latina</rubric>   
+                     <note>Latin transl., derived from Torfæus' transl.</note>
+                     </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="50"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="210"/>
+                                    <width unit="mm" quantity="165"/>
+                                 </dimensions>
+                                 <watermark ana="yes">Maid of Dort</watermark>
+                              </support>
+                              <foliation ana="later pag"/>
+                              <condition ana="poor">Faded ink.</condition>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="1" writtenLines="27 32">									
+                                 <num type="wpl" atLeast="9" atMost="14"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="165"/>
+                                    <width unit="mm" quantity="140"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="kurrent">Unknown</handNote>
+                        </handDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>
+                  </msPart>
+                  <msPart>
+                     <altIdentifier>
+                        <idno>BL Add. 11115 II</idno>
+                     </altIdentifier>
+                     <msContents>
+                     <msItem class="isl" n="2">
+                     <locus from="51r" to="91r"/>
+                     <title type="uniform">Þórðar saga hreðu</title>
+                        <textLang mainLang="la"/>
+                     <rubric>Historia Thordi Manduci</rubric>   
+                     <note>Latin translation</note>   
+                     </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="41"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="210"/>
+                                    <width unit="mm" quantity="165"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="1" writtenLines="23 25">									
+                                 <num type="wpl" atLeast="7" atMost="9"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="180"/>
+                                    <width unit="mm" quantity="140"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                        </handDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>
+                  </msPart>
+                  <msPart>
+                     <altIdentifier>
+                        <idno>BL Add. 11115 III</idno>
+                     </altIdentifier>
+                     <msContents>
+                     <msItem class="isl" n="3">
+                     <locus from="92r" to="105v"/>
+                     <title type="uniform">Kjalnesinga saga</title>
+                        <textLang mainLang="la"/>
+                     <rubric>Heic incipit Kialnesensium Historia, sive (narratio) de Buio Andridi filio</rubric>
+                     <colophon>Þessarar útleggíngar höfundur S. Snorrason Sýsslumadur í Húnav</colophon>   
+                     <note>Latin translation</note>   
+                     </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="book-block" value="14"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="205"/>
+                                    <width unit="mm" quantity="165"/>
+                                 </dimensions>
+                                 <watermark ana="no"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="average"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="1" writtenLines="33 36">									
+                                 <num type="wpl" atLeast="12" atMost="14"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="200"/>
+                                    <width unit="mm" quantity="160"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="#SigSno002" scope="sole" script="fractura"/>
+                        </handDesc>
+                        <additions ana="no">
+                        </additions>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1796" notAfter="1798"/>
+                           <note>Probably written between 1796 and 1798 when Sigurður Snorrason was in Copenhagen.</note>
+                        </origin>
+                     </history>
+                  </msPart>   
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:53.767+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-08" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

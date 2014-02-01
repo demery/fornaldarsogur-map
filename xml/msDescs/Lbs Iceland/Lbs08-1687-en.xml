@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1687 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1687-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1687 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>   
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="29r"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hermann og Jarlmann</rubric>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="30r" to="49v"/>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Konráði Keisarasyni</rubric>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="49v" to="90v"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Þjalar Jóni Svipdagssyni og Eiríki forvitna Vilhjálms syni</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="89"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="162"/>
+                              <width unit="mm" quantity="99"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="24 26">
+                           <num type="wpl" atLeast="8" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="147"/>
+                              <width unit="mm" quantity="84"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Titles and saga and chapter initials are slightly bigger than the rest of the text.</decoNote>
+                  </decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1830" notAfter="1870"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:17.709+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-10" who="#SMM">Added msItems and updated msDesc codes. Completed information where possible.</change>
+         <change when="2013-07-22" who="#SMM">Catalogued from pictures on handrit.is.</change>
+         <change when="2013-09-13" who="#TL">Added textLang, checked markup.</change>
+         <!-- watermark missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

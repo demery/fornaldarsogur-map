@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 361 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0361-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 361 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Bókin hefur inni að halda sögur af þeim Völsungum og Gjúkungum
+                        Buðlungum og Ragnari loðbrók. Aftan við þessar framanskifaðar sögur er
+                        söguþáttur af Styrbirni Svíakappa. Sigurður Fáfnisbani er frægastur í þessum
+                        sögum.</titlePart>
+                     <titlePart>Bókarinnar eigandi er Hr. B. Beneditsson. Þessa bók er byrjað að
+                        skrifa 1818 þann 20. janúar á Gufuskálum af JKS</titlePart>
+                     <titlePart>Volume 8 of Sögusafn in 9 volumes. Lbs 354 4to - Lbs 362
+                        4to</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="3r" to="79v"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <rubric>Hér hefur söguna af þeim Völsungum, Gjúkungum og þeim
+                        Buðlungum</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="80r" to="135v"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <rubric>Sagan af Ragnari loðbrók og sonum hans</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="konth">
+                     <locus from="136r" to="139r"/>
+                     <title type="uniform">Styrbjarnar þáttur Svíakappa</title>
+                     <rubric>Hér hefur þátt Styrbjarnar Svíakapa</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fornkv">
+                     <locus from="139v" to="147v"/>
+                     <title type="supplied">Kvæði af Haraldi harðráða</title>
+                     <rubric>Inn efri hluti kviðunnar er útfararsaga Haralds konungs
+                        harðráða</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fornkv">
+                     <locus from="148r" to="148v"/>
+                     <title type="uniform">Eiríksmál</title>
+                     <rubric>Eftir fall Eiríks konungs Blóðaxar lét Gunnhildur yrkja kvæði um hann
+                        svo sem Óðinn fagnaði honum í Valhöll.</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <note>2 front flyleaves added with the binding</note>
+                           <note>On the book-block's front flyleaf 1r there is a note concerning the text and
+                              its authentity and the quality of the texts it is copied from,
+                              especially the text of the verses.</note>
+                           <num type="book-block" value="149"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="168"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">From time of cataloguing</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="271 33">
+                           <num type="wpl" atLeast="3" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                           <note>The text is within a frame</note>
+                           <note>Text only on the verso-side</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#JonKer001" scope="major" script="chancery"/>
+                     <!-- Rithönd Jóns Kærnesteds líkist mjög hönd Jakobs Sigurðssonar og 
+                        uppsetning á titilsíðunni minnir líka á uppsetningu Jakobs á titilsíðu.
+                        Þeir eru ekki samtíðarmenn og eru á sitt hvorum landshlutanum en spor 
+                        þeirra gætu hafa legið saman á N-Austurlandi-->
+                     <handNote scribeRef="#BogBen001" scope="major" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Some coloured initials.</decoNote>
+                     <decoNote type="paratext">A decorative titlepage</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Front-flyleaf: a note on the text's authenticity</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>library binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1840"/>
+                     <origPlace key="IS">Snæfellsnes við Breiðafjörð</origPlace>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="BogBen001"/>From Bogi Benediktsson's
+                     library collection. <locus from="front-Flyleaf001r" to="front-Flyleaf001r"/> Ff1r
+                     in the hand of <persName key="PalPal001" instant="false" full="yes">Páll Pálsson
+                     stúdent</persName>: Sögu-safn (sjá næstu bls) VII. <locus from="frontFlyleaf002r" to="frontFlyleaf002r"/>Ff2r by <name type="person" key="BogBen001" role="owner"> Bogi Benediktsson</name>Af
+                     Sögusafni B Benedictsens merkt undir Liter A í Catalogo með Nr 25</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:44.275+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-07" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources</change>
+         <change when="2011-12" who="#SK">Finished cataloguing with information from the manuscript
+            itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

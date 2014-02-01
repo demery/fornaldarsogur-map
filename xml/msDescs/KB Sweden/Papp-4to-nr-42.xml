@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 42</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-42" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 42</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r" to="60v"/>
+                     <title type="supplied">Vilmundar rímur viðutan</title>
+                     <author>Hallur Magnússon</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="rimur" defective="true">
+                     <locus from="61r" to="100v"/>
+                     <title type="supplied">Ingvars rímur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="101r" to="124r"/>
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#AM04-0343b-en" ana="antigraph">AM 343 b 4to</ref> and 
+                        <ref type="ms" target="#AM04-0343c-en" ana="antigraph">AM 343 c 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <!-- these notes do not display - move to foliation? -->
+                           <num type="front-flyleaf" value="4">A former front cover is preserved and now counted as fourth
+                              front-flyleaf.</num>
+                           <num type="book-block" value="125"><note>124 plus fol. <locus>60bis</locus>, which separates item 1 and
+                                 2</note></num>
+                           <num type="back-flyleaf" value="5"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes">different watermarks, among others a foolscap.</watermark>
+                        </support>
+                        <foliation ana="fol later pag contemporary">
+                           <p>Contemporary pagination on item 2: 33-112</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 26">
+                           <num type="wpl" atLeast="8" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Fols. <locus>1r-60v</locus> are written in
+                        kurrent, chancery for rubrics.</handNote>
+                     <handNote scribeRef="#GudOla002" scope="minor" script="kurrent">Fols. <locus>61r-100v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">Fols. <locus>101r-128v</locus> are written in a
+                        mixed script, mostly chancery but with aspects of hum cursiva.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>on fol. <locus>1r</locus>: <q>180</q>, on fol. <locus>61r</locus>, a later hand added <q>Ingvars</q>
+                        infront of the rubric <q>Rymur</q>. Another hand added <q>mann Gundm. Ol.</q> on the same leaf. On the
+                        former front cover, there two stickers with the shelfmark and a note, originally saying <q>Isl. 4:o
+                           42:4.5</q>, which was corrected to <q>Isl. 4:o 42:1.2.3.4</q>. A note in pencil reads:
+                        <q>91/28</q>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbeled paper on cardboard. The spine and the corners are in white leather. On the spine, the shelf
+                           mark is imprinted with golden letters. A former front cover is preserved and now counted as a
+                           flyleaf.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+                     <origPlace key="SE" cert="medium"/>
+                  </origin>
+                  <provenance>
+                     <name key="AntKol001" type="organisation" role="owner"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:54.983+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-04" who="#BES">Measured and evalutated with the manuscript in situ.</change>
+         <change when="2013-04-05" who="#BES">Added missing information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 408 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0408-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 408 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><!-- Has to be checked! Most likely by Páll stúdent Pálsson #PalPal003, being an addition (see JS 409 8vo)-->
+                     <titlePart>Sögusafn II</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="11r"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <rubric>Sagan af Katli hæng</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="11r" to="16r"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <rubric>Sagan af Grími loðinkinn</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="16v" to="40v"/>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                     <rubric>Sagan af Flórus konungi og sonum hans</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="41r" to="53v"/>
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <rubric>Sagan af Sigurði fót og Ásmundi Húnakappa</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="skalds">
+                     <locus from="54r" to="79v"/>
+                     <title type="supplied">Saga Pílatuss</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="avint">
+                     <locus from="80r" to="86v"/>
+                     <title type="uniform">Jónatas ævintýri</title>
+                     <rubric>Hér byrjar söguþátt af einum ágætum læknara sem hét Jónathas</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="skalds">
+                     <locus from="87r" to="92v"/>
+                     <title type="uniform">Tveggja feðga ævintýri</title>
+                     <textLang mainLang="non"/>
+                     <note>Source for Asnabálkur.</note>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="93r" to="98v">/</locus>
+                     <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                     <rubric>Hér byrjar þáttur af Illuga Hugprúða</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="almb">
+                     <locus from="99r" to="108v"/>
+                     <title type="uniform">Salómons saga og Markólfs</title>
+                     <rubric>Saga Markólfs</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="skalds">
+                     <locus from="109r" to="126v"/>
+                     <title type="supplied">Saga Álaflekks</title>
+                     <rubric>Sagan af Álaflekk Rígarðssyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="127r" to="189v"/>
+                     <title type="uniform">Rémundar saga keisarasonar</title>
+                     <rubric>Saga af Rémundi sterka</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="kvad">
+                     <locus from="189v" to="189v"/>
+                     <title type="uniform">Historía</title>
+                     <rubric>Historía eður lærdómsdiktur rómverskra keisara</rubric>
+                     <note>Overview.</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <!-- rest of manuscript seems to be missing in the pictures -->
+                  <msItem n="13" class="kvad">
+                     <locus/> <!-- add -->
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="189"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="172"/>
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+							   <foliation ana="contemporary pag">From fol. 227r: supplementary pagination count beginning with Rémundar saga keisarasonar.</foliation>
+							   <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="20 30">
+                           <num type="wpl" atLeast="5" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="153"/>
+                              <width unit="mm" quantity="83"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="#SigMag005" scope="major" script="unknown">
+                     </handNote>
+							<handNote scribeRef="#HalDav001" scope="minor" script="unknown">Possible other hands
+							</handNote>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="initial">Decorated initials throughout.</decoNote>
+                  </decoDesc>
+                  <additions ana="no"/><!-- check! possibly title page added -->
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate notBefore="1700" notAfter="1900"/>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     
+                     <p>From <name type="person" role="owner" key="JonArn002">Jón Árnason</name> the book-keeper's collection. </p>
+                     <note>2nd volume in a 5 volume collection: <ref target="JS 08-407" type="ms">JS
+                        407 8vo</ref> - <ref target="JS08-411">JS 411 8vo</ref>.</note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:25.509+02:00" who="#EAH">Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:31.57+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:49.706+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-09-12" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2012-09-29" who="#SMM">Added msItems and locus from ms photographs from the Arnamagnaean collection in Copenhagen.</change>
+         <!-- missing information that can be acquired from ms itself only, i.e. bindingDesc -->
+         <change when="2013-08-27" who="#BES">Proofread as far as possible.</change> <!-- incomplete (items) -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

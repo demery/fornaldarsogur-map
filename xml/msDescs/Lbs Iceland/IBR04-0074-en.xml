@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 74 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR04-0074-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 74 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>ÍBR. B. 62</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Rímna-(og Sögu-)Safn. m.fl. XII </titlePart>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="2r:1" to="2v:27"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Yfirlit efnisins</rubric>
+                  </msItem>
+                  <msItem n="2" class="sagnps">
+                     <locus from="3r:1" to="24r:9"/>
+                     <author key="EinBja005">Einar Bjarnason</author>
+                     <title type="uniform">Cyrus saga Persakonungs</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hie Bÿriar Søgu af Cyro keisara</rubric>
+                     <incipit>Þegar Lydid var fra Heimsins skópun, þriú þusund þriú húndrud og
+                        attatiju ꜳr</incipit>
+                     <explicit>sem hans fader var sem historian<ex>n</ex> um<ex>m</ex> gietur:</explicit>
+                     <finalRubric>þesse saga af Cyro keysara er ut lógd efter firr nefnd<ex>um</ex> sägnameistúrum<ex>m</ex>,
+                        og er hún a enda komin<ex>n</ex>: Tantum<ex>m</ex></finalRubric>
+                  </msItem>
+                  <msItem n="3" class="annal" defective="true">
+                     <locus from="24r:10" to="24v:30"/>
+                     <locus from="147v:1" to="147v:37"/>
+                     <title type="supplied">Af víðfrægum Júða</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Ein Søn<ex>n</ex> Hÿstoria og Under rietting þess haloflega og
+                        Výdfræga Medici til Mantua J Wallandi</rubric>
+                     <incipit>Hvad 12 slegti og ættir Juda af Gude allmáttugum<ex>m</ex>, stráff og plágur muni lýda</incipit>
+                     <explicit>so þeir meigi þad sama upp skiera er þeir Nydur sádu</explicit>
+                     <note>Ends in the middle and continues on 147v</note>
+                     <note>Some biblical numeric information in note at the bottom of 147v.</note>
+                  </msItem>
+                  <msItem n="4" class="rimur">
+                     <locus from="25r:1" to="71r:22"/>
+                     <title type="uniform">Bósa rímur</title>
+                     <textLang mainLang="non"/>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <rubric>Rymur af Herrauð og Bosa</rubric>
+                     <incipit>Fijrsta Rijma Berlings læt eg barú Jor</incipit>
+                     <explicit>Jons Brudurin<ex>n</ex> Pruda niote.</explicit>
+                     <colophon>Skrifadar ä þuj Ꜳre 1774. JGS. Ender Rÿmnan<ex>n</ex>a Herrauds og Bösa kvednar af Gudmúnde Bergþörs Sijne</colophon>
+                     <note>15 stanzas</note>
+                     <msItem n="4.1" class="rimur laus">
+                        <locus from="71r:20" to="71r:22"/>
+                        <title type="supplied">Skrifaravísa</title>
+                        <author>JG</author> 
+                        <note>Rÿm<ex>ur</ex> Bösa Riett med hräd
+                              Reiknast ut skrifadar,
+                              sem skilnings liösa skälldid qvad,
+                              skillt er ad glösa hans verknad</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="5" class="kvad psalm">
+                     <locus from="71v:1" to="75v:3"/>
+                     <title type="supplied">Messudiktur</title>
+                     <textLang mainLang="is"/>
+                     <author key="MagPet001">Magnús Pétursson</author>
+                     <rubric>Messu Diktur S M P S</rubric>
+                     <incipit>Edla mad<ex>ur</ex> Eirn Var Sä</incipit>
+                     <explicit>sie han<ex>n</ex> æ Blessadur.</explicit>
+                     <finalRubric>Finis</finalRubric>
+                  </msItem>
+                  <msItem n="6" class="damis">
+                     <locus from="75v:4" to="79v:21"/>
+                     <title type="supplied">Jónatas ævintýri</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eitt æfin<ex>n</ex>tyr af Jonatas</rubric>
+                     <incipit>Goliferdyus hef<ex>ur</ex> kong<ex>ur</ex> heitid</incipit>
+                     <explicit>og Endade sitt Lyf med godum<ex>m</ex> fride</explicit>
+                     <finalRubric>og Endar so þetta æfin<ex>n</ex>tijr um<ex>m</ex> Jonathäs</finalRubric>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="79v:22" to="96v:28"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sägänn af Eigle Einhenta og Asmunde Berserkia Bäna</rubric>
+                     <incipit>Hertrigg<ex>ur</ex> hef<ex>ur</ex> köng<ex>ur</ex> heitid h<ex>an</ex>n
+                        riede fyrer Rússia</incipit>
+                     <explicit>og hefur eingin<ex>n</ex> hlutur sydan<ex>n</ex> af siest er a þvj var</explicit>
+                     <finalRubric>og lyktar hier so þessa sógu af Eigle ejnhenta og Asmunde Berserkia bäna</finalRubric>
+                  </msItem>
+                  <msItem n="8" class="almb?">
+                     <locus from="97r:1" to="101r:18"/>
+                     <title type="supplied">Ævintýr um prest í Þýskalandi</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier skrifast eitt æfin<ex>n</ex>tÿr, af ein<ex>um</ex> preste i Þÿskalande.</rubric>
+                     <incipit>So sk<ex>r</ex>ifa froder sagna meistarar</incipit>
+                     <explicit>Dolge, Sÿmus, Eso, Calekes Prophanus.</explicit>
+                     <colophon>skrifað 1776.</colophon>
+                     <finalRubric>Ender</finalRubric>
+                  </msItem>
+                  <msItem n="9" class="biblsog">
+                     <locus from="101v:1" to="104v:30"/>
+                     <title type="supplied">Ævintýr af Seth Adamssyni</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier skrifast Eitt ævin<ex>n</ex>tyr af Seth</rubric>
+                     <incipit>So er skrifad þa Adam og Efva voru utrekin<ex>n</ex> ur päradys</incipit>
+                     <explicit>sem þar hefdi klauf färid úm<ex>m</ex> s<ex>e</ex>m</explicit>
+                  </msItem>
+                  <msItem n="10" class="kvad">
+                     <locus from="105r:1" to="110r:26"/>
+                     <title type="supplied">Hallmundarkviða</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Adfanga Dags kvellded Jöla föru men<ex>n</ex> til tyda</incipit>
+                     <explicit>af hiart vel saluteradan<ex>n</ex> hafa.</explicit>
+                     <finalRubric>Ender</finalRubric>
+                     <note>The rubric is in runic letters</note>
+                  </msItem>
+                  <msItem n="11" class="sendbr">
+                     <locus from="110v:1" to="111v:5"/>
+                     <title type="supplied">Sendibréf</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sendebriefs upp kast</rubric>
+                     <incipit>Heydurs verde hjartans vyn og broder</incipit>
+                     <explicit>sióunda dagin<ex>n</ex> novembrÿs.</explicit>
+                  </msItem>
+                  <msItem n="12" class="edd">
+                     <locus from="112r:1" to="138v:4"/> 
+                     <title type="supplied">Hvaðan bókin Edda hefur heiti sitt</title>
+                     <textLang mainLang="is"/>
+                     <author><name key="BjoJon006" type="person">Björn Jónsson á Skarðsá</name></author>
+                     <rubric>Nöckrar malsgreine um<ex>m</ex> þad hvaðan<ex>n</ex> Bokin<ex>n</ex> Edda hefur sitt heite</rubric>
+                     <incipit>I Cap Tvær bækur eru þær hier a Islande er men<ex>n</ex> nefna almen<ex>n</ex>elegast</incipit>
+                     <explicit>og þarf laust um<ex>m</ex> ad supa nie utad leggia.</explicit>
+                     <colophon>til um<ex>m</ex>botar vitra man<ex>n</ex>a skrifad ä skards A J skögafyrde Anno 1642 BJS</colophon>
+                     <msItem n="12.1" class="run"> 
+                        <locus from="137vr" to="138v:4"/>
+                        <author><name key="BjoJon006" type="person">Björn Jónsson á Skarðsá</name></author>
+                        <title type="supplied">Um runir og ristingar</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="13" class="heims">
+                     <locus from="138v:5" to="144v:12"/>
+                     <title type="supplied">Sendibréf Alexander magnus til Aristoteles</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sydasta sende Brief Alexande hins mikla til Arestodele sins læremeistara</rubric>
+                     <incipit>Hin<ex>n</ex> mikle Alexander kong<ex>ur</ex> send<ex>ir</ex> Arestodele qvediú</incipit>
+                     <explicit>ad eg skrife þetta seinast a mijnum<ex>m</ex> Dógum<ex>m</ex> valet:</explicit>
+                  </msItem>
+                  <msItem n="14" class="landfr">
+                     <locus from="144v:13" to="147r:19"/>
+                     <title type="supplied">Um Indland</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Nokkud um<ex>m</ex> Indialand</rubric>
+                     <incipit>Indialand liggur vid austan verda asiam.</incipit>
+                     <explicit>er daudur nema Jn<ex>n</ex>biggendur vilie þeim lækning veita:</explicit>
+                     <finalRubric>Finis</finalRubric>
+                  </msItem>
+                  <msItem n="15" class="landfr biblsog">
+                     <locus from="148r:1" to="154r:2"/>
+                     <title type="supplied">Nokkrar historíur um ýmsa staði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier skrifast Nokkrar historiur</rubric>
+                     <msItem n="15.1" class="landfr biblsog">
+                        <locus from="148r:1" to="148v:11"/>
+                        <title type="supplied">Um Jerusalem</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Fyrst um<ex>m</ex> Jerusalem</rubric>
+                     </msItem>
+                     <msItem n="15.2" class="biblsog">
+                        <locus from="148v:12" to="148v:25"/>
+                        <title type="supplied">Um paradísar takmark</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Úm<ex>m</ex> paradysar Takmark</rubric>
+                     </msItem>
+                     <msItem n="15.3" class="landfr ">
+                        <locus from="148v:26" to="150r:8"/>
+                        <title type="supplied">Um Rómaborg</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> Roma Borg</rubric>
+                     </msItem>
+                     <msItem n="15.3" class="landfr">
+                        <locus from="150r:9" to="150v:4"/>
+                        <title type="supplied">Um Dauðahafið</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> þann Dauda Sio</rubric>
+                     </msItem>
+                     <msItem n="15.4" class="landfr">
+                        <locus from="150v:5" to="151r:11"/>
+                        <title type="supplied">Um Bláland</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> Blaland</rubric>
+                     </msItem>
+                     <msItem n="15.5" class="landfr">
+                        <locus from="151r:12" to="151r:24"/>
+                        <title type="supplied">Um Alsír</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> Alzyr</rubric>
+                     </msItem>
+                     <msItem n="15.6" class="landfr">
+                        <locus from="151r:25" to="151v:27"/>
+                        <title type="supplied">Um Babýlon</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> Borgina Babilon</rubric>
+                     </msItem>
+                     <msItem n="15.7" class="biblsog">
+                        <locus from="151v:28" to="152r:10"/>
+                        <title type="supplied">Um bústað Nóa</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um Bustad Noe</rubric>
+                     </msItem>
+                     <msItem n="15.8" class="landfr">
+                        <locus from="152r:11" to="152r:23"/>
+                        <title type="supplied">Um Níníveborg</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> Ninive Borg</rubric>
+                     </msItem>
+                     <msItem n="15.9" class="landfr">
+                        <locus from="152r:24" to="152v:14"/>
+                        <title type="supplied">Um Alexandríu</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> Alexandria</rubric>
+                     </msItem>
+                     <msItem n="15.10" class="landfr">
+                        <locus from="152v:15" to="153r:10"/>
+                        <title type="supplied">Um Tíberías</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> stadin<ex>n</ex> Tyberiadis</rubric>
+                     </msItem>
+                     <msItem n="15.11" class="landfr">
+                        <locus from="153r:11" to="153v:3"/>
+                        <title type="supplied">Um eyjuna Ródos</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um Eyuna Rodus</rubric>
+                     </msItem>
+                     <msItem n="15.12" class="landfr">
+                        <locus from="153v:4" to="154r:2"/>
+                        <title type="supplied">Um eyjuna Krít</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um Eyuna Cryt</rubric>
+                     </msItem>
+                  </msItem>
+                  <msItem n="16" class="kvad">
+                     <locus from="154r:3" to="155r:9"/>
+                     <title type="supplied">Helenudiktur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Eitt kvæde úm<ex>m</ex> þa Nafnfrægu Helena Moder hins mikla Constantini
+                        Keysara med liliu lög</rubric>
+                     <incipit>Constantinus keÿsare fordum<ex>m</ex> christnum<ex>m</ex> þiodu<ex>m</ex> styrde</incipit>
+                     <explicit>gräfin<ex>n</ex> med æru vel ut hafin<ex>n</ex>s.</explicit>
+                     <finalRubric>Ender</finalRubric>
+                  </msItem>
+                  <msItem n="17" class="annal">
+                     <locus from="155r:10" to="161v:6"/>
+                     <title type="supplied">Úr annálum</title>
+                     <textLang mainLang="is"/>
+                     <msItem n="17.1" class="annal">
+                        <locus from="155r:10" to="155v:22"/>
+                        <title type="supplied">Meyfæðing aldraðrar konu á Ítalíu</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Ein Historia</rubric>
+                     </msItem>
+                     <msItem n="17.1" class="annal">
+                        <locus from="156r:1" to="157r:6"/>
+                        <title type="supplied">Bréf tyrkneskra til Kósakkanna 1682 og svör þeirra</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Copiä Af þuy Briefe Tyrkneskra til Cosakan<ex>n</ex>a i Ezhrin An<ex>n</ex>o 1682.</rubric>
+                     </msItem>
+                     <msItem n="17.2" class="annal">
+                        <locus from="157r:7" to="158v:11"/>
+                        <title type="supplied">Bréf konungsins af Póllandi til drottningar sinnar 1683</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Extract af Briefe kongsins af Polen til h<ex>a</ex>ns drottning<ex>ar</ex> skrifad
+                           i herbudum<ex>m</ex> vien: 13 sept<ex>em</ex>b<ex>er</ex> Anno 1683</rubric>
+                     </msItem> 
+                     <msItem n="17.3" class="annal">
+                        <locus from="158v:12" to="160r:18"/>
+                        <title type="supplied">Bænahald Annini samkundu Tyrkjans 1686</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Bænahalld Annini samkundu Tyrkians 1686</rubric>
+                     </msItem>
+                     <msItem n="17.4" class="annal">
+                        <locus from="160r:19" to="161v:6"/>
+                        <title type="supplied">Stríðstilboð Tyrkjakeisara til kristinna í Austurlöndum</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Strÿds tilbod þess Tyrkneska keysara ollum christindomin<ex>n</ex>um<ex>m</ex> af
+                           austurlondu<ex>m</ex> Anno 1716.</rubric>
+                     </msItem>
+                  </msItem>
+                  <msItem n="18" class="tjods">
+                     <locus from="161v:7" to="187v"/>
+                     <title type="supplied">Nokkrar furðusögur</title>
+                     <textLang mainLang="is"/>
+                     <msItem n="18.1" class="tjods">
+                        <locus from="161v:7" to="162v:10"/>
+                        <title type="supplied">Saga um miskunnarlausa móður</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> eina ochristelega og myskunar laúsa modúr Vid syna nyfædda sonu.</rubric>
+                     </msItem>
+                     <msItem n="18.2" class="tjods">
+                        <locus from="162v:11" to="163r:7"/>
+                        <title type="supplied">Saga af greifynju á Hollandi</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Aun<ex>n</ex>úr histöria af Däto 1276.</rubric>
+                     </msItem>
+                  </msItem>
+                  <msItem n="19" class="rimur">
+                     <locus from="163r:8" to="163v:30"/>
+                     <title type="supplied">Tóukvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Qvæde úm<ex>m</ex> Refin<ex>n</ex>, Hänan<ex>n</ex>, og Kóttin<ex>n</ex>,
+                        med stätsmeyaläg</rubric>
+                     <incipit>Toa tóllte úm<ex>m</ex> stræte</incipit>
+                     <explicit>sier grefur gróf þo grafe.</explicit>
+                     <finalRubric>Ender</finalRubric>
+                  </msItem>
+                  <msItem n="20" class="rimur"> 
+                     <locus from="164r:1" to="187v:15"/>  
+                     <title type="uniform">Otúels rímur</title>
+                     <textLang mainLang="is"/>
+                     <author key="#GudBer001">Guðmundur Bergþórsson</author>
+                     <rubric>Hier skrifast Rymur af Otuel</rubric>
+                     <incipit>1 Ryma. Fiólners læt eg flædar gam<ex>m</ex></incipit>
+                     <explicit>drattur þiettur Liettur fälle</explicit>
+                     <colophon>Endadar A Þúij Are Seitian hundrud Atta tyiú og Tvo af LmÞe<gap/></colophon>
+                     <note>8 stanzas</note>
+                  </msItem>
+                  <msItem n="21" class="annal" defective="true"> 
+                     <locus from="188r:1" to="188v:10"/>
+                     <title type="supplied">Historia um skrímslislegan fyrirburð á Ungverjalandi</title>  
+                     <textLang mainLang="is"/>
+                     <rubric>Ein Historia</rubric>
+                     <incipit>Eitt undarlegt og hrædilegt skrýmsl edur monstrum</incipit>
+                     <explicit>en<ex>n</ex> monstred var a ecki nema so s<ex>e</ex>m hýstni</explicit>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+					    <supportDesc material="chart">
+                     <support>
+                        <num type="book-block" value="186"/>
+                        <num type="back-flyleaf" value="1"/>
+   					      <dimensions type="leaf">
+   					          <height unit="mm" quantity="197"/> 
+   					          <width unit="mm" quantity="158"/>
+   					      </dimensions>
+   					      <watermark ana="no"/>
+					      </support>
+					      <foliation ana="pag contemporary">Paginated 1 - 372</foliation>
+					      <condition ana="average"/>
+					    </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23 27"> 
+                           <note>Most verse laid out as prose, but some stanzas laid out as verse</note>
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="148"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>    
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="unknown" script="chancery">J G(son)</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>The first two leaves, in the hand of <name type="person" role="scribe" key="PalPal003">Páll stúdent Pálsson</name>,
+                     have been added: A title page and a thematically organized table of contents</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+                           <history>
+                                <origin>
+							              <origPlace key="IS">Ísland</origPlace>
+							              <origDate when="1782">1782</origDate>
+						            </origin>
+                           <provenance>
+                              <p> 
+                              <name type="organisation" role="owner" key="LBS">Landsbókasafn</name> bought the whole collection of 
+                                 <name type="organisation" role="owner" key="IslBom">The Icelandic literary society's Reykjavík division 
+                                    (Reykjavíkurdeild Hins íslenska bókmenntafélags)</name> in <date when="1901">1901</date>.</p>
+							          </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:10.101+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:53:17.053+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:42:37.243+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2013-04-29" who="#SK">Added items</change>
+         <change when="2013-04-30" who="#BES">Added more information from pics on handrit.is. Information on dimensions missing.</change>
+         <change when="2013-09-04" who="#OHA">Added missing information as well as rubrics incipits, explicits etc. (from manuscript)</change>
+         <change when="2013-09-04" who="#BES">Proofread</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 201 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0201-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 201 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="ridd" defective="true">
+                     <locus from="1r:1" to="38v:11"/>
+                     <title type="uniform">Dínus saga drambláta</title>
+                     <textLang mainLang="non"/>
+                     <note>Defective, lacking at the beginning</note>
+                     <note>The hand of G.G.S</note>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="39r:1" to="44r:24"/>
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <note>A-vers, begins defective</note>
+                     <note>In the hand of Halldór Hallson; 1661</note>
+                  </msItem>
+                  <msItem n="3" class="ridd" defective="true">
+                     <locus from="44v:1" to="44v:24"/>
+                     <title type="uniform">Nítida saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Merely the beginning</note>
+                     <note>In the hand of Halldór Hallson</note>
+                  </msItem>
+                  <msItem n="4" class="avint forns" defective="true">
+                     <locus from="45r:1" to="52v:29"/>
+                     <title type="uniform">Álaflekks saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Lacking both at the beginning and end.</note>
+                     <note>Unknown younger hand</note>
+                  </msItem> 
+                  <msItem n="5" class="pred">
+                     <locus from="53r:1" to="56v:25"/>
+                     <title type="supplied">Brot úr prédikun</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="">
+                     <locus from="57r" to="58v"/>
+                     <title type="supplied">Tveir sneplar</title>
+                     <note>Two scraps.</note>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="58"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="162"/>
+                              <width unit="mm" quantity="101"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="26 28">
+                           <num type="wpl" atLeast="5" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="138"/>
+                              <width unit="mm" quantity="85"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">                     
+                     <handNote scribeRef="#ambig" scope="major" script="kurrent">Halldór Hallsson lögréttumaður í
+                        Núpufelli</handNote> <!-- previously marked as #HalHal009 -->
+                     <handNote scribeRef="#ambig" scope="minor" script="hybrida">Colophon <q>G. G. s.</q></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hybrida">Unidentified younger scribe</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Four leaves from a book of sermons that have been used in binding</p>
+                     <p>Five pieces of leaves from another story</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1650" to="1700"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="JonIng002">Jón Ingjaldsson</name> owned the manuscript until 1861.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:51:54.703+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-03" who="#SK">Added information, topics and classes from the P.E.Ó.-catalogue and other sources.</change>
+         <change when="2013-02" who="#SK">Added some information from XML-catalogue-file on handrit.is.</change>
+         <change when="2013-06-17" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <change when="2013-09-02" who="#OHA">Added missing items and corrected a few others (from manuscript).</change>
+         <change when="2013-09-04" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

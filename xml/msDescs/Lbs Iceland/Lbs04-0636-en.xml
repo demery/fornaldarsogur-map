@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 636 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0636-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 636 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Hér skrifast hin forna Völuspá með skýringu sérlegustu orða og
+                        meiningu einnig Versioni Latina</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="edd godkv spa">
+                     <locus from="1r" to="14"/>
+                     <title type="uniform">Völuspá</title>
+                     <rubric>Völuspá</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="edd godkv">
+                     <locus from="14v" to="39r"/>
+                     <title type="uniformn">Hávamál</title>
+                     <rubric>Það eru en gömlu Hávamál með rúnakapítula og útleggingu þeirra
+                        vanskilnustu orða</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="edd godkv">
+                     <locus from="39r" to="41v"/>
+                     <title type="uniform">Sigurdrífumál</title>
+                     <rubric>Hér ritast Sigurdrífumál</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="edd skaldskfr">
+                     <locus from="42r" to="43r"/>
+                     <title type="uniform">Kenningar</title>
+                     <rubric>Eyjanöfn og sjóskenningar</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="edd godakv">
+                     <locus from="43v" to="49v"/>
+                     <title type="uniform">Grímnismál</title>
+                     <rubric>Nú ritast Grímnismál</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="edd godakv">
+                     <locus from="50v" to="54r"/>
+                     <title type="uniform">Vafþrúðnismál</title>
+                     <rubric>Hér ritast Vafþrúðnis jötuns smál</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="edd godakv">
+                     <locus from="54r" to="56r"/>
+                     <title type="uniform">Alvíssmál</title>
+                     <rubric>Alvísmál</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fornkv">
+                     <locus from="56v" to="59r"/>
+                     <title type="uniform">Hallmundarkviða</title>
+                     <rubric>Haugbúa eður Hallmundar vísur</rubric>
+                     <!-- Athuga með villuletur -->
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="helgkv">
+                     <locus from="59v" to="64r"/>
+                     <title type="uniform">Sólarljóð</title>
+                     <rubric>Hér ritast Sólarljóð</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fornkv">
+                     <locus from="64v" to="66v"/>
+                     <title type="uniform">Höfuðlausn</title>
+                     <rubric>Nú skrifast Höfuðlausn Egils Skallagrímssonar</rubric>
+                     <msItem n="11" class="edd skaldskfr">
+                        <locus from="66v" to="69v"/>
+                        <title type="uniform">Kenningar</title>
+                        <rubric>Fáeinar kenningar til minnis</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="12" class="drott?">
+                        <locus from="70r" to="71r"/>
+                        <title type="supplied"/>
+                        <rubric>Flokk vísur Hrómundar og Hallsteins á Fögrubrekku</rubric>
+                        <!--  Þarf að skoða titilí handriti  og athuga hvort hér sé t.d. um Vísur Hallar-Steins að ræða -->
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="13" class="fornkv">
+                        <locus from="71v" to="71v"/>
+                        <title type="supplied">Bardaginn á Grund</title>
+                        <title type="uniform">Runhenda Snjólfs</title>
+                        <author key="Snjooo001">Snjólfur</author>
+                        <rubric>Runhenda Snjólfs um bardagann á Grund í Eyjafirði</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="14" class="edd hetkv">
+                        <locus from="72r" to="72v"/>
+                        <title type="uniform">Helreið Brynhildar</title>
+                        <rubric>Helsöngur Brynhildar Buðladóttur</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="15" class="edd hetkv">
+                        <locus from="73r" to="73v"/>
+                        <title type="uniform">Reginsmál</title>
+                        <rubric>Hnikarsmál</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="16" class="fornkv hetkv">
+                        <locus from="73v" to="74v"/>
+                        <title type="supplied">Helsöngur Ásbjarnar prúða</title>
+                        <rubric>Helsöngur Ásbjarnar prúða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="17" class="drott fornkv">
+                        <locus from="74v" to="77r"/>
+                        <title type="uniform">Rekstefja</title>
+                        <rubric>Hér ritast drápan Rekstefia</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="18" class="edd godkv">
+                        <locus from="77r" to="79v"/>
+                        <title type="uniform">Skírnismál</title>
+                        <rubric>Hér Ritast Skírnis för</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="19" class="edd godkv">
+                        <locus from="79v" to="82v"/>
+                        <title type="uniform">Hárbarðsljóð</title>
+                        <rubric>Nú ritast Hárbarðsljóð</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="20" class="edd godkv">
+                        <locus from="82v" to="85r"/>
+                        <title type="uniform">Hymiskviða</title>
+                        <rubric>Hier ritast Hymiskviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="21" class="edd godkv">
+                        <locus from="85r" to="89r"/>
+                        <title type="uniform">Lokasenna</title>
+                        <rubric>Loka senna</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="22" class="edd">
+                        <locus from="89r" to="91r">89r-91r</locus>
+                        <title type="uniform">Þrymskviða</title>
+                        <rubric>Nú ritast hér Þrymskviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="23" class="edd">
+                        <locus from="91r" to="93r"/>
+                        <title type="uniform">Fjölsvinsmál</title>
+                        <title type="uniform">Svipdagsmál</title>
+                        <rubric>Hér hefst Fjölsvinsmál</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="24" class="godkv edd">
+                        <locus from="93v" to="94v"/>
+                        <title type="uniform">Baldurs draumar</title>
+                        <rubric>Hér ritast Vegtamskviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="25" class="edd">
+                        <locus from="94v" to="95v"/>
+                        <title type="uniform">Grógaldur</title>
+                        <title type="uniform">Svipdagsmál</title>
+                        <rubric>Gróu ljóð</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="26" class="edd">
+                        <locus from="95v" to="99r"/>
+                        <title type="uniform">Hyndluljóð</title>
+                        <title type="uniform">Völuspá hin skamma</title>
+                        <rubric>Hyndluljóð hin fornu eður Völuspá hin skamma </rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="27" class="edd hetkv">
+                        <locus from="99r" to="102r"/>
+                        <title type="uniform">Völundarkviða</title>
+                        <rubric>Völundarkviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="28" class="edd  hetkv">
+                        <locus from="102r" to="105v"/>
+                        <title type="uniform">Helgakviða Hundingsbana hin fyrri</title>
+                        <rubric>Hér hefst upp kviðu Helga hundingsbana</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="29" class="edd hetkv">
+                        <locus from="105v" to="109v"/>
+                        <title type="uniform">Helgakviða Hjörvarðssonar</title>
+                        <rubric>Önnur Helgakviða frá Hjörvarði og Sigurlinn</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="30" class="edd hetkv ">
+                        <locus from="109v" to="114r"/>
+                        <title type="uniform">Helgakviða Hundingsbana önnur</title>
+                        <rubric>Frá Völsungum Þriðia Helga kviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="31" class="edd hetkv">
+                        <locus from="114r" to="124v"/>
+                        <title type="uniform">Grípisspá</title>
+                        <rubric>Hér ritast Grípis kviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="32" class="edd hetkv">
+                        <locus from="124v" to="126v"/>
+                        <title type="uniform">Guðrúnarkviða hin fyrsta</title>
+                        <rubric>Guðrúnarkviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="33" class="edd hetkv">
+                        <locus from="126v" to="131v"/>
+                        <title type="uniform">Brot af Sigurðarkviðu</title>
+                        <title type="uniform">Sigurðarkviða hin forna</title>
+                        <rubric>Sigurðarkviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="34" class="edd hetkv">
+                        <locus from="131v" to="134r"/>
+                        <title type="uniform">Guðrúnarkviða önnur</title>
+                        <title type="uniform">Guðrúnarkviða hin forna</title>
+                        <rubric>Guðrúnarkviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="35" class="edd hetkv">
+                        <locus from="134v" to="135r"/>
+                        <title type="uniform">Guðrúnarkviða hin þriðja</title>
+                        <rubric>Guðrúnarkviða</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="36" class="edd hetkv">
+                        <locus from="135r" to="137r"/>
+                        <title type="uniform">Oddrúnargrátur</title>
+                        <rubric>Oddrúnar grátur</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="37" class="edd hetkv ">
+                        <locus from="137v" to="140v"/>
+                        <title type="uniform">Atlakviða</title>
+                        <rubric>Atlakviða hin Grænlenska</rubric>
+                        <!-- skoða í handriti hvort hér séu nokkuð Atlamál hin grænlensku sbr rubric -->
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="38" class="edd hetkv">
+                        <locus from="140v" to="148v"/>
+                        <title type="uniform">Atlamál</title>
+                        <rubric>Atlamál hin Grænlensku</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="39" class="edd hetkv">
+                        <locus from="148v" to="150r"/>
+                        <title type="uniform">Guðrúnarhvöt</title>
+                        <rubric>Guðrúnarhvöt</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="40" class="edd hetkv">
+                        <locus from="150v" to="152v"/>
+                        <title type="uniform">Hamðismál hin fornu</title>
+                        <rubric>Hamðismál in fornu</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="41" class="kvad erfikv midalkv">
+                        <locus from="152v" to="154v"/>
+                        <title type="uniform">Sonatorrek</title>
+                        <rubric> Hér skrifast Erfidrápa Egils Skallagrímssonar er hann kallar
+                           Sonatorrek </rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="42" class="kvad midalkv tyd sagnps">
+                        <locus from="154v" to="155v"/>
+                        <title type="uniform">Merlínusspá</title>
+                        <author key="Geoooo001">Geoffrey of Monmouth</author>
+                        <note>Translator: <name type="person" key="GunLei001">Gunnlaugur Leifsson</name></note>
+                           
+                        <rubric> Merlinus spá sem upp á Íslensku í ljóð sett hefur Gunnlaugur munkur
+                        </rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="43" class="gat">
+                        <locus from="156r" to="156r"/>
+                        <title type="supplied">Gátur</title>
+                        <rubric>Nokkrar g[átur]</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="44" class="fas gat godkv edd">
+                        <locus from="156r" to="160v"/>
+                        <title type="uniform">Hervarar saga og Heiðreks konungs</title>
+                        <title type="uniform">Heiðreks gátur</title>
+                        <rubric>Speki Gests og Heiðreks konungs</rubric>
+                        <!-- Kanna í hdr hvort hér sé Hervararsaga eða einungis gátuur Heiðreks-->
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="45" class="kvad hetkv erfikv">
+                        <locus from="160v" to="165v"/>
+                        <title type="uniform">Ævikviða Örvar-Odds</title>
+                        <rubric>Hér ritast helsöngur Odds hins víðförla</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="46" class="drott hetkv erfikv">
+                        <locus from="165v" to="167r"/>
+                        <title type="uniform">Krákumál</title>
+                        <rubric>Krákumál eður Ragnarskviða hin forna</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="47" class="midalkv kvad">
+                        <locus from="168v" to="169v"/>
+                        <title type="supplied">Kvæði</title>
+                        <rubric> Sextán vísur sem fundust skrifadar á skinn, (hvada skinn vissu menn
+                           ecki) nærri sjó hjá einum hól, austanvert á Skaga, fyrir nordan á
+                           ofanverdum dogum Magnusar konungslagabætirs, sed potius imposturæ
+                           Thorlaci Gudbrandi </rubric>
+                        <textLang mainLang="non"/>
+                        <!-- bæta við upphöfum -->
+                     </msItem>
+                     <msItem n="48" class="midalkv kvad">
+                        <locus from="170r" to="170r"/>
+                        <title type="supplied">Vísa trémanns í Sámsey</title>
+                        <rubric> Vísa Trémanns í Samsey sem var XL álna hár </rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="49" class="ordsk edd">
+                        <!-- athuga hvort ekki er rétt flokkað -->
+                        <locus from="170r" to="171v"/>
+                        <title type="supplied">Fornmæli</title>
+                        <rubric>Nú eftirfylgia fáein fornmæli þessarar bókar</rubric><textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="50" class="ordas edd">
+                        <locus from="172r" to="172r"/>
+                        <title type="supplied">Hestaheiti í Þorgrímsþulu</title>
+                        <rubric> Hestaheiti i Snorra Eddu eftir Þorgríms þulu </rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="51" class="fornkv ">
+                        <locus from="172r" to="176v"/>
+                        <title type="uniform">Gullkársljóð</title>
+                        <rubric>Gullkársljóð</rubric>
+                        <!-- skoða efni -->
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="52" class="edd sagnps">
+                        <locus from="177r" to="183r"/>
+                        <title type="uniform">Hyndluljóð</title>
+                        <rubric>Hér skrifast Hyndluliod</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="53" class="kvad">
+                        <locus from="183r" to="184v"/>
+                        <title type="uniform">Valagaldur Kráku</title>
+                        <rubric>Valagaldur Kráku</rubric>
+                        <textLang mainLang="non"/>
+                        <!-- skoða efni -->
+                     </msItem>
+                     <msItem n="54" class="edd godkv">
+                        <locus from="184v" to="186r"/>
+                        <title type="uniform">Grttasöngur</title>
+                        <rubric>Gróttasongur</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="55" class="kvad">
+                        <locus from="186v" to="188v"/>
+                        <title type="uniform">Njörva jötuns kviða</title>
+                        <!-- skoða 3efni -->
+                        <rubric> Niörva edur Nora Jötuns kviða </rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="56" class="edd godkv">
+                        <locus from="188v" to="190v"/>
+                        <title type="uniform">Rígsþula</title>
+                        <rubric>Rigskvida</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="57" class="run">
+                        <locus from="191v" to="192r"/>
+                        <title type="uniform">Málrúnir</title>
+                        <rubric>Malrunir</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="58" class="run">
+                        <locus from="193r" to="205v"/>
+                        <title type="supplied">Um rúnir</title>
+                        <author key="BjoJon006">Björn Jónsson</author>
+                        <rubric>Stutt undirvísan um rúnir</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="59" class="edd skaldskfr godfr fornkv bragfr bokmfr handfr texfr">
+                        <!-- skoða -->
+                        <locus from="205v" to="206v"/>
+                        <title type="supplied">Eddu-heiti</title>
+                        <rubric>Hvaðan bókin Edda hefur sitt heiti</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="206"/>
+                           <note>13 blank leaves </note>
+                           <num type="back-flyleaf" value="6"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="132"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="pag later">1-390</foliation>
+                        <condition ana="average">Due to damage at the start and end, pages have been
+                           added at a later date which reproduce the missing text</condition>
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="unknown" columns="999" writtenLines="999">
+                           <num type="wpl" atLeast="999" atMost="999"/>
+                           <dimensions type="written">
+                              <height unit="mm"/>
+                              <width unit="mm"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="2">
+                    <handNote scribeRef="#"/>
+                     <handNote scribeRef="#SnoBjo001" scope="major" script="unknown">sr. Snorri
+                        Björnsson á Húsafelli</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"/>
+                     <handNote scribeRef="#">Rune inscriptions <locus from="48v-48v"/><locus from="191v-192r"/><locus from="198r-198v"/></handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Some in red</decoNote>
+                     <decoNote type="vignette">A tailpiece</decoNote>
+                  </decoDesc>
+                  <!--<additions ana="unknown"/>-->
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Pap boards, leather spine and corners gilted spine</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1750" to="1760"/>
+                     <note>Due to damage the text has been filled in in a 19th-century hand both at the
+                        beginning and end <locus from="2r-11v"/>
+                        <locus from="200r-206v"/></note>
+                     <origPlace key="IS">Húsafell Hálsasveit Borgarfirði</origPlace>
+                  </origin>
+                  <provenance>
+                     <locus from="accMat01v" to="accMat01v">1v</locus>
+                     <p><name type="person" role="owner" key="BjoTho011">Þessa bók gaf mjer Björn
+                        Þorsteinsson hreppsstjóri í Bæ 1887.</name>
+                     <name type="person" role="owner" key="ThoJak002">Björn fékk hana eftir föður
+                        sinn Þorstein Jakobsson á Húsafelli</name>
+                     <name type="person" role="owner" key="JakSno001">enn Þorsteinn mun hafa fengið
+                        hana eftir föður sinn Jakob Snorrason sama staðar. <name type="person" key="SnoBjo001"/>Jakob var sonur séra Snorra Björnssonar í
+                        Húsafelli</name> 
+                     <name type="person" role="signatory" key="HalDan001">og með hönd Sjera Snorra hygg jeg að bókin sé. Halldór
+                        Daníelsson</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:46.165+02:00" who="#EAH"> Introduced repository auth file.
+         Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-09" who="#SK">Added information from the P.E.Ó.-catalogue and other
+         sources</change>
+         <change when="2011-11" who="#SK">Added information from the manuscript itself</change>
+         </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

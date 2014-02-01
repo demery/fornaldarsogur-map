@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ericsbergsarkivet 74</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ericsbergsarkivet-74" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#RAS">Riksarkivet, Stockholm</repository>
+                  <idno>Ericsbergsarkivet 74</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="154r"/>
+                     <title type="uniform">Jómsvíkinga saga</title>
+                     <textLang mainLang="non"/>
+                     <note>On f.1r below the title: <q>Afskrifvit uti Köpenhamn in Jan 1757 efter Cod: N. 288 uti Geheime Arkivet
+                           jämförd med N. 289 af Jacob Juel</q></note>
+                  </msItem>
+                  <msItem n="2" class="unknown">
+                     <locus from="155r" to="158r"/>
+                     <title type="supplied">Notes taken from a printed book</title>
+                     <rubric>Th: Bartolinus Antiqvitatum Danicarum Libri III. Hafn. 1689. p. 65</rubric>
+                     <textLang mainLang="la" otherLangs="non"/>
+                     <note>The notes are on the topic of the Jomsvikingadrápa</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="159r" to="167v"/>
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra <note>[Swedish]</note></title>
+                     <rubric>Illug Grydarfosters Saga Öfversått utur Isländskan år 1755</rubric>
+                     <rubric>I Cap. Illaugs och Sigurds härkomst</rubric>
+                     <incipit>En kung rådde öfver Dannemark vid namn Ring</incipit>
+                     <explicit>och lyckte vi således sagen, om Illaug Grydarfosterson</explicit>
+                     <textLang mainLang="sv"/>
+                     <note>On f. 159r at the bottom of the page a note has been added which reads: <q>Not. Denna saga är väl af
+                           Gudmund Olai öfversätt och trykt Upssala 1695 in 4o men emedan boken är rar, och översättingen uti alt
+                           ej kommer överense med originalet, så har jag roat mig med dess å nyo översåttande in April
+                        1755.</q></note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="172"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="208"/>
+                              <width unit="mm" quantity="166"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <!-- not sure what this means - leaves 1-30 foliated? -->
+                        <foliation ana="pag contemporary">Ends on fol. 30 (p.60)</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="18 24">
+                           <num type="wpl" atLeast="3" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <!-- same as JacJue001? -->
+                     <handNote scribeRef="#JacJue002" scope="sole" script="kurrent">Ff. 1r-158r</handNote>
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent">Ff. 159r-167v</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>On the inner front cover is written: <q>D. 33.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound in speckled brown paper on cardboard. Tan leather on the spine and corners. On the
+                           spine there is gilt decoration and in gilt printed: <q>JOMSWIKINGA SAGA</q>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1755" notAfter="1757"/>
+                     <origPlace key="DK">Copenhagen, Denmark</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:01.826+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-09" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

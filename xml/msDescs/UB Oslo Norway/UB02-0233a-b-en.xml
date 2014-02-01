@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+   
+      <fileDesc>
+         <titleStmt>
+            <title>UB 233 a-b fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="UB02-0233a-b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+                  <idno>UB 233 a-b fol.</idno>
+               </msIdentifier>
+               
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1782"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JakAal001"/>
+                  </provenance>
+               </history>	
+               
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>UB 233 a fol.</idno>
+                  </altIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     
+                     <note>In Latin.</note></titlePage>
+                  <msItem n="1" class="formal">
+                     <locus from="1v" to="1v"/>
+                     <title type="supplied">Formáli</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+                     </filiation>
+                  </msItem>
+                  
+                  <msItem n="2" class="kon">
+                     <locus from="2r" to="3r"/>
+                     <title type="uniform">Sigurðar þáttur slefu</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þáttur af Sigurði konungi slefu ok Gunnhilldi</rubric>
+                     <incipit>Sva er sagt þá er Gunnhilldar synir réðu</incipit>
+                     <explicit>og þótti hinn mesti kvenskaurungur.</explicit>
+                     <filiation>
+                        <ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="3v" to="7r"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefur upp Sögu Eiríks Víðförla</rubric>
+                     <incipit>Þrándur er nefndr konungr</incipit>
+                     <explicit>sem þessi Eiríkr sem nú var frásagt.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref></p>
+                     </filiation>
+                     <note>With a short passage on Óðinn at the bottom of the page.</note>
+                     <note>A-vers.</note>
+                  </msItem>
+                  <msItem n="4" class="kon">
+                     <locus from="7v" to="8v:11"/>
+                     <title type="uniform">Hálfdanar þáttur svarta [Excerpt]</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Haraldr leisti Dofra</rubric>
+                     <incipit>Nu er at seigia fra Hálfdáni konungi er hann sat</incipit>
+                     <explicit>var hann þá kalladur Haraldr Dofra fóstri</explicit>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="5" class="kon">
+                     <locus from="8v:12" to="10v"/>
+                     <title type="uniform">Haralds þáttur hárfagra [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Upphaf ríkis Haralds Hárfagra</rubric>
+                     <incipit>At lidnum tiu vetrum alldurs</incipit>
+                     <explicit>at hann skylldi Konongr vera sagdra landa</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="6" class="kont">
+                     <locus from="11r" to="11v"/>
+                     <title type="supplied">Noregskonungatal</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá Haraldi konungi</rubric>
+                     <incipit>Haraldr konungur hinn hárfagri átti Ásu</incipit>
+                     <explicit>sögu Olafs konungs Tryggvasonar.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="7" class="kon">
+                     <locus from="12r" to="15r:6"/>
+                     <title type="uniform">Hauks þáttur hábrókar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þáttur Hauks Hábrókar</rubric>
+                     <incipit>Björn at Haugi var í Svíþiod</incipit>
+                     <explicit>nu likr her svo frá Haralldi konungi.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="8" class="kon">
+                     <locus from="15r:7" to="17r:21"/>
+                     <title type="uniform">Haralds þáttur grenska</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þáttr Haralds Grænska</rubric>
+                     <rubric>Capitulum</rubric>
+                     <incipit>Secilía het æin göfug kona</incipit>
+                     <explicit>Haraldur konungur hafði henni ætlað einlæti.</explicit>
+                     <note>Preseeds <title>Ólafs saga helga</title>.</note>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="9" class="kon">
+                     <locus from="17v:22" to="19r"/>
+                     <title type="uniform">Ólafs þáttur Geirstaðaálfs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her er Þáttur Olafs Geirstaða=álfs</rubric>
+                     <incipit>Drengur góður og höfðingi mikill</incipit>
+                     <explicit>og skipadist skiótt vıð.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10" class="kon">
+                     <locus from="19v" to="141v:1"/>
+                     <title type="uniform">Ólafs saga helga [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefur upp sögu Ólafs konungs Haralldssonar</rubric>
+                     <incipit>Þá er lidit var frá hingatburð vors herra Jesú Kristi</incipit>
+                     <explicit>til kaupángs. ok var jardat at Krists kyrkiu.</explicit>
+                     <note>Many chapters from antigraph partly or intirely missing.</note>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                     
+                  <msItem n="10.1" class="kon">
+                     <locus from="35v:2" to="38v:1"/>
+                     <title type="uniform">Styrbjarnar þáttur Svíakappa</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefur upp þátt Styrbiarnar Svíakappa er hann bardist vid Eirik
+                        Sviakonong</rubric>
+                     <incipit>Frá þvi er at segia at Eirikr</incipit>
+                     <explicit>tillagi hvert sumar til ymsra landa.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10.2" class="kon">
+                     <locus from="38v:2" to="42r"/>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá Hróa</rubric>
+                     <incipit>Eitthvert sinn mælti Hróa til konongr</incipit>
+                     <explicit>ok er þar i Sviþiod frá þeim komit mart göfigmenni.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10.3" class="isl">
+                     <locus from="42v" to="54v"/>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Upphaf Fóstbrædra sögu</rubric>
+                     <rubric>Capitulum</rubric>
+                     <incipit>Gud drottinn Jesus Kristus</incipit>
+                     <explicit>þá er hér er komit Olafs sögu.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10.4" class="kon">
+                     <locus from="55r" to="69v"/>
+                     <title type="uniform">Eymundar þáttur Hringssonar</title>
+                     <title type="parallel">Eymundar saga Hringssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefr upp þátt Eymundar og Ólafs konongs</rubric>
+                     <rubric>Capit<ex>ulum</ex> 1.</rubric>
+                     <incipit>Hringur hefr konongr heitit</incipit>
+                     <explicit>stendr til þá liósa at géra.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10.5" class="fas">
+                     <locus from="70r" to="72r:20"/>
+                     <title type="uniform" ref="#ttht">Tóka þáttur Tókasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefur upp hinn Niunda þátt Olafs sögu Haralldssunar.
+                        </rubric>
+                     <rubric>Capitulum<ex>m</ex>.</rubric>
+                     <incipit>J þann tima er Olafur konongr sat í Sarpsborg</incipit>
+                     <explicit>og andadist i hvita-vodum.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10.6" class="ridd?">
+                     <locus from="72r:21" to="74v:3"/>
+                     <title type="supplied">Sigurðar þáttur Akasonar</title>
+                     <title type="parallel">Sigurðar saga Akasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sigurdr vann tröllkonu</rubric>
+                     <incipit>Sigurdr er madr nefndr</incipit>
+                     <explicit>Sigurdr er med Olafi konongi i gódri virdingu.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10.7" class="bisks">
+                     <locus from="74v:4" to="75v"/>
+                     <title type="uniform">Ísleifs þáttur biskups</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Ísleifr féck Döllu er sidar var biskup</rubric>
+                     <incipit>Þat er nu þessu næst at segia</incipit>
+                     <explicit>hann reynda ek svo at öllum hlutum.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10.8" class="islt">
+                     <locus from="76r" to="81r:8"/>
+                     <title type="uniform">Egils þáttur Síðu-Hallssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Olafur konongr fór til Danmerkr i Limafiörd</rubric>
+                     <incipit>Á æinhveriu sumri er sagt at Egill sun Halls á Sidu</incipit>
+                     <explicit>ok þótti vera hinn besti drengr.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10.9" class="isl">
+                     <locus from="81r:9" to="96r"/>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefur upp þátt Þormóðar Kolbrunarskalds. </rubric>
+                     <rubric>Capitulum<ex>m</ex>. 14.</rubric>
+                     <incipit>Konongrinn Olafr var hardla vinsæll</incipit>
+                     <explicit>spyr nu öll þessi tidindi ok þótti mikil.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <!-- fol. 97v-98v:5, Ólafs saga helga continues -->
+                  <msItem n="10.10" class="kon">
+                     <locus from="97v:6" to="102r:10"/>
+                     <title type="uniform">Indriða þáttur og Erlings</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér er þáttur Inndrida ok Erlings.</rubric>
+                     <rubric>Capitulum<ex>m</ex></rubric>
+                     <incipit>Olafr konongr sendi bod um vorit</incipit>
+                     <explicit>konu sína Sigridi. ok undu vel sinu rádi.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10.11" class="kon">
+                     <locus from="102r:11" to="104r:5"/>
+                     <title type="uniform">Færeyinga saga [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hætt þeirra Færeyingaok Þrámdar.</rubric>
+                     <incipit>Eftir vig Karls marska ok áverka vitbudarmann</incipit>
+                     <explicit>mansefni. ok ox hann þar upp.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <!-- fol. 104r:6-106r, Ólafs saga helga continues -->
+                  <msItem n="10.12" class="kon">
+                     <locus from="106v" to="109r"/> 
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Raudúlfs þáttr.</rubric>
+                     <rubric>Capitulum.</rubric>
+                     <incipit>Ulfur hét madr er kalladr var Raudulfur</incipit> 
+                     <explicit>at oss skorti flestar vit þá fedga.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <!-- fol. 109v-116v:9, Ólafs saga helga continues  -->
+            
+                  <msItem n="10.13" class="kon">
+                     <locus from="16v:11" to="121r:4"/>
+                     <title type="uniform">Völsa þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Konongr kristnadi menn nordr um kunniga</rubric>
+                     <incipit>Olafur konungur spurði þá enn at niju</incipit>
+                     <explicit>og alla adra at Gudi hefr likat.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                     <!-- fol. 121r:5-123r:17, Ólafs saga helga continues  -->
+                  <msItem n="10.14" class="isl">
+                     <locus from="123r:16" to="124v"/>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Vidrtal konungs ok Þormódar</rubric>
+                     <incipit>Þá nátt er Olafur konongr lá i safnadinum</incipit>
+                     <explicit>viggrudr edr þar liggium.</explicit>
+                     <note>Ends with a stanza.</note>
+                     <filiation>
+                        <ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+                     </filiation>
+                  </msItem>
+                     <!-- fol. 129r:24, Ólafs saga helga continues  -->
+                  <msItem n="10.15" class="isl">
+                     <locus from="129r:24" to="131v"/>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Vidrtal þeirra Þormods ok Dags [Excerpt]</rubric>
+                     <incipit>Svo er sagt þá er lokit var bardaganum<ex>m</ex></incipit>
+                     <explicit>enn þormódi ohægdist miök sárit sem von var.</explicit>
+                     <filiation>
+                        <ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+                     </filiation>
+                  </msItem>
+                     <!-- many parts missing   -->
+                  </msItem>
+                     
+                  <msItem n="11" class="kon">
+                     <locus from="141v:2" to="154r"/>
+                     <title type="uniform">Ólafs saga helga</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Þessir smá articuli</incipit>
+                     <explicit>áleitni vit kononginn edr nokkurra illinda.</explicit>
+                     <filiation>
+                        <ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="12.1" class="kon">
+                     <locus from="154v" to="281v">188r-204v (dálkur 755-821)</locus>
+                     <title type="uniform">Magnús saga góða og Haralds harðráða</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefr upp saugu Magnús konongs ok Haralds Sigurdarsunar</rubric>
+                     <incipit>Þar hefium vér upp frásögu er Jarisleifr konongr</incipit>
+                     <explicit>ok lagdi þat miök i vanda sinn oft.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                     <note>Continues in vol. II.</note>
+                  </msItem>
+               </msContents>
+              
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">
+                           <support>
+                              <num type="front-flyleaf" value="2"/>
+                              <num type="book-block" value="281"/>
+                              <num type="back-flyleaf" value="2"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="320"/>
+                                 <width unit="mm" quantity="210"/>
+                              </dimensions>
+                           </support>
+                        </supportDesc> 
+                        <layoutDesc>
+                              <layout columns="1" ana="verse-separate" writtenLines="27 29">
+                                 <num type="wpl" atLeast="9" atMost="11"/>
+                                 <dimensions type="written">
+                              <!-- <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>-->
+                           </dimensions>
+                           </layout>
+                           </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudHel001" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="low">
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     
+                     <additions ana="medium"><p>
+                        There are several additions in Danish written in a different hand. They specify the left out texts.
+                        The column breaks of the antigraph are marked in the margins.</p>
+                     </additions>
+                     
+                     <!--<bindingDesc>
+                        <binding ana="" contemporary="">
+                           <p/>
+                        </binding>							
+                     </bindingDesc>-->
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>UB 233 b fol.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no">
+                        
+                     </titlePage>
+                     <msItem n="12.2" class="kon">
+                        <locus from="1r" to="27r:8"/>
+                        <title type="uniform">Magnús saga góða og Haralds harðráða</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Her segir um ferd konongs</rubric>
+                        <incipit>A enu þridia ári eftir Nizárorrustu</incipit>
+                     <explicit>annar sun Vilhiálms Bastardar.</explicit>
+                        <finalRubric>Og likr hér saugu Harallds Sigurdarsunar.</finalRubric>
+                        <note>Continuation from vol. I.</note>
+                        <filiation>
+                           <p>Copy of 
+                              <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                        </filiation>
+                     </msItem>
+                  <msItem n="13" class="kon" defective="true">
+                     <locus from="27r:9" to="35v:23"/>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Þat er upphaf þessa máls at Haralldr konongr</incipit>
+                     <explicit defective="true">og þar eru þeir á bænum Aslakr ok
+                        Biörn.</explicit>
+                     <note>Comment on the blank space in antigraph.</note>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="14" class="islt">
+                     <locus from="35v:24" to="39v:19"/>
+                     <title type="uniform">Auðunar þáttur vestfirska</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Madur hét Audun vestfyrskr</incipit>
+                     <explicit>og margir adrir gódir menn.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="15" class="islt">
+                     <locus from="39v:20" to="51v:20">206v-208r (dálkur 830-836)</locus>
+                     <title type="uniform">Sneglu-Halla þáttur</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Þat er upphaf þessar frásagnar</incipit>
+                     <explicit>á grauti mundi greyit sprungit hafa.</explicit>
+                     <finalRubric>Lÿk ek þar saugu frá Snæglu Halla.</finalRubric>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="16" class="islt">
+                     <locus from="51v:21" to="54r:17"/>
+                     <title type="uniform">Halldórs þáttur Snorrasonar</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Þaá er Halldór Snorrasun Góda var med Haralldi konongi</incipit>
+                     <explicit>vingan sinni vit Halldór. Og lÿkr þar þessi frásaugn.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="17" class="islt">
+                     <locus from="54r:18" to="55v:6"/>
+                     <title type="uniform">Þorsteins þáttur forvitna</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Þorsteinn hét einn islendskr madr</incipit>
+                     <explicit>enn þá fall hann med á Englandi.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="18" class="islt">
+                     <locus from="55v:7" to="58r:22"/>
+                     <title type="uniform">Þorsteins þáttur tjaldstæðings</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Úlfur hét madr er bió á Þelamörk</incipit>
+                     <explicit>faudur Lopts. faudur Gunnlaugs smids.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="19" class="kon">
+                     <locus from="58v:23" to="63r"/>
+                     <title type="uniform">Blóð-Egils þáttur</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Ragnar hét madr ok var ættadr</incipit>
+                     <explicit>siálfrædi ok sidleysu. og lÿkr þar þessum þætti.</explicit>
+                     <note>With comment by the scribe on fol. <locus>63v</locus>.</note>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="20" class="islt">
+                     <locus from="64r" to="72r:4"/>
+                     <title type="uniform">Grænlendinga þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Grænlendinga þáttr</rubric>
+                     <incipit>Sokki hét madr ok var Þórissun</incipit>
+                     <explicit>til ættjarda sinna. og lÿkr þar þessi saugu.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="21" class="bis kir">
+                     <locus from="72r:5" to="72r:19"/>
+                     <title type="supplied">Biskupa- og kirknatal á Grænlandi</title>
+                     <title type="supplied">Biskupa- og kirknatal á Grænlandi</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Þessir hafa biskupar verit á Grænlandi</incipit>
+                     <explicit>i Anavik i Rángafÿrdi.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="22" class="kon">
+                     <locus from="72r:20" to="75r:4"/>
+                     <title type="uniform">Helga þáttur og Úlfs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá Helga og Ulfi</rubric>
+                     <incipit>Sigurdr jarl Laudverssun reid fÿrir Orkneÿium</incipit>
+                     <explicit>og biuggu þar til elli. og lÿkr þar þessi soghu.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="23" class="kon">
+                     <locus from="75r:5" to="83r"/>
+                     <title type="uniform">Játvarðar saga helga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga hins heilaga Edvardr</rubric>
+                     <incipit>Edvardur hinn helgi var sun</incipit>
+                     <explicit>ok þeirra sÿnir þar byggt sidann.</explicit>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  
+                  </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/><!-- check! at least one -->
+                           <num type="book-block" value="86"/>
+                           <num type="back-flyleaf" value="0"/> <!-- check, possibly more -->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="320"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="pag contemporary">
+                        </foliation>
+                        <!--<condition ana="">
+                        </condition>-->
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" ana="verse-separate" writtenLines="27 29">
+                           <num type="wpl" atLeast="9" atMost="11"/>
+                           <dimensions type="written">
+                             <!-- <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>-->
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudHel001" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                    
+                     <decoDesc ana="low">
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     
+                     <additions ana="medium"><p>
+                        There are several additions in Danish on missing parts. They are written in a different hand.
+                     The column breaks of the antigraph are marked in the margins.</p>
+                     </additions>
+                     
+                     <!--<bindingDesc>
+                        <binding ana="" contemporary="">
+                           <p/>
+                        </binding>							
+                     </bindingDesc>-->
+               </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:21.424+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-07-18" who="#BES">Cataloged from black-and-white photographs. Some info on layout, condition and binding missing.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 348 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0348-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 348 4to</idno>
+               </msIdentifier>
+         
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+               
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="25v:17"/>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <title type="parallel">Norna-Gests þáttr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her hefr þatt af Nornagesti</rubric>
+                     <incipit>Sva er sagt at a einum tima þa er Ol<ex>afur</ex> k<ex>ongu</ex>r sat i
+                        Þrandh<ex>eim</ex></incipit>
+                     <explicit><ex>ok</ex> þotti san<ex>n</ex>azst um lifdaga h<ex>an</ex>s sem
+                        h<ex>ann</ex> sagdi</explicit>
+                  </msItem>
+                  
+                  <msItem n="2" class="fas textfr">
+                     <locus from="26r:1" to="29r:8"/>
+                     <title type="supplied">Variants of Norna-Gests þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Ex Codice Regio pertinet ad Olafs S<ex>aga</ex> Tr<ex>yggva</ex>s<ex>onar</ex> mina ur 
+                        Cod<ex>ex</ex> Flat<ex>ensis</ex></rubric>
+                     <incipit>pag 842 lin 14 vera hversu sem þu s<ex>eiger</ex></incipit>
+                     <explicit>875 12 Sem hann sagdi oc lykr þar fra Nornagesti at segia.</explicit>
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="29"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <note> First front flyleaf is an oversized
+                              folded leaf.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="212"/>
+                              <width unit="mm" quantity="162"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">Coat of arms topped with a crown</watermark>
+                        </support>
+                        
+                        <foliation ana="fol later">Foliated 1-29 in faded red ink in the upper right hand corners by 
+                           <name type="person" key="KriKaa001">Kålund</name>. Foliated in pencil in the lower margin.
+                           </foliation>
+                        
+                        <condition ana="good"/>
+                                                
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="18">
+                           <num type="wpl" atLeast="3" atMost="9"/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="95"/>
+                           </dimensions>
+                           <note>Fol. 29v blank.</note>
+                        </layout>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                     <handNote scribeRef="#AsgJon001" scope="major" script="unknown">
+                        <p>Fols. <locus>1-25</locus> are written by Ásgeir Jónsson.</p>
+                     </handNote>
+                     <handNote scribeRef="#ArnMag001" scope="minor" script="unknown">
+                        <p>Fols. <locus>26-29</locus> are written by Árni Magnússon.</p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="medium">
+                     <p>Fols. <locus>1-25</locus> are blind ruled. A slip in the hand of AM between fols. <locus>14</locus> and <locus>15</locus> reads: <q xml:lang="is">NB Sigurdr
+                        Hringr atti Alfhilldi dottur Gandalfs, Alfgeirs
+                        sonar. Alfssonar, Raumssonar, Nors sonar. brædur konu hans voru þesser Gandalfs
+                        synir.</q> Between fols. <locus>15</locus> and <locus>16</locus> is another slip which reads: <q xml:lang="la">Fenhring hodie 
+                          Askóre vocant; Bergis vicina est.
+                           Confunduntur antem heic diversi Starcadi; Etenim hicce non est ille, de qvo Hrolfi Gotricii
+                           vita agit, qvi vikarum Suspendit. Sed antiqvitas omnia in 
+                           unu<ex>m</ex> congessit.</q> The reverse contains unidentified accounting information [in German?].
+                        The former cover for the first item (fols. <locus>1r-25v</locus>) now constitutes the front three flyleaves. On the
+                        first flyleaf <name type="person" key="ArnMag001">Árni Magnússon</name> wrote: <q xml:lang="la">Nornagestz þattr 
+                           ex membranâ Regia. Est qvasi
+                           Melagri fabula.</q> On the second and third flyleaves he states: <q xml:lang="la">Ur Nornagestz þætti. 
+                              Variæ lectiones Codicis Regii, apatatæ ad
+                              Apographum meum Historiæ Olavi Tryggvonii ex Codice Flateyensi, qvod exaratum est manu Domini Jonæ
+                              Erlendii.</q> This first, folded flyleaf bears traces of a removed wax seal and is addressed: 
+                        <q>Erlig oc velb. mand, Jörgen Rosenkrantz till kiessarmand,
+                              hoffmester pra dett kong, aerlig Academie Sorör, oc kongl. meytz befalnings mand pra Börlum Closer, min
+                              hvyærede gode ven i tienistuvilliger tillshrevit[?].</q> This is reused material from a letter
+                        sent to <name key="JorRos001" type="person" role="owner">Jørgen Rosenkrantz</name> 
+                        (1607-1675), head of the Søro Akademi from 1653 until 1669. The reverse contains citations about Gorm the
+                        Old and Harold Gormsson of Denmark taken from multiple sources.</p>
+                  </additions>
+                                    
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in a modern (early 21st-century) conservation binding of half-calf canvas boards. An earlier
+                        binding with half-calf marbled paper boards from the early 20th century is housed with the manuscript.</p>
+                     </binding>
+                  </bindingDesc>
+               
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate notBefore="1686" notAfter="1688"/>
+                     <origPlace key="DK"/>
+                     <note>Watermarks are consistent through both manuscript items. This, plus the 
+                        MS waste relating to Denmark suggest that AM 348 4to was probably composed between 1686 and 1688 while Ásgeir was
+                        working in Copenhagen</note>
+                  </origin>
+                  
+                  <provenance>
+                     <name key="ArnMag001" type="person" role="owner">Árni Magnússon</name>                     
+                     
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:18.534+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:24.872+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:34.374+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:50.083+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:28.172+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-03-04" who="#JSL">Supplemented record with information from handrit and Kålund catalogs.</change>
+         <change when="2013-03-05" who="#JSL">Cataloged from manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Acc. 5</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Acc-5" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>Acc. 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="isl">
+                     <locus from="1v" to="13v">1v-13v</locus>
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Saga af Rafnkeli goða</rubric>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="14r" to="27r">14r-27r</locus>
+                     <title type="uniform">Droplaugarsona saga</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Saga af Helga og Grími Droplaugarsonum</rubric>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="27v" to="51r">27v-51r</locus>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Hervarar saga</rubric>
+                     <!-- Verelius? -->
+                     <filiation>
+                        <p>Copy of text from a printed edition.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="4" class="konth">
+                     <locus from="51v" to="56v">51v-56v</locus>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Sagan af Hákoni norræna</rubric>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="56v" to="68r">56v-68r</locus>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Sagan af Vilmundi við-utan</rubric>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="68r" to="82r">68r-82r</locus>
+                     <title type="uniform">Þórðar saga hreðu</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Sagan af Þórði hreðu</rubric>
+                  </msItem>
+                  <msItem n="7" class="isl">
+                     <locus from="82r" to="91v">82r-91v</locus>
+                     <title type="uniform">Víglundar saga</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Saga af Þorgrími prúða og Víglundi</rubric>
+                  </msItem>
+                  <msItem n="8" class="isl">
+                     <locus from="91v" to="103r">91v-103r</locus>
+                     <title type="uniform">Hávarðar saga Ísfirðings</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Af Hávarði Ísfirðingi</rubric>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="103r" to="105v">103r-105v</locus>
+                     <title type="uniform">Ölkofra þáttur</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Þáttur af Ölkofra</rubric>
+                  </msItem>
+                  <msItem n="10" class="rimur">
+                     <locus from="106r" to="113v">106r-113v</locus>
+                     <author key="JonSig013">Jón Sigurðsson</author>
+                     <textLang mainLang="non"></textLang>
+                     <title type="uniform">Tímaríma</title>
+                     <rubric>Tíma ríma</rubric>
+                     <note>Possibly copy of text of a printed edition.</note>
+                  </msItem>
+                  <msItem n="11" class="laus">
+                     <locus from="113v" to="113v">113v</locus>
+                     <author key="ArnBod001">Árni Böðvarsson</author>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="is"></textLang>
+                     <rubric>
+                        Vísa mr. Árna Böðvarssonar um hr.
+                        <name type="person" key="SveSol002">Svein</name>
+                        lögmann
+                     </rubric>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="114r" to="125v">114r-125v</locus>
+                     <title ref="#ysv" type="uniform">Yngvars saga víðförla</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Sagan af Ingvari víðförla og Sveini syni hans</rubric>
+                     <note>Copy of text of a printed edition.</note>
+                  </msItem>
+                  <msItem n="13" class="kvad laus">
+                     <locus from="126r" to="135r">126r-135r</locus>
+                     <title type="supplied">Different unidentified verses</title>
+                     <textLang mainLang="non" otherLangs="is"></textLang>
+                  </msItem>
+                  <msItem n="14" class="rimur">
+                     <locus from="135r" to="138r">135r-138r</locus>
+                     <title type="uniform">Jannesarríma</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Ríma af Jannes</rubric>
+                  </msItem>
+                  <msItem n="15" class="fas">
+                     <locus from="139r" to="159r">139r-159r</locus>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Sagan af Þorsteini Víkingssyni</rubric>
+                  </msItem>
+                  <msItem n="16" class="fas">
+                     <locus from="161r" to="178v">161r-178v</locus>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <textLang mainLang="non"></textLang>
+                     <rubric>Sagan af Hjálmar og Ölver</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="178"/>
+                       <!--    <num type="back-flyleaf" value=""/>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                          <!-- <watermark ana=""/>-->
+                        </support>
+                        <foliation ana="later fol"/>                        
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="29 37">
+                           <num type="wpl" atLeast="10" atMost="20"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="#ThoSig007" scope="major" script="chancery"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Titles and initials slightly decorated.</decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>Several pages containing pen-trials and/or owners' names.</p>
+                     <p>Fol. 159r has a user's comment in the bottom margin.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The older leather binding is preserved.</p>
+                     </binding>
+                     <binding ana="plain" contemporary="false">
+                        <p>The current binding is a plain cardboard binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1771" notAfter="1776"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                 <!-- <provenance/>-->
+               </history>
+            </msDesc> 
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:51.691+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-07-08" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <!-- watermark and layout dimensions missing -->
+         <change when="2013-08-26" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1147 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1147-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1147 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="isl" defective="true">
+                     <locus from="1r" to="12va:27"/>
+                     <title type="uniform">Grettis saga</title>
+                     <textLang mainLang="non"/>
+                     <note>fol. <locus>1r</locus> illegible</note>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="12va:28" to="20vb:25"/>
+                     <title type="uniform">Þórðar saga hreðu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="20vb:26" to="24v"/>
+                     <title type="uniform">Kormáks saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="landn">
+                     <locus from="25r" to="53v"/>
+                     <title type="uniform">Landnámabók</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="islt">
+                     <locus from="54r" to="54v"/>
+                     <title type="uniform">Egils þáttur Síðu-Hallssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="55r" to="58vb:16"/>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="58vb:17" to="67vb"/>
+                     <title type="uniform">Flóvents saga konungs og sona hans</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="68r" to="82va:11"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="fas">
+                     <locus from="82va:13" to="98va:17"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="98va:18" to="108ra:22"/>
+                     <title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="108ra:23" to="119va"/>
+                     <title type="uniform">Ectors saga</title>
+                     <note>lower part of fol. 119v blank</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="119vb" to="134vb:17"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="isl" defective="true">
+                     <locus from="134vb:18" to="136r"/>
+                     <title type="uniform">Hávarðar saga ísfirðings</title>
+                     <note>ends defective; last page illegible</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="136"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="345"/>
+                              <width unit="mm" quantity="250"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="fol later">Foliated in the latter part</foliation>
+                        <condition ana="poor">Severe damage in parts due to humidity or liquids</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="40 54">
+                           <num type="wpl" atLeast="18" atMost="25"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="290"/>
+                              <width unit="mm" atLeast="200" atMost="230"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="major" script="chancery">
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Where present, rubrics are slightly decorated; open space for initials, only some are filled in </decoNote>
+                     <decoNote type="paratext">Small squiggles and line around the catchwords and at the end of a text</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A later hand added rubrics, e.g. on fol. <locus from="58vb" to="58vb"/> (item 7).
+                     Marginalia on <locus from="19r" to="19v"/>, <locus from="75r" to="76r"/> and <locus from="105r" to="105r"/></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Brown marbeled paper on thick card board. Brown leather on corners and spine; marbeled paper as pastedown.
+                           On the spine, there are golden imprints: the initials of king Frederik VI and the title of the manuscript.
+                        The spine is in poor condition.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:30.173+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-19" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-06-14" who="#BES">Added missing information with the manuscript in situ.</change>
+         <change when="2013-08-26" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

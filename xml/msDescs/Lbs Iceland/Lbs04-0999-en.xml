@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 999 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0999-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 999 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="almb tyd">
+                     <locus from="1r" to="45r"/>
+                     <title type="uniform">Ambáles saga</title>
+                     <rubric>Sagan af Ambalet</rubric>
+                     <note>Amlóða saga</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="avint">
+                     <locus from="45v" to="63v"/>
+                     <title type="supplied">Sagan af þeim fjórum sonum Heimons</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="sagnfr frodt">
+                        <locus from="63v" to="64r"/>
+                        <title type="supplied">Sjö furðuverk heimsins</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="heims">
+                        <locus from="64r" to="64v"/>
+                        <title type="supplied">Spakmæli þeirra sjö grísku spekinga</title>
+                        <rubric>Þeirra sjö grísku spekinga Ænigmata - myrku andsvör</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                        <locus from="65r" to="90v"/>
+                        <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                        <rubric>Saga af Án er kominn var af Katli Hæng</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                        <locus from="91r" to="108r"/>
+                        <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                        <rubric>Söguþáttur Ketil hængs</rubric>
+                        <explicit>... Eftir þetta gifti hann Hrafnhildi Böðmóði, sem Böðvar er
+                           nefndur. Ketill hængur réði fyrir Hrafnistu meðan hann lifði.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                        <locus from="91r" to="108r"/>
+                        <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                        <incipit>6te Kap. Svo er sagt af Grími syni Ketils at hann var bædi mikill
+                           og sterkur. Því var hann lodinkinna kallaður, að ... </incipit>
+                        <colophon>Og líkur svo þessari sögu frá Katli Hæng og Grími
+                           loðinkinnu</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                        <locus from="116r" to="205r"/>
+                        <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                        <rubric>Saga af Örvar-Oddi enum víðförla</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="205"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="156"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Added when the saga was repaired and catalogued</foliation>
+                        <condition ana="poor">Poor quality repair-work carried out</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="16 18">
+                           <num type="wpl" atLeast="9" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">fol.
+                        1-64v in hum cursiva and chancery</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">fol.
+                        65r-205v in kurrent and chancery</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Headings</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Ásbjörn Sigurðsson á bókina.</p> <p>Þetta er góður penni</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>In loose leaves. The cover separate, rexin-covered paper-boards.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1780" notAfter="1820"/>
+                     <!--<origPlace key=""></origPlace>-->
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="AsbSig001">Ásbjörn Sigurðsson á
+                        Bókina</name>
+                     <name type="person" role="owner" key="SolVig001">Sölvi Vigfússon á
+                        Arnheiðarstöðum</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:50.74+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07" who="#SK">Added items and classes and other information from the
+            P.E.Ó.-cataloue and other sources</change>
+         <change when="2012-09" who="#SK">Added to location and layout and some more information
+            from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

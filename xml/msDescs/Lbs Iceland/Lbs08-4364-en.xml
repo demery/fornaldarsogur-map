@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 4364 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-4364-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 4364 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="riddst">
+                     <locus from="1r" facs="#Lbs08-4364-0001r" to="31r">1r-31r</locus>
+                     <title type="uniform">Knúts saga heimska</title>
+                     <rubric>því til að hann annað hvurt drukknað hafi eða orðið villudýrum
+                        að bráð …</rubric>
+                     <note>Beginning missing</note>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="31v" facs="#Lbs08-4364-0031v" to="42r">31v-42r</locus>
+                     <title type="uniform">Ajax saga frækna</title>
+                     <rubric>Sagan af Ajax enum frækna</rubric>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="43r" facs="#Lbs08-4364-0043r" to="57v">43r-57v</locus>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <rubric>Sagan af Þorsteini bæjarmagni</rubric>
+                  </msItem>
+                  <msItem n="4" class="islst">
+                     <locus from="57v" facs="#Lbs08-4364-0057v" to="65r">57v-65r</locus>
+                     <title type="uniform">Ármanns saga og Dalmanns</title>
+                     <rubric>Ármann saga</rubric>
+                     <note>Fragment</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="70"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="171"/>
+                              <width unit="mm" quantity="107"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+							   <foliation ana="contemporary pag">Old pagination 3-85 (1r-42r)</foliation>
+                        <foliation ana="later fol"/>
+                        <condition ana="good">
+									<p>Folios 66-69 haven't been cut apart</p>
+									<p>Front of manuscript missing</p>
+								</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="20 29">
+                           <num type="wpl" atLeast="4" atMost="10"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="2">
+							<handNote scribeRef="unknown" scope="major" script="unknown">I. Unknown scribe (<locus from="1r" facs="#Lbs08-4364-0001r" to="42r">1r-42r</locus>)</handNote>
+							<handNote scribeRef="unknown" scope="minor" script="unknown">II. Unknown scribe (<locus from="43r" facs="#Lbs08-4364-0043r" to="65r">43r-65r</locus>)</handNote>
+						</handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+							<p>The manuscript is from Miðfjörður</p>
+						</additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="false">
+							  <p>Unbound, sewn</p>
+                     </binding>  
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate from="1850" to="1899"/>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                     <p>Bought on the 3 July 1979 by <name type="person" role="owner" key="ambig">Hallfreður Örn
+                        Eríksson</name>, cand. mag. from Miðfjörður.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:59.525+02:00" who="#EAH"> Created as subset of full fileon handrit.is.</change>
+         <change when="2011-05-06T17:54:24.396+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:43.652+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-07-20" who="#SMM">Added and completed msItems with information gathered from and pictures viewed on handrit.is. Also provided provenance information from the PEÓ catalogue Completed FASNL encoding.</change>
+         <change when="2012-11-09" who="#SMM">Translated into English</change>
+         <change when="2012-11-14" who="#SMM">Pictures from handrit.is checked. Provided info on additions.</change>
+         <!-- missing information regarding layoutDesc -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

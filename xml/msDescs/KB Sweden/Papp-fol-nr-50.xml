@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 50</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-50" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 50</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="40v"/>
+                     <title type="uniform">Blómsturvalla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="41r" to="61r"/>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#Papp-4to-nr-2" ana="antigraph"/>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="62r" to="103r"/>
+                     <title type="uniform">Króka-Refs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="105r" to="138r"/>
+                     <title type="uniform">Víglundar saga</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#Papp-4to-nr-5" ana="protograph"/>
+                     </filiation>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="139r" to="176v"/>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#Perg-4to-nr-18" ana="antigraph"/>
+                     </filiation>
+                  </msItem>
+                  <msItem n="6" class="konth">
+                     <locus from="179v" to="198v"/>
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <note>written in one column, only on the verso-side, recto-side left blank.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3">The original front cover is now the secound front-flyleaf</num>
+                           <num type="book-block" value="198"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Different watermarks, e.g. two lions holding a coat of arms with a crown above,
+                              "ACH" on the opposite side. A large royal emblem with a crown above. A foolscap (with a 
+                              collar of seven points), cf. Papp. fol. no 20.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary fol later">
+                           <p>Partly contemporary pagination; modern foliation on every tenth leaf.</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <!-- @writtenLines unknown -->
+                        <layout ana="verse-separate" columns="1 2">
+                           <num type="wpl" atLeast="3" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="275"/>
+                              <width unit="mm" atLeast="85" atMost="170"/>
+                           </dimensions>
+                           <note>Pages 1-178 have two columns, but only the inner column contains text. The outer has been left
+                              blank for translation.</note>
+                           <note>Pp. 179-198 have no writing on recto leaves, only on verso leaves</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scope="minor" scribeRef="#GudGud003" script="chancery"><p><locus from="1r" to="61r">1r-61r</locus></p></handNote>
+                     <handNote scope="minor" scribeRef="unknown" script="chancery"><p><locus from="62r" to="138r">62r-138r</locus></p></handNote>
+                     <handNote scope="minor" scribeRef="#JonVig011" script="chancery"><p><locus from="139r" to="176v">139r-176v</locus></p></handNote>
+                     <handNote scope="minor" scribeRef="#HelOla001" script="chancery"><p><locus from="179v" to="198v">179v-198v</locus></p></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Slightly enlarged or decorated initials</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>On the third front-flyleaf, a table of contents is added. For item 2, a different hand added: <q>öfversatt
+                           á Svenska af E.O.B.</q> (but no translation is to be found). On fol. <locus>139r</locus> a note reads:
+                           <q>Inlefvereradt 14 Sept 1688</q>, which V. Gödel traces back to the Antikvitetskollegiet. </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with marbeled paper on the boards; spine and corners in white leather. The
+                           golden imprint on the spine reads: <q>Cod. Island. Papp. fol. N:o 50</q>. The front cover of the
+                           original binding is preserved in the front of the manuscript.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1680" notAfter="1690"/>
+                     <!-- origPlace does not display in this format -->
+                     <origPlace key="unknown">Sweden and/or Danmark</origPlace>
+                  </origin>
+                  <provenance>
+                     <name type="organisation" role="owner" key="AntKol001">Antikvitetskollegiet</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:03.515+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-27" who="#BES">prepared for library. still catalog info missing.</change>
+         <change when="2013-03-05" who="#BES">Measured and checked at the library.</change>
+         <change when="2013-03-22" who="#BES">Added missing information from black-and-white photographs and catalog.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 6</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-6" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 6</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="2r:30"/>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+<!--                     <textLang mainLang=""/>-->
+                     <filiation>
+                        <p>Based on 
+                        <ref type="ms" target="#Papp-8vo-nr-11" ana="protograph">Papp. 8vo nr. 11</ref>.</p>
+                     </filiation>
+                     <note>younger vers.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="2r:31" to="38v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <!--                     <textLang mainLang=""/>-->
+                     <filiation>
+                        <p>Based on 
+                        <ref type="ms" target="#Papp-8vo-nr-11" ana="protograph">Papp. 8vo nr. 11</ref>.</p>
+                     </filiation>
+                     <note>younger vers.</note>
+                  </msItem>
+                  <msItem n="3" class="hms?" defective="true">
+                     <locus from="39r" to="40v"/>
+                     <title type="supplied">Legend</title>
+                     <!--                     <textLang mainLang=""/>-->
+                     <rubric/>
+                     <incipit>Sande(?) Hieronijmus skrifaz um þriar)</incipit>
+                     <explicit>og liet af sig heyra, ef h<ex>an</ex>n willdi tala þa</explicit>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="41r" to="61r:19"/>
+                     <title type="supplied" ref="#hso">Hjálmþés saga og Ölvis</title>
+                     <title type="parallel">Hjálmþérs saga og Ölvers </title>
+                     <!--                     <textLang mainLang=""/>-->
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="61r:20" to="73v"/>
+                     <title type="uniform">Bandamanna saga</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="74r" to="109v:20"/>
+                     <title type="uniform">Adónías saga</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="109v:21" to="136v:13"/>
+                     <title type="uniform">Bevers saga</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="8" class="unknown">
+                     <locus from="136v:14" to="145v"/>
+                     <title type="uniform">Gibbons saga</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="146r" to="157r"/>
+                     <title type="uniform">Partalópa saga</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="157v" to="161v"/>
+                     <title type="uniform">Ála flekks saga</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="11" class="isl">
+                     <locus from="162r" to="205v"/>
+                     <title type="uniform">Gísla saga Súrssonar</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="12" class="isl">
+                     <locus from="206r" to="232v"/>
+                     <title type="uniform">Harðar saga</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="233r" to="264r"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="14" class="isl">
+                     <locus from="265r" to="351r"/>
+                     <title type="uniform">Grettis saga</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="15" class="regist">
+                     <locus from="351v" to="351v"/>
+                     <title type="supplied">Table of Contents</title>
+                     <!--                     <textLang mainLang=""/>-->
+                  </msItem>
+                  <msItem n="16" class="ridd">
+                     <locus from="352r" to="384v"/>
+                     <title type="uniform">Mágus saga</title>
+                     <!--                     <textLang mainLang=""/>-->
+                     <colophon>Anno 166<gap reason="illegible"/>: þan<ex>n</ex> 12: Decembr.</colophon>
+                     <note>longer vers.</note>
+                  </msItem>
+                  <msItem n="17" class="hms?" defective="true">
+                     <locus from="385r" to="385v"/>
+                     <title type="supplied">Legends</title>
+                     <!--                     <textLang mainLang=""/>-->
+                     <rubric/>
+                     <incipit>þar w<ex>ar</ex> Ein<ex>n</ex> þien<ex>ar</ex>e Eitt sin<ex>n miog storleg</ex></incipit>
+                     <explicit>eilyfit: Memorare Navijdima(?) æ <gap reason="illegible"/></explicit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="385"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="195" atMost="212"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol later">
+                           <p/>
+                        </foliation>
+                        <condition ana="average">A few leaves heavily repaired</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21 45">
+                           <num type="wpl" atLeast="9" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                        </layout>
+
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="7">
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"><locus from="1r" to="38v">1r-38v</locus>, <locus from="74r" to="161v">74r-161v</locus>, <locus from="352r" to="384v">352r-184v</locus>, <locus from="385v" to="385v">385v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"><locus from="39r" to="40v">39r-40v</locus>, <locus from="385r" to="385r">385r</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"><locus from="41r" to="71r:1">41r-71r:1</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"><locus from="71r:2" to="73v">71r:2-73v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"><locus from="162r" to="205v">162r-205v</locus>, <locus from="233r" to="264v">233r-264v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"><locus from="206r" to="209r">206r-209r</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"><locus from="209v" to="232v">209v-232v</locus>,
+                        <locus from="265r" to="351v">265r-351v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">Underlined rubrics or rendered in red</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A smaller leaf with a table of contents is inserted in the front. On the back, there is the following note
+                        in pencil: <q>Ett pergamentblad, fragment ur bíbeln (eller Stjórn?) löstaget ur ryggen och lånadt åt Unger
+                           23 Sept. 1862 Sedan lagdt till fragmenterna</q>. Notes and names on different leaves, e.g. on fol.
+                           <locus>205v</locus>: <q>Helssen forsend med Eble och Nódder, Lammekiód smager Wel Paa alle Ródder.
+                           Jórgen Christopherssen Neindorff.</q>, <q>Jon Eggertsson M.E.H.</q> and <q>Hanss Wurmbrand</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Binding made of a single parchment leaf with Icelandic writing on it on the inside (both horizontally
+                           and vertically) In the outer corners of the front and back cover, a green band is attached, which was
+                           formerly used for closing the codex.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1674"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>In 1681, 
+                        <name key="GudOla001" type="person" role="owner">Guðmundur Ólafsson</name>  brought the manuscript to
+                        Sweden.</p>
+                     <name type="person" role="signatory" key="JonEgg001"/>
+                     <name type="organisation" role="owner" key="AntKol001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:56.541+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-01" who="#BES">quick prep. for library. still catalog info missing.</change>
+         <change when="2013-03-07" who="#BES">Measured and checked with the manuscript in situ.</change>
+         <change when="2013-04-02" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

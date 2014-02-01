@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 5</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-5" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="isl" defective="true">
+                     <locus from="1r" to="15r"/>
+                     <title type="uniform">Króka-Refs saga</title>
+                     <incipit>ad sid Veniu. Nu Lijda so stund<ex>ir</ex></incipit>
+                     <explicit>og Lukum ver hier Sogu KrokaReffs. Finis</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="kvad" defective="true">
+                     <locus from="15v" to="17r"/>
+                     <title type="supplied">Rémundar kvæði</title>
+                     <textLang mainLang="non"/>
+                     <note>end defective</note>
+                  </msItem>
+                  <msItem n="3" class="kvad isl">
+                     <locus from="17v" to="17v"/>
+                     <title type="uniform">Króka-Refs saga <note>[kvæði]</note></title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="18r" to="41v"/>
+                     <title type="uniform">Mágus saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="42r" to="54r:28"/>
+                     <title type="uniform">Víglundar saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="54r:29" to="66v:23"/>
+                     <title type="uniform">Blómsturvalla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="tjos almb?">
+                     <locus from="66v:24" to="102v:21"/>
+                     <title type="supplied">Flóres saga og Leó</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="102v:22" to="107v:20"/>
+                     <title type="uniform">Hrólfs þáttur skuggafífls</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="107v:21" to="112r"/>
+                     <title type="uniform">Ála flekks saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="112v" to="122r:14"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="122r:15" to="126v:14"/>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Derived from 
+                        <ref type="ms" target="#GKS04-2845-en" ana="protograph">GKS 2845 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="126v" to="131r"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="kon" defective="true">
+                     <locus from="131r:20" to="132v"/>
+                     <title type="uniform">Færeyinga saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="regis">
+                     <locus from="133r:1" to="133r:16"/>
+                     <title type="supplied">Table of contents</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="133"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="fol later">
+                           <p/>
+                        </foliation>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="28 30">
+                           <num type="wpl" atLeast="10" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="unknown" script="chancery" scope="minor"><locus from="1r" to="17v">1r-17v</locus>. Mixed script:
+                        chancery and kurrent</handNote>
+                     <handNote scribeRef="unknown" script="chancery" scope="major"><locus from="18r" to="131r:15">18r-131r:15</locus></handNote>
+                     <handNote scribeRef="unknown" script="chancery" scope="minor"><locus from="131r:15" to="132v">131r:15-132v</locus></handNote>
+                     <handNote scribeRef="unknown" script="chancery" scope="minor"><locus from="133r:1" to="133r:16">133r:1-133r:16</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <!-- needs elaboration -->
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="medium"><p>Slips with the title and the number are inserted at the beginning of sagas, starting
+                     with item 4. On the flyleaf, there are among others the following notes: <q>Fin<ex>n</ex>ur Jónsson
+                           med E. h.</q> (on the inside, must be later), <q>Gudmundur Magnusson med eigin hendi A<ex>nno</ex>
+                           Domini 1678 Calendas 30 Martij. Þessa ehr(?) hratr(?) fim(?) ....</q>
+                        <q>N=4o</q>. <q>Eiganda bokar bokar Oskara allra keilla firr og sid, M... Gud á Margan<ex>n</ex>
+                              man<ex>n</ex>[...] þan<ex>n</ex> [...] Christ[...] Lyd BC(?)</q>. in the back: <q>Gudmundur Olafsson
+                           Constant(?)</q> More writing inside back cover, faded. A large <q>50</q> on the outside of the
+                        front cover, traces of writing. </p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Parchment binding made out of a single folded piece. A smaller sheet of paper was once slipped 
+                           inside (now counted as flyleaves). The corners of the binding are sewn together with a leather
+                           thong.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1630" notAfter="1670"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name key="GudOla001" type="person" role="owner">Guðmundur Ólafsson</name> brought the manuscript with him to
+                        Sweden.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:55.508+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-01" who="#BES">quick prep. for library. still catalog info missing.</change>
+         <change when="2013-03-07" who="#BES">Measured and checked with the manuscript in situ.</change>
+         <change when="2013-03-26" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

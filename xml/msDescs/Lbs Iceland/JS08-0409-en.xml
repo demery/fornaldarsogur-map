@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 409 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0409-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 409 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <note>Two title pages; one contemporary, one later.</note>
+                     <titlePart>[Later (ffl1r):] Sögu-Safn. III</titlePart>
+                     <titlePart>Islendinga-Søgur. Seá næstu bls.</titlePart>
+                     <titlePart>med heni Sigurdar Manøusson<ex>ar</ex> á Holtum.</titlePart>
+								<titlePart>[Contemporary (1r):] Agiætar fornman<ex>n</ex>asøgur eru a þrick ut geingnar</titlePart>
+									<titlePart>Ad Forlagi h<ex>er</ex>r<ex>a</ex> vice. løgman<ex>n</ex>sins Biørns Marcus Sonar. </titlePart>
+								<titlePart>Þryckt<ex>ar</ex> a Hoolum<ex>m</ex> i Hialltadal af Halldore
+									EriKssyne ANNO MDCCLVI.</titlePart>
+								<titlePart>epter þui skrifadar An<ex>n</ex>o 1759 og 1760, af
+									Sigurde Magnússyne.</titlePart>
+							
+						</titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="1v" facs="#JS08-0409-0001v" to="1v"/>
+                     <title type="supplied">Table of Contents</title>
+                     <note>Additions in the hand of <name type="person" role="scribe" key="PalPal003">Páll stúdent Pállson</name></note>
+						   <note>Title page on fol. <locus>1r</locus></note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="formal">
+                     <locus from="2r" facs="#JS08-0409-0002r" to="2r"/>
+                     <author key="BjoMar001">Björn Markússon</author>
+                     <title type="supplied">Prologue</title>
+                     <rubric>Til góðfúss lesara</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="2v" facs="#JS08-0409-0002v" to="4v"/>
+                     <title key="supplied">Verses</title>
+                     <rubric>Nokkur ljóðmæli, sem skulu sýna göfugleik ættar vorrar
+                        Íslendinga, hvörn fornaldarmanna æfi, og atgjörvis sögur, oss fyrir
+                        sjónir leiða, hvar til þær eru látnar á prent útganga</rubric>
+                     <colophon>7. feb. 1760 (<locus from="4v" facs="#JS08-0409-0004v" to="4v">4v</locus>)</colophon>
+                     <incipit>Hauk Fjölnis læt eg leika</incipit>
+                     <note>16 stanzas</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="5r" facs="#JS08-0409-0005r" to="28v"/>
+                     <title type="uniform">Kjalnesinga saga</title>
+                     <rubric>Hér byrjast Kjalnesinga saga eður af Búa Andríðssyni</rubric>
+                     <colophon>Enduð þann 12. janúarii anno 1760 af S[igurði] M[agnús]s[yni]
+                        (<locus from="28v" facs="#JS08-0409-0028v" to="28v">28v)
+                        </locus></colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="annal">
+                     <locus from="28v" facs="#JS08-0409-0028v" to="28v"/>
+                     <title type="supplied">Annáll</title>
+                     <rubric>Lítill annáll</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="islt">
+                     <locus from="29r" facs="#JS08-0409-0029r" to="36v"/>
+                     <title type="uniform">Jökuls þáttur Búasonar</title>
+                     <rubric>Hér byrjar þáttinn af Jökli syni Búa Andríðarsonar</rubric>
+                     <colophon>Endaður þann 17. febrúarii anno 1759 á Vík í Lóni S[igurður]
+                        M[agnús]s[on] (<locus from="36v" facs="#JS08-0409-0036v" to="36v">36v</locus>) </colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="isl">
+                     <locus from="37r" facs="#JS08-0409-0037r" to="62r"/>
+                     <title type="uniform">Víglundar saga</title>
+                     <rubric>Saga af Þorgrími prúða og Víglundi syni hans</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="isl">
+                     <locus from="62r" facs="#JS08-0409-0062r" to="68r"/>
+                     <title type="uniform">Ölkofra þáttur</title>
+                     <rubric>Þáttur af Ölkofra</rubric>
+                     <colophon> Endað á Vík í Lóni þann 8. feb. 1759 af S[igurði]
+                        M[agnús]s[yni] (<locus from="68r" facs="#JS08-0409-0068r" to="68r">68r</locus>) </colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="69r" facs="#JS08-0409-0069r" to="100v"/>
+                     <title type="uniform">Þórðar saga hreðu</title>
+                     <rubric>Sagan byrjast af Þórð hreðu</rubric>
+                     <colophon>Endað þann 17. febrúarii anno 17[5]9 á Vík. S[igurður
+                        Magnússon]</colophon>
+                     <note>At the end, written by a different hand: <q>Endað á Vík í Lóni</q>
+                        (<locus from="100v" facs="#JS08-0409-0100v" to="100v">100v</locus>) </note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="isl" defective="true">
+                     <locus from="101r" facs="#JS08-0409-0101r" to="122v"/>
+                     <title type="uniform">Króka-Refs saga</title>
+                     <rubric>Hér byrjast lífsaga hins kynduga Króka-Refs hver eð inniheldur
+                        alla hans frægð og mannlega gjörninga, hagleik, visku og
+                        hróðrarsmíði, samsett af fróðum fræðimönnum</rubric>
+                     <note>Ending missing.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="125r" facs="#JS08-0409-0125r" to="143v"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <rubric>Hér byrjar sögu af Herrauð og Bósa Brimþvarasyni</rubric>
+                     <colophon>Endað á Holtum þann 4. septembris 1773 af S[igurði]
+                        M[agnús]syni (<locus from="143v" facs="#JS08-0409-0143v" to="143v">143v</locus>) </colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="144r" facs="#JS08-0409-0144r" to="151r"/>
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <rubric>Hér byrjast saga af Sigurði fót og Ásmundi Húnakóngi</rubric>
+                     <colophon> Endað á Holtum þann 8. septembris 1773 af S[igurði]
+                        M[agnús]syni (<locus from="151r" facs="#JS08-0409-0151r" to="151r">151r</locus>) </colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="151"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="149"/>
+                              <width unit="mm" quantity="98"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag">
+									<p>1-48 (<locus>5r-28v</locus>), 1-16 (<locus>29r-36v</locus>), 1-50
+										(<locus>37r-61v</locus>), 1-13 (<locus>62r-68r</locus>), 16-64 (<locus>76r-100v</locus>), 1-38
+										(<locus>125r-143v</locus>), 1-15 (<locus>144r-151r</locus>). </p>
+							      <p>Traces of old pagination: 1-39 (<locus>101r-119r</locus>)</p>
+								</foliation>
+                        <condition ana="good">
+									<p>Blank insertion leaves <locus>123-124</locus> where there is a gap in the manuscript. Text pasted over on fols.
+									   <locus>117, 119, 122r</locus>. Fol. <locus>92</locus> has been trimmed down. Fols. <locus>109-116</locus> bound in the
+									  wrong order. Correct order: 109, 115, 111,
+										112, 113, 114, 110, 116</p>
+								</condition>
+                     </supportDesc>
+							<layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="27 31">
+                           <num type="wpl" atLeast="6" atMost="12"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#SigMag005" scope="sole" script="unknown">
+                        <!--<name type="person" key="SigMag005">Sigurður Magnússon</name> í
+									<placeName>Holtum</placeName>-->
+                     </handNote>
+						</handDesc>
+                  <decoDesc ana="medium">
+							<decoNote type="paratext">Coloured title page, red and yellow
+									<locus from="1r" facs="#JS08-0409-0001r" to="1r">1r</locus> 
+                     </decoNote>
+							<decoNote type="initial">Coloured title and beginning, red and yellow <locus from="5r" facs="#JS08-0409-0005r" to="5r">5r</locus>,
+									<locus from="125r" facs="#JS08-0409-0125r" to="125r">125r</locus> 
+                     </decoNote>
+							<decoNote type="initial">Coloured title and beginning, red
+									<locus from="101r" facs="#JS08-0409-0101r" to="101r">101r</locus> 
+                     </decoNote>
+							<decoNote type="initial">Decorated title and coloured beginning, 
+								red <locus from="37r" facs="#JS08-0409-0037r" to="37r">37r</locus> 
+                     </decoNote>
+							<decoNote>Decorated title and beginning <locus from="29r" facs="#JS08-0409-0029r" to="29r">29r</locus>, <locus from="62r" facs="#JS08-0409-0062r" to="62r">62r</locus>,
+									<locus from="69r" facs="#JS08-0409-0069r" to="69r">69r</locus>, <locus from="144r" facs="#JS08-0409-0144r" to="144r">144r</locus> 
+                     </decoNote>
+							<decoNote type="initial">Initials decorated throughout</decoNote>
+							<decoNote type="vignette" subtype="tailpiece">Knotwork <locus from="4v" facs="#JS08-0409-0004v" to="4v">4v</locus>, <locus from="28v" facs="#JS08-0409-0028v" to="28v">28v</locus></decoNote>
+						</decoDesc>
+                  <additions ana="low">
+							<p>Below the decoration on the contemporary title page there is a later addition: <q>á Vík í Lóni þá 40 ára gömlum</q></p><!-- ? -->
+							<p>Later title page on front flyleaf <locus from="ffl1r" facs="#JS08-0409-0001r" to="ffl1r">ffl1r</locus> 
+							   and table of contents on <locus>1v</locus> are written by <name type="person" role="scribe" key="PalPal003">Páll the student</name>. </p>
+							<p>Squiggles on fol. <locus from="68v" facs="#JS08-0409-0068v" to="68v">68v</locus>.</p>
+                     <p>Some autographs (see provenance)</p>
+						</additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate from="1759" to="1773"/>
+                     <origPlace key="IS"/>
+							<p> Uppskrift eftir Ágætar fornmanna sögur Agiætar Fornmanna Sögur,
+								Hoolum i Hialltadal : [s.n.], 1756</p>
+						</origin>
+                  <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     
+							<p>From <name type="person" role="owner" key="JonArn002">Jón Árnason</name>'s the book-keeper's collection. 
+								</p>
+							<p>Owner <name type="person" role="owner" key="GudSig005">Guðlaug
+									Sigurðardóttir</name>'s name on fol. <locus from="143v" facs="#JS08-0409-0143v" to="143v">143v</locus>. </p>
+							<note>3rd volume in a 5 volume collection: <ref target="JS 08-407" type="ms">JS
+									407 8vo</ref> - <ref target="JS08-411">JS 411 8vo</ref>.</note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:25.954+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:31.844+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:49.978+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:18:24.859+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2012-09-13" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <!-- missing information on layout dimensions -->
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

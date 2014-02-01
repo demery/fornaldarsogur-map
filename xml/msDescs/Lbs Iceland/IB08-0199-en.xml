@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 199 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0199-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 199 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="20v"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <note>Last two pages fragmentary.</note>
+                  </msItem>
+                  <msItem n="2" class="draumkv">
+                     <locus from="accMat1v" to="accMat1v"/>
+                     <title type="supplied">Draumvísa</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Draumvísa Péturs Ásmundssonar frá Hólum í Hornafirði 1775</rubric>
+                     <note>Added at the end in a younger hand (from ca. 1850).</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="20"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="103"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="contemporary fol"/>
+                        <condition ana="poor">In better condition after extensive repair. Many leaves were heavily damaged,
+                           especially near the back of the manuscript. Some text is lost.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="30 31">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="135"/>
+                              <width unit="mm" quantity="78"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#SigMag005" scope="major" script="kurrent">Sigurður Magnússon í
+                     Holtum wrote mostly in kurrent. The rubric and parts of the text are in chancery fractura.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"><locus>AccMat1</locus> in a hand from ca. 1850</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Saga title richly decorated with foliated border.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>At the end of the manuscript, in younger hand, is a Dream in verse from 1775 on a trimmed leaf (accMat1).</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1776" to="1850"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                 <!-- <provenance></provenance>-->
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:51:54.444+02:00" who="#EAH"> Introduced repository auth file.Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-03" who="#SK">Added information from the P.E.Ó.-catalogue and other sources</change>
+         <change when="2013-07-22" who="#SMM">Completed cataloguing.</change>
+         <change when="2013-08-19" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Kall 612 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Kall04-0612-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Kall 612 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" to="214r:4"/>
+                     <title type="uniform">Njáls saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="kvad">
+                     <locus from="214r:5" to="214v:4"/>
+                     <title type="supplied">Verses</title>
+                     <textLang mainLang="is"/>
+                     <note>6 verses</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="216r" to="238r"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="238v" to="265v"/>
+                     <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="268r" to="311v"/>
+                     <title type="uniform">Ectors saga</title>
+                     <textLang mainLang="non"/>
+                  <msItem n="5.1" class="kvad">
+                     <locus from="311v:7" to="311v:8"/>
+                     <title type="supplied">Verse</title>
+                     <textLang mainLang="non"/>
+                     <note>1 verse</note>
+                  </msItem>
+                     <colophon>Er nü þesse saga Endud og miög Illa skrifud ad Eyre vid Seidisfiörd
+                     þan<ex>n</ex> 6. Februarj An<ex>n</ex>o 1753</colophon>
+                  </msItem>
+                
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="311"/>
+                           <num type="back-flyleaf" value="1">Former pastdown is now a flyleaf.</num>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="198"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           <watermark ana="yes">Difficult to see</watermark>
+                        </support>
+                        <foliation ana="later fol">Foliation on every tenth page</foliation>
+                        <condition ana="average">on the border of being poor; the binding is in a rough state and some of the
+                           leaves been partially eaten through.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="22 24">
+                           <num type="wpl" atLeast="7" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Larger and ornamented initials and decorated rubrics</decoNote>
+                     <decoNote type="border">Small decorations at the end of the sagas</decoNote>
+                     <decoNote type="paratext">Squiggles and lines</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>Later table of contents added on second front flyleaf.</p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Brown embossed leather on thick wooden bords. Two decorated metal clasps.
+                        The binding used to be padded with letters to Olafur Jónsson. Now the leaves are loose and are counted as flyleaves.</p>
+                     </binding>
+                  </bindingDesc>              
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1753"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JohKal001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:34.872+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-04-25" who="#BES">Added information from catalog.</change>
+         <change when="2013-06-07" who="#BES">Added missing information with manscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

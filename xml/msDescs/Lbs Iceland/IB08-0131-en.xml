@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 131 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0131-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 131 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="8v"/>
+                     <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="9r" to="16v"/>
+                     <title type="uniform">Eiríks rímur víðförla</title>
+                     <author>Guðmundur Bergþórsson</author>
+                     <textLang mainLang="is"/>
+                     <note>Only a part</note>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="17r" to="54v:15"/>
+                     <title type="uniform">Úlfars saga sterka</title>
+                     <colophon>endud á Hnappa Völlum þann 18 December 1833 af Gudm<ex>unds</ex> sine</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="rimur">
+                     <locus from="54v:16" to="56v"/>
+                     <title type="uniform">Tístrans rímur og Indíönu</title>
+                     <title type="uniform">Tristans rímur og Indíönu</title>
+                     <author>Sigurður Breiðfjörð</author>
+                     <textLang mainLang="non"/>
+                     <note>Only a part</note>
+                  </msItem>
+                  <msItem n="5" class="kvad">
+                     <locus from="57r" to="61v"/>
+                     <title type="supplied">Þjófsbragur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="kvad">
+                     <locus from="62r" to="62v"/>
+                     <title type="supplied">Roðhattskvæði</title>
+                     <author>Þorsteinn Jónsson prestur á Dvergasteini</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="kvad">
+                     <locus from="63r" to="64v"/>
+                     <title type="supplied">Different poems (mostly unidentified)</title>
+                     <incipit>Hvör wid buast illu á eg þad gada skadar</incipit>
+                     <explicit>godr gud goggi þig alt er skaprir(?)</explicit>
+                     <colophon>tantum Gudmundur Sveinsson</colophon>
+                     <textLang mainLang="is"/>
+                     <note><title>Jóabragur</title> starts on fol. <locus>63v:4</locus></note>
+                  </msItem>
+                  <msItem n="8" class="fas" defective="true">
+                     <locus from="65r" to="79v"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Ends defective</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="78"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="168"/>
+                              <width unit="mm" quantity="102"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol later">In pencil</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 35">
+                           <num type="wpl" atLeast="6" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="145" atMost="150"/>
+                              <width unit="mm" atLeast="87" atMost="92"/>
+                           </dimensions>
+                           <catchwords ana="yes">Infrequent</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#GudGud015" scope="major" script="unknown">Guðmundur Guðmundsson á
+                        Hnappavöllum </handNote>
+                     <handNote scribeRef="#ambig" scope="minor" script="unknown">Guðmundur Sveinsson </handNote> <!--
+                        previously marked as #GudSve010?; not in our authority nor on handrit.is -->
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some initials are slightly decorated</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A later hand added numbers for some stanzas in the margins.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Leather cover (152mm x 115mm x 20mm)</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1813" notAfter="1853"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:53.255+02:00" who="#EAH"> Introduced repository auth file.
+         Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-03" who="#SK">Put in items and class and other information from the P.E.Ó.-catalogue</change>
+         <change when="2013-02" who="#SK">added information from catloguing on handrit.is and other sources</change>
+         <change when="2013-08-14" who="#BES">Proofread. Added more information based on pictures on handrit.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

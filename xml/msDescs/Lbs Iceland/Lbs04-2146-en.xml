@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2146 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-2146-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2146 4to</idno>
+               </msIdentifier>
+               <msContents>
+                 <!-- <titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="ridd">
+                     <locus from="1r:1" to="47v:23"/>
+                     <title type="uniform">Rémundar saga keisarasonar</title> 
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biriar sógú af Remunde Rigards Sÿne</rubric>
+                     <colophon>Endud 22 Marti Annö 1743 Jón Steingrymsson</colophon>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="48r:1" to="76v:12"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title> 
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biriar søgú af Eigle Einhendta og Äsmúnde Bersekia Bana</rubric>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="77r:1" to="89r:25"/>
+                     <title type="uniform">Úlfs saga Uggasonar</title> 
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biriast Sagan<ex>n</ex> af Ulfe Ugga sine</rubric>
+                     <colophon>Jón Steingrymsson skrifade a Janúari 1743</colophon>
+                  </msItem>
+                  <msItem n="4" class="almb">
+                     <locus from="89v:1" to="108v:27"/>
+                     <title type="supplied">Esópus og Santus</title> 
+                     <textLang mainLang="is"/>
+                     <rubric>Hier biriast sagan<ex>n</ex> af þ<ex>ei</ex>m Esópús og Säntús</rubric>
+                     <!-- Class? -->
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="109r:1" to="126r:24"/>
+                     <title type="uniform">Partalópa saga og Marmoríu</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biriast sagan<ex>n</ex> af Partalopa og Marmorija</rubric>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="126r:25" to="133r:13"/>
+                     <title type="uniform">Rémundar saga og Melissínu</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier skrifast æfin<ex>n</ex>tyrid af Riemunde of Melúcena</rubric>
+                  </msItem>
+                  <msItem n="7" class="avint">
+                     <locus from="133r:14" to="135v:15"/>
+                     <title type="supplied">Ævintýr konungssonar, jarlssonar og hertogasonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Lütid æfinntürs korn Til gamans</rubric>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="136r:1" to="144v:16"/>
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <title type="uniform">Sigurðar saga fóts Ásmundar húnakonungs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier skrifast sagan<ex>n</ex> af Sigúrde föt og asmúnde hüna könge</rubric>
+                     <colophon>En<ex>n</ex>dúd þan<ex>n</ex> 25 Deccemrj An<ex>n</ex>o 1743 Jon Steingrijmsson</colophon>
+                  </msItem>
+                  <msItem n="9" class="regist">
+                     <locus from="144v:17" to="144v:27"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Registur Kuersin<ex>n</ex>s</rubric>
+                  </msItem>
+                  <msItem n="10" class="kvad laus">
+                     <locus from="145r:1" to="145r:19"/>
+                     <title type="supplied">A short poem</title>
+                     <textLang mainLang="is"/>
+                     <rubric>VJSA</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="137"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="187"/>
+                              <width unit="mm" quantity="147"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="26 28">
+                           <num type="wpl" atLeast="8" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="174"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonTho057" scope="sole" script="chancery">Jón Þorsteinsson á Lækjarbakka</handNote>
+                     <!-- Jón Þorsteinsson is listed in the PEÓ catalogue, but in the manuscript itself, it says Jón Steingrímsson. -->
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Lightly decorated initials here and there</decoNote>
+                     <decoNote type="illustration">A drawing of flowers on <locus>76v</locus>.</decoNote>
+                     <decoNote type="illustration">A drawing of dragons, people, birds, a ship and other things
+                        on <locus>145v</locus>.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Leather binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key=""/><!-- IS? -->
+                     <origDate when="1743"/>
+                  </origin>
+                 <!-- <provenance></provenance>-->
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:04.975+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-22" who="#SK">Added information from the P.E.Ó.-catalogue and other sources</change>
+         <change when="2013-06-12" who="#SMM">Looked at pictures from the Arnamagnæan collection in Copenhagen. Provided new msItems and other msDesc values.</change>
+         <change when="2013-08-30" who="#BES">Proofread as far as possible.</change>
+         <change when="2013-09-20" who="#OHA">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

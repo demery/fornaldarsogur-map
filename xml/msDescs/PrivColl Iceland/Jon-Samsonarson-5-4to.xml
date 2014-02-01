@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Jón Samsonarson (4-brot)</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Jon-Samsonarson-5-4to" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#PRIV1">Private collections</repository>
+                  <idno>Jón Samsonarson 5 4to</idno>
+               </msIdentifier>
+               <physDesc>
+              <!-- <bindingDesc>
+                  <binding ana="" contemporary=""/>
+               </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1872"/>
+                     <origPlace key="IS">Hvítadal</origPlace>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSam001"/>
+                  </provenance>
+               </history>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>Jón Samsonarson 5 4to I</idno>
+                  </altIdentifier>
+               <msContents>
+                  <!-- title page? -->
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="14v">pp. 1-28</locus>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <!--<num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="14"/>
+                              <!--<num type="back-flyleaf" value=""/>-->
+                             <!-- <dimensions type="leaf">
+                                 <height unit="mm"/>
+                                 <width unit="mm"/>
+                              </dimensions>-->
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="pag contemporary">
+                              <p>Paginated 1-28</p>
+                           </foliation>
+                         <!--  <condition ana=""></condition>--> <!-- check -->
+                        </supportDesc>
+                        <!--  <layoutDesc>
+                          <layout ana="" columns="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudStu001" scope="sole" script="unknown">Guðbrandur Sturlaugsson í Hvítadal</handNote>
+                     </handDesc>
+                    <!-- <decoDesc ana=""> 
+                        <decoNote></decoNote>
+                     </decoDesc>-->
+                     <additions ana="low">
+                        <p>Comment on fol. <locus>14v</locus>:
+                           <q>Þetta er stórfeinglegur Söguþáttur og eigi sem trúligastur 
+                           Guðbrandur Sturlaugsson.</q></p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Jón Samsonarson 5 4to II</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem n="1" class="ilst konth?">
+                     <locus from="1r" to="92v">pp. 1-184[printed]</locus>
+                     <title type="supplied">Several þættir</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nokkrir margfróðir söguþættir</rubric>
+                     <note>Printed pages 1-184 of originally 188 pages; probably from Björn Markússon's
+                     Nokkrir marg-fróðir söguþættir Islendinga (Hóluar 1756)</note>
+                     <!-- slip up into separate items for each þáttur -->
+                  </msItem>
+                     <msItem n="2" class="islt">
+                        <locus from="93r" to="96r">pp. 185-191</locus>
+                        <title type="uniform">Jökuls þáttur Búasonar</title>
+                        <textLang mainLang="non"/>
+                        <colophon>Hvítadal 22 Marts 1890</colophon>
+                        <note>Handwritten text of the last þáttur.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <!--<num type="front-flyleaf" value=""/> -->
+                              <num type="book-block" value="96"/>
+                             <!-- <num type="back-flyleaf" value=""/>-->
+                              <!--<dimensions type="leaf">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="pag contemporary">
+                              <p>Paginated 1-191</p>
+                           </foliation>
+                          <!-- <condition ana=""/> -->
+                        </supportDesc>
+                        <!--<layoutDesc>
+                           <layout ana="" columns="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudStu001" scope="minor" script="unknown">Guðbrandur Sturlaugsson í Hvítadal wrote the handwritten pages.</handNote>
+                     </handDesc>
+                    <!-- <decoDesc ana=""> 
+                        <decoNote/>
+                     </decoDesc>-->
+                     <additions ana="medium">
+                        <p>Comments by the scribe. On fol. <locus>96r</locus>, he writes:
+                           <q>Þessi sögur þáttur er auðsjáanlega Skröksaga eins og Kjalnesinga sögur allar til samans allómerkiligar,
+                           af litlu mannviti saman settar</q>, and on fol. <locus>96v</locus>, there are verses.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Jón Samsonarson 5 4to III</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem n="1" class="forns">
+                     <locus from="1r" to="24v">pp. 1-48</locus>
+                     <title type="uniform">Þorsteins saga Geirnefjufóstra</title>
+                     <textLang mainLang="is"/>
+                     <colophon>Hvítadal 21 Martsi 1890</colophon>
+                  </msItem>
+               </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                             <!-- <num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="24"/>
+                              <!--<num type="back-flyleaf" value=""/>-->
+                              <!--<dimensions type="leaf">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="pag contemporary">
+                              <p>Paginated 1-48</p>
+                           </foliation>
+                           <!--<condition ana=""/> -->
+                        </supportDesc>
+                       <!-- <layoutDesc>
+                           <layout ana="" columns="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2013-07-24" who="#BES">Created file and cataloged as far as possible based on Einar G. Pétursson's notes.</change>
+         <change when="2013-09-12" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

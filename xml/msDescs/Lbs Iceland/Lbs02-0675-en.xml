@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 675 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs02-0675-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 675 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                        <titlePart> Sagnaflokkur útlenskra þjóða, forkunnar fróðligur af
+                           ýmislegum annara landa þjóðum, framandi keisurum, kóngum, greifum,
+                           hertogum, jörlum, riddurum, junkærum, herrum, höfðingjum, hetjum, köppum;
+                           merkilegum, maktar og mikilsháttar mönnum, er áður á fyrri öldum
+                           aðskiljanlegar hálfur heimsins byggt hafa. Innihaldandi þeitta ættslóðir
+                           og uppruna, blómlegan bráðþroska, vísóm og riddaralegar í þróttir, í
+                           útreiðum, bóknámi, einvígum, áræði og átektum ýmsra kóngaríkja er þeir
+                           með ofsa og orustum undir sig lögðu.</titlePart>
+                        <titlePart> Samanhendtur eftir aðföngum þeim til fróðleiks og
+                           skemmtunar er þessháttar for[nar] frásögur heyra vilja.</titlePart>
+                     
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="Ffl2v" to="Ffl2v"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <rubric>Þessar eftirskrifaðar sögur finnast á þessari bók, hvörja Þorsteinn
+                        Eyjólfsson á Háeyri lét binda. En hana á göfug matróna Elen Hákonardóttir á
+                        Látrum við Mjóafjörð</rubric>
+                     <note>More items are named than those in the manuscript, such as: Mágus
+                        saga jarls, Flóvents saga (Frakkakonungs), Þorsteins saga Víkingssonar,
+                        Hektors saga (og kappa hans), Gautreks saga og Gjafa-Refs? (Gauta saga kóngs
+                        hins milda), Hrólfs saga Gautrekssonar, Þórðar saga hreðu</note>
+                     <note>With the exception of Trójumannasaga, the contents are the same as in AM 152 fol.</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="1r" facs="#Lbs02-0675-0001r" to="67r">1r-67r</locus>
+                     <title type="uniform">Grettis saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="sagnps isl" defective="true">
+                     <locus from="68r" facs="#Lbs02-0675-0068r" to="126r">68r-126r</locus>
+                     <title type="uniform">Trójumanna saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3.1" class="drott kvad">
+                     <locus from="126r" facs="#Lbs02-0675-0126r" to="126r">126r</locus>
+                     <title type="supplied">Þrjár dróttkvæðar vísur</title>
+                     <incipit>Þ(?)akkir af görpum Grikkja/á grund féllu átta hundruð/ ... </incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd" defective="true">
+                     <locus from="127r" facs="#Lbs02-0675-0127r" to="156v">127r-156v</locus>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <note>Missing the beginning</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas" defective="true">
+                     <locus from="157r" facs="#Lbs02-0675-0157r" to="189v">157r-189v</locus>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <rubric>Hér byrjast sagan af Hrólfi Sturlaugssyni er kallaður var Göngu
+                        Hrólfur</rubric>
+                     <note>Missing the end</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="189"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="276"/>
+                              <width unit="mm" quantity="185"/>
+                           </dimensions>
+                           <watermark ana="unknown">Most likely</watermark>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor">
+                           <p>There is a lacuna in the manuscript between folios
+                              <locus from="125r" facs="#Lbs02-0675-0125r" to="126v">125-126</locus>
+                              and <locus from="126r" facs="#Lbs02-0675-0126r" to="127v">126-127</locus>
+                              and at least one leaf missing from Göngu-Hrólfs saga after folio <locus from="189r" facs="#Lbs02-0675-0189r" to="189v">189</locus> and a lot
+                              after that from the original manuscript. The manuscript is a part of a pre-existing larger manuscript, it would
+                           seem, and some of it is in rather poor condition, with sporadic 
+                           lacunae. The text is easily legible.</p></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="32 38">
+                           <num type="wpl" atLeast="13" atMost="15"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="paratext" subtype="title-page">A decorated titlepage in
+                        red</decoNote>
+                     <decoNote type="initial">Decorated initials and headings</decoNote>
+                     <decoNote type="vignette" subtype="tail-piece"><locus from="67r" facs="#Lbs02-0675-0067r" to="67r">67r</locus>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>The titlepage is in a different hand and was produced at the time of binding<locus from="0001r-FFl" facs="#Lbs02-0675-0001r-FFl" to="0001r-FFl"> 1r</locus>
+                     </p>
+                     <p>Both front-flyleaves are in the same hand. Ffl1v with a title-page and
+                        Ffl2r with a table of contents that accounts for a number of stories that are no
+                        longer part of this manuscript, ending on Ffl2v</p>
+                     <p>Bound up with the manuscript there are 7 folios of print
+                        from a bible, Steinsbiblía, printed at Hólar in Hjaltadal 1728</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                     <p/></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1651" to="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="EliHak001">Elín
+                        Hákonardóttir</name> (front flyleaf <locus from="0002v-FFl" facs="#Lbs02-0675-0002v-FFl" to="0002v-FFl">2v</locus>), <name type="person" role="owner" key="BjaEin003">Bjarni Einarsson</name> á Haga (<locus from="67v" facs="#Lbs02-0675-0067v" to="67v">67v</locus>)</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:30.779+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:41.516+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:59.31+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2012-12-19" who="#SK">Adapted to FASNL and added some information from the digitized version on handrit.is and other soures  </change>
+      <!-- Lacking size of written area in layout desc. and checking on the watermark -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

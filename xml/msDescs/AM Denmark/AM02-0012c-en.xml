@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 12 c fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0012c-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 12 c fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem class="fas" n="1">
+                     <locus from="1r" to="15v"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>HER BIRIAST SAGan<ex>n</ex> af Hrölfi Kongi Króku</rubric>
+                     <incipit>Madur er nefnd<ex>r</ex> Hälfdän, en<ex>n</ex> an<ex>n</ex><ex>ar</ex> Fröde, þ<ex>ei</ex>r
+                           v<ex>or</ex>u bb<ex>ræd</ex><ex>r</ex>
+                        <ex>og</ex> könga s<ex>yner</ex>
+                        <ex>og</ex> stÿrdú synu r<ex>ike</ex> hv<ex>or</ex> þ<ex>eir</ex>ra</incipit>
+                     <explicit><ex>og</ex> nock<ex>rum</ex> vopn hiá hv<ex>or</ex>jum o<ex>g</ex> Endar her Sogu hr<ex>olfs</ex>
+                           k<ex>ongs</ex> kraka <ex>og</ex> kappa h<ex>an</ex>z.</explicit>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0109a-II-is" ana="protograph">Derived from AM 109a II 8vo, but probably not
+                           an exact copy of it.</ref></filiation>
+                     <note>Used to be part of a larger book.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="15"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>The first flyleaf is part of the binding, whereas the second
+                              is glued to fol. 8, which is the last fol. in the first gathering.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="280"/>
+                              <width unit="mm" quantity="183"/>
+                           </dimensions>
+                           <watermark ana="yes"> possibly two different watermarks. In the <locus from="1r" to="8v">first
+                                 gathering</locus>, some characters, i.e. letters or numbers can be traced. In the <locus from="9r" to="15">second gathering</locus> there is large, circular shaped watermark with
+                              ornaments on top, writing inside the two-lined frame and a figure or ornament at the
+                              centre.</watermark>
+                           <note>The leaves all have a small, circular hole in the same place.</note>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Traces of red ink foliation by <name type="person" key="KriKaa001">Kålund</name> in the upper right
+                              hand corner. Recent foliation in pencil in the upper right hand corner. Foliation in dark black ink
+                              in the lower right hand corner: <q>100</q> on fol. <locus from="1r" to="1r">1r</locus> and
+                                 <q>114</q> on fol. <locus from="15r" to="15r">15r</locus>.</p>
+                        </foliation>
+                        <condition ana="good">The manuscript is in excellent condition</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="34 45">
+                           <num type="wpl" atLeast="15" atMost="23"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="250"/>
+                              <width unit="mm" quantity="146"/>
+                           </dimensions>
+                           <catchwords ana="no">There are no catchwords, with the exception of <locus>3r</locus>.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoTho003" scope="sole" script="semihybrida"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">
+                        <p>Large ornamental <q>M</q> on fol. <locus from="1r" to="1r"/> reaching over one third of height and half
+                           or the width of the written area. It consists of two faces, one below the other, surrounded by five
+                           circle-shaped flower ornaments. The upper head is half human, but has animal ears. The lower face is
+                           human, presumably a warrior. The animal face is probably Hrolf's champion Biarki, who takes on the
+                           shape of a bear in the story. The face below is either Biarki in his human shape or his fellow champion
+                           Hialti. The lower face may also represent king Hrolf, but it is unlikely considering his lower position
+                           on the image.</p>
+                     </decoNote>
+                     <decoNote type="paratext">There is a rather large, flat, curly ornament at the end of the text.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Some words are marked with a horizontal or vertical line in the border, sometimes also underlined in the
+                        text. The marks are in brown ink, probably of an older date. The interest seems to be philological, the
+                        text may even have been collated with other exemplars. Some of the underlines words are: <list type="simple">
+                           <item>
+                              <q>vidrudu</q>, <locus>1r</locus>
+                           </item>
+                           <item>
+                              <q>geizlunga</q>, <locus>1r</locus>
+                           </item>
+                           <item>
+                              <q>sk<ex>al</ex> e<ex>g</ex>i m<ex>ed</ex> lausleyti</q>, <locus>1v</locus>
+                           </item>
+                           <item>
+                              <q>skotta</q>, <locus>1r</locus>
+                           </item>
+                        </list> A strip of paper containing erased writing is glued to the binding at the back.</p>
+                        
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Brown leather binding with ornamental flower frames and two clasps that have been lost; remains
+                           of copper nails are visible. The date <date>1705</date> flipped vertical is part of the
+                           binding imprint and appears at several places. The spine has been changed, perhaps when the binding was
+                           reused. The binding is lined with thick paper with <watermark ana="yes">a watermark of a postal horn and
+                              a royal crown. "De Erven Dk. Blauw"</watermark> The binding dimensions are: <height>295</height> x
+                           <width>195</width> x
+                           <depth>15</depth> mm.
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <!--  It is possible that the manuscript may have been part of a
+                        larger codex. Other manuscripts that may have been connected to the codex are
+                        folios: <ref type="ms" target="#AM02-0159-en">AM 159 fol.</ref>, 
+                        <ref type="ms" target="#AM02-163-f-en">AM 163f fol.</ref>, 
+                        <ref type="ms" target="#AM02-163-g-en">AM 163g fol.</ref>, 
+                        <ref type="ms" target="#AM02-163-s-en">AM 163s fol.</ref>, 
+                        <ref type="ms" target="#AM02-0164-e-β-en">AM 154e β</ref>, 
+                        <ref type="ms" target="#AM02-0176b-en">AM 176b fol.</ref>, 
+                        <ref type="ms" target="#AM02-0181-m-en">AM 181m fol.</ref>, 
+                        <ref type="ms" target="#AM02-0183-en">AM 183 fol.</ref>, 
+                        <ref type="ms" target="#AM02-0202-e-en">AM 202e fol.</ref>, 
+                        <ref type="ms" target="#AM02-0202-i-β-en">AM 202i β fol.</ref> 
+                        Each of the manuscripts <ref type="ms" target="#AM02-0159-en">AM 159 fol.</ref>, 
+                        <ref type="ms" target="#AM02-163-f-en">AM 163f fol.</ref>, 
+                        <ref type="ms" target="#AM02-163-g-en">AM 163g fol.</ref>, 
+                        <ref type="ms" target="#AM02-0176b-en">AM 176b fol.</ref> 
+                        contains the statement originating from <name type="person" key="ArnMag001">Árni Magnússon</name> that
+                        it is from a book that he got from rev. <name type="person" key="GudJon009">Guðmundur Jónsson</name> of 
+                        <name type="place" key="HelHel01">Helgafell</name> (<bibl>Slay, <ref type="secondary" target="BiblArn24">The
+                           manuscripts of Hrólfs saga kraka</ref> -->
+                  </origin>
+                  <provenance>
+                     <p>The original codex was owned by rev. <name type="person" role="owner" key="GudJon009">Guðmundur
+                           Jónsson</name> of <name type="place" key="HelHel01">Helgafell</name>, who then handed it over to <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:46.09+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:03.446+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:28.291+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2013-08-16" who="#JSL">Proofread certain elements. MS was presumably cataloged some time earlier in 2013.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

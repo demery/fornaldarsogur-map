@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 1 e β I fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0001e-beta-I-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 1 e β I fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r:1" to="6v:30">1r-6v</locus>
+                     <title type="uniform" ref="#snfdsv">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                     <title type="parallel">Skjöldunga saga</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="1.1" class="">
+                        <locus from="1r:1" to="3v:30">1r-3v</locus>
+                        <title type="uniform">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                        <incipit defective="true">neita. k<ex>onungr</ex> sv<ex>arar</ex> Se ek at
+                        þ<ex>et</ex>ta mal þarf at lit se alopt borit</incipit>
+                        <explicit defective="true">lytr h<ex>onu</ex>m <ex>ok</ex> kveðe h<ex>ann</ex>
+                           bliðum orðv<ex>m</ex><ex>ok</ex> fog<ex>ru</ex>m talar <ex>ok</ex></explicit>
+                     </msItem>
+                     <msItem n="1.2" class="">
+                        <locus from="4r:1" to="6v:30">4r-6v</locus>
+                        <title type="uniform">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                        <incipit defective="true">ma i h<ex>er</ex>nað. <ex>ok</ex> a einu havsti
+                              sotti h<ex>ann</ex> afund haʀ<ex>alldz</ex> k<ex>onungs</ex></incipit>
+                        <explicit defective="true">er t<ex>il</ex> v<ex>ar</ex> sott u<ex>m</ex> alla
+                                 uikina</explicit>
+                     </msItem>
+                     <filiation>
+                        <p>
+                        <ref type="ms" target="AM02-0001d-alpha-en" ana="apograph">AM 1 d α fol.</ref> is a copy.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                     <support>
+                        <num type="front-flyleaf" value="0"/>
+                        <num type="book-block" value="6"/>
+                        <num type="back-flyleaf" value="0"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" atLeast="185" atMost="192"/>
+                           <width unit="mm" atLeast="140" atMost="150"/>
+                        </dimensions>
+                     </support>
+                     <foliation ana="fol later">
+                        <p>Foliated 1-6 in red ink in top outer corners by <name type="person" key="KriKaa001">Kålund</name>. 
+                          </p>
+                     </foliation>
+                        <condition ana="poor"><p>The outermost pair of folios are so blackened and worn that reading is
+                           difficult and in places impossible. The upper and outer margins are
+                           completely cut away. The two innermost folios of the manuscript have been
+                           lost, for which reason the manuscript comprises two fragmentary parts.</p></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="29 31">
+                           <num type="wpl" atLeast="11" atMost="18"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="160" atMost="170"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" script="textualis" scope="sole"/> 
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Red initials and rubrics througout the fragment. Some of the round initials are replaced by or filled with a drawing of a face.</decoNote>
+                  </decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>The manuscript was bound in <date when="1935">1935</date> by <name type="person" key="CarLun001">Carl Lund</name>. It is a white parchment binding with the
+                           manuscript item and the serial number imprinted in gold on the upper board.
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1280" notAfter="1320"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name key="ArnMag001" type="person" role="owner"/>
+                     <note>The manuscript might have originally been bound together with <title>Knýtlinga saga</title>, now in <ref type="ms">AM 20 b I fol.</ref>.</note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:40.328+02:00" who="#EAH"> Created as subset of full file
+            on handrit.is.</change>
+         <change when="2011-05-06T17:51:59.902+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2011-05-07T18:41:24.667+02:00" who="#EAH">
+            Extracted pagination and page dimension data from previous version.
+         </change>
+         <change when="2011-05-07T19:17:04.337+02:00" who="#EAH">
+            Extracted layout data from previous version.
+         </change>
+         <change when="2013-09-22" who="#BES">Added information from handrit.is and catalog.</change>
+         <change when="2013-07-31" who="#BES">Added missing information with manucript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

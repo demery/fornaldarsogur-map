@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>MS L.2.32</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS-1016" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Dublin</settlement>
+                  <repository ref="#TCL">Trinity College Library and Royal Irish Academy, Dublin</repository>
+                  <idno>MS 1016</idno>
+                  <altIdentifier type="formerShelfmark">
+                     <idno>MS L.2.32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Composite manuscript containing sections in many different formats; the
+                     first part of the volume comprises six printed items, in Icelandic, Danish and
+                     Latin, and the second part 49 separate manuscript items – poems, extracts from sagas, historical and antiquarian tracts, letters, wordlists etc. – in Icelandic, Latin, English and French. A complete table of contents, in English, has been added at the
+                     beginning.</summary>
+                  <titlePage ana="no"/>
+
+
+                  <msItem class="edd" n="1">
+                     <locus from="1r" to="9r"/>
+                     <title type="uniform">Krákumál</title>
+                     <rubric>Lod Brókar Quiþa en forna</rubric>
+                     <note>Added in a later hand: Lodbroc Death Song</note>
+                     <textLang mainLang="is"/>
+                     <note>Written by Grímur Thorkelín.</note>
+                  </msItem>
+
+                  <msItem class="edd" n="2">
+                     <locus from="9v" to="16v"/>
+                     <title type="uniform">Krákumál</title>
+                     <rubric>Ragnars Qvida edr Karáku mál sive Poema Morticinum Quod Ragnar Lodbroca
+                        Rex moribundus cecinit ad Plurimum Reverendum Dnum Jacobum
+                        Johnstonum</rubric>
+                     <textLang mainLang="la"/>
+                     <note>Written by Thorkelín. Begins with an introduction, in Latin, by
+                        Thorkelín, dated 10 June 1782.</note>
+                     <bibl>Waterhouse, MHRA 26, 437-438.</bibl>
+                     <!-- G. Waterhouse, “G. J. Thorkelín and the Rev. James Johnstone”, Modern Language Review 26 (1931), pp. 436-444.  -->
+                  </msItem>
+
+                  <msItem class="fas" n="3">
+                     <locus from="17r" to="27v"/>
+                     <title type="uniform" ref="#rth">Ragnarssona þáttur</title>
+                     <title type="parallel">Ragnarssona þáttr</title>
+                     <rubric>Her segir af Ragnars sunum oc hversu margir konungar eru komnir af
+                        þeim</rubric>
+                     <explicit defective="true">hann sendi Hárek gand oc með honom c. manna oc fóru
+                        þeir yfir um.....</explicit>
+                     <textLang mainLang="is"/>
+                     <filiation>A note at the top of f. 17r says it is copied from <ref target="#AM04-0307-en" ana="antigraph">AM 307 4to</ref>, which is itself
+                        a copy of <ref type="ms" target="#AM04-0544-en" ana="protograph">Hauksbòk</ref></filiation>
+                     <note>Written by <name type="person" key="ThoMag014">Þorlákur Magnússon
+                           Ísfjörð</name> (ca. 1748-1781), who apparently also wrote L.2.1., L.2.4.,
+                        L.2.5. etc. (also Adv. MS 21).</note>
+                  </msItem>
+
+                  <msItem class="sendibr" n="4">
+                     <locus from="28r" to="29v"/>
+                     <title type="supplied">Letter from Grímur Thorkelín to James Johnstone,
+                        undated</title>
+                     <textLang mainLang="la"/>
+                     <bibl>Waterhouse, MHRA 26, 438-439.</bibl>
+                  </msItem>
+
+                  <msItem class="sendibr" n="5">
+                     <locus from="30r" to="31r"/>
+                     <title type="supplied">Letters and notes in Latin from Grímur Thorkelín to
+                        James Johnstone</title>
+                     <textLang mainLang="la"/>
+                     <bibl>Waterhouse, MHRA 26, 439-440.</bibl>
+                  </msItem>
+                  <msItem class="sendibr" n="6">
+                     <locus from="32r" to="32v"/>
+                     <title type="supplied">Letter from Grímur Thorkelín to James Johnstone, dated 8
+                        July 1783</title>
+                     <textLang mainLang="la"/>
+                     <bibl>Waterhouse, MHRA 26, 440-441.</bibl>
+                  </msItem>
+
+                  <msItem class="kon" n="7">
+                     <locus from="33r" to="46v"/>
+                     <title type="supplied">Extracts from Flateyjarbók (Hákonar saga)</title>
+                     <rubric>Ex. Cod. Flat: de Alexandro Scotiæ Rege et bello qvod in Scotiam
+                        intulit Hakon Rex Novegiæ</rubric>
+                     <incipit>Alexander Sota Kongr sendi iafnan til Noregs at fala Sudreyiar vid
+                        lausa fe</incipit>
+                     <textLang mainLang="is" otherLangs="la"/>
+                     <note>Notes in Latin.</note>
+                  </msItem>
+
+                  <msItem class="kon" n="8">
+                     <locus from="47r" to="48v"/>
+                     <title type="supplied">Latin translation of extracts from Flateyjarbók</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+
+                  <msItem class="kon" n="9">
+                     <locus from="49r" to="50v"/>
+                     <title type="supplied">Extracts from Flateyjarbók (Hákonar saga)</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+
+                  <msItem class="sagnfr" n="10">
+                     <locus from="51r" to="94v"/>
+                     <title type="supplied">On King James of Scotland and his marriage to Princess
+                        Anna of Denmark, 23 November 1589</title>
+                     <textLang mainLang="da"/>
+                     <note>Fragment; written in an 18th-century hand.</note>
+                  </msItem>
+
+                  <msItem class="sendibr" n="11">
+                     <locus from="95r" to="96v"/>
+                     <title type="supplied">Letter in Latin from Countess Catharine of Orkney to
+                        Erling Vidkunnsson <!-- tag these names? --> of Norway, 1329</title>
+                     <rubric>Ex Originali pergameno cui sigillum temporis injuria fractum
+                        defuit</rubric>
+                     <textLang mainLang="la"/>
+                     <note>Copy by Thorkelín.</note>
+                     <!-- Should be possible to find this in DN -->
+                  </msItem>
+
+                  <msItem class="sagnfr" n="12">
+                     <locus from="97r" to="99v"/>
+                     <title type="supplied">Latin notices of Norwegian invasions of the
+                        Hebrides</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+
+                  <msItem class="sagnfr" n="13">
+                     <locus from="100r" to="113v"/>
+                     <title type="supplied">A history of Denmark in English</title>
+                     <textLang mainLang="en"/>
+                     <note>Written by James Johnstone.</note>
+                  </msItem>
+
+                  <msItem class="sagnfr" n="14">
+                     <locus from="114r" to="125r"/>
+                     <title type="supplied">Processus verbalis super legatione et gestis apud
+                        Scotie, Dacie, Norvegie, Sclavonie, et Gothorum reges</title>
+                     <rubric>Ex Bibliotheca Benedictorum Besonconiensi Galliæ Monasterii
+                        exscriptum</rubric>
+                     <textLang mainLang="la"/>
+                     <note>Written by Thorkelín.</note>
+                  </msItem>
+
+                  <msItem class="kvad" n="15">
+                     <locus from="126r" to="127r"/>
+                     <title type="supplied">Religious poem in Latin (fragment)</title>
+                     <textLang mainLang="la"/>
+                     <note>Verses 30 to 47.</note>
+                  </msItem>
+
+                  <msItem class="kvad" n="16">
+                     <locus from="128r" to="135v"/>
+                     <title type="supplied">Latin verses in Icelandic rímur metres</title>
+                     <rubric>Metra qvædam Versificationis Islandicæ in Rythmis Hæröicis et
+                        Cantulenis profanis maxinme usitata nunc habitum romanum induta per Dm
+                        Hierolevum Islandum</rubric>
+                     <textLang mainLang="la"/>
+                  </msItem>
+
+                  <msItem class="ordas" n="17">
+                     <locus from="136r" to="143v"/>
+                     <title type="supplied">Icelandic-Latin glossary</title>
+                     <textLang mainLang="la" otherLangs="is"/>
+                  </msItem>
+
+                  <msItem class="ordas" n="18">
+                     <locus from="144r" to="159v"/>
+                     <title type="supplied">Latin-English glossary</title>
+                     <textLang mainLang="en" otherLangs="la"/>
+                  </msItem>
+
+                  <msItem class="malfr??" n="19">
+                     <locus from="160r" to="183v"/>
+                     <title type="supplied">Latin tract on 'ogham'</title>
+                     <textLang mainLang="la"/>
+                     <note>Written by Thorkelín.</note>
+                  </msItem>
+
+                  <msItem class="skjol vidsk" n="20">
+                     <locus from="184r" to="184v"/>
+                     <title type="supplied">Accounts and notes in Icelandic</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+
+                  <msItem class="heims" n="21">
+                     <!-- what is heims? -->
+                     <locus from="185r" to="186v"/>
+                     <title type="uniform">Konungs skuggsjá (excepts)</title>
+                     <textLang mainLang="is"/>
+                     <note>Written in the 17th century, possibly as early as 1600.</note>
+                  </msItem>
+
+                  <msItem class="kon" n="22">
+                     <!-- what is the class designation for annals? -->
+                     <locus from="187r" to="189v"/>
+                     <title type="supplied">Excepts from Flateyjarbók</title>
+                     <rubric>Excerpta ex Annalibus Codicis Ftateyensis</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+
+                  <msItem class="sendibr" n="23">
+                     <locus from="190r" to="191r"/>
+                     <title type="supplied">Letter in Dutch from Herlach Mathieson</title>
+                     <rubric>Ex Originali Pergameno.</rubric>
+                     <textLang mainLang="nl"/>
+                     <note>In Thorkelín's hand.</note>
+                  </msItem>
+
+                  <msItem class="fas" n="24">
+                     <locus from="192r" to="193v"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga (extract)</title>
+                     <rubric>Ex Gaungo Rolfs Saga in Legato Arnæ Magnæi in Quarto No 353</rubric>
+                     <incipit>Tryggve er madr nefndr ok var Ulfkelson, hann var ættadr af Bukansidu
+                        af Skotlandi.</incipit>
+                     <explicit>þar tóku þeir mikit fe oc helldo heim vid svo búit.</explicit>
+                     <textLang mainLang="is"/>
+                     <note>The number given in the rubric (AM 353 4to) is incorrect.</note>
+                  </msItem>
+
+                  <msItem class="skjol" n="25">
+                     <locus from="194r" to="195v"/>
+                     <title type="supplied">Copy of a legal document from 1369</title>
+                     <textLang mainLang="is"/>
+                     <!-- Should be possible to find this in DI/DN(?) -->
+                     <note>The document is an agreement between Vilhjálmur, archbishop of Orkney
+                        (William IV), and Hákon Jónsson, 1369; there is a Latin translation of this
+                        document on fols 218r-v (item 40) and an English version on fols. 233r-234r
+                        (item 46).</note>
+                  </msItem>
+
+                  <msItem class="kon" n="26">
+                     <locus from="196r" to="198v"/>
+                     <title type="supplied">Extracts from Hákonar saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+
+                  <msItem class="skjol??" n="27">
+                     <locus from="199r" to="199v"/>
+                     <title type="supplied">Copy of legal document (pertaining to Ragnhildur
+                        Símonardóttir)</title>
+                     <textLang mainLang="is"/>
+                     <note><q>NB Originalen er skreven med den self samme haand som Cod. sub. No 49
+                           in 8. Legati Magnæani</q>
+                        <q>ex 7 sigillis 1. 6. 7. adhuc appenderet</q></note>
+                  </msItem>
+
+                  <msItem class="sendibr" n="28">
+                     <locus from="200r" to="209v"/>
+                     <title type="supplied">Letter from E. Gottrup to Markús Pálsson á Völlum, dated
+                        2 May 1712</title>
+                     <textLang mainLang="is"/>
+                     <!-- check language -->
+                  </msItem>
+
+                  <msItem class="sendibr" n="29">
+                     <locus from="201r" to="201v"/>
+                     <title type="supplied">Letter from bishop Jón Vídalín to Elena
+                        Hákonardóttir</title>
+                     <textLang mainLang="is"/>
+                     <note>This letter in fact forms part of L.2.33.</note>
+                  </msItem>
+
+                  <msItem class="sendibr" n="30">
+                     <locus from="202r" to="202v"/>
+                     <title type="supplied">Letter from Skúli Magnússon, sýslumaður in Skagafjörður,
+                        dated 16 June 1747</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+
+                  <msItem class="sendibr" n="31">
+                     <locus from="203r" to="203v"/>
+                     <title type="supplied">Letter from Elena Hákonardóttir, dated 12 June
+                        1708</title>
+                     <textLang mainLang="is"/>
+                     <note>Principally writthe by Hjalti Þórsteinsson í Vatnsfirði, but with 12
+                        lines by Elena Hákonardóttir.</note>
+                  </msItem>
+
+                  <msItem class="avint" n="32">
+                     <locus from="204r" to="204v"/>
+                     <title type="supplied">Ágrip úr ævintýri um fuglinum Fönix</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+
+                  <msItem class="ordas" n="33">
+                     <locus from="205r" to="206v"/>
+                     <title type="supplied">Icelandic-Latin vocabulary</title>
+                     <textLang mainLang="la" otherLangs="is"/>
+                  </msItem>
+
+                  <msItem class="sagnfr" n="34">
+                     <locus from="207r" to="208v"/>
+                     <title type="supplied">Latin piece about Anna of Denmark</title>
+                     <textLang mainLang="la"/>
+                     <note>Related to item 10</note>
+                  </msItem>
+
+                  <msItem class="anal" n="35">
+                     <!-- or whatever annals are called -->
+                     <locus from="209r" to="209v"/>
+                     <title type="supplied">Excerpts from annals for 1627, 1630, 1631 and
+                        1603</title>
+                     <textLang mainLang="is"/>
+                     <!-- check language -->
+                  </msItem>
+
+                  <msItem class="drott" n="36">
+                     <locus from="210r" to="211v"/>
+                     <title type="supplied">Skaldic verses with explanations in Latin</title>
+                     <textLang mainLang="is" otherLangs="la"/>
+                  </msItem>
+
+                  <msItem class="sendibr" n="37">
+                     <locus from="212r" to="214v"/>
+                     <title type="supplied">Copy of a document from archibishop Olav of Nidaros,
+                        1325</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="sendibr" n="38">
+                     <locus from="214r" to="215v"/>
+                     <title type="supplied">Copy of a document from 1379 pertaining to
+                        Orkney</title>
+                     <textLang mainLang="is"/>
+                     <note>Copy by Thorkelín of AM Dipl. Norv. Færoensia, Fasc. 100 nr. 9 b.</note>
+                  </msItem>
+                  <msItem class="sendibr" n="39">
+                     <locus from="216r" to="217v"/>
+                     <title type="supplied">Copy of a document from 1379 pertaining to
+                        Orkney</title>
+                     <textLang mainLang="is"/>
+                     <note>Another copy of previous document.</note>
+                  </msItem>
+                  <msItem class="sendibr" n="40">
+                     <locus from="218r" to="218v"/>
+                     <title type="supplied">Latin translation of a legal document</title>
+                     <textLang mainLang="la"/>
+                     <note>Latin translation of item 25 by Grímur Thorkelín.</note>
+                  </msItem>
+                  <msItem class="sendibr" n="41">
+                     <locus from="219r" to="222v"/>
+                     <title type="supplied">Excerpts from a text in Latin</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem class="sendibr" n="42">
+                     <locus from="223r" to="224v"/>
+                     <title type="supplied">Memoranda</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+
+                  <msItem class="sendibr" n="43">
+                     <locus from="225r" to="225v"/>
+                     <title type="supplied">Letter in French, signed Garuan</title>
+                     <textLang mainLang="fr"/>
+                  </msItem>
+                  <msItem class="sendibr" n="44">
+                     <locus from="226r" to="226v"/>
+                     <title type="supplied">Letter in French, dated 17 September 1686</title>
+                     <textLang mainLang="fr"/>
+                  </msItem>
+                  <msItem class="sendibr" n="45">
+                     <locus from="227r" to="232v"/>
+                     <title type="supplied">Fragment of a contract in French, dated 7 December
+                        1784</title>
+                     <textLang mainLang="fr"/>
+                  </msItem>
+
+                  <msItem class="skjol" n="46">
+                     <locus from="233r" to="234v"/>
+                     <title type="supplied">English translation of Icelandic legal document</title>
+                     <textLang mainLang="en"/>
+                     <note>This is a translation of the document found on fols. 194r-195v (item 25);
+                        there is a Latin translation of the document on fol. 218 (item 40)</note>
+                  </msItem>
+
+                  <msItem class="ferdb" n="47">
+                     <locus from="235r" to="235v"/>
+                     <title type="supplied">Excerpt from a travel account or journal by
+                        Johnstone</title>
+                     <textLang mainLang="en"/>
+                  </msItem>
+
+                  <msItem class="malfr" n="48">
+                     <locus from="236r" to="236v"/>
+                     <title type="supplied">Essay by a student of Johnstone's</title>
+                     <textLang mainLang="en"/>
+                  </msItem>
+
+                  <msItem class="kvad" n="49">
+                     <locus from="237r" to="238v"/>
+                     <title type="supplied">Ebbe Skammelsøn</title>
+                     <textLang mainLang="en"/>
+                     <note>A translation of part of the Danish ballad Ebbe Skammelsøn (DGF
+                        354).</note>
+                  </msItem>
+
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="239"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <note>Front flyleaf conjoint with pastedown</note>
+                           <dimensions type="leaf" scope="most">
+                              <height unit="mm" quantity="273" max="340" min="170"/>
+                              <width unit="mm" quantity="207" max="216" min="104"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+
+                        <foliation ana="later fol">MS section foliated in pencil in June 1958. Most
+                           individual sections have their own foliation and/or pagination, mostly
+                           original.</foliation>
+
+                        <condition ana="average"/>
+
+                     </supportDesc>
+
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1">
+                           <!--num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+
+                  <handDesc hands="999">
+                     <!-- create more handnotes for this? -->
+                     <handNote scribeRef="unknown" script="unknown">Written in a large number of
+                        hands, several of them identifiable, e.g. Grímur Thorkelín (items 1, 2, 4,
+                        5, 6, 11, 14, 19, 23, 38 and 40), Þorlákur Magnússon Ísfjörð (item 3) and
+                        Johnstone himself (item 47).</handNote>
+                  </handDesc>
+
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+
+                  <additions ana="high">Many marginal notes in Latin. </additions>
+
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Full leather binding (light brown), no decoration. The title <title>Norse Historical Treatises</title> has been added on the spine.</p>
+                     </binding>
+                  </bindingDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK"/>
+                     <note>The manuscript comprises various items pertaining to the history of
+                     Scotland and the northern isles which belonged to the Rev. James Johnstone,
+                     originally, it seems, a Scot, who served as chaplain to his Britannic Majesty’s
+                     Envoy Extraordinary at the Court of Denmark from 1779 to 1782 and afterwards
+                     became rector of Magheracross in County Fermanagh, Ireland, and from 1794
+                     prebendary of Clogher, County Tyrone. Most of the items appear to have been
+                     copied in Copenhagen for Johnstone, though
+                     some must have been copied by or for him in Ireland. The majority are from the
+                        second half of the 18th
+                        century, though some are older.</note>
+                  </origin>
+                  <provenance>
+                     <p>The volume was presumably put together after Johnstone’s death in
+                     1798, possibly when his collection was sold to Trinity College Dublin at some
+                     point prior to 1810, when the remainder of his library was sold at auction in
+                     1810.</p>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:26.021+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-11-27" who="#JSL">Added notes from printed catalog desc. Corrected
+            supplied titles previously identified as uniform. Added empty fields to be completed by
+            cataloger.</change>
+         <change when="2012-11-28" who="#mjd">Catalogued from manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

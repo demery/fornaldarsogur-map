@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>MS description BL Add 4857</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>unpublished</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="BL-Add-4857" xml:lang="en">
+                    <msIdentifier>
+                        <!--<country>United Kingdom</country>
+                        <settlement type="city">London</settlement>-->
+                        <repository ref="#BL">British Library, London</repository>
+                        <!--                        <collection>Banks collection</collection>-->
+                        <idno>BL Add. 4857</idno>
+                        <altIdentifier type="former">
+                            <idno>36</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="contemporary">
+                            <titlePart>Agiætar historiur Af ymsum kőngum kőngasonum<ex>m</ex> og Velbordnum<ex>m</ex> Frgdar
+                                    møn<ex>n</ex>um<ex>m</ex> Vtan<ex>n</ex> landz, þeirra Hreyste ve=rkum<ex>m</ex> Og
+                                    Margfølldum<ex>m</ex> man<ex>n</ex>dőms Giøringum<ex>m</ex> sem þe=ir ä sijnumm Døgum fr=ømdu,
+                                Miøg skiemt=elegar Ad lesa o<ex>g</ex> Heira, Ei Sydur Nitsamlegar, = sier Gőd Dæ=me af ad Draga.
+                                Ad Nyu yfer siednar Og forbetradar Med stoorre Kostgifne Af Erugøffgum Vysum og Vir=dulegum
+                                Høfdings Man<ex>n</ex>e Ma=gnuse Jonßyne Ad Vigur, og Sydan<ex>n</ex> Ad Han<ex>n</ex>s forlæ=ge
+                                    Vskrifad<ex>ar</ex>. Anno 1669.</titlePart>
+                        </titlePage>
+                        <msItem n="1" class="regist">
+                            <locus from="1v:1" to="1v:17">1v</locus>
+                            <title type="supplied">Table of contents</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>þessar eptter fijlgiande Saughur og æfin<ex>n</ex>tijr hefur þesse Bők Jnne ath hallda_: af
+                                Gaunguhrőlfe ----- 1. af Appollanijo ------2. af Giafa Ref ------ 3. af Sórla sterka ------ 4. af
+                                Hlfe konge og han<ex>n</ex>s reckum --- 5. af Aulkofra. ----- 6. af Slisa Hrőa ------- 7. af
+                                Markwlfe ------ 8. af Jsleijfe Bijskup ----- 9. af Fertram ------ 10. af Mijlno manne ----- 11. af
+                                Artus k<ex>on</ex>ge og han<ex>n</ex>s kóp<ex>p</ex>v, H<ex>er</ex>ra Jvent. – 12. af Greijfa
+                                Bertam af Rösilien – 13. af Meijstara Paule ---- 14.</rubric>
+                        </msItem>
+                        <msItem class="fas" n="2">
+                            <locus from="2r:1" to="27v:40">2r-27v</locus>
+                            <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Sagann af Gøngu Hroolfe</rubric>
+                            <rubric>I CAP.</rubric>
+                            <incipit>Þad er vpphaf  søgu þessare, ad Hreggvidur er kong<ex>ur</ex> nefndur, han<ex>n</ex> ried
+                                    f<ex>yrer</ex> Gar=da rijke, h<ex>an</ex>n var rijkur k<ex>o</ex>ng<ex>ur</ex>, og vinsæll af
+                                alþydu</incipit>
+                            <explicit>en<ex>n</ex> S er margur H<ex>an</ex>n lst ei trua Suo Ölijklegum hlutum<ex>m</ex>,
+                                    hu<ex>or</ex>i<ex>er</ex> þö vijst skied hafa, s<ex>e</ex>m þ<ex>ei</ex>r skrifad<ex>er</ex>
+                                eru hef<ex>ur</ex> þ<ex>ad</ex> An<ex>n</ex><ex>ar</ex> heirt og sied s<ex>e</ex>m ei Hefur Annar,
+                                    en<ex>n</ex> Gude er ad þacka allur gödur Sigur</explicit>
+                            <finalRubric>FINIS</finalRubric>
+                            <colophon>skrifad og endad  strandselium af Thorde IONSsyne þan<ex>n</ex> xvi Dag Aprijlis Anno
+                                Domini M. DC LXIX. TI M.E.H.</colophon>
+                            <note>26 chapters.</note>
+                        </msItem>
+                        <msItem class="almb" n="3">
+                            <locus from="28r" to="56v">28r-56v</locus>
+                            <title type="supplied">Apollonius from Tyre</title>
+                            <title type="uniform">Apollonius saga</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Ein Agiäet og Føgur Historia Wmm Kőng Apollonius J Huørre, luckun<ex>n</ex>ar og
+                                    veralldarin<ex>n</ex>ar östødugleike skrifast, miøg Nitsamleg ad heira og lesa. prentud J
+                                    kaupm<ex>anna</ex>hafn, af Christen Jenssyne Wering Acad. og Bokþryck=iara. Anno 1660</rubric>
+                            <note>Rasmus Nyerup gives a similar title in <ref type="book">Almindelig Morskabslaesning</ref>
+                                (Copenhagen, 1816, p. 169).</note>
+                            <msItem n="3.1" class="unknown">
+                                <locus from="28r:9" to="28r:35">28r</locus>
+                                <title type="supplied">To the reader</title>
+                                <rubric>til lesaran<ex>n</ex>s.</rubric>
+                                <incipit>Luckan<ex>n</ex> opt hiä lijdum<ex>m</ex> staar, lyka suo i Burtu gaar, þui
+                                    min<ex>n</ex>st þä v<ex>ar</ex>er meider man<ex>n</ex>, mötgang<ex>ur</ex> og
+                                        őluckan<ex>n</ex>.</incipit>
+                                <explicit>Giefe þi<ex>er</ex> Jesus gifu þ ad ganger h<ex>a</ex>nz Jafnan<ex>n</ex>
+                                        vegum<ex>m</ex> , So Heimsin<ex>n</ex>z eftt<ex>er</ex> Hygd <ex>og</ex> kross. himneskt
+                                    odlist dyrdar hnoss.</explicit>
+                                <finalRubric>A M E N</finalRubric>
+                                <colophon>Skrifud Anno M DC LXIX.</colophon>
+                            </msItem>
+                            <msItem n="3.2" class="formal">
+                                <locus from="28v:1" to="28v:42">28v</locus>
+                                <title type="supplied">Preface</title>
+                                <rubric>Formlen<ex>n</ex>.</rubric>
+                                <incipit>J þessare Bök (sem er dycktud vm<ex>m</ex> þä m<ex>ick</ex>lu o luc=ku og mötgang
+                                    Apollonius k<ex>o</ex>ngz) kan<ex>n</ex> mad<ex>ur</ex> fyrst fagurlega ad Siä <ex>og</ex>
+                                    skoda, so sem J einu<ex>m</ex> speigle, og Siön<ex>ar</ex>glere, hu<ex>or</ex>nin<ex>n</ex>
+                                    httad er m<ex>ann</ex>sin<ex>n</ex>z lijfe hier  Jø=rdun<ex>n</ex>e</incipit>
+                                <explicit>m<ex>ed</ex> stadføstu trunadar trauste, þ<ex>ar</ex> til ad þad m<ex>ei</ex>ge snuast
+                                    til gödz enda, og ganga betur</explicit>
+                                <finalRubric>Amen.</finalRubric>
+                            </msItem>
+                            <msItem n="3.3" class="almb">
+                                <locus from="29r:1" to="56v:48">29r-56v</locus>
+                                <title type="uniform">Apollonius saga</title>
+                                <rubric>Sagan<ex>n</ex> af Apollönius k<ex>o</ex>nge til Tyro.</rubric>
+                                <incipit>Þar rijkte ein<ex>n</ex> k<ex>o</ex>ng<ex>ur</ex> i Antiochia, s<ex>e</ex>m hiet
+                                    Antiochus, af hu<ex>or</ex>ium<ex>m</ex> k<ex>o</ex>nge, sama borg fieck sitt nafn, so ad hun
+                                    kalladist Antiöchia, af k<ex>o</ex>ng Antiocho. Nockrum<ex>m</ex> tij<ex>ma</ex> d<ex>ur</ex>
+                                        en<ex>n</ex> h<ex>a</ex>nz drottning andadist, ätte h<ex>an</ex>n v<ex>id</ex>
+                                        h<ex>en</ex>ne eina dö=ttur</incipit>
+                                <explicit>Høfum<ex>m</ex> vi<ex>er</ex> ei he<ex>ir</ex>t af þeßare Søgu neitt
+                                    greinel<ex>e</ex>gar, en<ex>n</ex> nu er talt, og lend<ex>er</ex> hier nu vid ad seigia af
+                                    Apolle k<ex>onge</ex> og h<ex>a</ex>nz m<ex>ick</ex>lum<ex>m</ex> m<ex>ann</ex>ra
+                                        unum<ex>m</ex></explicit>
+                                <finalRubric>endad skarde -70.7. Jänuarij. TI.</finalRubric>
+                            </msItem>
+                        </msItem>
+                        <msItem n="4" class="fas">
+                            <locus from="57r:1" to="60v:19">57r-60v</locus>
+                            <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                            <textLang mainLang="non"/>
+                            <rubric>SAGANN AF GIAFA REF Reyns syne.</rubric>
+                            <incipit>Gautrekur var köng<ex>ur</ex> ne=fndur, Han<ex>n</ex> Riede f<ex>yrer</ex> Gautlande, mi=kill
+                                Hermadur og Høfdinge, Han<ex>n</ex> Var son Ga=uta kőngz, mikill Høfdinge i þ<ex>ei</ex>re
+                                tijd</incipit>
+                            <explicit>En<ex>n</ex> Nere jarl Vard Brddaudur, og drottning. Gautreks köngz, og var Druckedt er=ffe
+                                effter þaug,</explicit>
+                            <finalRubric>og lijkur hier suo þeßare Søgu af hinum<ex>m</ex> öheilaga gi=affa Reff.</finalRubric>
+                            <colophon>Skriffuadt og endadt  skarde ii skardzstrønd J Øgur sueit, þan<ex>n</ex> 29. Decembris Anno
+                                1669. af Thőrde Jőnßyne</colophon>
+                            <note>Extract</note>
+                        </msItem>
+                        <msItem n="5" class="fas">
+                            <locus from="61r:1" to="74r:36">61r-74r</locus>
+                            <title type="uniform" ref="#ssst">Sörla saga sterka</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Sagan<ex>n</ex> af Saurla hinum<ex>m</ex> st<ex>er</ex>ka.</rubric>
+                            <rubric>I. CAP.</rubric>
+                            <incipit>J þan<ex>n</ex> tma Sem Hlfdn köng<ex>ur</ex> Brønuk<ex>o</ex>ng<ex>ur</ex>fostre stijrde
+                                Sv=þiöd hin<ex>n</ex>e kølldu, er han<ex>n</ex> Van<ex>n</ex> af Agn<ex>ar</ex> hin<ex>um</ex>
+                                Audga, en<ex>n</ex> sette Astrő mg sin<ex>n</ex> yf<ex>er</ex> Engl<ex>a</ex>nd</incipit>
+                            <explicit>og er e<ex>i</ex>g<ex>i</ex> g<ex>e</ex>tid þ<ex>ar</ex> v<ex>m</ex> hu<ex>or</ex>t
+                                    þ<ex>ei</ex>m h<ex>efur</ex> audid ordid b<ex>ar</ex>na ę<ex>dur</ex> e<ex>i</ex>g<ex>i</ex>
+                                    ept<ex>er</ex> sig.</explicit>
+                            <finalRubric>Lijk<ex>ur</ex> hi<ex>er</ex> nu Søgun<ex>n</ex>e af Sørla hinu<ex>m</ex> st<ex>er</ex>ka
+                                    <ex>og</ex> h<ex>a</ex>nz afrekzverkum<ex>m</ex></finalRubric>
+                            <colophon>1670. 5 Jänüa<ex>ri</ex></colophon>
+                            <note>Version A. 19 chapters</note>
+                        </msItem>
+                        <msItem n="6" class="fas">
+                            <locus from="74v:1" to="81v:11">74v-81v</locus>
+                            <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Sagann af Hlfe Kőnge Og Hlfs Reckum<ex>m</ex></rubric>
+                            <incipit>Hlfur Hiet kőng<ex>ur</ex> er bíő  Hlfreksstødum<ex>m</ex>, Hann ried fyrer Hørdalande,
+                                Hann tte Signu dottur k<ex>o</ex>ngzin<ex>n</ex>s af waurs. kollur Hiet Hirdmadur
+                                köngz</incipit>
+                            <explicit>Geyrmundur Heliarskin<ex>n</ex> nam medalfellzstrønd J Breyda fyrde. yre Hiet
+                                    dött<ex>ur</ex> Han<ex>n</ex>z og er þadan<ex>n</ex> mikil tt komin<ex>n</ex>.</explicit>
+                            <finalRubric>og lyktu<ex>m</ex> Vier þar Søguna af Hlffe könge, Og Hlffz Reckum<ex>m</ex>, og hafe
+                                sä þøck er las, en<ex>n</ex> þejr lüke launu<ex>m</ex> sem hlijddu so lesar=anum<ex>m</ex>
+                                lijke.</finalRubric>
+                            <colophon>1670. 10 Jän<supplied reason="omitted" instant="false">u</supplied>arij ad skarde.
+                                TI.</colophon>
+                        </msItem>
+                        <msItem class="isl" n="7">
+                            <locus from="81v:1" to="85r:22">81v-85r</locus>
+                            <title type="uniform">Ölkofra þáttr</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Þttur af Aulkofra.</rubric>
+                            <incipit>Þőrhallur Hiet Mad<ex>ur</ex> Han<ex>n</ex> biö J bl=skögum<ex>m</ex> 
+                                    þorhallzstódum<ex>m</ex>, h<ex>an</ex>n Var Vel fir eigande, og helld<ex>ur</ex> Vid alldur
+                                er þeße saga giørdest, lijtill var h<ex>an</ex>n og liötur</incipit>
+                            <explicit>för þ<ex>or</ex>k<ex>ell</ex> aþ heimbeþe til broþþa frnka sijnz, og høfþu þ<ex>ei</ex>r
+                                hina bestu frænþseme meþ vinttu, hiellst þaþ meþ<ex>a</ex>n þ<ex>ei</ex>r lifþu.</explicit>
+                            <finalRubric>Og enþar suo ølkofra Søgu</finalRubric>
+                            <colophon>Actum skarde Anno MDCLXX. Xij. Januarij. TI</colophon>
+                        </msItem>
+                        <msItem class="konth" n="8">
+                            <locus from="85r:23" to="88v:36">85r-88v</locus>
+                            <title type="uniform">Hróa þáttr heimska</title>
+                            <title type="parallel">Slýsaróa þáttr</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Hystorian<ex>n</ex> Af slisa Hrooa</rubric>
+                            <incipit>Þan<ex>n</ex> tijma er sueirn k<ex>ong</ex>r Riede f<ex>yrer</ex> Danm<ex>or</ex>k,
+                                    v<ex>ar</ex> þar  ve=tur s m<ex>adur</ex> m<ex>ed</ex> H<ex>onu</ex>m er Hröe Hiet,
+                                    h<ex>an</ex>n v<ex>ar</ex> ad sijnd og Jf<ex>er</ex>=litum<ex>m</ex>, frijdur og
+                                    m<ex>ann</ex>borleg<ex>ur</ex></incipit>
+                            <explicit>en<ex>n</ex> kona h<ex>a</ex>nz virdtest øllumm forvitre, kom af þ<ex>ei</ex>m üt
+                                    m<ex>ar</ex>gt Gøfug<ex>ra</ex> m<ex>anna</ex> J Engl<ex>a</ex>nde,</explicit>
+                            <finalRubric>og lijkur Hier so þeßare søsgu, af Hrőa er kallad<ex>ur</ex> war ymist, hin<ex>n</ex>
+                                Heimske slisa=Hröe, ed<ex>ur</ex> ad sijdustu Hrőe hin<ex>n</ex> Spake, og vard Hin<ex>n</ex>
+                                gøf=ugaste madur og gi=tur Høffdinge, Danskrar æ=ttar</finalRubric>
+                            <colophon>Skrifad <ex>og</ex> endad ad Skarde af Thorde Jőnßyne Anno MDCLXX. þan<ex>n</ex> 13
+                                Jnuarij</colophon>
+                        </msItem>
+                        <msItem class="almb" n="9">
+                            <locus from="89r" to="96r:33">89r-96r</locus>
+                            <title type="uniform">Salomons saga ok Markólfs</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Lfsaga Markőlfs, og Samtal þeirra Salomőns kőngs Ens wijsa</rubric>
+                            <incipit>A Daugum<ex>m</ex> þeim er Salömon k<ex>o</ex>ng<ex>ur</ex> Sat i Hsæ=te sijnz
+                                    fød<ex>ur</ex>z Dvidz, fullur Vitsku og Vijsdömz, leit h<ex>an</ex>n man<ex>n</ex>
+                                    mikin<ex>n</ex> J Høll sinne, sem neffndest Markölfur, þußlega liöt=an<ex>n</ex> og
+                                    őfrijdan<ex>n</ex></incipit>
+                            <explicit>og Reijste sijdan<ex>n</ex> hejm aptur, thil sin<ex>n</ex>a Heimkin<ex>n</ex>a, og sat
+                                    þadan<ex>n</ex> af vm<ex>m</ex> kirt, og høf=um<ex>m</ex> vier ei heirt mejra edur
+                                    merkeleg<ex>ra</ex> frä honum<ex>m</ex> sagt,</explicit>
+                            <finalRubric>lijkur þui hier fr honum<ex>m</ex> ad seigia, Og Hanns Hridiu nootumm</finalRubric>
+                            <colophon>Skrifad og endadt  skarde aff þőrde Jőnßyne. Anno 1670. þan<ex>n</ex> 17. Dag
+                                Jnűarij.</colophon>
+                        </msItem>
+                        <msItem class="bisks" n="10">
+                            <locus from="96v:1" to="97v:7">96v-97v</locus>
+                            <title type="uniforn">Ísleifs þáttr biskups</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Þattur af Jsleyfe B<ex>isku</ex>pe.</rubric>
+                            <incipit>Þad er sagt Ad Jsleijf<ex>ur</ex> son Gyssur<ex>ar</ex> en<ex>n</ex>s huijta v<ex>ar</ex>
+                                    m<ex>adur</ex> Vrn <ex>og</ex> ecke m<ex>ick</ex>ill vexte, man<ex>n</ex>a
+                                Vinslastur</incipit>
+                            <explicit>h<ex>an</ex>n suarade: þä kiem<ex>ur</ex> mi<ex>er</ex> h<ex>an</ex>n Jaffnan<ex>n</ex> J
+                                hug er eg hej=re gödzman<ex>n</ex> geted, þui suo Reijndum<ex>m</ex> Vier
+                                h<ex>an</ex>n.</explicit>
+                            <finalRubric>Lycktar hier suo þeßare Rdu, ad seigia fr Byskupe Jsleffe Gyßurßyne</finalRubric>
+                        </msItem>
+                        <msItem n="11" class="ridd">
+                            <locus from="97v:8" to="109v:35">97v-109v</locus>
+                            <title type="uniform">Fertrams saga ok Platos</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Hier byriast Fertrams saga sem fyrr strde Fracklande hinu göda.</rubric>
+                            <rubric>I C<ex>a</ex>p<ex>itul</ex>e.</rubric>
+                            <incipit>ARenus hiet köng<ex>ur</ex> miøg megtug<ex>ur</ex> og Audug<ex>ur</ex>, af þ<ex>ei</ex>m
+                                    øllum<ex>m</ex> Dijrmætum<ex>m</ex> hlutum<ex>m</ex> sem J heiminu<ex>m</ex> kun<ex>n</ex>u ad
+                                fst</incipit>
+                            <explicit>gaf nu Rősit dv<ex>er</ex>ginum<ex>m</ex> þri kastala epttir loffan sin<ex>n</ex>e,
+                                    en<ex>n</ex> Fertram stiorn=ade Fracklande til Elle,</explicit>
+                            <explicit>og lwkum vier nu þeßare søgu, Geyme Gud þ<ex>an</ex>n sem skrifade, las og til =
+                                hlydde.</explicit>
+                            <colophon>Skriffad og endud Fertrams Saga af þörde Jönßyne,  Skarde vid Skøtufiórd .7. Martij.
+                                    An<ex>n</ex>o 1670.</colophon>
+                            <note>14 chapters.</note>
+                        </msItem>
+                        <msItem n="12" class="avint">
+                            <locus from="110r:1" to="113r:34">110r-113r</locus>
+                            <title type="supplied">The master thief</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <author role="translator">Translated by <name type="person" key="MagJon008">Magnús Jónsson digri í
+                                    Vigur</name>.</author>
+                            <rubric>æfin<ex>n</ex>tijr Af Einum Brøgdottum<ex>m</ex> mijlnum<ex>anne</ex></rubric>
+                            <incipit>Fordum<ex>m</ex> daga var ein<ex>n</ex> Edalmad<ex>ur</ex> rdande yf<ex>er</ex>
+                                    nockr<ex>um</ex> stød<ex>um</ex> J einu Pltze, hu<ex>or</ex>z ei verdur hier g<ex>ie</ex>ted.
+                                og  medal an<ex>n</ex>ara J h<ex>a</ex>nz vm<ex>m</ex>dme, Verd<ex>ur</ex> þeß gieted, ad ei
+                                einu þ<ex>or</ex>pe þui h<ex>an</ex>n var stiörnande sat ein<ex>n</ex>
+                                mijlnum<ex>adur</ex></incipit>
+                            <explicit>Vard h<ex>an</ex>n frőm<ex>ur</ex> m<ex>adur</ex> þ<ex>ad</ex>an<ex>n</ex> J fr, og
+                                    v<ex>ar</ex> h<ex>onu</ex>m ei utan<ex>n</ex> meinlaust eignad.</explicit>
+                            <finalRubric>og lyk<ex>ur</ex> suo þui ffintijre, Aff magnuse Jonßyne Vtlagt vr þij=sku ad Holltte
+                                vid Ønundar fiørd MDCLxiij.</finalRubric>
+                            <colophon>Enn nu  nijtt skriffad og endad ad skarde Vid skøtufiørd Af þőrde Jönßyne 8 Martij
+                                -70.</colophon>
+                            <note>Similar to <title type="uniform">Der Meisterdieb</title> in Grimm´s <ref type="book">Hausmärchen</ref> (1843).</note>
+                        </msItem>
+                        <msItem n="13" class="ridd">
+                            <locus from="113v:1" to="133v:39">113v-133v</locus>
+                            <title type="uniform">Ívens saga</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Sagann af Artus Konge</rubric>
+                            <rubric>I. C<ex>a</ex>p<ex>itul</ex>e.</rubric>
+                            <incipit>Hinn gite ägite artus kőng<ex>ur</ex> Ried f<ex>yrer</ex> Eingl<ex>a</ex>nde
+                                    semmørgum<ex>m</ex> møn<ex>n</ex>um<ex>m</ex> er kun<ex>n</ex>ugt, h<ex>an</ex>n Vard
+                                    vm<ex>m</ex> sijd<ex>er</ex> keijsare yffer Römaborg</incipit>
+                            <explicit>þuj h<ex>an</ex>n elskar nu fru sij<ex>na</ex> Og hun h<ex>an</ex>n, Og gleim<ex>er</ex>
+                                    h<ex>an</ex>n nu Øllum Volkum og Vandræd<ex>um</ex>, af þ<ex>ei</ex>m m<ex>ick</ex>la fagnade,
+                                er h<ex>an</ex>n hafde Af Vn<ex>n</ex>ustu sin<ex>n</ex>e,</explicit>
+                            <finalRubric>Og lykur hier nu søgu Af H<ex>er</ex>ra Jvent, er Hakon kong<ex>ur</ex> hin<ex>n</ex>
+                                gamle, liet snua ẅr franzeisu J Nor=rænu. FiniS</finalRubric>
+                            <note>14 chapters.</note>
+                        </msItem>
+                        <msItem n="14" class="almb">
+                            <locus from="134r:1" to="139r:38">134r-139r</locus>
+                            <title type="uniform">Bertrams saga</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Æfintijr af Greijfa Bertram af Rosilien ok eirne b<ex>ar</ex>tsk<ex>er</ex>a dottr af
+                                Bononien.</rubric>
+                            <rubric>I. C<ex>a</ex>p<ex>itul</ex>e.</rubric>
+                            <incipit>J wallande Fordum daga til Bőnoni=en v<ex>ar</ex> e<ex>ir</ex>n Doctor i læknis
+                                    konstin<ex>n</ex>e, hu<ex>or</ex> ed tte eina dottr er v<ex>ar</ex> mi<ex>og</ex> frijd litz
+                                    o<ex>g</ex> heid<ex>ar</ex>lig</incipit>
+                            <explicit>lif<ex>de</ex> h<ex>un</ex> sva m<ex>ed</ex> sijn<ex>um</ex> kiæra
+                                    e<ex>ck</ex>tam<ex>anne</ex> Greijfa Bertr<ex>am</ex> m<ex>or</ex>g r þar eftt<ex>er</ex> i
+                                    Christeleg<ex>um</ex> kiærleijka og gődre Vnadsemd.</explicit>
+                            <finalRubric>og end<ex>ar</ex> hi<ex>er</ex> sva þ<ex>et</ex>ta æfin<ex>n</ex>tijr af Greijfa Bertram
+                                af Rosilien.</finalRubric>
+                            <note>7 chapters.</note>
+                        </msItem>
+                        <msItem n="15" class="avint">
+                            <locus from="139v:1" to="143v:33">139v-143v</locus>
+                            <title type="supplied">Æfintýr</title>
+                            <textLang mainLang="non">Icelandic</textLang>
+                            <rubric>Æfin<ex>n</ex>tijr af ein<ex>um</ex> Meijstara</rubric>
+                            <incipit>Svo er sagt at Paűlűs het e<ex>ir</ex>n agiætűr meijst<ex>ar</ex>e s<ex>e</ex>m optt
+                                    h<ex>e</ex>f<ex>ur</ex> v<ex>er</ex>it, en<ex>n</ex> þö v<ex>ar</ex> þ<ex>es</ex>se
+                                    einkan<ex>n</ex>ligr til Wisku og f<ex>ra</ex>m<ex>m</ex>sijne</incipit>
+                            <explicit>Főr h<ex>an</ex>n sva i brott f<ex>ra</ex> Meijst<ex>ar</ex>an<ex>um</ex> og kom
+                                    alld<ex>re</ex> afft<ex>ur</ex>. Er þ<ex>et</ex>ta æfin<ex>n</ex>tijr skrif<ex>ad</ex>
+                                    ødr<ex>um</ex> til v<ex>id</ex> vórun<ex>ar</ex>, at þ<ex>ei</ex>r t<ex>ak</ex>e hőf=lega
+                                    heimslu<ex>ck</ex>u þ<ex>es</ex>sa<ex>re</ex>, þ<ex>via</ex>t lu<ex>ck</ex>=an<ex>n</ex> er
+                                fallvóllt, hv<ex>er</ex>ful o<ex>g</ex>  stódug,</explicit>
+                            <finalRubric>og endum Vier sva þ<ex>et</ex>ta æfintijr.</finalRubric>
+                            <colophon>skrif<ex>ad</ex> ath Wigur v<ex>id</ex> Jsafiardar Diup af Jőne Biórnssijne, Anno 1690. D.
+                                25. Jän:</colophon>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="2"/>
+                                    <num type="book-block" value="143"/>
+                                    <num type="back-flyleaf" value="2"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="320"/>
+                                        <width unit="mm" quantity="185"/>
+                                    </dimensions>
+                                    <watermark ana="yes">Crown above horn</watermark>
+                                </support>
+                                <foliation ana="contemporary fol"/>
+                                <condition ana="good"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-prose" columns="1" writtenLines="37 43">
+                                    <num type="wpl" atLeast="9" atMost="15"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="240"/>
+                                        <width unit="mm" quantity="117"/>
+                                    </dimensions>
+                                    <catchwords ana="yes"/>
+                                    <note>Written in dark brown ink in long lines with 37 to 43 lines per page. The title page is
+                                        written in 2 paragraphs, the first line is the longest, and then the lines get narrower
+                                        and narrower towards the end of the paragraph, like many title pages in printed books.
+                                            <title type="uniform">Ölkofra þáttr</title> does not have chapter counting, but the
+                                        text starts in new lines instead. On fols. <locus>78r-81r</locus> verses are indicated
+                                        with a <q>v</q> in the margins. On fols. <locus>44v:40-45r:6</locus> verses are written in
+                                        a different script and are indicated with a <q>v</q> in the margins. The margins on fols.
+                                            <locus>1-129</locus> are either grooved or drawn. On fols.
+                                        <locus>129v:13-143v</locus>, written by <name type="person">Jón Björnsson</name>, the ink
+                                        is brighter and the margins are narrower. Written area for fols. <locus>1-129</locus>: c.
+                                        240mm high, 115mm wide, for fols. <locus>130-143</locus> 240mm high, 120mm wide </note>
+                                </layout>
+                            </layoutDesc>
+
+                        </objectDesc>
+                        <handDesc hands="4">
+                            <!-- 'identity ref uncertain' notes indicate ambiguity in authority records? -->
+                            <handNote scribeRef="#ThoJon006" scope="major" script="kurrent">Fols. <locus>1-129v:12</locus> were
+                                written by Þórður Jónsson.</handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="kurrent">Fol. <locus>129v:13-43</locus> was
+                                probably written by hand 2 of <ref type="ms">AM 148 8vo</ref>.</handNote>
+                            <handNote scribeRef="#JonTho001" scope="minor" script="kurrent">Fols. <locus>130r-133v</locus> were
+                                written by Jón Þórðarson. identity ref uncertain</handNote>
+                            <handNote scribeRef="#JonBjo011" scope="minor" script="kurrent">Fols. <locus>134r-143v</locus> were
+                                written by Jón Björnsson. identity ref uncertain</handNote>
+                        </handDesc>
+                        <decoDesc ana="medium">
+                            <decoNote type="border">Title page: ornamented frame, ca 1.5cm wide (ca 3cm on bottom) top:
+                                stairways-meander (looks like little squares), 2 interlaced meanders to the left and 4 at the
+                                bottom, leaf ornament to the right, between 2nd and 3rd line of writing again a
+                                meander.</decoNote>
+                            <decoNote type="initial">Often decorated initials at saga and chapter beginnings, usually over 2
+                                lines; on fols. <locus>13v, 14v, 15r, 71v, 74v and 81r</locus> over 3 lines; on fols. <locus>69v
+                                    and 89r</locus> over 4 lines; on fols. <locus>28v and 61r</locus> over 5 lines. Initials on
+                                fols. <locus>13v, 15r, 81v, 85v and 96v</locus> with little faces drawn inside the
+                                initial.</decoNote>
+                            <decoNote type="paratext">Catchwords on each page, on right bottom margin, with flourish beneath them,
+                                except on fol. <locus>57r</locus>; on fol. <locus>101v</locus> an animal is drawn around the
+                                catchword; on fol. <locus>121v</locus> the catchword is underlined with a drawing of an animal’s
+                                head, hand and pointing fingers; on fol. <locus>122r</locus> there are two hands drawn around the
+                                catchword.</decoNote>
+                        </decoDesc>
+                        <additions ana="low">Additions and corrections to the text in margins (same hand or different? some
+                            probably by <name type="person">Jón Björnsson</name>). Stamp of British Library (picture of a crown,
+                            with <q>British Museum</q> written in half-circles around it) on fols. <locus>11v, 22v, 35v, 48v, 65v,
+                                77v, 91v and 113v</locus>. On fols. <locus>1v and 143v</locus> there is <q>MUSEUM BRITANNICUM</q>
+                            stamped in red ink. Fol. <locus>27v</locus>, bottom margin: <q xml:lang="is">13 Arker.</q> Fol.
+                                <locus>113v:1</locus>: <q>ed<ex>ur</ex> h<ex>e</ex>r<ex>ra</ex> Ivent.</q> added to the rubric
+                            probably by <name type="person">Jón Björnsson</name>. From fol. <locus>85r</locus> on hardly any
+                            marginalia.</additions>
+                        <bindingDesc>
+                            <binding ana="moderate" contemporary="false">
+                                <p>The current binding from <date when="1898">1898</date> is a standard British
+                                    Museum half binding; black leather corners and spine, rest navy blue, gold imprints along
+                                    corners (where black and blue leather meet), paste-downs blue marbled paper, gold imprint on
+                                    spine <q xml:lang="en">ICELANDIC SAGAS. BRIT. MUS. - PRESENTED BY SIR J. BANKS, BART.
+                                        ADDITIONAL 4857</q>; on top of spine sticker <q>113</q>, on bottom sticker <q>d</q>.
+                                        <note>The leaves are mounted on guards, the quires consist of single leaves. No
+                                        information about former quires or the original structure of the manuscript is available.
+                                    </note></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1669" to="1690"/> Written in Iceland for <name type="person" role="commie" key="MagJon008">Magnús Jónsson</name> í <name type="place">Vigur</name>. <name type="person" role="scribe" key="ThoJon006">Þórður Jónsson</name> wrote fols. <locus>1-129v:12</locus> between
+                            1669 and 1670. He also stated when he finished the following items: <list type="simple">
+                                <item>At the end of <title type="uniform">Göngu-Hrólfs saga</title> on fol. <locus>27v</locus>: <q xml:lang="is">skrifad og endad  strandselium af Thorde IONSsyne þan<ex>n</ex> xvi dag
+                                        Aprijlis Anno Domini og M.DC LXIX.</q></item>
+                                <item>On fol. <locus>28r</locus>: <q>skrifud Anno M DC LXIX.</q></item>
+                                <item>At the end of <title type="supplied">Apollonius from Tyre</title> on fol.
+                                    <locus>56v</locus>: <q xml:lang="is">endad Skarde -70. 7. Jänuarij.</q></item>
+                                <item>At the end of <title type="uniform">Gautreks saga</title> on fol. <locus>60v</locus>: <q xml:lang="is">Skriffuadt og endadt  Skarde ii Skardsstrønd J Øgur Sueit þan<ex>n</ex> 29.
+                                        Decembris Anno 1669. af Thőrde Jőnßyne</q>.</item>
+                                <item>At the end of <title type="uniform">Sörla saga sterka</title> on fol. <locus>74r</locus>: <q xml:lang="is">1670. 5 Jänüa<ex>rij</ex></q>.</item>
+                                <item>At the end of <title type="supplied">The master thief</title> on fol. <locus>113r</locus>:
+                                        <q xml:lang="is">Enn nu  nijtt skriffad og endad ad skarde vid skøtufiørd Af þőrde
+                                        Jőnßyne 8 Martij -70.</q></item>
+                            </list><name type="person" key="JonBjo001">Jón Björnsson</name> wrote fols. <locus>134r-143v</locus>
+                            in 1690. On fol. <locus>143v</locus> he wrote <q xml:lang="is">Skrif<ex>ad</ex> ath Vigur v<ex>id</ex>
+                                Isafiardar Diup af Jöne biórnssijne, Anno 1690. D. 25 Jän:</q>.</origin>
+                        <provenance>
+                            <p>The manuscript, along with others, was sent to <name type="person" role="owner" key="JosBan001">Sir
+                                    Joseph Banks</name> <date from="1773" to="1779">between 1773 and 1779</date>. Sir
+                                    Joseph Banks gave the manuscript to the British Library either on <date when="1778-01-09">9 January 1778</date> or on <date when="1781-03-16">16 March 1781</date>.</p>
+                        </provenance>
+                        <!--acquisition><note>
+                                <bibl default="false" status="draft">Jón Helgason, Til Heiðreks sagas overleveringshistorie. in:
+                                    Acta Philologica Scandinavica (1934-35) 158-160</bibl>
+                                <bibl default="false" status="draft">Jón Helgason, Kvæðabók úr Vigur. AM 148 8vo. Kaupmannahöfn,
+                                    1955. 8-9</bibl>
+                            </note></acquisition>-->
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2009-07-14">Catalogued by Silvia Hufnagel.</change>
+            <change when="1013-01-14" who="#BES">Adjusted markup. Information on wpl and script type still missing, some scribes
+                ambiguous.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="N" org="uniform" sample="complete"/>
+        </body>
+    </text>
+</TEI>

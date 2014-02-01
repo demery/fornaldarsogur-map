@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 9 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0009-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 9 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem class="fas" n="1">
+                     <locus from="1r:1" to="48r:22"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <rubric>Fröda þättur</rubric>
+                     <incipit><supplied reason="omitted" instant="false">M</supplied>adur hiet Halfdan, En<ex>n</ex>
+                           an<ex>n</ex><ex>ar</ex> Fröde brædur tvier og konga sÿner.</incipit>
+                     <explicit>Og si<ex>n</ex> haugur han<ex>n</ex>da hvorium<ex>m</ex> kappa, <ex>og</ex> nockurt vopn hia. Og
+                        endar hier Søgu Hrolfs kongs Kraka, og kappa han<ex>n</ex>s.</explicit>
+                     <textLang mainLang="non"/>
+                     <note>The manuscript was once part of a larger codex.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="48"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="301"/>
+                              <width unit="mm" quantity="186"/>
+                           </dimensions>
+                           <watermark ana="yes">A gate with a pointed roof and two bigger round towers, one at each side. The
+                              towers have round windows. Different watermark on front and back flyleaf: a large royal emblem, held
+                              by two lions. Below the emblem the letters H and S are written into each other.</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliation in red ink by <name type="person" role="scholar" key="KriKaa001">Kristian
+                              Kålund</name></p>
+                        </foliation>
+                        <condition ana="good"><p>The manuscript is very well preserved. There are several traces of liquid on the
+                              paper. The user traces on the edges are medium brown, which shows rather frequent usage. Remains of
+                              old repairs.</p></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="26">
+                           <num type="wpl" atLeast="9" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="240"/>
+                              <width unit="mm" quantity="131"/>
+                           </dimensions>
+                           <catchwords ana="yes">Catchwords only on <locus from="20v" to="21r">20v-21r</locus>, <locus from="30v" to="30v">30v</locus>.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonErl001" scope="sole" script="hybrida"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="other">Very sparse decoration on enlarged letters, e.g. on fol. <locus from="2r" to="2r">2r</locus></decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Fols. <locus facs="1r" to="6r">1r-6r</locus> contain marginalia in Latin and Icelandic by the same scribe
+                        who wrote the main text. Some parts of the marginalia have been cut off when trimmed for binding. The
+                        marginalia on the first two folios are:<list type="simple">
+                           <!-- might be necessary to reformat this -->
+                           <item>
+                              <locus>1r</locus>: <q>hundar virfels</q></item>
+                           <item>
+                              <locus>1r</locus>:
+                              <q>fornfræde</q>
+                           </item>
+                           <item>
+                              <locus>1r</locus>: <q xml:lang="lat">magica artes</q>
+                           </item>
+                           <item>
+                              <locus>1r</locus>:
+                              <q xml:lang="lat">incendium</q>
+                           </item>
+                           <item>
+                              <locus>1r</locus>:
+                              <q>trundar eidar</q>
+                           </item>
+                           <item>
+                              <locus>1r</locus>:
+                              <q xml:lang="lat">nomen proprium</q>
+                           </item>
+                           <item>
+                              <locus>1v</locus>:
+                              <q xml:lang="lat">proverbium</q>
+                           </item>
+                           <item>
+                              <locus>1v</locus>:
+                              <q>geÿmsla i jarhüsum(m)</q>
+                           </item>
+                           <item>
+                              <locus>1v</locus>:
+                              <q>heïted fie til hófuds</q>
+                           </item>
+                           <item>
+                              <locus>1v</locus>:
+                              <q>volvur og vÿsendam<ex>enn</ex>
+                              </q>
+                           </item>
+                           <item>
+                              <locus>1v</locus>:
+                              <q xml:lang="lat">magi &amp; sage</q>
+                           </item>
+                           <item>
+                              <locus>1v</locus>:
+                              <q xml:lang="lat">non hic sunt</q>
+                           </item>
+                           <item>
+                              <locus>1v</locus>:
+                              <q xml:lang="lat">magis artibus investigari res repetendas</q>
+                           </item>
+                        </list> The Latin marginalia explain difficult Icelandic terms and indicate the appearance of a proper
+                        name or a proverb. Fol. <locus>3r</locus> contains a reference to <title type="uniform" xml:lang="is">Hervarar saga og Heiðreks</title>. Marginalia in Icelandic quote or describe interesting expressions
+                        or actions in the text. An AM-slip is glued to the first front flyleaf. It reads <q>Hrolfs Kraka saga med
+                           hendi Sr. Jons i Villinga hollte lied mier af Jone Þorlakssyne 1709 og sida<ex>n</ex> selld 1710. Var
+                           tilforna i in<ex>n</ex>bundinni bok. þessa Hrolfs Sögu hefi eg láted conferera vid eitt mitt exemplar
+                           in 4to</q>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>White leather binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> bought the manuscript from <name type="person" role="owner" key="JonTho012">Jón Þorláksson</name> in 1710.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:43.815+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:02.079+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:26.9+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2013-02-12" who="#BES">Added information from TL's diss. To be checked and completed with ms.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

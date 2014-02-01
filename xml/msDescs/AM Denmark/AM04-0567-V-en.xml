@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 567 V 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0567-V-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 567 V 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r:1" to="6r:22">1r-6r:22</locus>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <incipit defective="true">Sídan d<ex>ra</ex>p síg<ex>urdr</ex> þa fofní <ex>ok</ex> reg<ex>in</ex></incipit>
+                     <explicit><ex>ok</ex> þ<ex>ar</ex> f<ex>ra</ex> norna gest ath seigia.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="islt">
+                     <locus from="6r:23" to="8v:26">6r:23-8v</locus>
+                     <title type="uniform">Orms þáttur Stórólfssonar</title>
+                     <incipit><supplied reason="omitted" instant="false">H</supplied>æ<ex>n</ex>g<ex>ur</ex> het m<ex>adur</ex> s<ex>on</ex> Ketils</incipit>
+                     <explicit><ex>ok</ex> b<ex>re</ex>gd<ex>ur</ex> sid<ex>an</ex> í hagld<ex>ir</ex>n<ex>ar</ex> <ex>ok</ex> ve<ex>n</ex>d<ex>er</ex> v<ex>m</ex> heyi<ex>n</ex>v</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="2">paper</num>
+                           <num type="book-block" value="8">parchment</num>
+                           <num type="back-flyleaf" value="0"/>
+                           <note>The two front flyleaves (paper) were originally the front pastedown</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="fol later"> 
+                           <p>Foliated in red ink in the top margins by <name type="person" key="KriKaa001">Kålund</name>.</p>
+                        </foliation>
+                        <condition ana="average">
+                           <p>Fols. <locus>3-8</locus> are damaged and have been repaired along the inner margins.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="25 27">
+                           <num type="wpl" atLeast="8" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="125"/>
+                              <width unit="mm" quantity="85"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="cursiva">Hand A wrote fols.
+                        <locus from="1r:1" to="6r:22">1r-6r:22</locus>.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="cursiva">Hand B wrote fols. 
+                        <locus from="6r:23" to="8v:26">6r:23-8v</locus>.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Most initials are missing, some are slightly decorated.</decoNote>
+                     <decoNote type="illustration">A little dragon in the bottom margin of fol. <locus>6v</locus>.</decoNote>
+                     <decoNote type="other">Sparse decorative lines and ornaments at the end of some paragraphs.</decoNote>
+                     </decoDesc>
+                  <additions ana="medium">
+                     <p>Some younger marginalia. On the top margin of fol. <locus>6v</locus> is written with a contemporary
+                hand: <q>S<ex>an</ex>c<ex>t</ex>a fene<ex>n</ex>a</q>. 
+                        <name type="person" key="ArnMag001" role="scholar">Árni Magnússon</name>
+                        wrote on the original front pastedown bifolio (which is now bound before the parchment leaves): <q>Aptanaf Norna Gestz þætti. framanaf Orms þætti
+                    Storolfssonar.</q> 
+                        In front, there is a photo copied leaf (A4) inserted. According to a note by <name type="person" key="MagOls002" role="scholar">Magnus Olsen</name>,
+                        it shows notes from the bookbinding process, referring to the following manuscripts:
+                        <ref type="ms">AM 567 4to</ref>, <ref type="ms">AM 568</ref>, <ref type="ms">AM 230 fol.</ref> and <ref type="ms">AM 234</ref>. 
+                        The note reads: <q>Bogbindernotater - fundet af Eli(?) Rasmussen under katalogisering af Kommissionens arkiv den 12. februar 1982.
+                        Orig. ligger i samlemappe (aftagne bind, <gap/>kort m. m.) MO</q>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The fragment is kept in a cardboard binding with support for the individual leaves.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1450" notAfter="1499"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                     <name type="person" key="MagOls002" role="scholar">Magnus Olsen</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:30.045+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:32.854+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:41.778+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:57.955+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:35.657+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-07-22" who="#BES">Added catalog info.</change>
+         <change when="2013-07-24" who="#BES">Added missing information with the manuscript in situ.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+        
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

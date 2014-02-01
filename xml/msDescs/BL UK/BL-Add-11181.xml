@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11181</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11181" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11181</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Contains a series of poems, mostly Vikivakakvæði</summary>
+                  <msItem class="fas" n="1">
+                     <locus from="26r" to="43r"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Eitt æfintÿre af konge þeim sem þrándur hiet og Eireke sem menn kalla vijdførla</rubric>
+                     <incipit>Þrándur var kongur nefndur, sä er fyrst riede fyrir þrándheime.</incipit>
+                     <colophon>og endum so þetta lÿtla æfintÿr af Eirike Vijdførla.</colophon>
+                     <note>A-vers., lacuna of one leaf after fol. 28</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="112"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="105"/>
+                              <width unit="mm" quantity="80"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later fol">
+                        </foliation>
+                        <condition ana="poor"/>	
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="12 13">									
+                           <num type="wpl" atLeast="3" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="80"/>
+                              <width unit="mm" quantity="65"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>	
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" script="kurrent"/>
+                     <handNote scribeRef="unknown" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>	
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="FinMag001"/><p>According to note on flyleaf, purchased from Finnur
+                        Magnússon in July 1837</p>
+                     <name type="person" role="owner" key="JosBan001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:56.441+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-14" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

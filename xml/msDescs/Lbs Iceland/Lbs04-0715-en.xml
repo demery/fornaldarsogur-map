@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 715 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0715-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 715 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="6v"/>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <rubric>Gjafa Refs saga</rubric>
+                     <note>The ending is written in a decorative half-diamond shape. Ends in a riddle.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="7r" to="13v"/>
+                     <title type="uniform">Tíódels saga</title>
+                     <rubric>Sagan af Tíódel og hans kvinnu</rubric>
+                     <rubric/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="14r" to="19r"/>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                     <rubric>Sagan af Drauma Jóni</rubric>
+                     <note>Leaf 17 more or less missing due to a tear</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="19v" to="33v"/>
+                     <title ref="#ysv" type="uniform">Yngvars saga víðförla</title>
+                     <rubric>Sagan af Ingvari Eymundarsyni</rubric>
+                     <note>Damaged in places and missing the end.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas" defective="true">
+                     <locus from="34r" to="42r"/>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <rubric>Hér byrjar söguna af Án bogsveigir</rubric>
+                     <note>One leaf is missing</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5.1" class="drott fas">
+                     <locus from="42v" to="42v"/>
+                     <title type="supplied">Um Án bogsveigir og Þóri hálegg</title>
+                     <rubric>Vísur Magnúsar Jónssonar í Vigur</rubric>
+                     <author key="MagJon008">Magnús Jónsson í Vigur</author>
+                     <note>Two scaldic verses by Magnús Jónsson í Vigur on Ánn bogsveigir and Þórir
+                        háleggur</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd" defective="true">
+                     <locus from="43r" to="51v"/>
+                     <title type="uniform">Nítida saga frægu</title>
+                     <note>Damaged in places and missing the end</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="avint">
+                     <locus from="51r" to="55v"/>
+                     <title type="supplied">Malarinn brögðótti</title>
+                     <rubric>Ævintýri af einum brögðóttum myllumanni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fornth" defective="true">
+                     <locus from="56r" to="86v"/>
+                     <title type="uniform">Apollonius saga og Irons</title>
+                     <title type="uniform">Þiðriks saga af Bern</title>
+                     <rubric>Sagan af Appolonio kóngi af Tíró</rubric>
+                     <note>From Þiðriks saga af Bern</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="fas" defective="true">
+                     <locus from="87r" to="89v"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <filiation>
+                        <ref type="ms" target="JS 27 fol." ana="protograph">Based on JS 27 fol.</ref>
+                     </filiation>
+                     <note>Beginning only, leaf 88 more or less torn away.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="89"/>
+                           <num type="back-flyleaf" value="4"/>
+                           <note>Flyleaves, front and back, come with the binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag later">1-178</foliation>
+                        <condition ana="poor average">Some leaves are missing and script is not visible on the
+                           reverse side of some leaves</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="23 26"><!-- verse-separate/prose ? -->
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="123"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoJon029" scope="sole" script="kurrent">Scribe uses textualis only on the first page and several lines into the second plus a few on the third page. Otherwise writes in kurrent.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Initials and headings.</decoNote>
+                     <decoNote type="vignette" subtype="tailpiece">Vignettes.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Sscribbles from a later date. Names: Krossastaða kíetran, Garðhorn, 
+                        Magnús Jónsson, Hallgrímur, Jónas Þorsteirn, Jón. Grímur Grímsson á Hlíðarhaga.</p>
+                     <p>Hallgrímur. Verses: Átti ég mann og missti hann / með honum fjölda barna /
+                        duttu þau öll í dauðans höll/ nema drengurinn litli þarna. 
+                        Skriftin mín er stafastór / strikað illa letur / hún er eins og kattarklór / 
+                        ég kann það ekki betur. Hallgrímur Þorsteinsson</p>
+                     <p>List of contents on a slip from a later date added at the front</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false"><p>Library binding, leather spine and corners</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1690"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:47.757+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-06" who="#SK">Added items and classes from P.E.Ó.-catlogue and other
+            information</change>
+<change when="2012-08" who="#SK">Added the last bit from the manuscript itself</change>
+         <change when="2013-02-13" who="#BES">Fixed vaildation errors.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

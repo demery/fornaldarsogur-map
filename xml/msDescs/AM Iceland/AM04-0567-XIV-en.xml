@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 567 XIV 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0567-XIV-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 567 XIV 4to</idno>
+               </msIdentifier>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 567 XIV α 4to</idno> 
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"></titlePage>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="1r" to="1v"/>
+                        <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title> 
+                        <textLang mainLang="non"></textLang>
+                        <incipit><gap/>forsia ept<ex>ir</ex> þ<ex>at</ex> geck hun <supplied>t</supplied><ex>il</ex> <supplied>s</supplied>kem<ex>m</ex>u</incipit>
+                        <explicit>e<ex>r</ex> ept<ex>ir</ex> e<ex>r</ex> en v<ex>id</ex> asm<ex>un</ex>dr</explicit>
+                        <note>Chapters 13-15</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="1"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="243"/>
+                                 <width unit="mm" quantity="168"/>
+                              </dimensions>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="poor">Traces and trimming that indicate a former usage as binding</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="31 33">
+                              <num type="wpl" atLeast="17" atMost="20"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="220"/><!-- to be varified! from pics! -->
+                                 <width unit="mm" quantity="140"/><!-- to be varified! from pics! -->
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc ana="1">
+                        <handNote scribeRef="unknown" scope="sole" script="textualis"/>
+                     </handDesc>
+                     <decoDesc ana="low"><decoNote type="miniature" subtype="drawing">A small face drawn in an open space for rubric on fol. <locus>1r</locus></decoNote></decoDesc>
+                     <additions ana="medium">
+                        <p>
+                           <list><item><locus from="1r" to="1r"/> An identifying note in the lower margin reads: <q>(a) Af Hrolf
+                              Götrikssöns Saga Cap 13.14.15</q></item>
+                              <item><locus from="1v" to="1v"/> Squiggles in the inner and outer margin</item>
+                             </list>
+                        </p>
+                     </additions>
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1380" notAfter="1420"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p>
+                           <name type="person" role="owner" key="ArnMag001"></name>
+                        </p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 567 XIV β 4to</idno> 
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"></titlePage>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="1r" to="1v"/>
+                        <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                        <textLang mainLang="non"></textLang>
+                        <incipit defective="true">truþi betr en<ex>n</ex> ollum od<ex>rum</ex>. su het</incipit>
+                        <explicit defective="true">ne fætr. skiolld hefr þ<ex>at</ex> <gap/></explicit>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="2"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="187"/>
+                                 <width unit="mm" quantity="153"/>
+                              </dimensions>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="poor">Traces and trimming that indicate a former usage as binding; lacunae</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="30 31">
+                              <num type="wpl" atLeast="16" atMost="19"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/><!-- to be varified! from pics! -->
+                                 <width unit="mm" quantity="120"/><!-- to be varified! from pics! -->
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc ana="1">
+                        <handNote scribeRef="unknown" scope="sole" script="textualis"/>
+                     </handDesc>
+                     <decoDesc ana="low"><decoNote type="initial">Initials decorated and colored (red)</decoNote>
+                        <decoNote type="paratext">Red rubrics</decoNote></decoDesc>
+                     <additions ana="medium">
+                        <p>
+                           <list>
+                              <item> There is an AM slip that reads: <q>þetta blad er ur Hrolfs Sögu Gautrekssonar/ er gamallt</q></item>
+                              <item><locus from="1r" to="1r"/> Illegible marginalia on the inner margin</item>
+                              <item><locus from="1v" to="1v"/> Indetifying note in the outer margin: <q>567(b)<gap/> Gamalt Frgament
+                                 af Hrólfs Sögu Gautrekssonar, Cap 32.33 <gap/> samhljoða med Nr 590 C(?) in 4to</q></item>
+                              <item><locus from="3r" to="4v"/> In the back, two paper leaves (foliated 3-4) are added. They contain a transcription of the verso side of the fragment.</item></list>
+                        </p>
+                     </additions>
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1280" notAfter="1320"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p/>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 567 XIV Gamma 4to</idno> 
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"></titlePage>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="1r" to="3v"/>
+                        <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                        <textLang mainLang="non"></textLang>
+                        <incipit defective="true">Þ<ex>eir</ex>ra min<gap/> <ex>ok</ex> nu munu þau tyn<ex>ir</ex></incipit>
+                        <explicit defective="true"><ex>ok</ex> jafna<ex>n</ex> hofdu sigr haft Ept<ex>ir</ex> þ<ex>e</ex>tta hallda þ<ex>ei</ex>r</explicit>
+                        <note>Chapters 1-4, shorter version</note>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="4r" to="5v"></locus>
+                        <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                        <textLang mainLang="non"></textLang>
+                        <incipit defective="true">at sem h<ex>ra</ex>ustiligaz <ex>ok</ex> latu<ex>m</ex> þaa e<ex>igi</ex></incipit>
+                        <explicit defective="true"><ex>ok</ex> skiolld suo miykin<ex>n</ex> at huldi(?) hall</explicit>
+                        <note>chapters 24-28</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="5"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" atLeast="120" atMost="140"/>
+                              </dimensions>
+                              <note>Size varies due to trimming</note>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="poor">Holes and stains, some trimming; the last leaf was cut in two.</condition>
+                        </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="46 48">
+                           <num type="wpl" atLeast="20" atMost="22"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/><!-- to be varified! from pics! -->
+                              <width unit="mm" quantity="110"/><!-- to be varified! from pics! -->
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                     </objectDesc>
+                     <handDesc ana="1">
+                        <handNote scribeRef="unknown" scope="sole" script="textualis"/>
+                     </handDesc>
+                     <decoDesc ana="medium"><decoNote type="initial">Large and small colorful decorated initials</decoNote>
+                        <decoNote type="paratext">Red rubrics</decoNote></decoDesc>
+                     <additions ana="high">
+                        <p>
+                           <list>
+                              <item><locus from="1r" to="1r"/> <q>Gautreks Saga Cap. 1-4</q> <q>2 Cap</q> <q>(D)a Af Hrolf Götrikssöns
+                                 saga. stemmer med den Kortere (og forskællige Recension) af Sagaen som findes i 1<gap/>4c i folio. ThSil(?)</q></item>
+                              <item><locus from="1v" to="1v"/> <q>3 Cap</q> <q>4 C.</q></item>
+                              <item><locus from="2r" to="3r"/> An older identification as <q>Fragm. XXI.</q> and the note <q>Fra Eyolfe Einars syne 1708</q> (on both recto sides)</item>
+                              <item><locus from="3r" to="3r"/> The same note again: <q>Fra Eyolfe Einars syne 1708</q></item>
+                              <item><locus from="4r" to="4r"/> <q>Af Hrolfs Saga 24 Cap. 24 Cap.</q> and <q>(D)b Ur Rolfs Saugu Gautreks<ex>on</ex>ar</q></item>
+                              <item><locus from="4v" to="4v"/> Older marginalia</item>
+                              <item><locus from="5r" to="5r"/> <q>Af Hrolfsaga Cap. 27.28.</q></item>
+                           </list>
+                        </p>
+                     </additions>
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1380" notAfter="1420"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p>According to the notes on fols. <locus>3r-4r</locus>, it is likely that
+                           <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> acquired these leaves from 
+                           <name type="person" role="owner" key="EyjEin001">Eyjólfur Einarsson</name> in 1708. According to Kålund (1888, p. 725), leaves <locus>2-3</locus>
+                           were originally part of <ref type="ms">AM 667 4to</ref>.
+                        </p>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:33.448+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-08-22" who="#BES">Split up file from SMM's file and added info from black and white pictures and catalog.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

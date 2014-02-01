@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Karl Jónsson úr Purkey</title>
+            <title>Einkaeign 3</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Karl-Jonsson-ur-Purkey-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#PRIV1">Private collections</repository>
+                  <idno>Karl Jónsson úr Purkey</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="42r"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <rubric>Sagan af Hrólfi kraka og köppum hans</rubric>
+                     <textLang mainLang="non"/>
+                     <incipit>Maður hét Hálfdán, en annar Fróði, bræður tveir og konungssynir
+                     </incipit>
+                     <explicit>Sverðið Sköfnung sótti löngu síðar Miðfjarðar Skeggi í haug
+                        konungs, en hann náði ekki laufanum af Böðvari Bjarka.</explicit>
+                     <colophon>Enduð 17a október í Hrappsey af Skúla Th.S.Vinsamlegast tileinkuð
+                        Jóni Jónssyni í Purkey</colophon>
+                     <note>52 chapters</note>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="45r" to="77r"/>
+                     <title type="uniform">Hektors saga</title>
+                     <rubric>Hér skrifast sagan af Hektori og köppum hans</rubric>
+                     <textLang mainLang="non"/>
+                     <incipit>Eftir niðurbroti Trójuborgar þá eð Grikkir höfðu hana unnið</incipit>
+                     <explicit>og var þá til pínu heimsins lausnara 77 ár og ljúkum vér
+                        svo sögunni af Hektori og köppum hans.</explicit>
+                     <colophon>Párað í flýtir ár 1875 af 14 25 18 (code for: OÞS) fyrir Jón Jónsson
+                        í Purkey</colophon>
+                     <note>26 chapters</note>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="77v" to="107v"/>
+                     <title type="uniform">Marons saga sterka</title>
+                     <rubric>Saga af Marroni sterka</rubric>
+                     <textLang mainLang="non"/>
+                     <incipit>Anderoníkus er maður nefndur hann var bóndi einn og bjó nærri
+                        þeim fjöllum er Mundíafjöll eru kölluð</incipit>
+                     <explicit>að Marron hafi verið hin mesta hetja sem sögur um geta og
+                           endar þannig sagan af Marroni sterka.</explicit>
+                     <colophon>Párað í flýtir ár 1875 af 14 25 18 (code for: OÞS)fyrir Jón Jónsson á
+                        Purkey</colophon>
+                     <note>20 chapters</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="97"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm">223</height>
+                              <width unit="mm">178</width>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later pag">Fols. 45r-97v paginated 2-126. Fols. 42r, 43r-v, 44v and 98r blank.</foliation>
+                        <condition ana="average good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="28 32">
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <catchwords ana="yes">Every page; beneath the text</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <!-- more extensive description of hands on handrit.is:
+                        http://handrit.is/en/manuscript/xml/Einkaeign-0003-is.xml -->
+                     <handNote scribeRef="#SkuSiv001" scope="major" script="kurrent"><!--Skúli Sívertsen
+                        í Hrappsey--></handNote>
+                     <handNote scribeRef="#OlaTho004" scope="major" script="kurrent"><!--Ólafur
+                        Þorgeirsson í Skáleyjum--></handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">Signatures, e.g. "Jón Jónsson Purkey" and a table of contents on the front fly-leaves</additions>
+                  <bindingDesc>
+                     <binding ana="plain"> <!-- contemporary? -->
+                        <p>Leather spine and corners; paper boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1850" notAfter="1875"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>Owned by <name type="person" key="JonJon053">Jón
+                        Jónsson</name> í <name type="place" key="PurSka01">Purkey</name>. Dated 1875 and 1903 (front flyleaf
+                        recto, fols. 42r, 44r, 107, 108v, back flyleaf verso). Currently owned by <name type="person" key="EinKar001">Einar Karlsson í
+                           <name type="place" key="Stykki01"/>Stykkishólmi</name> as of 2010 (front inside cover).</p>
+                  </provenance> <!-- how about Karl Jónsson ?! -->
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:36.681+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-06" who="#SK">Put in the information from her own catalouging of the
+            manuscript itself on handrit.is </change>
+         <change when="2013-03-15" who="#BES">Checked and added last peices of information. Added ref to fas and textLang.</change>
+         <change when="2013-09-12" who="#BES">Proofread as far as possible.</change>
+         <change when="2013-11-05" who="#JSL">Expanded provenance and added incipits/explicits from handrit description.</change>
+         <!-- update description using images at http://handrit.is/en/manuscript/view/is/Einkaeign-0003 -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

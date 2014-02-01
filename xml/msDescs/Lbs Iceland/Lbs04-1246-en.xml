@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1246 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1246-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1246 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Völsungasaga</titlePart>
+                     <titlePart>(Afskriven efter haandskrift, som tilhörer Prof. B.
+                        Thorlacius og sammenlignet med haandskriftet i quart no 281, i den
+                        Arnæmagnæanske samling, som her betegnes med et M. samt med Björner kompa
+                        daller, som betegnes med B.) <note>At the beginning of the manuscript but
+                           only applying to the first item</note></titlePart>
+                     <titlePart>Sagan af Ragnar Lodbrok ok Sonum hans. (Afskreven efter
+                        haandskrift i den Magnæanske Samling 281, og sammenlignet med et andet, som
+                        tilhörer Hr Professor B. Thorlacius; förste betegnes ved M, det andet med
+                        Th.) F Schaldemose 1816. Nykiöbing paa Falster 1816</titlePart>
+                     <note>a titlepage in the middle applying only to one saga.</note>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="61v"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <rubric>Hér byrjast Völsungasaga eður sagan af Sigurði Fáfnisbana</rubric>
+                     <filiation>
+                        <ref type="ms" target="AM 281 4to" ana="protograph"/>
+                     </filiation>
+                     <note>After AM 281 4to and prof. Birger Thorlacius' manuscript</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="godkv hetkv">
+                     <locus from="62r" to="69r"/>
+                     <title type="uniform">Sigurdrífumál</title>
+                     <rubric>Heilræði Brynhildar til Sigurðar</rubric>
+                     <filiation>
+                        <ref type="ms" target="AM 281 4to" ana="protograph"/>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                     <note>After AM 281 4to and prof. Birger Thorlacius' manuscript</note>
+                     <note>Text preceding the title: I den afskrift, som tilhörer hr prof.
+                        B.Thorlacius, findes fölgende tilfsætninger. Ved iden af 30 Logitet</note>
+                  </msItem>
+                  <msItem n="2.1" class="bokmfr">
+                     <title type="supplied">Útlegging yfir Sigurdrífumál</title>
+                     <author key="BjoJon006">Björn Jónsson á Skarðsá</author>
+                     <msItem n="2.2" class="godkv hetkv">
+                        <title type="supplied">Brynhildarljóð</title>
+                        <rubric>Brynhildarljóð, annar partur</rubric>
+                        <filiation>
+                           <ref type="ms" target="AM 281 4to" ana="protograph"/>
+                        </filiation>
+                        <note>After AM 281 4to and prof. Birger Thorlacius' manuscript</note>
+                        <textLang mainLang="non"/>
+                        <!-- Óvíst hvaða texta er hér um að ræða, en líklega síðari hluti Sigurdrífumála -->
+                     </msItem>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="71r" to="109r"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <rubric>Sagan af Ragnar loðbrók og sonum hans</rubric>
+                     <incipit>Herrauður hét maður og var jarl ríkur og ágætur</incipit>
+                     <note>Starts with the chapter on Þóra Borgarhjörtur</note>
+                     <filiation>
+                        <ref type="ms" target="AM 281 4to" ana="protograph"/>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                     <note>After AM 281 4to and prof. Birger Thorlacius' manuscript</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="109"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="207"/>
+                              <width unit="mm" quantity="167"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary">1-135, 1-77. Blank leaves 68v-69, 70v, 109v.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="25 28">
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="182"/>
+                              <width unit="mm" quantity="132"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#FreSch002" scope="sole" script="hum cursiva">Fr.
+                        Schaldemose</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="high">
+                     <p>Writing on back dust cover reads: Keypt á bókaauktion hjjá Lembke í Kh. d28
+                        Jan. ´29 af stúd. kgr EJohnsen og af honum mér gefin; annars er það álitið
+                        merkilegt við handrit þetta að það er það sama, sem R. Muller umgetur í
+                        Sagabiblioteke sínu við Völs.sögu hversu se það nú er á leið borið og hingað
+                        komið. Þ. Helgason Testis E.M.s. </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate">
+                        <p>Leather spine and corners</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1816"/>
+                     
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnOla003">Arnljótur Ólafsson</name>
+                     <name type="person" role="signatory" key="ArnOla003">Arnljótur Ólafsson</name>
+                     <name type="person" role="signatory" key="ambig">Th.Hallgrímsson</name>
+                     <name type="person" role="signatory" key="ambig">Þorsteinn Helgason</name>
+                     <name type="person" role="owner" key="ambig">Eggert Jónsson læknir</name>
+                     <name type="person" role="signatory" key="ambig">E.M.s</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:53.471+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07-26" who="#SK">Added items and classes and other information according
+            to theP.E.Ó.-catalogue. The file had only one item although the manuscript has two
+            fornaldarsögur and theere was a wrong scribe and date of origin</change>
+         <!-- Magnús Jónsson í Tjaldanesi was said to be the scribe and origin date to be 1902.
+            Here is some mix up. Probably something like Lbs 1546 4to or whatever-->
+         <change when="2012-09-17" who="#SK">Added information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

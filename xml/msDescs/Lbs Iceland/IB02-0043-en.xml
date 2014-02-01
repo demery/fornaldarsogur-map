@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>ÍB 43 fol.</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+        <authority>Den Arnamagnæanske Samling, København</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="IB02-0043-en" xml:lang="en">
+          <msIdentifier>
+            <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+            <idno>ÍB 43 fol.</idno>
+          </msIdentifier>
+          <msContents>
+            <titlePage ana="no">
+            </titlePage>
+            <msItem n="1" class="fas">
+              <locus from="1r" to="12v"/>
+              <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+              <textLang mainLang="non"/>
+              <note>A-vers.</note>
+            </msItem>
+            <msItem n="2" class="fas">
+              <locus from="13r" to="38v"/>
+              <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+              <textLang mainLang="non"/>
+            </msItem>
+            <msItem n="3" class="fas">
+              <locus from="39r" to="49r"/>
+              <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+              <textLang mainLang="non"/>
+            </msItem>
+            <msItem n="4" class="fas">
+              <locus from="50r" to="55r"/>
+              <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+              <textLang mainLang="non"/>
+            </msItem>
+            <msItem n="5" class="fas">
+              <locus from="55r" to="57v"/>
+              <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+              <textLang mainLang="non"/>
+              <note>A-vers.</note>
+            </msItem>
+            <msItem n="6" class="fas">
+              <locus from="59r" to="69r"/>
+              <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+              <textLang mainLang="non"/>
+            </msItem>
+            <msItem n="7" class="fas">
+              <locus from="70r" to="74v"/>
+              <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+              <textLang mainLang="non"/>
+            </msItem>
+            <msItem n="8" class="fas">
+              <locus from="75r" to="80v"/>
+              <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+              <textLang mainLang="non"/>
+              <note>Older vers.</note>
+              <filiation>
+                <ref type="ms" target="#AM04-1008-en" ana="antigraph">Copy of AM 1008 4to</ref>
+              </filiation>
+            </msItem>
+            <msItem n="9" class="fas">
+              <locus from="81r" to="102r"/>
+              <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+              <textLang mainLang="non"/>
+            </msItem>
+            <msItem n="10" class="fas">
+              <locus from="102v" to="114v"/>
+              <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+              <textLang mainLang="non"/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="chart">
+              <support>
+                 <num type="front-flyleaf" value="5"/>
+                <num type="book-block" value="114"/>
+                <num type="back-flyleaf" value="7"/>
+                <dimensions type="leaf">
+                  <height unit="mm" quantity="290"/>
+                  <width unit="mm" quantity="180"/>
+                </dimensions>
+                <watermark ana="yes"/>
+              </support>
+              <foliation ana="fol contemporary later"/>
+              <condition ana="poor"/>
+              </supportDesc>
+              <layoutDesc>
+                <layout ana="verse-separate" columns="1" writtenLines="32 39">
+                <num type="wpl" atLeast="12" atMost="16"/>
+                <dimensions type="written">
+                  <height unit="mm" quantity="287"/>
+                  <width unit="mm" quantity="162"/>
+                </dimensions>
+                  <catchwords ana="yes">A few catchwords</catchwords>
+              </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Hum cursiva for main text, chancery for rubrics</handNote>
+            </handDesc>
+            <decoDesc ana="medium">
+              <decoNote type="initial">Decorated initials: letters bigger and in a different script type
+                 </decoNote>
+            </decoDesc>
+            <bindingDesc>
+              <binding contemporary="false" ana="moderate">
+                <p>Library binding; leather spine and corners</p>
+               </binding>
+              </bindingDesc> 
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="1730" notAfter="1770"/>
+              <origPlace key="IS"/>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography
+      data</change>
+      <change when="2011-05" who="SK">Added information from the P.E.Ó-catalogue and the manuscript itself</change>
+      <change when="2013-07-18" who="SMM">Minor changes.</change>
+      <change when="2013-08-05" who="#BES">Proofread.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface/>
+  </facsimile>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

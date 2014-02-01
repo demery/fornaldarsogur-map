@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1311 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1311-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1311 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r:1" to="119v"/>
+                     <title type="supplied">Poems, hymns, etc.</title>
+                     <textLang mainLang="is"/>
+                     <msItem n="1.1" class="kvad"><title type="uniform">Krosskveðjur</title><author key="MagHal001"/></msItem>
+                     <msItem n="1.2" class="rimur"><title type="uniform">Tímaríma</title><author key="JonSig013"/></msItem>
+                     <msItem n="1.3" class="kvad"><title type="uniform">Einvaldsóður</title><author key="GudErl001"/></msItem>
+                     <msItem n="1.4" class="kvad"><title type="uniform">Geðfró</title><author key="SigJon0036"/></msItem>
+                     <msItem n="1.5" class="salm"><title type="supplied">Hymns</title><author key="HalPet001"/></msItem>
+                     <note>Various leafs and parts of different manuscripts.</note>
+                  </msItem>
+                  <msItem n="2" class="rimur" defective="true">
+                     <locus from="120r:1" to="153v:24"/>
+                     <title type="supplied">Rímur fragments (Esóp, Nitida) etc.</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="fas" defective="true">
+                     <locus from="154r:1" to="161v:19"/>
+                     <title ref="#hso" type="uniform">Hjálmþés saga og Ölvis (Beginning)</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Biriast Sagan<ex>n</ex> Af Hiälmtýr <ex>og</ex> Ölver</rubric>
+                     <incipit>Firsti Capituli Ingve hefur kongur heitið han<ex>n</ex> var agiætur kongur</incipit>
+                     <explicit>þá skaltu gánga firir föðr þin<ex>n</ex> og bidia han<ex>n</ex> um<ex>m</ex>
+                        lid en<ex>n</ex> <ex>hann</ex> un</explicit>
+                     <note>Only the beginning</note>
+                  </msItem>
+                  <msItem n="4" class="unknown">
+                     <locus from="162r" to="166v"/>
+                     <title type="supplied">Some loose leaves</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="kvad">
+                     <locus from="167r:1" to="225r:13"/>
+                     <title type="supplied">Einvaldsóður</title>
+                     <textLang mainLang="is"/>
+                     <author key="GudErl001"/>
+                     <rubric>Einvallds Odur Hiodande um þær Einvallds Stiorner I Sex Dálka Saman<ex>n</ex>tekin An<ex>n</ex>o 1658</rubric>
+                     <incipit>Liös fer ad leggia. Lÿsa Stiornur</incipit>
+                     <note>Two manuscripts of Einvaldsóður.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="226"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="169"/>
+                              <width unit="mm" quantity="104"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="21">
+                           <num type="wpl" atLeast="3" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="152"/>
+                              <width unit="mm" quantity="87"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="7">
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="late kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="none">
+                        <p>Loose leafs and quires, unbound but with a leather cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1800"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:15.255+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-05" who="#SMM">Added msItems and missing msDesc codes.</change>
+         <change when="2013-07-19" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-08-30" who="#TL">Checked markup consistency</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

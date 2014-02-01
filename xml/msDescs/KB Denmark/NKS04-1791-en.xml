@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1791 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1791-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1791 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 53 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                  </titlePage> <!-- check -->
+                  <msItem n="1" class="handfr">
+                     <locus from="1r" to="1v"/>
+                     <title type=" supplied">Note on text and exemplar; copy of antigraph's AM-slip</title>
+                     <textLang mainLang="is" otherLangs="da"/>
+                     <note>The original AM-slip of AM 342 4to is now lost</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="2r" to="148v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="#AM04-0342-en" ana="antigraph">copy of AM 342 II 4to</ref></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="front-flyleaf" value="1"/>
+                        <num type="book-block" value="148"/>
+                        <num type="back-flyleaf" value="2"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="187"/> 
+                           <width unit="mm" quantity="154"/>
+                        </dimensions>
+                        <watermark ana="yes">Maid of Dort "ProPatria"; "JHonig <ex>et</ex> Zoonen"</watermark>
+                     </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good">Slight discoloration</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="18 19">
+                           <num type="wpl" atLeast="4" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="140"/>
+                                 <width unit="mm" quantity="100"/> 
+                              </dimensions>
+                              <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva">chancery fractura for rubrics</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">slight decoration of initials</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p><name key="PetSuh001" type="person" role="owner">Suhm</name> made two additional notes
+                     about the exemplar,
+                     one on the verso side of the front flyleaf, the other one in the margin of fol. <locus>1r</locus>.</p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown leather binding; fore-edge painted blue; marbled paper as pastedown; golden imprint on spine: title and floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no 53 4to</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:46.608+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-03" who="#BES">Added catalog info.</change>
+         <change when="2013-05-28" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

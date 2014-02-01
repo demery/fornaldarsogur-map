@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1760 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1760-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1760 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 697 4to</idno>
+                  </altIdentifier>
+
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="31v"/>
+                     <title type="uniform" ref="#hsh">Sörla þáttur</title>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <!-- danish for note on antigraph (1r) (not sure this qualifies as
+                     other langs) -->
+                     <filiation><ref type="ms" target="#AM04-0587e-en" ana="antigraph">copy of AM 587 e 4to</ref></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="31"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="164"/>
+                           </dimensions>
+                           <watermark ana="yes">"Maid of Dort "ProPatria ALP"; "GR" with crown on top.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="15 16">
+                           <num type="wpl" atLeast="4" atMost="5"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="140"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoAra005" scope="sole" script="hum cursiva">Chancery fractura for rubrics; kurrent for
+                        note on exemplar</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p><name key="PetSuh001" type="person" role="owner">Suhm</name>'s hand can be seen on fol. <locus>1r</locus>
+                        same unclear word as in NKS 1761 4to).</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Plain paper binding; water stains close to the spine</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 697 4to</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:39.2+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-05-03" who="#BES">Added catalog info.</change>
+         <change when="2013-05-27" who="#BES">Added missing information with manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

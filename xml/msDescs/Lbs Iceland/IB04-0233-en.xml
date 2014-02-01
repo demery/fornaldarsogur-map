@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 233 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0233-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 233 4to</idno>
+               </msIdentifier>
+               <msContents>
+                <!--  <titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="ridd" defective="true">
+                     <locus from="1r" to="13v"/>
+                     <title type="uniform">Fertrams saga og Platós</title>
+                     <textLang mainLang="is"/>
+                     <note>In the hand of rev. Árni Gíslason at Stafafell</note>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="14r" to="19r"/>
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <textLang mainLang="is"/>
+                     <note>A-vers.</note>
+                     <note>Misbound</note>
+                  </msItem>
+                  <msItem n="3" class="fas" defective="true">
+                     <locus from="20r" to="27v"/>
+                     <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                     <incipit defective="true">Illugi gekk ei að síður og bar flagð</incipit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="28r" to="41v"/>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="is"/>
+                     <note>Misbound</note>
+                  </msItem>
+                  <msItem n="5" class="ridd" defective="true">
+                     <locus from="42" to="70v"/>
+                     <title type="uniform">Blómsturvalla saga</title>
+                     <incipit defective="true">Kóngur hafði ráðið fyrir Noregi</incipit> 
+                     <textLang mainLang="is"/>
+                     <note>Misbound</note>
+                  </msItem>
+                  <msItem n="6" class="ridd"> <!-- ??? -->
+                     <locus/> 
+                     <title type="uniform">Karlamagnús saga og kappa hans</title>
+                     <note>This item is mentioned for in the Lbs printed catalogue, but is not in the parcel, nor
+                        does there appear to be anything in the hand of Jón Ólafsson úr Grunnavík.</note> 
+                  </msItem>
+                  <msItem n="7" class="landfr ferds" defective="true">
+                     <locus from="71r" to="85r"/>
+                     <title type="supplied">Ferðasaga Jores Pines</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="86r" to="88v"/>
+                     <title ref="#ttht" type="uniform">Tóka þáttur Tókasonar</title>
+                     <rubric>Af Tóka Tókasyni</rubric>
+                     <textLang mainLang="is"/>
+                     <note/>
+                  </msItem>
+                  <msItem n="9" class="ridd" defective="true">
+                     <locus from="86r" to="97v"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="is"/>
+                     <note>Misbound</note>
+                  </msItem>
+                  <msItem n="10" class="tyd sagnps sagnfr" defective="true">
+                     <locus from="98r" to="101r"/>
+                     <title type="supplied">Persakonunga sögur</title>
+                     <textLang mainLang="is"/>
+                    <!-- <filiation>
+                        <ref type="ms" ana="protograph"/>
+                     </filiation>-->
+                     <note>A translation from Latin by rev. Einar Bjarnason á Prestsbakka and a copy
+                        by rev. Sveinn Péturson á Hofi Álftafirði.</note>
+                     <note>In the hand of rev. Sveinn Pétursson at Hof.</note>
+                     <note>Fragment; contains the 8th and 9th chapters</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="101"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="198"/>
+                              <width unit="mm" quantity="153"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor">In loose leaves, a collection of detective sagas. Paper fragmentary, rotten and
+                           torn. Restored</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="18 26">
+                           <num type="wpl" atLeast="12" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="131"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                           </layout>    
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="#ArnGis010" scope="minor" script="kurrent">Sr. Árni Gíslason á Stafafelli(?) wrote
+                        item 1</handNote>
+                     <handNote scribeRef="#JonOla003" scope="minor" script="unknown">Jón Ólafsson úr Grunnavík wrote item
+                        6</handNote>
+                     <handNote scribeRef="#SvePet001" scope="minor" script="kurrent">Sveinn Pétursson á Hofi í
+                        Álftafirði wrote item 9</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"/>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>Loose leaves</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:51.249+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change who="#SK" when="2012-04">Added items, corrected and adapted to FASNL from
+            P.E.Ó-catalogue.</change>
+         <change when="2012-11" who="#SK">Added locus and other information from the manuscript itself</change>
+         <change when="2013-08-06" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

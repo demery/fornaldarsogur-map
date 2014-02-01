@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>R 692</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-692" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 692</idno>
+               </msIdentifier>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="58"/>
+                           <num type="back-flyleaf" value="1"/>
+                        </support>
+                        <foliation ana="later fol">Foliation excluding blank leaves.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Half binding; cardboard covered with marbled paper, white corners and spine, gold embossing on
+                           spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+                     <origPlace key="SE"/>
+                  </origin>
+               </history>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 692 I</idno>
+                  </altIdentifier>
+
+                  <msContents>
+                     <msItem n="1" class="kvad">
+                        <locus from="2r:1" to="7r:17"/>
+                        <title type="uniform">Krákumál</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Hiuggu vær med Hiórve hitt var æ fyrir laungu</incipit>
+                        <explicit>lægiandi skal ek deyr.</explicit>
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#R-702" ana="antigraph">R 702</ref>.</p>
+                        </filiation>
+                     </msItem>
+                     <msItem n="2" class="fas" defective="true">
+                        <locus from="7v:1" to="8v:21"/>
+                        <title type="uniform" ref="#vs">Völsunga saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Vr Søgu Sigurdar Fafnis Bana um Runir</rubric>
+                        <incipit>Sigurdur rïdur nu längar leidir ok til þerss hann kemur uppä kindar fiall, ok Stefnir ä leid
+                           Sudur til frakklands.</incipit>
+                        <explicit>oc þu munir eftir þat er vid Redum Brinhilldur fyllti alt ker, oc færdi Sigurde og</explicit>
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#R-702" ana="antigraph">R 702</ref>.</p>
+                        </filiation>
+                        <note>Extract</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="8"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <note>Fol. 1 blank.</note>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="20 21">
+                              <num type="wpl" atLeast="3" atMost="6"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="155"/>
+                                 <width unit="mm" quantity="95"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Comments and explanations to the text.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1650" notAfter="1699"/>
+                     </origin>
+                     <provenance>
+                        <p>The leaves were once part of MS 119 4to of <name type="person" role="owner" key="MagCel001">Magnus von Celse</name>'s collection. Uppsala Universitetsbiblioteket acquired Magnus von Celse's
+                           colllection, including these leaves, in <date when="1795">1795</date>.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 692 II</idno>
+                  </altIdentifier>
+
+                  <msContents>
+                     <msItem n="1" class="drott">
+                        <locus from="11ra:1" to="12vb:16"/>
+                        <title type="uniform">Sonatorrek</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="12v:16" to="16rc:15"/>
+                        <title type="uniform" ref="#hs">Hervarar saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>For=mäli ad Giet=Speki Heidreks Kongs.</rubric>
+                        <incipit>Heidrekur het Köngr agetur, han<ex>n</ex> red fyrir Reidgotalandi</incipit>
+                        <explicit>veskar aptan<ex>n</ex> o<ex>c</ex> skemþi Fiaþrir, þvï ber han<ex>n</ex> stïfdan<ex>n</ex>
+                           stert.</explicit>
+                        <note>Heiðreks gátur</note>
+                     </msItem>
+                     <msItem n="3" class="kvad">
+                        <locus from="16v:1" to="18v:28"/>
+                        <title type="uniform">Sólarljóð</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="10"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <note>Fols. 9-10 and 25v-26v blank.</note>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1 3" writtenLines="26 28">
+                              <num type="wpl" atLeast="8" atMost="15"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="125"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="early kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Some corrections to the text.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1650" notAfter="1697"/>
+                        <origPlace key="SE"/>
+                     </origin>
+                     <provenance>
+                        <p>The leaves were once part of MS 15 4to of <name type="person" role="owner" key="PetSal001">Petter
+                           Salan</name>'s collection. Uppsala Universitetsbiblioteket acquired the collection of Petter Salan, among them these
+                           leaves, in <date when="1717">1717</date>.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 692 III</idno>
+                  </altIdentifier>
+
+                  <msContents>
+                     <msItem n="1" class="kvad">
+                        <locus from="19r:1" to="25r:12"/>
+                        <title type="supplied">Kappavísur</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="8"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <note>Fols 25v-26v blank and uncut at the top.</note>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="15 17">
+                              <num type="wpl" atLeast="3" atMost="4"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="140"/>
+                                 <width unit="mm" quantity="115"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudOla002" scope="sole" script="early kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Some corrections and marginalia.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1683" notAfter="1695"/>
+                        <origPlace key="SE"/>
+                     </origin>
+                     <provenance>
+                        <p>The leaves were once part of MS 15 4to of <name type="person" role="owner" key="PetSal001">Petter
+                           Salan</name>'s collection. Uppsala Universitetsbiblioteket acquired the collection of Petter Salan, among them these
+                           leaves, in <date when="1717">1717</date>.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 692 IV</idno>
+                  </altIdentifier>
+
+                  <msContents>
+                     <msItem n="1" class="kvad">
+                        <locus from="27r:1" to="31r:10"/>
+                        <title type="supplied">Verses</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hallur Magnuss son upptelur, i sinum Själfdeilum Fim<ex>m</ex>tygju Bragarhætte.</rubric>
+                     </msItem>
+                     <msItem n="2" class="kvad">
+                        <locus from="31r:11" to="37r:7"/>
+                        <title type="supplied">Rímnaháttatal</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Rymna Hätta Tal, saman<ex>n</ex>teked af Halle Magnussyne.</rubric>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <!-- 27r-38v; is this really 21 leaves? several blank? -->
+                              <num type="book-block" value="21"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <note>Fols. 37v-38v blank and uncut at the top.</note>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="15 17">
+                              <num type="wpl" atLeast="4" atMost="6"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="145"/>
+                                 <width unit="mm" quantity="115"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudOla002" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1683" notAfter="1695"/>
+                        <origPlace key="SE"/>
+                     </origin>
+                     <provenance>
+                        <p>The leaves were once part of MS 74 4to of <name type="person" role="owner" key="PetSal001">Petter
+                           Salan</name>'s collection. Uppsala Universitetsbiblioteket acquired the collection of Petter Salan, among them these
+                           leaves, in <date when="1717">1717</date>.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 692 V</idno>
+                  </altIdentifier>
+
+                  <msContents>
+                     <msItem n="1" class="">
+                        <locus from="40r:1" to="56va:16"/>
+                        <title type="uniform">Pamphilus saga ok Galatheu</title>
+                        <title type="parallel">Drama έρωτιχον</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="leaf">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="19"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <note>Fol. 39 blank; fols. 57-58 blank and uncut at the top.</note>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="2" writtenLines="24 25">
+                              <num type="wpl" atLeast="5" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="158"/>
+                                 <width unit="mm" quantity="62"/>
+                              </dimensions>
+                              <note>2 columns, right column left blank.</note>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#PetSal001" scope="sole" script="early kurrent">Possibly in the hand of Petter
+                           Salan?</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Some decorated and/or coloured initials (red, yellow); on fol. 40r a decorated
+                           initial in red and green.</decoNote>
+                     </decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1650" notAfter="1697"/>
+                        <origPlace key="SE"/>
+                     </origin>
+                     <provenance>
+                        <p>The leaves were once part of ms 74 4to of <name type="person" role="owner" key="PetSal001">Petter
+                           Salan</name>'s collection. Uppsala Universitetsbiblioteket acquired the collection of Petter Salan, among them these
+                           leaves, in <date when="1717">1717</date>.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:11.097+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-12" who="SH">Added information from catalogue and from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

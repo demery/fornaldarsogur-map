@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 601 b 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0601b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 601 b 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="6r:19"/>
+                     <title ref="#hsg" type="uniform">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Hromu<supplied reason="omitted">n</supplied>de Greipszyne</rubric>
+                     <incipit><supplied reason="omitted">S</supplied>á k<ex>onun</ex>gr rieþe f<ex>ra</ex> <del rend="overstrike">Garda</del>
+                        <add place="margin">i Danm<ex>ar</ex>k</add> er Olafr h<ex>e</ex>t</incipit>
+                     <explicit>Eru af þ<ex>ei</ex>m komn<ex>ar</ex> k<ex>onun</ex>ga ætt<ex>er</ex> oc kapp<ex>ar</ex> mikler, 
+                     </explicit>  
+                     <finalRubric>oc lýkr hi<ex>er</ex> saugo Hrom<ex>un</ex>dz greipzson<ex>ar</ex>.</finalRubric>
+                     
+                     <note>A note at the head of fol. <locus>1r</locus> reads: <q>ur rimunum</q>. Followed by 9 lines of commentary on the sources of the saga
+                        with a marginal note reading: <q>mendacium est. þ<ex>et</ex>ta er teked ur rimunum</q>.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="2" class="forns">
+                     <locus from="6v:1" to="10v:14"/>
+                     <title type="uniform">Bragða-Ölvis saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Biriar Søgu Af Bragþa Ølver</rubric>
+                     <incipit>J þann týma er Magn<ex>us</ex> k<ex>onun</ex>gr hin góþi stýrþi Noreg</incipit>
+                     <explicit>oc hrfþi [sic] þar mikil r<ex>ad</ex> oc st<ex>or</ex> metord oc lýkr hi<ex>er</ex> 
+                        f<ex>ra</ex> h<ex>onu</ex>m aþ seig<ex>ia</ex></explicit>
+                     
+                     <note>A note at the head of fol. <locus>6v</locus> reads: <q>ut dreiged ur rimunum af Ölver sterka, sem eru 7. ad tölu.</q></note>
+                     
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="10"/>
+                          <!-- <num type="back-flyleaf" value=""/>-->
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="212"/>
+                              <width unit="mm" quantity="168"/>
+                           </dimensions>
+                           
+                           <!--<watermark ana="no|yes"/>-->
+                           
+                        </support>
+                        
+                        <!-- color information taken from handrit description -->
+                        <foliation ana="later fol">
+                           <p>Later foliation in red ink in upper corners of recto leaves.</p>
+                        </foliation>
+                        
+                      <!--  <condition ana="poor|average|good"/>-->
+                        
+                     </supportDesc>
+                    
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="26 28">
+                           <num type="wpl" atLeast="13" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="medium">
+                     <p>Assorted marginalia in the hand of Árni Magnússon. Front and rear pastedowns contains printed waste from 
+                        an unidentified Danish text.</p>
+                  </additions>
+                  
+                  <!-- binding information taken from handrit description -->
+                  <bindingDesc>
+                     <binding ana="plain" notBefore="1772" notAfter="1780" contemporary="false"> <!-- plain? -->
+                        <p>Current binding from c. 1772-1780.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1700"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:44.103+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:43.566+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:51.249+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:08.144+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:45.32+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-05-13" who="#JSL">Supplied information from handrit and Kålund catalogs. Cataloged MS from photographs.</change>
+         <change when="2013-08-23" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

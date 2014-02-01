@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Westin 78</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="Westin-78" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                        <idno>Westin 78</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="fas">
+                            <locus from="1r:1" to="29r:24"/>
+                            <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                            <textLang mainLang="non"/>
+                            <rubric>SAGAN<ex>N</ex> Af BØDVARE, BJARKA</rubric>
+                            <rubric>I Cap.</rubric>
+                            <incipit>J þan<ex>n</ex> Tyma sem Fröde köngur hin<ex>n</ex> Fridsami stijrde Danmörk han<ex>n</ex>
+                                var X madur frä Odin<ex>n</ex> könge, en<ex>n</ex> Hrölfur kongur hin<ex>n</ex> kirr sem kalladur
+                                var Krake styrde Hleidargarde</incipit>
+                            <explicit>han<ex>n</ex> var bæde heimskur og spotskur han<ex>n</ex> var Fader þorbiargar, sem Hrölfur
+                                kongur Gautreksson ätte sem lesa mä i Sógu han<ex>n</ex>s</explicit>
+                            <colophon>og endum vier so soguna af Bódvari Biarka <ex>og</ex> Beina hialta</colophon>
+                            <note>Böðvars þáttur</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="book-block" value="30"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="202"/>
+                                        <width unit="mm" quantity="158"/>
+                                    </dimensions>
+                                    <p>Fols. 29v-30v blank.</p>
+                                    <watermark ana="yes"/>
+                                </support>
+                                <foliation ana="fol later">Printed foliation in top right corners.</foliation>
+                                <condition ana="good"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-separate" columns="1" writtenLines="24 26">
+                                    <num type="wpl" atLeast="8" atMost="12"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="160"/>
+                                        <width unit="mm" quantity="120"/>
+                                    </dimensions>
+                                    <catchwords ana="yes">Catchwords on every page.</catchwords>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                        </handDesc>
+                        <decoDesc ana="low">
+                            <decoNote type="mixed">Decorated intial over 3 lines at the beginning of the saga on fol. 1r.
+                                Different script for the first line of new chapters and for verses. Red book edge</decoNote>
+                        </decoDesc>
+                        <bindingDesc>
+                            <binding ana="plain" contemporary="false">
+                                <p>Bound in cardboard with marbled pattern.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1750" notAfter="1799"/>
+                            <origPlace key="DK"/>
+                        </origin>
+                        <!-- add to auth -->
+                        <provenance><p>The manuscript once belonged to <name key="BirTho001" role="owner" type="person">Birger Thorlacius</name>,
+                            after whose death <name type="person" role="owner" key="JacWes001">Jacob Westin</name> bought it at an auction in <date when="1830">1830</date>.</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-04-10" who="SH">Created</change>
+            <change when="2013-04-10" who="SH">Added missing information from catalogue and the manuscript itself.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

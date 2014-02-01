@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>LUB fol. 2</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="LUB-fol-2" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBLND">Lunds Universitets Bibliotek</repository>
+                  <idno>LUB fol. 2</idno>
+<!--                  <note>In Jónas Kristiánsson's catalogue marked as "1. LUB pappírshandrit"</note>-->
+                  <altIdentifier type="formerShelfmark">
+                     <idno>Bibl. Mscr. H b) SagaL. fol. 2</idno>
+                  </altIdentifier>                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="6v">pp.1-12</locus>
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                     <rubric>Fragment Ingvars søgu vidførla</rubric>
+                     <incipit>... Y. sott oc var þa cominn i riki Silkisifiar, hann heimti til sin liþ sitt</incipit>
+                     <explicit>...Þordur hafþe haft af Klacku Samssyne enn Klacka af frendum sinom enom fÿrom, oc lÿkur þar
+                        Sogunne</explicit>
+                     <textLang mainLang="non"/>
+                     <note>fragment</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="6"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="250"/>
+                              <width unit="mm" quantity="192"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag contemporary"><p/></foliation>
+                        <condition ana="good">Some small smudges and dirty patches.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23">
+                           <num type="wpl" atLeast="11" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="215"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonMar002" scope="sole" script="unknown">Possibly in the hand of Jón Marteinsson</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>On fol. <locus>1r</locus> an old shelfmark is written at the top of the leaf <q>Bibl. Mscr. H. b) Saga L.
+                           fol. 2.</q></p>
+                     <p>On fol. <locus>1r</locus> in the top right-hand margin there is a note which reads <q>NB quoties in hac
+                           copia scribitur eige vel eÿe, scribendum et legendum potius opinor eij: in originali enim erat pura
+                           chimera litterarum et nihil exuide potuit legi.</q></p>
+                     <p>On fol. <locus>3r</locus> in the middle of the right-hand margin there is a note which reads
+                           <q>dispiciendum anne sina etiam et illum sensum habet quod in textu habetur</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none">
+                        <p>The leaves are sewn together but have no binding and are kept in a leaf of protective paper and a
+                           folder.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799">Written in the 18th century</origDate>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:37.59+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-02-13" who="#BES">Prepared for visit at the library</change>
+         <change when="2013-02-20" who="#PTL">Information completed in the library</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

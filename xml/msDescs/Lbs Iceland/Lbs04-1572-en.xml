@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>Lbs 1572 4to</title>
+      </titleStmt>
+      <publicationStmt>
+        <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+        <authority>Den Arnamagnæanske Samling, København</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="Lbs04-1572-en" xml:lang="en">
+          <msIdentifier>
+            <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+            <idno>Lbs 1572 4to</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="regist">
+              <locus from="1r" to="1v"/>
+              <title type="uniform">Efnisyfirlit</title>
+              <note>Table of contents</note>
+              <msItem n="2" class="fas">
+                <locus from="2r" to="10v"/>
+                <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                <rubric>Sagan af Gauta kongi Gautreki Hrólfi með þætti af Gjafa Ref</rubric>
+                <note>One rubric jointly for items 1 and 2</note>
+              </msItem>
+            </msItem>
+            <msItem n="3" class="fas">
+              <locus from="11r" to="36v"/>
+              <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+              <note>46 chapters, both sagas Gautreks og Gjafa-Refs and Hrólfs Gautrekssonar</note>
+              <colophon>Ended, "Þann 4da Júnii 1815" (4.6.1815)</colophon>
+            </msItem>
+            <msItem n="4" class="kon">
+              <locus from="36r" to="39v"/>
+              <title type="uniform">Skálda saga</title>
+              <rubric>Skálda saga Haralds konungs hárfagra</rubric>
+              <colophon>Ended, "6. Aug. 1815" (6.8.1815)</colophon>
+            </msItem>
+            <msItem n="5" class="fas">
+              <locus from="38v" to="46v"/>
+              <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+              <note>7 chapters</note>
+            </msItem>
+            <msItem n="6" class="fas">
+              <locus from="47r" to="54r"/>
+              <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+              <rubric>Sagan af Friðþjófi frækna</rubric>
+              <note>8 chapters</note>
+              <colophon>Ended, "þann 31 Jan 1817" (31.1.1817)</colophon>
+            </msItem>
+            <msItem n="7" class="fas">
+              <locus from="54v" to="56v"/>
+              <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+              <rubric>Sagan af Illuga Gríðarfóstra</rubric>
+              <note>5 chapters</note>
+              <rubric>Ended, "Junii 1818" (6.1818)</rubric>
+            </msItem>
+            <msItem n="8" class="fas">
+              <locus from="57r" to="70v"/>
+              <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+              <rubric>Saga af Þorsteini Víkingssyni</rubric>
+              <note>25 chapters</note>
+              <rubric>Ended, "Julii 1818 Þ.G." (7.1818)</rubric>
+            </msItem>
+            <msItem n="9" class="fas">
+              <locus from="71r" to="77v"/>
+              <title ref="#upp" type="uniform">Af Upplendinga konungum</title>
+              <filiation>
+                <ref type="ms" target="AM 544 4to (Hauksbók)" ana="antigraph"/></filiation>
+              <rubric>Söguþáttur af Vermundi og Ulfi syni hans 71r - 71 v </rubric>
+              <colophon>Ended, "21 7br (= sept) 1818"</colophon>
+              <rubric>Af upplendinga konungum 72r - 77v</rubric>
+              <colophon>Ended "þann 15. Julii 1816" (15.7.1816) "Þetta síðara fragment sinist ei
+                vera annat enn. . . þessa fragmentis Hamborgar storiu Hkh."</colophon>
+            </msItem>
+            <msItem n="10" class="forns fornth avint">
+              <locus from="78r" to="78v"/>
+              <title type="uniform">Ormars þáttur Framarssonar</title>
+              <rubric>af Ormari Framasyni</rubric>
+              <colophon>Ended, "21 7br 1818" (27.9.1818)</colophon>
+            </msItem>
+              <msItem n="11" class="fas">
+                <locus from="78v" to="92r"/>
+                <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+                <rubric>Sagan af Hrómundi Greipssyni</rubric>
+                <note>22 chapters</note>
+                <colophon>Ended, "23da Marts 1819" (23.3.1819)</colophon>
+              </msItem>
+              <msItem n="12" class="forn isl">
+                <locus from="92r" to="98r"/>
+                <title type="uniform">Færeyinga saga</title>
+                <rubric>Færeyinga saga síðari partur</rubric>
+                <note>Færeyingasaga the latter half</note>
+                <note>17 chapters</note>
+                <colophon>Ended, "28da Junii 1819" (28.6.1819)</colophon>
+              </msItem>
+              <msItem n="13" class="konth">
+                <locus from="98r" to="101r"/>
+                <title type="uniform">Hróa þáttur heimska</title>
+                <rubric>Sagan af Slysa-Hróa</rubric>
+                <note>7 chapters</note>
+                <colophon>Ended, "25ta Júlii 1819" (25.7.1819)</colophon>
+              </msItem>
+              <msItem n="14" class="konth">
+                <locus from="101r" to="102r"/>
+                <title type="uniform">Sigurðar þáttur Ákasonar</title>
+                <rubric>Þáttur af Sigurði Ákasyni</rubric>
+                <note>2 chapters</note>
+                <colophon>Ended, "28da Julii 1819" (28.7.1819)</colophon>
+              </msItem>
+              <msItem n="15" class="fas">
+                <locus from="102v" to="103r"/>
+                <title ref="#ttht" type="uniform">Tóka þáttur Tókasonar</title>
+                <rubric>Þáttur af Tóka Tókasyni</rubric>
+                <colophon>Ended, "þann 31ta Julii 1819" (31.7.1819)</colophon>
+              </msItem>
+              <msItem n="16" class="konth">
+                <locus from="92r" to="98r"/>
+                <title type="uniform">Eymundar þáttur Hringssonar</title>
+                <rubric>Saga af Einmundi Hringssyni</rubric>
+                <note>11 chapters</note>
+                <colophon>Ended, "þann 5ta September 1819" (5.9.1819)</colophon>
+              </msItem>
+              <msItem n="17" class="konth">
+                <locus from="109r" to="111r"/>
+                <title type="uniform">Hemings þáttur Áslákssonar</title>
+                <rubric>Sagan af Skíða-Hemingi</rubric>
+                <note>7 chapters</note>
+              </msItem>
+              <msItem n="18" class="kon">
+                <locus from="111r" to="113r"/>
+                <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                <rubric>Sagan af Hákoni norræna</rubric>
+                <note>7 chapters</note>
+                <colophon>Ended, "þ. 29da octobr 1819" (29.10.1819)</colophon>
+              </msItem>
+              <msItem n="19" class="forn avint">
+                <locus from="92r" to="98r"/>
+                <title type="uniform">Rauðúlfs þáttur</title>
+                <rubric>Þáttur af Rauðúlfi og sonum hans</rubric>
+                <colophon>Ended, "þ. 3ja Nov. 1819" (3.11.1819)</colophon>
+              </msItem>
+              <msItem n="20" class="fas">
+                <locus from="114v" to="116v"/>
+                <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                <rubric>Sagan af Eirík víðförla</rubric>
+                <note>5 chapters</note>
+                <note>Ended, "þ. 11ta Nov. 1819" (11.11.1819)</note>
+                <note>A-vers.</note>
+              </msItem>
+              <msItem n="21" class="fas">
+                <locus from="117r" to="121r"/>
+                <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                <rubric>Sagan af Hálfi kóngi og rekkum hans</rubric>
+                <note>older vers., derived from BL Add. 4857 which </note>
+                <note>9 chapters</note>
+                <colophon>Ended, "þ. 21ta Nov. 1819" (21.1819)</colophon>
+              </msItem>
+              <msItem n="22" class="skalds">
+                <locus from="121r" to="122v"/>
+                <title type="uniform">Gríms saga jarlssonar</title>
+                <rubric>Saga af Grími jarlssyni</rubric>
+                <note>Ended, "þ. 1ta maii 1821" (1.5.1821)</note>
+                <note>Colophon, "Þessi saga er útdregin úr rúnum af Þ.G."</note>
+              </msItem>
+              <msItem n="23" class="isl">
+                <locus from="122r" to="126v"/>
+                <title type="uniform">Játvarðar saga helga</title>
+                <rubric>Sagan af Játvarði helga</rubric>
+                <note>9 chapters</note>
+              </msItem>
+              <msItem n="24" class="fas">
+                <locus from="126v" to="133v"/>
+                <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                <rubric>Sagan af Egli einhenda og Ásmundi berserkjarbana</rubric>
+                <note>11 chapters</note>
+              </msItem>
+              <msItem n="25" class="forns">
+                <locus from="134r" to="137r"/>
+                <title type="uniform">Hálfdanar saga Barkarsonar</title>
+                <rubric>Sagan af Hálfda og Hildigeir</rubric>
+                <note>5 chapters</note>
+                <colophon>Ended, "þ. 16 Martii 1826" (16.3.1826)</colophon>
+                <note>yngri fas</note>
+              </msItem>
+              <msItem n="26" class="fas">
+                <locus from="137r" to="141v"/>
+                <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                <rubric>Sagan af Þorsteini bæjarmagn</rubric>
+                <note>8 chapters</note>
+              </msItem>
+              <msItem n="27" class="fas">
+                <locus from="141v" to="144v"/>
+                <title ref="#hsh" type="uniform">Sörla þáttur</title>
+                <rubric>Sagan af Högna og Héðinn</rubric>
+                <note>7 chapters</note>
+                <colophon>Ended, "þ. 3ia April 1827" (3.4.1827)</colophon>
+              </msItem>
+              <msItem n="28" class="forn avint">
+                <locus from="144v" to="145v"/>
+                <title type="supplied">Hana þáttur</title>
+                <rubric>Hana þáttur</rubric>
+                <note>2 chapters</note>
+                <colophon>Ended "14 Maii 1827" (14.5.1827)</colophon>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="chart">
+                <support>
+                  <num type="book-block" value="145"/>
+                  <dimensions type="leaf">
+                    <height unit="mm" quantity="197"/>
+                    <width unit="mm" quantity="153"/>
+                  </dimensions>
+                  <watermark ana="yes"/>
+                </support>
+                <foliation ana="later pag"/>
+                <condition ana="poor">First and last leaves damaged. The text from the first one has been
+                  replaced by a different hand</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="41">
+                  <num type="wpl" atLeast="16" atMost="18"/>
+                  <dimensions type="written">
+                    <height unit="mm" quantity="181"/>
+                    <width unit="mm" min="143" max="145"/>
+                  </dimensions>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="2">
+              <handNote scribeRef="#ThoGis005" scope="major" script="hum cursiva">Þorsteinn Gíslason á
+                Stokkahlöðum</handNote>
+              <handNote scribeRef="unknown" scope="minor" script="hum cursiva">The hand which
+                fills in the first 4 leaves, which are missing due to unknown reasons.</handNote>
+            </handDesc>
+            <decoDesc ana="no"><decoNote/></decoDesc>
+            <additions ana="no"/>
+            <bindingDesc>
+              <binding ana="plain" contemporary="true">
+                <p>Leather cover without boards</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin><origDate from="1815" to="1827"/>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography
+        data</change>
+      <change when="2011-05" who="#SK">Added information from the P.E.Ó-catalogue and the manuscript
+        itself</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface/>
+  </facsimile>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

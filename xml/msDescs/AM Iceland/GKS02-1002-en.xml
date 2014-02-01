@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>GKS 1002 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS02-1002-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>GKS 1002 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><note>partly scratched out by <name type="person" key="BjoTho004">Björn Þorleifsson</name></note>
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1v" to="27r"/>
+                     <title type="uniform">Karlamagnús saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="27v" to="60v"/>
+                     <title type="uniform">Grettis saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="61r" to="79r"/>
+                     <title type="uniform">Mágus saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="79v" to="93rb:24"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="almb">
+                     <locus from="93r:25" to="112v"/>
+                     <title type="uniform">Flóres saga og Leó</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="113r" to="119v"/>
+                     <title type="uniform">Sigrgarðs saga frækna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="120r" to="135rb:18"/>
+                     <title type="uniform">Ectors saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="135r:19" to="161vb:23"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="islt">
+                     <locus from="161vb:24" to="166va"/>
+                     <title type="uniform">Önundar þáttur tréfóts</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="166"/>
+                           <!--<num type="back-flyleaf" value=""/>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="300"/>
+                              <width unit="mm" quantity="245"/>
+                           </dimensions>                      
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Modern pencil foliation in the upper right hand corner.</p>
+                        </foliation>
+                        <condition ana="good">The manuscript in in excellent condition. It was
+                           apparently a showpiece that has not been used much. Although it
+                           was a luxury product, no vellum space between the texts has been
+                           wasted.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="34">
+                           <num type="wpl" atLeast="12" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="250"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#PalSve001" scope="sole" script="hybrida">
+                        <p>Written by Páll Sveinsson from <name type="place">Geldingalækur in
+                              Rangárvellir</name>.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="initial">Large ornamental initials at the beginning of
+                        each text each chapter. No color.</decoNote>
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A detailed table of contents (two leaves) written by <name type="person" key="ArnMag001" role="scholar">Árni Magnússon</name>
+                        is added to the manuscript.</p>
+                        <p>A letter (one leaf) written by <name type="person" role="scribe" key="BjoTho004">Björn Þorleifsson</name>
+                        that accompanied the manuscripts when they were given to the king is
+                        preserved inside the front cover of the first volume.</p>
+                        <p>No Marginalia.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Red velvet binding</p>
+                        <p>The binding dimensions are:
+                           <height>320</height>mm x
+                           <width>270</width>mm x
+                           <depth>100</depth>
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1667">1667</origDate>
+                     <origPlace key="IS">Geldingalækur in Rangárvellir</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript and its second part, <ref target="#GKS02-1003-en">GKS 1003 fol.</ref>, were 
+                        written for <name type="person" key="JonEyj005" role="commissioner">Jón Eyjólfsson of <name type="place">Eyvindarmúli in Fljótshlíð</name>
+                  </name>. They came to <name type="place">Copenhagen</name>
+                     about twenty years after they were written. The two volumes vere
+                     presented to <name type="person" role="owner" key="Kri002">king Christian V</name> by reverend
+                     <name type="person" role="owner" key="BjoTho004">Björn Þorleifsson</name>.
+                     They were returned to Iceland in 1971.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:03.42+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-04-16" who="#BES">Added information from Kålund's catalog, TL's file and black-and-white photographs. Flyleaves to be checked.</change>
+         <change when="2013-08-23" who="#BES">Proofread.</change><!-- info on fly leaves missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

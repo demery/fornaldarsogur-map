@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>DKNVSB 4 k fol.</title>
+         </titleStmt>
+        
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="DKNVSB02-0004-k-en" xml:lang="en">
+         
+               <msIdentifier>
+                  <repository ref="#DKNVS">Det Kongelige Norske Videnskabers Selskabs Bibliotek, Trondheim</repository>
+                  <idno>DKNVSB 4 k fol.</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <msItem n="1" class="islt">
+                     <locus from="1r:x" to="4v:x"/>
+                     <title type="uniform">Þorsteins þáttur tjaldstæðings</title>
+                     <title type="parallel">Þorsteins þáttr tjaldstæðings</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                     
+                     <filiation>
+                        <p>Copied from Flateyjarbók (cf. note in MS).</p>
+                        <ref type="ms" target="#GKS02-1005-en" ana="antigraph"/>
+                     </filiation>
+                  
+                  </msItem>
+                  
+                  <msItem n="2" class="islt">
+                     <locus from="5r:x" to="7v:x"/>
+                     <title type="uniform">Sneglu-Halla þáttur</title>
+                     <title type="parallel">Sneglu-Halla þáttr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga Sneglu Halla</rubric>
+                     <incipit/>
+                     <explicit/>
+                  
+                     <filiation>
+                        <p>Copied from Flateyjarbók (cf. note in MS).</p>
+                        <ref type="ms" target="#GKS02-1005-en" ana="antigraph"/>
+                     </filiation>
+                     
+                  </msItem>
+                  
+                  <msItem n="3" class="fas">
+                     <locus from="9r:x" to="11v:x"/>
+                     <title type="uniform" ref="#ttht">Tóka þáttur Tókasonar</title>
+                     <title type="parallel">Tóka þáttr Tókasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Af Tóka Tókasyni lítit æfintýr</rubric>
+                     <incipit/>
+                     <explicit/>
+                  
+                  </msItem>
+                  
+                  <msItem n="4" class="islt">
+                     <locus from="13r:x" to="21v:x"/>
+                     <title type="uniform">Þorvalds þáttur tasalda</title>
+                     <title type="parallel">Þorvalds þáttr tasalda</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þáttr af Þórvalldi Tasallda Systursyni Víga Glúms</rubric>
+                     <incipit/>
+                     <explicit/>
+                                          
+                  </msItem>
+                  
+                  <msItem n="5" class="konth">
+                     <locus from="23r:x" to="35v:x"/>
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <title type="parallel">Rauðúlfs þáttr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Raudúlfs Þáttr ok Sona hans</rubric>
+                     <incipit/>
+                     <explicit/>
+                     
+                     <note>Raudúlfs þáttr ok Sona hans</note>
+                     
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+<!--                           <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="35"/>
+<!--                           <num type="back-flyleaf" value=""/>-->
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="328"/>
+                              <width unit="mm" quantity="211"/>
+                           </dimensions>
+                           
+<!--                           <watermark ana="no|yes"/>-->
+                           
+                        </support>
+                        
+<!--                        <foliation ana="no|contemporary|later|pag|col|fol"/>-->
+                        
+<!--                        <condition ana="poor|average|good"/>-->
+                        
+                     </supportDesc>
+                     
+                     <!-- 
+                     <layoutDesc>
+                        <layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">									
+                           
+                           <num type="wpl" atLeast="" atMost=""/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc> -->
+                     
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#OddJon008" scope="sole" script="unknown"/>
+                  </handDesc>
+                  
+                  <!-- 
+                  <decoDesc ana="no|low|medium|high">
+                     <decoNote type="border"/>
+                  </decoDesc>
+                  
+                  <additions ana="no|low|medium|high">
+                     <p></p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain|moderate|decorative" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc> -->
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  
+                  <provenance>
+                     <!-- autograph information taken from typescript cat. -->
+                     <p>Purchased by DKNVSB from G. Schöning, whose name appears on fol. 1r.</p>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:00.614+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-07-26" who="#JSL">Added template elements and input data from Jónas Kristjánsson's typescript catalog,
+            "Skrá um íslenzk handrit í Noregi".</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

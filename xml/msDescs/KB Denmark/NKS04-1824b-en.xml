@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>NKS 1824 b 4to</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="NKS04-1824b-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                        <idno>NKS 1824 b 4to</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="no">
+                            
+                        </titlePage>
+                        <msItem n="1" class="fas" defective="true">
+                            <locus from="1r" to="51r:4"/>
+                            <title type="uniform" ref="#vs">Völsunga saga</title>
+                            <textLang mainLang="non"/>
+                            <note>1st page defective</note>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="51r:5" to="79r:3"/>
+                            <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="3" class="kvad" defective="true">
+                            <locus from="79r:4" to="80v"/>
+                            <title type="uniform">Krákumál</title>
+                            <textLang mainLang="non"/>
+                            <note>Ends in verse 22.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support>
+                                    <num type="front-flyleaf" value="0"/>
+                                    <num type="book-block" value="80"/>
+                                    <num type="back-flyleaf" value="0"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" atLeast="150" atMost="170"/>
+                                        <width unit="mm" atLeast="100" atMost="130"/>
+                                    </dimensions>
+                                </support>
+                                <foliation ana="fol later">Later folitation in red. The order of leaves in the last quire has been mixed up during the process of binding. 
+                                    The right order would be fol. 77, 78, 73, 74, 75, 76, 79, 80.</foliation>
+                                <condition ana="poor">Poor condition due to moisture, especially the first leaf</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-prose" columns="1" writtenLines="20 22">
+                                    <num type="wpl" atLeast="10" atMost="16"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="125"/>
+                                        <width unit="mm" quantity="90"/>
+                                    </dimensions>
+                                    <catchwords ana="no">Only three catchwords in the whole manuscript.</catchwords>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scribeRef="unknown" scope="sole" script="cursiva">cursiva antiquior; Magnus Olsen claims 
+                                based on orthography that the leaves 50v-51v as well as a short passage on fol. 19r are written
+                                by another hand (cf. M. Olsen 1906-08, xii, lxiii-lxix, lxxvi-lxxviii)</handNote>
+                        </handDesc>
+                        <decoDesc ana="medium">
+                            <decoNote type="initial">Red initials and rubrics. Some initials show a few ornaments.</decoNote>
+                        </decoDesc>
+                        <additions ana="low">
+                            <p>On fol. <locus>44v</locus> and fol. <locus>56v</locus>, there are
+                                drawings of animals in the margins. On fol. <locus>38r</locus>,the
+                                name <q>Magnus Biornsson</q> from the 17th c. can be read. On fol
+                                    <locus>55r</locus>
+                                <q>Gudm<ex>un</ex>d<ex>ur</ex> Arason</q> can be read (also 17th c.)
+                                On <locus>80v</locus>, <q>LL 1641</q> can be read. On fol.
+                                    <locus>38v</locus>, there is a note in Latin. <note>In the box
+                                    for the manuscript, there are three photograph-negatives, two of
+                                    leaves, one portrait of NKS 1824 b 4to.</note>
+                            </p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="plain" contemporary="true">
+                                <p>Thick wooden boards with carvings on it (some of them rune-like).
+                                    Holes for a clasp.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1380" notAfter="1420"/>
+                            <origPlace key="IS" cert="high"/>
+                        </origin>
+                        <provenance>
+                            <p>According to a note on fol <locus>38r</locus> from the 17th c., a
+                                certain <name type="person" role="owner" key="MagBjo006">Magnús
+                                    Björnsson</name> owned the manuscript. Bishop <name type="person" role="owner" key="BrySve001">Brynjólfur
+                                    Sveinsson</name> had <name type="person" role="other" key="ThoEir001">Thórarinn Eiríksson</name> bring the manuscript
+                                to <name type="person" role="owner" key="Friooo005">King Frederik
+                                    III</name>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+           <change when="2013-07-15" who="#BES">cataloged with the manuscrtipt in situ.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+           
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

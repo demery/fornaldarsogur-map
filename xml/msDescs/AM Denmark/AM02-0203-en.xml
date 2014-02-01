@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 203 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0203-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 203 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="10v:3">1r-10v</locus>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <rubric>Søgu þattur af Giafa Ref Og Dala fiflum<ex>m</ex></rubric>
+                     <incipit><supplied reason="omitted">G</supplied>aute hefur köngur heited er ried fyrer
+                        Gautlande.</incipit>
+                     <explicit>Var Hrolfur snem<ex>m</ex>a mykell f<ex>yrer</ex> sier. Og en<ex>n</ex>dar hier nv þott Giafa ʀefs
+                        og Dalafifla</explicit>
+                     <filiation>Derived from <ref type="ms" target="AM02-0152-01-02-en" ana="antigraph">AM 152 fol.</ref>, but with
+                        the ending of the shorter version of Gautreks saga</filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="11r:1" to="28v:4">11r-28v</locus>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <rubric>Fra Gavta Könge inum Millda</rubric>
+                     <incipit>I CAP. <supplied>Þ</supplied>ar hefium vier eina fräsógu af einum kön<ex>n</ex>g
+                           þ<ex>ei</ex>m er Gauti hiet.</incipit>
+                     <explicit>war Hrölfur snem<ex>m</ex>a mykill f<ex>yrer</ex> sier. Og en<ex>n</ex>dar hier nu þätt Giafa Refs
+                           <ex>og</ex> Dalafyfla.</explicit>
+                     <textLang mainLang="non"/>
+                     <note>Fols. <locus from="29r" to="30v">29-30</locus> are left blank.</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="31r:1" to="87v:28">31r-87v</locus>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <rubric>Saga Fra Hrölfe Könge Gavtrekssÿne</rubric>
+                     <incipit>I. CAP Þar hefium wier þessa Sógu Ad Gautrekur hef<ex>ur</ex> köng<ex>ur</ex> heited.</incipit>
+                     <explicit>og lukum ver so sógu hrolfs kongs Gautrekssonar, hafi sa þóck er skrifadi.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="88r:1" to="114v:8">88r-114v</locus>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <title type="parallel">Hervarar saga ok Heiðreks konungs</title>
+                     <rubric>Hervarar Þattur hinn gamle fin<ex>n</ex>st so skrifadur Sem hier Eptterfylger</rubric>
+                     <incipit>Svo fin<ex>n</ex>st ritad J fórnum<ex>m</ex> Bökum<ex>m</ex> ad Jothunheim<ex>ar</ex> voru
+                           kallad<ex>er</ex> nord<ex>ur</ex> vmm Gandvijk</incipit>
+                     <explicit>Philipp<ex>us</ex> atte Jngegerde dottur Haralldz k<supplied instant="false">o</supplied>ngs
+                        Sigurdssonar, war h<ex>an</ex>n skam<ex>m</ex>a stun<ex>n</ex>d kön<ex>n</ex>gur</explicit>
+                     <textLang mainLang="non"/>
+                     <note><name type="person" role="scribe" key="BjoJon006">Björn Jónson</name> of <name type="place">Skarðsá</name>'s commentary on the Heiðreks gátur has been added. Only the upper half of fol. 95r is
+                        filled in, but with no loss of text. There was originally left space - 1 ½ pages - for the lacuna. The
+                        riddle section is written in two columns; the riddles are written in the left column with Björn's comments
+                        in the right.</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="115r:1" to="123v:34">115r-123v</locus>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <title type="parrallel">Þorsteins þáttr bæjarbarns</title>
+                     <rubric>Saga Af Thorstein<supplied instant="false">e</supplied> Bæiar-magn<supplied instant="false">e</supplied> Bæ[..]</rubric>
+                     <incipit>I þan<ex>n</ex> tijma er Hakon jarl Sigur[...] som ried fijrer Norege</incipit>
+                     <explicit>hef<ex>ur</ex> ei sydan<ex>n</ex> ordid vartt vid Agda. Um sumarit epter færdi þorsteinn olafi
+                           k<ex>on</ex>gi hornin Hvitinga. og sigldi ept<ex>er</ex> þ<ex>vi</ex> til eigna sin<ex>n</ex>a og
+                           hef<ex>er</ex> sidan ei<ex>gi</ex> til h<ex>a</ex>ns frettst. En<ex>n</ex> er ol<ex>afur</ex>
+                           k<ex>on</ex>g<ex>u</ex>r hvarf af orminum, hurfu eirnin hornin Hvitingar:</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="124r:1" to="139v:26">124r-139v</locus>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <rubric>Sagann Af Eigle Einhendta</rubric>
+                     <incipit>Hertrygg<ex>ur</ex> hef<ex>ur</ex> köng<ex>ur</ex> heited. ha<ex>nn</ex> ʀied f<ex>yrer</ex> Austur
+                        j Russia.</incipit>
+                     <explicit>heffur sydan<ex>n</ex> einge hlutur fun<ex>n</ex>dist aff hen<ex>n</ex>e og ongvo þ<ex>vi</ex>
+                           s<ex>e</ex>m var á. Lukum<ex>m</ex> wier so þessare Sógu</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="140r:1" to="145v:2">140r-145v</locus>
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title>
+                     <rubric>Saga Af Jlluga Grijdar föstra</rubric>
+                     <incipit>Sa köngur hiet Hrijngur er ried fyrer Danmórk.</incipit>
+                     <explicit>Þesse Jllugi vard sijndan<ex>n</ex> föst bröder Gnodar Asmundar. Og lukum<ex>m</ex> wier hier Saugu
+                        Jlluga Gʀijdar föstra</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="149"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="320"/>
+                              <width unit="mm" quantity="195"/>
+                           </dimensions>
+                           <note>The leaves of items 1-3 are shorter than the rest. The height in this first part is <height unit="mm" quantity="300">300mm</height></note>
+                           <watermark ana="yes">There are diffrent watermarks. The watermark on fol. <locus from="87r" to="87v">87</locus> resembles a wine glass. The watermark on fols. <locus from="62r" to="62v">62</locus>,
+                              <locus from="17r" to="17v">17</locus> and <locus from="31r" to="31v">31</locus> has the letters 'MC'
+                              below an image. The watermark on fols. <locus from="28r" to="28v">28</locus> and <locus from="89r" to="138v">89-138</locus> shows a castle with a total of three towers, a larger one in
+                              the middle and a smaller one at either side. A different castle or fortess is visible on fols. <locus from="1r" to="10v">1r-10v</locus>. This one shows three equally sized elements, a gate with a
+                              pointed roof and a flag on top, a two round tower at either side. On fols. <locus from="140r" to="145">140-145</locus> there is a larger image, possibly displaying a city with two circles with
+                              crosses inside them on top. The other side of these bifolia shows a small inifinity sign. The
+                              watermark on fols. <locus from="146r" to="149v">146-149</locus> is yet a different image of a castle
+                              with again two round towers and a gate. This time the gate is considerably smaller than the towers,
+                              and the towers both have a window. Beneath the image the letter L and a star can be
+                              seen.</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p>Foliated in the upper right hand corner. Due to an earlier misordering, some leaves were numbered
+                              incorrectly. The foliation was corrected twice, once by <name type="person" role="scholar" key="JonSig004">Jón Sigurðsson</name>. </p>
+                        </foliation>
+                        <condition ana="average">
+                           <p>The first part of the manuscript (items 1-3) is is good shape, the second part (items 4-7) is in
+                              worse shape, some leaves being damaged by moisture and/or wear. Text is lost on fol. <locus from="115r" to="115v">115</locus>.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="23 34">
+                           <num type="wpl" atLeast="3" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="235"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="#JonErl001" scope="major" script="hum cursiva"><locus from="1r" to="86v">1r-86v</locus>, <locus from="87v" to="94v:13">87v-94v:13</locus> and <locus from="95v" to="139v">95v-139v</locus>.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"><locus from="87r" to="87r">87r</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"><locus from="94v:14" to="95r">94v:14-95r</locus></handNote>
+                     <handNote scribeRef="#ArnMag001" scope="minor" script="semihybrida">The end of Þorsteins þáttr bæjarmagns was
+                        copied onto <locus from="123v:30" to="123v:34">123v</locus> by Árni Magnússon.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">A single decorated initial on fol. <locus from="31r" to="31r">31r</locus>.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>There are several marginal notes, some of them most likely in Bishop <name type="person" role="scholar" key="BrySve001">Brynjólfur Sveinsson</name>'s hand.</p>
+                     <p><name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> added the final lines of <title type="uniform">Þorsteins þáttur bæjarmagns</title> on fol. <locus>123v</locus>.</p>
+                     <p>Fols. <locus from="146r" to="149v">146-149</locus> are later insertions, containing <date notBefore="1600" notAfter="1699">seventeeth century</date> collector's accounts in Danish.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The manuscript is bound in in a modern standard half-binding. Dimensions: <height>328</height> x
+                           <width>208</width> x <depth>31</depth>. Strips of manuscript waste with text on them survive from an
+                           earlier binding. Some have been incorporated back into the binding at the back of the manuscript.
+                           Others are stored in the
+                           manuscript's case. The four last leaves did not originally belong to the manuscript. During
+                              an earlier binding, these leaves were inserted. The present order has been indicated by <name type="person" role="scholar" key="JonSig004">Jón Sigurðsson</name>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Written in <origPlace key="IS">Iceland</origPlace> in the <origDate notBefore="1600" notAfter="1699">seventeenth century</origDate>.</p>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                     <name type="person" role="owner" key="BrySve001"/>
+                     <name type="person" role="scholar" key="JonSig004"/>
+                     <note>Probably a composite manuscript, as indicated by varying leaf sizes.</note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:04.964+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:15.359+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:40.555+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:19.217+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-01-24" who="#BES">Added information from handrit.is and Kålung's katalog I. Checked and added missing
+            information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

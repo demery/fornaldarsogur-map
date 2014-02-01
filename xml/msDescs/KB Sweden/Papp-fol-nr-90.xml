@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 90</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-90" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 90</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="78v"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <filiation>
+                        <p>Icelandic text is a copy of 
+                        <ref type="ms" target="#Papp-4to-nr-30" ana="antigraph">Papp. 4to nr 30</ref>.</p>
+                     </filiation>
+                     <note>Icelandic text (in left-hand column) with Swedish translation (in right-hand column)</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="78"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes">Different watermarks: Fool with pointed collar with large spheres above the middle point.
+                              Two letters below, possibly "EH" or "EB" or "EP". Another watermark consists of two lions holding an
+                              emblem with crown on top. On the opposite side, possibly "EB"</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="21 31">
+                           <num type="wpl" atLeast="3" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="250"/>
+                              <width unit="mm" quantity="170"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JohPer001" scope="sole" script="kurrent">The translation
+                        is written in a different script (chancery fraktura) from that of the original text.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="low"><p>On the first front flyleaf, a later hand wrote: <q>Island. Chart. in folio. No
+                           <del>88</del><add>90</add>. Inbunden år 1843. .G.O.H.C. Den Svenska öfversättn<ex>ing</ex> af denna
+                        Saga är gjord af Isländaren Gudmund Olsson. S. anteckn<ex>ing</ex> uti Isl. Katal. (s.
+                     144).</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with leather spine and corners. The golden imprint on the spine reads: <q>Saga
+                              af Halfdane Eystenssyne. Isl. <ex>et</ex> Suet.</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1749"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:06.581+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. catalog info still missing.</change>
+         <change when="2013-03-06" who="#BES">Measured and checked at the library. Catalog info added. Info on layout and script
+            still missing.</change>
+         <change when="2013-04-03" who="#PTL">Added remaining scribe and layout details.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

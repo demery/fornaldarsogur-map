@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 24972</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-24972" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 24972</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="bref" n="1">
+                     <locus from="1r" to="1v"/>
+                     <title type="supplied">Letter</title>
+                     <textLang mainLang="is"/>
+                     <note>From Síra Jón Sveinsson of Staður in Steingrímsfjörður, probably from his relative by marriage Síra Gísli
+                     Ólafsson of Breiðbólstaður in Skógarströnd, but the name of the writer is cut off. There are references to the
+                     death of a certain Guðmundur, and to his widow Jarþrúður; the man is probably Guðmundur Pétursson who died on
+                     Febr. 7th 1794.</note>
+                  </msItem>
+                  <msItem class="isl" n="2">
+                     <locus from="2r" to="20r"/>
+                     <title type="uniform">Víglundar saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="islt" n="3">
+                     <locus from="20r" to="25v"/>
+                     <title type="uniform">Jökuls þáttur Búasonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="isl" n="4">
+                     <locus from="26r" to="58r"/>
+                     <title type="uniform">Bjarnar saga Hítdælakappa</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="ridd" n="5">
+                     <locus from="58r" to="72v"/>
+                     <title type="uniform">Fertrams saga og Platós</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="6">
+                     <locus from="73r" to="82r"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fornth" n="7">
+                     <locus from="82r" to="83v"/>
+                     <title type="uniform">Ormars þáttur Framarssonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="isl" n="8">
+                     <locus from="83v" to="100v"/>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="isl" n="9">
+                     <locus from="100v" to="129r"/>
+                     <title type="uniform">Flóamanna saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="isl" n="10">
+                     <locus from="129r" to="141v"/>
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="isl" n="11">
+                     <locus from="141v" to="174v"/>
+                     <title type="uniform">Vatnsdæla saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="isl" n="12">
+                     <locus from="175r" to="235v"/>
+                     <title type="uniform">Laxdæla saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="bref" n="13">
+                     <locus from="236r" to="236v"/>
+                     <title type="supplied">Letter</title>
+                     <textLang mainLang="is"/>
+                     <note>Continuation of item 1 above.</note>
+                  </msItem>
+                  <msItem class="annal" n="14" defective="true">
+                     <locus from="237r" to="238v"/>
+                     <title type="uniform">Annalistic notes</title>
+                     <textLang mainLang="is"/>
+                     <note>The years 1807, 1811, 1812 and 1814 are mentioned. Written by Daði Níelsson.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="238"/>
+                           <num type="back-flyleaf" value="4"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">
+                        </foliation>
+                        <condition ana="poor"/>	
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="27 35">									
+                           <num type="wpl" atLeast="9" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>	
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="#DadNie001" scope="major" script="kurrent">(see signature on f.25v)</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Leaves are mounted on supports.</p>
+                     </binding>							
+                  </bindingDesc>	
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1824"/>
+                     <origPlace key="IS">Iceland</origPlace>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="SabBar001"/>According to note on flyleaf, purchased from him in 1862.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:57.042+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-15" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

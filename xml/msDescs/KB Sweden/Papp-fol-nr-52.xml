@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 52</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-52" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 52</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="32r"/>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis <note>[Swedish]</note></title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2">The front cover of an older paper binding is now the secound
+                              flyleaf.</num>
+                           <num type="book-block" value="32"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">A lion in a double circle, small ornaments around it. The watermark on the
+                              flyleaves is a beehive with floral ornaments. "1910" and "No 2". On the opposite side it reads
+                              "LESSEBO".</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="19">
+                           <num type="wpl" atLeast="5" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="285"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonVig011" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">slightly enlarged and decorated initials</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>Quite a few corrections to the text on fols. <locus>1r-2v</locus>. A total of four slips
+                     with the shelfmark are glued onto the second front flyleaf and fol. <locus>1r</locus>.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with marbeled paper on the boards; spine and corners in white leather. The
+                           golden imprint on the spine reads: <q>Cod. Isl Papp. fol. N:o 52</q>. The front cover of an older
+                           binding is preserved in the front of the manuscript.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1670" notAfter="1710"/>
+                     <origPlace key="SE" cert="medium"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:03.77+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. still catalog info missing.</change>
+         <change when="2013-03-05" who="#BES">Measured and checked at the library.</change>
+         <change when="2013-03-21" who="#BES">Added catalog info. Layout, locus and script to be checked.</change>
+         <change when="2013-04-03" who="#PTL">Added remaining locus and layout details.</change>
+         <change when="2013-04-04" who="#PTL">Added remaining scribe and layout details.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

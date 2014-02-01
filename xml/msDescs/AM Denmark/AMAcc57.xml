@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>AM Acc. 57</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+					Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+					3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+				<msDesc xml:id="AMAcc57" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+						<idno>AM Acc. 57</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="contemporary">
+							<titlePart>Sagan af Sorla Sterka</titlePart>
+						</titlePage>
+						
+						<msItem n="1" class="fas">
+							<locus from="2r:1" to="29v:18"/>  							
+							<title type="uniform" ref="#ssst">Sörla saga sterka</title>
+							<textLang mainLang="non"/>
+							<incipit>I þann tyma hefst saga þessi, er Halldan kongur Brönufostre stirde Sviþiod</incipit>
+							<explicit>hafe orded auded barna epter sig edur eige</explicit>
+							<finalRubric>ok lykur hier nu Sogunne af Sorla hinum sterka ok hans afreks vorkum</finalRubric>
+														
+							<filiation>
+								<p>Copied from an unknown manuscript (possibly Westin 87 in Uppsala?) owned by <name type="person" key="BirTho001">B.
+									Thorlacius</name> (cf. note on fol. 2r)</p>
+							</filiation> 
+												
+						</msItem>
+						
+						<msItem n="2" class="fas">
+							<locus from="33r:1" to="40v:29"/>  							
+							<title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+							<textLang mainLang="non"/>
+							<incipit>Augnvalldr er kongr nemndr, er reþ fyri Rogalandi</incipit>
+							<explicit>Yta[?] hiet dottir hans ok er frá henne komit micit afspringi</explicit>
+							<finalRubric>ok end<ex>ar</ex> sva þessa saugu</finalRubric>
+							<note>Separate title page (fol. 33) reads: <q>Saga af Hálfi kongi oc reckom hans. (Efter et haandskrift
+							som tilhörer prof. Thorlaciws. skrevet af Schaldemose. 1816.</q></note>
+							<note>Appears to be a condensed version of the saga?</note>
+							
+							<filiation>
+								<p>Copied from an unknown manuscript (Possibly Westin 81 in Uppsala?) owned by <name type="person" key="BirTho001">B.
+									Thorlacius</name> (cf. note on fol. 2r)</p>
+							</filiation> 
+							
+						</msItem>
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="40"/>
+									<num type="back-flyleaf" value="1"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="162"/>
+										<width unit="mm" quantity="115"/>
+									</dimensions>
+									
+									<watermark ana="yes">Coat of arms with beehive [Honig &amp; Zoonen] partially visible on fol. 32.
+									Other watermarks by same paper maker visible throughout.</watermark>
+									
+								</support>
+								
+								<foliation ana="contemporary pag">
+									<p>Paginated 1-54, 1-14 in upper margins. Fol. 1 blank except for annotation on verso. Fols. 30-32 blank.</p>
+								</foliation>
+								
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-separate" columns="1" writtenLines="24 29">									
+									
+									<num type="wpl" atLeast="7" atMost="9"/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity="130"/>
+										<width unit="mm" quantity="85"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#FreSch002" scope="sole" script="cursive"/>
+						</handDesc>
+						
+						<decoDesc ana="no">
+							<decoNote/>
+						</decoDesc>
+						
+						<additions ana="low">
+							<p>Table of contents added to fol. 1v: <q>þesse book hefur inne að hallda epterfilgiande Sauge. 
+							1. Saugo af Sorla sterka
+							2. af Halfe ok reckom hans</q>. 
+								Annotations at foot of title page (2r):
+							<q>(afskreven efter et haandskrift som tilhörer hr professor Thorlaciws, af Schaldemose</q>, 
+							<q>Nykiöping <ex>og</ex> Falster. 1816. Foreret Skolens bibliothek af hr. Schaldemose</q></p>
+						</additions>
+						
+						<bindingDesc>
+							<binding ana="moderate" contemporary="true">
+								<p>Half-calf with contemporary marbled (black, blue, rose and orange) boards. 
+								Red and gold sticker with titles, <q>SAGAN AF SORLA STERKA OK HALFI</q>, affixed to front cover.
+								Library sticker from Nykøbing Cathedral School affixed to foot of spine. Raised bands and gilt stripes
+								on spine.</p>
+							</binding>							
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate when="1816"/>
+							<origPlace key="DK"/>
+						</origin>
+						
+						<provenance>
+							<p>Given as a gift to the <name type="organisation" role="owner" key="NykKat">Nykøbing
+								Katedralskole</name> in 1816 by <name type="person" role="owner" key="FreSch002">Frederik Schaldemose</name>.
+								Acquired from the school by the AMS in April 2007 as a gift. Library sticker from the school on the foot of the spine.</p>							
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2014-01-14" who="#JSL">Cataloged from manuscript.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

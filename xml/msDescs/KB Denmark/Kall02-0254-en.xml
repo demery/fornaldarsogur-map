@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Kall 254 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Kall02-0254-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Kall 254 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="20v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Ad Berufirde 21 Apr. 1688</colophon>
+                     <note>Parts illegible due to careless repairs.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <!-- is this correct? No notes indicating parchment or printed leaves -->
+                     <supportDesc material="mixed">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="20"/>
+                           <num type="back-flyleaf" value="7"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="296"/>
+                              <width unit="mm" quantity="180"/>
+                           </dimensions>
+                           <watermark ana="yes">Watermark on added leaves fols <locus>3r-4v</locus>.</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           Foliation only occurs on leaves 5, 10 and 20. 
+                           A later foliation on <locus>18 (20)</locus>.
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="39 41">
+                           <num type="wpl" atLeast="11" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="280"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <note>leaves <locus>3r-4v</locus> are blank.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="vignette">slightly ornamented vignette on first page</decoNote>
+                     <decoNote type="initial">slightly larger initials</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p> Two blank leaves are added after fol. <locus>2v</locus> and now counted as fols 3-4.
+                        Moderate marginalia in <name key="ArnMag001" type="person" role="scholar">Árni Magnússon's</name> hand:
+                        <!-- change encoding of this or fill in notes for each locus -->
+                     <list type="bulleted">
+                        <item>
+                           <locus from="5r"/>
+                        </item>
+                        <item>
+                           <locus from="7v"/>
+                        </item>
+                        <item>
+                           <locus from="8v"/>
+                        </item>
+                        <item>
+                           <locus from="10v"/>
+                        </item>
+                        <item>
+                           <locus from="12v"/>
+                        </item>
+                        <item>
+                           <locus from="13v"/>
+                        </item>
+                        <item>
+                           <locus from="15v"/>
+                        </item>
+                        <item>
+                           <locus from="17v"/>
+                        </item>
+                        <item>
+                           <locus from="18r"/>
+                        </item>
+                        <item>
+                           <locus from="19r"/>
+                        </item>
+                     </list></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Later binding in good condition; leather corners and spine; moderate decorations in various colors; golden imprnt on spine: title and floral ornaments</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1688"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="ArnMag001" type="person" role="other">Árni Magnússon</name> added marginalia with corrections to the text.</p>
+                     <name type="person" role="owner" key="JohKal001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:34.253+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-25" who="#BES">Added information from catalog.</change>
+         <change when="2013-06-07" who="#BES">Added missing information with manscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

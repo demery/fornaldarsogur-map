@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1698 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1698-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1698 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 13 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/> 
+                  <msItem n="1" class="tjos">
+                     <locus from="1r" to="12v"/>
+                     <title type="uniform">Ásmunda saga flagðagæfu [Excerpt]</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="1.1" class="texfr">
+                        <locus from="11v" to="12v"/> 
+                        <title type="supplied">Note on origin of excerpt</title>
+                        <author>Eyjólfur Jónsson</author>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="skaldskfr">
+                     <locus from="13r" to="56v"/>
+                     <title type="supplied">On poetry and kennings</title>
+                     <rubric>Skaalda Olafs Þordarsonar Løgmanns aa Islandi, er Kallast Hvita-Skaald. Skrifud ad nyu 1768.</rubric>
+                     <note>Part dedicated to runes: fols. <locus>26v-27r</locus></note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="57r" to="68v"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                     <filiation>
+                        <ref type="ms" target="AM04-1008-en" ana="antigraph">copy of AM 1008 4to</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="69r" to="82r"/>
+                     <title type="uniform">Eiríks saga rauða</title>
+                     <title type="parallel">Þorfinns saga Karlsefnis</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="book-block" value="82"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="260"/>  
+                           <width unit="mm" quantity="200"/>
+                        </dimensions>
+                        <watermark ana="no"/>
+                     </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="24 31">
+                           <num type="wpl" atLeast="7" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               <handDesc hands="1">
+                  <handNote scribeRef="#ArnBod001" scope="sole" script="kurrent">Árni Böðvarsson frequently changed script type
+                     (for aesthetic reasons). He uses kurrent, chancery fractura and hum cursiva.</handNote> 
+               </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="initial">Highly decorated initials and rubrics (black ink)</decoNote>
+                     <decoNote type="paratext">Squiggles around catchwords, crosses at the end of a text, diamond shaped endings.</decoNote>
+                     <decoNote type="other">Mix of script types leads to a generally decorative appearance</decoNote>
+                  </decoDesc>
+               <additions ana="low"><p>Some underlinings and notes in pencil. The Danish Royal Library added two different stamps and shelf marks.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Thick paper binding covered in marbled paper. Spine very fragile.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1740" notAfter="1790">ca. 1768</origDate>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 13 4to.</name></p>
+                  </provenance> 
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:37.668+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-01" who="#BES">Added catalog info.</change>
+         <change when="2013-05-24" who="#BES">Added missing information with manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

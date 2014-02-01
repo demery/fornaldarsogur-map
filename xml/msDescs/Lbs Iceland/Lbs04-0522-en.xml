@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 522 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0522-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 522 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Innihald þessarar bókar er fyrst um lækningar þá fyrir á sem ekkert
+                        annað betra í höndum hafa en girnast þó þess konar fróðleiks eftir sjónir. Í
+                        seinni parti þessarar bókar er ýmislegt, sumt til fróðleiks, sumt til gamans
+                        og íhugunar. </titlePart>
+                     <titlePart>Saman tínt og skrifað á Purkey af hálfsjötugum karli O: Sveinssyni
+                        (Ólafi Sveinssyni) 1828</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="formal kvad">
+                     <locus from="title-page1v" to="title-page1v"/>
+                     <title type="supplied">Ávarp skrifara til eiganda</title>
+                     <rubric>Til eigandans</rubric>
+                     <colophon>Lafur o (Ólafur)</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="formal">
+                     <locus from="1r" to="1v"/>
+                     <title type="supplied">Ávarp skrifara til Lesarans</title>
+                     <rubric>Til lesarans</rubric>
+                     <colophon>Ólafur Sveinsson</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="formal krist trumal">
+                     <locus from="2r" to="5r"/>
+                     <title type="supplied">Kristlegur formáli</title>
+                     <rubric>Ég vil til upplýsingar og umþenkingar hér skrifa það ég hef lesið í
+                        gamlra mannaskrifum hvað þeir hafa viljað láta merkja eitt og annað í
+                        kirkjunni ásamt messuskrúðann.</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <!-- Má gera item 1-3 að einu Formála og skipta svo niður í undirgreinar 1.1, 1.2 1.2.1 osvfrv.-->
+                  <msItem n="4" class="lakn">
+                     <locus from="6r" to="55r"/>
+                     <title type="supplied">Lækningabók</title>
+                     <rubric>Lækningar af ýmislegu og auðfengasta</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <!-- Má sipta niður í undirgreinar 1,1 1,2 osvfrv. -->
+                  <msItem n="5" class="tjodt">
+                     <locus from="56v" to="58r"/>
+                     <title type="supplied">Heilræði</title>
+                     <rubric>Nokkrir athugar meinlausir og máske vitlitlir</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="gat">
+                     <locus from="58v" to="78r"/>
+                     <title type="supplied">204 Gátur</title>
+                     <rubric>Gátur</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="fas gat">
+                     <locus from="78r" to="82v"/>
+                     <title type="uniform">Heiðreksgátur</title>
+                     <title ref="#hs" type="uniform">Hervarar saga</title>
+                     <note>Heiðreks gátur og Gestumblinda</note>
+                     <note>Only a small part of the saga and not strictly following the saga's most
+                        common text. Starts with a short scribal explanation.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="kvad gat">
+                     <locus from="82v" to="82v"/>
+                     <title type="supplied">Vísnagáta</title>
+                     <rubric>Vísu-slitur</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="kvad tjodt barnag">
+                     <locus from="84r" to="84v"/>
+                     <title>Heilræðakvæði</title>
+                     <rubric>Barnagaman</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="10" class="tjodt">
+                     <locus from="84v" to="88v"/>
+                     <title type="supplied">Heilræði</title>
+                     <rubric>Lítið ágrip úr Kerlingalögbók</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="fornkv draum tjodt">
+                     <locus from="89r" to="95v"/>
+                     <title type="uniform">Kötludraumur</title>
+                     <rubric>Hér skrifast Kötludraumur</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="12" class="kvad">
+                     <locus from="95v" to="95v"/>
+                     <title type="supplied">Kötluvísur</title>
+                     <rubric>Vísur fimm</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="96"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Flyleaves come with the binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag">I-XI and 1-180</foliation>
+                        <foliation ana="later fol">In pencil, every tenth leave, added at the time of
+                           cataloguing</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="24 27">
+                           <num type="wpl" atLeast="3" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="115"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#OlaSve001" script="unknown" scope="sole"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>An addition to text Item "5" <locus from="56v" to="58r"/>: 
+                        <title type="supplied">Heilræði</title></p>
+                     <p>In a preface, in the form of a poem, it is stated that the manuscript has been
+                        made for a woman for her personal use</p>
+                  </additions>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1828"/>
+                     <origPlace key="IS"/>
+                     
+                  </origin>
+                  <provenance>
+                  <name type="person" role="owner" key="EliMar001"/></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:45.619+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-11" who="#SK">Added information from the P.E.Ó-catalogue and the
+         manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

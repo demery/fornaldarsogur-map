@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ms Icel. e. 4</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ms-Icel-e4" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BDL">Bodleian Library, Oxford</repository>
+                  <idno>Ms Icel. e. 4</idno>
+                  <altIdentifier>
+                     <idno>Taylor Institution, Arch II e 4.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="sagnfr" n="1">
+                     <locus from="1r" to="71r"/>
+                     <title type="uniform">Persa konga króníkur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="isl" n="2">
+                     <locus from="71v" to="85v"/>
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <textLang mainLang="is"/>
+                     <note>On 85v a verse about Hænsa-Þórir follows the end of the saga.</note>
+                  </msItem>
+                  <msItem class="fas" n="3">
+                     <locus from="87r" to="103v"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hér byriar Söguna af Eigli hinum Einhenta</rubric>
+                     <incipit>Hertriggur hefur kongr heitid, han ried fyrir vestur Russia</incipit>
+                     <explicit>og lukum vid so söguna af þeim Eigle hinum einhenta og Asmundi Gnod.</explicit>
+                     <colophon>Arið 1836 er hun nu uppskrifud og er osnotur siga saga.</colophon>
+                  </msItem>
+                  <msItem class="islt" n="4">
+                     <locus from="105r" to="106v"/>
+                     <title type="uniform">Þorsteins þáttur Austfirðings</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="islt" n="5">
+                     <locus from="106v" to="107v"/>
+                     <title type="uniform">Þorsteins þáttur forvitna</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="6">
+                     <locus from="109r" to="122v"/>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier kíemur Sagan af An Bögsveigir</rubric>
+                     <incipit>I þan tíma ad Fylkis Kongar voru í Norveigi hófst þessi saga</incipit>
+                     <explicit>Og lýkur hér við sögu Ans Bogsveirs</explicit>
+                  </msItem>
+                  <msItem class="fas" n="7">
+                     <locus from="122r" to="139r"/>
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Ingvari Vydförla</rubric>
+                     <incipit>Eyrikur hiet konungr er ried fyrir Svijþioð</incipit>
+                  </msItem>
+                  <msItem class="fas" n="8">
+                     <locus from="139r" to="154r"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Hälfdäni Eysteinssyne</rubric>
+                     <incipit>Þrandr hefur konungr heitid, vid hann er Þrandheimur kiendur</incipit>
+                     <explicit>og lykum við so þessari sögu af Halfd Eysinssyní</explicit>
+                  </msItem>
+                  <msItem class="forns" n="9">
+                     <locus from="154r" to="161r"/>
+                     <title type="uniform">Hálfdanar þáttur Barkarsonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="isl" n="10">
+                     <locus from="161r" to="176r"/>
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="forns" n="11">
+                     <locus from="176r" to="195v"/>
+                     <title type="uniform">Haralds saga Hringsbana</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="197"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="later fol">
+                           <p>Runs from 1-195 with ff. 149 and 154 repeated.</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="26 28">
+                           <num type="wpl" atLeast="11" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>The contents are written on the first flyleaf, but item 5 is omitted.</p>
+                     <p>A note on the inside front cover states 'Transferred to the Bodley, 2 March 1978'. The previous shelfmark
+                        was Arch II e 4.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Note on the antepenultimate flyleaf states that it was rebound by Maltby in Oxford in 1901. The binding
+                           is brown leather with gilt lettering on the spine reading 'ICELANDIC / SAGAS / M.S. / 18TH CY.' The
+                           leaves have been mounted on supports.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1849"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>A note on the first back flyleaf states that the MS was acquired in May 1901 from '<name type="person" role="signatory" key="ambig">Stephenson</name>', an Icelandic student of Ruskin Hall, Oxford'. The
+                        price of the manuscript, along with what is now MS Icel. e. 5 (which contains Olgeir's rímur) is said to
+                        have been 1 pound, 10 shillings and 0 pence.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:52.587+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-29" who="#PTL">Information supplemented with reference to manuscript in Oxford.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

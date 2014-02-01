@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1801 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1801-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1801 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 334 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><note>Separate titlepages for some items, all with note on exemplars</note></titlePage>
+                  <msItem n="1" class="ridd handfr">
+                     <locus from="1v" to="6v"/>
+                     <title type="uniform">Samsons saga fagra [Variants]</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0120-en" ana="antigraph">variants from AM 120 8vo</ref>
+                     </filiation>
+                     <note>Variant readings only</note>
+                  </msItem>
+                  <msItem n="2" class="fas handfr">
+                     <locus from="8r" to="52r"/>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra [Variants]</title>
+                     <textLang mainLang="non"/>
+                     <note>Variant readings only</note>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0294-en" ana="antigraph">copy of AM 294 4to</ref>
+                        <ref type="ms" target="#AM04-0295-en" ana="antigraph">copy of AM 295 4to</ref>
+                     </filiation>
+                     <msItem n="2.1" class="handfr">
+                        <locus from="8v" to="8v"/>
+                        <title type="supplied">Copy of AM-slip</title>
+                        <filiation><ref type="ms" target="#AM04-0295-en" ana="antigraph">copy of AM 295 4to</ref></filiation>
+                        <textLang mainLang="is" otherLangs="la"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="3" class="kon handfr">
+                     <locus from="52v" to="54v:11"/>
+                     <title type="uniform">Skálda saga [Variants]</title>
+                     <textLang mainLang="non"/>
+                     <note>Variant readings only</note>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0307-en" ana="antigraph">copy of AM 307 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="54v:12" to="61r"/>
+                     <title type="uniform" ref="#upp">Af Upplendinga konungum</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0307-en" ana="antigraph">copy of AM 307 4to</ref>
+                     </filiation>
+                     <msItem n="4.1" class="handfr">
+                        <locus from="61r:11" to="61r:17"/>
+                        <title type="supplied">Copy of AM-slip</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="5" class="fornth" defective="true">
+                     <locus from="61v" to="87v"/>
+                     <title type="uniform">Ragnarssona þáttur</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0307-en" ana="antigraph">copy of AM 307 4to</ref>
+                     </filiation>
+                     <note>No title.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/> 
+                           <num type="book-block" value="87"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="196"/> 
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                           <watermark ana="yes">"J Honig <ex>et</ex> Zoonen", large circular watermark, double lined, writing and
+                              image (coat of arms?) inside, crown on top.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="17 19">
+                           <num type="wpl" atLeast="3" atMost="5"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoMag014" scope="sole" script="hum cursiva">Chancery for rubrics</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">slightly decorated intitials and rubrics</decoNote>
+                     <decoNote type="paratext">large squiggles and lines</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p><name key="PetSuh001" type="person" role="owner">Suhm</name> made a note on the verso
+                     side of the front flyleaf
+                     and signed it <q>PFSuhm</q>. Notes and marks in the margins.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Brown paper on cardboard; leather spine and corners; golden imprint on the spine: title. 
+                           The manuscript is kept in an additional paper bifolio outside of the binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no 334 4to</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:46.608+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-06" who="#BES">Added catalog info.</change>
+         <change when="2013-05-31" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

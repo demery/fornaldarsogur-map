@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 9 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR04-0009-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 9 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>ÍBR. A. 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                        <titlePart>Nokkrir fornir söguþættir.</titlePart>
+                        <titlePart>Ritaðir að Starrastöðum árið MDCCCXVI. (front-flyleaf
+                              <locus from="0002r-FFl" facs="#IBR04-0009-0002r-FFl" to="0002r-FFl">2r</locus>)</titlePart>
+                     
+                  </titlePage>
+                  <msItem n="1" class="kon ritht">
+                     <locus from="1r" facs="#IBR04-0009-0001r" to="8v">1r-8v</locus>
+                     <title type="uniform">Skálda saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Skálda sagan Haralds konungs hárfagra</rubric>
+                  </msItem>
+                  <msItem n="2" class="forns">
+                     <locus from="9r" facs="#IBR04-0009-0009r" to="27v">9r-27v</locus>
+                     <title type="uniform">Þorsteins saga Geirnefjufóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Þorsteini Geirnefjufóstra</rubric>
+                  </msItem>
+                  <msItem n="3" class="konth">
+                     <locus from="28r" facs="#IBR04-0009-0028r" to="29v">28r-29v</locus>
+                     <title type="uniform">Sigurðar þáttur slefu</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þáttur frá Sigurði konungi slefu syni Gunnhildar</rubric>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="30r" facs="#IBR04-0009-0030r" to="38v">30r-38v</locus>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hálfi konungi og rekkum hans</rubric>
+                  </msItem>
+                  <msItem n="5" class="konth">
+                     <locus from="39r" facs="#IBR04-0009-0039r" to="43v">39r-43v</locus>
+                     <title type="uniform">Hauks þáttur hábrókar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hauki hábrók</rubric>
+                  </msItem>
+                  <msItem n="6" class="konth" defective="true">
+                     <locus from="43v" facs="#IBR04-0009-0043v" to="44v">43v-44v</locus>
+                     <title type="uniform">Styrbjarnar þáttur Svíakappa</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Söguþáttur af Styrbirni Svíakappa</rubric>
+                     <explicit defective="true">og kvæði á hvað vopna eða herklæði hvör bóndi</explicit>
+                     <note>Lacking at the end.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="44"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="161"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag">
+                           <p>1-88 (1r-44v)</p>
+                        </foliation>
+                        <condition ana="good">Seems like two leaves are lacking after
+                           44v</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 28">
+                           <num type="wpl" atLeast="10" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="136"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">Unknown scribe
+                        (<locus>1r-8v</locus>)</handNote>
+                     <handNote scribeRef="#EinBja003" scope="major" script="hum cursiva">
+                        Hum curisva and chancery (<locus>9r-44v</locus>)</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"> Decorative red initial: fols. <locus from="28r" facs="#IBR04-0009-0028r" to="28r">28r</locus>,
+                        <locus from="39r" facs="#IBR04-0009-0039r" to="39r"/>
+                     </decoNote>
+                     <decoNote type="paratext">Heading in red: fols.<locus from="30r" facs="#IBR04-0009-0030r" to="30r">30r</locus> and <locus from="39r" facs="#IBR04-0009-0039r" to="39r">39r</locus>.</decoNote>
+                     <decoNote type="secondary" subtype="initial">decorative initials</decoNote>
+                     <decoNote type="secondary" subtype="display-script">Decorative
+                        headings</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Front flyleaf <locus from="0002v-FFl" facs="#IBR04-0009-0002v-FFl" to="0002v-FFl">2v</locus> has a
+                        register in the hand of <name type="person" key="PalPal003">Páll Pálsson</name> student.</p>
+                     <p>Some marginalia</p>
+                     <p>The back flyleaf and rear pastedown are from letters, addressed to provost <name type="person" role="recipient" key="JonKon001">Jón
+                        Konráðsson</name> from <name type="person" role="auhtor" key="ambig">B Halldórsson</name> in 1829.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Leather on wooden boards. Considering the dating of the flyleaves, the binding is most likely slightly later than the text.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS">Ísland</origPlace>
+                     <origDate when="1816">1816</origDate>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name type="person" role="donor" key="GudEin005">Guðmundur Einarsson</name>, county clerk,
+                        donated the manuscript to <name type="organisation" role="owner" key="IslBom">The Icelandic literary
+                           society's Reykjavík division (Reykjavíkurdeild Hins íslenska bókmenntafélags)</name> 
+                        in <date when="1865">1865</date>. Its former shelfmark is ÍBR. A. 15.  The
+                        <name type="organisation" role="owner" key="LBS">Landsbókasafn</name> bought the whole collection in <date when="1901">1901</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:07.299+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:15.477+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:35.827+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:11.622+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-01" who="#SK">Adapted to FASNL and added information from the
+            P.E.Ó-catalogue and the digital version of the manuscript itself</change>
+         <change when="2012-05" who="#SK">Added information from the manuscript itself</change>
+         <change when="2013-02-13" who="#BES">Fixed validation errors.</change>
+         <change when="2013-08-20" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

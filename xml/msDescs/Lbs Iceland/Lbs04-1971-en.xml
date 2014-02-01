@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1971 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1971-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1971 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Sagas, mostly written in the 19th century, defective </summary>
+                  <!--<titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="fas">
+                     <locus from="4r" to="9v"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9v" to="12v"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas" defective="true">
+                     <locus from="12v" to="39v"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <note>defective at the end</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="40r" to="51r"/>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="52r" to="63v"/>
+                     <title type="uniform">Hektors saga</title>
+                     <title type="uniform">Ectors saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Hektor og köppum hans</rubric>
+                  </msItem>
+                  <msItem n="6" class="forns">
+                     <locus from="64r" to="92v"/>
+                     <title type="uniform">Haralds saga Hveðrubana</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="85r" to="120v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ridd" defective="true">
+                     <locus from="121r" to="143v"/>
+                     <title type="uniform">Fertrams saga og Platos</title>
+                     <textLang mainLang="non"/>
+                     <note>Incomplete.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="143"/>
+                         <!--  <num type="back-flyleaf" value=""/>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="198"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                          <!-- <watermark ana=""/>-->
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 29">
+                           <num type="wpl" atLeast="10" atMost="17"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">At least 4 different scribes.</handNote>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="initial"/>
+                     <decoNote type="other">Catchwords often decorated with knotwork.</decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>Fol. <locus>1</locus> and <locus>2</locus> with scribblings and pen trials.</p>
+                     <p>On many pages, the text is provided by a later scribe.</p>
+                  </additions>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="EinSte001">Einar Stefánsson cand. phil.</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:03.841+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-22" who="#SK">Added information from the P.E.Ó.-catalogue</change>
+         <change when="2013-06-04" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+
+      <!-- check items' locus in ms itself since photographs seem to be in wrong order -->
+      <!-- watermark, layout dimensions and bindingDesc missing -->
+      <change when="2013-08-30" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

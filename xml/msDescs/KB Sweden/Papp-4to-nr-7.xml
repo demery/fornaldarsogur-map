@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 7</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-7" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 7</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="189v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga <note>[Swedish]</note></title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="189"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="213"/>
+                              <width unit="mm" quantity="173"/>
+                           </dimensions>
+                           <watermark ana="yes">Different watermarks: Foolscap and a large round watermark.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="15 19">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GudOla001" scope="sole" script="kurrent">Kurrent for main text,
+                        chancery for rubrics</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <!-- need elaboration -->
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="low"><p>Very few corrections and additions to the text, possibly by the scribe himself.</p> <p>Three
+                     stickers with the shelfmark on the binding.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Cardboard binding with leather spine and corners.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1681" notAfter="1695"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <name type="organisation" role="commissioner" key="AntKol001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:57.555+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-01" who="#BES">quick prep. for library. still catalog info missing.</change>
+         <change when="2013-03-07" who="#BES">Measured and checked with the manuscript in situ.</change>
+         <change when="2013-04-02" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

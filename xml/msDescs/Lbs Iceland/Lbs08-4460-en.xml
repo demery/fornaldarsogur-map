@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt> 
+                <title>Lbs 4460 8vo</title> 
+            </titleStmt> 
+            
+            <publicationStmt> 
+                <availability status="restricted"> 
+                    <p>Not ready for publication.</p> 
+                </availability> 
+                <authority>Den Arnamagnæanske Samling, København</authority>                 
+            </publicationStmt> 
+            
+            <sourceDesc> 
+                <msDesc xml:id="Lbs08-4460-en" xml:lang="en"> 
+                    <msIdentifier> 
+                        <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository> 
+                        <idno>Lbs 4460 8vo</idno> 
+                    </msIdentifier> 
+                    
+                    <msContents> 
+                        
+                        <titlePage ana="no"> 
+                        </titlePage> 
+                        
+                        <msItem n="1" class="fas"> 
+                            <!--<locus from="X" to="X"/> -->
+                            <title type="uniform" ref="#ksh">Ketils saga hængs</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="#" class="fas"> 
+                            <!--<locus from="X" to="X"/> -->
+                            <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="#" class="fas"> 
+                            <!--<locus from="X" to="X"/> -->
+                            <title type="uniform" ref="#oeos">Örvar-Odds saga</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="#" class="fas"> 
+                            <!--<locus from="X" to="X"/> -->
+                            <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="#" class="fas"> 
+                            <!--<locus from="X" to="X"/> -->
+                            <title type="uniform" ref="#hsgr">Hrólfs saga Gripssonar</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                    </msContents>              
+                    
+                    <physDesc> 
+                        <objectDesc form="codex">                         
+                            <supportDesc material="chart">                                 
+                                <support> 
+                                    <num type="front-flyleaf" value="1"/> 
+                                    <num type="book-block" value="280"/> 
+                                    <num type="back-flyleaf" value="1"/> 
+                                    <dimensions type="leaf"> 
+                                        <height unit="mm" quantity="163"/> 
+                                        <width unit="mm" quantity="99"/> 
+                                    </dimensions> 
+                                    <!--<watermark ana="no|yes"/>--> 
+                                </support> 
+                                
+                                <!--<foliation ana="no|contemporary|later|pag|col|fol"/>-->
+                                <!--<condition ana="terrible|poor|average|good|excellent"/> -->
+                            </supportDesc> 
+                           <!-- <layoutDesc> 
+                                <layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">
+                                    <num type="wpl" atLeast="" atMost=""/> 
+                                    <dimensions type="written"> 
+                                        <height unit="mm" quantity=""/> 
+                                        <width unit="mm" quantity=""/> 
+                                    </dimensions> 
+                                </layout> 
+                            </layoutDesc> -->
+                            
+                        </objectDesc> 
+                        
+                        <handDesc hands="1"> 
+                            <handNote scribeRef="#abc" scope="sole" script="XXX">Þorsteinn J. Jóhannsson</handNote><!-- 19 aug 1875-10 apr 1958, borin in Ólafsey í Breiðafirði, father Jóhann Guðmundsson, mother Þorbjörg Ólafsdóttir Guðmundssonar Ólafssonar Snókdalín --> 
+                        </handDesc>
+                        <!--<decoDesc ana="no|low|medium|high"> 
+                            <decoNote type="border"/> 
+                        </decoDesc>-->
+                        <!--<additions ana="no|low|medium|high"> 
+                            <p> 
+                            </p> 
+                        </additions>-->
+                        <!--<bindingDesc> 
+                            <binding ana="plain|moderate|decorative" contemporary="false"> 
+                                <p/> 
+                            </binding>                             
+                        </bindingDesc> -->
+                    </physDesc> 
+                    
+                    <history> 
+                        <origin> 
+                            <origDate notBefore="1900" notAfter="1949" /> 
+                            <origPlace key="IS"/> 
+                        </origin>                        
+                        <provenance> 
+                            <name type="person" role="owner" key="">Helga Þorsteinsdóttir</name>, the daughter of the scribe, donated the manuscript to the Landsbókasafn <date when="1985-02-14">14 February 1985</date>. 
+                            </provenance><!-- add Helga and her father to authority file -->
+                    </history>                     
+                    
+                </msDesc> 
+                
+            </sourceDesc> 
+            
+        </fileDesc> 
+        <revisionDesc> 
+            <!-- @when = CREATION DATE -->
+            <change when="2011" who="#EAH">Auto-generated from FASNL bibliography data</change> 
+            <change when="2014-01-23" who="#SH">Document created by Silvia Hufnagel with information from the unprinted Lbs-catalogue draft Handritaskrá 1964-2013</change>
+        </revisionDesc> 
+    </teiHeader> 
+    
+    <facsimile> 
+        <surface/> 
+    </facsimile> 
+    
+    <text> 
+        <body> 
+            <p/> 
+        </body> 
+    </text> 
+</TEI> 

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 185 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0185-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 185 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <!--<titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="regist" defective="true">
+                     <locus from="1r:1" to="1r:17"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <note>Leaf is damaged and worn, so the text is difficult to read.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="2r:1" to="28v:22"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Þialar Jóne</rubric>
+                     <incipit>Vilhialmur hefur kongur heited er riede firer Vallande</incipit>
+                     <finalRubric>og liúkum Vier þessa sögu af ÞialarJone, og Eyreke hinum<ex>m</ex> forvitna.</finalRubric>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="29r:1" to="58v:31"/>
+                     <title type="uniform">Sigurgarðs saga og Valbrands</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biriar søgu af Sigurgarde og Valbrande</rubric>
+                     <incipit>Fyrer Englande Riede eirn ágiætur kóngur</incipit>
+                     <finalRubric>og endar hier so þessa sogu af Sigurgarðe og Valbrande sviköla</finalRubric>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="59r:1" to="76v:21"/>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Flóres kónge og sonum hans</rubric>
+                     <incipit>So biriar þessa søgu ad firer Affrica redi sa kongur er Flöres hiet</incipit>
+                     <finalRubric>til endingar þeßa sogu af Flores Kongi og hans tveimur sonum</finalRubric>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="77r:1" to="94v:27"/>
+                     <title type="uniform">Flóres saga og Blankiflúr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> Flóres og Blantzeflwr</rubric>
+                     <incipit>Felix hefur kongur heited er riede fyrer Alpes</incipit>
+                     <finalRubric>og lukum vier so þeßare sogu af Flores konge og Blantzeflur.</finalRubric>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="95r:1" to="152v:23"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Sigurde þøgla</rubric>
+                     <incipit>A døgum Artus hins fræga er riede firer Brettlande</incipit>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="153r:1" to="168v:34"/>
+                     <title type="uniform">Sálus saga og Nikanórs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Saulo og Nikanor hertoga</rubric>
+                     <incipit>Keisare eirn rÿkur og megtugur styrde Römaborg er Timotheus hiet.</incipit>
+                     <explicit>og liktar hier Sógu Sauls og Nicanors.</explicit>
+                  </msItem>
+                  <msItem n="8" class="forns">
+                     <locus from="169r:1" to="189v:35"/>
+                     <title type="uniform">Ásmundar saga Víkings</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Asmunde Vÿking</rubric>
+                     <incipit>Hringur hefur kongur heited, han<ex>n</ex> riede firer Gautlande</incipit>
+                     <explicit>og endar hier Sögu Asmundar Wykings Eyrekssonar.</explicit>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="190r:1" to="205v:26"/>
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Sigurgarde hinum<ex>m</ex> frækna</rubric>
+                     <incipit>Rÿgardur hefur kongur heited, han<ex>n</ex> riede firer Górðum</incipit>
+                     <explicit>og liktast hier sagan<ex>n</ex> af Sigurgarde hinum<ex>m</ex> frækna</explicit>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="206r:1" to="223v:34"/>
+                     <title type="supplied">Fertrams saga og Platós</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Fertram og Plato</rubric>
+                     <incipit>Artus hiet Kongur miog megtugur og auðugur</incipit>
+                     <finalRubric>og liktast hier saga af Fertram og Plato</finalRubric>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="224r:1" to="243v:27"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Vilmunde vidutan<ex>n sem var sonar sonur Bøgu Bösa</ex></rubric>
+                     <incipit>Vysevalldur hefur kongur nefndur vereð, han<ex>n</ex> rieð firer Holmagarðe</incipit>
+                     <finalRubric>Og lukum vier hier sógu af Vilmunde vidutan</finalRubric>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="244r:1" to="264v:29"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Jallman<ex>n</ex>e og Hermanne</rubric>
+                     <incipit>Þad er upphaf þessarar søgu ad eirn agiætur kongur riede firer Fracklande</incipit>
+                     <finalRubric>og liktast hi<ex>er</ex> sagan<ex>n</ex> af Jallman<ex>n</ex>e og Hermanne.</finalRubric>
+                  </msItem>
+                  <msItem n="13" class="ridd">
+                     <locus from="265r:1" to="281v:32"/>
+                     <title type="uniform">Viktors saga og Blávus</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Victor og Bläus</rubric>
+                     <incipit>Hier bÿrium<ex>m</ex> vier eina bøgulega frasøgu børnum<ex>m</ex>
+                        og öfröðu folke</incipit>
+                     <explicit>og hins agiæta kappa Blausar</explicit>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="282r:1" to="298v:33"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Eigle einhendta og Asmunde Berserkiar Bana</rubric>
+                     <incipit>Hertriggur hiet kongur han<ex>n</ex> riede firer Russia</incipit>
+                     <finalRubric>Og liktum vier sógu þeßa af Eigle einhendta og Asmunde Berserkiabana.</finalRubric>
+                  </msItem>
+                  <msItem n="15" class="ridd">
+                     <locus from="299r:1" to="315v:16"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Samsone fagra</rubric>
+                     <incipit>Artus hiet kongur, han<ex>n</ex> riede firer Einglande</incipit>
+                     <finalRubric>og endum vier hier sógu af Samsone fagra</finalRubric>
+                  </msItem>
+                  <msItem n="16" class="ridd">
+                     <locus from="316r:1" to="345v:31"/>
+                     <title type="uniform">Gibbons saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Gibeon konge og hans sÿne Øskupart</rubric>
+                     <finalRubric>og liktum<ex>m</ex> vier so þeßa sógu af Gibeone konge og hans
+                        syne Øskuoart konge.</finalRubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="345"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="102"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="average">Some leaves are damaged.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="28 30">
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="154"/>
+                              <width unit="mm" quantity="91"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JakSig001" scope="sole" script="late kurrent"><!--Jakob Sigurðsson--></handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Leather binding. The leaves are loose inside the cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1760" notAfter="1780">Written ca. 1770</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:54.069+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-03" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources. </change>
+         <change when="2013-07-26" who="#OHA">Catalogued from manuscript.</change>        
+         <change when="2013-08-19" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

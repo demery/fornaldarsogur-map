@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2404 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-2404-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2404 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="forns">
+                     <locus from="1r" to="60v"/>
+                     <title type="uniform">Hálfdanar saga gamla</title>
+                     <rubric>Sagan af Hálfdáni gamla og sonum hans</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="61r" to="100v"/>
+                     <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+                     <rubric>Hér hefir söguna af Hrómundi Greipssyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="konth">
+                     <locus from="101r" to="104v"/>
+                     <title type="uniform">Sigurðar þáttur slefu</title>
+                     <rubric>þáttur frá Sigurði konungi slefu syni Gunnhildar</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="islt">
+                     <locus from="104v" to="118v"/>
+                     <title type="uniform">Grænlendinga þáttur</title>
+                     <rubric>Af Einari Sokkasyni eður Grænlendinga þáttur</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="konth">
+                     <locus from="119r" to="127v"/>
+                     <title type="uniform">Hauks þáttur hábrókar</title>
+                     <rubric>Söguþáttur af Hauki hábrók og Vígharði</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="forns">
+                     <locus from="128r" to="164r"/>
+                     <title type="uniform">Þorsteins saga Geirnefjufóstra</title>
+                     <rubric>Sagan af Þorsteini Geirnefjufóstra</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="kon">
+                     <locus from="164r" to="177r"/>
+                     <title type="uniform">Skálda saga</title>
+                     <rubric>Skálda saga Haralds konungs hárfagra</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="konth">
+                     <locus from="177v" to="182r"/>
+                     <title type="uniform">Styrbjarnar þáttur Svíakappa</title>
+                     <rubric>Hér hefur þátt af Styrbirni enum sterka Svíakappa</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="182"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="166"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="average">Poor for the first few leaves, average to good
+                           for the rest</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="19 20">
+                           <num type="wpl" atLeast="8" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="135" atMost="140"/>
+                              <width unit="mm" atLeast="75" atMost="80"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GisKon001" scope="sole" script="hum cursiva">Gísli
+                        Konráðsson</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Decorated intitials and headings in places</decoNote>
+                  </decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Leather covered wooden boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1805"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="EgiGot001"/>Egill Gottskálksson á Völlum
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:56.358+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:20.766+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:39.956+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2012-07-16" who="#SMM">Added rubric titles and some msDesc codes.</change>
+         <change when="2013-03-25" who="#SK">Finished cataloguing form digitized version on handrit.is.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

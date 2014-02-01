@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1804 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1804-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1804 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 1294 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="7v"/>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                     <incipit>dotter skieggia a myrum</incipit> 
+                     <explicit>hafa þær giafer verid. var ol<ex>afur</ex> k<ex>ongur</ex></explicit>
+                  </msItem>
+                  <msItem n="2" class="ridd" defective="true">
+                     <locus from="8r" to="8v"/>
+                     <title type="uniform">Nitida saga</title>
+                     <incipit>hofdingia vilia j liv: k<ex>ongur</ex> vard harla gladur</incipit> 
+                     <explicit>o<ex>g</ex> lyk<ex>ur</ex> hier sogu af Nytida, hin<ex>n</ex>i frægu. Finis.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd" defective="true">
+                     <locus from="9r" to="16v"/>
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier byriar søgu Af sigurgarde hinum frækna</rubric>
+                        <incipit>Fyrer Austgørdum Riede, kongur sa er Rygardur, hiet</incipit>
+                        <explicit>hafe sa þock er lais(?), og þeir ed hlyddu, en<ex>n</ex> hnier ø þock er ohliod giordu.</explicit> 
+                        <colophon>endad þan<ex>n</ex> 27 <ex>Novem</ex>bris 1681</colophon>
+                        <note>lacuna after fol. 14 and on the lower part of fol. 16</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="front-flyleaf" value="4">2 + 2</num>
+                        <num type="book-block" value="19">16 + 7a, 8a, 14a</num>
+                        <num type="back-flyleaf" value="2">1 + 1</num>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="205"/>
+                           <width unit="mm" quantity="165"/>
+                        </dimensions>
+                        <watermark ana="no"/>
+                     </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="average">much better after conservation</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="33 35">
+                           <num type="wpl" atLeast="11" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="semihybrida"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>On the recto side of the former binding (now front flyleaf 3), there is a note in a later hand (18th c.) about the origin and context of the fragments. 
+                     Yet a different hand added a table of content to that same flyleaf.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Plain brown library binding. A sticker with the shelf mark on the front board.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1681"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no 1294 4to</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:46.608+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-06" who="#BES">Added catalog info.</change>
+         <change when="2013-05-30" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

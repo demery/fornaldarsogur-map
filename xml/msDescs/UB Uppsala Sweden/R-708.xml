@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>R 708</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-708" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 708</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="33r:15"/>
+                     <title type="uniform" ref="#bsh">Bósa saga</title>
+                     <textLang mainLang="la"/>
+                     <filiation>
+                        <p>Copy of Verelius' ed.</p>
+                     </filiation>
+                     <note>Older vers., Latin transl.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="34r:1" to="92v:20"/>
+                     <title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="la"/>
+                     <filiation>
+                        <p>Copy of Reenhielm's ed.</p>
+                     </filiation>
+                     <note>Latin transl.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="92"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="162"/>
+                           </dimensions>
+                           <note>Fol. 33v blank.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="18 20">
+                           <num type="wpl" atLeast="6" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="127"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonSal006" scope="sole" script="cursiva"/>
+                     <!-- catalogue says Petter Salan, not Jonas! -->
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Corrections by the scribe.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Bound in cardboard covered with marbled paper and white corners and spine. Gold embossing on spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1697"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <p>The University Library Uppsala acquired <name type="person" role="owner" key="PetSal001">Petter Salan</name>'s collection, among
+                     it this manuscript, in <date when="1717">1717</date>.</p>
+                  </provenance>                    
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:12.932+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-11" who="SH">Added information from catalogue and the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

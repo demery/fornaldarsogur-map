@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 21</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-21" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 21</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="8r:13"/>
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title>
+                     <rubric>Sagan af Illauga Grydar fostra:</rubric>
+                     <incipit>Sa kongur hiet Hrijngur er Riede fijr<ex>ir</ex> Damorch:</incipit>
+                     <explicit>og lukum vier so þessarr Sogu af Illug Grÿdar fostra</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="8r:14" to="18v"/>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <rubric>Saugu þattur af GiafaRef og dala fifllunum:</rubric>
+                     <incipit>Gaute hefur kongur heijtit er ri&gt;eidj f<ex>yrir</ex> Gautlande</incipit>
+                     <explicit>og so for þ<ex>eir</ex> I burtt: þä mælti Refr...</explicit>
+                     <note>older vers., based on AM 194 c fol., ends def</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="18"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no">
+                           <p>A later hand has added three leaf numbers in pencil, <locus>f. 1, f. 8 and f. 18</locus>, where the
+                              texts begin and end.</p>
+                        </foliation>
+                        <condition ana="poor">
+                           <p>There are a great number of marks on the paper. The text is, nevertheless, legible.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="19 25">
+                           <num type="wpl" atLeast="7" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="115"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown">The script is a mixture of chancery and kurrent
+                        (Gödel describes it as 'Halffraktur och kursiv').</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote>There is a running header reading <q>Af Illuga | Grijdarfostra</q> above the first saga and <q>Af
+                           Giafa Ref | og Dalafiflunum</q> above the second text.</decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>There are many marginal notes in <name type="person" key="GudOla001">Guðmundur Ólafsson</name>'s hand. The
+                        vast majority appear alongside Illuga saga and contain a summary of the action.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbelled paper on cardboard. The spine and the corners are in white leather, on the spine, the
+                           shelfmark is imprinted with golden letters. <q>COD. ISL. PAPP. 4:o N:o 21 </q>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1681">This manuscript came to Sweden with Guðmundur Ólafsson in 1681.
+                        See Gödel 'Fornnorsk-isländsk litteratur i Sverige' vol I, p.18, </origDate>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance> In the list of <name key="GudOla001" type="person" role="owner">Guðmundur Ólafsson</name>'s library
+                     brought with him to Stockholm, this item is listed. It seems that the manuscript originally contained several
+                     other texts which are now lost. They were: 'Af Hrolfe Gautrekssyne', 'af Nikuläse leikara', 'af Älafleck',
+                     'af Nitida frægu', 'af Sigurde þógla', 'Sógu brot af Herraud og Bosa', 'Sógu brot af Hälfdäne Eysteinssyne'.
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:53.682+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-25" who="#PTL">Update of file based on catalogue.</change>
+         <change when="2013-04-04" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

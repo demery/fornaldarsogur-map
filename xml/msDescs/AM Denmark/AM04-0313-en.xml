@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 313 4to</title>
+         </titleStmt>
+        
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+        
+         <sourceDesc>
+            <msDesc xml:id="AM04-0313-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 313 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <msItem n="1" class="kon">
+                     <locus from="1:1" to="70:19"/>
+                     <title type="uniform" xml:lang="is">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagann aff Olaffe konge Triggua syne</rubric>
+                     <incipit>Harekur hiet lendur madur j Noregie</incipit>
+                     <explicit>og a þessum Nordur londum ollum er þessum kongdome til heyra</explicit>
+                     <note>Text divided into 39 chapters.</note>
+                  </msItem>
+                  
+                  <msItem n="2" class="kon">
+                     <locus from="71:1" to="222v:18"/>
+                     <title type="supplied" xml:lang="en">Þættir from Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nu effterfilgia nockrer saugu þætter sem heyra til sogu Olafs kòngs Trigua sonar</rubric>
+                     
+                     <msItem n="2.1" class="kon">
+                        <locus from="71:3" to="79r:8"/>
+                        <title type="uniform" xml:lang="is">Sveins þáttur og Finns</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Þattur af Sueine og Finne Sueins Sÿne</rubric>
+                        <incipit>Þess er geted og svo er talad a fornumm bokum ad a dogum Hakonar jarls Sigurdar sonar</incipit>
+                        <explicit>sem ecke villdu skiott vid trunne taka</explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.2" class="islt">
+                        <locus from="79v:1" to="86r:12"/>
+                        <title type="uniform" xml:lang="is">Þorvalds þáttur tasalda</title>
+                        <title type="parallel" xml:lang="is">Barðar þáttr digra</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier heft saugu þattur aff Barde Digra</rubric>
+                        <incipit>A einu sumre er þad sagt ad kiæme af Jslande til Noregs Þorualldur</incipit>
+                        <explicit>ok lykur hier fra Barde digra</explicit>
+                       
+                     </msItem>
+                     
+                     <msItem n="2.3" class="fas">
+                        <locus from="86v:1" to="101r:21"/>
+                        <title type="uniform" xml:lang="is" ref="#ngth">Norna-Gests þáttur</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Saugu þattur Af Norna Gieste</rubric>
+                        <incipit>Þad bar til a einum tyma þa er Olafur Triggua son sat j Norege</incipit>
+                        <explicit>Og endar her fra Norna Geste <ex>etc.</ex></explicit>
+                        
+                        
+                     </msItem>
+                     
+                     <msItem n="2.4" class="kon">
+                        <locus from="102r:1" to="120r:5"/>
+                        <title type="uniform" xml:lang="is">Indriða þáttur ilbreiðs</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Saugu þattur af Indrida Il Breid</rubric>
+                        <incipit>Nockrum tyma lidnum þa er Olafur kongur hafde nær al bued skip vr Nidarose</incipit>
+                        <explicit>og endar hier þätt äf Indrida Ilbreid <ex>etc.</ex></explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.5" class="islt">
+                        <locus from="121r:1" to="139:19"/>
+                        <title type="uniform" xml:lang="is">Þorsteinns þáttur uxafóts</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier biriast þättur aff Þorsteine vxa föt etc.</rubric>
+                        <incipit>Þorkiell hiet madur sem biö I Krössavyk</incipit>
+                        <explicit>for Þörsteirn<ex>n</ex> nu til Oläfs kongs, og var med honum sydan<ex>n</ex>, 
+                           og fiell a Ormmu<ex>m</ex> Länga <ex>etc.</ex></explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.6" class="fas">
+                        <locus from="140:1" to="151r:3"/>
+                        <title type="uniform" xml:lang="is" ref="#hsh">Sörla þáttur</title>
+                        <title type="parallel" xml:lang="is">Heðins saga ok Högna</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier biriar sógu þätt af þeim kongum tueimur Hieden og Hogna</rubric>
+                        <incipit>Fyrer austan<ex>n</ex> wana kuysl i Asia Lande, edur Asia Heimur</incipit>
+                        <explicit>Og endast suó þesse þattur</explicit>
+                       
+                     </msItem>
+                     
+                     <msItem n="2.7" class="fas">
+                        <locus from="152:1" to="156v:12"/>
+                        <title type="uniform" xml:lang="is" ref="#hthth">Helga þáttur Þórissonar</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier biriast sógu þattur af Þórsteine og Helga Nórskum</rubric>
+                        <incipit>Þörer hiet madur er biö i Nóregie</incipit>
+                        <explicit>og lykur her frä Grymum</explicit>
+                      
+                     </msItem>
+                     
+                     <msItem n="2.8" class="fas">
+                        <locus from="157r:1" to="175r:5"/>
+                        <title type="uniform" xml:lang="is" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                        <title type="supplied">Þorsteins þáttr bæjarbarns</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier hefur sógu þätt af Þörsteine Bæar mägne</rubric>
+                        <incipit>Þann tyma er Hakon Sigúrdär son ried fyrer Noregie</incipit>
+                        <explicit>og lukum vier hier sogu þætte Þorsteins Bæar Barns</explicit>
+                       
+                     </msItem>
+                     
+                     <msItem n="2.9" class="kon">
+                        <locus from="175v:1" to="184r:6"/>
+                        <title type="uniform" xml:lang="is">Rögnvalds þáttur og Rauðs</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier hefur þatt af Roguallde j æruyk og raud ramma</rubric>
+                        <incipit>Þörölfur hiet madur er biö ä Jadre j Norege</incipit>
+                        <explicit>og lykur her sogu þeirra</explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.10" class="kon">
+                        <locus from="185r:1" to="217r:19"/>
+                        <title type="uniform" xml:lang="is">Svöldrar bardaga þáttur</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier hefur sogu þätt wm<ex>m</ex> Suoldrar bardaga</rubric>
+                        <incipit>Nu effter gipting Ingebiargar Triggua dötter</incipit>
+                        <explicit>äd Olafur kongur hefde þessa gripa ätt sem han<ex>n</ex> færde hen<ex>n</ex>e 
+                           <ex>etc.</ex></explicit>
+                       
+                     </msItem>
+                     
+                     <msItem n="2.11" class="kon">
+                        <locus from="218r:1" to="222v:18"/>
+                        <title type="uniform">Gauts þáttur</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier kiemur Gauta þattur</rubric>
+                        <incipit>Nu skal seigia þad sem eg man og nam af frodum mon<ex>n</ex>um</incipit>
+                        <explicit>og endar her sogu þess lofliga mans Olafs kongs Triggua sonar</explicit>
+                        
+                     </msItem>
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="222"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <note>One modern flyleaf at the front and the rear of the volume. 
+                             </note>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="193"/>
+                              <width unit="mm" quantity="149"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">Unknown watermark</watermark>
+                           
+                        </support>
+                        
+                        <foliation ana="pag">Paginated 1-442 with page 72 repeated twice</foliation>
+                        
+                        <condition ana="good">Some light fraying at the edges of leaves but in overall good condition</condition>
+                        
+                     </supportDesc>
+                  
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="18 23">									
+                           
+                           <num type="wpl" atLeast="7" atMost="11"/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <note> Fols. <locus>101v, 120v, 151v, 184v and 217v</locus> are blank.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                     <handNote scribeRef="#SigJon005" scope="major" script="unknown"><!--Sigurður Jónsson á Fróðá.--> 
+                        Inscription on fragment mounted on modern front flyleaf reads: <q>Þessa boek 
+                           er vel Schriffuen Aff <gap/> [S]igurder Jonssön Bunde a 
+                           Frodaae i Sn[e]|fieldznæs Sysssel a Isslande A þ[ui Are] þa mann Schrieff effter
+                           hingad B[urd] <gap/> Herras Jessu Christi 1657</q>
+                     </handNote>
+                     
+                  </handDesc>
+                  
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some decorated initials; e.g. fol. <locus>121r</locus>
+                     </decoNote>
+                  </decoDesc>
+                  
+                  <additions ana="low">
+                     <p>A marginal note on fol. <locus>84v</locus>.</p>
+                       <p> Initials (autograph?) A S at the foot of fol. <locus>184r</locus>.</p>
+                       <p>Several inscriptions on fragment mounted on front flyfleaf.</p>
+                     
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Bound in late-19th century marbled boards. Previously bound in parchment waste 
+                           from a Latin mass book with neums (antiphonal?)</p>
+                        <!-- Now housed where? -->
+                     </binding>							
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate when="1657"/>
+                     <origPlace key="IS">Iceland</origPlace>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="BenPet001"><!--Benedikt Pétursson--></name>
+                     <name type="person" role="owner" key="GudAsg001"><!--Guðrun Ásgeirsdóttir--></name>
+                     <name type="person" role="owner" key="JonJon100"><!--Jón Jónsson--></name>
+                     <name type="person" role="owner" key="ArnMag001"><!--Árni Magnússon--></name>
+                     <note>Inscriptions on fragment mounted on recto of front flyleaf: <q>Þessa bök a Gudrun Asgejrs
+                        dötter hueria hen<ex>n</ex>j gaff hejdurleg<ex>ur</ex> kien<ex>n</ex>im<ex>ann</ex> 
+                        S<ex>era</ex> Benjdict Petursson ad Hestj þan<ex>n</ex> 16 Junj 1673 | Jon Jonsson meh</q> and <q>Olafs saga þesse
+                     hefr vered eign Jons ä Hialla fodur Asgeirs.</q></note>
+                    
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:20.241+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2012-12-21" who="#JSL">Added information from Kålund and Handrit catalogs</change>
+         <change when="2013-01-18" who="#JSL">Cataloged from MS</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

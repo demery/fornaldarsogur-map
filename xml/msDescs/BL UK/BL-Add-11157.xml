@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11157</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11157" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11157</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="221"/>
+                           <num type="back-flyleaf" value="4"/>
+                        </support>
+                        <foliation ana="later fol">
+                           Between some of the sections (after ff. 46, 89, 175) and in the middle of one section (after f. 26) 
+                              blank pages have been inserted which are not included in the foliation,
+                              hence the foliation runs from 1-217 but there are 221 leaves
+                        </foliation>
+                        <condition ana="poor">Many leaves have had to be mounted, presumably due to severe deterioration.</condition>	
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Leaves bound on supports.</p>
+                     </binding>							
+                  </bindingDesc>  
+               </physDesc>
+               <history>
+                  <provenance>
+                     <p><name type="person" role="signatory" key="ambig">Stefán Einarsson</name>, f. 89v. </p>
+                     <p><name type="person" role="signatory" key="ambig">Jón Eiríksson</name>, f. 217v. </p>
+                     <name type="person" role="owner" key="JosBan001"/>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11157 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="almb" n="1">
+                        <locus from="1r" to="46v"/>
+                        <title type="uniform">Gabons saga og Vigoleis</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="47"/>
+                              <note>One blank leaf inserted after f. 26</note>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="26 30">
+                              <num type="wpl" atLeast="7" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JakSig001" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11157 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="avis" n="2">
+                        <locus from="47r" to="75v"/>
+                        <title type="uniform">Esópus saga</title>
+                     </msItem>
+                     <msItem class="fas" n="3">
+                        <locus from="76r" to="89v"/>
+                        <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="43"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="29 31">
+                              <num type="wpl" atLeast="10" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="185"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JakSig001" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11157 III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="ridd" n="4">
+                        <locus from="90r" to="175v"/>
+                        <title type="uniform">Falentíns og Ursins saga</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="86"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="33 36">
+                              <num type="wpl" atLeast="8" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="185"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" script="kurrent"/>
+                        <handNote scribeRef="unknown" script="kurrent"/>
+                     </handDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11157 IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="avint" n="5">
+                        <locus from="176r" to="180r"/>
+                        <title type="supplied">Ævintýri af þeim óartaða og velartaða bónda</title>
+                     </msItem>
+                     <msItem class="avint" n="6">
+                        <locus from="180r" to="185r"/>
+                        <title type="supplied">Annað ævintýri af einum abóta sem misti sitt
+                           offur</title>
+                     </msItem>
+                     <msItem class="avint" n="7">
+                        <locus from="185r" to="187v"/>
+                        <title type="supplied">Historia af einum sniðugum margbreittum þjóf og
+                           vogháls</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="12"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="170"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="31 35">
+                              <num type="wpl" atLeast="9" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="185"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JakSig001" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11157 V</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="avint" n="8">
+                        <locus from="188r" to="217v"/>
+                        <title type="supplied">Collection of 10 stories translated from Danish</title>
+                        <note>Translation of some of the tales from the Danish Tobacks-Discurser, first published in 1733.</note>
+                     <msItem class="avint" n="8.1">
+                        <locus from="188r" to="193v"/>
+                        <title type="supplied">Eitt æfentijr af naudugumm Saungvara og oforvarandes Dans meistara</title>
+                     </msItem>
+                     <msItem class="avint" n="8.2">
+                        <locus from="193v" to="198v"/>
+                        <title type="supplied">Annad Æfentijr af Einumm luckugiefnumm Fiær hyrder</title>
+                     </msItem>
+                     <msItem class="avint" n="8.3">
+                        <locus from="198v" to="201v"/>
+                        <title type="supplied">Þridia æfenntijr med þeim Title Skælkur yfer Skælk edur eirn kiemur ødrum Meire</title>
+                     </msItem>
+                     <msItem class="avint" n="8.4">
+                        <locus from="202r" to="205r"/>
+                        <title type="supplied">Fiörda æfenntijr af Föthrumumm munk sem undarlega vard læknadur af einumm Valnita þiöf</title>
+                     </msItem>
+                     <msItem class="avint" n="8.5">
+                        <locus from="205r" to="207r"/>
+                        <title type="supplied">Fimta æfenntÿr afþeirre hlægelegu lierepts kramara konu</title>
+                     </msItem>
+                     <msItem class="avint" n="8.6">
+                        <locus from="207r" to="208v"/>
+                        <title type="supplied">Siøtta æfenntijr af Einumm krøptugumm hatte</title>
+                     </msItem>
+                     <msItem class="avint" n="8.7">
+                        <locus from="208v" to="210v"/>
+                        <title type="supplied">Siøunda æfenntijr af einumm kaupmanne sem darade diöfulenn</title>
+                     </msItem>
+                     <msItem class="avint" n="8.8">
+                        <locus from="210v" to="213r"/>
+                        <title type="supplied">Ættunda æfentyr af eirnre Stulku sem niju og nijutiju sinnumm var trulofud</title>
+                     </msItem>
+                     <msItem class="avint" n="8.9">
+                        <locus from="213r" to="215v"/>
+                        <title type="supplied">Nijunda Æfenntijr af þeim narralega Byggingar meistara</title>
+                     </msItem>
+                     <msItem class="avint" n="8.10" defective="true">
+                        <locus from="215v" to="217v"/>
+                        <title type="supplied">Tijunda æfenntijr af einumm Bönda sem Innbyrlade konu sinne ad hann hefde vered i himna Rijke</title>
+                     </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="30"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="158"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="30 31">
+                              <num type="wpl" atLeast="10" atMost="18"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" script="kurrent"/>
+                        <handNote scribeRef="unknown" script="kurrent"/>
+                     </handDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:52:54.664+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-10" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

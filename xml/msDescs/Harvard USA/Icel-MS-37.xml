@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+
+      <fileDesc>
+         <titleStmt>
+            <title>Icel. MS. 37</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Icel-MS-37" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#HHVD">Harvard University, Houghton Library, Cambridge, MA</repository>
+                  <idno>Icel. MS. 37</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem class="fas" n="1">
+                     <locus from="1r" to="87v"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <rubric>Sagan af Hrolfe ::::</rubric>
+                     <incipit>Þar hefium vier þessa fräsagn af þeim Könge er Gaute heiti</incipit>
+                     <explicit>So þigia fröð men<ex>n</ex>, að mörg seu þau hreisteverk Hrölfs kongs sem ej seu skrifuð i þessare
+                        Sögu. og lÿkur hier Sögu Hrolfs kongs Gautreks sonar.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="87"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="no">
+                           <p/>
+                        </foliation>
+                        <condition ana="poor"><p>No binding, almost all egdes damaged, some text lost.</p></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="24 27">
+                           <num type="wpl" atLeast="7" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>On the verso side of the front flyleaf: <q>Sagan<ex>n</ex> Hrólfs kongr Gautrekz son</q>.
+                        <name type="person" role="owner" key="">Pietursson á Skalhollti</name>'s name is found several times on
+                        boths sides of the front flyleaf. <q>Sagas</q> is written in pencil on verso side of flyleaf. Several
+                        other names on recto side of flyleaf.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Only some parts of the binding remain, i.e. a few pieces of yarn and slips of other paper manuscripts
+                           to support the binding. No cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="PetPet004">Pétur Pétursson á Skalhollti, 1772-1837</name>
+                     <name type="person" role="owner" key="KonMau001">Konrad von Maurer, 1823-1902</name>
+                     <name type="person" role="owner" key="PetEgg001">Pétur Eggerz Friðriksson, 1831-1892</name> or <name type="person" role="owner" key="FriEgg001">Friðrik Eggerz</name>, cf. Shaun Hughes. <name type="person" role="owner" key="ArcCoo001">Archibald Cary Coolidge, 1866-1928</name>
+                     <name type="person" role="owner" key="OgmMag001">Ögmundur Magnússon, b. c. 1808</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:18.896+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2012-12-14" who="#BES">Prepared file for visit at the library.</change>
+         <change when="2013-01-05" who="#BES">Added information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

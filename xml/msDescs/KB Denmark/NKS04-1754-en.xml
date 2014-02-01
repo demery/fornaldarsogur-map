@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1754 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1754-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1754 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 1454 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem n="1" class="handfr">
+                     <locus from="1r" to="13v"/>
+                     <title type="supplied">Copy of AM-slip</title>
+                     <textLang mainLang="is" otherLangs="da"/>
+                     <note>with a note about the exemplar (Danish)</note>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0571-en" ana="antigraph"> copy of AM 571 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="2r" to="13v"/>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                     <explicit>Jarl kom til hans med miked lid verdur nu hardur bardage, ganga vikingar...</explicit>
+                     <note>C-vers.</note>
+                     <note>end missing</note>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0571-en" ana="antigraph"> copy of AM 571 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="14v" to="19v"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                     <incipit>... giafernar fór þorstein sydann til sinna manna, og var þeim þesseferd betur farinn</incipit>
+                     <note>beginning missing</note>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0571-en" ana="antigraph"> copy of AM 571 4to</ref>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="19"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes">"JHonig <ex>et</ex> Zoonen"; Maid of Dort "ProPatria"; Beehive with ornaments and
+                              "Honig" right underneath beehive</watermark>
+                        </support>
+                        <!-- is this correct? encoded as pagination, but note only mentions one foliated leaf -->
+                        <foliation ana="pag contemporary">a foliation in pencil "13" on fol. <locus>14</locus>.</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="18 20">
+                           <num type="wpl" atLeast="5" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonOls001" scope="sole" script="hum cursiva">Jon Olsen (According to Suhm's note).
+                        Fractura for rubrics</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">First initial decorated with ornaments</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p><name key="PetSuh001" type="person" role="owner">Suhm</name> added <q>af Jon Olsen</q>
+                        to the scribe's note about the exemplar on fol. <locus>1r</locus>. Stamps and shelf marks from the Royal
+                        Library.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Plain paper binding with water stains. Pastedown in the front has been replaced. In the back, the
+                           watermark of "JHonig <ex>et</ex> Zoonen" can be seen on the pastedown.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <p>Formerly <name key="PetSuh001" type="person" role="owner">Suhm</name>'s collection no. 1454 4to.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:39.2+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-05-02" who="#BES">Added catalog info.</change>
+         <change when="2013-05-24" who="#BES">Added missing information with manuscript in situ.</change>
+         <!-- add scribeRef! -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

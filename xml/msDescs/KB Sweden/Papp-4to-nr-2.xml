@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 2</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-2" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 2</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3">The second front-flyleaf is an older binding.</num>
+                           <num type="back-flyleaf" value="2"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions ana="low"><p>slips and note with the shelf mark on the second and third
+                     front flyleaf.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>A modern binding with marbeled paper on cardboard, white leather on spine and corners. The golden
+                           imprint on the spine reads: <q>Cod Isl. Papp. 4:o N:o 2</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>Part of 
+                        <name key="JonEgg001" type="person" role="owner">Jón Eggertsson's</name> collection which came to
+                        Sweden.</p>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp 4to nr. 2 I (fol.)</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="sendibr">
+                        <locus from="1r" to="1v"/>
+                        <title type="supplied">Letter</title>
+                        <textLang mainLang="da"/>
+                        <note>To Mathies Gudmundsson</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="2"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="325"/>
+                                 <width unit="mm" quantity="210"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="25">
+                              <num type="wpl" atLeast="5" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="315"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <note>in folio, folded and bound in horizontally</note>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/> 
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="medium">
+                        <p>reused paper, older writing perpendicular to letter. Other later additions.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp 4to nr. 2 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="attat" defective="true">
+                        <locus from="2r" to="2r"/>
+                        <title type="supplied">Genealogy [excerpts from Landámabók, Hauksbók and others]</title>
+                        <textLang mainLang="non"/>
+                        <rubric>EXTRAHIT Eda agrip Fleyra Julendinga Forfedra Nafna Samanskrifad og utdreiged AD Hauks Bök Og
+                           landnamu Med audru(?) Fleyra þar ad hygandi</rubric>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="155"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="no">
+                              <p/>
+                           </foliation>
+                           <condition ana="poor">heavily repaired</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="20">
+                              <num type="wpl" atLeast="7" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="155"/>
+                                 <!-- this does not display, but we have not been counting written space to include marginalia -->
+                                 <width unit="mm" quantity="120">plus notes by scribe in margin: 25mm</width>
+                              </dimensions>
+                              <note>Written on recto-side only</note>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="unknown"/> 
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="medium">
+                        <p>Marginal notes by the scribe himself.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <!-- part III -->
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp 4to nr. 2 III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="isl">
+                        <locus from="3r" to="22v"/>
+                        <title type="uniform">Króka-Refs saga <note>[Latin]</note></title>
+                        <textLang mainLang="la"/>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="23r" to="32v"/>
+                        <title type="uniform" ref="#asb">Áns saga bogsveigis <note>[Latin]</note></title>
+                        <textLang mainLang="la"/>
+                     </msItem>
+                     <msItem n="3" class="fas" defective="true">
+                        <locus from="33r" to="41v"/>
+                        <title type="uniform" ref="#asb">Áns saga bogsveigis</title>
+<!--                        <textLang mainLang=""/>-->
+                     </msItem>
+                     <msItem n="4" class="bisks" defective="true">
+                        <locus from="43r" to="78v"/>
+                        <!-- is this multiple texts? -->
+                        <title type="supplied">Biskupa sǫgur </title>
+<!--                        <textLang mainLang=""/>-->
+                     </msItem>
+                     <msItem n="5" class="fas" defective="true">
+                        <locus from="79r" to="86r"/>
+                        <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="84"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" atLeast="195" atMost="212"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">different watermarks: an animal in a single circle, a crown, an image that
+                                 partly consists of a large P or B.</watermark>
+                           </support>
+                           <foliation ana="fol later">
+                              <p/>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="22 28">
+                              <num type="wpl" atLeast="10" atMost="15"/>
+                              <dimensions type="written">
+                                 <height unit="mm" atLeast="17" atMost="185"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                              <catchwords ana="yes">in parts</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" scope="minor" script="chancery">
+                           <p><locus from="3r" to="41v">3r-41v</locus>.</p>
+                        </handNote>
+                        <handNote scribeRef="#JonEgg001" scope="major" script="kurrent">Jón Eggertsson wrote fols. <locus from="43r" to="86r">43r-86r</locus>. Kurrent for main text, chancery for rubrics</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>On fols. <locus>3r-41v</locus>, there are catchwords and scholarly notes in the margins. Item 1 (fols.
+                              <locus>3r-41v</locus>) is written on the reverse of various Icelandic letters and accounting
+                           papers.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp 4to nr. 2 IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="bisks">
+                        <locus from="87r" to="90r"/>
+                        <title type="uniform">Jóns saga biskups <note>[Latin, Excerpts]</note></title>
+                        <author>Guðmundur Einarsson</author>
+                        <textLang mainLang="la"/>
+                        <rubric>Nota:</rubric>
+                        <incipit>An<ex>n</ex>o Satutis nostræ 1547 cum ad Episcopates in Schalholtia</incipit>
+                        <colophon>V M Addicitiss, et Subjectiss(?) Gudmundus Einarius islandus</colophon>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="4"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">Water lily</watermark>
+                           </support>
+                           <foliation ana="later fol">
+                              <p/>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="16 19">
+                              <num type="wpl" atLeast="4" atMost="6"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="115"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/> 
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>Notes on 87r: <q>[...] Isl. Chart. 4o, No2. (st.6.)</q>. Another note on 90v:
+                              <q>Jehova tuti... den gamle laug, som</q></p></additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp 4to nr. 2 V</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="kvad">
+                        <locus from="91r" to="93v:8"/>
+                        <title type="uniform">Kötludraumur</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="islt">
+                        <locus from="94r:1" to="94r:30"/>
+                        <title type="uniform">Þorsteins þáttur sögufróða</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="4"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="215"/>
+                                 <width unit="mm" quantity="168"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="later fol">
+                              <p/>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="30">
+                              <num type="wpl" atLeast="10" atMost="13"/>
+                              <dimensions type="written">
+                                 <height unit="mm" atLeast="170" atMost="185"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent">
+                           <p><locus from="91r" to="93v:8">91r-93v:8</locus></p>
+                        </handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="chancery"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/> 
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:53.155+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-01" who="#BES">quick prep. for library. catalog info missing.</change>
+         <change when="2013-03-07" who="#BES">Measured and checked with the manuscript in situ.</change>
+         <change when="2013-03-17" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

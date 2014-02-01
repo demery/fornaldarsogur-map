@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Thott 1499 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Thott04-1499-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Thott 1499 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kon sagnfr kvsk">
+                     <locus from="1r" to="67r"/>
+                     <title type="supplied">Um Skjöld konung og Skjöldungavísur</title>
+                     <rubric>Um<ex>m</ex> Skolld k<ex>onun</ex>g í Danmørk, af hvøriu<ex>m</ex> Skiölldungar hafa sitt nafn,
+                        ok syþ<ex>an</ex> hvat Skiolldunga Vysur se eda heita. /epter hende Biørns á
+                        Skards aa</rubric> 
+                     <rubric>Edda Sæmundar fróda Cap. 7.</rubric>
+                     <incipit>Þá byriade Odin ferd syna nordr (:frá Saxlande) ok kom i þ<ex>at</ex> land er þ<ex>ei</ex>r kølludu Reidgotaland</incipit>
+                     <explicit>varar Ofarir, vyst ef han<ex>n</ex> næde.</explicit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="67v" to="73v:6"/>
+                     <title type="uniform" ref="#hs">Hervarar saga [Riddles]</title>
+                     <title type="parallel">Heiðreksgátur</title>
+                     <title type="parallel">Getspeki Heidreks Kongs</title>
+                     <note>with formáli</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="edd">
+                     <locus from="73v:7" to="86v:9"/>
+                     <title type="uniform">Vafþrúðnismál</title>
+                     <textLang mainLang="non" otherLangs="is"/> 
+                     <!-- i.e. excerpts and translation? -->
+                     <note>With paraphrasis and metaphrasis</note>
+                  </msItem>
+                  <msItem n="4" class="edd">
+                     <locus from="86v:10" to="91v"/> 
+                     <title type="uniform">Baldurs draumar</title>
+                     <title type="parallel">Vegtamskvíða</title>
+                     <textLang mainLang="non" otherLangs="is"/>
+                     <!-- ? -->
+                     <note>With paraphrasis and commentary</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/> 
+                           <num type="book-block" value="91"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/> 
+                              <width unit="mm" quantity="156"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort "ProPatria"</watermark>
+                        </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="24 28">
+                           <num type="wpl" atLeast="4" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="yes">Only in prose parts</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="chancery">Alternates between chancery and kurrent script.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some initials neatly decorated</decoNote>
+                     <decoNote type="other">Alternating script types leads to a generally decorative layout</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>On the front flyleaf, there is a later Latin note on the origin of item 1.
+                  In the margins, there are a few notes and marks by a different hand.</p>
+                  <p>On the recto side of the back- lyleaf, there is a note in pencil: <q>13/9-85 1 2 3 4 5 6 7 8 9 0 PR</q>, written in the same hand as the foliation.</p></additions> 
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Leather binding on card board; fore-edge painted red; marbeled paper as pastedown, golden imprint on the spine: <q>O.K.S. VIS OG VEGT. QVIDA</q> and floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name key="OttTho001" type="person" role="owner">Otto Thott</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:18.456+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-15" who="#BES">Added catalog info.</change>
+         <change when="2013-06-10" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 147 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed by the University of Copenhagen under
+                  a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0147-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 147 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="log">
+                     <locus from="1r" to="89r">1r-89r</locus>
+                     <title type="uniform">Jónsbók</title>
+                     <note> On some pages there are gaps that cut into the text. </note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="log">
+                     <locus from="89r" to="111v">89r-111v</locus>
+                     <title type="supplied">Réttarbætur</title>
+                     <title type="supplied">Alþingissamþykktir</title>
+                     <title type="supplied">Konunglegar tilskipanir</title>
+                     <note>Text written in red has almost entirely disappeared (see more details in the description of
+                        condition).</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="log klog">
+                     <locus from="112r" to="133v">112r-133v</locus>
+                     <title type="supplied">Kristinréttur Árna biskups</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="133"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" min="152" max="157"/>
+                              <width unit="mm" min="110" max="129"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>On the recto side of every other leaf: 1, 3, 5, 7…. 259, 261, 263, 265 og 266 (the final leaf is
+                              paginated on both sides); page numbers are randomly marked in the upper or lower right-hand corner
+                              (see for example ff. 201-211 or <locus from="101r" to="106r">101r-106r</locus>).</p>
+                        </foliation>
+                        <condition ana="average">
+                           <p>
+                              <list>
+                                 <item n="1">Several pages are cut because of trimming. The drawings in the margins are for this
+                                    reason often cut, see for example page <locus from="'57v" to="58r">57v-58r</locus>.</item>
+                                 <item n="2">
+                                    <p>Fol. <locus from="14r" to="14v">14</locus> is a palimpsest leaf and traces of the old text
+                                       (Ragnars saga loðbrókar)
+                                       may be seen.</p>
+                                    <p>Fol. <locus from="93r" to="111v">93r-111v </locus> are also palimpsest leaves. On fol.
+                                          <locus from="104r" to="104v">104</locus> and <locus from="111r" to="111v">111</locus>,
+                                       which haven't been written over the old is clearly visible.</p>
+                                 </item>
+                                 <item n="3">Some pages are dark and dirty, see fol. <locus from="1r" to="1r">1r</locus>.</item>
+                                 <item n="4">Rubrics and text in red are often illegible (see for example <locus from="25r"
+                                       to="25r">25r</locus>, <locus from="26v" to="26v">26v</locus> og <locus from="107v"
+                                       to="108r">107v-108r</locus>).</item>
+                                 <item n="4">Gaps on fol. <locus from="5r" to="5v">5</locus>, <locus from="9r" to="9v">9</locus>,
+                                       <locus from="14r" to="14v">14</locus>, <locus from="31r" to="31v">31</locus>, <locus
+                                       from="48r" to="48v">48</locus>, <locus from="50r" to="50v">50</locus>, <locus from="51r"
+                                       to="51v">51</locus>, <locus from="75r" to="75v">75</locus>, <locus from="103r" to="103v"
+                                       >103</locus>, <locus from="109r" to="109v">109</locus> og <locus from="130r" to="130v"
+                                       >130</locus>. Most gaps only affect the text slightly, see text on fol. <locus from="5r"
+                                       to="5v">5</locus>; other are slightly bigger, such as the one on fol. <locus from="9r"
+                                       to="9v">9</locus>.</item>
+                                 <item n="5">Rotten leaf edges and in some places the corners may have rotten or have been
+                                    detached (see for example fol. <locus from="39r" to="39v">39</locus>, <locus from="95r"
+                                       to="95v">95</locus>, <locus from="108r" to="108v">108</locus>).</item>
+                              </list>
+                           </p>
+                        </condition>
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout columns="1" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scribeRef="unknown" scope="major" script="hybrida">
+                        <p>Scribe of the majority of the material (<locus from="1r" to="13v">1r-13v</locus>, <locus from="21r"
+                              to="85v">21r-85v</locus>, <locus from="89r" to="92v">89r-92v</locus> and <locus from="112r"
+                              to="133v">112r-133v</locus>) is unknown; hybrida script.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hybrida">
+                        <p>The scribe of leaves <locus from="14r" to="20v">14r-20v</locus> and <locus from="92v" to="110v"
+                              >92v-110v</locus> is unknown; hybrida.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">
+                        <p>The scribe of leaves <locus from="86r" to="88v">86r-88v</locus> is unknown; chancery.</p>
+                     </handNote>
+
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="miniature" subtype="bas-de-page">
+                        <list>
+                           <item>Various figures related to the saga in the lower margin, for example on fols. <locus from="57v"
+                                 to="58r">57v-58r</locus> and <locus from="70v" to="75r">70v-75r</locus>.</item>
+                        </list>
+                     </decoNote>
+                     <!-- Athugasemd um mynd á neðri spássíu bls. 144 (?142 skv. bls.merkingu / bl. 73?): tvö skip af 15. aldar gerð 
+                        (líkjast kuggum) með stafköstulum; hugsanlega mynd af fallbyssu á öðru þeirra og þá elsta mynd íslensk af fallbyssu 
+                        (Ægir Karl Ægisson (hjá verkefninu "Destination Viking") kom á framfæri við DKÞ 12.08.2003) -->
+                     <decoNote type="initial" subtype="inhabited">
+                        <list>
+                           <item>Anthropomorphic or zoomorphic initials at the beginning of each section; the colour of the
+                              letters is predominantly green, and the drawings inside the letters are in light green with shades
+                              of red (see for example on fols. <locus from="8r" to="8r">8r</locus>, <locus from="81v" to="81v"
+                                 >81v</locus> and <locus from="89r" to="89r">89r</locus>).</item>
+                        </list>
+                     </decoNote>
+                     <decoNote type="initial" subtype="decorated">
+                        <!-- unclear; needs rewording -->
+                        <list>
+                           <item>Initials with "unfigurative" ornamentation in various colours at the beginning of chapters, see
+                              for example fols. <locus from="6v" to="7r">6v-7r</locus>.</item>
+                        </list>
+                     </decoNote>
+                     <decoNote type="secondary" subtype="rubric">
+                        <list>
+                           <item>Red rubrics.</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>
+                        <list>
+                           <item>Leaves <locus from="14r" to="20v">14r-20v</locus> have been inserted <date from="1590" to="1610"
+                                 >ca. 1600</date> (see <bibl>
+                                 <ref target="KKKat">Kålund's Katalog I</ref>
+                              </bibl>, p. 431).</item>
+                           <item>Fols. <locus from="86r" to="88v"> 86-88</locus> are insertion leaves from the <date from="1600"
+                                 to="1699">17th century</date> (see <bibl>
+                                 <ref target="KKKat">Katalog I</ref>
+                              </bibl>, p. 431).</item>
+                           <item>Fols. <locus from="93r" to="111v">93r-111v</locus> are written <date from="1590" to="1610">ca.
+                                 1600</date> on a palimpsest (see <bibl>
+                                 <ref target="KKKat">Katalog I</ref>
+                              </bibl>, p. 431).</item>
+                        </list>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <!-- check -->
+                        <p>Conservation binding (<dimensions type="binding">
+                              <height>167</height>
+                              <width>151</width>
+                              <depth>75</depth>
+                           </dimensions>). </p>
+                     </binding>
+                     <binding ana="plain" contemporary="unknown">
+                        <!-- check -->
+                        <p>The older binding in the box (<dimensions type="binding">
+                              <height>178</height>
+                              <width>140</width>
+                              <depth>70</depth>
+                           </dimensions>). </p>
+                        <p>Paper with a marbelled pattern covers the boards, leather on the corners and spine. Blue shelfmark
+                           number on the spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1400" notAfter="1610"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name key="ArnMag001" role="owner" type="person">Árni Magnússon</name> received the manuscript from <name
+                           key="BjaSig001" role="owner" type="person">Bjarni Sigurðssoni</name> á <name type="place">Heynesi</name> in the
+                           year <date when="1709">1709</date> (see <locus from="accMat01r" to="accMat02v">the inserted
+                           slips</locus>).</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:06.256+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:16.22+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:26.383+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:41.384+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:19.995+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <!-- why is this MS included in our collection? -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

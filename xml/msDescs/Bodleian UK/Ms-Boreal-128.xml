@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ms Boreal 128</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ms-Boreal-128" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BDL">Bodleian Library, Oxford</repository>
+                  <idno>Ms Boreal 128</idno>
+                  <altIdentifier>
+                     <idno>Boreal MS 20769</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="fas" n="1">
+                     <locus from="1r" to="35r"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="la"/>
+                     <rubric>Historia Halfi Norvegici Regis et ejus pugilum (Saga af Hálfi oc Hálfs-reccom)</rubric>
+                     <incipit>Alreckus nominatus est rex</incipit>
+                     <note>Former Boreal MS 20769</note>
+                     <note>Translation into Latin</note>
+                  </msItem>
+               </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="front-flyleaf" value="0"/>
+                                 <num type="book-block" value="35"/>
+                                 <num type="back-flyleaf" value="0"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="203"/>
+                                    <width unit="mm" quantity="170"/>
+                                 </dimensions>
+                                 <watermark ana="no"/>
+                              </support>
+                              <foliation ana="later fol"/>
+                              <condition ana="average"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-separate" columns="1 3" writtenLines="15 20">									
+                                 <num type="wpl" atLeast="2" atMost="9"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="185"/>
+                                    <width unit="mm" atLeast="60" atMost="160"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="2">
+                           <handNote scribeRef="#SigPet001" script="unknown"/>
+                           <!-- need to change how we read from authority file on this one -->
+                           <handNote scribeRef="#FinMag001">Fols. 16r-17r</handNote>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no"/>
+                        <bindingDesc>
+                           <binding ana="plain" contemporary="true">
+                              <p>Blue cardboard cover.</p>
+                           </binding>							
+                        </bindingDesc>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1779" notAfter="1788">See Hubert Seelow's edition, pp.72-3.</origDate>
+                           <origPlace key="IS"/>
+                        </origin>
+                        <provenance>
+                           <name type="person" role="owner" key="FinMag001"/>
+                           <note>On the first leaf Finnur Magnússon has written: <q>Latine versa ex originali perantiqvo, Islandico vel Norvegico a
+                           Sigurdo Petersen, Poeta ingeniosissimo. Exemplar autographum ac unicum simul jam exsistens. Translationem carminum, qvæ cap.
+                           XI et XII continentur addidit Finnus Magnæus. Prodiit textus originalis in volumine jam raro: Bioerneri Nordiska Kämpa-dater 
+                           Holmiæ 1737 Fol., addita latina versione, multis mendis laborante.</q></note>
+                        </provenance>
+                     </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:27.816+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-29" who="#PTL">Information supplemented with reference to manuscript in Oxford.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

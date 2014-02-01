@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1193 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1193-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1193 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+
+                  <msItem n="1" class="sendbr skjol forns kvad">
+                     <locus from="1r" to="135v">1r-135v</locus>
+                     <title type="supplied">Samtíningur</title>
+                     <note>Safn alls konar blaða og bréfa, flest úr bandi og skjólblöðum bóka. Þar á
+                        meðal: Prófskírteini Jónasar Hallgrímssonar við examen artíum; skjöl um
+                        lestrarfélag Íslendinga í Khöfn; ýmislegt m. h. Björns yfirkennara
+                        Gunnlaugssonar, séra Guðmundar Bjarnasonar í Árnesi, séra Björns Jónssonar í
+                        Bólstaðarhlíð, séra Sölva Þorkelssonar á Hjaltabakka, séra Páls Pálssonar í
+                        Hörgsdal ; bréf frá Sigríði stiftamtmannsfrú Magnúsdóttir til (<name type="person" key="JonEgg005">Jóns Eggertssonar</name>) á Hvítárvöllum ;
+                        bréf frá Elínu Hallgrímsdóttur í Miklagarði til (<name type="person" key="ThoPet005">Þorlákur Pétursson</name>) á Ánastöðum ; Ýmislegt með
+                        hendi Jóns Kolbeinssonar ; brot úr Sörla sögu sterka. Auk þess kvæðabrot,
+                        vísur, rithandarsýnishorn o. fl.</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="104r" to="107v"/>
+                     <title ref="#ssst" type="uniform">Sörla saga sterka</title>
+                     <rubric>Hér byrjar sögu af Sörla hinum sterka</rubric>
+                     <incipit>Á dögum þeim sem Hálfdán kóngur ...</incipit>
+                     <explicit>... kongson fóstra sinn Tarmon (Karmon) hv..</explicit>
+                     <note>Just some fragments of 4 leaves rescued from the binding of Þorbjörn
+                        Salómonssons book of psalms from Bjarni Þorsteinsson</note>
+                     <note>All the material kept in this manuscript parcel is likewise fragments
+                        from the binding of some other book.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="135"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" min="338" max="125"/>
+                              <width unit="mm" min="207" max="80"/>
+                           </dimensions>
+                        </support>
+                        <condition ana="poor">But all restored and in good order.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">104r-107v</handNote>
+                     <handNote scribeRef="#BjoGun001" scope="minor" script="unknown"><name type="person" key="BjoGun001">Björn Gunnlaugsson</name>
+                     </handNote>
+                     <handNote scribeRef="#GudBja006" scope="minor" script="unknown"><name type="person" key="GudBja006">Guðmundur Bjarnason</name>
+                     </handNote>
+                     <handNote scribeRef="#BjoJon010" scope="minor" script="unknown"><name type="person" key="BjoJon010">Björn Jónsson</name>
+                     </handNote>
+                     <handNote scribeRef="#SolTho001" scope="minor" script="unknown"><name type="person" key="SolTho001">Sölvi Þorkelsson</name>
+                     </handNote>
+                     <handNote scribeRef="#PalPal005" scope="minor" script="unknown"><name type="person" key="PalPal005">Páll Pálsson</name>
+                     </handNote>
+                     <handNote scribeRef="#SigMag009" scope="minor" script="unknown"><name type="person" key="SigMag009">Sigríður Magnúsdóttir</name>
+                     </handNote>
+                     <handNote scribeRef="#EliHal001" scope="minor" script="unknown"><name type="person" key="EliHal001">Elín Hallgrímsdóttir</name>
+                     </handNote>
+                     <handNote scribeRef="#JonKol002" scope="minor" script="unknown"><name type="person" key="JonKol002">Jón Kolbeinsson</name>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Leather cover on leather boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1600" to="1899">1600-1899</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:40.003+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:52.352+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:10.688+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2012-09-12" who="#SK">Added the informmation on the fragment of Sörla saga sterk from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

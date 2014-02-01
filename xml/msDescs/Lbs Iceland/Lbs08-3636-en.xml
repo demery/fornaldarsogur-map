@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 3636 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-3636-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 3636 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" facs="#Lbs08-3636-0001r" to="1r"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <note>Table of contents written by another hand</note>
+                  </msItem>
+                  <msItem n="1.1" class="isl">
+                     <locus from="1r" facs="#Lbs08-3636-0001r" to="1r"/>
+                     <title type="supplied">Vísa</title>
+                     <incipit>[þýðar] ástar þakkir fái þundur [skjóma] … </incipit>
+                     <note>At the top of folio 1r is a poem that is repeated twice</note>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="1v" facs="#Lbs08-3636-0001v" to="35v"/>
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                     <rubric>Saga af Hrafnkeli goða sonar Hallfreðs landnáma manns</rubric>
+                     <colophon>Endað í desemb. af A.Js. 1784 (<locus from="35v" facs="#Lbs08-3636-0035v" to="35v">35v</locus>)</colophon>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="36r" facs="#Lbs08-3636-0036r" to="61r"/>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <rubric>Sagan af Án bogsveigir</rubric>
+                     <colophon>Endað að Þóroddsstöðum þ. 8. desember 1788 af A.Js. (<locus from="61r" facs="#Lbs08-3636-0061r" to="61r">61r</locus>)</colophon>
+                  </msItem>
+                  <msItem n="4" class="frodt">
+                     <locus from="61v" facs="#Lbs08-3636-0061v" to="63r"/>
+                     <title type="supplied">Um Psamenitum Egypta kóng</title>
+                  </msItem>
+                  <msItem n="5" class="sagnps">
+                     <locus from="63r" facs="#Lbs08-3636-0063r" to="64v">63r-64v</locus>
+                     <title type="supplied">Indversk kona brennist</title>
+                     <colophon>Endað þann 1. febrúarius 1789 af A.Js. (<locus from="64v" facs="#Lbs08-3636-0064v" to="64v">64v</locus>)</colophon>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="65r" facs="#Lbs08-3636-0065r" to="110r">65r-110r</locus>
+                     <title ref="#ssst" type="uniform">Sörla saga sterka</title>
+                     <rubric>Hér byrjast sagan af Sörla sterka og Högna Hálfdanarsyni</rubric>
+                     <note>At the beginning of text: Hvern þessi orð voru skrifuð hver sá sem fær í
+                        hendur börnum sínum allar sínar eigur og óðöl að sér lifandi og hefur ei so
+                        mikið sjálfur sem honum til þessa lífsupphelldis sé nægiligt sá hinn sami er
+                        verðugur að honum með þessum kepp kollvarpist og heflist</note>
+                     <colophon>Endað að Stóru-Ásgeirsá þann 5. febrúarii 1792 af A.Js. (<locus from="110r" facs="#Lbs08-3636-0110r" to="110r">110r</locus>)</colophon>
+                  </msItem>
+                  <msItem n="7" class="laus">
+                     <locus from="110v" facs="#Lbs08-3636-0110v" to="110v">110v</locus>
+                     <title type="supplied">Vísur</title>
+                     <incipit>Þakka ég af þýðri rót … </incipit>
+                     <incipit>Ærufjáðum ég nú sendi …</incipit>
+                     <incipit>Hér í sögu sé ég gjörla …</incipit>
+                     <note>Without a title</note>
+                     <note>Fourth poem is illegible</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="110"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="103"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="poor">Folia <locus from="1r" facs="#Lbs08-3636-0001r" to="3v">1r-3v</locus> slightly damaged at the edges.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="20 31">
+                           <num type="wpl" atLeast="5" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="145"/>
+                              <width unit="mm" quantity="91"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <summary>One hand (folios <locus from="1r" facs="#Lbs08-3636-0001r" to="1r">1r</locus> og <locus from="110v" facs="#Lbs08-3636-0110v" to="11v">110v</locus> by another hand) ; scribe:</summary>
+                     <handNote scribeRef="#AriJon003" scope="sole" script="unknown">
+                        <name type="person" key="AriJon003">Ari Jónsson</name> [vinnumaður] að
+                           <placeName>Stóru-Ásgeirsá [í Víðidal] og Þóroddsstöðum [í
+                           Hrútafirði]</placeName>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="medium"/>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Leather binding with embossed spine</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1784" to="1792"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>Owner of manuscript: <name type="person" key="JohBjo001">Jóhannes
+                           Björnsson</name> í <placeName>Holti</placeName> (<locus from="7r" facs="#Lbs08-3636-0007r" to="7r">7r</locus>, <locus from="35v" facs="#Lbs08-3636-0035v" to="35v">35v</locus>, <locus from="61r" facs="#Lbs08-3636-0061r" to="61r">61r</locus>, <locus from="64v" facs="#Lbs08-3636-0064v" to="64v">64v</locus>, <locus from="98v" facs="#Lbs08-3636-0098v" to="98v">98v</locus>, <locus from="99r" facs="#Lbs08-3636-0099r" to="99r">99r</locus>)</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:58.166+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:23.344+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:42.511+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2012-07-18" who="#SMM">Added and completed msItems with information gathered
+            from and pictures viewed on handrit.is. Completed FASNL encoding.</change>
+         <change when="2012-11-09" who="#SMM">Translated into English.</change>
+         <!-- missing information regarding layoutDesc, decoDesc and bindingDesc -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

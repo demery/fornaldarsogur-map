@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 625 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0625-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 625 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Sögu-Safn III</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="14r"/>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar sögu [af] Sturlaugi starfsama</rubric>
+                  </msItem>
+                  <msItem n="2" class="konth">
+                     <locus from="14r" to="18v"/>
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Söguþáttur af Rauðúlfi og sonum hans</rubric>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="18v" to="24v"/>
+                     <title type="uniform">Gorms saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Gormi konungi gamla og Þorkeli aðalfara</rubric>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="25r" to="50v"/>
+                     <title type="uniform">Mágus saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Máus jarli</rubric>
+                     <note>Longer version</note>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="52r" to="56v"/>
+                     <title type="uniform">Hrólfs þáttur skuggafífls</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Hrólfi skuggafífli</rubric>
+                     <note>From a longer version of Mágus saga jarls</note>
+                  </msItem>
+                  <msItem n="6" class="mal-vg timt">
+                     <locus from="57v" to="60r"/>
+                     <title type="supplied" xml:lang="is">Samtíningur</title>
+                     <textLang mainLang="is"/>
+                     <note>Various miscellanies, e.g. road measurements, calendar, list of values of Roman numbers and more.</note>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="61r" to="65v"/>
+                     <title type="uniform">Nitida saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Nitidá frægu</rubric>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="66r" to="88r"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar sögu af Göngu-Hrólfi</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="88"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="average">Closely cropped, especially at the top, and
+                           dirty</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="28 31">
+                           <num type="wpl" atLeast="10" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="186"/>
+                              <width unit="mm" quantity="146"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="6">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">I
+                        fols. <locus>1r-24r</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">II
+                        fols. <locus>25r-56v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">III
+                        fols. <locus>57v-58r</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">IV
+                        fols. <locus>58v-60</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">V
+                        fols. <locus>61r-65v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">VI fols. <locus>66r-
+                        88r</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="vignette" subtype="tailpiece">On fol. <locus>88r</locus></decoNote>
+                     <decoNote type="initial" subtype="decorated">Decorated initials in some places
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Ffl 1r in the hand of <name type="person" key="PalPal003">Páll
+                           Pálsson</name> the student.
+                     </p>
+                     <p>A table of contents on ffl 1v in the hand of <name type="person" key="PalPal003">Páll
+                        Pálsson</name> the student: <q>Innihald</q></p>
+                     <p>Ownership note on fol. <locus>51v</locus>: <q>Þessa Søgu Bok á ég undirskrifaður með réttu, að
+                        Lögmannshlíð 11. júní 1781 (1805) J.Ólafsson G.Jónsson</q> [3x] </p>
+                     <p>Fol. <locus>57r</locus>: <q>Þesse Søgu Bok heirer Mier til
+                        J.Ólafsson J.Ólafsson G.Jónsson, 1783, 1784.</q> <q>Þesse Sögu Bók heirer Mier til Med Riettu 
+                        J.Ólafsson[3x] G.Jónsson[3x]</q></p>
+                        <p>Fol. <locus>88v</locus>: <q>G.Jónsson</q>[2x], <q>Halldóra</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <note>From a collection in 19 volumes: <ref target="JS04-0623" type="ms">JS 623 4to</ref> -
+                           <ref target="JS04-0641" type="ms">JS 641 4to</ref>
+                     </note>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     
+                     <name type="person" role="owner" key="JooOla001">
+                     </name><name type="person" role="owner" key="GooJon001"/>
+                     
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:19.567+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:25.817+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:44.611+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2011-05-07T19:18:19.84+02:00" who="#EAH">Extracted layout data from previous
+            version.</change>
+         <change when="2012-08-03" who="#SMM">Adapted to FASNL encoding. Updated msItems with rubric
+            titles.</change> <!-- need to look at pictures on handrit.is -->
+         <change when="2012-11" who="#SK">Added information from the manuscript itself</change>
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+         </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

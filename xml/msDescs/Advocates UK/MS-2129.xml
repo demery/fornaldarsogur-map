@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>MS 21.2.9</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS-2129" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#ADV">Advocates' Library, Edinburgh</repository>
+                  <idno>MS 21.2.9</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="184"/>
+                           <num type="back-flyleaf" value="1"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <foliation ana="later pag">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>	
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>  
+               </physDesc>
+               <history>
+                  <provenance>
+                     <name type="person" role="owner" key="FinMag001"/>             
+                     <name type="person" role="owner" key="JosBan001"/>
+                     <p>According to note on flyleaf, purchased from Finnur Magnússon in July 1837.</p>
+                  </provenance>
+               </history>
+                  <msPart>
+                     <altIdentifier>
+                        <idno>MS 21.2.9 I</idno>
+                     </altIdentifier>
+                     <msContents>
+                  <msItem class="annal" n="1">
+                     <locus from="1r" to="74v"/>
+                     <title type="supplied">Icelandic Annals</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Annales Schalholtini juxta exscriptum Membranæ in Folio manu A. Magnæi in ejusdem
+                     Bibliotheca Num. 248, þ. e. eftirrit af AM 248 fol.</rubric>
+                     <note>From AD 70 to AD 1430</note>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">
+                           <supportDesc material="chart">
+                              <support>
+                                 <num type="book-block" value="75"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="312"/>
+                                    <width unit="mm" quantity="202"/>
+                                 </dimensions>
+                                 <watermark ana="yes">'JHonig and Zoonen</watermark>
+                              </support>
+                              <foliation ana="contemporary pag"/>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="1" writtenLines="29 31">									
+                                 <num type="wpl" atLeast="3" atMost="10"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="230"/>
+                                    <width unit="mm" quantity="140"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                        </handDesc>
+                        <additions ana="no"/>
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>
+                  </msPart>
+                  <msPart>
+                     <altIdentifier>
+                        <idno>MS 21.2.9 II</idno>
+                     </altIdentifier>
+                     <msContents>
+                  <msItem class="kvad" n="1">
+                     <locus from="77r" to="85r"/>
+                     <title type="uniform">Geisli Einars Skúlasonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="rimur" n="2">
+                     <locus from="85v" to="89v"/>
+                     <title type="uniform">Ólafs ríma Haraldssonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="hvad" n="3">
+                     <locus from="90r" to="96r"/>
+                     <title type="uniform">Hyndluljóð</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="kon" n="4">
+                     <locus from="96r" to="97v"/>
+                     <title type="uniform">Gesta Hammaburgensis Ecclesiae Pontificum</title>
+                     <textLang mainLang="is"/>
+                     <note>A translated extract</note>
+                  </msItem>
+                  <msItem class="konth" n="5">
+                     <locus from="97v" to="99v"/>
+                     <title type="uniform">Sigurðar þáttr slefu</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="6">
+                     <locus from="100r" to="106r"/>
+                     <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hversu Noregr bÿgðiz</rubric>
+                     <incipit>Nú skal segia dæmi til hversu Noregr bÿgðiz</incipit>
+                     <colophon>Margreta moðir Olafs konungs en dottir Valldamars Danakonungs eptir er hon let fanga Albrict</colophon>
+                  </msItem> 
+                  <msItem class="fas" n="7">
+                     <locus from="106v" to="112v"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Her hefr upp sogu Eiriks viðforla</rubric>
+                     <incipit>Þrándr er nefndr konungr sa er fyrsti reð fyrir þrándheimi</incipit>
+                     <colophon>þat er at skilia eilift ríki með allzvandanda guði utan enda sem þessi Eiriki sem nu var frá sagt</colophon>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#GKS02-1005-en" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                     <note>A-vers.</note>
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">
+                           <supportDesc material="chart">
+                              <support>
+                                 <num type="book-block" value="38"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="312"/>
+                                    <width unit="mm" quantity="202"/>
+                                 </dimensions>
+                                 <watermark ana="yes">Maid of Dort</watermark>
+                              </support>
+                              <foliation ana="contemporary pag"/>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-separate" columns="1" writtenLines="31 33">									
+                                 <num type="wpl" atLeast="3" atMost="10"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="230"/>
+                                    <width unit="mm" quantity="140"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                          <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                    <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                      </handDesc>
+                        <additions ana="no"/>
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>
+                  </msPart>
+                  <msPart>
+                     <altIdentifier>
+                        <idno>MS 21.2.9 III</idno>
+                     </altIdentifier>
+                     <msContents>
+                        <msItem class="bisks" n="1">
+                           <locus from="115r" to="169r"/>
+                           <title type="uniform">Lives of Bishops</title>
+                           <textLang mainLang="is"/>
+                           <rubric>Continentur hoc Libro Historica Genealogica um Stephan Biskup, Augmund Biskup og Gissur Biskup,
+                           varia lectum digna Jtem um Martein biskup og ættartala frá Eggert Eggertssyne</rubric>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">
+                           <supportDesc material="chart">
+                              <support>
+                                 <num type="book-block" value="57"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="312"/>
+                                    <width unit="mm" quantity="202"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="contemporary pag"/>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-separate" columns="1" writtenLines="31 33">									
+                                 <num type="wpl" atLeast="3" atMost="10"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="230"/>
+                                    <width unit="mm" quantity="140"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                           <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                   </handDesc>
+                        <additions ana="no"/>
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>
+                  </msPart>
+                  <msPart>
+                     <altIdentifier>
+                        <idno>MS 21.2.9 IV</idno>
+                     </altIdentifier>
+                     <msContents>
+                  <msItem class="kongs" n="1">
+                     <locus from="172r" to="184v"/>
+                     <title type="uniform">Játvarðar saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Þáttur af enum helga Játvardi, Wilhialme Basthardi, og nockrum ödrum Eingla Kongum</rubric> 
+                  </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">
+                           <supportDesc material="chart">
+                              <support>
+                                 <num type="book-block" value="14"/>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" quantity="312"/>
+                                    <width unit="mm" quantity="202"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="contemporary pag"/>
+                              <foliation ana="later pag"/>
+                              <condition ana="good"/>
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="1" writtenLines="31 33">									
+                                 <num type="wpl" atLeast="4" atMost="8"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="230"/>
+                                    <width unit="mm" quantity="140"/>
+                                 </dimensions>
+                              </layout>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                           <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                        </handDesc>
+                        <additions ana="no"/>
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1799"/>
+                        </origin>
+                     </history>
+                     </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:24.935+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-12-12" who="#PTL">Update of information from Ólafur Halldórsson's unpublished catalogue</change>
+         <change when="2013-01-24" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

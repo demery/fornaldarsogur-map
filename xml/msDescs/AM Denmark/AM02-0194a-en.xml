@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 194 a fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0194a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 194 a fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="9r:25">1r-9r:25</locus>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <rubric>Hier skrifast Sagan<ex>n</ex> af Hrolfe Gautreks Sine og seiger first af Gauta konge J
+                           Gautlan<ex>n</ex>de</rubric>
+                     <incipit>Þar hefium vier Eina kavtlega frasogu, af Einum kongj þeim er gautj hiet, hann var vitur og vel
+                        stilltur</incipit>
+                     <explicit>En<ex>n</ex> þo var h<ex>an</ex>n vinsæll <ex>og</ex> stör giøfull <ex>og</ex> hin<ex>n</ex>
+                        hæuerskastj ad sia <ex>og</ex> lijkur hier giafa Refz sögu</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9r:26" to="28v">9r:26-28v</locus>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <incipit>Þar hefium wier þessa frasogu Er Gautrekur kongur son Gauta k<ex>on</ex>gz, Riedj firir
+                           Gautlan<ex>n</ex>dj, h<ex>an</ex>n var miog Agiætur firum Margra hluta</incipit>
+                     <explicit>þa kemur þad fram<ex>m</ex>, ad þad þikist An<ex>n</ex>ar heira Er Ann<ex/>ar heirir Ecke og lijkur
+                        hier so sögu Hrolfs kongs Gaturekßonar</explicit>
+                     <finalRubric>Skrifud med mesta Flijter og An<ex>n</ex>rijke A Stafnese Anno 1677 Enndud 2 dag Aprilis
+                        Einkann<ex/>lega Bid Eg lesara þeßarar sogu ad lesa Jmälid þuj Bæde Er Rängt skrifad <ex>og</ex> klest
+                           Eirnin<ex>n</ex> bid Eg Eiga udann virda til Godz þad Jfer hefur siest FINIS</finalRubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="28"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="327"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">
+                           <p>Foliated in dark ink in top right corners of recto pages.</p>
+                        </foliation>
+                        <condition ana="good">A few repairs on the edges.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="41 49">
+                           <num type="wpl" atLeast="11" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="243"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="late kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p><name type="person" role="scholar" key="ArnMag001">Árni Magnússon</name> wrote on a slip
+                        pasted to the front of the book:<q>Hrolfs Saga Gautreks sonar 2. Exemplaria.</q> This refers probably to
+                        this manuscript and to AM 194 b fol.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Bound in a grey cardboard binding with <q>No 194. a. Hrolfs saga Gautrekssonar.</q> written on the
+                           front board</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1677"/>
+                     <origPlace key="IS">Stafnes, Iceland</origPlace>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:59.452+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:11.675+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:22.36+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:36.905+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:15.759+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-01-24" who="#BES">Added missing information from Kålund's catalog and the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

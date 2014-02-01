@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1693 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1693-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1693 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 59 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><note>All the items have a separate title page with the title and information on
+                     the exemplar.</note></titlePage> 
+                  <msItem n="1" class="isl">
+                     <locus from="2r" to="62v"/>
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="63r" to="187v"/>
+                     <title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="3" class="isl kvad">
+                     <locus from="188r" to="212v"/>
+                     <title type="uniform">Grettis saga <note>[poem with paraphrase and comments]</note></title>
+                     <title type="supplied">Hallmundarkviða</title>
+                     <rubric>Hallmundar Qviða med Paraphrasis ok notis Einars Eyiolfssonar</rubric> 
+                     <colophon>E. E. S.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="kon">
+                     <locus from="213r" to="246r"/>
+                     <title type="uniform">Ólafs saga Tryggvasonar [verses and comments]</title>
+                     <rubric>Ráðgátur Hallgríms prestz yfir nockurar visur i Olafs saugu Tryggva sonar</rubric>
+                     <textLang mainLang="non" otherLangs="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="front-flyleaf" value="1"/>
+                        <num type="book-block" value="246"/>
+                        <num type="back-flyleaf" value="1"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="193"/>
+                           <width unit="mm" quantity="152"/> 
+                        </dimensions>
+                        <watermark ana="yes">Different watermarks, mostly Maid of Dort "ProPatria", also "TH" and a circular watermark with crown on top.</watermark>
+                     </support>
+                        <foliation ana="pag contemporary">Partly paginated. Some leaves left out.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="14 17">
+                           <num type="wpl" atLeast="4" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Different styles of hum cursiva; chancery for
+                        rubrics; kurrent for notes on exemplars.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>On the front flyleaf, <name key="PetSuh001" type="person" role="owner">Suhm</name> 
+                     made a note which he signed <q>PFSuhm</q>. 
+                  On fol. <locus>1r</locus>, the title of the first saga is written and there is a reference to the exemplar. 
+                     <name type="person" role="owner" key="PetSuh001">Suhm</name> added the titles of the other items.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Brown leather binding; fore-edge painted blue; golden imprint on spine: title of item 1 and floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 59 4to.</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:37.668+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-01" who="#BES">Added catalog info.</change>
+         <change when="2013-05-22" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

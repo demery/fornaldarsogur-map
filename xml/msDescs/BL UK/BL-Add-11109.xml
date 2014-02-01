@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11109</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11109" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11109</idno>
+               </msIdentifier>
+               <msContents>
+               <titlePage ana="contemporary"/>
+                  <msItem class="forns" n="1">
+                     <locus from="2r" to="40r"/>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="konth" n="2">
+                     <locus from="41r" to="48v"/>
+                     <title type="uniform">Hauks þáttur hábrókar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="islst" n="3">
+                     <locus from="49r" to="54v"/>
+                     <title type="uniform">Þóris þáttur hasts og Bárðar birtu</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="konth" n="4">
+                     <locus from="55r" to="58v"/>
+                     <title type="uniform">Styrbjarnar þáttur Svíakappa</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="konth" n="5">
+                     <locus from="59r" to="62v"/>
+                     <title type="uniform">Hálfdanar þáttur svarta</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="forns" n="6">
+                     <locus from="63r" to="88v"/>
+                     <title type="uniform">Þorsteins saga Geirnefjufóstra</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="islt" n="7">
+                     <locus from="89r" to="90r"/>
+                     <title type="uniform">Þorsteins þáttur tjaldstæðings</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="tjos" n="8">
+                     <locus from="90v" to="91r"/>
+                     <title type="uniform">Gríms saga Skeljungsbana</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="forns" n="9">
+                     <locus from="91r" to="106r"/>
+                     <title type="uniform">Huldar saga hinnar miklu</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="10">
+                     <locus from="106v" to="132r"/>
+                     <title type="uniform" ref="#hsgr">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="konth" n="11">
+                     <locus from="132v" to="136r"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Hákoni Norræna</rubric>
+                  </msItem>
+                  <msItem class="fas" n="12">
+                     <locus from="136r" to="140r"/>
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="140"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="162"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>	
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="19 32">									
+                           <num type="wpl" atLeast="8" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>	
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Ff. 2-40</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Ff. 41-48 and 55-88</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="late kurrent">Ff. 49-54</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="late kurrent">F. 89 onwards</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>	
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1800" to="1850"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JosBan001">Joseph Banks</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:53.466+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-08" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

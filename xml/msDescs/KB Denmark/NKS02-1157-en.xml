@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1157 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1157-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1157 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="20v:3"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Shares rubric with Ragnars saga loðbrókar</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="20v:3" to="28v"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <colophon>19. Juni An<ex>n</ex>o 1684 af mi<ex>er</ex> [...] Ara Joonssine M: E H:</colophon>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="31r" to="84v"/>
+                     <title type="uniform">Falentíns og Ursins saga</title>
+                     <textLang mainLang="is"/>
+                     <colophon>Af Bökúm skrifúd, I Hialltadal. og Endúd sama stadar. 1683 a(?) 13 Martj af Ara Joonssine
+                        MeH.</colophon>
+
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="87r" to="185r"/>
+                     <title type="uniform">Þiðreks saga</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="4.1" class="formal">
+                        <locus from="87r" to="87v"/>
+                        <title type="supplied">Formáli</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <colophon>Hier endud Var och Vtskrifud a Gróff ä Hofdastrønd Anno 1688 þan<ex>n</ex> 23 Aprilis:</colophon>
+                  </msItem>
+                  <msItem n="5" class="amlb">
+                     <locus from="186r" to="228v"/>
+                     <title type="uniform">Flóres saga ok Léo</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="229r" to="267r"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="267"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="307"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes">Coat of arms held by two lions; a crown on top</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="14 41">
+                           <num type="wpl" atLeast="12" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="263"/>
+                              <width unit="mm" quantity="167"/>
+                           </dimensions>
+                           <note>fols. <locus>29r-v, 30r-v, 85r-86v, 185v and 167v</locus> originally blank.</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+
+                  <handDesc hands="4">
+                     <!-- possibly more hands -->
+                     <handNote scope="major" scribeRef="#AriJon002" script="kurrent ">Ari Jónsson wrote fols. <locus from="1r" to="116v"/>. Kurrent for main text, chancery for rubrics.</handNote>
+                     <handNote scope="minor" scribeRef="unknown" script="kurrent">Fols. <locus from="117r" to="123v:13"/></handNote>
+                     <handNote scope="minor" scribeRef="unknown" script="kurrent">Fols. <locus from="123v:13" to="185r"/>, kurrent
+                        for main text, chancery for rubrics</handNote>
+                     <handNote scope="minor" scribeRef="unknown" script="kurrent">Fols. <locus from="186r" to="267r"/>, kurrent
+                        for main text, chancery for rubrics</handNote>
+
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Some decorated initials</decoNote>
+                     <decoNote type="other">Red ink for important words/parts</decoNote>
+                     <decoNote type="paratext">Squiggles and ornaments</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>On the recto side of the front flyleaf can be read: <q>Þessa Søgu-Bök ä Einar Jonsson. A<ex>nno</ex> 1748
+                           og gaf hana Widalin Er aftur gaf hana 1753. Jömfrü Ragneheide Einarsdóttur ä Sóndum.</q> Fol.
+                           <locus>121</locus> is an added, smaller leaf with a note concerning Chapter LXXVI. On the verso side,
+                           <q>Ingebiorgu[!] Sigurdardotter</q> is written in a different hand. In the bottom margin of fol. <locus from="1r" to="1r"/>: <q>Oddur Magnusson</q>. A note in a different hand at the end of item 3
+                        (fol. 84v) reads: <q>Þesse Saga Var útlags af Jone Johannssyne Mum<ex>m</ex> á Breidabolstadi i Westurhope
+                           Ur Hollendsku Tungu=Mále [...]</q>. A table of contents is added on the verso side of the front flyleaf
+                        and signed <q>PFSuhm</q>. In the outer margin of fol. <locus>127v</locus>, a name is written, possibly
+                           <q>GEIR MARCHUSSON</q>. On fol. <locus>185v</locus>, there are two additions. On top: <q>98 blad in
+                           folio</q> and with a less trained hand: <q>Saga þesse er af leon og leon</q>. Some contemporary
+                        additions and comments in the margins. In the back, there is a small slip with the shelf mark inserted. A
+                        name on the inside of the back cover cannot be read anymore. Possibly <q>Gisli Þ... son</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Dark brown leather binding with ornaments on front and back cover: mainly floral ornaments; small human
+                           figures inside of circles.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1675" notAfter="1699"/>
+                     <origPlace key="IS" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name key="EinJon014" type="person" role="owner">Einar Jónsson</name>
+                     <name key="JonVid001" type="person" role="owner">Jón Vídalín Jónsson</name>
+                     <name key="RagEin001" type="person" role="owner">Ragnheiður Einarsdóttir á Söndum</name>
+                     <name key="PetSuh001" type="person" role="signatory">P. Suhm</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:31.462+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-19" who="#BES">Added infirmation form Kålund's catalog.</change>
+         <change when="2013-04-24" who="#BES">Added missing information with the ms in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

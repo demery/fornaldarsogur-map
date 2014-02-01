@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>MS 993</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS-993" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Dublin</settlement>
+                  <repository ref="#TCL">Trinity College Library and Royal Irish Academy, Dublin</repository>
+                  <idno>MS 993</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>MS L.2.4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>                  
+                  <msItem class="fas" n="1">
+                     <locus from="1r" to="90v"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <rubric>Saga af Ragnar Lodbrók oc morgum konongom merkiligom</rubric>
+                     <incipit>Her hefr upp oc segir frá þeim manni er Sigi er nefndr</incipit>
+                     <explicit>Oc þetta þótti monnom undarligt oc sogdu síþan oþrum monnum</explicit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="edd">
+                     <locus from="90v" to="95v"/>
+                     <title type="uniform">Krákumál</title>
+                     <rubric>Kráku mál er sumir kalla Loþbrokar qviþu</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="95"/>
+                           <num type="back-flyleaf" value="2"/>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="327"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">J Honig &amp; Zoonen (Dutch papermakers of Zaandyk, Holland); CR with crown; Crowned lion holding sword in fenced enclosure with knight (?) holding sceptre and the words Pro Patria</watermark>
+                           
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="27 29">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva">
+                        Same hand as on L.2.1. and L.2.5.</handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low"><p>Some variant readings added to Krákumál seemingly after the main text was written.</p></additions>
+                  
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Paper boards, with marbled paper; leather spine and corners.</p>
+                     </binding>							
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1781"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <p>On the front flyleaf there is the following inscription: <q>Viro plurimum Reverendo Dno Jacobo Johnston amico meo integerrimo hoc Vitæ Ragnari Lodbrocæ exemplar in memoriam sui donat amicus integer Grimus Johannis Thorkelin
+                     Havniæ diæ 1 Febr. Anno Dni Mdcclxxxi.</q></p>
+                       </provenance>
+               </history>					
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:26.282+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2012-11-27" who="#mjd">Catalogued from original.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

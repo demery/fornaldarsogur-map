@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 12 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0012-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 12 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" defective="true" class="ridd">
+                     <locus from="1r:1" to="68r:10"/>
+                     <title type="uniform">Mágus saga <note>(Second part)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>Seirne Partur Maugusar Sögu</rubric>
+                     <incipit>Heinrekur hefur k<ex>onun</ex>g<ex>ur</ex> h<ex>ei</ex>t<ex>id</ex></incipit>
+                     <explicit><ex>og</ex> fieck h<ex>an</ex>n þ<ex>ei</ex>m sæmelig kvonfaung,
+                        <ex>og</ex> lykur so þeßsare sogu. ENDER.</explicit>
+                     <note>According to the P.E.Ó. catalogue, the story's first part begins on
+                        <locus from="46" to="46">leaf 41</locus>. However, a more recent note inside
+                        the manuscript states that both texts are from the second part.</note>
+                     <note>The leaf between fols. <locus>46</locus> and <locus>47</locus> is missing.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="68r:11" to="101v:33"/>
+                     <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Sturlauge Starf Stama</rubric>
+                     <incipit>Haralldur hiet kóngur eirn er riede f<ex>yrir</ex> Norveiege</incipit>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="102r:1" to="133v:25"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier hefur upp sögu af Vilmunde vidutan<ex>n</ex></rubric>
+                     <incipit>Cap 1e Wÿsevalldur h<ex>e</ex>f<ex>ur</ex> k<ex>on</ex>g<ex>ur</ex>
+                        nefnd<ex>ur</ex> verid</incipit>
+                     <explicit><ex>og</ex> liukum vier so þa þessi sogu.</explicit>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="134r:1" to="184v:3"/>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>SAGANN AF Haalfdane Brönu fóstra</rubric>
+                     <incipit>Cap I Hryngur er ko nefndur, er riede fyr<ex>ir</ex> Danmörk</incipit>
+                     <explicit>med herskillde i Miklagarde <ex>og</ex> endar hier þess<ex>a</ex> Sögu.</explicit>
+                  </msItem>
+                  <msItem n="5" class="kvad">
+                     <locus from="184v:4" to="188r:14"/>
+                     <title type="supplied">Kappakvæði</title>
+                     <textLang mainLang="is"/>
+                     <author><name type="person" key="GudBer001">Guðmundur Bergþórsson</name></author>
+                     <rubric>Kappa Kvæde kvedid af Sal<ex>ugum</ex> Gudmunde Bergþorssyne</rubric>
+                     <incipit>Jeg sa þa Ryda Riddaran þria</incipit>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="188"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+							   <foliation ana="fol later"/>
+							   <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21 24">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="140"/>
+                              <width unit="mm" quantity="86"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+							<handNote scribeRef="unknown" scope="sole" script="early kurrent"/>
+						</handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+							<binding ana="plain" contemporary="true">
+								<p>Leather binding. The leaves have been disbound and lie loose inside the cover</p>
+							</binding>
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate notBefore="1780" notAfter="1820"/>
+                     <origPlace key="IS">Iceland</origPlace>
+						</origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:21.284+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:28.54+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:46.927+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-09-11" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2013-07-30" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

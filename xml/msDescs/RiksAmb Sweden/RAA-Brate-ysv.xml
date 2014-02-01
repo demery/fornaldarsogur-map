@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>KVHAA</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- previous xml:id="Brate-Ingvar" -->
+            <msDesc xml:id="RAA-Brate-ysv" xml:lang="en">
+               <!-- does not display properly; reorganize -->
+               <msIdentifier>
+                  <repository ref="#RAA">Riksantikvarieämbetet, Stockholm</repository>
+                  <!-- collection element not supported -->
+                  <collection>Kungliga Vitterhets Historie och Antikvitets Akademien</collection>
+                  <idno>Brate, Erik - Översättning av Ingvar Vittfavnes Saga</idno>
+                  <altIdentifier>
+                     <idno>J.12 - Brate, Erik Översättning av Ingvar Vittfarnes saga</idno>
+                     <!-- line below does not display properly as a note; what to do with it? -->
+                     <!-- Kungliga Vitterhets Historie och Antikvitets Akademien, Stockholm -->
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="96r"/>
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                     <textLang mainLang="sv"/>
+                     <note>Swedish translation on ff. 1-78, only written on the recto, and notes and commentary on ff. 79-96,
+                        written on both verso and recto.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="96"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="177"/>
+                              <width unit="mm" quantity="211"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="fol contemporary">1-78 on the translation, followed by 1-18 on the notes.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="17">
+                           <num type="wpl" atLeast="5" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="170"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#EriBra001" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none">
+                        <p>The leaves are unbound. A leaf of grey paper is folded around them and the whole is kept within a brown
+                           paper envelope, itself kept in a box.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <!-- notAfter date further limited; scribe died in 1924 -->
+                     <origDate notBefore="1920" notAfter="1924"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="EriBra001"/>
+                     <p>The Kungliga Vitterhets Historie och Antikvitets Akademien, Stockholm, is now part of the
+                        Riksantikvarieämbetet, as a special collection. No numbers are used as shelfmarks and the old shelfmarks from
+                        the Vitterheds Akademien are ignored in favour of more descriptive designations.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:32.691+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-11" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

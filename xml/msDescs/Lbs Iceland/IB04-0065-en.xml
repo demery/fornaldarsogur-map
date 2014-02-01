@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 65 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0065-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 65 4to</idno>
+               </msIdentifier>
+               <msPart n="1">
+                  <altIdentifier>
+                     <idno>ÍB 65 4to I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no">
+                     </titlePage>
+                     <msItem n="1" class="isl" defective="true">
+                        <locus from="1r" to="16v">1r-16v</locus>
+                        <title type="uniform">Gull-Þóris saga</title>
+                        <rubric>Sögubrot af Gull-Þórir</rubric>
+                        <colophon>Cætera Desunt</colophon>
+                        <textLang mainLang="non"/>
+                        <note>There are lacunae in the saga, and the scribe leaves a space for them to
+                           be filled in</note>
+                     </msItem>
+                     <msItem n="2" class="isl" defective="true">
+                        <locus from="17r" to="44r">17r-44r</locus>
+                        <title type="uniform">Bjarnar saga Hítdælakappa</title>
+                        <rubric>Sagan af Birni Hítdælakappa</rubric>
+                        <colophon>uppbiriud ad skrifast á Grymstödum af Teiti Jonssini sydlega i
+                           Januari Ano 1763, en endud af Joni Olafssini 4 februari sama
+                           ars</colophon>
+                        <textLang mainLang="non"/>
+                        <note>There are lacunae in the saga and the scribe leaves a space for them to
+                           be filled in</note>
+                     </msItem>
+                     <msItem n="3" class="fas">
+                        <locus from="45r" to="52v">45r-52v</locus>
+                        <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                        <rubric>Sagan af Friðþjófi frækna</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="4" class="konth">
+                        <locus from="53r" to="63v">53r-63v</locus>
+                        <title type="uniform">Eymundar þáttur Hringssonar</title>
+                        <rubric>Hér hefur upp þátt af Eymundi og Olafi kongi helga. Sem innlesast má
+                           í Ólafs kóngs sögu að enduðum Fóstbræðraþætti</rubric>
+                        <colophon>Þesse sógu þáttur Eymundar kongs var i fljotleka uppskrifadur af
+                           sógy Olafs kongs helga þar skrifadur var eftter eigen handar skriftt sír
+                           Jons Ellendssonar, sem var i Villinga hollte (og endadur á Grýmstódum í
+                           Breiduvýkur hrepp af Jon Olafssine December Anno 1757.</colophon>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="5" class="kon">
+                        <locus from="64r" to="64r">64r-64r</locus>
+                        <title type="uniform">Ólafs saga helga</title>
+                        <incipit>Sveinn kongur Alfífuson var kominn aftur i víkina þá bardaginn var
+                           á Stiklastöðum og Ólafur kóngur féll</incipit>
+                        <textLang mainLang="non"/>
+                        <note>Merely an excerpt from Ólafs saga helga</note>
+                     </msItem>
+                     <msItem n="6" class="fas">
+                        <locus from="64v" to="65v">64v-65v</locus>
+                        <title type="uniform">Tóka þáttur Tókasonar</title>
+                        <rubric>Stuttur söguþáttur af Tóka Tókasyni</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="7" class="isl">
+                        <locus from="66r" to="88r">66r-88r</locus>
+                        <title type="uniform">Kormáks saga</title>
+                        <colophon>Endad þann 13da maij sem var fiórde dagur hvýtasunnu Anno 1762 af
+                           Jone Olafssyne Grymstodum</colophon>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="88"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="191"/>
+                                 <width unit="mm" quantity="152"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol">A single folio number in pencil from time of cataloguing or
+                              repair</foliation>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="25 34">
+                              <!--<num type="wpl" atLeast="" atMost=""/>-->
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="164"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <handNote scribeRef="#JonOla003" scope="major" script="chancery">Jón Ólafsson á
+                           Grímsstöðum certainly wrote fols. <locus from="1r" to="16v"/>, <locus from="28r" to="65v"/> and <locus from="70r" to="88r"/>
+                          <!-- Be aware though of leaves<locus from="45r" to="52v"/>--></handNote>
+                        <handNote scribeRef="#TeiJon001" scope="minor" script="chancery">Teitur
+                              Jónsson wrote fols. <locus from="17r" to="27r"/> and <locus from="66r" to="69v"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Initials decorated mainly in headings, titles and
+                           chapters.</decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>The following names are found: <name type="person" role="signatory" key="unknown">Einar Einarsson á Baulárvöllum</name> (16v), 
+                           <name type="person" role="signatory" key="unknown">Þórarinn Þ.?</name> (9v), 
+                           <name type="person" role="signatory" key="unknown">Þ.Þ.</name> (22r). </p>
+                     </additions>
+                    <!-- <bindingDesc>
+                        <binding ana="" contemporary="">
+                           <p/>
+                        </binding>
+                     </bindingDesc>-->
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate from="1757" to="1763">1757-1763</origDate>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="signatory" key="EinEin001">Einar Einarsson á Baulárvöllum</name>
+                        <name type="person" role="signatory" key="ambig">Þórarinn Þ.?</name>
+                        <name type="person" role="donor" key="ArnTho010"/>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart n="2">
+                  <altIdentifier type="partial">
+                     <idno>ÍB 65 4to II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <!--<summary>
+                        <title type="sub">II. hluti</title>
+                        <note/>
+                     </summary>-->
+                     
+                     <msItem n="1" class="isl" defective="true">
+                        <locus from="89r" to="89r"/>
+                        <title type="uniform" xml:lang="is">Víga-Glúms saga</title>
+                        <textLang mainLang="is"/>
+                        <incipit>og mál manna að Glúmur hafi verið XX ár mestur höfðingi í Eyjafirði
+                          </incipit>
+                        <note>Without title; only ending</note>
+                     </msItem>
+                     <msItem n="2" class="isl" defective="true">
+                        <locus from="89r" to="116v"/>
+                        <title type="uniform" xml:lang="is">Finnboga saga ramma</title>
+                        <note>Lacking at the end</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="28"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="183"/>
+                                 <width unit="mm" quantity="142"/>
+                              </dimensions>
+                             <!-- <watermark ana=""></watermark>-->
+                           </support>
+                           <foliation ana="fol"><p>Leaves in wrong order. Correct order is: 91, 95, 92 and 112, 110, 113; leaves
+                              lacking between fols. 94 and 96. Leaves lacking between folios: 105-106, 107-108, 108-109, 114-115</p></foliation>
+                         <!--  <condition ana="">
+                           </condition>-->
+                        </supportDesc>
+                       <!-- <layoutDesc>
+                           <layout ana="" columns="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" atLeast="" atMost=""/>
+                                 <width unit="mm" atLeast="" atMost=""/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#ThoJon006" scope="sole" script="chancery">Þórður Jónsson í
+                           Hítardal</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Initials somewhat decorated in a few places</decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>On fol. <locus from="108v" to="108v"/>, <q>Grímur hét maður er bjó ...</q>.</p>
+                        <p>On fol. <locus from="16v" to="16v"/>, <name type="person" role="signatory" key="EinEin001">Einar Einarsson á Baulárvöllum</name> wrote his name.</p>
+                           <p> On fol. <locus from="22r" to="22r"/>, <q>Þ.Þ.</q>.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1636" to="1670">[1636-1670?]</origDate>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="signatory" key="EinEin001">Einar Einarsson á Baulárvöllum</name>
+                              
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:55.529+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:07.717+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:29.649+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:05.804+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-02" who="#SK">Adapted part I to the FASNL and added some information
+            from the digital version on handrit.is</change>
+         <change when="2013-07-18" who="#SMM">Added and corrected some xml codes.</change>
+         <change when="2013-08-05" who="#BES">Proofread.</change>
+         <!-- layout info missing completely  -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>HSk 13 8vo</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="HSk08-13-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#HSSSF">Héraðsskjalasafn Skagfirðinga, Akureyri</repository>
+                        <idno>HSk 13 8vo</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="no"/>
+                        <msItem n="1" class="avis">
+                            <locus from="1r:1" to="20v:13"/>
+                            <title type="supplied">Skanderbeg saga fursta</title>
+                            <textLang mainLang="is"/>
+                            <rubric>Sagan af þeim nafnfræga fursta Skanderbeg</rubric>
+                            <incipit>1 Cap: Ekki mörgum árum áðr en Tirkjar yfirúnnú Constantinopel</incipit>
+                            <explicit>og meintu þar med ad lukka og farsæld mundu sjer þar af standa</explicit>
+                            <finalRubric>og endar svo sagan af þeim nafnfræga fursta Skanderbegus. Endir.</finalRubric>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="21r:1" to="27r:11"/>
+                            <title type="uniform" ref="#asb">Áns saga bogasveigis</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Sagan af An Bogsvegir</rubric>
+                            <incipit>1. Cap J þann tíma, er filkis konungar voru í Norvegi, hófst saga þ<ex>e</ex>ssi</incipit>
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="book-block" value="27"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="157"/>
+                                        <width unit="mm" quantity="100"/>
+                                    </dimensions>
+                                    <watermark ana="no"/>
+                                </support>
+                                <foliation ana="pag contemporary">Paginated 1 - 55</foliation>
+                                <condition ana="average"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-prose" columns="1" writtenLines="21 23">
+                                    <num type="wpl" atLeast="6" atMost="9"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="164"/>
+                                        <width unit="mm" quantity="98"/>
+                                    </dimensions>
+                                    <catchwords ana="no"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="low">
+                            <note>On 27r and 27v, many names are written:</note>
+                            <p>Stephan Pjetursson</p>
+                            <p>NHavsteen</p>
+                            <p>MTordarson</p>
+                            <p>Magnús Þórðarson</p>
+                            <p>Qvíabeck</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="none" contemporary="inapplicable">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1825" notAfter="1875"/>
+                            <origPlace key="IS">Iceland</origPlace>
+                        </origin>
+                        <provenance/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-09-09" who="#OHA">File created; catalogued from manuscript.</change>
+            <change when="2013-09-12" who="#SMM">Proofread.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

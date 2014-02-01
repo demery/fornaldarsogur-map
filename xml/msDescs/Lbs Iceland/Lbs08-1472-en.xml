@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1472 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1472-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1472 8vo</idno> 
+               </msIdentifier>
+               <msContents>
+                  <summary>The manuscript has been divided into four parts and is catalogued
+                     accordingly.</summary>
+                  <titlePage ana="no"/>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="94"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="9">
+                     <handNote scribeRef="#">A number of different hands.</handNote>
+                  </handDesc>
+                  <additions ana="low">
+                     <p>Front-flyleaf 1v: Hér skrifast fimm Rímur af Salómon kóngi og Markólfi
+                        Mórustasyni kveðnar 1886</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>A paper cover on parts I and II</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     
+                     <origDate notBefore="1700" notAfter="1899">[1700-1899?]</origDate>
+                  </origin>
+                  <provenance/>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1472 8vo I. hluti</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="avis">
+                        <locus from="1r" facs="#Lbs08-1472-0001r" to="16r">1r-16r</locus>
+                        <title type="supplied">Saga Ásgríms Vigfússonar prests</title>
+                        <textLang mainLang="is"/>
+                        <note>Based on Daði Níelsson´s fróði story of Ásgrímur Vigfússon.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="16"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="170"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="19 23">
+                              <num type="wpl" atLeast="3" atMost="8"/>
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#ArnHan002" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">bl. 15r: '73 ár' added to specify 'sjötug ár' on the same
+                        line. Also added date '1829 19/12'.</additions>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="true">
+                           <p>Paper cover.</p>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1865" to="1899"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1472 8vo II. hluti</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="rimur">
+                        <locus from="17r" facs="#Lbs08-1472-0017r" to="37v">17r-37v</locus>
+                        <title type="uniform">Salómons rímur og Markólfs</title>
+                        <textLang mainLang="is"/>
+                        <note>5 stanzas.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="21"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="152"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="24 29">
+                              <num type="wpl" atLeast="4" atMost="8"/>
+                           <!--   <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="true">
+                           <p>A paper cover.</p>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1886"/>
+                        <note>On part I front-flyleafs verso side is written that the rímur are
+                           composed in 1886.</note>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <name type="person" key="KriGud004">Kristmundur Guðmundsson</name> 37v
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1472 8vo III. hluti</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="rimur">
+                        <locus from="39r" facs="#Lbs08-1472-0039r" to="56r">39r-56r</locus>
+                        <title type="uniform">Friðriks rímur landstjórnara</title>
+                        <textLang mainLang="is"/>
+                        <rubric>ortar af Sigurði Breiðfjörð</rubric>
+                        <author key="SigBre001">Sigurður Breiðfjörð</author>
+                        <note>5 stanzas.</note>
+                     </msItem>
+                     <msItem n="2" class="laus">
+                        <locus from="56v" facs="#Lbs08-1472-0056v" to="56v">56v</locus>
+                        <title type="suppplied">Vísa</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Ort hefur Illugi</rubric>
+                     </msItem>
+                     <msItem n="3" class="kvad">
+                        <locus from="56v" facs="#Lbs08-1472-0056v" to="56v">56v</locus>
+                        <title type="supplied">Kvæði</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Ort hefur síra Vernh. Th.</rubric>
+                        <author key="VerTho">Vernharður Þorsteinsson</author>
+                     </msItem>
+                     <msItem n="4" class="ljodbr">
+                        <locus from="56v" facs="#Lbs08-1472-0056v" to="56v">56v</locus>
+                        <title type="supplied">Kvæði</title>
+                        <textLang mainLang="is"/>
+                        <note>From a ljóðabréf</note>
+                     </msItem>
+                     <msItem n="5" class="fas">
+                        <locus from="57r" facs="#Lbs08-1472-0057r" to="63v">57r-63v</locus>
+                        <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur sögu Eiríks víðförla</rubric>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="27"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="164"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="22 27">
+                              <num type="wpl" atLeast="5" atMost="10"/>
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="miniature">Pictures of humans in pencil: 38, 39v and
+                           63v-64.</decoNote>
+                     </decoDesc>
+                     <additions ana="no"/>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="true">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1838" to="1899"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1472 8vo IV. hluti</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="annal" defective="true">
+                        <locus from="65r" facs="#Lbs08-1472-0065r" to="72v">65r-72v</locus>
+                        <title type="supplied">Annálar</title>
+                        <textLang mainLang="is"/>
+                        <author key="BjoJon006"/>
+                        <note>From the Skarðsárannals, 1401-1637</note>
+                        <note>Added to the rubric in a different hand: Björns á Skarðsá.</note>
+                        <note>Missing the end.</note>
+                     </msItem>
+                     <msItem n="2" class="bis" defective="true">
+                        <locus from="73r" facs="#Lbs08-1472-0073r" to="74v">73r-74v</locus>
+                        <title type="supplied">Biskupatal</title>
+                        <textLang mainLang="is"/>
+                        <colophon>1685 Finis</colophon>
+                        <note>Lacking at the beginning</note>
+                     </msItem>
+                     <msItem n="3" class="trumal">
+                        <locus from="75r" facs="#Lbs08-1472-0075r" to="75v">75r-75v</locus>
+                        <title type="supplied">Unknown</title>
+                        <textLang mainLang="is"/>
+                        <incipit>[…]l allra þjóða er dauðans stríð og hatur …</incipit>
+                        <note>Without a rubric.</note>
+                     </msItem>
+                     <msItem n="4" class="kvad">
+                        <locus from="76r" facs="#Lbs08-1472-0076r" to="76v">76r-76v</locus>
+                        <title type="uniform">Hallmundarkviða</title>
+                        <textLang mainLang="is"/>
+                        <note>Two verses from Hallmundarkviða in Bergbúaþáttur with literary
+                           notes</note>
+                        <note>Fragmentary.</note>
+                     </msItem>
+                     <msItem n="5" class="trumal">
+                        <locus from="77r" facs="#Lbs08-1472-0077r" to="84v">77r-84v</locus>
+                        <title type="supplied">[St]utt ágrip um lifnað og afgang [þ]eirra heilögu
+                           manna hvörra messu[d]agar ...</title>
+                        <textLang mainLang="is"/>
+                        <note>Ends with July</note>
+                        <note>Fragmentary.</note>
+                     </msItem>
+                     <msItem n="6" class="post">
+                        <locus from="85r" facs="#Lbs08-1472-0085r" to="89v">85r-89v</locus>
+                        <title type="supplied">From an excerpt on the lives of the apostels</title>
+                        <textLang mainLang="is"/>
+                        <incipit>[l]emja og síðan krossfesta, en sá hugprúði pí[sl]arvottur gladdist
+                           við þvílí...</incipit>
+                        <note>Missing the beginning.</note>
+                     </msItem>
+                     <msItem n="7" class="trumal" defective="true">
+                        <locus from="90r" facs="#Lbs08-1472-0090r" to="90v">90r-90v</locus>
+                        <title type="supplied">Draumur kvinnu Pilati</title>
+                        <textLang mainLang="is"/>
+                        <incipit>[…] sagna […]erusalem skrifar …</incipit>
+                        <note>The title is barly readable and there are lacunas in the text due to
+                           damage.</note>
+                     </msItem>
+                     <msItem n="8" class="kir">
+                        <locus from="91r" facs="#Lbs08-1472-0091r" to="91r">91r</locus>
+                        <title type="supplied">Summa Summarum. Dalir 330, móðir CCXVI. Sóknarkirkjur
+                           umkring landið</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="9" class="bis">
+                        <locus from="91v" facs="#Lbs08-1472-0091v" to="92v">91v-92v</locus>
+                        <title type="supplied">Hér eftir skrifast nafnatala biskupa á Íslandi sem
+                           verið hafa í Skálholti og ...</title>
+                        <textLang mainLang="is"/>
+                        <note>Fragmentary.</note>
+                     </msItem>
+                     <msItem n="10" class="annal">
+                        <locus from="93r" facs="#Lbs08-1472-0093r" to="94v">93r-94v</locus>
+                        <title type="supplied">Annálar</title>
+                        <textLang mainLang="is"/>
+                        <rubric>útlægur af öllum vors kóngsríkjum. Það fannst að hann hafði skrifað
+                           í móti Lútheri lærdómi … </rubric>
+                        <note>From annals, Skarðsárannál among others</note>
+                        <note>Missing the beginning.</note>
+                     </msItem>
+                     <msItem n="11" class="avint">
+                        <locus from="94v" facs="#Lbs08-1472-0094v" to="94v">94v</locus>
+                        <title type="supplied">Ævintýri</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Ævintýr af tveimur systrum er til bar í einu þorpi …</rubric>
+                        <note>Fragmentary.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="30"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol">Fol. 65r-72r have a separate later foliation.
+                              The manuscript's foliation continues on fol. 73r.</foliation>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="21 28">
+                              <num type="wpl" atLeast="5" atMost="10"/>
+                            <!--  <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="9">
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                        <handNote scribeRef="unknown" scope="minor" script="chancery"/>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="chancery"/>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Some initials moderately decorated </decoNote>
+                        <decoNote type="vignette" subtype="tailpiece">Vignette: <locus from="74v" facs="#Lbs08-1472-0074v" to="74v">74v</locus>, <locus from="89v" facs="#Lbs08-1472-0089v" to="89v">89v</locus></decoNote>
+                     </decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1799"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:54.628+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:54:16.34+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:35.493+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:19:07.483+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2012-07-10" who="#SMM">Updated msDesc encoding. Completed some msDesc based on pictures from handrit.is.</change>
+         <change when="2013-03-25" who="#SK">Added information from digitized version on handrit.is.</change>
+         <!--written area info missing-->
+         <change when="2013-08-30" who="#TL">Checked markup consistency</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

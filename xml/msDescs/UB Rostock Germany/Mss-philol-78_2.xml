@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+
+      <fileDesc>
+         <titleStmt>
+            <title>Mss. phil. 78/2</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Mss-phil-78_2" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBRST">Universitätsbibliothek, Rostock</repository>
+                  <idno>Mss. phil. 78/2</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Scand. fol. 57</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="ffl2r" to="ffl2r">Second front-flyleaf</locus>
+                     <title type="supplied">Table of Contents</title>
+                     <note>Originally only for items 2-10. Two more items added later.</note>
+                  </msItem>
+                  <msItem n="2" class="kon">
+                     <locus from="1r" to="21r">pp. 1-41</locus>
+                     <title type="uniform">Knýtlinga saga</title>
+                     <rubric>Þesse Bok hefur inne ad hallda Knitlinga Sogu, sem skrifud var eptir miog gamallri Membrana, og hefur
+                        pvi margt, sem adrar Sogur ei hafa. Skrifad i Kaupenhafn, A<ex>nn</ex>o 1687</rubric>
+                     <textLang mainLang="non"/>
+                     <note>22nd Chapter heading and its first line written in pencil (by the same hand)</note>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="26r" to="171r">pp. 45-341</locus>
+                     <title type="uniform">Knýtlinga saga</title>
+                     <rubric>KNYTLINGA SAGA</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="174r" to="292r">pp. 347-583</locus>
+                     <title type="uniform">Eyrbyggja saga</title>
+                     <rubric>Hier byriast EYRBYGGIA, edur ÞORNESINGA Saga</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="296r" to="305v">pp. 591-610</locus>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur <note>[Swedish]</note></title>
+                     <rubric>Saga om Norna Gest</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="6" class="skald sagnfr">
+                     <locus from="306r" to="306v">pp. 611-612</locus>
+                     <title type="supplied">Bragaræði [Excerpt on Trojan War]</title>
+                     <title type="parallel">Snorra Edda, Skáldskaparmál [Prologue]</title>
+                     <incipit>Priamus Kön<ex>un</ex>g<ex>ur</ex> i Tröjö var Haupdynge mikill</incipit>
+                     <explicit>en<ex>n</ex> Räku ä Burtt Elenu<ex>n</ex>. </explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="308r" to="344v">pp. 615-688</locus>
+                     <title type="uniform" ref="#vs">Völsunga saga <note>[Swedish]</note></title>
+                     <rubric>Här begynnes Wålssungarnas Historia eller berättelsen Om Sigurd Fafnis Bane</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="8" class="">
+                     <locus from="349r" to="378v">pp. 697-756</locus>
+                     <title type="uniform">Íslendingabók <note>[German]</note></title>
+                     <title type="parallel">Schedae de Islandia</title>
+                     <author>Ari fróði Þorgilsson</author>
+                     <rubric>Schedae Ara Prestz Froda von Island Ins Teutsche nach dem zu Skalholte. 1688. gedruckten Exemplar
+                        übersetzet. Stockholm. Anno 1725</rubric>
+                     <rubric>Vorrede</rubric>
+                     <textLang mainLang="de"/>
+                     <note>With its own title page and extensive footnotes and comments</note>
+                  </msItem>
+                  <msItem n="9" class="attat">
+                     <locus from="379v" to="380r">pp. 758-759</locus>
+                     <title type="supplied">Two genealogical tables starting with Sigurður Hringsson and Hálfbjörn
+                        hálftroll</title>
+                     <rubric>Nachfolgendes Schlechtregister findet sich auf einem Blat Pergamen, welches mit Berger Abbots Olofs
+                        des Heiligen Saga eingebunden, ist mit MünchBuchstaben geschrieben, und scheint selbigen Alters als der
+                        Codex Pergamenus selbsten zu seyn</rubric>
+                     <textLang mainLang="de"/>
+                  </msItem>
+                  <msItem n="10" class="isl fas">
+                     <locus from="384r" to="456v">pp. 767-912</locus>
+                     <title type="supplied">Extracts from different Sagas [Icelandic, German]</title>
+                     <rubric>Kurtze Extracte aus unterschiedenen Islaendischen Sagen</rubric>
+                     <textLang mainLang="non" otherLangs="de"/>
+
+                     <msItem n="10.1" class="fas">
+                        <locus from="384r" to="389v">767-778</locus>
+                        <title type="uniform" ref="#rsl">Ragnars saga loðbrókar <note>[Extract, German]</note></title>
+                        <rubric>Kurtzer Auszug aus Ragnars Lodbroks Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.2" class="isl">
+                        <locus from="390r" to="406v">pp. 779-812</locus>
+                        <title type="uniform">Egils saga Skallagrímssonar <note>[Extract, German and Icelandic]</note></title>
+                        <rubric>Kurtzer Auszug aus Eigla Saga</rubric>
+                        <textLang mainLang="de" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="10.3" class="samt">
+                        <locus from="408r" to="417r">pp. 815-833</locus>
+                        <title type="uniform">Íslendinga saga <note>[Extract, German]</note></title>
+                        <rubric>Extract aus Islaendiga Saga Mikla. Pars III</rubric>
+                        <textLang mainLang="de"/>
+                        <note>Latin comments and notes</note>
+                     </msItem>
+                     <msItem n="10.4" class="samt">
+                        <locus from="419r" to="425r">pp. 837-849</locus>
+                        <title type="uniform">Íslendinga saga <note>[Extract, German]</note></title>
+                        <rubric>Kurtze Nachricht von dem Inhalt der großen Islaendischen Saga, genandt: Islendinga Saga
+                           Mikla</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.5" class="isl">
+                        <locus from="525v" to="429r:20">pp. 850-857</locus>
+                        <title type="uniform">Eyrbyggja saga <note>[Extract, German and Icelandic]</note></title>
+                        <rubric>Eyrbyggia Saga.</rubric>
+                        <textLang mainLang="non" otherLangs="de"/>
+                     </msItem>
+                     <msItem n="10.6" class="isl">
+                        <locus from="429r:21" to="430v">pp. 857-860</locus>
+                        <title type="uniform">Laxdæla saga <note>[Extract, German]</note></title>
+                        <rubric>Laxdaela Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.7" class="isl">
+                        <locus from="432r" to="433r:18">pp. 863-865</locus>
+                        <title type="uniform">Vatnsdæla saga <note>[Extract, German]</note></title>
+                        <rubric>Watnz-Daela Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.8" class="isl">
+                        <locus from="433r:19" to="434r">pp. 865-867</locus>
+                        <title type="uniform">Bárðar saga Snæfellsáss <note>[Extract, German and Icelandic]</note></title>
+                        <rubric>Barde Snaefels=as Saga</rubric>
+                        <textLang mainLang="de" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="10.9" class="almb">
+                        <locus from="434v" to="434v">p. 868</locus>
+                        <title type="uniform">Huga saga sterka og Skaplers konungs <note>[Extract, German]</note></title>
+                        <rubric>Saga af Huga-Skapler</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.10" class="other">
+                        <locus from="434v:27" to="434v:32">p. 868</locus>
+                        <title type="supplied">Lítill þáttur kirkna ráns <note>[Extract, German]</note></title>
+                        <rubric>Lytill þattur Kirkna räns og Askona i Einglande ä dögu þeirra Iveggia Erchi Biscupa S. Anselmi og
+                           S. Thomasar Cantvariensis</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.11" class="tjos">
+                        <locus from="434v:33" to="434v:36">p. 868</locus>
+                        <title type="uniform">Roðberts þáttur <note>[Extract, German]</note></title>
+                        <rubric>Rodbertz þattur</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.12" class="annal">
+                        <locus from="435r:1" to="435r:6">p. 869</locus>
+                        <title type="supplied">Annals <note>[Extract, German]</note></title>
+                        <rubric>Üpteiknar ur Gamallri Annals Bok</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.13" class="isl">
+                        <locus from="435r:7" to="435r:23">p. 869</locus>
+                        <title type="uniform">Hávarðar saga Ísfirðings <note>[Extract, German]</note></title>
+                        <rubric>Jiisfirdinga Saga aliis Havarde Halte Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.14" class="ridd">
+                        <locus from="435r:24" to="435v:22">pp. 869-870</locus>
+                        <title type="uniform">Karlamagnús saga <note>[Extract, German]</note></title>
+                        <rubric>Saga af Karla Magnuse Keysara og hanns Koppum</rubric>
+                        <textLang mainLang="de"/>
+                        <note>Devided into seven parts.</note>
+                     </msItem>
+                     <msItem n="10.15" class="isl">
+                        <locus from="435v:23" to="436v:24">pp. 870-872</locus>
+                        <title type="uniform">Flóamanna saga <note>[Extract, German]</note></title>
+                        <rubric>Excerpta ex Floamanna Saga edur Sagann af þorgils Orrabeins Föstra edur Stiupa</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.16" class="isl">
+                        <locus from="436v:25" to="436v:32">p. 872</locus>
+                        <title type="supplied">Bandamanna saga <note>[Extract, German]</note></title>
+                        <rubric>Bandamanna Saga edur Sagann af Odde Ofeigs Syne</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.17" class="other">
+                        <locus from="436v:33" to="437r:11">pp. 872-873</locus>
+                        <title type="supplied">Sveins saga konungs og Vilhjálms biskups <note>[Extract, German]</note></title>
+                        <rubric>Fragmentum umm Svein Kong i Danmork</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.18" class="sagnfr">
+                        <locus from="437r:12" to="437r:24">p. 873</locus>
+                        <title type="supplied">On the Orkneys <note>[German]</note></title>
+                        <rubric>Orkenøer</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.11" class="isl">
+                        <locus from="437r:25" to="441r:4">pp. 873-881</locus>
+                        <title type="uniform">Njáls saga <note>[Extract, German]</note></title>
+                        <rubric>Niala Saga</rubric>
+                        <textLang mainLang="de" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="10.12" class="isl">
+                        <locus from="441r:5" to="441v:30">pp. 881-882</locus>
+                        <title type="uniform">Kormáks saga <note>[Extract, German]</note></title>
+                        <rubric>Körmaks Saga</rubric>
+                        <textLang mainLang="de" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="10.13" class="forns">
+                        <locus from="441v:31" to="442r:9">pp. 882-883</locus>
+                        <title type="uniform">Haralds saga Hringsbana <note>[Extract, German]</note></title>
+                        <rubric>Sagann af Haralde Hringsbana</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.14" class="isl">
+                        <locus from="442r:10" to="442v:6">pp. 883-884</locus>
+                        <title type="uniform">Víga-Glúms saga <note>[Extract, German and Icelandic]</note></title>
+                        <rubric>Sagan af Viga Glume</rubric>
+                        <textLang mainLang="de" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="10.15" class="isl">
+                        <locus from="442v:7" to="443r:19">pp. 884-885</locus>
+                        <title type="uniform">Fóstbræðra saga <note>[Extract, German and Icelandic]</note></title>
+                        <rubric>Saga af þorgeir Havarsyne og þormode Kollbroenar Skalde</rubric>
+                        <textLang mainLang="de" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="10.16" class="fas">
+                        <locus from="443r:20" to="444r">pp. 885-887</locus>
+                        <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka <note>[Extract, German]</note></title>
+                        <rubric>Sogu pattur af Alfe Konge og Rekum Hanns</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.17" class="kon">
+                        <locus from="444v" to="444r">p. 888</locus>
+                        <title type="uniform">Játvarðar saga helga <note>[Extract, German]</note></title>
+                        <rubric>þattur af Wilhalme Bastharde og nokrum odrum Eingla Kongum</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.18" class="islt">
+                        <locus from="445r" to="445v:12">pp. 889-890</locus>
+                        <title type="uniform">Stjörnu-Odda draumur <note>[Extract, German and Icelandic]</note></title>
+                        <rubric>Auszug aus Stiornu Odda Draumur</rubric>
+                        <textLang mainLang="de" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="10.19" class="isl">
+                        <locus from="445v:13" to="446v:8">pp. 890-892</locus>
+                        <title type="uniform">Svarfdæla saga <note>[Extract, German]</note></title>
+                        <rubric>Svarfdaela Saga.</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.20" class="isl">
+                        <locus from="446v:9" to="446v:25">p. 892</locus>
+                        <title type="uniform">Valla-Ljóts saga <note>[Extract, German]</note></title>
+                        <rubric>Vallna Liot Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.21" class="rimur">
+                        <locus from="446v:26" to="447r:3">pp. 892-893</locus>
+                        <title type="supplied">Gríms rímur og Hjálmars <note>[Extract, German]</note></title>
+                        <rubric>Rymur af Grym und Hialmar</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.22" class="fas">
+                        <locus from="447r:4" to="447v:18">pp. 893-894</locus>
+                        <title type="uniform" ref="#hsgr">Hrómundar saga Gripssonar <note>[Extract, German]</note></title>
+                        <rubric>Hromunde Greipsons Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.23" class="forns">
+                        <locus from="447v:19" to="448v">pp. 894-896</locus>
+                        <title type="uniform">Bragða-Ölvis saga <note>[Extract, German]</note></title>
+                        <rubric>Kurtzer Auszug aus Bragda Olvers Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.24" class="konth">
+                        <locus from="449r" to="449r">p. 897</locus>
+                        <title type="uniform">Hákonar þáttur Hárekssonar <note>[Extract, German]</note></title>
+                        <rubric>Auszug aus Hakons Norroena Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.25" class="islt">
+                        <locus from="449v" to="449v:13">p. 898</locus>
+                        <title type="uniform">Þorsteins þáttur forvitna <note>[Extract, German]</note></title>
+                        <rubric>Saga af porstein Forwitna</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.26" class="islt">
+                        <locus from="449v:14" to="449v:23">p. 898</locus>
+                        <title type="uniform">Þorsteins þáttur Austfirðings <note>[Extract, German]</note></title>
+                        <rubric>Thorsteins Austfirdska Abenthür</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.27" class="isl">
+                        <locus from="449v:24" to="450r:12">pp. 898-899</locus>
+                        <title type="uniform">Þorsteins saga hvíta <note>[Extract, German]</note></title>
+                        <rubric>Torsteine Hvyta Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.28" class="riddst">
+                        <locus from="450r:13" to="450r:32">pp. 899</locus>
+                        <title type="supplied">Albanus saga Vigvallissonar <note>[Extract, German]</note></title>
+                        <rubric>Albanus Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.29" class="fornth">
+                        <locus from="450r:33" to="452v:14">pp. 899-904</locus>
+                        <title type="uniform">Böðvars þáttur bjarka <note>[Extract, German]</note></title>
+                        <rubric>Bodvars Biarska Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.30" class="fas">
+                        <locus from="452v:15" to="453v">pp. 904-906</locus>
+                        <title type="uniform" ref="#asb">Áns saga bogsveigis <note>[Extract, German]</note></title>
+                        <rubric>Ans Saga</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.31" class="isl">
+                        <locus from="454r" to="455r:19">pp. 907-909</locus>
+                        <title type="uniform">Flóamanna saga <note>[Extract, German]</note></title>
+                        <rubric>Floamanna Saga. sonst auch genannt Saga af porgils Orrabeins Fostra edr Stiupa</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.32" class="kon">
+                        <locus from="455r:20" to="456r">pp. 909-911</locus>
+                        <title type="uniform">Ólafs saga helga <note>[Extract, German]</note></title>
+                        <rubric>Extract aus Walgauter þattur. findet sich in Olofs des Heiligen Saga, wie Berger Abbot solche
+                           verfaßet hat in Codice Msto Colleg: Antiquitatis. ex donatione Sparrenveldii</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.33" class="islt">
+                        <locus from="456v:1" to="456v:8">p. 912</locus>
+                        <title type="uniform">Draumur Þorsteins Síðu-Hallssonar <note>[Extract, German]</note></title>
+                        <rubric>Draumur porsteins Sydu Hals Sonar</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="10.34" class="isl">
+                        <locus from="456v:9" to="456v:14">p. 912</locus>
+                        <title type="uniform">Svarfdæla saga <note>[Extract]</note></title>
+                        <rubric>Ex Suarfdoela Saga</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="11" class="kirkjus">
+                     <locus from="457r" to="464r">pp. 913-927</locus>
+                     <title type="supplied">On the Christianisation of Iceland</title>
+                     <rubric>Chronologische Anmerckungen, betreffende das eigentlichene Jahr, in welchem die Übung der
+                        Christlichen Religion, auf der Insul Island, durch denen Gesetzen des Landes, auf allgemeinem Landtage
+                        festgestellet worden</rubric>
+                     <textLang mainLang="de"/>
+                  </msItem>
+                  <msItem n="12" class="sagnfr">
+                     <locus from="465r" to="470r">pp. 929-939</locus>
+                     <title type="supplied">On the Year, in which King Eric Segerselle died</title>
+                     <!-- check name -->
+                     <rubric>Muthmaßungen von dem eigentlichen Jahr, in welchem Erich Segerselle, König in Schweden,
+                        gestorben</rubric>
+                     <textLang mainLang="de"/>
+                  </msItem>
+                  <msItem n="13" class="sagnfr">
+                     <locus from="471r" to="477r">pp. 941-953</locus>
+                     <title type="supplied">On the Year, in which Styrbjörn the strong died</title>
+                     <!-- check name-->
+                     <rubric>Muthmaßungen über dem Jahre, in welchem Styrbiorn der Starcke, in der bei Upsala an seinem Vater
+                        Bruder, Erich Segersellen, König in Schweden, geliefferten Schlacht, geblieben und umbgekommen</rubric>
+                     <textLang mainLang="de"/>
+                  </msItem>
+                  <msItem n="14" class="kont">
+                     <locus from="483v" to="519v">pp. 966-1038</locus>
+                     <title type="supplied">Noregskonungatal [German]</title>
+                     <rubric>Fragmentum Chronologicum quorundam Regum Norwegiae, secundum Hypothesin Tormodi Torfaei fundatam,
+                        relationibus Islandorum</rubric>
+                     <textLang mainLang="de" otherLangs="la"/>
+                     <note>From Harald Grafeld (962) to Sigurd Stemdiekn (1139)</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="520">831a + b</num>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="320"/>
+                              <width unit="mm" quantity="202"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort "Pro Patria"</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">Contemporary pagination in a different hand (Same hand as in <ref type="ms" target="#Mss-philol-78">Mss. philol. 78</ref>)</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="20 42">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="290"/>
+                              <width unit="mm" quantity="170"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="unknown" scope="major" script="hum cursiva"><locus>1r-292r</locus>. Rubrics partly in
+                        chancery, notes in kurrent</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="late kurrent"><locus>296r-305v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"><locus>306r-306v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="major" script="late kurrent"><locus>308r-519v</locus>. Rubrics, terms
+                        and names partly in hum cursiva</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">Squiggles at the end of some texts and around catchwords</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Notes in the margins in Icelandic and Latin</p>
+                     <p>Mostly former shelf marks on inside of front cover: <q>Mss. philol. 78/2.1-8</q>, <q><del>Scand. fol.
+                              57</del></q>, <q><del>I-349(21)</del></q>, <q><del>II-449</del></q>, <q>II-407(21)</q>, <q>Tomus
+                           18</q>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>White parchment binding on thick boards without any marks; edges painted red. The manuscript is covered in an
+                           additional layer of paper, which reads <q>Mss. philol. 78/2</q> on the spine.</p>
+                        <p>In the table of contents, the two last items are a later addition in a modern cursive hand (blue
+                           ink).</p>
+                        <p>There is an owner stamp of the university library Rostock on the table of contents. </p>
+                     </binding>
+
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="SE"/>
+                     <note>At least part of the text was written in Stockholm</note>
+                  </origin>
+                  <provenance>
+                     <p>Used to belong to <name type="organisation" role="owner" key="BMRLR">Bibliothek der Mecklenburgischen
+                           Ritter- und Landschaft Rostock</name> with the shelf mark Scand. fol. 57</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:27.052+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-08-09" who="#BES">Added info from catalog record of UB Rostock</change>
+         <change when="2013-08-12" who="#BES">Added information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2405 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-2405-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2405 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="1v"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <textLang mainLang="non"/>
+                     <note><q>Eftirfylgjandi sögur hefur bókin inni að halda</q></note>
+                     <note>Table of contents</note>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="2r" to="23r"/>
+                     <title type="uniform">Nikulás saga leikara</title>
+                     <textLang mainLang="non"/>
+                     <note>Hér skrifast sagan af Nikulási leikara</note>
+                     <note>15 chapters</note>
+                     <colophon>Lesarinn er vinsamlega beðinn að lagfæra og í málið að lesa og óskast
+                        fyrir það friður og lukka</colophon>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="24r" to="48r"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <note>Hér skrifast sagan af Eigli einhenda og Ásmundi víking</note>
+                     <note>11 chapters</note>
+                     <colophon>Lesaranum óskast lukka og friður</colophon>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="49r" to="102v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>29 chapters</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="103r" to="164v"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <note>28 chapters</note>
+                  </msItem>
+                  <msItem n="5" class="forns">
+                     <locus from="163r" to="174v"/>
+                     <title type="uniform">Úlfs saga Uggasonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Hér byrjast ævintýr af Úlfi Uggasyni</note>
+                     <note>6 chapters</note>
+                     <colophon>Nú er loksins búið að pára þessar ljótu rímur eða réttara að segja
+                        sögu. Endir GES</colophon>
+                  </msItem>
+                  <msItem n="6" class="avint">
+                     <locus from="175r" to="179r"/>
+                     <title type="uniform">Geiralds saga og Elínu</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eitt lítið ævintýr</rubric>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="180r" to="208r"/>
+                     <title type="uniform">Fertrams saga og Platós</title>
+                     <textLang mainLang="non"/>
+                     <note>15 chapters</note>
+                     <colophon>Lesarinn er umbeðinn að lagfæra og lesa í málið einnin friður óskast
+                        honum </colophon>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="209r" to="218r"/>
+                     <title type="uniform">Nitida saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="218">218 mm</num>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="168">168 mm</height>
+                              <width unit="mm" quantity="103"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary later pag fol">First three stories paginated 1-107.
+                           Later, sporadic foliation from time of cataloguing</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <!-- layout @ana and @columns assumed; need to be verified -->
+                        <layout ana="verse-prose" columns="1" writtenLines="16 22">
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="145"/>
+                              <width unit="mm" quantity="83"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="#GotEgi001" scope="major" script="kurrent">Gottskálk Egilsson</handNote>
+                     <handNote scribeRef="#MagArn002" scope="major" script="kurrent">sr. Magnús Árnason</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                  </handDesc>
+                  <!--Maybe more hands can be defined  -->
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                     <decoNote type="paratext"/>
+                     <decoNote type="vignette"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>At front <locus from="FFl0001r" to="FFl0001r"/> Text from FFl0001v copied,
+                        table of contents and G.Egilsson is written out i.e. Gottskálk Egilsson, a name that
+                        is copied several times on back flyleaves.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Leather on wooden boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1789" notAfter="1799"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                     <name type="person" role="owner" key="GotEgi001"><!--Eigandi bókarinnar er
+                        <locus from="FFl0001v" to="FFl0001v"/>G(ottskálk) Egilsson--></name>
+                     <name type="person" role="signatory" key="GotEgi001"><!--G.Egilsson--></name>
+                     At the back, on fol. 218v, is the name <name type="person" role="signatory" key="ambig">Gísli
+                        Egilsson</name>, 1862.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:21.064+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources</change>
+         <change when="2012-05" who="#SK">Added last information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

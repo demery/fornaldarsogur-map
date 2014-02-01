@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 1 d α fol.</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0001d-alpha-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 1 d α fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r:1" to="31v:16">1r-31v</locus>
+                     <title type="uniform" ref="#snfdsv">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">neita. konungr svarar Se ek at þetta mal þarf at litt se a lopt borit.</incipit>
+                     <explicit defective="true">þa voru hofþ blot i Skiringssal. er. til var sott um alla vikina .......</explicit> 
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="#AM02-0001-e-alpha-en" ana="antigraph">AM 1 e β fol.</ref> [Kålund 1888, p.3] </p>
+                     </filiation>
+                     <note>Parts left out in several places.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="32"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="163"/>
+                           </dimensions>
+                           <watermark ana="yes">Small coat of arms (without lions)</watermark>
+                        </support>
+                        <foliation ana="fol later pag contemporary">
+                           <p>Foliated in red ink in the top margins by <name type="person" key="KriKaa001">Kålund</name>. Paginated in the top outer corners.</p>
+                        </foliation>
+                        <condition ana="average">The outer column of the first four leaves has been cut off and replaced with different paper.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="22 23">
+                           <num type="wpl" atLeast="3" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="74"/>
+                           </dimensions>
+                           <note>Text in in the inner column only.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ArnMag001" scope="sole" script="hum cursiva"/>
+                        
+                     
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>On the first four pages, there are a couple of later corrections and additions, most likely by <name type="person" key="ArnMag001">
+                        Árni Magnússon</name> himself.
+                  </p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The manuscript was formerly bound in a parchment binding, which is now <ref type="ms">Access. 7 a β, hs 2 (<title type="uniform">Graduale Gufudalense</title>), fol.
+                            <locus>23</locus>.</ref>
+                           The current binding is a brown modern standard half binding.
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1730"/>
+                     <origPlace key="DK"/>
+                     <p>Written in Copenhagen.</p>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                     <note>There used to be text in the outer column of the first four leaves. That part has been cut off and replaced by blank paper. 
+                        This must have happened soon after it was written, since the "new" page numbers are in 
+                           Árni Mangússon's hand.</note>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:39.418+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:51:59.021+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:10.638+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:23.829+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:03.511+02:00" who="#EAH">
+                Extracted layout data from previous version.
+         </change>
+         <change when="2013-07-22" who="#BES">Added information from handrit.is and catalog.</change>
+         <change when="2013-07-24" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

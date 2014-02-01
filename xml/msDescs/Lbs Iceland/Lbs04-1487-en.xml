@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1487 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1487-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1487 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>A þessari Bók eru sögurnar af Völsungum, Ragnari loðbrók
+                        og Styrbirni svíakappa, sem skrifað hefir Ólafur Jónsson að Arney Anno
+                        1780-82.</titlePart>
+                     <titlePart>Er nú þessi bók endurbætt og innbundin að Melum við
+                        Hrútafjörð, árið 1813 af Ólafi Sigurðssyni</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1v" to="37v"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <rubric>Sagan af Völsungum, Gjúkungum og Buðlungum</rubric>
+                  </msItem>
+                  <msItem n="1.1" class="fas attat">
+                     <locus from="37v" to="37v"/>
+                     <title type="supplied">Ættartala</title>
+                     <colophon>Þessi ættartala stóð í sögunni þar til er vísað á bls 70. En að
+                        skrifa söguna var það endað að Arney við Skarðströnd þann 20ta januarí 1780
+                        af Ólafi Jónssyni.</colophon>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="38r" to="62v"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <rubric>Sagan af Ragnari loðbrók og sonum hans</rubric>
+                     <colophon>Enduð af Ó Jónssyni þann 14. febr. 1782</colophon>
+                  </msItem>
+                  <msItem n="3" class="konth">
+                     <locus from="63r" to="66v"/>
+                     <title type="uniform">Styrbjarnar þáttur Svíakappa</title>
+                     <rubric>Hér hefur þátt Styrbjarnar Svíakappa, er hann barðist við Eirík konung
+                        þeirra Svíanna.</rubric>
+                     <colophon>Endað á Arney 1782 20 Febru af O.J.S.</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="66"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="194"/>
+                              <width unit="mm" quantity="159"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag">1-130, 53-54 bis </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 30">
+                           <num type="wpl" atLeast="10" atMost="16"/>
+                           <dimensions type="written"/>
+                           <height unit="mm" quantity="150"/>
+                           <width unit="mm" quantity="122"/>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#OlaJon009" scope="sole" script="unknown">Ólafur Jónsson í
+                        Arney</handNote>
+                     <handNote scribeRef="#OlaSig001" scope="minor" script="hum cursiva">Ólafur Sigurðsson uses hum curisva and chancery.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Initials and headings</decoNote>
+                  </decoDesc>
+                  <additions ana="medium"><p/></additions>
+                  <bindingDesc>
+                     <binding ana="plain">
+                        <p>Leather binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1780" notAfter="1782"/>
+                     <origPlace key="Is">Iceland Western</origPlace>/&gt;
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="BjoOls001">Björn M. Ólsen 1909</name>
+                     <note>See: Lbs 1487-1489 4to</note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:55.086+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07-31" who="#SK">Added items and classes and other information from the
+            P.E.Ó.-catalogue and other sources. </change>
+         <change when="2012-09-20" who="#SK">Added title-page, locus, layout and other information
+            from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

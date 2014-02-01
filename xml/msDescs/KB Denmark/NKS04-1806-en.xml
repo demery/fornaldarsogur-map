@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1806 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1806-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1806 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 616 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <!-- check -->
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="24r:9">1r-24r</locus>
+                     <title type="uniform" ref="#ssst">Sörla saga sterka</title>
+                     <textLang mainLang="non">Icelandic</textLang>
+                     <!-- several codepoints here appear to be private use? strange display -->
+                     <rubric>Sagan af Srla saga hinum Sterka</rubric>
+                     <incipit>J þanɴ tíma sem Halfdan kongr Brnufostri styrdi hiɴi klldu Svíþioð er haɴ van<ex>n</ex> af Agnari
+                        hinum dg<add place="above">v</add>a en sendi Astro mág siɴ yfir
+                        England</incipit>
+                     <explicit>oc er ei getid þar umhvrt þeim hefr ordid barna did edr eígi eptir sig.</explicit>
+                     <finalRubric>Lykr her nú Sgunni af Srla hinum Sterka oc hans miklu afreks verkum <subst>
+                           <del>m<ex>ed</ex></del>
+                           <add>med</add>
+                        </subst> so sgdu nirdlægi</finalRubric>
+                     <note>Shorter version</note>
+                     <filiation>Copy of <ref type="ms" target="#AM04-0560d-en" ana="antigraph">AM 560 d 4to</ref>.</filiation>
+                     <!--                     <bibl/>-->
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="24"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="188"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="yes">"JHonig <ex>et</ex> Zoonen"</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliated in pencil on the outer top margins in the recto pages of fols. <locus>10</locus> and
+                                 <locus>21</locus>.</p>
+                        </foliation>
+                        <condition ana="good">In very good condition. The ink has bled through the pages, especially on fols.
+                              <locus>19-20</locus>.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="18 20">
+                           <num type="wpl" atLeast="7" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="135"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <note>The lower half of fol. <locus>24r</locus> and fol. <locus>24v</locus> are blank.</note>
+                           <catchwords ana="yes">Catchwords on fols. <locus>2r-3r,10r, 11v, 12v, 15v and 22r-23v</locus>. Words at
+                              the end of the last line of a page are repeated on the following pages on fols. <locus>1v, 3v-7v,
+                                 8v, 9v-10r, 11r, 13r-14v, 16r-17v, 18v, 19v and 21v</locus>.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonOla017" scope="sole" script="chancery fractura">Very neat script, almost like
+                        fractura, but too late for that?</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>On <locus>1r</locus> there is a note by <name type="person" role="scholar" key="PetSuh001">Suhm</name>, written between the title and incipit: <q xml:lang="da">efter j Cv D. med
+                           unge olavius</q>, and in the top margin: <q xml:lang="is">brist</q>. A slip of paper with the shelf
+                        mark is kept within the manuscript.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Cardboard binding, covered with brown leather. Fore-edge painted blue. On spine golden floral prints and <q xml:lang="is">SAGA AF SOL HIN STER</q>
+                           <!--<height>194</height>
+                           <width>163</width>
+                           <depth>14</depth>-->
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1758" notAfter="1775"/>
+                     <origPlace key="DK"><note>Copenhagen</note></origPlace>. </origin>
+                  <provenance><p>Probably commissioned by <name key="PetSuh001" type="person" role="commissioner">P. F.
+                           Suhm</name><!-- cf. Carl S. Peterson: Det Kongelige Biblioteks Haandskriftsamling (1943) p. 22 -->.
+                        Sold by <name key="PetSuh001" type="person" role="owner">P. F. Suhm</name> to the Royal Library as part of
+                        his library. Formerly no. 616 4to in Suhm's collection.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:48.447+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-11" who="#BES">Added information from SH's file. Few things missing.</change>
+         <change when="2013-05-30" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>AM Acc. 61</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+					Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+					3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="AMAcc61" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+						<idno>AM Acc. 61</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="contemporary">
+							<note>Individual title pages for each text.</note>
+						</titlePage>
+						
+						<msItem n="1" class="fas">
+							<locus from="1r:1" to="17v:20"/>  							
+							<title type="uniform" ref="#hsh">Hálfs saga og Hálfsrekka</title>
+							<title type="parallel">Hálfs saga ok Hálfsrekka</title>
+							<textLang mainLang="non"/>
+							<rubric>Sogu þattur af Alfe konge og Reckum hanns</rubric>
+							<incipit>Alfrekur hiet kongur er bio a Alfrekstodum</incipit>
+							<explicit>Yri hiet dottir han<ex>n</ex>s og er þadann mikil ætt kominn</explicit>							
+						</msItem>
+						
+						<msItem n="2" class="fas">
+							<locus from="18r:1" to="29r:17"/>  							
+							<title type="uniform" ref="#hsg">Hrómundar saga Gripssonar</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagann af Hromunde Greipssyne</rubric>
+							<incipit>Sa kongur riede fyrer Gordum, er Olafur hiet</incipit>
+							<explicit>Eru af þeim komnar konga ætter og kappar mikler</explicit>
+							<finalRubric>Og lykur hier svo sogu Hromunds Greypssonar</finalRubric>														
+						</msItem>
+						
+						<msItem n="3" class="fas">
+							<locus from="30r:1" to="49v:20"/>  							
+							<title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+							<textLang mainLang="non"/>
+							<rubric>Saga af Halfdane Bronufostra</rubric>
+							<incipit>Hringur er kongur nefndur, hann rieþi fyrir Danmork</incipit>
+							<explicit>sa sem feck dottur Bronu, varþ kongur i Danmark</explicit>
+							<finalRubric>Ok lykur her sogu Halfdanar Bronufostra</finalRubric>							
+						</msItem>
+						
+						<msItem n="4" class="fas">
+							<locus from="51r:1" to="134r:23"/>  							
+							<title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+							<textLang mainLang="non"/>
+							<rubric>Saga af Hrolfe konge kraka</rubric>
+							<incipit>Frode kongur drepur Halfdan broþur sin</incipit>
+							<explicit>og finn haugur handa hvorium kappanna og nockur vopn hia</explicit>
+							<finalRubric>og endar hier sogu Hrolfs kongs kraka og kappa hanns</finalRubric>							
+						</msItem>
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="134"/>
+									<num type="back-flyleaf" value="2"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="197"/>
+										<width unit="mm" quantity="152"/>
+									</dimensions>
+									
+									<!-- none visible? -->
+<!--									<watermark ana="no|yes"/>-->
+									
+								</support>
+								
+								<foliation ana="contemporary pag">
+									<p>Fol. 51 blank. Items individually paginated (1-32; 1-21; 1-38; 1-165).</p>
+								</foliation>
+								
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-separate" columns="1" writtenLines="20 22">									
+									
+									<num type="wpl" atLeast="8" atMost="9"/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity="158"/>
+										<width unit="mm" quantity="115"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<!-- script is very clear; modern cursive -->
+						<handDesc hands="1">
+							<handNote scribeRef="#FreSch002" scope="sole" script="cursive"/>
+						</handDesc>
+						
+						<decoDesc ana="no">
+							<decoNote/>
+						</decoDesc>
+						
+						<additions ana="low">
+							<p>Provenance note at the foot of fol. 2r: <q>Skjenket skolebibliotheket af Hr. Schaldemose</q>. Pages 
+							ruled in pencil.</p>
+						</additions>
+						
+						<bindingDesc>
+							<binding ana="moderate" contemporary="false">
+								<p>Restored half-calf over paper boards with marbled (green and brown) design. Fore-edges painted green. Gilted
+								floral patterns at head and foot of spine along with gilt tooled image of an urn. Title tooled
+								into spine: <q>SOGUBOK ALFE 3 HROLFE 3 &amp;c</q></p>
+							</binding>							
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1816" notAfter="1817"/>
+							<origPlace key="DK"/>
+							<note>Probably written some time around 1816 or 1817, the dates given in other manuscripts of the same collection (e.g. AM
+								Acc. 52 and AM Acc. 57).</note>
+						</origin>
+						
+						<provenance>
+							<p>Given as a gift to the <name type="organisation" role="owner" key="NykKat">Nykøbing
+								Katedralskole</name> in 1816 by <name type="person" role="owner" key="FreSch002">Frederik Schaldemose</name>.
+								Acquired from the school by the AMS in April 2007 as a gift. Library sticker from the school on the foot of the spine.</p>							
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-12-19" who="#JSL">Cataloged from manuscript.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

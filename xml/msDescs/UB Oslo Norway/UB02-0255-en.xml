@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+	
+		<fileDesc>
+			<titleStmt>
+				<title>UB 255 fol.</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="UB02-0255-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 255 fol.</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="contemporary">
+							<titlePart>Søgur af Katle Hæng Grime Lodin kinnu og Orvar Odde.</titlePart>
+						</titlePage>
+						
+						<msItem n="1" class="fas">
+							<locus from="3r:1" to="15r:24"/>  							
+							<title type="uniform" ref="#ksh">Ketils saga hængs</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagann af Katle Hæng</rubric>
+							<incipit>Hallbiørn het madur, h<ex>an</ex>n v<ex>ar</ex> kallad<ex>ur</ex> Hallbiørn half-trøll</incipit>
+							<explicit>Ketill hængur riede fyr<ex>ir</ex> Hrafnistu medan<ex>n</ex> han lifde</explicit>
+							<finalRubric>og endum vier hier þátt af Katle hæng</finalRubric>
+							<note>Abbreviated and most verses omitted (cf. typescript catalog).</note>													
+						</msItem>
+						
+						<msItem n="2" class="fas">
+							<locus from="16r:1" to="23r:5"/>  							
+							<title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagann af Grime Lodinn kinnu</rubric>
+							<incipit>Grymur son Ketils var bædi mikill og sterkur</incipit>
+							<explicit>Grimur biö i Hrafnistu til elle</explicit>
+							<finalRubric>og endum vier so sóguna af Grimi lodinkinnu</finalRubric>
+							<note>Abbreviated and most verses omitted (cf. typescript catalog).</note>
+						</msItem>
+						
+						<msItem n="3" class="fas">
+							<locus from="24r:1" to="104r:21"/>  							
+							<title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagann af Orvar Odde</rubric>
+							<incipit>Þad er upphaf þessarar sogu ad madur er nefndur Grimur lodin<ex>n</ex> kinna</incipit>
+							<explicit>en<ex>n</ex> mær su sem Oddur atte a Jrlande for nordur til Hrafnistu og er mikel ætt fra hen<ex>n</ex>e 
+								komen<ex>n</ex></explicit>
+							<finalRubric>og endum vier hier soguna af Ørvar Odde, enom vydførla. Tantum.</finalRubric>
+							<note>Abbreviated and most verses omitted (cf. typescript catalog).</note>
+						</msItem>
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<!-- flyleaves (incl. fol. 1?) not included in photographs -->
+									<!--<num type="front-flyleaf" value=""/>-->
+									<num type="book-block" value="106"/>
+									<!--<num type="back-flyleaf" value=""/>-->
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="310"/>
+										<width unit="mm" quantity="196"/>
+									</dimensions>
+									
+									<watermark ana="unknown"/>
+									
+								</support>
+								
+								<foliation ana="no"/>
+								
+								
+							<!--	<condition ana="poor|average|good"/>-->
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-prose" columns="1" writtenLines="18 20">	
+									<num type="wpl" atLeast="6" atMost="8"/>
+									<dimensions type="written">
+										<!--<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>-->
+									</dimensions>
+									<note>Fols. 15v, 23v and 104v blank.</note>
+								</layout>
+								
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="unknown" scope="sole" script="kurrent">Majority of the text written in a kurrent script, but
+							the first line of each page, the first line of each chapter and verses (e.g. fol. 59v) are 
+							written in a chancery script.</handNote>
+						</handDesc>
+						
+						<decoDesc ana="medium">
+							<decoNote type="initial">Chapters begin with floriated, multi-story initials.</decoNote>
+						</decoDesc>
+						
+						<additions ana="no">
+							<p/>
+						</additions>
+						
+						<bindingDesc>
+							<binding ana="moderate" contemporary="false">
+								<p>Bound in 19th century (?) half-calf over marbled paper boards. The spine title reads:
+								<q>Katle Hæng Saga</q>.</p>
+							</binding>							
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<p>Written some time during the <origDate notBefore="1700" notAfter="1799">eighteenth century</origDate> 
+								(cf. typescript catalog).</p>
+							<origPlace key="IS"/>
+						</origin>
+						
+						<provenance>
+							<p>Purchased from <name type="person" role="owner" key="PetPet005">Petersen bergráði</name> 
+								in 1849 (cf. typescript catalog).</p>
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-17" who="#JSL">Added template elements and input data from Jónas Kristjánsson's typescript catalog,
+				"Skrá um íslenzk handrit í Noregi". Cataloged from photographs housed at the AMI.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

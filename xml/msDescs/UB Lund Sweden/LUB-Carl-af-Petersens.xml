@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>LUB Carl af Petersens</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="LUB-Carl-af-Petersens" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#UBLND">Lunds Universitets Bibliotek</repository>
+                        <idno>LUB papp. (Carl af Petersens)</idno>
+                        <altIdentifier>
+                            <idno>(In Jónas Kristjánsson's catalogue marked as "2. LUB
+                                pappírshandrit")</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="contemporary">
+                            <titlePart>Sagan om Grim ludenkind. Öfwersättning med anmärkningar. Försök, framlagdt till granskning
+                                inom filologiska Seminarium vid Lunds Universitet, Höstterminen 1873, af Carl J. Fr. af
+                                Petersens</titlePart>
+                        </titlePage>
+                        <msItem n="1" class="formal">
+                            <locus from="2r" to="7v">pp.1-12</locus>
+                            <title type="supplied">Foreword to translation of saga.</title>
+                            <rubric>I. Inledning</rubric>
+                            <textLang mainLang="sv"/>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="8r" to="38r">pp. 1-37</locus>
+                            <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                            <rubric>Sagan om Grim ludenkind</rubric>
+                            <!-- actually in Old Norse? -->
+                            <textLang mainLang="sv"/>
+                        </msItem>
+                        <msItem n="2.1" class="fas tyd">
+                            <locus from="8r" to="20v">pp.13-38</locus>
+                            <title type="uniform" ref="#gsl">Gríms saga loðinkinna <note>[Swedish]</note></title>
+                            <rubric>II. Öfwersättning</rubric>
+                            <incipit>Om Grim Ludenkind beråttar det, att han war både stor och stark...</incipit>
+                            <explicit>...och begynner Ærvar-Udds saga, och är det en stor saga.</explicit>
+                            <textLang mainLang="sv"/>
+                        </msItem>
+                        <msItem n="2.2" class="">
+                            <locus from="21r" to="38r">pp.39-73</locus>
+                            <title type="supplied">Notes on Gríms saga loðinkinna</title>
+                            <rubric>III. Anmärkningar</rubric>
+                            <textLang mainLang="sv"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="0"/>
+                                    <num type="book-block" value="40"/>
+                                    <num type="back-flyleaf" value="0"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="199"/>
+                                        <width unit="mm" quantity="165"/>
+                                    </dimensions>
+                                    <watermark ana="no"/>
+                                </support>
+                                <foliation ana="pag contemporary">
+                                    <p>Begins on f.2r and ends on f.38r</p>
+                                </foliation>
+                                <condition ana="good"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-separate" columns="1" writtenLines="20">
+                                    <num type="wpl" atLeast="5" atMost="8"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="175"/>
+                                        <width unit="mm" quantity="125"/>
+                                    </dimensions>
+                                    <catchwords ana="no"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scribeRef="unknown" scope="sole" script="unknown">Carl J. Fr. af Petersen</handNote>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="high">
+                            <p>There are many notes in pencil in the margins of the translation.</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="moderate" contemporary="true">
+                                <p>The book appears to be a pre-ruled notebook bound in cardboard with a marbled, pink and green
+                                    pattern on the outside. A pink label has been pasted onto the front which reads 'Sagan om
+                                    Grimi Ludenkind. Öfversättning med anmärkningar af C J. F. af Petersens.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1873"/>
+                            <origPlace key="SE">Lund</origPlace>
+                        </origin>
+                        <provenance>
+                            <!-- The same as Holberg scholar Carl Sophus Petersen (1873-1958)? -->
+                            <p>The Dane <name type="person" role="owner" key="ambig">Carl J. Fr. af Petersen</name>, who wrote the
+                                manuscript, gave it to the University Library in Lund in 1925.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-02-14" who="#BES">Created file.</change>
+            <change when="2013-02-14" who="#BES">Prepared for visit at the library</change>
+            <change when="2013-02-20" who="#PTL">Information completed in the library</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

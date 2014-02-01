@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2118 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-2118-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2118 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="back-flyleaf" value="0"/>
+                           <num type="book-block" value="84"/>
+                           <num type="front-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="153"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="fol later"><p>In pencil in the lower margin; On fol. <locus>1</locus>, in the upper right hand corner
+                        </p>
+                        </foliation>
+                        <condition ana="average">Repairs throughout the manuscript. These additions from the time of 
+                           <name type="person" role="owner" key="SigLon001">Sigmundur Mattíasson Long</name>
+                            are made with light blue paper.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                      <additions ana="low">
+                     <p>The inside lining of the backboard is an envelope: <q>Til vinnumanns Magnúsar
+                        Einarssonar, Húsavík</q></p>
+                         <p><q>Sigmundur Mattias Son</q> left this autograph on the inside of the front board.
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Marbeled paper on card boards, leather spine and corners. A reused binding.</p>
+                     <p>Remnants of gilding on the spine, that reads: <q>Badens Dansk-Latinske
+                        Ordbog.</q>
+                     </p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1750" notAfter="1864">[1750?]-1864</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="SigLon001">Sigmundur Mattíasson
+                           Long</name>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 2118 4to I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="islst">
+                        <locus from="1r" facs="#Lbs04-2118-0001r" to="12v">1r-12v</locus>
+                        <title type="uniform">Hrana saga hrings</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="12"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="153"/>
+                              </dimensions>
+                             <!-- <watermark ana=""></watermark>-->
+                           </support>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1 2" writtenLines="24 28">
+                              <num type="wpl" atLeast="10" atMost="12"/>
+                              <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Main text in hum cursiva, rubrics and beginnings of chapters in chancery</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Fol. <locus>1</locus> is a later addition in the hand of <name type="person" key="SigLon001">Sigmundur Mattíasson Long</name></p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1750" to="1800">[1750-1800?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 2118 4to II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="sagnfr landfr tjodh">
+                        <locus from="13r" facs="#Lbs04-2118-0013r" to="17v">13r-17v</locus>
+                        <title type="supplied">Finnmerkurlýsing</title>
+                        <textLang mainLang="is"/>
+                        <note>Description of Finnmark and the traditions of its inhabitants</note>
+                     </msItem>
+                     <msItem n="2" class="sagnfr landfr">
+                        <locus from="17v" facs="#Lbs04-2118-0017v" to="21r">17v-21r</locus>
+                        <title type="supplied">Landshættir á Grænlandi</title>
+                        <textLang mainLang="is"/>
+                        <note>Um landshætti á Grænlandi</note>
+                     </msItem>
+                     <msItem n="3" class="sagnfr tjodh">
+                        <locus from="21r" facs="#Lbs04-2118-0021r" to="22v">21r-22v</locus>
+                        <title type="supplied">On Greenland</title>
+                        <rubric>Nokkuð um Grænlands háttalag útskrifað úr norskri bók er kallast Speculum regale [þ.e. Konungsskuggsjá]</rubric>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="10"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="153"/>
+                              </dimensions>
+                              <!-- <watermark ana=""></watermark>-->
+                           </support>
+                           <condition ana="average">Text has been lost due to trimming</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="26 27">
+                              <num type="wpl" atLeast="9" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="185"/>
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent">Rubrics and highlighted parts in chancery</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Initial and rubrics decorated</decoNote>
+                     </decoDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1750" to="1800">[1750-1800?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 2118 4to III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="23r" facs="#Lbs04-2118-0023r" to="36v">23r-36v</locus>
+                        <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="14"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="153"/>
+                              </dimensions>
+                              <!-- <watermark ana=""></watermark>-->
+                           </support>
+                           <condition ana="average">At times almost illegible due to water stains</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="25 28">
+                              <num type="wpl" atLeast="12" atMost="16"/>
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent">Beginnings of chapters in chancery</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Decorated initials</decoNote>
+                        <decoNote type="vignette" subtype="tailpiece">(<locus from="36v" facs="#Lbs04-2118-0036v" to="36v">36v</locus>)</decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>Added folio <locus from="23" facs="#Lbs04-2118-0023r" to="23">23</locus>
+                           in the hand of <name type="person" role="owner" key="SigLon001">Sigmundur Mattíasson Long</name></p>
+                        <p>Some text is hidden under paper that has been glued onto the edges of fol. <locus from="28v" facs="#Lbs04-2118-0028v" to="28v">28v</locus>
+                           to strengthen the paper but Sigmundur Matthíasson Long supplied the missing text in own hand.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1750" to="1800">[1750-1800?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 2118 4to IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="37r" facs="#Lbs04-2118-0037r" to="47r">37r-47r</locus>
+                        <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="47v" facs="#Lbs04-2118-0047v" to="54v">47v-54v</locus>
+                        <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="18"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="153"/>
+                              </dimensions>
+                             <!-- <watermark ana=""></watermark>-->
+                           </support>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="20 26">
+                              <num type="wpl" atLeast="8" atMost="11"/>
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <additions ana="medium">
+                        <p>Folios <locus>37</locus>, <locus>53-54</locus> are added and in the hand of <name type="person" role="scribe" key="SigLon001">Sigmundur Mattíasson Long</name>.
+                             A colophon in his hand can be found on fol. <locus from="54v" facs="#Lbs04-2118-0054v" to="54v">54v</locus>:
+                          <q>SMattíasson 6. desember 1864</q></p>
+                        <p>At the top of fols. <locus from="44v" facs="#Lbs04-2118-0044v" to="44v">44v</locus> and <locus from="45r" facs="#Lbs04-2118-0045r" to="45r">45r</locus>:
+                           <q>Halldor Sigurds son</q></p>
+                        <p>Paper glued over text for reinforcement with the missing text filled in by Sigmundur Long
+                              <locus from="45r" facs="#Lbs04-2118-0045r" to="45r">45r</locus>,
+                              <locus from="47r" facs="#Lbs04-2118-0047r" to="47v">47r-47v</locus>,
+                              <locus from="50v" facs="#Lbs04-2118-0050v" to="50v">50v</locus>,
+                              <locus from="51r" facs="#Lbs04-2118-0051r" to="51r">51r</locus>
+                        </p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1800" to="1850">[1800-1850?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 2118 4to V</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="hels timat">
+                        <locus from="47v" facs="#Lbs04-2118-0047v" to="54v">47v-54v</locus>
+                        <title type="supplied">On martyrs</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Stutt ágrip um lifnad og endalykt þeirra Pislarvotta hverra Nöfn ad 
+                           finnast í Ríminu Árið um<ex>m</ex> kring 1 Janúarius</rubric>
+                        <incipit>Sankt Knutus Kóngus Vinda og Hertogi Slesvik</incipit>
+                        <explicit>og var Vegsamlega grafinn þann 21ta Desember. Endir</explicit>
+                        <colophon>Endast að skrifa Martyrólogía þann 30ta Nóvember 1864 af SMattíasson</colophon>
+                     </msItem>
+                     <msItem n="2" class="regist">
+                        <locus from="83v" facs="#Lbs04-2118-0083v" to="83v">83v</locus>
+                        <title type="supplied">Table of Contents</title>
+                        <textLang mainLang="is"/>
+                        <note>Table of contents for the whole manuscript</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="30"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="153"/>
+                              </dimensions>
+                              <!--<watermark ana=""></watermark>-->
+                           </support>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="19 21">
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                              <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#SigLon001" scope="sole" script="hum cursiva">Sigmundur Matthíasson Long</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p> <locus from="84v" to="84v"/>: <q>SMattiasson 1864 á bókina</q></p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate when="1864">1864</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:43.987+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:04.393+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:23.145+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2013-01-23" who="#SK">Added information from the digitized version on handrit.is</change>
+         <change when="2013-08-30" who="#BES">Proofread and added information.</change>
+         <!-- dimenstions missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

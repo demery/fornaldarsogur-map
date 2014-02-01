@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1458 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1458-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1458 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="kir raed likpred">
+                     <locus from="1r" to="8r"/>
+                     <title type="supplied">Kirkjugarðsvígsluræða á Setbergi 29.9.1889</title>
+                     <author>Jens V. Hjaltalín</author>
+                     <note>authograph</note>
+                  </msItem>
+                  <msItem n="2" class="kvad tjod">
+                     <locus from="9r" to="20v"/>
+                     <title type="supplied">Færeyskar uppskriftir A. Wheye</title>
+                     <note>From Jón Sigurðsson</note>
+                  </msItem>
+                  <msItem n="3" class="stjornmal althing logfr">
+                     <locus from="22r" to="42r"/>
+                     <title type="supplied">Athugasemdir um stjórnarskrármálið á alþimgi
+                        1887</title>
+                     <note>Jakob Gudmundssons M.P. authograph</note>
+                  </msItem>
+                  <msItem n="4" class="logfr dom">
+                     <locus from="43r" to="59v"/>
+                     <title type="supplied">Gjörðarmál milli Ragnheiðar Jónsdóttur og Friðriks
+                        Eggerz 1879-1881</title>
+                     <filiation>
+                        <ref type="book" target="Gjörðarmálið, Reykjavík, 1883" ana="protograph"/>
+                     </filiation>
+                     <note>Friðrik Eggerz authographic extract</note>
+                  </msItem>
+                  <msItem n="5" class="rimur kvad">
+                     <locus from="62r" to="92v"/>
+                     <title type="supplied">Rímna og kvæðasafn</title>
+                     <note>In the hand of Sverrir Runólfsson, mason</note>
+                  </msItem>
+                  <msItem n="6" class="rimur" defective="true">
+                     <locus from="93r" to="109r"/>
+                     <title type="uniform">Bieringsborgarbardaga rímur</title>
+                     <author key="SimDal001">Símon Bjarnarson Dalaskáld</author>
+                     <note>One leaf is missing</note>
+                  </msItem>
+                  <msItem n="6.1" class="rimur">
+                     <locus from="110r" to="112r"/>
+                     <title type="supplied">Uppskrift af Bieringsborgarbardaga rímum</title>
+                     <rubric>Símon Dalaskáld Rímur af Bieringsborgarbardaga</rubric>
+                     <note>A newer coper of the material from below</note>
+                  </msItem>
+                  <msItem n="7" class="erfikv">
+                     <locus from="110" to="113"/>
+                     <title type="supplied">Erfiljóð eftir Bjarna Pétursson sýslumann á
+                        Skarði</title>
+                     <author key="ZacJon001">Zacharias Jónsson</author>
+                     <note>In latin</note>
+                  </msItem>
+                  <msItem n="8" class="fas" defective="true">
+                     <locus from="114r" to="120v"/>
+                     <title ref="#ssst" type="uniform">Sörla saga sterka</title>
+                     <note>fragment</note>
+                  </msItem>
+                  <msItem n="8.1" class="fas" defective="true">
+                     <locus from="116r" to="120v"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <note>extract</note>
+                  </msItem>
+                  <msItem n="8.2" class="fas" defective="true">
+                     <locus from="116r" to="120v"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <note>excerpt</note>
+                     <note>This manuscript, as also Lbs 1459, contains diverse items bought by the library
+                        or given to it by different people over a period of time, and subsequently put together
+                        into a bundle and given a single shelfmark. The 7 leaves with fragments of the
+                        fornaldarsögur, Sörla saga sterka, Gríms saga loðinkinna and Ketils saga
+                        hængs hve been put into one item as they are all in the same hand and
+                        obviously from the same manuscript. The cataloguing from physical
+                        description onwards will apply to these items 8, 8,1 and 8,2 and only
+                        these.</note>
+                  </msItem>
+                  <msItem n="9" class="rimur" defective="true">
+                     <locus from="121" to="128"/>
+                     <title type="uniform">Adams rímur</title>
+                     <author key="JonMag008">Jón Magnússon í Laufási</author>
+                     <note>fragment</note>
+                  </msItem>
+                  <msItem n="10" class="ridd" defective="true">
+                     <locus from="129" to="177"/>
+                     <title type="uniform">Falentínus saga</title>
+                     <note>Missing beginning and end</note>
+                  </msItem>
+                  <msItem n="11" class="heilrkv">
+                     <locus from="178" to="181"/>
+                     <title type="uniform">Hugsvinnsmál</title>
+                     <filiation>
+                        <ref type="ms" target="?" ana="antigraph"/>
+                     </filiation>
+                     <note>Guðmundur Þorlákssons exact copy</note>
+                  </msItem>
+                  <msItem n="12" class="sendbr">
+                     <locus from="182" to="183"/>
+                     <title type="supplied">Sendibréf til Kristínar Illugadóttur 13.3.1836</title>
+                     <author key="SigBre001">Sigurður Breiðfjörð</author>
+                     <note>Sigurður Breiðfjörð to his wife</note>
+                  </msItem>
+                  <msItem n="13" class="jardfr eldg">
+                     <locus from="184" to="186"/>
+                     <title type="supplied">Kötlugos 1860</title>
+                  </msItem>
+                  <msItem n="14" class="jardfr eldg">
+                     <locus from="188" to="194"/>
+                     <title type="supplied">Kötlugos 1755</title>
+                     <author key="JonSig004">Jón Sigurðsson</author>
+                     <note>In the hand of Þorvaldur Bjarnason á Mel</note>
+                  </msItem>
+                  <msItem n="15" class="smas">
+                     <locus from="196" to="211"/>
+                     <title type="supplied">Smásögur eftir Brynjólf Kúld</title>
+                     <author key="BrynKul001">Brynjólfur Kúld</author>
+                     <note>authograph</note>
+                  </msItem>
+                  <msItem n="16" class="kvad">
+                     <locus from="212" to="221"/>
+                     <title type="supplied">Kvæði eftir Hannes Hafstein</title>
+                     <author key="HanHaf001">Hannes Hafstein</author>
+                     <note>authograph</note>
+                  </msItem>
+                  <msItem n="17" class="kvad">
+                     <locus from="212" to="221"/>
+                     <title type="supplied">Kvæði</title>
+                     <author key="HjaJon003">Hjálmar Jónsson</author>
+                  </msItem>
+                  <msItem n="18" class="sagnfr sagnps person" defective="true">
+                     <locus from="212" to="221"/>
+                     <title type="uniform">Breiðfirðingasaga</title>
+                     <author key="GisKon001">Gísli Konráðsson</author>
+                     <note>authograph</note>
+                     <note>This manuscript, as with Lbs 1459, contains diverse items bought by the library
+                        or given to it over a period of time and subsequently put together into a bundle and given
+                        one shelfmark. At the end, and the oldest of the contents, are 9 leaves with Egils saga
+                        einhenda. The cataloguing that follows will be as if this were catalogued as a
+                        part.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="7"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="220"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor">Has undergone restoration but text is missing due to tear
+                           and wear on all three outer sides of the leaves</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="37 39">
+                           <num type="wpl" atLeast="17" atMost="24"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="182"/>
+                              <width unit="mm" quantity="144"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>Some scribbles on fol. 7v (120v)</p>Alphabet and
+                        names: <q>Þessa bók á Jóhannes Jón...Ólafur Hallsson, Björg,
+                     Ingibjörg Hallsdóttir</q></additions>
+                  <bindingDesc>
+                     <binding ana="none"><p>in loose leaves</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <note>The manuscript is a collection of independent items that the National
+                        library has bought in the years 1900- 05</note>
+                     <origPlace key="Isl">Iceland</origPlace>
+                  </origin>
+                  <provenance> 
+                     <!-- previously marked JohJon007, OlaHal004 and IngHal001, none of which are in the authority file -->
+                     <p>Previous owners: 
+                     <name type="person" role="owner" key="ambig">Jóhannes Jón.</name>, 
+                     <name type="person" role="owner" key="ambig">Ólafur Hallsson</name> and
+                     <name type="person" role="owner" key="ambig">Ingibjörg Hallsdóttir</name>.</p>
+                     </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:54.559+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07-27" who="#SK">Added items and classes and other information from the
+            P.E.Ó.-catalogue</change>
+         <change when="2012-09-20" who="#SK">Added information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

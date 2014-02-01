@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 10 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0010-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 10 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem class="fas" n="1">
+                     <!-- locus assumed; needs to be verified -->
+                     <locus from="1r" to="24v"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <rubric>Hier Byriar Sogu Af Hrolfe konge kraka</rubric>
+                     <incipit>Madur hiet Halfdän en<ex>n</ex> an<ex>n</ex>ar fröde þeir v<ex>aru</ex> brædur og k<ex>on</ex>gz
+                           syn<ex>er</ex></incipit>
+                     <explicit>Og End<ex>ar</ex> hier søgu Hrolfz k<ex>on</ex>gz kraka og käppa h<ex>an</ex>z</explicit>
+                     <textLang mainLang="non"/>
+                     <note>In 32 chapters, all numbered except for the second chapter.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="24"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="304"/>
+                              <width unit="mm" quantity="209"/>
+                           </dimensions>
+                           <watermark ana="yes">A large (possibly royal) watermark</watermark>
+                        </support>
+                        <foliation ana="fol later">Foliated 1-24 in red ink by <name type="person" key="KriKaa001">Kristian
+                              Kålund</name> (almost erased by wet processing in <date when="1980">1980</date>).
+                           Newer foliation with pencil.</foliation>
+                        <condition ana="good">Excellent condition.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21 46">
+                           <num type="wpl" atLeast="11" atMost="18"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="253"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <note>The edges have been trimmed; the contemporary margin size does not correspond to the original
+                              margin size. Much has been cut off, especially in the upper margin; parts of the running title are
+                              missing.</note>
+                           <catchwords ana="yes">Catchwords on every pages in kurrent.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="hybrida" scribeRef="#PalSve001">
+                        <p>Presumably written by Páll Sveinsson. The main body is written in a hybrida script. Highlighted words,
+                           catchwords and some of the running titles are in a kurrent script.</p></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Slightly ornamental inital in title line at the beginning of the text and a smaller
+                        initial at the beginning of each chapter.</decoNote>
+                     <decoNote type="other">v-shaped ending</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>An AM-slip is bound in with the masnuscript in front. It reads <q>Fra Sal. Assessor
+                           Thormod Torvesens Enke 1720.</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>When Kålund was writing his catalogue in the late 19th century, the manuscript was bound in a parchment
+                           binding with text from a French <title type="supplied">Biblia latina</title> from <date notBefore="1290" notAfter="1310">c. 1300</date>, now <ref type="ms">Acc. 7e, Hs
+                              122</ref>; fols. 7, 10, 26, 35, 37 and 39.</p>
+                        <p>The parchment was removed in <date when="1911">1911</date> and replaced with a marbeled
+                           paper binding. The parchment spine was preserved. Kålund noted the date <date when="1911-08-08">8/8-11</date> on the front fly-sheet. This binding has been removed and is kept
+                           seperately with the manuscript.</p>
+                        <p>Current binding: modern standard half-binding. Kålund's notes are cut out and glued to the new front
+                           fly-sheet. Dimensions: <height>311</height> x
+                           <width>235</width> x
+                           <depth>14</depth> mm.
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="NO"/>
+                  </origin>
+                  <provenance>
+                     <p>Prior to AM the only known owner of the manuscript is <name type="person" role="owner" key="ThoTor001">Torfæus</name>. AM 10 fol. used to be part of a larger manuscript, which in its most complete form was
+                     probably put together by Torfæus in Norway rather than in Iceland. After his death, is was passed on to <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>, who, according to his note, took apart the
+                     larger manuscript.</p>
+                     </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:44.246+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:02.374+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:13.664+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:27.178+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:06.735+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-02-11" who="#BES">Added information from TL's diss. To be checked and completed with ms.</change>
+         <change when="2013-02-12" who="#BES">Checked and added missing information with the ms. in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

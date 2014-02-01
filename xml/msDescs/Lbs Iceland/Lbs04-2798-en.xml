@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2798 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-2798-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2798 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="sagnps">
+                     <locus from="1r" facs="#Lbs04-2798-0001r" to="40r">1r-40r</locus>
+                     <textLang mainLang="non"/>
+                     <note>Af Persakóngum, Grikkjum og Alexander mikla</note>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="41r" facs="#Lbs04-2798-0041r" to="49v">41r-49v</locus>
+                     <textLang mainLang="non"/>
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="50r" facs="#Lbs04-2798-0050r" to="59r">50r-59r</locus>
+                     <textLang mainLang="non"/>
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <msItem n="3.1" class="laus">
+                        <locus from="59r" facs="#Lbs04-2798-0050r" to="59r">59r</locus>
+                        <title type="supplied">Vísa um Hænsna-Þórir</title>
+                        <incipit>Hæruna Hænsna-Þórir</incipit>
+                     </msItem>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="59v" facs="#Lbs04-2798-0059v" to="84r">59v-84r</locus>
+                     <title type="uniform">Reykdæla saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Saga af Vémundi og Víga-Skúta</note>
+                     <note>Missing the ending</note>
+                  </msItem>
+                  <msItem n="5" class="forns">
+                     <locus from="86r" facs="#Lbs04-2798-0086r" to="90r">86r-90r</locus>
+                     <title type="uniform">Hálfdanar saga Barkarsonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="isl textfr">
+                     <locus from="90r" facs="#Lbs04-2798-0090r" to="112v">90r-112v</locus>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <textLang mainLang="non"/>
+                     <note>variants can also be found on the slip 112bis</note>
+                  </msItem>
+                  <msItem n="7" class="almb" defective="true">
+                     <locus from="113r" facs="#Lbs04-2798-0113r" to="158r">113r-158r</locus>
+                     <title type="uniform">Fortunatus saga</title>
+                     <textLang mainLang="non"/>
+                     <note>See folio 157v for a completion of the lacuna in the text</note>
+                     <colophon>Og endast hér Fortunati saga, sem skrifuð og útlögð var að Berufirði
+                        anno 1690 af sýslumanninum Jóni Thorlákssyni</colophon>
+                  </msItem>
+                  <msItem n="8" class="fas" defective="true">
+                     <locus from="158v" facs="#Lbs04-2798-0158v" to="158v">158v</locus>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>A fragmentt</note>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="159r" facs="#Lbs04-2798-0159r" to="208v">159r-208v</locus>
+                     <title type="uniform">Egils saga Skallagrímssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="islt">
+                     <locus from="208v" facs="#Lbs04-2798-0208v" to="209v">208v-209v</locus>
+                     <title type="uniform">Þorsteins þáttur Austfirðings</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="islt">
+                     <locus from="209v" facs="#Lbs04-2798-0209v" to="210v">209v-210v</locus>
+                     <title type="uniform">Þorsteins þáttur forvitna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="210"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="197"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                           <note>Blank pages: 40v 84v and 85r-v</note>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="31 36">
+                           <num type="wpl" atLeast="17" atMost="20"/>
+                           <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions> -->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Unidentified
+                        scribe</handNote>
+                     <handNote scribeRef="unknown">Page 158v in a different hand</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Initials and headings in a different script type</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>There is a bifolio along with the ms with a fragment of Vilmundar
+                        rímur viðutan from stanzas 3., 4., and 7. by Guðni Jónsson í Fljótstungu,
+                        from 1815</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Leather binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1760">1760?</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" key="JonMag015">Jónína Magnúsdóttir</name> Reykjavík
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:45.743+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:06.854+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:25.674+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:58.205+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+<change when="2013-01-29" who="#SK">Adapted and added information from the digital version on handrit.is</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

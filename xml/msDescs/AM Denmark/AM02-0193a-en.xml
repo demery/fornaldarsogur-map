@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 193 a fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0193a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 193 a fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem class="fas" n="1">
+                     <locus from="1r:1" to="29v:15">1r-29v</locus>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <title type="parallel">Hervarar saga ok Heiðreks konungs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hervarar Saga</rubric>
+                     <incipit>Sigrlami het k<ex>ong</ex>r. h<ex>ann</ex> red f<ex>yrir</ex> Gardar<ex>íki</ex></incipit>
+                     <explicit>Philippus atti Ingigerdi dottr Harald<ex>ar</ex> k<ex>ong</ex>s Sigurdar sonar, h<ex>ann</ex> var
+                           Skam<ex>m</ex>a stund k<ex>ong</ex>r.</explicit>
+                     <filiation>
+                        <p>According to <name type="person" role="scholar" key="JonSig004">Jón Sigurðsson</name>, the
+                        manuscript is a copy of <ref type="ms" target="#GKS04-2845-is" ana="antigraph">GKS 2845 4to</ref> with
+                        variants and additions after <ref type="book" target="#OlaVer1672" ana="antigraph">Verelius' edition from
+                           1672</ref></p>.</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="29"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="306"/>
+                              <width unit="mm" quantity="203"/>
+                           </dimensions>
+                           <watermark ana="yes">A head with a fool's cap and a large, star-shaped necklace with circular tips. on
+                              the bottom of the image a 4-like shape on top of three circles can be seen. Cf. watermark in AM 202
+                              k fol.</watermark>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <foliation ana="later fol">
+                           <p>Foliated 1-29 in red ink in the top margins by <name type="person" role="scholar" key="KriKaa001">Kålund</name>; contemporary pagination (1-58) in dark ink in the top outer corners.</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="28 30">
+                           <num type="wpl" atLeast="2" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="235"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#AsgJon001" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>Very sparse learned notes by the scribe in the margins, e.g. on fol. <locus from="23r" to="23r">23r</locus>.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Bound in a grey cardboard binding from <date notBefore="1730" notAfter="1780">c.
+                              1730-80</date> with <q xml:lang="is">No 193. a. Hervarar Saga.</q> written on the front board. Old
+                           thread is stored with the manuscript; probably removed when the sewing was renewed.<!--<dimensions
+                              type="binding">
+                              <height>319</height>
+                              <width>209</width>
+                              <depth>10</depth>
+                           </dimensions>--></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Probably written in <origPlace key="NO">Norway</origPlace>
+                        <origDate notBefore="1688" notAfter="1707">c. 1700</origDate>.</p>
+                  </origin>
+                  <provenance>
+                     <name type="person" key="ArnMag001" role="owner"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:57.325+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:10.292+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:35.398+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:14.389+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-01-24" who="#BES">Added information from Kålund's catalog and completed with the manuscript in
+            situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

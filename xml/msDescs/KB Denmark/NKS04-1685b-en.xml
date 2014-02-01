@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1685 b 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1685b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1685 b 4to</idno>
+               </msIdentifier>
+               <physDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#PetMul001" scope="sole" script="kurrent">Mostly his autograph.</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>Some notes and comments in the margins.
+                        Part I: A folio-sized bifolio is added in between fols. <locus>67</locus> and <locus>68</locus>. It contains three pages worth of notes 
+                        on Finnboga saga ramma in a different hand (in Icelandic). In the colophon is the following:
+                        <q>Þetta er samantekid af próf: s.ra Torfa Jónssyni á Breidabilstad í Augusto 1824, en hripad aeptir hans egin handar udkaste af St. Jónssyni</q>
+                        Part II: On fol. <locus>8v</locus>, there is a note in the margin reading: <q>No. 6. een Rigsdaler. 1799</q> and a large coat of arms with a crown. 
+                        Around fols. <locus>29-30</locus>, there is a new bifolio added reading <q>Parcivals Saga NKS 1685 b 4to
+                           II</q>. The leaves are numbered 28bis and 30bis.
+                        A little white slip (ca. 5x11cm) is inserted between fols. <locus>125</locus> and <locus>126</locus>. 
+                        Around item 48, there is a new bifolio reading <q>Excerpta ur Sögur NKS 1685 b 4to</q>. The leaves are
+                        numbered 257bis and 260bis.
+                     </p></additions>
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p>Two volumes of loose leaves</p>
+                        </binding>
+                     </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1849"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetMul001" type="person" role="owner"/> 
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>NKS 1685 b 4to I</idno>
+                  </altIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/> 
+                  <msItem n="1" class="samt">
+                     <locus from="1r" to="2r"/>
+                     <title type="uniform">Arons saga Hjörleifssonar [Excerpt]</title>
+                     <note>Excerpt</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="3r" to="9v"/>
+                     <title type="uniform">Ála flekks saga [Excerpt, Notes]</title>
+                     <note>Excerpt and notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="3" class="tjos bokmfr">
+                     <locus from="10r" to="11r"/>
+                     <title type="uniform">Amlóða saga</title>
+                     <rubric>Amloda og Ambales Saga [Notes]</rubric>
+                     <textLang mainLang="da"/>
+                     <note>Notes about the saga</note>
+                  </msItem>
+                  <msItem n="4" class="fas bokmfr attat">
+                     <locus from="12r" to="13r"/>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis [Notes]</title>
+                     <textLang mainLang="da"/>
+                     <note>Notes and genealogical table</note>
+                  </msItem>
+                  <msItem n="5" class="forn">
+                     <locus from="14r" to="14v"/>
+                     <title type="uniform">Íslendingabók [Excerpt]</title>
+                     <note>Excerpt, Notes</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="6" class="forns bokmfr attat">
+                     <locus from="15r" to="16v"/>
+                     <title type="uniform">Ármanns saga og Þorsteins gála [Excerpt]</title>
+                     <note>Excerpt, genealogical table</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="7" class="fas bokmfr">
+                     <locus from="17r" to="17v"/>
+                     <title type="uniform" ref="#ask">Ásmnundar saga kappabana [Notes]</title>
+                     <note>Notes</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="8" class="islt bokmfr">
+                     <locus from="19r" to="20r"/>
+                     <title type="uniform">Auðunar þáttur vestfirska [Excerpt]</title>
+                     <note>Excerpt</note>
+                     <filiation>
+                        <ref type="ms" target="unknown" ana="antigraph">Copy of NKS 1725 4to (Suhm's collection no 119)</ref> 
+                     </filiation>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="9" class="isl bokmfr attat">
+                     <locus from="21r" to="22v"/>
+                     <title type="uniform">Bandamanna saga [Excerpt, notes]</title>
+                     <note>Excerpt, Notes, Genealogical table</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="10" class="isl bokmfr attat">
+                     <locus from="23r" to="24v"/>
+                     <title type="uniform">Bárðar saga Snæfellsáss [Notes]</title>
+                     <note>Notes, Genealogical table</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="11" class="isl bokmfr">
+                     <locus from="25r" to="30v"/>
+                     <title type="uniform">Bjarnar saga Hitdælakappa [Excerpt]</title>
+                     <note>Excerpt, Notes</note>
+                     <filiation>
+                        <ref type="ms" target="#AM04-551-en" ana="protograph">Based on T. Olavius's copy of AM 551 4to.</ref> <!-- check -->
+                     </filiation>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="12" class="ridd bokmfr">
+                     <locus from="31r" to="34v"/>
+                     <title type="uniform">Blómsturvalla saga [Excerpt]</title>
+                     <note>Excerpt, notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0522-en" ana="protograph">Based on AM 522 4to?</ref> which was compared to 
+                        <ref type="ms" target="#AM04-523-en" ana="protograph">Based on AM 523 4to</ref> 
+                     </filiation>
+                  </msItem>
+                  <msItem n="13" class="forns">
+                     <locus from="35r" to="36v"/>
+                     <title type="uniform">Bragðar-Ölves saga [Excerpt]</title>
+                     <note>Excerpt</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="14" class="isl bokmfr attat">
+                     <locus from="37r" to="40v"/>
+                     <title type="uniform">Vopnfirðinga saga [Notes]</title>
+                     <note>Notes, genealogical tables</note>
+                     <filiation>
+                        <ref type="ms" target="#AM04-523-en" ana="protograph">Based on AM 523 4to</ref>
+                     </filiation>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="15" class="fornsth bokmfr">
+                     <locus from="41r" to="41v"/>
+                     <title type="supplied">Böðvars þáttur bjarkar [Notes]</title>
+                     <note>Notes</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="16" class="kon bokmfr">
+                     <locus from="43r" to="44v"/>
+                     <title type="uniform">Játvarðar saga helga [Excerpts]</title>
+                     <rubric>Saga ens heilaga Edvardar</rubric>
+                     <filiation>
+                        <ref type="ms" target="#GKS02-1005-en" ana="protograph">Based on Flateyjarbók</ref>
+                     </filiation>
+                     <note>Excerpt</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="17" class="isl bokmfr">
+                     <locus from="45r" to="46v"/>
+                     <title type="uniform">Egils saga [Notes]</title>
+                     <note>Notes</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="18" class="kon bokmfr attat">
+                     <locus from="48r" to="50v"/>
+                     <title type="uniform">Eymundas saga Hringssonar [Notes]</title>
+                     <filiation>
+                        <ref type="ms" target="#GKS02-1005-en" ana="protograph">Based on Flateyjarbók</ref>
+                     </filiation>
+                     <note>Notes, Genealogical table</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="19" class="fas bokmfr attat">
+                     <locus from="51r" to="52v"/>
+                     <title type="uniform" ref="#esv">Eiríks saga viðförla [Excerpt, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <filiation>
+                        <ref type="ms" target="#GKS02-1005-en" ana="protograph">Based on Flateyjarbók</ref>
+                     </filiation>
+                     <textLang mainLang="da" otherLangs="la non"/>
+                  </msItem>
+                  <msItem n="20" class="ridd bokmfr">
+                     <locus from="53r" to="53v"/>
+                     <title type="uniform">Erex saga [Excerpt]</title>
+                     <note>Excerpt</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="21" class="isl bokmfr attat">
+                     <locus from="55r" to="60r"/>
+                     <title type="uniform">Eríks saga rauða [Excerpt, Notes]</title>
+                     <note>Excerpt, Notes, Genealogical table</note>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#AM04-551-en" ana="protograph">AM 551 4to</ref>,
+                        <ref type="ms" target="#AM04-281-en" ana="protograph">AM 281 4to</ref>, 
+                        <ref type="ms" target="#AM04-563-en" ana="protograph">AM 563 4to</ref> and
+                        <ref type="ms" target="#AM08-770b-en" ana="protograph">AM 770 b 8vo</ref>.</p>
+                     </filiation>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="22" class="isl bokmfr">
+                     <locus from="63r" to="64v"/>
+                     <title type="uniform">Eyrbyggja saga [Notes]</title>
+                     <note>Notes</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="23" class="isl bokmfr">
+                     <locus from="65r" to="68v"/>
+                     <title type="uniform">Finnboga saga ramma [Notes]</title>
+                     <note>Notes</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="24" class="isl bokmfr">
+                     <locus from="69r" to="69r"/>
+                     <title type="uniform">Flóamanna saga [Notes]</title>
+                     <note>Notes</note>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="25" class="ridd bokmfr">
+                     <locus from="70r" to="71r"/>
+                     <title type="uniform">Flóvents saga [Excerpt, notes]</title>
+                     <note>Excerpt; Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-570a-en" ana="antigraph">copy of AM 570 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="26" class="isl attat bokmfr">
+                     <locus from="72r" to="79v"/>
+                     <title type="uniform">Fóstbrædra saga [Excerpts, Notes]</title>
+                     <note>Excerpt, Notes, Genealogical tables</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="27" class="kont? bokmfr">
+                     <locus from="80r" to="80v"/>
+                     <title type="supplied">Notes on a fragment about Norwegian kings</title>
+                     <note>From Langebek's library</note>
+                     <textLang mainLang="da" otherLangs="la"/>
+                  </msItem>
+                  <msItem n="28" class="fas bokmfr">
+                     <locus from="81r" to="81r"/>
+                     <title type="uniform" ref="#fsf">Friþjófs saga frænka [Excerpts]</title>
+                     <note>Excerpts</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="29" class="fas bokmfr">
+                     <locus from="83r" to="84r"/>
+                     <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans [Notes]</title>
+                     <title type="paralle">Fundinn Noregur</title>
+                     <note>Notes</note>
+                     <filiation>
+                        <ref type="ms" target="#GKS02-1005-en" ana="protograph">based on Flateyjarbók</ref>
+                     </filiation>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="30" class="fas bokmfr">
+                     <locus from="86r" to="94v"/>
+                     <title type="uniform">Göngu-Hrólfs saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="31" class="isl bokmfr">
+                     <locus from="95r" to="96v"/>
+                     <title type="uniform">Gísla saga Súrsonar [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="32" class="isl bokmfr">
+                     <locus from="97r" to="97v"/>
+                     <title type="uniform">Bárðar saga Snæfellsáss [Excerpts, Notes]</title>
+                     <note>Excerpts and notes concerning Bárður's son Gestr</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="33" class="fas bokmfr">
+                     <locus from="99r" to="99r"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns [Notes]</title>
+                     <note>Notes</note>
+                     <textLang mainLang="da"/>
+                     <note>on Goðmundur only</note>
+                  </msItem>
+                  <msItem n="34" class="bokmfr isl attat">
+                     <locus from="103r" to="106v"/>
+                     <title type="uniform">Grettis saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes; Genealogical table</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="35" class="bokmfr islt">
+                     <locus from="107r" to="108r"/>
+                     <title type="uniform">Grænlendinga þáttur [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <filiation>
+                        <ref type="ms" target="#GSK02-1005-en" ana="protograph">Based on Flateyjarbók</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="36" class="islst bokmfr">
+                     <locus from="109r" to="109r"/>
+                     <title type="uniform">Gríms saga Skeljungsbana [Notes]</title>
+                     <note>Notes</note>
+                     <textLang mainLang="da"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0569b-en" ana="protograph">AM 569b 3to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="37" class="isl bokmfr">
+                     <locus from="110r" to="111r"/>
+                     <title type="uniform">Eiríks saga rauða [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0770c-en" ana="protograph">Based on AM 770 c 4to (or rather its copy NKS 1734 4to)</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="38" class="isl bokmfr attat">
+                     <locus from="113r" to="118r"/>
+                     <title type="uniform">Gull-Þóris saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes; genealogical tables</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="39" class="isl bokmfr">
+                     <locus from="119r" to="119v"/>
+                     <title type="uniform">Gunnlaugs saga ormstungu [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="40" class="isl bokmfr">
+                     <locus from="120r" to="121v"/>
+                     <title type="uniform">Gunnars saga Keldugnúpsfífls [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="41" class="bokmfr islt attat">
+                     <locus from="122r" to="122v"/>
+                     <title type="uniform">Gunnars þáttur Þiðrandabana [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes, Genealogical table</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="42" class="fas bokmfr">
+                     <locus from="124r" to="127v"/>
+                     <title type="uniform" ref="#gsgr">Gautreks saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="43" class="kon bokmfr">
+                     <locus from="128r" to="130v"/>
+                     <title type="supplied">Böglunga sögur [Excerpts, Notes]</title> <!-- not 100% sure -->
+                     <rubric>Hagen(?) Hagens<gap/> Saga</rubric>
+                     <incipit>Kap 1. Variant ulem(?) Bauglunga Saga</incipit>
+                     <explicit/>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="44" class="fas bokmfr">
+                     <locus from="132r" to="133v"/>
+                     <title type="uniform" ref="#hs">Hervarar saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="45" class="kon bokmfr">
+                     <locus from="134r" to="135r"/>
+                     <title type="uniform">Hákonar saga Ívarssonar [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0570a-en" ana="protograph">Based on AM 570 e 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="46" class="islt bokmfr">
+                     <locus from="136r" to="141v"/>
+                     <title type="uniform">Halldórs þáttur Snorrasonar [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <filiation>
+                        <ref type="ms" target="#GSK02-1005-en" ana="protograph">Based on Flateyjarbók</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="47" class="fas bokmfr">
+                     <locus from="144r" to="144v"/>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="48" class="forns bokmfr">
+                     <locus from="145r" to="148r"/>
+                     <title type="uniform">Hálfdanar saga gamla [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="49" class="fas bokmfr">
+                     <locus from="149r" to="150r"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="50" class="konth bokmfr attat">
+                     <locus from="151r" to="160r"/>
+                     <title type="uniform">Haralds þáttur hárfagra [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes, Genealogical tables</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="51" class="isl bokmfr">
+                     <locus from="161r" to="162v"/>
+                     <title type="uniform">Hávarðar saga Ísfirðings [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="52" class="fas bokmfr">
+                     <locus from="163r" to="164v"/>
+                     <title type="uniform" ref="#hsh">Héðins saga og Högna [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <note>According to note based on "edit Olavi Rudbecki". This must be a mistake, though.</note>
+                  </msItem>
+                  <msItem n="53" class="isl bokmfr">
+                     <locus from="165r" to="168v"/>
+                     <title type="uniform">Heiðarvíga saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="54" class="isl bokmfr attat">
+                     <locus from="169r" to="178r"/>
+                     <title type="uniform">Droplaugarsona saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes, Genealogical tables</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="55" class="konth bokmfr">
+                     <locus from="179r" to="179v"/>
+                     <title type="uniform">Hemings þáttur Áslákssonar [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <filiation>
+                        <ref type="ms" target="#GSK02-1005-en" ana="protograph">Based on Flateyjarbók</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="56" class="fas"> <!-- + bokmfr attat? -->
+                     <locus from="181r" to="184v"/>
+                     <title type="uniform" ref="#bsh">Bósa saga og Herrauðs [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes; genealogical tables</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="57" class="fas bokmfr">
+                     <locus from="185r" to="185v"/>
+                     <title type="uniform" ref="#hs">Hervarar saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="58" class="isl bokmfr">
+                     <locus from="186r" to="189r"/>
+                     <title type="uniform">Hrafnkels saga Freysgoða [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="59" class="fas bokmfr">
+                     <locus from="190r" to="193v"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="60" class="isl bokmfr">
+                     <locus from="194r" to="197v"/>
+                     <title type="uniform">Harðar saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="61" class="isl bokmfr attat">
+                     <locus from="198r" to="201v"/>
+                     <title type="uniform">Hænsa-Þóris saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes, Genealogical tables</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="62" class="ridd bokmfr">
+                     <locus from="202r" to="202v"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="63" class="fas bokmfr attat">
+                     <locus from="204r" to="204v"/>
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes, Genealogical table</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="64" class="fas bokmfr">
+                     <locus from="205r" to="206v"/>
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="65" class="bokmfr kon">
+                     <locus from="207r" to="209r"/>
+                     <title type="supplied">Jómsvíkinga saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes; combination of different versions</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="66" class="bokmfr bisks">
+                     <locus from="210r" to="113v"/>
+                     <title type="uniform">Jóns saga helga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="67" class="ridd bokmfr">
+                     <locus from="114r" to="115v"/>
+                     <title type="uniform">Ívens saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="68" class="ridd bokmfr">
+                     <locus from="116r" to="122r"/>
+                     <title type="uniform">Mágus saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="69" class="fas bokmfr">
+                     <locus from="123r" to="123v"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="70" class="isl bokmfr">
+                     <locus from="125r" to="126v"/>
+                     <title type="uniform">Kjalnesinga saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="71" class="fas bokmfr attat">
+                     <locus from="127r" to="128v"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes, Genealogical tables</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="72" class="bokmfr kon">
+                     <locus from="129r" to="130v"/>
+                     <title type="uniform">Knýtlinga saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="73" class="isl handfr bokmfr">
+                     <locus from="131r" to="142r"/>
+                     <title type="uniform">Kormáks saga [Notitia Codicum, Notes, Excerpts]</title>
+                     <note>Notes on manuscripts and on the saga</note>
+                     <note>Several leaves blank</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="74" class="bisks bokmfr">
+                     <locus from="143r" to="143v"/>
+                     <title type="uniform">Kristni saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="75" class="isl bokmfr">
+                     <locus from="144r" to="145v"/>
+                     <title type="uniform">Króka-Refs saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="76" class="bokmfr ridd">
+                     <locus from="146r" to="147v"/>
+                     <title type="uniform">Kirjalax saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="77" class="bokmfr landn forn">
+                     <locus from="148r" to="148v"/>
+                     <title type="uniform">Landnámabók [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
+                  <msItem n="78" class="isl bokmfr attat">
+                     <locus from="149r" to="170v"/>
+                     <title type="uniform">Laxdæla saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes, Genealogical tables</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="79" class="isl bokmfr attat">
+                     <locus from="171r" to="180v"/>
+                     <title type="uniform">Ljósvetninga saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes, Genealogical tables</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="80" class="kon bokmfr">
+                     <locus from="181r" to="181r"/>
+                     <title type="uniform">Magnús saga helga eyjajarls [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="81" class="ridd bokmfr">
+                     <locus from="182r" to="183v"/>
+                     <title type="uniform">Mírmanns saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="82" class="ridd bokmfr">
+                     <locus from="184r" to="184v"/>
+                     <title type="uniform">Möttuls saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="83" class="isl bokmfr">
+                     <locus from="185r" to="188v"/>
+                     <title type="uniform">Njáls saga [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="84" class="fas bokmfr">
+                     <locus from="189r" to="191v"/>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur [Excerpts, Notes]</title>
+                     <note>Excerpts, Notes</note>
+                     <filiation>
+                        <ref type="book" target="#EriBiö1737" ana="protograph">Based on Björner's ed.</ref>
+                     </filiation>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="85" class="kon bokmfr">
+                     <locus from="193r" to="193r"/>
+                     <title type="uniform">Ynglinga saga [Note]</title>
+                     <rubric>Um Odin ok Strid hans</rubric>
+                     <note>Notes</note>
+                     <filiation>
+                        <ref type="ms" target="unknown" ana="protograph">based on NKS 1687 4to</ref>
+                     </filiation>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="86" class="bokmfr bisks">
+                     <locus from="194r" to="199v"/>
+                     <title type="uniform">Ólafs saga helga [Excerpts, Notes]</title>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="unknown" ana="protograph">NKS 1046 fol. (Suhm 727)</ref>, 
+                        <ref type="ms" target="AM02-0076a-en" ana="protograph">AM 76 a fol.</ref>,
+                        <ref type="ms" target="AM02-0075e-1-5-en" ana="protograph">AM 75 e fol.</ref>,
+                        <ref type="ms" target="unknown" ana="protograph">NKS 1049 fol.(Suhm 537)</ref>,
+                        <ref type="ms" target="AM02-068-da" ana="protograph">AM 68 fol.</ref> and
+                        <ref type="ms" target="unknown" ana="protograph">NKS 1042 fol. (Suhm 147)</ref>.</p>
+                     </filiation>
+                     <note>Excerpts, Notes</note>
+                     <note>Filiation note refers to as AM 77 a fol.; probably a mistake for AM 76 a fol.</note>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                 
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="book-block" value="199"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="212"/> 
+                           <width unit="mm" quantity="172"/>
+                        </dimensions>
+                        <watermark ana="yes">Many different watermarks.</watermark>
+                     </support>
+                        <foliation ana="no"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 28">
+                           <num type="wpl" atLeast="4" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>NKS 1685 b 4to II</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/> 
+                     <msItem n="1" class="kon bokmfr">
+                        <locus from="1r" to="4v"/>
+                        <title type="uniform">Ólafs saga helga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <filiation>
+                           <ref type="ms" target="#AM02-0061-en" ana="protograph">Based on AM 61 fol. </ref>
+                        </filiation>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="2" class="kon bokmfr">
+                        <locus from="5r" to="25r"/>
+                        <title type="uniform">Ólafs saga Tryggvasonar [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="3" class="bokmfr kon">
+                        <locus from="26r" to="26v"/>
+                        <title type="uniform">Orkneyinga saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="4" class="bokmfr fas">
+                        <locus from="27r" to="28r"/>
+                        <title type="uniform" ref="#oeos">Örvar-Odds saga [Notes]</title>
+                        <note>Notes</note>
+                        <textLang mainLang="da"/>
+                     </msItem>
+                     <msItem n="5" class="ridd bokmfr">
+                        <locus from="29r" to="30v"/>
+                        <title type="uniform">Parcevals saga [Notes]</title>
+                        <note>Notes</note>
+                        <textLang mainLang="da"/>
+                     </msItem>
+                     <msItem n="6" class="samt bokmfr attat">
+                        <locus from="31r" to="42v"/>
+                        <title type="uniform">Hrafns saga Sveinbjarnarsonar [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes, Genealogical tables</note>
+                        <filiation>
+                           <ref type="ms" target="#AM04-0487-en" ana="protograph">Based on AM 487 4to.</ref>
+                        </filiation>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="7" class="fas bokmfr handfr">
+                        <locus from="43r" to="47r"/>
+                        <title type="uniform" ref="#rsl">Ragnars saga loðbrókar [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes, Copy of AM's notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="8" class="bokmfr isl">
+                        <locus from="49r" to="51v"/>
+                        <title type="uniform">Reykdæla saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="9" class="ridd bokmfr">
+                        <locus from="52r" to="52v"/>
+                        <title type="uniform">Samsons saga fagra [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="10" class="ridd bokmfr">
+                        <locus from="54r" to="54v"/>
+                        <title type="uniform">Sigurðar saga fóts [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="11" class="kon bokmfr">
+                        <locus from="55r" to="56v"/>
+                        <title type="uniform">Skálda saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="12" class="bokmfr islt">
+                        <locus from="57r" to="62v"/>
+                        <title type="uniform">Sneglu-Halla þáttur [Excerpt]</title>
+                        <note>Excerpt</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                        <filiation>
+                           <ref type="ms" target="#GSK02-1005-en" ana="protograph">Based on Flateyjarbók</ref>
+                        </filiation>
+                     </msItem>
+                     <msItem n="13" class="islst bokmfr">
+                        <locus from="63r" to="64r"/>
+                        <title type="uniform">Stúfs þáttur [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                        <filiation>
+                           <ref type="ms" target="#AM04-0589d-is" ana="protograph">Based on AM 589 d 4to.</ref>
+                        </filiation>
+                     </msItem>
+                     <msItem n="14" class="fas bokmfr">
+                        <locus from="65r" to="66v"/>
+                        <title type="uniform" ref="#sss">Sturlaugs saga starfsama [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="15" class="bokmfr isl attat">
+                        <locus from="67r" to="75r"/>
+                        <title type="uniform">Svarfdæla saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes, Genealogical table</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="16" class="bokmfr fas">
+                        <locus from="76r" to="77v"/>
+                        <title type="uniform" ref="#ssst">Sörla saga sterka [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="17" class="bokmfr samt">
+                        <locus from="78r" to="88r"/>
+                        <title type="uniform">Sturlunga saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="18" class="bokmfr fas">
+                        <locus from="90r" to="91r"/>
+                        <title type="uniform" ref="#snfdsv">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="19" class="bisks bokmfr">
+                        <locus from="92r" to="92r"/>
+                        <title type="uniform">Kristni saga [Notes]</title>
+                        <rubric>Um Thangbrand Prestr</rubric>
+                        <note>Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="20" class="isl bokmfr">
+                        <locus from="93r" to="93r"/>
+                        <title type="uniform">Gull-Þóris saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="21" class="isl bokmfr attat">
+                        <locus from="94r" to="97v"/>
+                        <title type="uniform">Þorðar saga hreðu [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes, Genaelogical tables</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="22" class="bokmfr isl">
+                        <locus from="98r" to="98v"/>
+                        <title type="uniform">Víglundar saga [Excerpts, Notes]</title> 
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="23" class="bokmfr bisks">
+                        <locus from="99r" to="100v"/>
+                        <title type="uniform">Þorláks saga helga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="24" class="bokmfr islt">
+                        <locus from="103r:1" to="103r:12"/>
+                        <title type="uniform">Þorsteins þáttur Austfirðings [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                        <filiation>
+                           <ref type="ms" target="#AM04-0496-is" ana="protograph">based on AM 496 4to</ref>
+                        </filiation>
+                     </msItem>
+                     <msItem n="25" class="bokmfr islt">
+                        <locus from="103r:13" to="103r:25"/>
+                        <title type="uniform">Þorsteins þáttur forvitna [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                        <filiation>
+                           <ref type="ms" target="#AM04-0496-is" ana="protograph">based on AM 496 4to</ref>
+                        </filiation>
+                     </msItem>
+                     <msItem n="26" class="bokmfr islt">
+                        <locus from="103v" to="103v"/>
+                        <title type="uniform">Egils þáttur Síðu-Hallssonar [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="27" class="bokmfr fas">
+                        <locus from="104r" to="105r"/>
+                        <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns [Notes]</title>
+                        <note>Notes</note>
+                        <textLang mainLang="da"/>
+                     </msItem>
+                     <msItem n="28" class="bokmfr islt">
+                        <locus from="106r" to="106v"/>
+                        <title type="uniform">Þorsteins þáttur sögufróða [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                        <filiation>
+                           <ref type="ms" target="#AM04-0496-is" ana="protograph">based on AM 496 4to</ref>
+                        </filiation>
+                     </msItem>
+                     <msItem n="29" class="bokmfr islt attat">
+                        <locus from="107r" to="108v"/>
+                        <title type="uniform">Þorsteins saga stangarhöggs [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes, Genealogical table</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="30" class="bokmfr isl attat">
+                        <locus from="109r" to="110r"/>
+                        <title type="uniform">Þorsteins saga hvíta [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes, Genealogical table</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="31" class="bokmfr fas">
+                        <locus from="111r" to="112r"/>
+                        <title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="32" class="bokmfr isl">
+                        <locus from="115r" to="115v"/>
+                        <title type="uniform">Ölkofra þáttur [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="33" class="bokmfr islt">
+                        <locus from="116r" to="116r"/>
+                        <title type="uniform">Þorvalds þáttur víðförla [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="34" class="ridd bokmfr">
+                        <locus from="117r" to="117v"/>
+                        <title type="uniform">Sigurgarðs saga og Valbrands [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="35" class="bokmfr sagnps">
+                        <locus from="118r" to="118r"/>
+                        <title type="uniform">Trójumanna saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                        <filiation>
+                           <ref type="ms" target="#AM04-0545-is" ana="protograph">Based on AM 545 4to</ref>
+                        </filiation>
+                     </msItem>
+                     <msItem n="36" class="bokmfr ridd">
+                        <locus from="120r" to="121r"/>
+                        <title type="uniform">Úlfars saga sterka [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <filiation>
+                           <ref type="ms" target="#AM04-0523-4to" ana="protograph">Based on AM 523 4to</ref>
+                        </filiation>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="37" class="bokmfr isl attat">
+                        <locus from="122r" to="123v"/>
+                        <title type="uniform">Valla-Ljóts saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes, Genealogical table</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="38" class="bokmfr isl">
+                        <locus from="124r" to="125v"/>
+                        <title type="uniform">Víga-Glúms saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="39" class="bokmfr ridd"> 
+                        <locus from="126r" to="136v"/>
+                        <title type="uniform">Þiðreks saga</title>
+                        <title type="parallel">Niflunga saga</title> 
+                        <rubric>Vilkinga saga</rubric>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="40" class="bokmfr ridd">
+                        <locus from="138r" to="138v"/>
+                        <title type="uniform">Vilmundar saga viðutan [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                        <filiation>
+                           <ref type="ms" target="#AM04-0577-is" ana="protograph">Based on AM 577 4to</ref>
+                        </filiation>
+                     </msItem>
+                     <msItem n="41" class="bokmfr fas">
+                        <locus from="139r" to="146v"/>
+                        <title type="uniform" ref="#vs">Völsunga saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="42" class="bokmfr kon">
+                        <locus from="147r" to="149r"/>
+                        <title type="uniform">Ynglinga saga [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="43" class="bokmfr kon">
+                        <locus from="151r" to="167r"/>
+                        <title type="supplied">On Fagrskinna [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <filiation>
+                           <ref type="ms" target="#AM02-0052-en" ana="protograph">Based on AM 52 fol.</ref>
+                        </filiation>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="44" class="bokmfr kon">
+                        <locus from="168r" to="187v"/>
+                        <title type="supplied">On Hrokkinskinna [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <filiation>
+                           <ref type="ms" target="#NKS02-1023-en" ana="protograph">Based on NKS 1023 fol.</ref>
+                        </filiation>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="45" class="bokmfr kon">
+                        <locus from="188r" to="191r"/>
+                        <title type="uniform">On Hryggjarstykki [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="46" class="bokmfr kon">
+                        <locus from="192r" to="200r"/>
+                        <title type="uniform">On Morkinskinna [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <filiation>
+                           <ref type="ms" target="#NKS02-1026-en" ana="protograph">Based on NKS 1026 fol.</ref>
+                           <ref type="ms" target="#AM04-0315-en" ana="protograph">Based on AM 315 4to</ref>
+                        </filiation>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="47" class="bokmfr kon">
+                        <locus from="202r" to="255r"/>
+                        <title type="uniform">On Flateyjarbók [Excerpts, Notes]</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                        <filiation>
+                           <ref>Most likely based on NKS 1145 fol. I-IV</ref>
+                        </filiation>
+                     </msItem>
+                     <msItem n="48" class="bokmfr ridd almb">
+                        <locus from="258r" to="260v"/>
+                        <title type="supplied">Excerpts copied from AM 576 b 4to</title>
+                        <filiation>
+                           <ref type="ms" target="#AM04-0576-b-en" ana="antigraph">copy of AM 576 b 4to</ref>
+                        </filiation>
+                        <textLang mainLang="is" otherLangs="da"/>
+                        <msItem n="48.1" class="ridd">
+                           <locus from="258r" to="258v:5"/>
+                           <title type="uniform">Falentíns og Ursins saga [Excerpt]</title>
+                        </msItem>
+                        <msItem n="48.2" class="almb">
+                           <locus from="258v:6" to="258v:12"/>
+                           <title type="unifrom">Gabons saga og Vigoleis [Excerpt, Notes]</title>
+                        </msItem>
+                        <msItem n="48.3" class="almb">
+                           <locus from="258v:13" to="259r:4"/>
+                           <title type="unifrom">Virgilíus saga [Excerpt, Notes]</title>
+                        </msItem>
+                        <msItem n="48.4" class="other">
+                           <locus from="259r:5" to="259r:6"/>
+                           <title type="supplied">Saga af Theogene og Chariclia [Notes]</title>
+                        </msItem>
+                        <msItem n="48.5" class="almb">
+                           <locus from="259r:7" to="259r:13"/>
+                           <title type="uniform">Lykla-Péturs saga og Magelónu fögru</title>
+                        </msItem>
+                        <msItem n="48.6" class="almb">
+                           <locus from="259r:14" to="259r:17"/>
+                           <title type="unifrom">Salomons saga og Markólfs</title>
+                        </msItem>
+                        <msItem n="48.7" class="regist">
+                           <locus from="259v" to="260v"/>
+                           <title type="supplied">List of further excerpts and saga summaries</title>
+                        </msItem>
+                     </msItem>
+                     <msItem n="49" class="bokmfr islt other">
+                        <locus from="262r" to="272r"/>
+                        <title type="supplied">Mixed notes on other sagas</title>
+                        <note>Excerpts, Notes</note>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                    
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="277">273+2+2</num> 
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="212"/> 
+                                 <width unit="mm" quantity="172"/>
+                              </dimensions>
+                              <watermark ana="yes">different watermarks</watermark>
+                           </support>
+                           <foliation ana="no">Several leaves blank.</foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="19 22">
+                              <num type="wpl" atLeast="4" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="115"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msPart>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:37.668+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-01" who="#BES">Added catalog info.</change>
+         <change when="2013-05-27" who="#BES">Finished cataloging part I.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

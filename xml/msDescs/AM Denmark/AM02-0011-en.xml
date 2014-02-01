@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 11 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0011-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 11 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="42v">1r-42v</locus>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Byriast Sagan af Hrolfe Konge Kraka, sem vered hefur J Danmørk</rubric>
+                     <filiation>
+                        <ref type="ms" target="#AM02-0012-a-en" ana="apograph">This manuscript is the exemplar for the first part
+                           of AM 12 a fol.</ref>
+                     </filiation>
+                     <note>The saga is divided into þættir, not chapters. Fols. 1 and 42 containg the beginning and the end of the
+                        saga have been added for <name type="person" role="commissioner" key="ArnMag001">Árni Magnússon</name>.
+                        The original beginning of the saga is to be found, cancelled, at the end of <ref type="ms">AM 165 g
+                           fol</ref>. The original end is lost. Used to be part of a larger manuscript.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="48"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="285"/>
+                              <width unit="mm" quantity="190"/>
+                           </dimensions>
+                           <watermark ana="yes">Clown or fool with a large collar. The most central of the five points ends in
+                              three large balls. Similar to watermark in AM 65 fol., but not quite the same. On the front flyleaves,
+                              a large royal watermark can be seen: Two lions holding an emblem with a crown on top. Below the
+                              image, the letters MM are visable. The back flyleaf shows a simple watermark consisting of the
+                              letters ICD.</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliation 1-42 in red ink by <name type="person" role="scholar" key="KriKaa001">Kristian
+                                 Kålund</name></p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines=" 36 38">
+                           <num type="wpl" atLeast="9" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="244"/>
+                              <width unit="mm" quantity="143"/>
+                           </dimensions>
+                           <catchwords ana="yes">Only a few catchwords, e.g. on fols. <locus>32r and 34r</locus>.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#ThoTho003" scope="minor" script="kurrent">
+                        <p>Fols. <locus>1v</locus> and <locus>42r</locus> are written by Þórður Þórðarson, one of <name type="person" key="ArnMag001">Árni Magnússon</name>'s scribes</p>
+                     </handNote>
+                     <handNote scribeRef="#JonGis001" scope="major" script="kurrent">
+                        <p>Fols. <locus from="2r" to="41v">2-41</locus>.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>Fols. <locus>1</locus> and <locus>42</locus> containing the beginning and the end of the
+                        saga have been added for <name type="person" role="commissioner" key="ArnMag001">Árni Magnússon</name>.
+                        The marginalia are written in the same hand as the main text. There are several marginal comments
+                        scattered evenly throughout the codex. In two cases, there is a Latin explanation of a difficult Icelandic
+                        term. The other marginal remarks are merely plot markers. Some of the marginalia are the following: 6v: “Oloff
+                        Saxlenska skialdmeÿ”; 8r: “NB”; 10v: on the avarice of Ólöf; “fothógg pæna”; 10v: “Agnar Hröars.”; 10v:
+                        “leggiabrot pena”; 11r: “NB” and Yrsa exclaims that her mother is evil when her mother tells her about
+                        the Yrsa's incestuous marriage that she has plotted; 12v: “älóg”; 12v: “S. dotter helga kongz or álfkonu”;
+                        13r: “Helgi kongr fellur”; 38r: “Biarka mäl hin fornu i sundurlausum ordum utlógd.” There is an AM-slip
+                        written by Árni Magnússon: <q>Hrolfs saga Kraka. med hendi Jons Gissursonar. Ur bok (elldre enn 1646.) er
+                           eg feck af Sera Hógna Amundasyne</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbeled paper binding. According to a note by <name type="person" role="scholar" key="KriKaa001">Kålund</name> on the inside of the binding, the present binding is from <date when="1911-08-07">1911</date>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1646"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonGis001"/>
+                     <p>The manuscript may have been passed
+                     on to Jón Gissurarson's son <name type="person" role="owner" key="TorJon002">Torfi Jónsson</name>. The
+                     following owner was certainly <name type="person" role="owner" key="ThoTor002">Þórunn Torfadóttir</name>, the
+                     granddaughter of the scribe and the wife of <name type="person" role="other" key="HogAmu001">Högni
+                        Ámundarson</name>, from whom <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     received the codex.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:44.726+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:02.647+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:27.465+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2013-02-05" who="#BES">Added information from TL's diss. To be checked and completed with ms.</change>
+         <change when="2013-02-12" who="#BES">Checked and added missing information with the ms. in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

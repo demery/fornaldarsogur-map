@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 946 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0946-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 946 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Sagnabók af allmörgum meiriháttar fornmönnum ... Með
+                        kostgæfni saman safnað og til dregið af Bjarna Péturssyni annó 1724. </titlePart>
+                     <titlePart>Með kostgæfni saman safnað og til dregið af Bjarna
+                        Péturssyni annó 1724. En nú að nýju á límt og saman bundið af Sólmundi
+                        Jónssyni að forlagi Jóhannesar Jónss., árið eftir Guðs burð 1844.
+                        </titlePart>
+                     <note>Later.</note>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" to="16v"/>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <rubric>Hér byrjast sagan af Hrólfi Gautrekssyni og byrjast fyrst Skafnatungs
+                        þáttur og svo sagan sjálf</rubric>
+                     <note>Gautreks saga is on 2r-16v and Hrólfs saga 16v-66r</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="16v" to="66r"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="66v" to="102r"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <rubric>Hér byrjar Völsunga sagan</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="godkv kvsk">
+                     <locus from="103r" to="106v"/>
+                     <title type="supplied">Útlegging Sigurdrífumála</title>
+                     <title type="uniform">Sigurdrífumál</title>
+                     <note>Key to Sigurdrífumál</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="107r" to="190r"/>
+                     <title type="uniform">Egils saga Skallagrímssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="191r" to="215v"/>
+                     <title type="uniform">Víga-Glúms saga</title>
+                     <note>In front of and to the side of the title: Víga-G[lú]ms sag[a]</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="215v" to="234v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <rubric>Sagan af Þorsteini Víkingssyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="235r" to="267v"/>
+                     <title type="uniform">Bevers saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="268r" to="282v"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="282"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="166"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Added in pencil at cataloguing, sporadic, and again
+                           during restoration </foliation>
+                        <condition ana="average">Was heavily cut when it was bound. Loose from binding
+                           after repair</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="24 25"><!-- verse-prose/separate? -->
+                           <num type="wpl" atLeast="14" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="157"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <note>Has been cut during binding</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <summary/>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Mainly
+                        kurrent but with older features, probably influenced by the apograph. One
+                        hand mainly but leaves 103-106 by a different scribe.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Leaves 1-4, 187,
+                        215-234, 275-282 in a younger hand from 1844. In kurrent script with older
+                        features</handNote>
+                  </handDesc>
+                  <!-- Þarf að skoða með rithandarsamanburði ef hægt er hvort skrifarar séu ekki bara þeir Bjarni Pétursson og Sólmundur Jónsson -->
+                  <decoDesc ana="high">
+                     <decoNote type="initial">Occasional large ornamented initials, especially
+                        at the front and back of the manuscript.</decoNote>
+                     <decoNote type="initial">Ornamented initials: 235r, 268r, 272r. </decoNote>
+                     <decoNote type="initial">Initials in red: 66v </decoNote>
+                     <decoNote type="initial">Title and beginning in red and blue: 107r </decoNote>
+                     <decoNote type="initial">Title and beginning in red: 191r </decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>The manuscript was written in 1724 by <name type="person" key="BjaPet001">Bjarni Pétursson</name> sýslumaður á <placeName>Skarði</placeName>
+                        <locus from="1r" to="1r"/></p>
+                     <p><locus from="1r" to="1r">1r</locus>, name: Jóhannes Jónsson</p>
+                     <p><locus from="190v" to="190v">190v</locus>, name: Bjarni Bæringsson í
+                           Ásgarði</p>
+                     <p>According to P.E.Ó.-catalogue there are three hands</p>
+                     <p>Added leaves: 1-4, 187, 215-234, 275-282</p>
+                     <p>Added leaves, probably written in 1844: (see <locus from="1r" to="1r">1r</locus>)</p>
+                     <p>Leaf <locus from="1r" to="1r">1r</locus> is a titlepage: Sagnabók af
+                        allmörgum meiriháttar fornmönnum ... [maybe here it is Sólmundur farmer at
+                        Mjóaból in Haukadalur, and his neighbour Jóhannes on Smyrlahóll (see Chris
+                        Sanders' edition of Bevers saga)] </p>
+                     <p>Fol. <locus from="1v" to="1v">1v</locus>: Innihald bókarinnar [table of contents]
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Leather on wooden boards, decorated with clasps.</p>
+                        <p>Along with the manuscript there are pieces of paper from the binding,
+                           different sorts of handwritten material, (such as letters).</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1724">1724</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="KriBja001">Kristín Bjarnadóttir</name>
+                        á <placeName>Bæ í Hrútafirði</placeName>, Bæringssonar í Ásgarði?
+                        (front-flyleaf r-side and back-flyleaf v-side).</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:38.286+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:49.928+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:08.111+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:41.824+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-06" who="#SK">Added information from the manuscripts digital version and
+            XML-file on handrit.is and other sources.</change>
+         <change when="2012-09-28">Added the last bit of information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

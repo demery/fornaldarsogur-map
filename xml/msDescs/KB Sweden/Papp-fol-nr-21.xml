@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 21</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-21" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 21</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Historia de Ragnaro Lodbrok, ejusque Filiis</titlePart>
+
+                  </titlePage>
+                  <msItem n="1" class="fas">
+<!--                     <locus from="" to=""/>-->
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar <note>[Latin]</note></title>
+                     <colophon>Calamo properante ad finem usqve produxit s-sc Jonas Wigfusus</colophon>
+                     <textLang mainLang="la"/>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#R-703" ana="antigraph">Uppsala R 703</ref></p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="62"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="322"/>
+                              <width unit="mm" quantity="207"/>
+                           </dimensions>
+                           <watermark ana="yes">Two lions holding a coat of arms with a crown on top. Below the image, "GH" can be
+                              read"</watermark>
+                        </support>
+                        <foliation ana="pag contemporary"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="29">
+                           <note>The outer column is blank.</note>
+                           <num type="wpl" atLeast="3" atMost="4"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="260"/>
+                              <width unit="mm" quantity="65"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonVig011" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>On the first front-flyleaf, a later hand noted <q>Island. Chart. in folio. No 21. Inbunden år 1843 G. O.
+                           H. C. Närvarande öfversättning er gjort och skrifven af Isändaren Jonas Wigfusson. (Se antekningen å
+                           sista sidan).</q> A little slip with the shelf mark is glued on to fol.
+                        <locus>1r</locus></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Cardboard binding with leather spine. In the spine, <q>HIST. de Ragn. Lodbrok. Lat. p. Wigfusson. is
+                              imprinted with golden letters.</q></p>
+                     </binding>
+                  </bindingDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1684" notAfter="1691"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:02.44+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-22" who="#BES">Prepared for visit at the library.</change>
+         <change when="2013-03-05" who="#BES">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

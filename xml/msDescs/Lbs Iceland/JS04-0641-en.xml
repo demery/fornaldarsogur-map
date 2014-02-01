@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 641 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0641-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 641 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="ridd" defective="true">
+                     <locus from="1r:1" to="1r:15" facs="#JS04-0641-0001r"/>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                     <textLang mainLang="non"/>
+                     <explicit>eda øngua þ<ex>an</ex>n skrifade <ex>og</ex> Jlla lærde.</explicit>
+                     <finalRubric>Finis.</finalRubric>
+                     <colophon>Endud þan<ex>n</ex> 22 Dag febrúari Anno 1693 vale</colophon>
+                     <note>Only the very ending survives.</note>
+                  </msItem>
+                  <msItem n="2" class="ridd" defective="true">
+                     <locus from="1r:16" to="6r:16" facs="#JS04-0641-0001v"/>
+                     <title type="uniform">Jóns saga leikara</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eitt æfin<ex>n</ex>tijre af Sine Eins Búrgeis Jone Leiksúene ad Nafne</rubric>
+                     <incipit>CAP I. Þad er upphaf lytillrar frasagnar</incipit>
+                     <note>Fragment</note>
+                  </msItem>
+                  <msItem n="3" class="fas" defective="true">
+                     <locus from="6r:17" to="14v:31" facs="#JS04-0641-0006r"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Þialar Jone Suipdags Syne</rubric>
+                     <incipit>CAP. I. Vilhialmur hefir kongur h<ex>ei</ex>t<ex>ed</ex> er Ried f<ex>yrir</ex>
+                        Valla<ex>n</ex>de</incipit>
+                     <note>Fragment</note>
+                  </msItem>
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="15r:1" to="19v:9" facs="#JS04-0641-0015r"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                     <note>Without a title, fragment.</note>
+                  </msItem>
+                  <msItem n="5" class="fas" defective="true">
+                     <locus from="19v:10" to="28v:30" facs="#JS04-0641-0019v"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Asmunde og Eigle Einhenta</rubric>
+                     <incipit>CAP. I. Hertriggur hefúr köngúr heitid h<ex>ann</ex> Ried f<ex>yrir</ex> austur J Russia</incipit>
+                     <explicit>Þessu næst förú þ<ex>ei</ex>r Asmund<ex>ur</ex>
+                        <ex>og</ex> Herraud<ex>ur</ex> a skip <ex>og</ex> høfdú þ<ex>ei</ex>r Dreka</explicit>
+                     <note>Fragment; ending is missing.</note>
+                  </msItem>
+                  <msItem n="6" class="ridd" defective="true">
+                     <locus from="29r:1" to="38v:29" facs="#JS04-0641-0029r"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <textLang mainLang="non"/>
+                     <incipit>CAP <damage>I</damage> Artús hefúr kongúr heitid</incipit>
+                     <note>Fragment</note>
+                  </msItem>
+                  <msItem n="7" class="ridd" defective="true">
+                     <locus from="39r:1" to="48v:27" facs="#JS04-0641-0039r"/>
+                     <title type="uniform">Flóres saga og Blankiflúr</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Fielegs hefúr kongúr heitid er Ri<ex>ede</ex> f<ex>yrir</ex> Borg þ<ex>ei</ex>re er Afles
+                           h<ex>ei</ex>t<ex>ir</ex></incipit>
+                     <note>Fragment</note>
+                  </msItem>
+                  <msItem n="8" class="ridd" defective="true">
+                     <locus from="49r:1" to="66v:26" facs="#JS04-0641-0049r"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                     <incipit>so stóra o<ex>c</ex> setr hana und<ex>ir</ex> Eyra</incipit>
+                     <note>Fragment; without a title</note>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="66"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <note>One flyleaf has been added, including a table of contents (see additions).</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="156"/>
+                           </dimensions>
+                           <watermark ana="yes">Only on 49r-66v.</watermark>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="poor">Many leaves missing in manuscript; leaves are often badly damaged.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="27 29">
+                           <num type="wpl" atLeast="10" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="128"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#ThoJon029" scope="major" script="kurrent"><name type="person" key="ThoJon029">Þórður
+                           Jónsson</name> á <placeName> Strandseljum</placeName></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Slightly decorated initials throughout.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>A separate folio with a table of contents on both parts of the manuscript is kept at the front of the
+                        manuscript (written by <name type="person" key="PalPal003">Páll Pálsson</name> student).</p>
+                     <!-- Það blað var ekki myndað -->
+                     <p>In the manuscript's register, a <name type="person" key="ThoJon029">Þórður Jónsson</name> á
+                           <placeName>Strandseljum</placeName> is mentioned as the writer of the manuscript. Þórður's handwriting
+                        is on folios <locus from="1r" facs="#JS04-0641-0001r" to="48v">1r-48v</locus>. The register lists folios <locus from="49r" facs="#JS04-0641-0049r" to="66v">49r-66v</locus> as a separate part. They are in another hand, and the
+                        watermarks differ from those in the first part.</p>
+                     <p><name type="person" key="PalPal003">Páll Pálsson</name> stúdent has provided the missing parts of the
+                        sagas and written their titles on notes placed at the relevant parts in the manuscripts.</p>
+                     <p>Names in the manuscript: <name type="person">Einar Jónsson</name> (<locus from="19r" facs="#JS04-0641-0019r" to="19r">19r</locus>), <name type="person">Guðmundur Arasen</name> (<locus from="22v" facs="#JS04-0641-0022v" to="22v">22v</locus>). </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Unbound, separate binding provided.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1693" to="1799"/>
+                     <origPlace key="IS"/>
+                     <note>1r - 48v are written in 1693, but 49r - 66v are from the 18th century.</note>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                     <p>Possible owners (see names above in additions).</p>
+                     <note>From a saga collection in 19 volumes: <ref target="JS04-0623" type="ms">JS 623 4to</ref> - <ref target="JS04-0641" type="ms">JS 641 4to</ref></note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:20.441+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:27.848+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:46.311+02:00" who="#EAH">Extracted pagination and page dimension data from previous
+            version.</change>
+         <change when="2011-05-07T19:18:21.429+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2012-09-11" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2012-10-05" who="#SMM">Information from pictures provided.</change>
+         <change when="2012-11-01" who="#SMM">Provided information on the binding after looking at manuscript in Landsbókasafn and
+            thus completed cataloguing</change>
+         <change when="2013-09-04" who="#OHA">Removed the 3 msPart-s and added missing information (from manuscript).</change>
+         <change when="2013-09-04" who="#BES">Proofread</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

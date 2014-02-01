@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 202 g fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0202g-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 202 g fol.</idno>
+               </msIdentifier>
+               <physDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in a grey cardboard binding with <q xml:lang="is">No 202. g Raudulfs þättr. 2 Exempl:</q> written
+                           on the front board.</p>
+                        <p>On an AM-slip pasted to the inner front board is written: <q xml:lang="is">Raudulfs þattur. 2 Exempl.
+                              Ur bők eg keypte 1711. af Sigurde ä Feriu, og tők sundur j parta, var elldre en<ex>n</ex> 1683.</q>
+                           <q>3. Islandske smä þætter.</q> is crossed out.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1683"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                     <p>According to the AM-slip, <name type="person" role="owner" key="SigMag003">Sigurður á Ferju</name> sold
+                        one of the two fragments in <date when="1711">1711</date>.</p>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 202 g I fol.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="1r">1r</locus>
+                        <title type="uniform" ref="#ngth">Norna-Gests þáttr</title>
+                        <textLang mainLang="non"/>
+                        <note>End of Norna-gests þáttr. Last three lines laid out in a half-diamond pattern. Whole page heavily Crossed
+                           out</note>
+                     </msItem>
+                     <msItem n="2" class="konth">
+                        <locus from="1v:1" to="9v:30">1v-9v</locus>
+                        <title type="uniform">Rauðúlfs þáttr</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Rauðwlfs þättr og sona h<ex>a</ex>ns</rubric>
+                        <incipit>Wlfur hiet madur og var kalladur Raudwlfur, Ragnhilldur híet kona h<ex>a</ex>nz</incipit>
+                        <explicit>o<ex>g</ex> ætlade ad Jn<ex>n</ex>taka Noreg s<ex>e</ex>m s<ex>ei</ex>ger J sogu Olaffs kongs
+                           haralldz sonar.</explicit>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="9"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="295"/>
+                                 <width unit="mm" quantity="185"/>
+                              </dimensions>
+                              <watermark ana="yes">Oval-shaped watermark with a snake on a cross in the centre and a crown on top.
+                                 At the foot of the cross, the letters H and S can be read. The same watermark as in AM 202 i fol
+                                 and AM 202 k fol (part AM 202 k II fol).</watermark>
+                           </support>
+                           <foliation ana="later fol">
+                              <p>Foliated 1-9 on the top outer corners.</p>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="34 37">
+                              <num type="wpl" atLeast="8" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="238"/>
+                                 <width unit="mm" quantity="145"/>
+                              </dimensions>
+                              <catchwords ana="no">Only catchwords on fol. <locus from="4v" to="5r">4v and
+                                 5r</locus>.</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonGis003" scope="sole" script="early kurrent"/> 
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="medium"> </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 202 g II fol.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="konth">
+                        <locus from="10r:1" to="11v:65">10r-11v</locus>
+                        <title type="uniform">Rauðúlfs þáttr</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Raudőlfs þätt<ex>ur</ex> og sona h<ex>a</ex>ns</rubric>
+                        <incipit>Wlf<ex>ur</ex> h<ex>iet</ex> m<ex>adur</ex> o<ex>g</ex> v<ex>ar</ex> kallad<ex>ur</ex>
+                              Raudvlf<ex>ur</ex> hrafnhilld<ex>ur</ex> h<ex>iet</ex> kona h<ex>ans</ex></incipit>
+                        <explicit>o<ex>g</ex> hafdj e<ex>kki</ex> f<ex>ærr</ex>e skip en<ex>n</ex> xij. Ender aa þeßum Raudolfz
+                           þætte.</explicit>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="2"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="297"/>
+                                 <width unit="mm" quantity="186"/>
+                              </dimensions>
+                              <watermark ana="yes">Letters or numbers, one of them possibly an '8'</watermark>
+                           </support>
+                           <foliation ana="later contemporary fol">
+                              <p>Original foliation 147-148 and current foliation 10-11 on top outer corners.</p>
+                           </foliation>
+                           <condition ana="average">pages trimmed; some of the text in the side margins missing. Marginalia
+                              written by scribe.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="63 65">
+                              <num type="wpl" atLeast="18" atMost="25"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="273"/>
+                                 <width unit="mm" quantity="164"/>
+                              </dimensions>
+                              <catchwords ana="yes">catchwords and pseudo-catchwords, filling about half a line.</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="chancery">
+                           <!-- not sure to what this locus element refers -->
+<!--                           <locus from="10r" to="11v"/>-->
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <!-- need some sort of description of these additions! -->
+                     <additions ana="medium"/>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:00.727+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:12.533+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:23.107+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:37.772+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:16.535+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-01-17" who="#BES">Added missing information from the ms. itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

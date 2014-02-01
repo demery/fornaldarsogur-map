@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 930 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0930-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 930 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="ridd">
+                     <locus from="1r:1" to="25r:14"/>
+                     <title type="uniform">Flóvents saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hjer Skrifast Sagan af Flóvent, Frakka Konúngji.</rubric>
+                     <incipit>Saga þessi er eí af Lokleiso Þeír<ex>r</ex>i er Sumir men<ex>n</ex> óscírir gjora sjer til gamans</incipit>
+                     <explicit>þ<ex>ei</ex>m s<ex>e</ex>m lifir oc rytirum[?] aldir alda</explicit>
+                     <finalRubric> oc lycr her so sogo þeZ n<gap reason="illegible"/>ega Flovents Fracca kongs.</finalRubric>
+                  
+                  </msItem>
+                  
+                  <msItem n="2" class="ridd">
+                     <locus from="25r:15" to="34v:16"/>
+                     <title type="uniform">Hercúlianus saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagann af Herculianus Sterka <ex>og</ex> Septuse Hinum<ex>m</ex>
+                        Frækna, og þeirra Köppumm.</rubric>
+                     <incipit>Dátm<ex>or</ex>dr h<ex>e</ex>fr k<ex>on</ex>gr h<ex>ei</ex>t<ex>id</ex>, er
+                        riedi f<ex>irir</ex> Indial<ex>an</ex>di</incipit>
+                     <explicit>stó<supplied reason="damage">r</supplied> vinátta m<ex>ed</ex> þ<ex>ei</ex>m medan þ<ex>ei</ex>r lifdu</explicit>
+                     <colophon>er so saga þ<ex>ess</ex>i á enda, e<supplied reason="damage">r</supplied> sagnameistarin<ex>n</ex> 
+                        Týlus hefur samsett.</colophon>
+                  
+                  </msItem>
+                  
+                  <msItem n="3" class="ridd" defective="true">
+                     <locus from="35r:1" to="50v:22"/>
+                     <title type="uniform">Flóres saga ok Blankiflúr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Flórent og Blankinflúr</rubric>
+                     <incipit>Felix h<ex>e</ex>fr k<ex>on</ex>gr h<ex>ei</ex>t<ex>id</ex></incipit>
+                     <explicit defective="true">en sverd sitt hafdi han<ex>n</ex> <supplied reason="damage" instant="false">be</supplied>rid, 
+                        og er hann kom í herbergi 
+                        Bl<ex>anki</ex>fl<ex>úr</ex> bad han<ex>n</ex>
+                        svein <gap reason="damage"/> mætti in<ex>n</ex></explicit>
+                     
+                     <note>Defective. Lacks ending.</note>
+                  
+                  </msItem>
+                  
+                  <msItem n="4" class="fas">
+                     <locus from="51r:1" to="99v:19"/>
+                     <title type="supplied">Völsunga saga and Ragnars saga loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Volsúngum, Gjúkúngum, Buðlungum, Ragnari
+                        konúngi Loðbrók, og Sonum Han<ex>n</ex>s.</rubric>
+                  
+                     <note>Label with title pasted over earlier text (now illegible) on fol. <locus>51r</locus>. No formal
+                     distinction between texts. Ragnars saga begins with ch. XLI on fol. 81r.</note>
+                     
+                     <msItem n="4.1" class="fas" defective="true">
+                        <locus from="51r:1" to="81r:12"/>
+                        <title ref="#vs" type="uniform">Völsunga saga</title>
+                        <incipit defective="true">Eylime hefur k<ex>on</ex>gr heitid rýkr og ágiætur, dóttir
+                           h<ex>an</ex>s hiet Herðar</incipit>
+                        <explicit>og þa flugu steinar úr öll<ex>um</ex> átt<ex>um</ex> ad
+                           þ<ex>ei</ex>m, og vard þ<ex>ei</ex>m þad ad alldr lægi.</explicit>
+                        
+                        <note>Defective. Begins with chapter 11.</note>
+                                             
+                     </msItem>
+                     
+                     <msItem n="4.2" class="fas" defective="true">
+                        <locus from="81r:13" to="99v:19"/>
+                        <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                        <incipit>Heimr í Heimsdøl<ex>um</ex> spyr nú þ<ex>ess</ex>i tydindi, ad
+                           daudr er Sigrdr <ex>og</ex> Brínhilldr</incipit>
+                        <explicit defective="true">er fóru um lönd ad leita ef <gap reason="damage"/> nokurn höfdíngia, 
+                           þan<ex>n</ex> er þ<ex>ei</ex>m þætti ej svívyrdíng í ad þióna</explicit>
+                        
+                        <note>Defective. Lacks ending.</note>
+                                                                                       
+                     </msItem>
+                     
+                     <note>Völsunga saga and Ragnars saga treated as one text.</note>
+                                       
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="99"/>
+                           <num type="back-flyleaf" value="0"/>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="196"/>
+                              <width unit="mm" quantity="172"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">Part of a fence with 'H K...' below it visible on fol. <locus>72</locus> and several other
+                           leaves throughout. Multiple other watermarks also present.</watermark>
+                           
+                        </support>
+                        
+                        <foliation ana="pag">
+                           <p>Paginated 1-50 in the top outer corners, then only on recto pages.</p>
+                        </foliation>
+                        
+                        <condition ana="average">
+                           <p>Numerous leaves have been repaired due to damage with some loss of text. Marginal repairs
+                           contain traces of Icelandic printed waste. Margins of several leaves (fols. 25ff.) cropped with
+                           some loss of text.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 37">
+                           <num type="wpl" atLeast="11" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="minor" script="cursiva">Written in at least two hands, both unknown. 
+                        Hand I covers fols. <date>1r-25r</date></handNote>
+                     <handNote scribeRef="unknown" scope="major" script="cursiva"> Hand II covers fols. <date>25v-99</date>r.</handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Front pastedown, rear pastedown and front flyleaf contain manuscript waste from an account book; dated 1833 with the name
+                        <q>Jone Gudmundson(?)</q> on first flyleaf recto. Dated 1836 with the name <q>Stephan Stephansen</q>
+                        on rear pastedown. Contains occasional marginal emendations.
+                        Multiple autographs on fol. <locus>99v</locus>: <q xml:lang="is">Gudmundsdotter, Odda Ragn<gap/></q>
+                     </p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in mid-19th c.(?) brown-dyed vellum. Some basic decoration resembling raised bands on the spine.</p>
+                     </binding>							
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Written <origDate notBefore="1790" notAfter="1810">c. 1800</origDate>.</p>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:47.089+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:45.65+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:42:10.105+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:47.191+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-06-18" who="#JSL">Added information from handrit and Kålund catalogs.</change>
+         <change when="2013-07-17" who="#JSL">Cataloged from manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

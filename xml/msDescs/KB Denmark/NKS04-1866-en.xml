@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1866 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1866-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1866 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 28 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <note>In the bottom margin of the title-pape, <q>Pinxit HKF(?)</q> can be read.</note>
+                  </titlePage>
+                  <msItem n="1" class="edd">
+                     <locus from="1" to="160v"/>
+                     <title type="uniform">Eddukvæði</title>
+                     <rubric>Edda Sæmundar Prestz ins Fröda Sigfussonar at Odda</rubric>
+                     <rubric>Vølospaa</rubric>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="GKS04-2365-en" ana="protograph">based on GKS 2365 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="edd">
+                     <locus from="161r" to="162vb:18"/>
+                     <title type="uniform">Hrafnagaldur Óðins</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="edd">
+                     <locus from="162vb:19" to="164ra:16"/>
+                     <title type="uniform">Baldurs draumur</title>
+                     <rubric>Vegtamskviða</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="edd">
+                     <locus from="164ra:17" to="166rb:16"/>
+                     <title type="uniform">Fjölsvinnsmál</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="edd">
+                     <locus from="166rb:17" to="169ra:28"/>
+                     <title type="uniform">Hyndluljóð</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="edd">
+                     <locus from="169ra:29" to="169vb:29"/>
+                     <title type="supplied">Grógaldur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="edd">
+                     <locus from="169vb:30" to="171vb:13"/>
+                     <title type="supplied">Grottasöngur</title>
+                     <textLang mainLang="non"/>
+                     <note>including formáli</note>
+                  </msItem>
+                  <msItem n="8" class="gat fas">
+                     <locus from="171v:14" to="174v"/>
+                     <title type=" uniform" ref="#hs">Hervarar saga [Riddles]</title>
+                     <title type="parallel">Heiðreksgátur</title>
+                     <title type="parallel">Getspeki Heidreks Kongs</title>
+                     <textLang mainLang="non"/>
+                     <note>including formáli</note>
+                  </msItem>
+                  <msItem n="9" class="edd">
+                     <locus from="175r" to="178rb:11"/>
+                     <title type="uniform">Sólarljóð</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="drott isl">
+                     <locus from="178r:12" to="179r"/>
+                     <title type="uniform">Egils saga Skallagrímssonar [Verses]</title>
+                     <title type="parallel">Sonatorrek</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="180"/>
+                           <num type="back-flyleaf" value="4"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="197"/>
+                              <width unit="mm" quantity="151"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort "ProPatria"; coat of arms</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">Paginated 1-357 (with mistakes)</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="28 42">
+                           <num type="wpl" atLeast="2" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="chancery">chancery fractura for rubrics and
+                        titlepage</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">rubrics and initials decorated</decoNote>
+                     <decoNote type="paratext">squiggles and other decoration</decoNote>
+                  </decoDesc>
+                  <additions ana="medium"><p> Numerous notes and additions to the text in item 8; added later, but possibly by the
+                        scribe himself. Otherwise notes and additions are incorporated into the text or in the right column if
+                        empty. On the second and third front flyleaves, there are notes by bishop <name key="PedHer001" type="person" role="scholar">Herslebs</name>. <name key="ChrLux001" type="person" role="owner">Luxdorph</name>'s autograph on the verso side of the third front flyleaf.</p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <!-- looks contemporary and has Luxdorff's library symbol but has the same spine imprint as the manuscripts from Suhm's collection. -->
+                        <p>Embossed leather on cardboard with the library mark of <name key="ChrLux001" type="person" role="owner">Luxdorff</name>; fore-edge painted red; marbled paper as pastedown. On the spine, there is a golden imprint:
+                           title of item 1 and floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1750"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="owner"/>
+                     <name key="ChrLux001" type="person" role="owner"/>
+                     <p>Formerly Suhm's collection no 28 4to; </p>
+                     <p>"e bibl. Luxdorph"</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:49.725+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-05-07" who="#BES">Added catalog info.</change>
+         <change when="2013-06-03" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

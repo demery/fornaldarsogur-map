@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 62 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB02-0062-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 62 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="69r">1r-69r</locus>
+                     <title type="uniform">Knýtlinga saga</title>
+                     <rubric>Ævi Danakonunga. Knitlinga saga</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="kon">
+                     <locus from="69v" to="239v">69v-239v</locus>
+                     <title type="uniform">Magnúsar saga góða</title>
+                     <rubric>Ævi Noregskonunga eður saga af Magnúsi Konungi Góða og hans
+                        eftirkomurum</rubric>
+                     <textLang mainLang="non"/>
+                     <note>On fol. <locus from="69v" to="69v">69v</locus> can be read:
+                           <q>Samanskrifuð af <name type="person" key="EirOdd003">Eiríki
+                              Oddssyni</name> vid. pag. 424</q></note>
+                  </msItem>
+                  <msItem n="3" class="konth">
+                     <locus from="239v" to="246v">239v-246v</locus>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <rubric>Af Hemingi Áslákssyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="248r" to="250v">248r-250r</locus>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <rubric>Af Hálfi konungi og Rekkum hans</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="251r" to="260v">251r-260v</locus>
+                     <title type="uniform">Eiríks saga rauða</title>
+                     <rubric>Af Eiríki hinum Rauða</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="bisks">
+                     <locus from="260v" to="285v">260v-285v</locus>
+                     <title type="uniform">Lárentíus saga biskups</title>
+                     <rubric>Saga Lárentínusar Hólabiskups. Prologus</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="bisks">
+                     <locus from="286r" to="324v">286r-324v</locus>
+                     <title type="uniform">Hungurvaka</title>
+                     <rubric>Hungurvaka. Einn lítill bæklingur af fáum biskupum sem verið hafa á
+                        Íslandi þeim fyrstu, og hvernig Skálholt er fyrst byggt og þar settur
+                        biskupsstóll og af hverjum það var tilsett</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" defective="true" class="kvad">
+                     <locus from="324v" to="329r">324v-329r</locus>
+                     <author key="EinSig001">Einar Sigurðsson</author>
+                     <title type="uniform">Ævisöguflokkur</title>
+                     <rubric>Ævisöguflokkur Sr. Einars Sigurðssonar í Eydölum gjörður annó 1616 með
+                        Drápulag</rubric>
+                     <incipit>Upp skal byrjast Einars drápa</incipit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="kvad">
+                     <locus from="329r" to="331r">329r-331r</locus>
+                     <author key="EinSig001">Einar Sigurðsson</author>
+                     <title type="uniform">Barnatöluflokkur</title>
+                     <rubric>Catalogus eða Barnatöluflokkur sr Einars Sigurðssonar í Eydölum, þeirra
+                        sem á lífi voru til fjórða liðar anno 1626. Hvern flokk hann orti, þá hann
+                        var 72 ára</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="331"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="305"/>
+                              <width unit="mm" quantity="195"/>
+                           </dimensions>
+                           <note>Fols. 132r and 247 are blank.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag later"><p>Contemporary pagination 1-575, later pagination 577-657</p>
+                        </foliation>
+                        
+                        <condition ana="good">In rather good condition following conservation, but the book-block and individual
+                           leaves have since been loose in the binding.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="33 37">
+                           <num type="wpl" atLeast="11" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="280" atMost="275"/>
+                              <width unit="mm" atLeast="145" atMost="155"/>
+                           </dimensions>
+                           <catchwords ana="yes">Catchwords on each verso side</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">Hand I. <locus>1r-70r</locus></handNote>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Hand II. <locus>70v-331r</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="initial" subtype="decorated">Coloured initials, headings and rubrics</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>On page <locus from="68v" to="68v">69v</locus> at the rubric of <title type="uniform">Magnus
+                     saga góða</title> is written: <q>Samanskrifuð af <name type="person" key="EirOdd003">Eiríki
+                        Oddssyni</name></q> and <q>vid. pag. 424</q>
+                  </p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="false" from="1807" to="1860">
+                        <p>Brown leather on wooden boards, decorated with traces of gilding. A
+                           reused binding from a merchant's book in Flatey: KRAMBOD BOG FOR FLATÖE
+                           HANDEL 1799</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     
+                     <origDate notBefore="1750" notAfter="1790"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance><p>The name of <name type="person" key="GudJon044" role="signatory">Guðmundur Jónasson</name>
+                     is written on fols. <locus from="273v" to="273v">273v</locus>, 
+                     <locus from="275v" to="275v">275v</locus> and <locus from="331v" to="331v">331v</locus>. 
+                        </p>
+                     <p>Other names on the front fly-leaves:
+                        <locus from="0001r-FFI" to="0001r-FFI">1r</locus>: 
+                        <name type="person" role="signatory" key="ambig">Jón Svendson (1789)</name>, 
+                        <locus from="0002r-FFI" to="0002r-FFI">2r</locus>: 
+                        <name type="person" key="PetGud002" role="signatory">Pétur Guðlaugsson</name>, 
+                        <name type="person" key="PetPal002" role="signatory">Pétur Pálmason</name> 
+                        and <name role="signatory" type="person" key="ambig">Skúli Árnason</name>.
+                     On <locus from="0002v-FFI" to="0002v-FFI">2v</locus> can be read: 
+                        <name type="person" key="DadNie001" role="signatory">Daði Níelsson</name> 1851.</p>
+                     <p> Names on the back fly-leaves: 
+                     <locus from="9901r-RFI" to="9901r-RFI">1r</locus>: 
+                        <name type="person" key="ambig" role="signatory">Sigurður Þórðarson</name>, 
+                        <name type="person" key="ambig" role="owner">Bergur Bergsson</name>. 
+                     <locus from="9901v-RFI" to="9901v-RFI">1v</locus> reads: 
+                        <q>Bergur
+                        Bergsson á þessa bók með réttu</q>, and 
+                        <locus from="9903r-RFI" to="9903r-RFI">0003r</locus>: 
+                        <name type="person" key="MagAnd002" role="signatory">Magnús
+                           Andrésson</name>. </p>
+                     <p>On paper slips from the binding the following names can be read: 
+                        <name type="person" role="signatory" key="ambig">Gunnlaugsdóttir í Svefney</name> (1803); 
+                        <name type="person" key="GudBjo008" role="signatory">Guðrún Björnsdóttir</name> Efri Þverá </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- Hér er sú fræga bók ÍB 62 fol sem svo er lýst í Handritaskrá P.E.Ó.: "Sögubók skr. ca 1770 (Knýtlingasaga ofl.) 
+         er ekki unnt að lýsa nánar með því að handr er í láni utnalands." Getur svo sem vel hafa verið í AM Kph. og því e.t. 
+         v. til myndir af því þar. -->
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:49.579+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-05" who="#SK">Catalogued using the manuscript itself and XML-file on handrit.is </change>
+         <change when="2013-08-05" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

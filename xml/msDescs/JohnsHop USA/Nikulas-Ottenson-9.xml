@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+   
+      <fileDesc>
+         <titleStmt>
+            <title>Nikulás Ottenson 9</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Nikulas-Ottenson-9" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#JHU">Johns Hopkins University, Baltimore</repository>
+                  <idno>Nikulás Ottenson 9</idno>
+               </msIdentifier>
+               <msContents>
+               <titlePage ana="contemporary">
+                  <titlePart>Hér skifast, Søgu=book; árit= 1847. Samanskrifud af. nidursetning Sigurde Johan<ex>n</ex>es Syni</titlePart>
+               </titlePage>
+               <msItem n="1" class="regist">
+                  <locus from="1" to="1:10"/>
+                  <title>Innihaldid</title>
+               </msItem>
+                  <msItem class="forns" n="2">
+                     <locus from="1:11" to="126"/>
+                     <title type="supplied">Remundar saga Rígardssonar</title>
+                     <rubric>Sagan af Remunde=Rigards Sini</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                     <note>cf. Lbs. 1491-1510, 4to.</note>
+                  </msItem>
+                  <msItem class="?" n="3">
+                     <locus from="127" to="128"/>
+                     <title type="supplied">Sagan af Kokka-píunni</title>
+                     <rubric>Sagann af Kocka=Piunne Goo<supplied reason="damage">de</supplied></rubric>
+                     <incipit>Eirn rik<ex>ur</ex> húsvert hélt eitt sin<ex>n</ex> eina únga <ex>og</ex> lifluga Kocka-píu.</incipit>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="ridd" n="4">
+                     <locus from="129" to="158"/>
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <rubric>Sagann af Sigu<ex>r</ex>di fót og Asmundi húna kongi</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="sagnfr" n="5">
+                     <locus from="159" to="160"/>
+                     <title type="supplied">Saga Júlíus Sesars</title>
+                     <rubric>Æfin<ex>n</ex>tírid. af Júlianum keisara Trúaníding</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="ridd" n="6">
+                     <locus from="161" to="233"/>
+                     <title type="uniform">Konráð saga keisarasonar</title>
+                     <rubric>Sagan af Conrad keisarasin</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="ridd" n="7">
+                     <locus from="234" to="237"/>
+                     <title type="supplied">Saga af rómverskum narra</title>
+                     <rubric>Æfin<ex>n</ex>tírid. af Romverska Narranumm</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="fas" n="8">
+                     <locus from="238" to="294:10"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <rubric>Sagan<ex>n</ex> af. Þiølar=Joone</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="?" n="9">
+                     <locus from="294:11" to="295"/>
+                     <!-- title? -->
+                     <title type="uniform"/>
+                     <rubric>Sagan af þeim þiska Nianni sem Reisti til Saxen</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="ridd" n="10">
+                     <locus from="296" to="342"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <rubric>Sagan af Jallmann og Herman<ex>n</ex> k<ex>on</ex>ge</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="ridd" n="11">
+                     <locus from="243" to="353"/>
+                     <title type="uniform">Lucians saga og Getúlu</title>
+                     <rubric>Sagan af. Lucius Emremus syne</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <colophon>Endur Skrift af Bók þessara þan 21. Februarius - 1848. Af Jóhanness[...]</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="177"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <!-- watermark note commented out; does not display properly -->
+<!--                           <watermark ana="no">unlikely</watermark>-->
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21 26">
+                           <num type="wpl" atLeast="7" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="153"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="#SigJoh002" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">Title page is decorated and written with red ink. Initials and rubrics decorated with black or brown ink</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>A few comments and additions, probably in the hand of the scribe. Later additons on the inside of the binding: <q>Björn og Sigurbjörg a Hofbirgi(?) Þikuldals á þessa bók [...] sjottu. Þad vitna þau sjálf</q> <q>Januarius 12/3</q><q>Björn / Sigur</q></p>
+                   </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Bound in light brown leather. Printed paper used as support. Gatherings falling apart.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1847" to="1848"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>Previously owned by Björn and Sigurbjörg á Hofbirgi(?) Þikudal/Jökuldal(?) [cf. binding note].</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:51.274+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2012-12-14" who="#BES">Prepared file for vistit at the library.</change>
+         <change when="2013-01-10" who="#BES">Added information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

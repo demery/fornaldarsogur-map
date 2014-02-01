@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 202 k fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0202k-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 202 k fol.</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="32"/>
+                           <num type="back-flyleaf" value="1"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The manuscript was formerly bound during <name type="person" key="KriKaa001">Kålund</name>'s
+                           time with a black spine and corners and marbled paper. This older binding is stored together with the manuscript. AM
+                           202 k fol. is now bound in a standard BD-binding measuring <height unit="mm">351</height> x
+                           <width unit="mm">235</width> x
+                           <depth unit="mm">19</depth>. </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Written in <origPlace key="IS">Iceland</origPlace> in the <origDate notBefore="1600" notAfter="1699">seventeenth century</origDate>.</p>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>                     
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 202 k I fol.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"> </titlePage>
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="1r:41">1r</locus>
+                        <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                        <textLang mainLang="non"/>
+                        <note>Crossed out</note>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="1v:1" to="13v:26">1v-13v</locus>
+                        <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                        <title type="parallel">Hervarar saga ok Heiðreks konungs</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan Af Heidreke kongi og hans ættmonnum</rubric>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="14"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="323"/>
+                                 <width unit="mm" quantity="213"/>
+                              </dimensions>
+                              <note>The lower margin on fol. <locus from="1r" to="1v">1</locus> and fol. <locus from="12r" to="12v">12</locus> has not been trimmed, probably due to pre-existing marginalia. The total height of
+                                 these two leaves is <height unit="mm" quantity="340">340mm</height>.</note>
+                              <watermark ana="yes">On fols. <locus from="1r" to="7v">1r-7v</locus> and on fols. <locus from="11bis" to="13v">11bis-13v</locus>, the same watermark can be seen: a crown-like shape(foolscap?) with
+                                 extended points ending in small circles. Most likly the same
+                                 watermark as in AM 193 a fol. On Fols. <locus from="8r" to="11v">8r-11v</locus> the watermark is
+                                 different.</watermark>
+                           </support>
+                           <foliation ana="later fol">
+                              <p>Foliated 1-13 in top outer corner by <name type="person" role="scholar" key="KriKaa001">Kålund</name>.</p>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1 2" writtenLines="30 48">
+                              <!--30 to 33 lines per page (fols 7v:34-11r) 
+                                 and 46 to 48 lines per page (fols 1v-7v and 12r-13v)-->
+                              <num type="wpl" atLeast="8" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="230"/>
+                                 <width unit="mm" quantity="142"/>
+                              </dimensions>
+                              <catchwords ana="yes">Catchwords on fols 1r-7r and 11v-13r.</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" scope="major" script="unknown"/> 
+                        <handNote scribeRef="unknown" scope="minor" script="chancery"/> 
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="high">
+                        <p><name type="person" role="scholar" key="ArnMag001">Árni Magnússon</name> compared this version with,
+                           and corrected it according to <q xml:lang="la">Membranâ Bibliothecæ Regiæ</q> and a paper manuscript <q xml:lang="la">qvod fuit olim Brynolfi Svenonii Episcopi Scalholtensis.</q> An AM slip with the shelf
+                           mark and <q>Heidreks-Saga</q> is bound in with the manuscript. A slip containing the beginning of the
+                           Heiðreks gátur was pasted on the bottom of fol.<locus from="7v" to="7v">7v</locus>. The original blank
+                           fol. <locus from="11v" to="11v">11v</locus> was pasted over with a leaf, now 11bis-11v, containing the
+                           Heiðreks gátur (on fol. 11bis) and the continuation of Hervarar saga ok Heiðreks konungs. The text is
+                           crossed out. Both the slip and the leaf were removed during restoration in 1976 and are now bound with
+                           the manuscript.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 202 k II fol.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="14r:1" to="31r:13">14r-31r</locus>
+                        <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                        <title type="parallel">Hervarar saga ok Heiðreks konungs</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Søguþättur af heydreks konge og hans ættmunnum</rubric>
+                        <note>Open space on fols. 18v-19r to indicate a lacuna. <name type="person" key="BjoJon006">Björn
+                              Jónson</name> of <name type="place">Skarðsá</name>'s commentary on the <title type="supplied">Heiðreks gátur</title> is included.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="18"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="281"/>
+                                 <width unit="mm" quantity="184"/>
+                              </dimensions>
+                              <watermark ana="yes">Oval-shaped watermark with a snake on a cross in the centre and a crown on top.
+                                 At the foot of the cross, the letters H and S can be read. The same watermark as in AM 202 i fol.
+                                 and AM 202 g fol. (Part AM 202 g I fol.).</watermark>
+                           </support>
+                           <foliation ana="later contemporary fol">
+                              <p>Foliated 14-31 in top outer corners by <name type="person" key="KriKaa001">Kålund</name>. Traces
+                                 of an older foliation on the bottom outer corners.</p>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1 2" writtenLines="33 41">
+                              <num type="wpl" atLeast="4" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="236"/>
+                                 <width unit="mm" quantity="142"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonGis003" scope="sole" script="early kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Some marginalia.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <provenance>
+                        <p>This part of the manuscript was previously kept with <ref type="ms">Addit. 4 fol.</ref>
+                        </p>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:01.565+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:13.094+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:38.337+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:17.081+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-01-23" who="#BES">Missing information added from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

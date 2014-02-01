@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Winnipeg MS 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Winnipeg-MS-8vo" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#EDL">The Icelandic Collection, Elizabeth Dafoe Library, Winnipeg, Canada</repository>
+                  <idno>Winnipeg MS 8vo</idno>
+               </msIdentifier>
+               <msContents>
+
+                  <msItem n="1" class="tjos">
+                     <locus from="1r" to="60v"/>
+                     <title type="supplied">1001 Nights <note>[Excerpts, Icelandic]</note></title>
+                     <rubric>Hier skrifast sagan af Prins Calaf og Prinsessu Tura</rubric>
+                     <note>According to Sigurgeir Steingrímssonar a translation belonging to the collection of <title>Þúsund og
+                           einum degi</title>, but is not known anywhere else.</note>
+                     <note>36 chapters</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="avint">
+                     <locus from="61r" to="72v"/>
+                     <title type="supplied">Ævintýri af Bryði</title>
+                     <rubric>Eitt æfintír af einum fursta er kalladur er Bryde hvur er komst til storss heidurs erptir langar
+                        þrautir og mædu, hvad historian útvisar</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="73r" to="unknown"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <colophon>Endad þann 7. Aprilis 1832 af Gunnlaugij Jonssyni ä Strönd i Vallaneskyrjusókn</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="other">
+                     <!--                     <locus/>-->
+                     <title type="supplied">Assorted unidentified texts</title>
+                  </msItem>
+
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block">at least ca. 100</num>
+                           <watermark ana="unknown"/>
+                           <dimensions type="leaf">
+                              <height unit="mm">manuscript in 8vo</height>
+                              <width unit="mm">manuscript in 8vo</width>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="#GunJon006" scope="major" script="unknown">Item three is in the hand of Gunnlaugur Jónsson</handNote>
+                  </handDesc>
+                  <!--<decoDesc ana="">
+                     <decoNote/>
+                  </decoDesc>
+                  <additions ana=""><p></p></additions>-->
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1832"/>
+                     <origPlace key="IS"/>
+                     <note>Item 3 was completed in 1832.</note>
+                  </origin>
+                  <provenance>
+                     <name key="JonBja001" type="organisation" role="owner"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2013-06-25" who="#BES">Created enty based on Einar G. Pétursson's notes.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

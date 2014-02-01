@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Thott 514 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Thott08-0514-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Thott 514 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/> 
+                  <msItem n="1" class="fre?">
+                     <locus from="2r" to="14v"/> 
+                     <title type="supplied">On the Turkish abductions of Vestmannaeyjar 1627</title>
+                     <rubric><gap/> þau sorglegu hrigdar tydinde i Vestmanna Eyum 1627</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="landfr">
+                     <locus from="15r" to="16v"/>
+                     <title type="supplied">On fjords, bays and distances in Iceland</title>
+                     <rubric>Fiarda Tal I kringum<ex>m</ex>allt Island</rubric> 
+                     <textLang mainLang="is"/> 
+                  </msItem>
+                  <msItem n="3" class="ferds fre">
+                     <locus from="17r" to="44v"/>
+                     <title type="supplied">Summary of Ólafur Egilsson's report on the Turkish abductions</title> 
+                     <rubric>Nocud Samtak af Reysukuere se<ex>ra</ex> Olafs Eigelssonar [...]</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="islt">
+                     <locus from="45r" to="54r"/>
+                     <title type="uniform">Jökuls þáttur Búasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="54v" to="80v"/>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="81r" to="81v"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka [Extract]</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Marbendilz Æfuen<ex>n</ex>tyre</rubric>
+                     <incipit>Tueir fedgar J Noreige Reru aa(?) fiski, hiet an<ex>n</ex>ar Handir</incipit>
+                     <explicit>mad<ex>ur</ex> up<ex>pi</ex> skip af marar botnum<ex>m</ex>.</explicit>
+                     <note>older vers.</note>
+                     <filiation>
+                        <ref type="ms" target="#GKS04-2845-en" ana="protograph">derived from GKS 2845 4to</ref>
+                     </filiation>
+                     <colophon>Þetta marbendillz æfin<ex>n</ex>tyr hef eg skrifad Indridi Steinþorsson</colophon> 
+                     <msItem n="6.1" class="laus">
+                        <locus from="81v" to="81v"/>
+                        <title type="supplied">Verse on owner</title>
+                        <note>"Sigurdur Guendzson" is said to own the text</note>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="7" class="almb">
+                     <locus from="82r" to="101v"/>
+                     <title type="uniform">Salomons saga og Markólfs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="person alf">
+                     <locus from="102r" to="147v"/>
+                     <title type="supplied">Biography of Aesop</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="fabler?">
+                     <locus from="148r" to="214v"/>
+                     <title type="supplied">Some of Aesop's fables</title>
+                     <rubric>Nu Epter filgia Nockrer Dictar. Fabel og Lærdomar Æsopi</rubric>
+                     <textLang mainLang="is"/> 
+                  </msItem>
+                  <msItem n="10" class="avint">
+                     <locus from="216r" to="271v"/>
+                     <title type="supplied">Æfintýri</title>
+                     <rubric>Þetta epter filgiande fin<ex>n</ex>st skrifad i Gömlum fræðe Bókum vm<ex>m</ex> Antachrist</rubric>
+                     <note>43 texts, plus in the beginning Umm Antachrist,
+                        Umm vpp Runa Machoments,Vm<ex>m</ex>Pavan<ex>n</ex>
+                        and Vmm Adam (fols. 216r-222v)</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="parson">
+                     <locus from="272r" to="283r"/>
+                     <title type="supplied">Biography of Martin Luther</title>
+                     <rubric>Lyfs saga Vors Elskulega Martini Lutheri [...]</rubric>
+                     <textLang mainLang="is"/> 
+                     <colophon>Skrifad og samann Dreiged Af Eigandanum Hannese Paalssyne
+                     ad Hnyffs Dal nedre vid Skutulsfi<ex>or</ex>d og af honum. Endad þan<ex>n</ex>xxviij. 
+                        Januarij An<ex>n</ex>o M.: DCC: XL: I.</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="283"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="158"/> 
+                              <width unit="mm" quantity="96"/>
+                           </dimensions>
+                           <!-- No watermarks on fols. 2-96? -->
+                           <watermark ana="yes">only fols. <locus>1</locus> and <locus>97-283</locus></watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>In various hands</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 25">
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="120" atMost="140"/>
+                              <width unit="mm" atLeast="70" atMost="80"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                     <handDesc hands="5">
+                        <handNote scribeRef="unknown" scope="minor" script="hybrida"><locus from="2r" to="2r"/> and <locus from="17r" to="44v"/></handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent"><locus from="2v" to="16v"/></handNote>
+                        <handNote scribeRef="#IndSte001" scope="minor" script="kurrent"><locus from="45r" to="81v"/></handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="early kurrent"><locus from="82r" to="96v"/> mixed script</handNote>
+                        <handNote scribeRef="#HanPal003" scope="major" script="early kurrent"><locus from="1r" to="1r">Titlepage</locus> and <locus from="98r" to="283r"/></handNote>
+                     </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">decorated intitials; on fols. <locus>1r-96v</locus> initials drawn by hand, 
+                        coloured with red and black ink;
+                     on fols. <locus>97r-283v</locus> printed initials have been glued in</decoNote> 
+                     <decoNote type="border">lines and decorative borders in red and blue ink</decoNote>
+                     <decoNote type="illustration">prints of wood carving pasted in on fols. <locus>16v</locus> and <locus>282v</locus></decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Printed initials and illustrations pasted into the manuscript; probably contemporary to production of the MS.
+                        Note on fol. <locus>283v</locus>: <q>Þesse Bok</q>.</p>
+                  </additions>
+                 <bindingDesc>
+                    <binding ana="decorative" contemporary="true">
+                       <p>Thick wooden boards with dark brown embossed leather: flowers and floral ornaments.
+                       A metal clasp with floral decoration.
+                       The front pastedown is manuscript waste from reused accounting paper.</p>
+                    </binding>
+                 </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1749"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:21.163+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-23" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-06-11" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

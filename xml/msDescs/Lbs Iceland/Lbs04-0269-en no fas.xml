@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Lbs 269 4to</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="LBS04-0269-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                        <idno>Lbs 269 4to</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="laus">
+                            <locus from="" to=""/>
+                            <title type="supplied">Vísur</title>
+                        </msItem>
+                        <msItem n="2" class="kvad">
+                            <locus from="" to=""/>
+                            <title type="supplied">Disticha af epigrammata Latina</title>
+                        </msItem>
+                        <msItem n="3" class="kvad">
+                            <locus from="" to=""/>
+                            <title type="supplied">Disticha ag epigrammatibus Latinis</title>
+                        </msItem>
+                        <msItem n="4" class="laus">
+                            <locus from="" to=""/>
+                            <title type="supplied">Vísur</title>
+                            <note>Various authors.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="14"/>
+                                    <num type="book-block" value="129"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="200"/>
+                                        <width unit="mm" quantity="170"/>
+                                    </dimensions>
+                                    <watermark ana=""/>
+                                </support>
+                                <foliation ana=""/>
+                                <condition ana=""/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="" writtenLines="">
+                                    <num type="wpl" atLeast="" atMost=""/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity=""/>
+                                        <width unit="mm" quantity=""/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="">
+                            <handNote scribeRef="#" scope="" script="unknown"/>
+                        </handDesc>
+                        <decoDesc ana="">
+                            <decoNote type=""/>
+                        </decoDesc>
+                        <additions ana="">
+                            <p/>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="" contemporary="">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1830" to="1870"/>
+                            <origPlace key="IS"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-07-22" who="#SMM">Created file and added information from PEÓ catalogue.</change>
+            <!-- no fas! Typo for ÍB 269 4to? -->
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

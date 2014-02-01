@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 643 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-0643-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 643 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas rimur">
+                     <locus from="1r" to="28v"/>
+                     <title ref="#hskh" type="uniform">Hálfs saga konungs og Hálfsrekka <note>(rímur)</note></title>
+                     <rubric>Hér hefur upp Ævi Hálfs konóngs og rekka hans</rubric>
+                     <textLang mainLang="is"/>
+                     <author key="ArnBod001"/>
+                     <note>7 stanzas</note>
+                     <note>poem by Árni Böðvarsson</note>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="28"/>
+                           <num type="back-flyleaf" value="5"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="171"/>
+                              <width unit="mm" quantity="101"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="8 23">
+                           <num type="wpl" atLeast="2" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="132" atMost="146"/>
+                              <width unit="mm" atLeast="70" atMost="80"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                <handDesc hands="1">
+                   <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Decorated initials and headings</decoNote>
+                  </decoDesc>
+                  <additions ana="low"/>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                      <p>paper boards covered with marmorized paper. Leather spine and corners</p>  
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1840"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:13.36+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-23" who="#SK">Catalogued by the digitalizised version on handrit.is</change>
+         <!-- only one rima no saga -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

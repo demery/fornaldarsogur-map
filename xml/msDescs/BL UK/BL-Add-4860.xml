@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Den Arnamagnæanske Samling</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="BL-Add-4860-en">
+                    <msIdentifier>
+                        <!--<country>United Kingdom</country>
+                        <settlement>London</settlement>-->
+                        <repository ref="#BL">British Library, London</repository>
+                        <idno>BL Add. 4860</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="ridd">
+                            <locus from="1r:1" to="16v:19">1r-16v</locus>
+                            <title type="uniform">Nitida saga</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="2" class="ridd">
+                            <locus from="17r:1" to="27v:29">17r-27v</locus>
+                            <title type="uniform">Drauma-Jóns saga</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="3" class="ridd">
+                            <locus from="29r:1" to="54v:13">29r-54v</locus>
+                            <title type="uniform">Victors saga ok Blávus</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="4" class="fas">
+                            <locus from="55r:1" to="94v:21">2r-260r</locus>
+                            <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="5" class="ridd">
+                            <locus from="95r:1" to="116v:14">95r-116v</locus>
+                            <title type="uniform">Flóres saga konungs ok sona hans</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="6" class="fas">
+                            <locus from="117r:1" to="156v:18">117r-156v</locus>
+                            <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="7" class="ridd">
+                            <locus from="157r:1" to="188v:16">157r-188v</locus>
+                            <title type="uniform">Mágus saga jarls </title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="8" class="ridd">
+                            <locus from="189r:1" to="208r:16">189r-208r</locus>
+                            <title type="uniform">Partalopa saga</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="9" class="fas">
+                            <locus from="209r:1" to="260r:10">209r-260r</locus>
+                            <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                            <textLang mainLang="is">Icelandic</textLang>
+                            <rubric>Hrolfs Kongs Kraka Saga. / Fróda Þáttur / i. cap.</rubric>
+                            <incipit>Madur er nefndur Hálfdán e<ex>n</ex>n a<ex>n</ex>nar Fróde, brædur
+                        tveir / og kóngasÿner, og stírde sínu ríke hvor þeirra.</incipit>
+                            <finalRubric>Endar hér s<ex>u</ex>o sógurna Hrólfs kóngs kraka, og Kappa
+                        hans.</finalRubric>
+                            <filiation>
+                                <p>Copy of <ref type="ms" target="#JS02-0027-en" ana="antigraph">JS 27 fol.</ref></p>
+                            </filiation>
+                            <note>Divided into 42 chapters.</note>
+                        </msItem> 
+                        <msItem n="10" class="fas">
+                            <locus from="261r:1" to="272v:13">261r-272v</locus>
+                            <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="11" class="ridd">
+                            <locus from="273r:1" to="284v:12">273r-284v</locus>
+                            <title type="uniform">Álaflekks saga </title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="12" class="ridd">
+                            <locus from="285r:1" to="292r:23">285r-293r</locus>
+                            <title type="uniform">Tiódels saga</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="13" class="ridd">
+                            <locus from="293r:1" to="328r:12">293r-328r</locus>
+                            <title type="uniform">Dínus saga drambláta</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="14" class="ridd">
+                            <locus from="329r:1" to="350v:15">329r-350v</locus>
+                            <title type="uniform">Vilmundar saga viðutan</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="0"/>
+                                    <num type="book-block" value="350"/>
+                                    <num type="back-flyleaf" value="0"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="320"/>
+                                        <width unit="mm" quantity="200"/>
+                                    </dimensions>
+                                    <watermark ana="yes">Watermark with the inscription J. Honic &amp; Zoonen,
+                                        large coat of arms, a castle.</watermark>
+                                </support>
+                                <foliation ana="fol contemporary">Original ink foliation in the upper right hand corner</foliation>
+                                <condition ana="good"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-separate" columns="1" writtenLines="25 28">
+                                    <num type="wpl" atLeast="8" atMost="10"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" min="270" max="275"/>
+                                        <width unit="mm" min="160" max="165"/>
+                                    </dimensions>
+                                    <catchwords ana="yes"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <handNote scribeRef="unknown" scope="major" script="hum cursiva">Written by two unknown scribes.</handNote>
+                            <handNote scribeRef="unknown" scope="major" script="hum cursiva"/>    
+                        </handDesc>
+                        <decoDesc ana="low">
+                            <decoNote type="initial">Enlarged but plain initials.</decoNote>
+                            <decoNote type="paratext">V-shaped ending on <locus>94v</locus>
+                            </decoNote>
+                        </decoDesc>
+                        <additions ana="no">
+                            <p/>
+                                </additions>
+                        <bindingDesc>
+                            <binding ana="moderate" contemporary="false">
+                                <p>Recent binding with blue canvas lining and a white leather spine with
+                                black and gold imprint.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <!-- dated to 18th c. in unpublished Helgason cat. (with a note that it was probably written for Sir
+                                Joseph) -->
+                            <origDate when="1772"/>                            
+                            <p>The manuscript was probably
+                     written specially for <name type="person" role="commissioner" key="JosBan001">Sir Joseph Banks</name>, who visited
+                     Iceland in 1772.</p>
+                        </origin>
+                        <provenance>
+                            <name type="person" role="owner" key="JosBan001"/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>Tereza Lansing's original work.</change>
+            <change when="2013-04-16" who="#PTL">Adapted file to FAS project's format.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+</TEI>

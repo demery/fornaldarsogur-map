@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 192 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0192-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 192 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="4r:12">1-4r</locus>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <title type="parallel">Hervarar saga ok Heiðreks konungs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hervarar þättur hin<ex>n</ex> gamle fin<ex>n</ex>st so skrifadur sem hier epter fÿlger.</rubric>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="5r:1" to="35r:16">5-35r</locus>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <title type="parallel">Hervarar saga ok Heiðreks konungs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Søgu þattur af Heidreke Kőnge og Hanns ættmon<ex>n</ex>um<ex>m</ex></rubric>
+                     <note>
+                        <name type="person" role="other" key="BjoJon006">Björn Jónson</name> of <name type="place">Skarðsá</name>'s commentary on the Heiðreks gátur has been added. The riddle section is written in two
+                        columns; the riddles are written in the left column with Björn's comments in the right.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="35"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="302"/>
+                              <width unit="mm" quantity="192"/>
+                           </dimensions>
+                           <watermark ana="yes">The watermark on the flyleaves reads "TMK 1716". The watermarks on the book-block
+                              leaves shows a castle or fortress with three elements: A gate with a pointed roof and a round tower
+                              on each side. The towers each have a window. The watermark is reminiscent of the one in AM 203 fol,
+                              1r-10v. </watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliated in dark ink in the top outer corners. Additional folitation with a pencil in item 2.</p>
+                        </foliation>
+                        <condition ana="good">The margin of fol. <locus>19</locus> is folded. As a result this leaf is 15mm wider
+                           than the others.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="23 25">
+                           <num type="wpl" atLeast="5" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="234"/>
+                              <width unit="mm" quantity="121"/>
+                           </dimensions>
+                           <catchwords ana="yes">Catchwords are found on fols. <locus>10v, 20v and 30v</locus></catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonErl001" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Very few notes in the margins, e.g. on fol. <locus>34r</locus>:
+                        <q>Nials, Fins sonar</q> in a later hand. On fol <locus from="29r" to="29v">29r-29v</locus>,
+                        <name type="person" role="scribe" key="JonErl001">Jón Erlendsson</name> added remarks which were partly cut
+                        away when the leaves were trimmed. On fol. <locus>19r</locus>, Jón Erlendsson's marginalia survives without
+                        any loss of text. A later hand added <q>Su(?) er Varians af. Membranum 544 4to.</q> In the front, the AM
+                        slip is bound in with the manuscript. It reads <q>AM 192, fol. Heidreks Saga med Hervarar þætti. med semdi
+                           Sr. Jons i Villingahollte. lied mier af Jone Þorlackssyne 1709, og sidan selld i 1710. Var tilforna i
+                              in<ex>n</ex>bundinni bok.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>The manuscript is bound in cardboard wrapped in paper. Old thread and support leaves are housed with
+                           the manuscript.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <!-- this displays oddly because of the <name>, but not sure what to do about it -->
+                  <origin>
+                     <p>Written in <origPlace key="IS">Iceland</origPlace> in the <origDate notBefore="1600" notAfter="1699">seventeenth century</origDate> by <name type="person" role="scribe" key="JonErl001">Jón
+                           Erlendsson</name>.</p>
+                  </origin>
+                  <provenance>
+                     <p>According to <name type="person" role="scholar" key="ArnMag001">Árni Magnússon</name>'s account on
+                     the AM-slip, he borrowed the fragment from <name type="person" role="owner" key="JonTho012">Jón
+                        Þorláksson</name> in <date when="1709">1709</date> and bought it from him in <date when="1710">1710</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:56.898+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:10.011+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:35.132+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:14.142+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-01-28" who="#BES">Prepared for library.</change>
+         <change when="2013-01-30" who="#BES">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

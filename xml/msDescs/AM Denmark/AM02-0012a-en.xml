@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 12 a fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0012a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 12 a fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem class="fas" n="1">
+                     <locus from="1r" to="13r">1r-13r</locus>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier byrisast Saga af Hrolfe Kónge Kraka han<ex>n</ex>s formon<ex>n</ex>u<ex>m</ex> edur
+                           forfedru<ex>m</ex>, s<ex>e</ex>m þó leidist til h<ex>a</ex>nz upruna; og koppu<ex>m</ex>
+                        h<ex>a</ex>ns.</rubric>
+                     <incipit>Madur heit Haldan. En<ex>n</ex> an<ex>n</ex>ar Fröde. Brœdur tueir og kongasÿner, og styrde sÿnu
+                        rÿke huór þ<ex>eir</ex>ra.</incipit>
+                     <incipit/>
+                     <explicit>og huadan<ex>n</ex> þ<ex>ei</ex>r være ad komner þ<ex>ei</ex>r sogdu allt um<ex>m</ex>
+                        ferdir</explicit>
+                     <filiation>
+                        <p>For the first part, <ref type="ms" target="#AM02-0011-en" ana="antigraph">AM 11 fol.</ref> was used as
+                           the exemplar (cf. <bibl>Slay 1960, p.103</bibl>). The second exemplar is most likely a now lost
+                           manuscript derived from <ref type="ms" target="#AM02-0009-en" ana="protograph">AM 9 fol.</ref>,
+                           possibly another copy of AM 12 b fol. when it was still complete (cf. <bibl>Slay 1960, p.104</bibl>).
+                           The manuscript contains the first half of the text of
+                           Hrólfs saga kraka and was written to complement the text in <ref type="ms" target="#AM02-0012-b-en">AM
+                              12b, fol.</ref> (cf. <bibl>Slay 1960, p.102</bibl>).</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="13"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="310"/>
+                              <width unit="mm" quantity="197"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="fol later"><p>Foliation in red ink in the upper right hand corner, probably by <name type="person" role="scholar" key="KriKaa001">Kålund</name>. More recent foliation in pencil in
+                              the upper right hand corner.</p></foliation>
+                        <condition ana="good"><p>The manuscript is rather dirty, but well preserved.</p></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="35 40">
+                           <num type="wpl" atLeast="10" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="285"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <catchwords ana="yes">There are chatchwords on every page.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="5">
+                     <handNote scribeRef="#ThoKla001" scope="minor" script="kurrent"><p>Þorleifur Klárusson, priest. Fols. <locus from="1r" to="2r">1r-2r</locus></p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"><p>Unidentified. Fols. <locus from="2v" to="7r:3">2v-7r:3</locus> possibly also <locus from="7r:4" to="7r:17">7r:4-7r:17</locus></p></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery fractura"><p>Unidentified. Fols.<locus from="7r:25" to="8r">7r:25-8r</locus></p></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"><p>Unidentified. Fols. <locus from="8v" to="10v:29">8v-10v:29</locus></p></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"><p>Unidentified. Fols. <locus from="10v:29" to="13v">10v:29-13v</locus> and <locus from="7r:17" to="7r:25">7r:17-7r:25</locus></p></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Small plain initial at the beginng of the text.</decoNote>
+                     <decoNote type="paratext">Some of the catchwords are underlined with an ornamenatal curve.</decoNote>
+                  </decoDesc>
+                  <additions ana="no"> </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false" notBefore="1700" notAfter="1730">
+                        <p>Grey cardboard binding from 1700-1730 with the number and title written on the front, perhaps in <name type="person" key="ArnMag001">Arni Magnussons's</name> hand. The lining is waste paper containing a
+                           printed text in Latin and Danish.<!-- <height>312</height>
+                           <width>202</width>
+                           <depth>80</depth>-->
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1651"/>
+                     <origPlace key="IS" cert="low"/>
+                     <note>Probably written before 1651 in Skálholt
+                        or Útskálar.</note>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:45.194+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:02.915+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:27.73+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2013-01-31" who="#BES">Added information based on TL's diss.</change>
+         <change when="2013-02-01" who="#BES">Checked and added missing information with the ms. in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

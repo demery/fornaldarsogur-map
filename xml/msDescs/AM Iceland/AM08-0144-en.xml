@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 144 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM08-0144-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 144 8vo</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas rimur">
+                     <locus from="1r:1" to="21r:24"/>
+                     <title ref="#asb" type="uniform">Áns rímur bogsveigis</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biriar Ans rymur</rubric>
+                     <incipit>Fræde hef e<ex>g</ex> veitt</incipit>
+                     <explicit>Ender ä Ans rymum</explicit>
+                  </msItem>
+                  
+                  <msItem n="2" class="rimur">
+                     <locus from="21v:1" to="26r:24"/>
+                     <title type="uniform">Rímur af Eremit meistara</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Rymur aff einum<ex>m</ex> eremita edur einsetu man<ex>n</ex>e. Kuednar anno 1650</rubric>
+                     <incipit>Biriar stolpr i hallar giä</incipit>
+                     <explicit>blest og jst ad klestist <del type="strikethrough" instant="false" status="unremarkable">best</del>. <add place="inline" instant="false" status="unremarkable">styst</add></explicit>
+                  </msItem>
+                  
+                  <msItem n="3" class="fas">
+                     <locus from="26v:1" to="50v:13"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biriar Hrolfs Gautrikssonar søgu</rubric>
+                     <incipit>Þad er uphaf þessarar søgu ad Gautrekur son Gauta kongs ried f<ex>iri</ex> Gautlandi</incipit>
+                     <explicit><ex>og</ex> lykur her nu þessari sogu</explicit>
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="50"/>
+                           <!--<num type="back-flyleaf" value=""/>-->
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="103"/>
+                           </dimensions>
+                           
+                          <!-- <watermark ana="no|yes"/>-->
+                           
+                        </support>
+                        
+                        <foliation ana="pag fol">Foliated in the lower margin of recto leaves. Paginated in the upper corner
+                        of recto leaves.</foliation>
+                        
+                       <!-- <condition ana="poor|average|good"/>-->
+                     
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="33 37">
+                           <num type="wpl" atLeast="10" atMost="16"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Contains occasional marginalia in another hand. Two verses added after the end of <title type="uniform">Hrólfs saga Gautrekssonar</title> on fol. <locus>50v</locus>.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" notBefore="1970" notAfter="1970" contemporary="false"><!-- plain? -->
+                        <p>Rebound in 1970.</p>
+                        <!-- binding information taken from handrit.is record -->
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+               
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1700"/>
+                     <p>Dated 1656 on fol. <locus>48r</locus> and 1659 on fol. <locus>44r</locus></p>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>                     
+                     <p>Note in <name type="person" role="owner" key="ArnMag001">Árni Magnússon's</name> hand reads: <q>Þessa sogu bok a vnderskrifadur <name type="person" role="owner" key="JonGut001">
+                        Jon Guthormsson</name> manu sua Holmum Anno 1712.</q></p>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:54.019+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:50.798+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:56.993+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:14.311+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:51.174+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-03-20" who="#JSL">Added information from handrit and Kålund. Cataloged MS from photographic images.</change>
+         <change when="2013-08-23" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

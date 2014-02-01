@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1184 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1184-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1184 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem n="1" class="fas handfr">
+                     <locus from="2r" to="20v"/> 
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar [Variants]</title>
+                     <textLang mainLang="non"/>
+                     <note>variant readings from <ref type="ms" target="#AM02-0194-b-en" ana="antigraph">AM 194 b fol.</ref> and
+                        <ref type="book" target="#OlaVer1664" ana="antigraph">Verelius's 1664 edition</ref></note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="20"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="327"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag contemporary"/> 
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="4" writtenLines="23 28"> 
+                           <num type="wpl" atLeast="3" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="240"/>
+                              <width unit="mm" quantity="144"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="#TeiOla001" script="hum cursiva">T. Olavius (Teitur Ólafsson)</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">rubrics enlarged and slightly decorated</decoNote>
+                  </decoDesc>
+                  <additions ana="no"><p/></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Thin paper binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="owner"/>
+                     <p>Formerly Suhm's collection no. 327 fol.</p>
+                  </provenance> 
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:32.752+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-29" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-05-17" who="#BES">Added missing information with manuscript in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

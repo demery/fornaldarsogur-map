@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 567 XXIV 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0567-XXIV-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 567 XXIV 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="1r" to="5v">1r-5v</locus>
+                        <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Fragment.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="5"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="212"/>
+                                 <width unit="mm" quantity="170"/>
+                              </dimensions>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="average">Written on an old Latin liturgical manuscript. Heavy traces of pricking on the parchment.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="31 37">
+                              <num type="wpl" atLeast="18" atMost="22"/>
+                              <dimensions type="written">
+                                 <height unit="mm" atLeast="172" atMost="176"/>
+                                 <width unit="mm" atLeast="137" atMost="143"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc ana="1">
+                        <handNote scribeRef="unknown" scope="sole" script="cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no">
+                        <decoNote/>
+                     </decoDesc>
+                     <additions ana="high">
+                        <p>Title of the saga added at the top of fols. 1r, 2r and 3r.</p>
+                        <p>Chapter numbers are also later additions, seemingly by the same hand.</p>
+                        <p>Comments in the bottom margins.</p>
+                        <p>Person names and other readers' comments from the 17th century.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1400" notAfter="1499"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p/>
+                     </provenance>
+                  </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:30.888+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:34.049+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:42.88+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:59.084+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:36.756+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

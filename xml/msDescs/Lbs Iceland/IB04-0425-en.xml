@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 425 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0425-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 425 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" facs="#IB04-0425-0001r" to="22v">1r-22v</locus>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="23r" facs="#IB04-0425-0023r" to="55r">23r-55r</locus>
+                     <title type="uniform">Flóamanna saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="rimur" defective="true">
+                     <locus from="55v" facs="#IB04-0425-0055v" to="167v">55v-167v</locus>
+                     <title type="uniform">Rollantsrímur</title>
+                     <textLang mainLang="non"/>
+                     <note>39 rímur. Lacking at the end</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="167"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="192"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag">
+                           <p>Old pagination 17-334 (9r-167v)</p>
+                        </foliation>
+                        <condition ana="average">
+                           <p>Leaves misbound. The correct order would be: 146, 151-154, 147-150, 155. </p>
+                           <p>First and last leaves are damaged but have been restored</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21 25">
+                           <num type="wpl" atLeast="6" atMost="11"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/> 
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Dark marbeled paper on paper boards; linen spine and corners</p>
+                     </binding> 
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1780">[1780?]</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonBor001">Jón Jónsson Borgfirðingur (according to handrit.is)</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:01.778+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:11.926+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:33.031+02:00" who="#EAH"> Extracted pagination and page dimension data from previous version. </change>
+         <change when="2012-03" who="#SK">Added some information and translated into English</change>
+         <change when="2013-05-30" who="SMM">Added information after looking at pictures on handrit.is.</change>
+         <!-- information missing for writing area -->
+         <change when="2013-08-14" who="#BES">proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

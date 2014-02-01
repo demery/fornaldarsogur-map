@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 634 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0634-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 634 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Þórkatla hin minni. Með rímum og rímnabrotum, ævintýrum,
+                        kvæðum, vísum og ýmsu fleiru.</titlePart>
+                     <titlePart>Rituð á árunum 1743-1747 af lögréttumanninum Þorkeli
+                        Jónssyni á Hrauni í Grindavík. Að nýju innbundin árið MDCCCL og með registri
+                        og titilblaði aukin og litlum viðbætir af Oddi Erlindssyni á Þúfu
+                        <gap/></titlePart>
+                     <note>The name is in runic letters</note>
+                  </titlePage>
+                  <msItem n="1" class="rimur">
+                     <locus from="5r" facs="#IB08-0634-0005r" to="8r">5r-8r</locus>
+                     <title type="uniform">Ríma af hrakningi Guðbrands Jónssonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="kvad">
+                     <locus from="8r" facs="#IB08-0634-0008r" to="8v">8r-8v</locus>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="rimur" defective="true">
+                     <locus from="8v" facs="#IB08-0634-0008v" to="18v">8v-18v</locus>
+                     <title type="uniform">Rímur af Andra jarli</title>
+                     <textLang mainLang="is"/>
+                     <note>Fragment, 4 rímur only</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="21r" facs="#IB08-0634-0021r" to="25v">21r-25v</locus>
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="rimur">
+                     <locus from="25v" facs="#IB08-0634-0025v" to="32r">25v-32r</locus>
+                     <title type="uniform">Eylandsrímur</title>
+                     <textLang mainLang="is"/>
+                     <note>3 rímur</note>
+                  </msItem>
+                  <msItem n="6" class="kvad">
+                     <locus from="32r" facs="#IB08-0634-0032r" to="35v">32r-35v</locus>
+                     <title type="uniform">Ferðamannsóður</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="avint">
+                     <locus from="37r" facs="#IB08-0634-0037r" to="38v">37r-38v</locus>
+                     <title type="supplied">Unidentified ævintýri</title>
+                     <textLang mainLang="is"/>
+                     <note>Without title</note>
+                  </msItem>
+                  <msItem n="8" class="hels">
+                     <locus from="38v" facs="#IB08-0634-0038v" to="45v">38v-45v</locus>
+                     <title type="uniform">Placidus saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Second ævintýri</rubric>
+                  </msItem>
+                  <msItem n="9" class="avint" defective="true">
+                     <locus from="47r" facs="#IB08-0634-0047r" to="47r">47r</locus>
+                     <title type="supplied">Unidentified ævintýri</title>
+                     <textLang mainLang="is"/>
+                     <note>Without title, incomplete</note>
+                  </msItem>
+                  <msItem n="10" class="avint">
+                     <locus from="47r" facs="#IB08-0634-0047r" to="49r">47r-49r</locus>
+                     <title type="supplied">Unidentified ævintýri</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="rimur">
+                     <locus from="49r" facs="#IB08-0634-0049r" to="57r">49r-57r</locus>
+                     <title type="uniform">Skíðaríma</title>
+                     <textLang mainLang="is"/>
+                     <note>Author unclear</note>
+                  </msItem>
+                  <msItem n="12" class="rimur">
+                     <locus from="57r" facs="#IB08-0634-0057r" to="65v">57r-65v</locus>
+                     <title type="uniform">Tímaríma</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="13" class="rimur">
+                     <locus from="65r" facs="#IB08-0634-0065r" to="67v">65r-67v</locus>
+                     <title type="uniform">Tímaríma</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="14" class="kvad">
+                     <locus from="68r" facs="#IB08-0634-0068r" to="72r">68r-72r</locus>
+                     <title type="uniform">Vinavísur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="15" class="kvad" defective="true">
+                     <locus from="72v" facs="#IB08-0634-0072v" to="80r">72v-80r</locus>
+                     <title type="uniform">Kaupmannabragur</title>
+                     <textLang mainLang="is"/>
+                     <note>Leaf <locus>79</locus> is a blank addition except for small pieces of fol. <locus>80</locus> that have been glued onto it.</note>
+                  </msItem>
+                  <msItem n="16" class="kvad">
+                     <locus from="80r" facs="#IB08-0634-0080r" to="81r">80r-81r</locus>
+                     <title type="supplied">Unidentified kvæði</title>
+                     <textLang mainLang="is"/>
+                     <incipit/>
+                  </msItem>
+                  <msItem n="17" class="rimur">
+                     <locus from="81v" facs="#IB08-0634-0081v" to="121v">81v-121v</locus>
+                     <title type="uniform">Rímur af Þjalar-Jóni</title>
+                     <textLang mainLang="non"/>
+                     <note>16 rímur</note>
+                  </msItem>
+                  <msItem n="18" class="rimur">
+                     <locus from="121v" facs="#IB08-0634-0121v" to="125v">121v-125v</locus>
+                     <title type="uniform">Malararíma</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="19" class="kvad" defective="true">
+                     <locus from="127r" facs="#IB08-0634-0127r" to="128r">127r-128r</locus>
+                     <author>Vigfús Jónsson</author>
+                     <title type="supplied">Kvidrana grátur</title>
+                     <textLang mainLang="is"/>
+                     <note>Title and author added by a later hand on fol. 127r</note>
+                     <note>Beginning lacking</note>
+                  </msItem>
+                  <msItem n="20" class="kvad">
+                     <locus from="128r" facs="#IB08-0634-0128r" to="128r">128r</locus>
+                     <title type="uniform">Lögbókarvísur</title>
+                     <textLang mainLang="is"/>
+                     <note>Without title</note>
+                  </msItem>
+                  <msItem n="21" class="laus">
+                     <locus from="128r" facs="#IB08-0634-0128r" to="128v">128r-128v</locus>
+                     <title type="supplied">Vísa</title>
+                  </msItem>
+                  <msItem n="22" class="kvad">
+                     <locus from="128v" facs="#IB08-0634-0128v" to="128v">128v</locus>
+                     <title type="supplied">Unidentified kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="23" class="kvad">
+                     <locus from="128v" facs="#IB08-0634-0128v" to="128v">128v-128v</locus>
+                     <title type="supplied">Unidentified kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="24" class="laus">
+                     <locus from="128v" facs="#IB08-0634-0128v" to="131r">128v-131r</locus>
+                     <title type="supplied">Unidentified vísur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="25" class="kvad">
+                     <locus from="131r" facs="#IB08-0634-0131r" to="133r">131r-133r</locus>
+                     <title type="supplied">Unidentified kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="26" class="kvad">
+                     <locus from="133r" facs="#IB08-0634-0133r" to="133v">133r-133v</locus>
+                     <title type="supplied">Unidentified Kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="27" class="kvad">
+                     <locus from="133v" facs="#IB08-0634-0133v" to="133v">133v</locus>
+                     <title type="supplied">Unidentified kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="28" class="gat">
+                     <locus from="134r" facs="#IB08-0634-0134r" to="135r">134r-135r</locus>
+                     <title type="supplied">Gáta</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="29" class="kvad">
+                     <locus from="135r" facs="#IB08-0634-0135r" to="136r">135r-136r</locus>
+                     <title type="supplied">Unidentified Kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="30" class="laus">
+                     <locus from="136r" facs="#IB08-0634-0136r" to="136r">136r</locus>
+                     <title type="supplied">Unidentified vísa</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="31" class="laus">
+                     <locus from="136r" facs="#IB08-0634-0136r" to="136v">136r-136v</locus>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="is"/>
+                     <note>Possibly by Kolbeinn Grímsson but has been ascribed to <name type="person" key="HalPet001">Hallgrími Péturssyni</name>
+                     </note>
+                  </msItem>
+                  <msItem n="32" class="rimur">
+                     <locus from="136v" facs="#IB08-0634-0136v" to="139r">136v-139r</locus>
+                     <title type="supplied">Unidentified rímur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="33" class="kvad">
+                     <locus from="139r" facs="#IB08-0634-0139r" to="139v">139r-139v</locus>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="34" class="kvad">
+                     <locus from="139v" facs="#IB08-0634-0139v" to="140v">139v-140v</locus>
+                     <title type="supplied">Unidentified kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="35" class="kvad">
+                     <locus from="140v" facs="#IB08-0634-0140v" to="143v">140v-143v</locus>
+                     <title type="uniform">Tólf sona kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="36" class="kvad">
+                     <locus from="143v" facs="#IB08-0634-0143v" to="145r">143v-145r</locus>
+                     <title type="supplied">Unidentified kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="37" class="rimur" defective="true">
+                     <locus from="145r" facs="#IB08-0634-0145r" to="148v">145r-148v</locus>
+                     <title type="uniform">Ríma af Jannesi</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="38" class="rimur">
+                     <locus from="148v" facs="#IB08-0634-0148v" to="150r">148v-150r</locus>
+                     <title type="supplied">Unidentified rímur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="39" class="kvad">
+                     <locus from="150r" facs="#IB08-0634-0150r" to="150v">150r-150v</locus>
+                     <title type="supplied">Unidentified kvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="40" class="kvad">
+                     <locus from="150v" facs="#IB08-0634-0150v" to="153r">150v-153r</locus>
+                     <title type="supplied">Hallsdrápa</title>
+                     <textLang mainLang="is"/>
+                     <note>Next to the rubric is written in a different hand: <q><gap/>Hallsdrápa eftir
+                        Hall Magnússon</q></note>
+                  </msItem>
+                  <msItem n="41" class="kvad" defective="true">
+                     <locus from="153r" facs="#IB08-0634-0153r" to="153v">153r-153v</locus>
+                     <title type="uniform">Hringsdrápa</title>
+                     <author>Vigfúsi Jónssyni á Leirulæk</author>
+                     <note>End missing</note>
+                  </msItem>
+                  <msItem n="42" class="laus">
+                     <locus from="156r" facs="#IB08-0634-0156r" to="157r">156r-157r</locus>
+                     <title type="supplied">Unidentified vísa</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="43" class="laus">
+                     <locus from="157r" facs="#IB08-0634-0157r" to="157v">157r-157v</locus>
+                     <title type="supplied">Unidentified vísa</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="44" class="rimur" defective="true">
+                     <locus from="157v" facs="#IB08-0634-0157v" to="163r">157v-163r</locus>
+                     <title type="uniform">Grobiansrímur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="45" class="rimur" defective="true">
+                     <locus from="163r" facs="#IB08-0634-0163r" to="166r">163r-166r</locus>
+                     <title type="uniform">Grobiansrímur</title>
+                     <textLang mainLang="is"/>
+                     <note>Also called <title>Viðbjóðsríma</title></note>
+                  </msItem>
+                  <msItem n="46" class="laus"> 
+                     <locus from="166v" facs="#IB08-0634-0166v" to="166v">166v</locus>
+                     <title type="supplied">Unidentified vísur</title>
+                     <textLang mainLang="is"/>
+                     <note>Title written in a later hand</note>
+                  </msItem>
+                  <msItem n="47" class="sendbr">
+                     <locus from="167r" facs="#IB08-0634-0167r" to="175v">167r-175v</locus>
+                     <title type="supplied">Sendibréf</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="48" class="sagnfr">
+                     <locus from="177r" facs="#IB08-0634-0177r" to="180v">177r-180v</locus>
+                     <title type="supplied">Unidentified historical text</title>
+                     <textLang mainLang="is"/>
+                     <incipit/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="180"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" min="146" max="150"/>
+                              <width unit="mm" quantity="95"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="fol later">Irregular later foliation
+                        </foliation>
+                        <condition ana="poor average">
+                           <p>Incorrect order of leaves in binding. Folio <locus from="49r" to="49v">49</locus> is the wrong way
+                              round, should be <locus from="49v" facs="#IB08-0634-0049v" to="49v">49v</locus> before 
+                              <locus from="49r" facs="#IB08-0634-0049r" to="49r">49r</locus>.
+                           </p>
+<!--                           <p>Incorrect order of leaves in binding <locus from="49v" facs="#IB08-0634-0049v" to="49v">49v</locus> is part of the story ahead</p>-->
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="25">
+                           <num type="wpl" atLeast="8" atMost="11"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoJon018" scope="sole" script="hum cursiva">
+                        Þorkell Jónsson á <placeName>
+                           Grindavík</placeName>í Hrauni wrote in hum cursiva and kurrent</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="paratext">Title page decorated in red, yellow and green</decoNote>
+                     <decoNote type="initial">Decorated initials</decoNote>
+                     <decoNote type="initial">Some red initials on fol. <locus from="167r" facs="#IB08-0634-0167r" to="167r">167r</locus>
+                     </decoNote>
+                     <decoNote type="vignette" subtype="tailpiece">Tailpiece on fols. <locus from="121v" facs="#IB08-0634-0121v" to="121v">121v</locus> and <locus from="166v" facs="#IB08-0634-0166v" to="166v">166v</locus>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="low"><list>
+                     <item>Later added leaves, folios: <locus from="1r" to="8v">1-8</locus>, 
+                        <locus from="28r" to="35v">28-35</locus>, <locus from="177r" to="180v">177-180</locus>. Some additional added blank 
+                        leaves where there are lacunae throughout the manuscript</item>
+                     <item>Fol. <locus from="79r" to="79v">79</locus> is a blank addition except for small pieces of fol. <locus>80</locus> that have been glued onto it.</item>
+                    <item>A register on fols. <locus from="2r" to="4v">2r-4v</locus> in the hand of <name type="person" role="scribe" key="">Páll stúdent Pálsson</name></item>
+                  </list> 
+                  </additions>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1743" to="1747">1743-1747</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:05.363+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:14.202+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:34.728+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:10.555+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2013-02" who="#SK">added information from digitized version and XML-file on handrit.is</change>
+         <!-- Still lacking writing area size maybe script or handDesc should be looked at better -->
+         <change when="2013-08-20" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

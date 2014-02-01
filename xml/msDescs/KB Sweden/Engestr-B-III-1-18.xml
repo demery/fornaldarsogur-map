@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Engestr. B. III. 1. 18.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Engestr-B-III-1-18" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Engestr. B. III. 1. 18.</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="30r"/>
+                     <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                     <rubric>Hialmters och Olvers Saga</rubric>
+                     <incipit>Thenna Saga tager sin begÿnnelse af en widt berömlig konung</incipit>
+                     <textLang mainLang="sv" otherLangs="la"/>
+                     <note>Swedish translation with a Latin commentary, ff. 28r-30r</note>
+                     <note>f. 1r at bottom reads: <q>Af Johan Frederic Peringskiöld Sonen Anno 1715</q></note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="34r" to="43v"/>
+                     <title ref="#ask" type="uniform">Ásmundar saga kappabana</title>
+                     <rubric>Hic incipit Historia Asmundi qvi alio nomine vocatus est Kappabanius</rubric>
+                     <incipit>Rex nomine Budlius Svionia imperitabat</incipit>
+                     <textLang mainLang="la"/>
+                     <note>Latin translation</note>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="46r" to="65r"/>
+                     <title type="uniform">Samson saga fagra</title>
+                     <rubric>Sogunn af Samsonar Fagra</rubric>
+                     <incipit>Artus heet en konung i England</incipit>
+                     <textLang mainLang="la"/>
+                     <note>Latin translation</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="70r" to="81r"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <rubric>Kettil hängs och Grim Ludilkindz Saga försvänksad af Nils Hufwudson Dahl.s.</rubric>
+                     <incipit>Hallbiörn heet en man som kalladur Halftroll</incipit>
+                     <textLang mainLang="sv"/>
+                     <note>Swedish translation</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="81"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="320"/>
+                              <width unit="mm" quantity="204"/>
+                           </dimensions>
+                           <watermark ana="yes">Two lions flanking a pedestal topped by a crown.</watermark>
+                        </support>
+                        <foliation ana="fol later">Pencil 1-81.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="36 37">
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="275"/>
+                              <width unit="mm" quantity="175"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#JohPer001" scope="major" script="kurrent"><p>ff. 1-69</p></handNote>
+                     <handNote scribeRef="#NilDal001" scope="major" script="kurrent"><p>ff. 70-81</p></handNote>
+                  </handDesc>
+                  <!-- apparently this MS is decorated, but it is not known how or to what extent -->
+                  <!--<decoDesc ana="yes">
+                     <decoNote/>
+                  </decoDesc>-->
+                  <additions ana="low">
+                     <p>A paper label has been stuck on the inside front cover in the top left-hand corner. It reads: <q>B-III
+                           1-18</q>. The date '<q>1764</q>', <q>No 33</q> and an ex libris with the name M. Benzelstierna also
+                        appear at the bottom. A loose typed sheet with a list of the contents has been inserted in the first
+                        page.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Brown mottled paper on cardboard. Brown leather has been placed on the spine but has fallen off on the
+                           corners. On the spine <q>SVEN=SKE SAGOR MAN=SCR.</q> has been engraved although it is damaged and
+                           difficult to read. On a yellow label pasted in the botton left-hand corner of the cover is printed:
+                              <q>Riks-Bibliotek STOCKHOLM Handskrifter. No. E. S.</q>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <!-- signature appears on fol. 81r -->
+                     <name type="person" role="signatory" key="NilDal001"/>
+                     <name type="person" role="owner" key="MatBen001"/>
+                     <name type="person" role="owner" key="LarEng001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:01.528+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-11" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

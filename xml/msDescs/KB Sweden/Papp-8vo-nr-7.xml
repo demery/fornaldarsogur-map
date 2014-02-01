@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <!-- changed from Papp 4to nr 7; presumably a typo -->
+            <titleStmt>
+                <title>Papp. 8vo nr 7</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="Papp-8vo-nr-7" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                        <!-- changed from Papp 4to nr 7; presumably a typo -->
+                        <idno>Papp. 8vo nr 7</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="no"/>
+                        <msItem n="1" class="ridd tjos">
+                            <locus from="1r:1" to="106v:28">1r-106v</locus>
+                            <title type="uniform">Ferakuts saga</title>
+                            <textLang mainLang="is"/>
+                            <msItem n="1.1" class="ridd tjos">
+                                <locus from="1r:1" to="106v:14">1r-106v</locus>
+                                <title>Ferakuts saga</title>
+                                <rubric>Capituli 1</rubric>
+                                <incipit>J Spania war fordvm<ex>m</ex> daga eirn amriniall(?), s<ex>e</ex>m hiet Balant mikil
+                                    hetia <ex>og</ex> mektug<ex>ur</ex> ad lijkaman<ex>n</ex>s hreisti. gotzi <ex>og</ex> met
+                                    ordi</incipit>
+                                <explicit>hi<ex>er</ex> m<ex>ed</ex> hafa allar giȯrder þ<ex>eß</ex> m<ex>ann</ex>l<ex>e</ex>ga
+                                    skarakuvz(?)&gt; n<ex>n</ex> enda. Gud vyrdist fr oss þ<ex>ei</ex>ri Eylijfu gledi
+                                        e<ex>ck</ex>j(?) ad venda</explicit>
+                                <finalRubric>AMEN</finalRubric>
+                                <note>30 chapters.</note>
+                            </msItem>
+                            <msItem n="1.2" class="kvad">
+                                <locus from="106v:15" to="106v:28">106v</locus>
+                                <title>Verse</title>
+                                <rubric>Vali</rubric>
+                                <incipit>Søguna þu<ex>er</ex>, eg sest v<ex>m</ex> kyrt, so sk<ex>al</ex> skrifi hætta.
+                                        sön<ex>ar</ex> ku<ex>er</ex></incipit>
+                                <explicit>so skal lijda lioda smijd, lasti ei sä s<ex>e</ex>m hlyder, guddoms þijda
+                                        giæskan<ex>n</ex> hlijd. geim<ex>m</ex>i oss allar tijder</explicit>
+                                <finalRubric>Finis</finalRubric>
+                            </msItem>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="107r:1" to="149v:17">107r-149v</locus>
+                            <title type="uniform" ref="#ssst">Sörla saga sterka</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Hier Biriast Saga af Sorlla Sterka</rubric>
+                            <incipit>J Þan<ex>n</ex> Tima þa ed haldan kong<ex>ur</ex> Bronu Fostri Riedi suiþiod, setti
+                                    h<ex>an</ex>n Casto mag sin<ex>n</ex> f<ex>irir</ex> Eingland</incipit>
+                            <explicit>hiellt solli heim t<ex>il</ex> norex, <ex>og</ex> gi<ex>or</ex>dist þar kong<ex>ur</ex>,
+                                    <ex>og</ex> stirdi þui rike allt t<ex>il</ex> dauda dagx, en<ex>n</ex> hog<ex>n</ex>i
+                                    gi<ex>or</ex>di þorer ad Jalli, <ex>og</ex> slitu a[sic] alldreij vinattu syna,
+                                    m<ex>ed</ex><ex>an</ex> lyfdu,</explicit>
+                            <finalRubric>Endast hier nv þessi solla saga, þo m<ex>ik</ex>id hafi f<ex>irir</ex>
+                                ordid</finalRubric>
+                            <note>Version B. 22 chapters</note>
+                            <bibl/>
+                        </msItem>
+                        <msItem n="3" class="fas" defective="true">
+                            <locus from="155r:1" to="178">155-178</locus>
+                            <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Saga af Stvrlaugi starf sama</rubric>
+                            <rubric>1. Cap.</rubric>
+                            <incipit>Aller þi<ex>er</ex> m<ex>enn</ex>, er sau fridug<ex>er</ex> eru v<ex>m</ex> ridindi, ad vita,
+                                    þ<ex>ad</ex> ad grickiar <ex>og</ex> asia m<ex>enn</ex>, Bigdu i firstu
+                                nord<ex>ur</ex>alfuna</incipit>
+                            <explicit defective="true">klæd<ex>um</ex> flett<ex>er</ex> os stur ha<ex>n</ex> tok til hende
+                                    sin<ex>n</ex>i</explicit>
+                            <note> 4 chapters.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="3"/>
+                                    <num type="book-block" value="178"/>
+                                    <num type="back-flyleaf" value="1"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="165"/>
+                                        <width unit="mm" quantity="102"/>
+                                    </dimensions>
+                                    <watermark ana="unknown"/>
+                                </support>
+                                <foliation ana="later fol"><p>The first leaf of each quire is foliated in pencil either in the top
+                                        right corner or in the inner bottom corner, as are fols. <locus>100 and
+                                        154</locus>.</p></foliation>
+                                <condition ana="average"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-prose" columns="1" writtenLines="18 31">
+                                    <num type="wpl" atLeast="18" atMost="31"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" atLeast="130" atMost="145"/>
+                                        <width unit="mm" atLeast="85" atMost="95"/>
+                                    </dimensions>
+                                    <note><locus>150r and 151r-153r</locus> blank, fols. <locus>150v and 153v-154v</locus>
+                                        originally blank.</note>
+                                    <catchwords ana="yes">Catchwords on every page, underlined with a flourish. Hand B often wrote
+                                        the last or the two last lines of a page like catchwords.</catchwords>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="3">
+                            <handNote scribeRef="unknown" scope="major" script="unknown">Script is a mixture of hybrida and early
+                                kurrent, rubrics more similar to chancery. <p>Hand A: <locus from="1r" to="106v">1r-106v</locus>.</p>
+                            </handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="kurrent">
+                                <p>Hand B: <locus from="107r" to="156r">107r-156r</locus>, <locus from="164r:16" to="165v:10">164r:16-165v:10</locus>, <locus from="169r:13" to="169r:21">169r:13-169r:21</locus>, <locus from="170r" to="172r:12">170r-172r:12</locus>, 
+                                    <locus from="172v" to="178v">172v-178v</locus>.
+                                    <!-- ?? there are only 3 hands. Zitz. suggests a 4th? -->
+                                    <note>C. Zitzelsberger deems it likely that fols.
+                                            <locus>168r-169r</locus> were not written by hand B, but by a fourth hand (D).</note></p>
+                            </handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="hybrida">
+                                <!-- 169v:1-169v? Just fol. 169v then? -->
+                                <p>Hand C: <locus from="156v" to="164r:15">156v-164r:15</locus>, <locus from="165v:11" to="167v">165v:11-167v</locus>, <locus from="169v:1" to="169v">169v:1-169v</locus>, <locus from="172r:13" to="172r:21">172r:13-172r:21</locus>.</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc ana="low">
+                            <decoNote type="paratext">Some crudely decorated initials over several lines by hand A.</decoNote>
+                        </decoDesc>
+                        <additions ana="low">
+                            <p>Chapter divisions and numbers added; the same hand, (either <name key="ArnJon001" type="person" role="scribe">Arngrímur Jónsson</name> or <name type="person" key="GudOla001" role="scribe">Guðmundur Ólafsson</name> has added
+                                <!-- see Jon Gunnar Jørgensen, Det tapte håndskriftet Kringla, Olso 2000, p 113, Guðmundur writes "u" very pointy-->)
+                                on fol. <locus>128v</locus>, lower margin: <q xml:lang="is"><subst instant="false" status="unremarkable">
+                                        <del>ny</del>
+                                        <add>Viþ</add>
+                                    </subst> bunaþur þeirra Sor<supplied reason="omitted" instant="false">l</supplied>a
+                                sterka</q><!-- chapter heading Stock. Isl. papp. 4to nr. 38, fol. 62r -->; fol.
+                                    <locus>129v</locus>, lower margin: <q xml:lang="is">
+                                    <del>Dæuþi Marsibil</del>
+                                </q>; fol. <locus>150v</locus>: <q xml:lang="is">sætt Sorla viþ Ungu b<add place="above">r</add>ónu ok Gvanfaung þeirra Főstbræþra</q> and <q xml:lang="is">s<ex>valur</ex> ber herboþ <subst instant="false" status="unremarkable">
+                                        <del>Er</del>
+                                        <add>H</add>
+                                    </subst>ogna E<ex>rlingi</ex> k<ex>óngi</ex></q>; and fol. <locus>154r</locus>: <q xml:lang="is">2 þorir Seigir Fall Halfdanar</q> and <q xml:lang="is">3 Eggiun<ex>ar</ex> ord
+                                    Brónu</q>. Notes about ownership, a verse etc. on fols. <locus>150v and 153v-154v</locus>, the
+                                names <name type="person" role="owner" key="">Hrómundur Bjarnarson</name>, <name type="person" role="owner" key="">Thómas Ólafsson</name>, <name type="person" role="owner" key="">Jón
+                                    Sigurðsson</name> and <name type="person" role="owner" key="">Skúli Einarsson</name> appear.
+                                On an inserted slip of paper <name key="GudOla001" type="person" role="scribe">Guðmundur
+                                    Ólafsson</name> wrote a table of contents, and underneath it <name key="JohPer001" type="person" role="scholar">Johan Peringskiöld</name> added: <q xml:lang="is">27 Febr. 1683
+                                    lät Gudmund Olson afhämta deße sagor in 8.</q></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="decorative" contemporary="false">
+                                <p>Cardboard binding, covered in marbled paper with white leather corners and spine. Shelf-mark
+                                    printed in gold letters on spine with dark red background: <q xml:lang="la">Cod. Isl. Papp.
+                                        8:o N:o 7</q>. Three golden crowns imprinted on spine above the shelf-mark.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1650" notAfter="1693"> most probably before 1683</origDate>
+                            <origPlace key="IS"/>
+                        </origin>
+                        <provenance><p>Gödel gives two contradictory statements about the acquisition of the manuscript; in his
+                                catalogue he states that it was most likely <name key="GudOla001" type="person" role="other">Guðmundur Ólafsson</name> who acquired the manuscript for the <name key="AntKol001" type="organisation" role="owner">Antikvitetskollegiet</name> in or before 1683, but in
+                                    <ref>Fornnorsk-isländsk littertur i Sverige I</ref> he claims that the manuscript was probably
+                                acquired for the Antikvitetskollegiet by <ref type="person">Jonas Rugman</ref> during a journey to
+                                Iceland in <date when="1661">1661</date>. Schück deems the latter an erratum, also
+                                because he proves that Rugman never went to Iceland in 1661. The manuscript is listed in the
+                                Antikvitetskollegiet's inventory from 1693.</p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2010-06-28" who="#SH">Catalogued by Silvia Hufnagel.</change>
+            <change when="2013-04-08" who="#BES">Adjusted markup, added missing information from black-and-white
+                photographs.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+</TEI>

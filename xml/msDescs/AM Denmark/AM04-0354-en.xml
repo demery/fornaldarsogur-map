@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 354 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0354-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 354 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+               
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="33v:13"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her hefr upp sogu Heiðreks konungs ens vitra</rubric>
+                     <incipit>Sva er sagt at i fyrndin<ex>n</ex>i v<ex>ar</ex> kallað Jotun heimar</incipit>
+                     <explicit defective="true">fugl<ex>ar</ex> flugu yf<ex>ir</ex> hofði þer oc tveim megin þin var
+                        þ<ex>ei</ex>ra vegr</explicit>
+                     
+                     <filiation>
+                       <p> Contains the H redaction of the saga. Probably copied directly from 
+                          <ref type="ms" target="#AM04-0544-en" ana="antigraph">AM 544 4to (Hauksbók)</ref>.</p></filiation>
+                   </msItem>
+               
+               </msContents>
+               
+               <physDesc>
+                  
+                  <objectDesc form="codex">
+                  
+                     <supportDesc material="chart">
+                     
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="48"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Flyleaves modern.</note>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">Coat of arms topped with a crown and flanked by two rampant lions.</watermark>
+                           
+                        </support>
+                        
+                        <foliation ana="later fol">
+                           <p>Foliated 1-33 in red ink by <name type="person" key="KriKaa001">Kålund</name>
+                        in the top right hand corners. </p>
+                        </foliation>
+                        
+                        <condition ana="good"/>
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="16">
+                           <num type="wpl" atLeast="2" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="145"/>
+                              <width unit="mm" quantity="90"/>
+                           </dimensions>
+                           <note>Fols. 34-48 are blank.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="#AsgJon001" scope="sole" script="unknown">
+                       <!-- <p>Written by Ásgeir Jónsson.</p>-->
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                           
+                  <additions ana="no">
+                     <p>The leaves have been blind ruled.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The manuscript was formerly bound in two parchment leaves containing a copy of
+                    <title type="ms">Jónsbók</title> passages on <q xml:lang="is">Farmannalög</q> and 
+                           <q xml:lang="is">Þjófabálkr</q> dating from <date when="1600">c. 1600</date>. This binding is 
+                           now housed as part of <ref type="ms">AM Access. 25</ref>. <ref type="ms">AM 354 4to</ref> is now bound in half-calf with marbled paper boards from
+                        <date when="1887">1887</date>.</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  
+                  <origin>
+                     <origDate notBefore="1688" notAfter="1704"/>
+                     <origPlace key="NO"/>
+                  </origin>
+                  
+                  <provenance>
+                     <name key="ArnMag001" type="person" role="owner">Árni Magnússon</name>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:18.953+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:25.14+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:34.624+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:50.36+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:28.445+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-03-04" who="#JSL">Added details form handrit and Kålund catalogs.</change>
+         <change when="2013-03-05" who="#JSL">Cataloged from manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

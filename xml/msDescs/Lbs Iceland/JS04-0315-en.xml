@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 315 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0315-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 315 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="117"/>
+                           <num type="back-flyleaf" value="1"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="major" script="unknown">Unidentified scribes in parts II and IV.</handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Leather spine and corners on paper boards; spine stamped and gilded
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1690" to="1889"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>JS 315 4to I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="nafsk">
+                        <locus from="1r" to="64v"/>
+                        <author key="GudVig001">Guðbrandur Vigfússon</author>
+                        <title type="supplied">Nafnaskrá, ritgerð eftir Guðbrand Vigfússon.</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="64"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" atLeast="212" atMost="340"/>
+                                 <width unit="mm" atLeast="176" atMost="210"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="fol later">In pencil from time of cataloguing</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <!--<layoutDesc>
+                           <layout ana="" columns="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                              <catchwords ana=""/>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudVig001" scope="major" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="medium"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1847" to="1889"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>JS 315 4to II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="bisks tyd">
+                        <locus from="65r" to="67r"/>
+                        <title type="uniform">Kristni saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Úr Kristni sögu prentaðri 1773</rubric>
+                        <note>A Latin translation along with the text in Icelandic</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="4"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="207"/>
+                                 <width unit="mm" quantity="162"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <!--<layoutDesc>
+                           <layout ana="" columns="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                              <catchwords ana=""/>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent">A mix of kurrent and hum cursiva</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1800"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>JS 315 4to III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <!--<titlePage ana="">
+                        <titlePart>Sagan af Þórsteini Geirnefju fóstra</titlePart>
+                     </titlePage>-->
+                     <msItem n="1" class="forns">
+                        <locus from="69r" to="94v"/>
+                        <title type="uniform">Þorsteins saga Geirnefjufóstra</title>
+                        <textLang mainLang="non"/>
+                        <note>In the hand of rev. Jón Konráðsson</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="26"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="220"/>
+                                 <width unit="mm" quantity="170"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="fol later">In pencil, from time of cataloguing</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <!--<layoutDesc>
+                           <layout ana="" columns="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                              <catchwords ana=""/>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonKon001" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">Headings and verses in different script
+                           style</decoNote>
+                     </decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1792" to="1850"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>JS 315 4to IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="landn" defective="true">
+                        <locus from="95r" to="95v"/>
+                        <title type="uniform">Íslendingabók</title>
+                        <textLang mainLang="non"/>
+                        <author key="AriTho001">Ari fróði Þorgilsson</author>
+                        <note>Fragment; part of the beginning.</note>
+                        <note>Notes in Danish by a different scribe at the bottom of the
+                           pages.</note>
+                        <note>Written ca. 1690.</note>
+                     </msItem>
+                     <msItem n="2" class="isl" defective="true">
+                        <locus from="96r" to="107v"/>
+                        <title type="uniform">Ljósvetninga saga</title>
+                        <note>Lacking at the beginning. Starts in chapter 35.</note>
+                        <incipit defective="true">Síðan tóku synir hans Eyjúlfur og Koðran</incipit>
+                     </msItem>
+                     <msItem n="2.1" class="islt">
+                        <locus from="107r" to="107v"/>
+                        <title type="uniform">Þórarins þáttur ofsa</title>
+                        <textLang mainLang="non"/>
+                        <note>Without title</note>
+                        <incipit>CLIV Þórarinn hét maður og var kallaður ofsi</incipit>
+                     </msItem>
+                     <msItem n="3" class="fas" defective="true">
+                        <locus from="108r" to="108v"/>
+                        <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                        <textLang mainLang="non"/>
+                        <note>Fragment.</note>
+                        <incipit defective="true">því ginna, en Hörður greip stöngina so hart, að risinn féll
+                           ofan fyrir bjargið og brotnað í honum hvert bein</incipit>
+                        <explicit defective="true">Hástigi renndi augum til hringsins, þá rétti</explicit>
+                        <note>Hjálmtirs s. og Ölvis c.13. FsN. III, 488</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="14"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" atLeast="194" atMost="205"/>
+                                 <width unit="mm" atLeast="155" atMost="165"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="fol later"/>
+                           <condition ana="poor">In loose leaves; fragmentary; closely cropped</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="27 28">
+                              <num type="wpl" atLeast="10" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="3">
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent">A mix of chancery and kurrent</handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent">A mix of chancery and kurrent</handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent">A mix of chancery and kurrent</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1690"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>JS 315 4to V</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="texfr">
+                        <locus from="109r" to="113v"/>
+                        <title type="supplied">Samanburður Gísla sögu Súrssonar</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="2" class="texfr">
+                        <locus from="113v" to="118v"/>
+                        <title type="supplied">Samanburður Víga-Glúmssögu</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="10"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" atLeast="145" atMost="100"/>
+                                 <width unit="mm" atLeast="160" atMost="110"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="fol later">From time of restoration</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <!--<layoutDesc>
+                           <layout ana="" columns="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                              <catchwords ana=""/>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#HalHja002" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Headings</decoNote>
+                     </decoDesc>
+                     <additions ana="medium">
+                        <p>Fols. <locus from="109r" to="118v">109-118</locus> are envelopes addressed to
+                              <name type="person" key="HalHja002">Halldór Hjálmarsson</name>
+                           konrektor</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1770" to="1805"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:17.83+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:24.036+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:43.185+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2011-05-07T19:18:18.535+02:00" who="#EAH">Extracted layout data from previous
+            version.</change>
+         <change when="2012-07-31" who="#SMM">Completed FASNL encoding for each part. Saga fragments
+            have been gathered in msPart IV as described by the PEÓ catalogue (as opposed to each
+            saga being put in different parts like on handrit.is).</change>
+         <change when="2012-11" who="#SK">Added information from the manuscript itself</change>
+      <change when="2013-08-28" who="#BES">Proofread as far as possible.</change>
+      <!-- layout info missing in those parts without fas -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

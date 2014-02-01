@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 20</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-20" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 20</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/> 
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="36v"/>
+                     <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-4to-nr-6" ana="antigraph">Papp. 4to nr 6</ref>.</p>
+                     </filiation>
+                     <note>older vers.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3">A former front cover is now the second front-flyleaf.</num>
+                           <num type="book-block" value="36"/>
+                           <num type="back-flyleaf" value="3">A former back cover is now the second back-flyleaf.</num>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="yes">A fool with a pointed collar.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="19 22">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#JohPer001" scope="major" script="kurrent">Johan F. Peringskiöld wrote the
+                        text</handNote>
+                     <handNote scribeRef="#GudOla001" scope="minor" script="chancery">Guðmundur Ólafsson wrote the rubrics (and
+                        many of the notes)</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Scholarly notes and additions to the text in the margins, mostly for chapters. <name key="JohPer001" type="person" role="scribe">Johan Peringskiöld</name> wrote on the verso-side of the third
+                        front-flyleaf: <q>Johann Peringer <supplied source="Gödel, 291">mpp</supplied>ria</q>. The innermost
+                        flyleaf in the front and the back used to be a bifolio. On the outside, there are traces of pencil
+                        writing, possibly a letter. On the former front cover, there are three stickers with the shelf mark. On
+                        the recto-side of the first back-flyleaf, there are expansions to some common abbreviations, possibly by
+                        the same hand as the marginalia.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbelled paper on cardboard. The spine and the corners are in white leather. On the spine the
+                           shelfmark is imprinted with golden letters. A former binding is preserved and now counted as
+                           flyleaves.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:53.406+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-03-01" who="#BES">quick prep. for library. Catalog info still missing.</change>
+         <change when="2013-03-08" who="#BES">Added catalog info. Meassured and checked. Info on script and layout still
+            missing.</change>
+         <change when="2013-04-03" who="#PTL">Added remaining scribe and layout details.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

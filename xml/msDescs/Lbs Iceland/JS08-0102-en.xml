@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 102 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0102-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 102 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r:1" to="19r:21"/>
+                     <author key="SnoBjo001">Snorri Björnsson</author>
+                     <title type="supplied">Jóhönnuraunir</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier Skrif Ast eitt æfin<ex>n</ex>tir er kallast Jóhønnu rimur
+                        kvednar af Saluga siera Snorra Björns sin<damage>i</damage></rubric>
+                     <incipit>Firsta Rima Upp heims Rósa saga</incipit>
+                     <explicit>til fridar rauna</explicit>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="19v:1" to="29v:18"/>
+                     <title type="uniform" ref="#hsgr">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagann Af Hrómunde Greifs sÿni</rubric>
+                     <incipit>sa konungur riede firer gørdum<ex>m</ex> i danmörk</incipit>
+                     <finalRubric>og likur hier søgu Hrómundar Greipsonar Ender</finalRubric>
+                     <colophon>anno 1832</colophon>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="30r:1" to="53r:4"/>
+                     <title type="supplied">Kvæði</title>
+                     <author key="JonHja001">Jón Hjaltalín</author>
+                     <author key="MagPet002">Magnús Pétursson</author>
+                     <author key="HalOla002">Halldór Ólafsson</author>
+                     <textLang mainLang="is"/>
+                     <note>Various pieces of poetry, among them <title type="supplied">Ríma af Jóni Upplendingakóngi</title>
+                        by <name type="person">Jón Hjaltalín</name>.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="53"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="138"/>
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+							   <foliation ana="no"/>
+							   <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="26">
+                           <num type="wpl" atLeast="5" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="130"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+							<handNote scribeRef="#FilJon002" scope="sole" script="unknown"><!--<name type="person" key="FilJon002">Filippus Jónsson</name>--></handNote>
+						</handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>A few additions, little poems, riddles etc. on the front and back flyleaves.</p>
+                  </additions>
+                  <bindingDesc>
+							<binding ana="none" contemporary="inapplicable">
+								<p/> 
+							</binding>
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate notBefore="1822" notAfter="1842"/>
+                     <origPlace key="IS">Ísland</origPlace>
+						</origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:22.548+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:29.452+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:47.79+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-09-12" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2013-08-01" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

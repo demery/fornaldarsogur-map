@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 58 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR04-0058-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 58 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>ÍBR B. 50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <note>Both a contemporary and a later title page</note>
+                     <titlePart>[Later:] Rimna-(og Sögu)-Safn. VII (<locus from="FFL2r" to="FFL2r">Front flyleaf 2r</locus></titlePart>
+                     <titlePart>[Contemporary:] Sögu- og Rímnabók. Samanskrifud á <placeName>Svarfhöli I
+                           Miðdölum</placeName> Anno 1801 og 1802 af GUNNLAUGE Gudmundssyne (<locus from="1r" facs="#IBR04-0058-0001r" to="1r">1r</locus>)</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="FFl2v" to="FFl2v"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Innih<ex>ald</ex></rubric>
+                     <note>Later addition in the hand of <name type="person" role="scribe" key="PalPal003">Páll stúdent Pálsson</name></note>
+                  </msItem>
+                  <msItem n="2" class="regist">
+                     <locus from="1v" to="1v"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Bókin inniheldur</rubric>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="1v" to="1v"/>
+                     <title type="supplied">Þakkir til skrifara</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Skrifaranum verðugt hrós og þakklæti</rubric>
+                     <incipit>Iðinn er sá örvager/ að iðka kver og bókskriftir</incipit>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="2r" to="45v"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar saga af Örvar Oddi</rubric>
+                     <colophon>Enduð þann 28. <ex>septem</ex>bris1802 G Guðmundsson að
+                        Svarfhóli</colophon>
+                  </msItem>
+                  <msItem n="5" class="rimur">
+                     <locus from="46r" to="50r"/>
+                     <title type="uniform">Bárðar ríma Snæfellsáss</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Bárðar ríma í Jökli</rubric>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <colophon>endað 21 <ex>októ</ex>bris 1801</colophon>
+                  </msItem>
+                  <msItem n="6" class="landfr malfr">
+                     <locus from="50v" to="50v"/>
+                     <title type="supplied">Fjarðaheiti</title>
+                     <textLang mainLang="non"/>
+                     <title type="supplied">Fjarðatal</title>
+                  </msItem>
+                  <msItem n="7" class="helkv">
+                     <locus from="51r" to="52v"/>
+                     <title type="uniform">Verónikukvæði</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Kvæði af þeirri kvinnu Veroniku</rubric>
+                  </msItem>
+                  <msItem n="8" class="rimur">
+                     <locus from="53r" to="100v"/>
+                     <title type="uniform">Bósa rímur og Herrauðs</title>
+                     <textLang mainLang="non"/>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <incipit>Berlings læt ég báru jór/ brík fyrir öllu ljóma</incipit>
+                  </msItem>
+                  <msItem n="9" class="rimur">
+                     <locus from="101r" to="115r"/>
+                     <author key="ThoEir003">Þormóður Eiríksson</author>
+                     <title type="uniform">Illuga rímur kerlingafífls</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Þessar rímur eru endaðar þann 5 marti 1802 á Svarfhóli af
+                        GGsyni</colophon>
+                  </msItem>
+                  <msItem n="10" class="formal">
+                     <locus from="115r" to="115v"/>
+                     <title type="supplied">Formáli fyrir Skrælingjarímu</title>
+                     <textLang mainLang="is"/>
+                     <author key="JonBja005">Jón Bjarnason á Rafnseyri</author>
+                     <incipit>Innuín quersaret eður Skrælingja níð það er ein ríma ...</incipit>
+                     <colophon>Merkilegum mönnum Dalasýslu prófastinum Sr. Gunnari Pálssyni ágætu og
+                        skrapvitru skáldi sem og Breiðafjarðar eyjamanna sóknarpresti æruverðugum og
+                        vel lærðum séra Markúsi Snæbjörnssyni mínum elskulega tengda og náunga,
+                        mínum ástkærum vinum, þessa mína rímu sem er kveðin uppá Skrælingja eður
+                        Grænlendinga og níðir þá opinberlega fyrir þeirra lesti, vildi ég hér með
+                        hafa til gamans látið fyrir sjónir koma og sem minn vinaskeink gefið
+                        tileinkað og dedigerað beggja yðar auðmjúkasti þénari og yðuglegur elskari
+                        Jón Bjarnason og óverðugur sóknarprestur á Skarðsströnd.</colophon>
+                  </msItem>
+                  <msItem n="11" class="kvad">
+                     <locus from="115v" to="136r"/>
+                     <title type="supplied">Skrælingjaníð</title>
+                     <textLang mainLang="non"/>
+                     <author key="JonBja005">Jón Bjarnason á Rafnseyri</author>
+                  </msItem>
+                  <msItem n="12" class="kvad">
+                     <locus from="137v" to="138v"/>
+                     <author key="JonBja005">Jón Bjarnason á Rafnseyri</author>
+                     <title type="supplied">Kalalítakviða</title>
+                     <textLang mainLang="is"/>
+                     <colophon>Endað þann 20 marti 1802 GGson</colophon>
+                  </msItem>
+                  <msItem n="13" class="kvad">
+                     <locus from="137v" to="138v"/>
+                     <author key="JonBja005">Jón Bjarnason á Rafnseyri</author>
+                     <title type="supplied">Brinkabragur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="14" class="rimur">
+                     <locus from="139r" to="175v"/>
+                     <title type="uniform">Andra rímur</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Mér var raun að radda yl/ réði að einum morgni</incipit>
+                     <colophon>Exemplaris þessar rímur eru klóraðar eftir raungu</colophon>
+                  </msItem>
+                  <msItem n="15" class="rimur">
+                     <locus from="176r" to="196v"/>
+                     <author key="MagMag010">Magnús Magnússon</author>
+                     <title type="uniform">Sigurðar rímur turnara</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Rímur af Sigurði turnara, kveðnar af Magnúsi Magnússyni frá
+                        Magnússkógum</rubric>
+                     <colophon>Rímur mínar (sem þessar eru eftirskrifaðar) ritaði ég eftir allvel
+                        skrifuðu exempl. en mjög röngu, lagfærði ég víða kenningar og <gap/> sem rangt
+                        var, og ég hugði að ei mundi vera skáldsins eigin orð. En verið getur að
+                        sumstaðar hafi eitthvað lítið orðið öðruvísi en í fyrstu var, þó vona ég það
+                        hafi ekki spillt kveðskap á rímum þessum. Líka er sumt enn í þeim sem
+                        kannski þyrfti að laga, sem ég vildi ekki við eiga því það hefði máske orðið
+                        orsök til afbökunar.</colophon>
+                     <note>Added (but not written) by <name type="person" role="scribe" key="PalPal003">Páll stúdent Pálsson</name>
+                     at the time of binding</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="196"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="182"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later pag">On every other recto page</foliation>
+                        <condition ana="average">Old restoration</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="24 26">
+                           <num type="wpl" atLeast="9" atMost="12"/>
+                         <!--  <dimensions type="written">
+                              <height/>
+                              <width/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#GunGud001" scope="major" script="hum cursiva">Hum curisva and chancery, <locus>1r-175v</locus></handNote>
+                     <handNote scribeRef="#EinBja003" scope="minor" script="hum cursiva">Einar Bjarnason á Starrastöðum, <locus>176r-196v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Decorated titlepage</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <!-- is this really palimpsest, or just reused paper? -->
+                     <p><title type="supplied">Sigurðar ríma turnara</title> is an addition made by <name type="person" role="scribe" key="PalPal003">Páll
+                     stúdent Pálsson</name> at the time of binding. He also wrote the later title page and table of contents on the front flyleaf.
+                        There is an additional slip in the binding, reading: <q>Lífsins
+                           vegur. Spegill þess synduga</q> (on palimpsest paper).</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Typical library binding from the time of <name type="person" role="scribe" key="PalPal003">Páll
+                           stúdent Pálsson</name></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1801" to="1802"/>
+                  </origin>
+                  <provenance>
+                     <name type="organisation" role="owner" key="IslBom"/>
+                     <p>
+                        <name type="organisation" role="owner" key="LBS">Landsbókasafn</name> bought the whole collection in <date when="1901">1901</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:08.906+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:16.451+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:36.69+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2013-02" who="#SK">Added items and classes and all other information from the
+            digital version of the manuscript on handrit.is</change>
+         <change when="2013-08-20" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

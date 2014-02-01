@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>Bibliothèque Sainte-Geneviève MS. 3715</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="StGen-3715-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#StGen">Bibliothèque Sainte-Geneviève, Paris</repository>
+						<idno>MS. 3715</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="no">
+							
+						</titlePage>
+						
+						<msItem n="1" class="isl">
+							<locus from="1r:1" to="80v:1"/>  							
+							<title type="uniform">Bandamanna saga <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Bandamanna saga</rubric>
+							<incipit>Il y avait un homme appelé Ófeigr</incipit>
+							<explicit>Et ici finit la saga</explicit>
+														
+														
+							<note>
+							Fol. 1r reads: <q>Editions de Reykjavik 1901</q>.
+							Fols. 68r-80v contain: appendices (Extraits de l'édition de Halldór Friðkrillsson, Copenhague 1850), 
+							table of names and persons, placenames
+							</note> 
+													
+						</msItem>
+						
+						<msItem n="2" class="isl">
+							<locus from="81r:1" to="220v:1"/>  							
+							<title type="uniform">Flóamanna saga <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Flóamanna saga</rubric>
+							<incipit>Le roi Haraldr gullskeggr régnait sur le Sogn.</incipit>
+							<explicit>Et ici se termine cette saga.</explicit>
+							
+													
+							<note>
+							Fol. 81r reads: <q>Edition de Reykjavik 1898 et fragments inserées dans les 
+							"Origines islandicae". Oxford 1905.</q>
+							Fols. 207v-220v contain: table of names and persons, placenames, misc.	
+							</note> 
+							
+						</msItem>
+						
+						<msItem n="3" class="isl">
+							<locus from="221v:1" to="304r"/>  							
+							<title type="uniform">Gunnlaugs saga ormstungu <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Gunnlaugs saga ormstungu</rubric>
+							<incipit>[Thorsteinn et Jófriður, père et mère de Helga]</incipit>
+							<explicit>Et finit ici la saga.</explicit>
+						
+							<note>Fol. 221r reads: <q>Edition E. Mogk. Halle 1908.</q></note>
+							
+						</msItem>
+						
+						<msItem n="4" class="fas">
+							<locus from="305r:1" to="343v:27"/>  							
+							<title type="uniform" ref="#gsgr">Gautreks saga <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Saga de Gautrekr ou Saga de Gjafa-Refr et des Dala-fíflir</rubric>
+							<incipit>[Les circonstances auxquelles le roi Gautrekr</incipit>
+							<explicit>et finit ici la saga de Gjafa-Refr</explicit>
+							
+							<note>
+							Fol. 305r reads: <q>dans Fornaldar sögur Norðrlanda, T. III, Ed. de Reykjavik</q>.
+						    Fols. 340v-343v: table of names and persons, placenames
+							</note> 
+							
+						</msItem>
+						
+						<msItem n="5" class="">
+							<!-- not sure of class -->
+							<locus from="346r:1" to="362r:28"/>  							
+							<title type="supplied">Notice sur Starkaðr enn gamli</title>
+							<textLang mainLang="fr"/>
+							<rubric>Starkaðar enn gamli</rubric>
+							<incipit>Starkaðr gamli a été le plus populaire des héros légendaires.</incipit>
+							<explicit>d'autres disent à Villingebro en Skåne.</explicit>
+							
+							<note>
+								Attached to the book; smaller leaves. Translation of P. A. Munch. Norrøne 
+								Gude- og Helte Sagn, Christiania, 1880
+							</note> 
+							
+						</msItem>
+						
+						<msItem n="6" class="regist">
+							<locus from="363r:1" to="363v:6"/>  							
+							<title type="uniform">Table of contents</title>
+							<textLang mainLang="fr"/>
+							<rubric>Table du fascicule</rubric>
+							<incipit>Bandamanna saga</incipit>
+							<explicit>Notice sur Starkaðr enn gamli</explicit>
+							
+							<note>
+								Glued to the back flyleaf, probably a later addition by Pontois, as leaves
+								are in a smaller format.
+							</note> 
+							
+						</msItem>
+						
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="2"/>
+									<num type="book-block" value="363"/>
+									<num type="back-flyleaf" value="1"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="268" max="268" min="242"/>
+										<width unit="mm" quantity="209" max="209" min="189"/>
+									</dimensions>
+									
+									<watermark ana="no"/>
+									
+								</support>
+								
+								<foliation ana="fol contemporary"/>
+								
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-prose" columns="1" writtenLines="1 32">									
+									
+									<num type="wpl" atLeast="1" atMost="14"/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity="245"/>
+										<width unit="mm" quantity="172"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#LouLeP001" scope="sole" script="hum cursiva"/>
+						</handDesc>
+						
+						<decoDesc ana="no"><decoNote/></decoDesc>
+													
+						<additions ana="no"/>
+							
+						
+						<bindingDesc>
+							<binding ana="plain" contemporary="true">
+								<p>Bound in contemporary paper with later laminate reinforcement</p>
+							</binding> 						
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1908"/>
+							<origPlace key="FR"/>
+							<note>Written some time after 1908, the publication date of Mogk's edition
+								of Gunnlaugs saga</note>
+						</origin>
+						
+						<provenance>
+							<name key="LouLeP001" type="person" role="owner"/> 
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-01-18" who="#JSL">Generated record from Calames catalogue</change>
+			<change when="2013-02-18" who="#ANH">Catalogued from manuscript</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

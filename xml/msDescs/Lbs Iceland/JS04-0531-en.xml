@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 531 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0531-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 531 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <!--<locus from="" to=""/>-->
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <note>A-vers., copy of AM 720 a VIII 4to, fragm.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <!--<num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="296"/>
+                           <!--<num type="back-flyleaf" value=""/>-->
+                           <!--<dimensions type="leaf">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <!--<watermark ana=""/>-->
+                        </support>
+                       <!-- <foliation ana=""/>
+                        <condition ana=""/>-->
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <!-\-<layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <catchwords ana=""/>
+                        </layout>-\->
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown">Steingrímur Þorsteinsson</handNote>
+                  </handDesc>
+                  <!--<decoDesc ana="">
+                     <decoNote type=""/>
+                  </decoDesc>-->
+                  <!--<additions ana=""/>-->
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:24.719+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-08-01" who="#SMM">Completed FASNL encoding.</change>
+         <!-- Catalogued in PEÓ and handrit.is as a 'Kvæðasafn'. A look at the manuscript would enable us to give a more detailed item and manuscript description. -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

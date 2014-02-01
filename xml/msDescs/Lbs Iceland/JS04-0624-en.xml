@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 624 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0624-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 624 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary" type="MS">
+                        <titlePart>Skemmtileg sögubók innihaldandi nokkur ævintýr og
+                           fróðlegar frásagnir af ýmsum höfðingjum og afreksmönnum. Skrifuð að
+                           Látrum við Ísafjörð anno 1695.</titlePart>
+                        <titlePart>Cicero libr. 2 De orat. ad Q. fr. [IX. 36]. [Historia
+                           vero] testis temporum, lux veritatis, vita mem[oriæ], [magistr]a vitæ,
+                           nuntia vetustatis</titlePart>
+                     
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="1v" to="1v"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <textLang mainLang="is"/>
+                     <rubric>[Þes]sar eftirfylgjandi sögur [hefur bókin] inni að halda</rubric>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="2r" to="25v"/>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Heiðre[ki] kóngi og hans ættmönnu[m] </rubric>
+                     <colophon>Anno 1693</colophon>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="26r" to="97v"/>
+                     <title type="uniform">Ljósvetninga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Ljósvetninga saga eður Reykdæla</rubric>
+                     <note>Tveir kap. eru merktir nr. XXXVII (37) en enginn XXXVI (36)</note>
+                     <msItem n="3.1" class="islt">
+                        <locus from="95r" to="97v">95r-97v</locus>
+                        <title type="uniform">Þórarins þáttur ofsa</title>
+                        <rubric>Frá Þórarni ofsa er drap Þorgeir Hávarðsson</rubric>
+                     </msItem>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="98r" to="137v"/>
+                     <title type="uniform">Bjarnar saga Hítdælakappa</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga Bjarnar Hítdælakappa (vantar upphafið)</rubric>
+                     <!-- quotation arrangement here seems doubtful -->
+                     <note>Under the title: <q>(vantar upphafið)the beginning is lacking</q>
+                     </note>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="138r" to="177v"/>
+                     <title type="uniform">Bærings saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar Bærings sögu ens fagra</rubric>
+                     <note>The chapters are wrongly numbered but have been corrected partly by a
+                        different scribe.</note>
+                  </msItem>
+                  <msItem n="6" class="avis">
+                     <locus from="178r" to="193r"/>
+                     <title type="uniform">Esópus saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Esopo Grikklandsspeking</rubric>
+                  </msItem>
+                  <msItem n="7" class="isl">
+                     <locus from="195r" to="240v"/>
+                     <title type="uniform">Finnboga saga ramma</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Finnboga hinum rama</rubric>
+                     <note>The first 4 fols. are in a different hand and size </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="240"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" min="170" max="200"/>
+                              <width unit="mm" min="103" max="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol later">From time of digitisation</foliation>
+                        <condition ana="average">
+                           <p>An old restoration covers up the text in some places. </p>
+                           <p>Upper margin cropped with some text loss. </p>
+                           <p>Lacunae</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 28">
+                           <num type="wpl" atLeast="7" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="vignette" subtype="tailpiece">Tailpieces: <locus>25v</locus>, <locus>137v</locus> and <locus>177v</locus>,
+                        in yellow</decoNote>
+                     <decoNote type="paratext">Decorated titlepage in yellow: <locus>1r</locus></decoNote>
+                     <decoNote type="initial">Titles and beginnings in colour: <locus>2r</locus>, <locus>26r</locus>, <locus>98r</locus> and <locus>138r</locus>
+                        in yellow </decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A second, later title page on the front flyleaf in the hand of <name type="person" role="scribe" key="PalPal003">Páll stúdent Pálsson</name>: <q>Sögu-Safn II</q></p>
+                     <p>Blank added leaves where there are lacunae in the manuscript: fols. <locus>17</locus>, <locus>194</locus></p>
+                     <p>On fol. <locus>177v</locus> is written: <q>Þessa sögubók á séra Guðbrandsson Guðmundsson</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1693" to="1695"/>
+                     <note>The second volume in  a 19 volume story-collection: <ref target="JS04-0623" type="ms">JS 623 4to</ref> -
+                           <ref target="JS04-0641" type="ms">JS 641 4to</ref>
+                     </note>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     
+                     <name type="person" role="owner" key="EinGud004">E[inar]?
+                        Guðbrandsson</name> <locus from="177v" to="177v"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:19.127+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:25.396+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:44.324+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2011-05-07T19:18:19.567+02:00" who="#EAH">Extracted layout data from previous
+            version.</change>
+         <change when="2012-08-03" who="#SMM">Adapted to FASNL encoding. Updated msItems with rubric
+            titles.</change>
+         <change when="2012-11" who="#SK">Corrected class, added information from the manuscript itself</change>
+         <change when="2013-02-13" who="#BES">Fixed validation errors</change>
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westin 87</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Westin-87" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>Westin 87</idno>
+               </msIdentifier>
+               <msContents>
+
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="20v:4"/>
+                     <title type="uniform" ref="#ssst">Sörla saga sterka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagann Af Sørla Sterka</rubric>
+                     <incipit>J þann Tijma hefst Saga þessi er Halldan kongur Brönufostre Stirde Sviþiöd</incipit>
+                     <explicit>og er eij gieted um i þessare Sógu hvört þ<ex>ei</ex>m hafe orded auded barna epter Sig edur
+                        eige,</explicit>
+                     <finalRubric>og lykur hier nu Sogunne af Sorla hinu<ex>m</ex> Sterka og hans afreks verkum</finalRubric>
+                     <note>Vers. C</note>
+                  </msItem>
+                  <msItem n="2" class="kvad">
+                     <locus from="20v:5" to="20v:7"/>
+                     <title type="supplied">Verse</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Af Sorla Sterka, Segge bid Söguna lesa Sk<subst>
+                           <del>a</del>
+                           <add>rä</add>
+                        </subst>da</incipit>
+                     <explicit>hans þar verka, er <del>og</del>
+                        gietid</explicit>
+                  </msItem>
+
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="20"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="203"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="24 29">
+                           <note>Written in dark ink in one column with 24 to 29 lines per page, although usually 26. Running
+                              titles on pp. 4 and 17 (on p. 4 seems like a later addition, darker ink and different hand). Margins
+                              drawn with pencil and grooved, except on pp. 14-16 (no margins drawn) and p. 39 (margins only
+                              grooved). Beginnings of chapters are not numbered, but there are two lines left blank above, and the
+                              first line of the new chapter is written in a different script (p. 1 two lines) and larger
+                              letters.</note>
+                           <num type="wpl" atLeast="10" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="164"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+
+                  </objectDesc>
+
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="unknown" script="hum cursiva"/>
+                     <!-- not sure about script -->
+                  </handDesc>
+
+                  <decoDesc ana="low">
+                     <decoNote type="mixed">Crudely decorated initials on fol. 1r. First line of new chapters written in different
+                        script.</decoNote>
+                  </decoDesc>
+
+                  <additions ana="no"/>
+
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Cardboard binding covered with marbled paper. On the spine a yellow label with the shelf mark and a
+                           pink label with the title. A slip of paper for library uses is pasted to the inside front of the
+                           binding; a certain <name type="person">Samsonarsson</name> borrowed the manuscript <date from="1969-02-07" to="1969-02-15">7-15 February 1969</date>. </p>
+                     </binding>
+                  </bindingDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name type="person" role="owner" key="JacWes001">Jacob Westin</name> bought the manuscript in Copenhagen in <date when="1830">1830</date> at an auction of <name key="BirTho001" role="owner" type="person">Birgir Thorlacius</name>'
+                     bequest.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:25.43+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-08" who="SH">Added information from cagalogue and the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

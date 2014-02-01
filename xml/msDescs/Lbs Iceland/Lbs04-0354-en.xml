@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 354 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0354-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 354 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="forns">
+                     <locus from="1r" facs="#Lbs04-0354-0001r" to="18r">1r-18r</locus>
+                     <title type="uniform">Huldar saga hinnar miklu</title>
+                     <note>See edition from 1909, Sagan af Huld drottningu hinni ríku. The saga ends abruptly (see <ref target="IB04-0320" type="ms">ÍB 320 4to</ref>) and says at the end
+                        : Cætera desunt [meaning that the rest is missing]</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="19r" facs="#Lbs04-0354-0019r" to="25r">19r-25r</locus>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="riddst">
+                     <locus from="25r" facs="#Lbs04-0354-0025r" to="31r">25r-31r</locus>
+                     <title type="uniform">Ambrósíus saga og Rósamundu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="31r" facs="#Lbs04-0354-0031r" to="42v">31r-42v</locus>
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="42v" facs="#Lbs04-0354-0042v" to="52r">42v-52r</locus>
+                     <title type="uniform">Bærings saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="52r" facs="#Lbs04-0354-0052r" to="58v">52r-58v</locus>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="58v" facs="#Lbs04-0354-0058v" to="69v">58v-69v</locus>
+                     <title type="uniform">Blómsturvalla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="isl">
+                     <locus from="69v" facs="#Lbs04-0354-0069v" to="116r">69v-116r</locus>
+                     <title type="uniform">Egils saga Skallagrímssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="116r" facs="#Lbs04-0354-0116r" to="129v">116r-129v</locus>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="riddst">
+                     <locus from="129v" facs="#Lbs04-0354-0129v" to="134v">129v-134v</locus>
+                     <title type="uniform">Faustus saga og Ermenu í Serklandi</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="134v" facs="#Lbs04-0354-0134v" to="147r">134v-147r</locus>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="kon konth">
+                     <locus from="147r" facs="#Lbs04-0354-0147r" to="151v">147r-151v</locus>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="151"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="196"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag contemporary">
+                        </foliation>
+                        <condition ana="poor">
+                           <p>Water damage, cut. Old repairs</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="27 32">
+                           <num type="wpl" atLeast="14" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">Headings</decoNote>
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Flyleaf <locus from="0002r-FFl" facs="#Lbs04-0354-0002r" to="0002r-FFl">2r</locus> is a title page and front flyleaf <locus from="0002v-FFl" facs="#Lbs04-0354-0002v" to="0002v-FFl">2v</locus> is a table of contents by <name type="person" key="PalPal003">Páll Pálsson</name> the student</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Library binding by Páll stúdent Pálsson</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     
+                     <origDate from="1701" to="1800">[1701-1800]</origDate>
+                     <origPlace key="IS"/>
+                     
+                  </origin>
+                  <provenance>
+                     <p>1st volume in a collection in 9 volumes: <ref target="Lbs04-0354" type="ms">Lbs 354
+                           4to</ref> - <ref target="Lbs04-0362" type="ms">Lbs 362 4to</ref>
+                     </p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:32.524+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:43.449+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:01.352+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:35.439+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2011-09" who="#SK">Put in a better order for the FAS-project and added
+         information from the manuscripts digital version on handrit.is</change>
+        </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

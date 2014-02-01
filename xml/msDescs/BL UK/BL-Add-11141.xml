@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11141</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11141" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11141</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem class="isl" n="1">
+                     <locus from="3r" to="24v"/>
+                     <title type="uniform">Vatnsdæla saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="2">
+                     <locus from="24v" to="52v"/>
+                     <title type="uniform">Ljósvetninga saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="3">
+                     <locus from="53r" to="74r"/>
+                     <title type="uniform">Svarfdæla saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="islt" n="4">
+                     <locus from="74v" to="75r"/>
+                     <title type="uniform">Draumur Þorsteins Síðu-Hallssonar</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="tjos" n="5">
+                     <locus from="75r" to="79v"/>
+                     <title type="uniform">Roðberts þáttur</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="6" defective="true">
+                     <locus from="80v" to="82r"/>
+                     <title type="uniform">Valla-Ljóts saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="7">
+                     <locus from="82v" to="112v"/>
+                     <title type="uniform">Reykdæla saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="8">
+                     <locus from="113r" to="124r"/>
+                     <title type="uniform">Vopnfirðinga saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="islt" n="9">
+                     <locus from="125r" to="127r"/>
+                     <title type="uniform">Brandkrossa þáttur</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="10">
+                     <locus from="127v" to="131v"/>
+                     <title type="uniform">Ölkofra þáttur</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="11">
+                     <locus from="132r" to="147r"/>
+                     <title type="uniform">Virgilíus saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="fas" n="12">
+                     <locus from="147v" to="156v"/>
+                     <title ref="#snfdsv" type="uniform">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="islt" n="13">
+                     <locus from="156v" to="157v"/>
+                     <title type="uniform">Þorsteins þáttur Austfirðings</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="14">
+                     <locus from="158r" to="167r"/>
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="15">
+                     <locus from="167r" to="216r"/>
+                     <title type="uniform">Droplaugarsona saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="16">
+                     <locus from="216r" to="231v"/>
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="islt" n="17">
+                     <locus from="231v" to="231v"/>
+                     <title type="uniform">Þorsteins þáttur forvitna</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem class="isl" n="18" defective="true">
+                     <locus from="232r" to="251v"/>
+                     <title type="uniform">Flóamanna saga</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+               </msContents>
+                     <physDesc>
+                        <objectDesc form="codex">							
+                           <supportDesc material="chart">								
+                              <support>
+                                 <num type="front-flyleaf" value="3"/>
+                                 <num type="book-block" value="251"/>
+                                 <num type="back-flyleaf" value="3"/>
+                                 <note>40r and 212r blank.</note>
+                                 <dimensions type="leaf">
+                                    <height unit="mm" min="190" max="185"/>
+                                    <width unit="mm" min="155" max="145"/>
+                                 </dimensions>
+                                 <watermark ana="yes"/>
+                              </support>
+                              <foliation ana="contemporary pag"/>
+                              <foliation ana="later fol"/>
+                              <condition ana="good"/>	
+                           </supportDesc>
+                           <layoutDesc>
+                              <layout ana="verse-prose" columns="1" writtenLines="27 29">									
+                                 <num type="wpl" atLeast="8" atMost="17"/>
+                                 <dimensions type="written">
+                                    <height unit="mm" quantity="180"/>
+                                    <width unit="mm" quantity="140"/>
+                                 </dimensions>
+                                 <note>In the majority of the book the pages have been trimmed so that the writing area
+                                    extends right to the edges of the page</note>
+                              </layout>
+                           </layoutDesc>	
+                        </objectDesc>
+                        <handDesc hands="999">
+                           <handNote scribeRef="unknown" script="chancery">Various hands, unidentified, mostly chancery or kurrent.</handNote>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="no"/>
+                        <bindingDesc>
+                           <binding ana="plain" contemporary="false">
+                              <p>Leaves are mounted on supports.</p>
+                              <p>Some leaves have been bound in the wrong order - ff. 71-6 should be in the order 72, 73, 71, 76, 74, 75</p>
+                              <p>Volume was apparently rebound in 1816 by Díra Ásgrímur Vigfússon who wrote on f. 124v 'Þessa stóru Sögubók, ramlega
+                                fordiarfada, hellst af hennar sidasta Innbindara, hefe eg, med stórre lángseme og fyrirhöfn ad nyu innbundid, fyrir
+                                hvört erfidi, ásamt Fæde mínu og þvj eg hefe til lagt, eg vil fá 16. Fiska i Landaurumm pframmfærdumm. i þad minsta.
+                                voterar Laugarbrecku i Majo 1816. Asgrímur Vigfusson Pr.' Said binding has not been preserved.</p>
+                           </binding>							
+                        </bindingDesc>	
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate notBefore="1700" notAfter="1767">
+                              See note on f. 131v '1767 Kopawijk d. 24 July
+                           </origDate>
+                           <origPlace key="IS"/>
+                        </origin>
+                        <provenance>
+                           <name type="person" role="owner" key="BjaPet001"/>
+                           <name type="person" role="commissioner" key="BjaPet001"/>
+                           <name type="person" role="owner" key="EggOrm001"/>
+                           <name type="person" role="signatory" key="EggOrm001"/>
+                           <name type="person" role="owner" key="DadJon002"/>
+                           <name type="person" role="signatory" key="DadJon002"/>
+                           <name type="person" role="signatory" key="BenHan002"/>
+                           <name type="person" role="owner" key="JosBan001"/>
+                        </provenance>
+                     </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:54.365+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-09" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

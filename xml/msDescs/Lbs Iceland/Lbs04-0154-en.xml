@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 154 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0154-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 154 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="30r"/>
+                     <title ref="#hsb" type="uniform">Halfdánar saga Brönufóstra</title>
+                     <rubric>Sagan af Hálfdani Brönufóstra</rubric>
+                     <colophon>Skrifað þann 9da november 1787</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="31r" to="71v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <rubric>Sagan af Þorsteini Víkingssyni</rubric>
+                     <colophon>Skrifað þann 8da desember 1788</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="72" to="89r"/>
+                     <title type="uniform">Bærings saga fagra</title>
+                     <note>Bærings saga fagra riddara</note>
+                     <rubric>Hér hefur söguna af Bæring fagra riddara</rubric>
+                     <colophon>skrifað 28da januarí 1789</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="89v" to="131v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <rubric>Hér byrjast Sagan af Hrólfi Gautrekssyni</rubric>
+                     <colophon>Skrifað 28da aprílis 1789</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="132r" to="150v"/>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <rubric>Sagan af Sturlaugi starfssama</rubric>
+                     <colophon>Endast svo þessi saga þann 30ta januaria 1794</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="151r" to="200v"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <rubric>Saga af Hrólfi kraka og köppum hans</rubric>
+                     <filiation>
+                        <ref type="ms" target="JS02-0027-en" ana="protograph">derived from JS 27 fol.</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="kon konth">
+                     <locus from="201r" to="208r"/>
+                     <title type="uniform">Ólafs þáttur Geirstaðaálfs</title>
+                     <rubric>Söguþáttur af Ólafi konungi er kallaður var Digurbein</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="208"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Added as a count of the leaves during cataloguing</foliation>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="24 30">
+                           <num type="wpl" atLeast="9" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <note>The manuscript has been trimmed during binding</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">Leaves <locus from="151r" to="151v">151</locus> and <locus from="158r" to="158v">158</locus> are in a different hand. Might have been
+                        filled in later</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>libray binding by Páll Pálsson stúdent</p>
+                        <p>Front flyleaves come with the binding. On front-flyleaf 2v there is a table of contents in the
+                           hand of Páll stúdent Pálsson</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1787" notAfter="1794"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="HalFri001"/>From Halldór Kr. Friðriksson's
+                        collection along with Lbs 155 4to</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:42.352+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-07" who="#SK">Added information from the P.E.Ó.-catalogue and other
+         sources</change>
+         <change when="2011-11" who="#SK">Finished the cataloguing with information from the
+            manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11159</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11159" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11159</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="fas" n="1" defective="true">
+                     <locus from="2r" to="77r"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="2" defective="true">
+                     <locus from="77v" to="89v"/>
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagann af Illuga Gridar fostra</rubric>
+                     <incipit>Sä kongur Riedi firer Danmörc er Hringur hiet</incipit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="90"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="average"/>	
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="19 23">									
+                           <num type="wpl" atLeast="4" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="135"/>
+                              <width unit="mm" quantity="85"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>	
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Leaves are mounted on supports.</p>
+                     </binding>							
+                  </bindingDesc>	
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1780" notAfter="1820"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <!-- should display this somehow, else users will have to consult the XML -->
+                     <name type="person" role="signatory" key="ambig">Árni Árnason</name>
+                     <name type="person" role="owner" key="JosBan001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:54.967+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-10" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>DKNVSB 4 m fol.</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="DKNVSB02-0004-m-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#DKNVS">Det Kongelige Norske Videnskabers Selskabs Bibliotek, Trondheim</repository>
+                  <idno>DKNVSB 4 m fol.</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:x" to="28v:x"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                                          
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+<!--                           <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="28"/>
+<!--                           <num type="back-flyleaf" value=""/>-->
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           
+<!--                           <watermark ana="no|yes"/>-->
+                           
+                        </support>
+                        
+<!--                        <foliation ana="no|contemporary|later|pag|col|fol"/>-->
+                        
+<!--                        <condition ana="poor|average|good"/>-->
+                        
+                     </supportDesc>
+                     
+                     <!-- 
+                     <layoutDesc>
+                        <layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">									
+                           
+                           <num type="wpl" atLeast="" atMost=""/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc> -->
+                     
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown">Same hand as in DKNVSB 139 fol. (cf. typescript cat.).</handNote>
+                  </handDesc>
+                  
+                  <!-- 
+                  <decoDesc ana="no|low|medium|high">
+                     <decoNote type="border"/>
+                  </decoDesc>
+                  
+                  <additions ana="no|low|medium|high">
+                     <p></p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain|moderate|decorative" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc> -->
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+<!--                     <origPlace key="#IS"/>-->
+                  </origin>
+                  
+                  <provenance>
+                     <p>Purchased by DKNVSB from G. Schöning, whose name appears on fol. 1r.</p>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography
+            data</change>
+         <change when="2011-05-06T17:53:00.916+02:00" who="#EAH"> Introduced repository auth file. Updated
+            repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-07-26" who="#JSL">Added template elements and input data from Jónas Kristjánsson's typescript catalog,
+            "Skrá um íslenzk handrit í Noregi".</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

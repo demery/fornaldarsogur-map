@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1998 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1998-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1998 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Ein fróðleg sögubók</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" to="25v"/>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="26r" to="39v"/>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="avint">
+                     <locus from="40r" to="45v"/> <!-- check! -->
+                     <title type="supplied">Ævintýr af Kongs hertoga og jarlssonum</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="46r" to="71r"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="72r" to="111v"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="112r" to="143v"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="144r" to="x"/> <!-- check! -->
+                     <title type="uniform">Ectors saga</title>
+                     <title type="uniform">Hektors saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="183"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="14 22">
+                           <num type="wpl" atLeast="5" atMost="10"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#HalJon009" scope="sole" script="kurrent"><!--Halldór Jónsson í
+                        Öxnafelli--></handNote>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="initial">Titles and initials richly decorated in black ink.</decoNote>
+                     <decoNote type="other">Knotwork at the end of each saga.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Front and back flyleaves are from a printed text: "Úr brjefi til kunningja síns".</p>
+                  </additions>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1790" notAfter="1794"/>
+                     <origPlace key=""/> <!-- IS? -->
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:04.113+02:00" who="#EAH"> Introduced repository auth file.Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-01-22" who="#SK">added infromation from the P.E.Ó.-catalogue, items, titles and scribeRef</change>
+         <change when="2013-06-04" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <!--layout dimensions and bindingDesc missing -->
+         <change when="2013-08-30" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

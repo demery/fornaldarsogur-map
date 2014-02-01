@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 479 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-0479-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 479 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="144"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>6 flyleaves have been added by a later bookbinder, 3 at the
+                              front and 3 at the back.</note>
+                        </support>
+                        <foliation ana="fol later">Every tenth leaf has been foliated at a later date.</foliation>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions ana="high">
+                     <p>Leaves with titles and comments have been added later at the front of the manuscript
+                        and between each part of the manuscript.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1778" notAfter="1832"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+
+               <msPart n="1">
+                  <altIdentifier type="partial">
+                     <idno>Lbs 479 I 8vo</idno>
+                  </altIdentifier>
+               <msContents>
+                  <msItem n="1" class="forns">
+                     <locus from="1r:1" to="10v:24">1r-10v</locus>
+                     <title type="uniform">Hálfdánar saga Barkarsonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan<ex>n</ex> af Hálfdáni og Hilldigeir</rubric>
+                     <incipit>1sti Cap. J þan<ex>n</ex> tima sem Fylkis kongar vorú i Norvegi</incipit>
+                     <explicit>og giordist hófdingi skáneyar og hófum vér ei heirt meira af han<ex>n</ex>s frama verkúm.</explicit>
+                     <colophon>6<ex>ta</ex> Jan. 1802 Þ G S</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="10"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="164"/>
+                              <width unit="mm" quantity="103"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="24">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="140"/>
+                              <width unit="mm" quantity="83"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoGis005" scope="sole" script="kurrent">Þorsteinn Gíslason á Stokkahlöðum</handNote>
+                  </handDesc>
+                 <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+               </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1802"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="2">
+                  <altIdentifier type="partial">
+                     <idno>Lbs 479 II 8vo</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="11r:1" to="34r:22"/>
+                        <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagann Af Eigle Einhendta</rubric>
+                        <incipit>I Cap. Hertrigg<ex>ur</ex> hiet k<ex>onun</ex>g<ex>ur</ex>, h<ex>ann</ex> riede f<ex>yrir</ex>
+                           Rúsia hinne aústare</incipit>
+                        <explicit>og eingvin<ex>n</ex> hlut<ex>ur</ex> af þ<ex>vi</ex> se<ex>m</ex> þ<ex>ar</ex> v<ex>ar</ex> ä</explicit>
+                        <colophon>Skrifud 1778 J</colophon>
+                        <colophon>J.J.S.</colophon>
+                        <note>A short poem is written below, on 34r:17-21.</note>
+                     </msItem>
+                     <msItem n="2" class="kvad">
+                        <locus from="34v:1" to="34v:22"/>
+                        <title type="supplied">Af drykkju viðurstyggð</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Af dryckiu Vidurstyggð. Kvedin<ex>n</ex> Af <ex>sira</ex> Þorl<ex>ake</ex> Þor<ex>arens</ex> syne</rubric>
+                        <incipit>Bren<ex>n</ex>e vín brial<ex>ar</ex> min<ex>n</ex>e</incipit>
+                        <explicit>gaman spiøllin<ex>n</ex> vefur.</explicit>
+                        <colophon>M.D.C.C.L X X X I I <note>1782</note></colophon>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="24"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="152"/>
+                                 <width unit="mm" quantity="97"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="22 24">
+                              <num type="wpl" atLeast="8" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="125"/>
+                                 <width unit="mm" quantity="76"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="ambig" scope="sole" script="kurrent">J.J.S.</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Slightly decorated initials in black ink.</decoNote>
+                     </decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1778" to="1782"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="3">
+                  <altIdentifier type="partial">
+                     <idno>Lbs 479 III 8vo</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="35r:1" to="57v:9"/>
+                        <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                        <textLang mainLang="non"/>
+                        <incipit>tíðinda ad k<ex>onun</ex>g<ex>ur</ex> Reid ä dÿraveidar</incipit>
+                        <explicit>og eckert hefur af þ<ex>vi</ex> fundest</explicit>
+                        <finalRubric>og endar so þ<ex>ess</ex>a Søgu</finalRubric>
+                        <colophon>24 Jan A<ex>nno</ex> 1803</colophon>
+                        <note>Beginning missing.</note>
+                     </msItem>
+                     <msItem n="2" class="fornth" defective="true">
+                        <locus from="57v:10" to="58v:28"/>
+                        <title type="uniform">Ormars þáttur Framarssonar</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Sagan<ex>n</ex> Af Ormare Froðmars Syne</rubric>
+                        <incipit>Firer Gautlande Riede sa kong<ex>ur</ex></incipit>
+                        <note>Only the beginning.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="24"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="159"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="24 26">
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="144"/>
+                                 <width unit="mm" quantity="92"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1803"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="4">
+                  <altIdentifier type="partial">
+                     <idno>Lbs 479 IV 8vo</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="59r:1" to="71r:15"/>
+                        <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagann af Þorsteyne Bæarmagn</rubric>
+                        <incipit>I þan<ex>n</ex> tima er Hácon Sigúrd<ex>ar</ex>s<ex>on</ex> reði</incipit>
+                        <explicit>en<ex>n</ex> er Olafr Kongr hvarf af Orminum Lánga, hvurfu og hornin<ex>n</ex>
+                           Hvýtíngar.</explicit>
+                        <finalRubric>og endast so þessi Saga</finalRubric>
+                        <colophon>24 Decemb<ex>e</ex>r 1802</colophon>
+                     </msItem>
+                     <msItem n="2" class="">
+                        <locus from="71v:1" to="71v:27"/>
+                        <title type="supplied">Saga af Júdas Iskariot</title>
+                        <textLang mainLang="is"/>
+                        <incipit>það skrifast i fornsögum ad á þeim dogum</incipit>
+                        <explicit>ein<ex>n</ex> dag geck drotnning med Sion</explicit>
+                        <note>Only the beginning.</note>
+                        <!-- Class? -->
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="13"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="26 29">
+                              <num type="wpl" atLeast="7" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="143"/>
+                                 <width unit="mm" quantity="83"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#ThoGis005" scope="sole" script="kurrent">Þorsteinn Gíslason á Stokkahlöðum</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1802"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="5">
+                  <altIdentifier type="partial">
+                     <idno>Lbs 479 V 8vo</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="72r:1" to="86v:19"/>
+                        <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan af Þorsteine Bæar Magn</rubric>
+                        <incipit>I þan<ex>n</ex> tíma sem Häcon Sigurdarson Riede f<ex>yrir</ex>
+                           Noreige</incipit>
+                        <finalRubric>og Lúkúm vier so søguna af Þorsteine Bæar Barn og hans frægdar verkúm</finalRubric>
+                        <colophon>endad 1801 Dag 3 Decemb<ex>e</ex>r</colophon>
+                     </msItem>
+                     <msItem n="2" class="kvad">
+                        <locus from="86v:20" to="86v:24"/>
+                        <title type="supplied">Mansöngur Jóns sáluga Péturssonar</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Man<ex>n</ex> Saúngr Jons Sal Petúr Son</rubric>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="15"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="161"/>
+                                 <width unit="mm" quantity="103"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="24 26">
+                              <num type="wpl" atLeast="8" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="140"/>
+                                 <width unit="mm" quantity="87"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1801"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="6">
+                  <altIdentifier type="partial">
+                     <idno>Lbs 479 VI 8vo</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="forns">
+                        <locus from="87r:1" to="94r:17"/>
+                        <title type="uniform">Bragða-Ölvis saga</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Sagan<ex>n</ex> af Bragða Ölver</rubric>
+                        <incipit>I þan<ex>n</ex> tima sem Mag<ex>n</ex>us kongr en<ex>n</ex> gode</incipit>
+                        <explicit>og lÿkur hier fra hónúm<ex>m</ex> ad seigia</explicit>
+                        <colophon>Endadar 22 Decemb<ex>e</ex>r 1799 af E E syne</colophon>
+                     </msItem>
+                     <msItem n="2" class="forns" defective="true">
+                        <locus from="94r:18" to="98v"/>
+                        <title type="uniform">Saga af Júdas Iskariot</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Lif Saga Iudasar Iskariot</rubric>
+                        <incipit>Þad skrifast af þ<ex>ei</ex>m gömlu Lærefedru<ex>m</ex></incipit>
+                        <explicit>hafde giort þa f<ex>yrir</ex> gaf Jesus h<ex>onu</ex>m þad.</explicit>
+                        <note>Only the beginning.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="12"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="166"/>
+                                 <width unit="mm" quantity="102"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="21 23">
+                              <num type="wpl" atLeast="8" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="147"/>
+                                 <width unit="mm" quantity="86"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole">E.E.son</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1799"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart n="7">
+                  <altIdentifier type="partial">
+                     <idno>Lbs 479 VII 8vo</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="ridd" defective="true">
+                        <locus from="99r:1" to="99r:15"/>
+                        <title type="uniform">Drauma-Jóns saga</title>
+                        <textLang mainLang="non"/>
+                        <note>Only the very end.</note>
+                     </msItem>
+                     <msItem n="2" class="ridd">
+                        <locus from="99r:16" to="117r:11"/>
+                        <title type="uniform">Samsons saga fagra</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Her biriast Saga af Samsöne fagra</rubric>
+                        <incipit>Artus h<ex>ie</ex>t c<ex>onun</ex>gr h<ex>ann</ex> Riede f<ex>yrer</ex> Engl<ex>an</ex>de</incipit>
+                        <explicit/>
+                        <finalRubric>o<ex>c</ex> end<ex>um</ex> ver her sógu af Samsine Fagra ender</finalRubric>
+                     </msItem>
+                     <msItem n="3" class="fas">
+                        <locus from="117r:12" to="131r:14"/>
+                        <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Saga af Hialtei og Olver</rubric>
+                        <incipit>Þesse Saga biriast af ein<ex>um</ex> ágæt<ex>um</ex> c<ex>onun</ex>gi</incipit>
+                        <explicit>og er margt m<ex>anna</ex> frá þ<ex>ei</ex>m kom<ex>ið</ex> oc liuk<ex>um</ex> vier
+                           so þ<ex>ess</ex>arr frá sógu.</explicit>
+                        <colophon>Endud dag 28 Septemb<ex>e</ex>rs A<ex>nno</ex> 1832</colophon>
+                     </msItem>
+                     <msItem n="4" class="fas">
+                        <locus from="131r:15" to="144v:14"/>
+                        <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Her biriast Sagan af Háldane Eysteins sine</rubric>
+                        <incipit>I Capitulj A Firre man<ex>n</ex>a dóg<ex>um</ex> Riedi sá k<ex>onun</ex>gr
+                           Noreij</incipit>
+                        <explicit>i Noregi og Ørkneyum<ex>m</ex> og liükum<ex>m</ex> vér so þessarr frä Sógu</explicit>
+                        <note>Below the saga, some text in strange script/language (probably villuskrift) has been written.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="46"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="169"/>
+                                 <width unit="mm" quantity="103"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="22 25">
+                              <num type="wpl" atLeast="6" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="155"/>
+                                 <width unit="mm" quantity="96"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1832"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:13.095+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-02" who="#SMM">Added msItems and missing codes in msDesc</change>
+         <change when="2012-07-16" who="SMM">Divided msDesc into parts from desc on handrit.is.</change>
+         <change when="2013-08-28" who="#TL">Checked markup consistency.</change>
+         <change when="2013-09-17" who="#OHA">Catalogued from manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

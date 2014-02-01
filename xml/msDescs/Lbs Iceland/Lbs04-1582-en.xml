@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1582 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1582-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1582 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="post">
+                     <locus from="1r" to="20r"/>
+                     <title type="uniform">Péturs saga postula</title>
+                     <note>Ordinal number in the prologue is written in latin: primo.</note>
+                  </msItem>
+                  <msItem n="2" class="post">
+                     <locus from="20r" to="30v"/>
+                     <title type="uniform">Jóns saga postula</title>
+                     <note>Ordinal number in the prologue is written in latin: secundo</note>
+                  </msItem>
+                  <msItem n="3" class="post">
+                     <locus from="30v" to="34r"/>
+                     <title type="uniform">Jakobs saga postula</title>
+                  </msItem>
+                  <msItem n="4" class="post">
+                     <locus from="34r" to="37v"/>
+                     <title type="uniform">Barthólómeus saga postula</title>
+                  </msItem>
+                  <msItem n="5" class="post">
+                     <locus from="37v" to="41v"/>
+                     <title type="uniform">Tveggja postula saga Símonar og Júdasar</title>
+                  </msItem>
+                  <msItem n="6" class="post">
+                     <locus from="41v" to="47r"/>
+                     <title type="uniform">Tómas saga postula</title>
+                  </msItem>
+                  <msItem n="7" class="post">
+                     <locus from="47r" to="57r"/>
+                     <title type="uniform">Andréas saga postula</title>
+                  </msItem>
+                  <msItem n="8" class="post">
+                     <locus from="57r" to="61r"/>
+                     <title type="uniform">Mattheus saga postula</title>
+                  </msItem>
+                  <msItem n="9" class="post">
+                     <locus from="61r" to="63v"/>
+                     <title type="uniform">Tveggja postula saga Filippusar og Jakobs</title>
+                  </msItem>
+                  <msItem n="10" class="post">
+                     <locus from="63v" to="67r"/>
+                     <title type="uniform">Matthías saga postula</title>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="67r" to="77r"/>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="77r" to="82v"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="83r" to="85v"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="85v" to="118v"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <note>Incomplete.</note>
+                     <note>One folio missing.</note>
+                  </msItem>
+                  <msItem n="15" class="damis">
+                     <locus from="119r" to="127r"/>
+                     <rubric>Ein dæmisaga uppá það að af miklum stofni verði menn ei ætíð
+                        ríkir</rubric>
+                  </msItem>
+                  <msItem n="16" class="damis">
+                     <locus from="127r" to="129r"/>
+                     <rubric>Sniðugi þjófurinn</rubric>
+                  </msItem>
+                  <msItem n="17" class="almb tyd">
+                     <locus from="129v" to="135r"/>
+                     <rubric>Saga kóngsdótturinnar frá Deriabar</rubric>
+                     <note>Probably translated from Danish by Jón Hjaltalín.</note>
+                  </msItem>
+                  <msItem n="18" class="almb">
+                     <locus from="135r" to="141r"/>
+                     <rubric>Saga af Amed kóngssyni og Parebana huldukonu</rubric>
+                  </msItem>
+                  <msItem n="19" class="damis">
+                     <locus from="141r" to="142r"/>
+                     <rubric>Saga af einum fiski eða veiðimanni</rubric>
+                  </msItem>
+                  <msItem n="20" class="almb">
+                     <locus from="142r" to="147r"/>
+                     <rubric>Ævintýr af doktor Doban</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="147"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="205"/>
+                              <width unit="mm" quantity="173"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+							   <foliation ana="later fol"/>
+							   <condition ana="good"/>
+                     </supportDesc>
+							<layoutDesc>
+                        <layout columns="1" writtenLines="18 37">
+                           <num type="wpl" atLeast="12" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="197"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+							<handNote scribeRef="#ThoJon031" scope="sole" script="other"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+							<p>Furthest back flyleaf and paste-down leaf with printed text, the former in Danish and the latter in Icelandic.</p>
+							<p>Squiggles on front paste-down leaf.</p>
+							<p>Manuscript contents on front flyleaf <locus from="1r" to="1r">1r</locus></p>
+						</additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate when="1828"/>
+                     <origPlace key="IS"/>
+						</origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:42.231+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:54:00.353+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:18.932+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:18:51.848+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2012-10-22" who="#SMM">Adapted xml encoding to FASNL requirements. Translated text to English. Pictures from handrit.is yet to be checked.</change>
+         <change when="2013-08-01" who="SMM">Finished.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

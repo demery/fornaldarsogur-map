@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 909 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-0909-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 909 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 331 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="handfr">
+                     <locus from="1r" to="2r"/>
+                     <title type="supplied">Copy of AM-slips</title>
+                     <textLang mainLang="is"/> 
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="3r" to="5v"/>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar [Excerpt]</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Strophæ kvædam ex historia Ragnaris Lodbrok <add>Pap: 55</add> Ex Mnuscripto ehartacæo Bibli: A: Amgnæi i folio No 2.</rubric>
+                     <incipit>þa mælti Ragnar,</incipit> 
+                     <explicit>mitt sverd dreged verda</explicit>
+                     <filiation><ref type="ms" target="#AM02-0002-en" ana="antigraph">copy of AM 2 fol.</ref></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="5"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="yes">"GR" with a crown on top; Maid of Dort "Pro Patria"</watermark>
+                        </support>
+                           <foliation ana="no"/> 
+                           <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="18 22">
+                           <num type="wpl" atLeast="4" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoMag014" scope="sole" script="hum cursiva">Aspects of chancery</handNote>
+                  </handDesc>
+               <decoDesc ana="no"><decoNote/></decoDesc>
+               <additions ana="low"><p>A slip with the shelf mark is inserted. On the inside of the front cover, <q>wod(?)
+                  Isfiörd</q> is written, and a stamp of the Danish Royal Library can be seen.</p></additions>
+               <bindingDesc>
+                  <binding ana="plain" contemporary="true">
+                     <p>Plain brown paper binding with stains.</p>
+                  </binding>
+               </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 331 4to.</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:36.863+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-01" who="#BES">Added catalog info.</change>
+         <change when="2013-05-21" who="#BES">Added missing information with manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

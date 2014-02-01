@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2796 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-2796-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2796 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                 
+                  <msItem n="1" class="almb">
+                     <locus from="1r" to="24v"/>
+                     <title type="uniform">Cyrus saga Persakonungs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                   <locus from="25r" to="62v"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#HSk04-0452-en" ana="antigraph">copy of HSk 452 4to which itself derived from AM fol. 12 c.</ref>
+                        <ref type="ms" target="#AM02-12-c-en" ana="protograph"/>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                      <locus from="63r" to="88r"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="88v" to="99v"/>
+                     <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="100r" to="109r"/>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                  </msItem> 
+                  <msItem n="6" class="forns">
+                    <locus from="110r" to="151v"/>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <author key="#SnoBjo001">Snorri Björnsson á Húsafelli</author>
+                     <textLang mainLang="non"/>
+                     <note>Parts left out (indicated by blank spaces)</note>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="152r" to="159v"/>
+                     <title ref="#snfdsv" type="uniform">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi <note>(Exerot)</note></title>
+                     <textLang mainLang="non"/>
+                     <note>Brávallabardagi only (starts with chapter 10)</note>
+                  </msItem>
+                  <msItem n="10" class="kons">
+                     <locus from="160r" to="167r"/>
+                     <title type="uniform">Skálda saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="167v" to="168v"/>
+                     <title ref="#upp" type="uniform">Af Upplendinga konungum</title>
+                     <textLang mainLang="non"/>
+                     </msItem>
+                  <msItem n="9" class="fas">
+                      <locus from="169r" to="175v"/>
+                     <title ref="#rth" type="uniform">Ragnarssona þáttur</title>
+                     <rubric>Saga af Loðbrókarsonum</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  
+                  <msItem n="11" class="konth">
+                     <locus from="176r" to="181r"/>
+                     <title type="uniform">Hauks þáttur hábrókar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="isl">
+                     <locus from="182r" to="188v"/>
+                     <title type="uniform">Færeyinga saga </title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="konth">
+                      <locus from="190r" to="194v"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="14" class="hels">
+                        <locus from="195r" to="203v"/>
+                        <title type="uniform">Játvarðar saga helga</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  <msItem n="15" class="bisks">
+                     <locus from="204r" to="208v"/>
+                     <title type="supplied">Jóns saga biskups Halldórssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="tjods">
+                    <locus from="210r" to="215v"/>
+                     <title type="uniform">Sagan af Álfa-Árna</title>
+                     <title type="uniform">Árnaskjal</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="216"/>
+                           <num type="back-flyleaf" value="1"/>
+                       <dimensions type="leaf">
+                           <height unit="mm" quantity="210"/>
+                           <width unit="mm" quantity="165"/>
+                        </dimensions>
+                           <watermark ana="yes">Watermark with the inscriptions 'Det Ørholmske' and
+                              'Interessentskab', probably only on the first four added
+                              leaves.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p>Origial pagination in the upper outer
+                              corner, separate for each text.</p>
+                        </foliation>
+                        <condition ana="good">The manuscript is in quite good condition, corners bent.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="25">
+                           <num type="wpl" atLeast="12" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="115"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scope="sole" script="hum cursiva" scribeRef="#HalHja002"><!--Written by <name type="person">Halldór Hjálmarsson, konrektor</name>-->
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="paratext">Red frames bordering the text.</decoNote>
+                     </decoDesc>
+                     <additions ana="medium">
+                        <p>Variants in the margin, the text
+                        was collated with another text called 'A.' Perhaps by the same scribe. First
+                        four leaves added later containing a list of contents and indicating the name of the scribe.
+                        </p>
+                        <list type="simple">
+                           <item>
+                              In the front, there is a slip reading: <q>Bók þessi er skrifud af Conrector Halldori
+                              Hiálmarssyni <gap/></q></item>
+                           <item>
+                              On the first front fly leaf, there ist a list of contents, added by <name key="BogBen001" type="person" role="scribe">Bogi
+                                 Benediktsson</name> of <name type="place">Staðarfell (cf. <ref>Slay
+                                    1970:265</ref>)
+                                 </name>
+                           </item>
+                           
+                        </list>
+                     </additions>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="false">
+                           <p>Leather cover without wooden plates. Industrial leather with a stamp,
+                              lines and holes in it. Hard to tell what it was before. Dimensions: 
+                                 <height>220</height>mm x
+                                 <width>180</width>mm x
+                                 <depth>30</depth>mm
+                              Binding is in rather poor condition.
+                           </p>
+                        </binding>
+                     </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     
+                     <origDate notBefore="1780" notAfter="1805">ca. 1790</origDate>
+                     <origPlace key="IS">Iceland</origPlace>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:06.593+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-01-28" who="#SK">added item and classes and other information from the P.E.Ó.-catalogue</change>
+         <change when="2013-04-18" who="#BES">Added information from TL's file. Information on loci missing.</change>
+         <change when="2013-09-02" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

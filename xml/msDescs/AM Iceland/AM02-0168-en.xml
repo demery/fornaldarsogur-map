@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 168 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0168-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 168 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="10v">1r-10v</locus>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"></textLang>
+                     <note>According to an older description <title>Hálfdanar saga Eysteinssonar</title> was between fols. 10 and 11
+                        but has seemingly been removed (see note and <ref>AM 435 b fol.</ref>, fol. 12r).</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="11r" to="19v">11r-19v</locus>
+                     <textLang mainLang="non"></textLang>
+                     <title ref="#ssst" type="uniform">Sörla saga sterka</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="19"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="322"/>
+                              <width unit="mm" quantity="215"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="later fol"/>                        
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="36 38">
+                           <num type="wpl" atLeast="12" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="259"/>
+                              <width unit="mm" quantity="156"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="fractura"/>                     
+                     <!-- Ein hönd? -->
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>Several marginalia by <name key="ThoTor001" type="person">Þormóður Torfason</name> in the first part of the manuscript.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" notBefore="1976" notAfter="1976" contemporary="false">
+                        <p/>
+                     </binding>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Boards and spine of old binding are wrapped in pages from a religious latin manuscript.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1675" notAfter="1700"/>
+                     <!--<origPlace key=""></origPlace>-->
+                  </origin>
+                  <provenance>
+                     <p>The book to which the manuscript belonged was nr. XVIII in <name key="ThoTho001" role="owner"
+                        type="person">Þormóður Torfason</name>'s collection. <name key="ArnMag001" role="owner" type="person">Árni
+                           Magnússon</name> got the manuscript from Þormóður's widow in 1720 and divided it (see AM 435 b fol. and note in AM 147 fol.).</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:50.247+02:00" who="#EAH"> Created as subset of full file.</change>
+         <change when="2011-05-06T17:52:05.936+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:17.009+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:30.882+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:10.167+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-03-18" who="#SMM">Rectified some codes. Translated into English.</change>
+         <change when="2013-03-26" who="#SMM">Added layout dimensions + decoDesc after checking pictures from the Arnamagnaean Collection, Copenhagen.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

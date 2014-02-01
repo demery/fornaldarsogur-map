@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 19 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS02-0019-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 19 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="texfr">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="supplied">Skýringargreinar Árna Magnússonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Skýringargreinir með hendi A. Magn. í no. 435 4to folio 82-83 er
+                        án efa eiga saman við skinnbækurnar 371 og 544 4to. Exscr. AM 765
+                        4to</rubric>
+                     <note>Comments by Árni Magnússon on content and copy of <ref type="ms" target="#AM04-0544-en">Hauksbók</ref> and copies of letters concerning the manuscript
+                        </note>
+                     <note>On leaf <locus>2v</locus> is a short note on manuscripts which derive from 
+                        <ref type="ms" target="#AM04-0544-en">Hauksbók</ref>.</note>
+                  </msItem>
+                  <msItem n="2" class="heims texfr">
+                     <locus from="3r" to="7v">3r-7v</locus>
+                     <title type="supplied">Heimspeki og helgifræði</title>
+                     <textLang mainLang="non"/>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                  </msItem>
+                  <msItem n="3" class="heims">
+                     <locus from="7v" to="8r">7v-8r</locus>
+                     <title type="supplied">Heimslýsing og helgifræði</title>
+                     <textLang mainLang="non"/>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                     <note>Fol. <locus>8v</locus> blank</note>
+                  </msItem>
+                  <msItem n="4" class="tyd sagnps texfr">
+                     <locus from="9r" to="25v">9r-25v</locus>
+                     <title type="uniform">Trójumanna saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                  </msItem>
+                  <msItem n="5" class="tjodfr steinfrtexfr">
+                     <locus from="26r" to="26v">26r-26v</locus>
+                     <title type="supplied">Náttúrusteinar</title>
+                     <textLang mainLang="non"/>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                  </msItem>
+                  <msItem n="6" class="sagnps tyd ">
+                     <locus from="27r" to="68r">27r-68r</locus>
+                     <title type="uniform">Breta sögur</title>
+                     <textLang mainLang="non"/>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                     <note>Fol. <locus>68v</locus> blank</note>
+                  </msItem>
+                  <msItem n="7" class="sidfr texfr">
+                     <locus from="69r" to="83v">69r-83v</locus>
+                     <title type="Siðfræði"/>
+                     <note>Marginalia in same hand</note>
+                     <textLang mainLang="non"/>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                     <note>Fol. <locus>84</locus> blank</note>
+                  </msItem>
+                  <msItem n="8" class="konth texfr">
+                     <locus from="85r" to="91v">85r-91v</locus>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                  </msItem>
+                  <msItem n="9" class="fas texfr" defective="true">
+                     <locus from="92r" to="100v">92r-100v</locus>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hervarar saga og Heiðreks</rubric>
+                     <!-- actually the incipit? -->
+                     <rubric>Hér hefur upp sögu Heiðreks konungs ens vitra</rubric>
+                     <note>Lacking at the end</note>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                  </msItem>
+                  <msItem n="10" class="isl ">
+                     <locus from="101r" to="122v">101r-122v</locus>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                  </msItem>
+                  <msItem n="11" class="starfr texfr">
+                     <locus from="123r" to="126v">123r-126v</locus>
+                     <title type="supplied">Algorismus</title>
+                     <textLang mainLang="non"/>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                  </msItem>
+                  <msItem n="12" class="kon texfr">
+                     <locus from="127r" to="132v">127r-132v</locus>
+                     <title type="uniform">Skálda saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Haralds saga hárfagra</rubric>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                  </msItem>
+                  <msItem n="13" class="fas texfr">
+                     <locus from="133r" to="133v">133r-133v</locus>
+                     <title type="uniform" ref="#upp">Af Upplendinga konungum</title>
+                     <textLang mainLang="non"/>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                  </msItem>
+                  <msItem n="14" class="fas texfr">
+                     <locus from="134r" to="137v">134r-137v</locus>
+                     <title type="uniform" ref="#rth">Ragnarssona þáttur</title>
+                     <textLang mainLang="non"/>
+                     <note>Marginalia in same hand</note>
+                     <filiation><p>From
+                        <ref type="ms" target="#AM04-0544-en" ana="antigraph">Hauksbók</ref></p></filiation>
+                     <note>Fol. <locus>138</locus> blank</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="138"/>
+                           <num type="back-flyleaf" value="10"/>
+                           <note>Flyleaves added with binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="344"/>
+                              <width unit="mm" quantity="206"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p>An old pagination 1-272 (<locus>3r-138v</locus>)</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="27 36">
+                           <num type="wpl" atLeast="14" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="235"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonSig004" scope="sole" script="hum cursiva">Exact copy of the best part of Hauksbók in
+                        Jón Sigurðsson's own hand, as well as marginalia.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="high">
+                     <p>Marginalia by the scribe.
+                     </p>
+                     <p>A loose slip following fol. <locus>8r</locus> with information on the owner of the exemplar.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Plain yellow and brown cardboard binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1840"/>
+                     <origPlace key="IS">Ísland</origPlace>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:13.759+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:20.995+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:40.663+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2012-06-04" who="SMM">Rectified xml encoding until handDesc and added content
+            class where possible.</change>
+         <change when="2012-06" who="#SK">Adapted to FASNL and added some information from the P.E.Ó.-catalogue the XML-file on handrit.is and
+            other sources</change>
+         <change when="2012-11" who="#SK">Added titles and the last bit of information concerning layout</change>
+         <change when="2013-08-29" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

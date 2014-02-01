@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 557 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0557-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 557 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">            
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="3r">1r-3r</locus>
+                     <title type="uniform">Valdimars saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Beginning missing.</note>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="3r" to="10v">3r-10v</locus>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <textLang mainLang="non"/>
+                     <note>Ending missing.</note>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="11r" to="22v">11r-22v</locus>
+                     <title type="uniform">Hallfreðar saga vandræðaskálds</title>
+                     <textLang mainLang="non"/>
+                     <note>Beginning missing.</note>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="22v" to="27r">22v-27r</locus>
+                     <title type="uniform">Hrafns saga Sveinbjarnarsonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Incomplete.</note>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="27r" to="35v">27r-35v</locus>
+                     <title type="uniform">Eiríks saga rauða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="kon">
+                     <locus from="35v" to="38r">35v-38r</locus>
+                     <title type="uniform">Rögnvalds þáttur og Rauðs</title>
+                     <textLang mainLang="non"/>
+                     <note>Variant of Rauðúlfs þáttur.</note>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="38r" to="40v">38r-40v</locus>
+                     <title type="uniform">Dámusta saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Ending missing.</note>
+                  </msItem>
+                  <msItem n="8" class="kon">
+                     <locus from="41r" to="42v">41r-42v</locus>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                     <note>Beginning and ending missing.</note>
+                  </msItem>
+                  <msItem n="9" class="fas">
+                     <locus from="43r" to="44r">43r-44r</locus>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <note>Beginning missing.</note>
+                  </msItem>
+                  <msItem n="10" class="islt">
+                     <locus from="44r" to="45r">44r-45r</locus>
+                     <title type="uniform">Stúfs þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="kon">
+                     <locus from="45r" to="48r">45r-48r</locus>
+                     <title type="uniform">Karls þáttur vesæla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="kon">
+                     <locus from="48v" to="48v">48v</locus>
+                     <title type="uniform">Sveinka þáttur Steinarssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Ending missing.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="48"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="186"/>
+                              <width unit="mm" quantity="153"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="later fol"/>                        
+                        <condition ana="poor">Originally written on low quality parchment. Holes throughout, and several pages are ripped.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="24 39">
+                           <num type="wpl" atLeast="14" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="178"/>
+                              <width unit="mm" quantity="138"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="protogothic"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="secondary" subtype="mixed">
+                        <p>Blank spaces left for initials, except on fols. 16v and 24v, where traces of red ink can be seen in the
+                           blank space, and on fols. 27v and 38v, where they have been filled later with squiggles.</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>
+                        <list>
+                           <item n="1">Corrections by scribe: 4r, 17v, 27v-28r, 31v, 37r, 40v, 43r, 46v.</item>
+                           <item n="2">Comments on text: 2v, 10v, 16v, 18v, 19r, 20r, 23v, 24v, 25v, 26v, 38v.</item>
+                           <item n="3">General comments: 27r, 47v.</item>
+                           <item n="4">Squiggles: 1v, 4v, 6v-7v, 10r-v, 12v, 13v-14v, 16v, 17v, 18v, 24v-26r, 27v-32v, 33v, 34v, 35v-36r, 37r, 38r-v, 40r-v, 43v-44r, 46r-47r.</item>
+                           <item n="5">Exclamation point: 35r.</item>
+                           <item n="6">Verse-indicators: 5v, 7r, 9r-10v, 12v, 15r, 16r, 18r, 19v, 21r, 22r, 24r, 26r, 33v.</item>
+                           <item n="7">Guide letters: 3r, 4r, 6r-v, 8v-9v, 13v, 15r, 16r, 17r, 20r, 21v, 22v-23v, 24v, 27v, 29r, 31r, 32r, 33v, 35r, 36v, 38r-39r, 40r-v, 43v-45r, 46r, 47v.</item>
+                           <item n="8">Symbols: 12v, 33r, 48r-v.</item>
+                           <item n="9">Titles on pages added in the 17th century.</item>
+                        </list>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" notBefore="1978" notAfter="1978" contemporary="false">
+                        <p><dimensions type="binding" unit="mm">
+                              <height>225</height>
+                              <width>200</width>
+                              <!--<depth/>--></dimensions></p>
+                     </binding>
+                     <binding ana="plain" notBefore="1911" notAfter="1913" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1420" notAfter="1450"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name key="ArnMag001" type="person">Árni Magnússon</name> got the manuscript from <name key="JonVid002" type="person">Jón Þorkelsson Vídalín</name>. It belonged originally to either the church in Skálholt or <name key="BrySve001" type="person">Brynjólfur Sveinsson</name> the bishop (see front note). A page of <title>Dámusta saga</title> (fol. 40) was found separately (see note).</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:28.324+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:31.263+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:40.373+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:56.529+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:34.29+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-07-01" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <!-- watermark + some translations missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>Bibliothèque Sainte-Geneviève MS. 3728</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="StGen-3728-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#StGen">Bibliothèque Sainte-Geneviève, Paris</repository>
+						<idno>MS. 3728</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="no">
+							
+							<note>Contains translations of sagas into French with translated texts on recto
+								leaves and notes on verso leaves.</note>
+						</titlePage>
+						
+						<msItem n="1" class="fas">
+							<locus from="1r:1" to="18r:22"/>  							
+							<title type="uniform" ref="#esv">Eiríks saga víðförla <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Eireks saga víðfǫrla</rubric>
+							<incipit>Þrándr est cité comme le premier roi</incipit>
+							<explicit>Maintenant nous terminons cette saga.</explicit>
+														
+							
+							<note>
+							Note on fol. 1r reads: <q>Fornaldar sögur Norðrlanda. Editin de Reykjavik 1889.</q>
+							Fols. 17r-18r contain: epilogue, list of names and list of placenames in two columns
+							</note> 
+													
+						</msItem>
+						
+						<msItem n="2" class="fas">
+							<locus from="19r:1" to="35r:27"/>  							
+							<title type="uniform" ref="#isg">Illuga saga Gríðarfóstra <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Illuga saga Gríðarfóstra</rubric>
+							<incipit>A reigné sur le Danmörk un ro nommé Skringr</incipit>
+							<explicit>Et ici terminons-nous cette saga.</explicit>
+							
+											
+							<note>
+							Note on fol. 19r reads: <q>Fornaldarsögur Norðrlanda. Tome III. Edition de Reykjavik 1889.</q>	
+							Fols. 34r-35r contain: table of names and placenames. 
+							Fol. 35r: Note regarding the ship Gnoð and the Gnoðar with the date "12 septembre 1917"
+							</note> 
+							
+						</msItem>
+						
+						<msItem n="3" class="isl">
+							<locus from="36r:1" to="81r:14"/>  							
+							<title type="uniform">Valla-Ljóts saga <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Valla-Ljóts saga</rubric>
+							<incipit>Il y avait un homme appelé Sigmundr</incipit>
+							<explicit>Et ici se termine cette saga.</explicit>
+							
+													
+							<note>
+							Note on fol. 36r reads: <q>Edition de Reykjavik 1898</q>.	
+							Fol. 78r: chronolgy of the saga.
+							Fols. 79r-81r: table of names and placenames.
+							Fol. 81r: dated 1917.
+							</note> 
+							
+						</msItem>
+						
+						<msItem n="4" class="isl">
+							<locus from="82r:1" to="206r:10"/>  							
+							<title type="uniform">Harðar saga <note>(French)</note></title>
+							<title type="parallel">Harðar saga ok Hólmverja</title>
+							<textLang mainLang="fr"/>
+							<rubric>Harðar saga ok Hólmverja</rubric>
+							<incipit>Ce fut aux jours de Haraldr enn hárfagri que se peuple</incipit>
+							<explicit>Maintenant nous mettons ici fin à la saga des Hólmverjar.</explicit>
+							
+							<note>
+							Note on fol. 82r reads: <q>Edition de Þorleifr Jónsson, Reykjavik 1891.</q>
+							Fols. 196r-197r: chronology of the saga.
+							Fols. 197r-206r: table of names and placenames.
+							Fol. 206r: dated <q>1er octobre 1917</q>.
+							
+							</note> 
+							
+						</msItem>
+						
+						<msItem n="5" class="isl">
+							<locus from="207r:1" to="335r:5"/>  							
+							<title type="uniform">Svarfdæla saga <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Svarfdoela saga</rubric>
+							<incipit>Le commencement de cette saga est que le roi Haraldr enn hárfagri</incipit>
+							<explicit>Et sur ces matériaux nous mettons ici fin à Svarfdoela saga</explicit>
+																					
+							<note>
+							Note on fol. 207r: <q>Edition de Reykjavik 1898</q>.	
+							Fol. 325r: chronology of the saga.
+							Fols. 326r-333r: table of names and placenames.
+							Fols. 333r-335r: comments for a preface.
+							</note> 
+							
+						</msItem>
+						
+						<msItem n="6" class="isl">
+							<locus from="336r:1" to="432r:28"/>  							
+							<title type="uniform">Gull-Þóris saga <note>(French)</note></title>
+							<title type="parallel">Þorskfirðinga saga</title>
+							<textLang mainLang="fr"/>
+							<rubric>Þorskfirðinga saga dite aussi Gull-Þóris saga</rubric>
+							<incipit>Il y avait un homme appelé Þórólfr</incipit>
+							<explicit>Et nous mettons ici fin à la saga de Gull-Þórir.</explicit>
+							
+							<note>
+							Note on fol. 336r: <q>Edition de Reykjavik 1897</q>.	
+							Fol. 422r: chronology of  the saga.
+							Fols. 423r-432r: table of names and placenames
+							</note> 
+							
+						</msItem>
+						
+						<msItem n="7" class="regist">
+<!--							<locus from="x:x" to="x:x"/>-->
+							<!-- lacks locus -->
+							<title type="uniform">Table of Contents</title>
+							<textLang mainLang="fr"/>
+							<rubric>Table du fascicule</rubric>
+							<incipit>Eireks saga víðförla</incipit>
+							<explicit>Þorskfirðinga saga</explicit>
+							
+							<note>
+								Dated: <q>6. janvier 1918</q>
+							</note> 
+							
+						</msItem>
+						
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="434"/>
+									<num type="back-flyleaf" value="1"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="263"/>
+										<width unit="mm" quantity="206"/>
+									</dimensions>
+									
+									<watermark ana="no"/>
+									
+								</support>
+								
+								<foliation ana="contemporary fol"/>
+								
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-prose" columns="1" writtenLines="1 15">									
+									
+									<num type="wpl" atLeast="1" atMost="13"/>
+																	
+									<dimensions type="written">
+										<height unit="mm" quantity="239"/>
+										<width unit="mm" quantity="173"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#LouLeP001" scope="sole" script="hum cursiva"/>
+						</handDesc>
+						
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						
+						<additions ana="low">
+							<p>
+								Fol. 46v: drawing of a halberd in the comment section (Valla-Ljóts saga)
+							</p>
+						</additions>
+						
+						<bindingDesc>
+							<binding ana="plain" contemporary="true">
+								<p>Bound in contemporary paper with later laminate reinforcement</p>
+							</binding>							
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate from="1917" to="1918"/>
+							<origPlace key="FR"/>
+						</origin>
+						
+						<provenance>
+							<name key="LouLeP001" type="person" role="owner"/> 
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-01-18" who="#JSL">Generated record from Calames catalogue</change>
+			<change when="2013-01-19" who="#ANH">Catalogued from manuscript</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

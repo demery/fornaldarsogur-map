@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1657 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1657-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1657 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="forns">
+                     <locus from="1r" to="26r"/>
+                     <title type="uniform">Ásmundar saga víkings</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Ásmundi víking</rubric>
+                  </msItem>
+                  <msItem n="2" class="riddst">
+                     <locus from="26v" to="40v"/>
+                     <title type="uniform">Jasonar saga bjarta</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Jason bjarta</rubric>
+                  </msItem>
+                  <msItem n="3" class="sagnfr">
+                     <locus from="41r" to="47r"/>
+                     <title type="uniform">Tyrkjaránið í Vestmannaeyjum.</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="riddst">
+                     <locus from="47v" to="55v"/>
+                     <title type="uniform">Sagan af Polenstator og Möndulþvara</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Polestatus (Snúin úr Rímum).</rubric>
+                  </msItem>
+                  <msItem n="5" class="riddst">
+                     <locus from="55v" to="61r"/>
+                     <title type="uniform">Sagan af Sedras konungi</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Sedras kóngi. (Snúin úr Rímum
+                        med samanburði við Söguna i dönsku)</rubric>
+                  </msItem>
+                  <msItem n="6" class="almb">
+                     <locus from="61r" to="76v"/>
+                     <title type="uniform">Virgilíus saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="almb">
+                     <locus from="77r" to="94v"/>
+                     <title type="uniform">Gríseldis saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Gríshilldi Gódu</rubric>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="95r" to="107v"/>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Saga af Hjálmtýr og Ölver</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="107"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="161"/>
+                              <width unit="mm" quantity="102"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="average">
+                           <p>Pages in the second half darkened and sometimes illegible.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="26 33">
+                           <num type="wpl" atLeast="5" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="138"/>
+                              <width unit="mm" quantity="85"/>
+                           </dimensions>
+                           <catchwords ana="yes">Only in a few places.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoGis005" scope="major" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Initials slightly decorated in black ink.</decoNote>
+                  </decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1822" to="1823"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:17.141+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-10" who="#SMM">Added msTitles and updated msDesc codes</change>
+         <change when="2013-05-29" who="SMM">Completed cataloguing after looking at pictures on handrit.is.</change>
+         <change when="2013-09-12" who="TL">Changed class, added text lang, checked markup.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

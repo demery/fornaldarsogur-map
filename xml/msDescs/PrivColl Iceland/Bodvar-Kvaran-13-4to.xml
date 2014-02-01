@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Böðvar Kvaran 13 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Bodvar-Kvaran-13-4to" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#PRIV1">Private collections</repository>
+                  <idno>Böðvar Kvaran 13 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <!-- titlepage? -->
+                  <msItem n="1" class="forns">
+                     <locus from="1r" to="unknown"/>
+                     <title type="uniform">Starkaðar saga Áludrengs</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="forns">
+                     <locus from="unknown" to="unknown"/>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="unknown" to="unknown"/>
+                     <title type="supplied">Sigurðar saga snarfara</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="rimur">
+                     <locus from="unknown" to="unknown"/>
+                     <locus from="33v" to="33v"/>
+                     <title type="supplied">Guðbrands ríma</title>
+                     <author>Þormóður í Gvendar Eyjum</author>
+                     <textLang mainLang="is"/>
+                     <note>Stanzas 1-88 follow item 3, stanzas 89-99 follow item 5.</note>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="unknown" to="66r"/>
+                     <title type="uniform">Hávarðar saga Ísfirðings</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="67r" to="unknown"/>
+                     <title type="uniform">Gísla saga Súrssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="islt">
+                     <locus from="unknown" to="unknown"/>
+                     <title type="uniform">Grænlendinga þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="islt">
+                     <locus from="unknown" to="unknown"/>
+                     <title type="uniform">Grænlendinga þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="unknown">
+                     <locus from="unknown" to="unknown"/>
+                     <title type="supplied">Þáttur af Guðbrandi Jónssyni Sægarpi og Þorsteini sterka syni hans</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="10" class="unknown">
+                     <locus from="unknown" to="128v"/>
+                     <title type="supplied">Sögn frá SkoreyjarþLauga og ýmsar sagnir</title>
+                     <textLang mainLang="is"/>
+                     <note>Possibly more than one item.</note>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="129r" to="196v"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <rubric>Sagan af þeim ágeæta höfðingja Hrólfi konungi Kraka og köppum hans.</rubric>
+                     <colophon>Endað á Hvítadal 22 mars 1873 [...] Guðbrandur Sturlaugsson</colophon>
+                     <textLang mainLang="non"/>
+                     <filiation><p>Derived from 
+                        <ref type="book" target="#C__Raf1829b" ana="protograph">Rafn's ed.</ref></p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <!--<num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="196"/>
+                             <!-- <num type="back-flyleaf" value=""/>-->
+                              <!--<dimensions type="leaf">
+                                 <height unit="mm" quantity="">in 4to</height>
+                                 <width unit="mm" quantity="">in 4to</width>
+                              </dimensions>-->
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="pag">
+                              <p/>
+                           </foliation>
+                         <!--  <condition ana=""/> -->
+                        </supportDesc>
+                      <!--  <layoutDesc>
+                           <layout ana="" columns="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GudStu001" scope="sole" script="unknown"><!--Guðbrandur Sturlaugsson í Hvítadal--></handNote>
+                  </handDesc>
+                 <!-- <decoDesc ana=""> 
+                     <decoNote/>
+                  </decoDesc>-->
+                  <additions ana="low">
+                     <p>On the bottom of the last page of item 8: <q>Lítill viðbætir við Sögu Guðbrands Hafnsögumanns</q>.</p>
+                     <p>There is a table of contents added to the beginning of the manuscript [cf. Einar G. Pétursson, p.6].</p>
+                  </additions>
+                   <!--  <bindingDesc>
+                        <binding ana="" contemporary=""/> 
+                     </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1873">22 mars 1873</origDate>
+                     <origPlace key="IS">Hvítadal</origPlace>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="BodKva001"/>
+                     <p>The manuscript was on loan at <name type="organisation" key="AMIS" role="other">Árnastofnun</name> for a long time.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:52.88+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-07-23" who="#BES">Cataloged as far as possible based on Einar G. Pétursson's notes.</change>
+         <change when="2013-09-12" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Thott 1776 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Thott04-1776-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Thott 1776 4to</idno>
+               </msIdentifier>
+               <physDesc>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>No binding. Only the quires of Parts I and IV are partly sewn together; the other quires are loosely
+                           stuck into separating bifolia. On the first can be read: <q>Grettis Asmundarsonar saga Thott 17776 <!--
+                              i.e. 1776? --> I,
+                              4to</q>; no text on the individual bifolia around parts II, III and IV; A common bifolio around
+                           parts II-IV reads: <q>Isl. Sagaer Thott 1776 I, 4to</q>; The bifolio around part V reads: <q>Bjørn á
+                              Skardsá "Tyrkjaráns Saga" V af Thott 1776, 4to</q>; The bifolia around parts VI and VII are without
+                           text; The bifolio around part VIII reads: <q>Havardar saga Hallta Ïsfyrdings Inntak vijsnanna i Grettis
+                              søgu Thott 1776 VIII, 4to</q>; The bifolia around parts IX and X are blank; The bifolio around part
+                           XI reads:<q>XI Alexander og Lodwyk Thott 1776, 4to</q>; The bifola around parts XII and XIII are blank.
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance>
+                     <name key="OttTho001" type="person" role="owner">Otto Thott</name>
+                  </provenance>
+               </history>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" to="89r:25"/>
+                        <title type="uniform">Grettis saga</title>
+                        <textLang mainLang="non"/>
+                        <colophon>Anno 1680 4:dag Nove</colophon>
+                     </msItem>
+                     <msItem n="2" class="laus">
+                        <locus from="89r:26" to="89r:30"/>
+                        <title type="supplied">Verse in honor of Grettir</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="timat">
+                        <locus from="89v" to="90r"/>
+                        <title type="supplied">Tímatöl sögunnar</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="4" class="formal?">
+                        <locus from="90v" to="90v"/>
+                        <title type="supplied">On Egils saga Skalla-Grímssonar</title>
+                        <rubric>Lioodmæle uppa søgu Eigels Skallagryms sonar</rubric>
+                        <colophon>BenedicktSigurd</colophon>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="90"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="fol later"/>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose verse-separate" columns="1 2" writtenLines="25 31">
+                              <num type="wpl" atLeast="10" atMost="16"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="155"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="3">
+                        <handNote scribeRef="unknown" scope="major" script="chancery"><locus from="1r" to="89r:26">1r-89r:26</locus>. Kurrent is used for verses, notes, comments and catchwords.</handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"><locus from="89v" to="90r"/></handNote>
+                        <handNote scribeRef="#BenSig001" scope="minor" script="chancery"><locus from="90v" to="90v">90v.</locus></handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="chancery"><locus from="89r:27" to="89r:30">89r:27-89r:30</locus>. Either <name key="BenSig001" type="person" role="scribe">Benedikt
+                              Sigurðsson</name>, or his father, <name type="person" role="other" key="SigGis006">Sigurður
+                              Gíslason. Kålund (1900, p.324) suggests the latter, though the similarity of script makes the first
+                              a possibility.</name></handNote>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">neatly decorated initials and rubrics</decoNote>
+                        <decoNote type="paratext">different kinds of squiggles and lines around catchwords and at the end of 
+                           paragraphs</decoNote>
+                     </decoDesc>
+                     <additions ana="medium"><p>Fols. <locus>58 and 59</locus> are originally missing. As a replacement, there is
+                           a bifolio (most likely from another manuscript) added in the very front. It covers approximately the
+                           same amount of material as missing
+                           text. In the bottom margin of fol. <locus>89r</locus>, <q>Sigurdur Gijslason</q> is added. Some
+                           marginalia and underlining.</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1680" notAfter="1750">ca. 1680 - 1750</origDate>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" to="16r"/>
+                        <title type="uniform">Eiríks saga rauða</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="16"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">Crown on top of a coat of arms (no lions).</watermark>
+                           </support>
+                           <foliation ana="no">Only a 16 added to last leaf</foliation>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="25 26">
+                              <num type="wpl" atLeast="7" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="150"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="chancery">chancery with fractura for
+                           rubrics.</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="low"><p>On fol. <locus>16v</locus> a different hand wrote: <q>Her hefur</q>.</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1799"/>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" to="80r"/>
+                        <title type="uniform">Njáls saga</title>
+                        <textLang mainLang="non"/>
+                        <note>copied from a printed book</note>
+                     </msItem>
+                     <msItem n="2" class="regist">
+                        <locus from="80v" to="83v"/>
+                        <title type="supplied">Register about names and phrases</title>
+                        <textLang mainLang="is"/>
+                        <note>copied from a printed book</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="83"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">Two lions holding a coat of arms</watermark>
+                           </support>
+                           <foliation ana="fol later">sparse foliation</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="33 44">
+                              <num type="wpl" atLeast="12" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="175"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Rubrics are written in
+                           chancery.</handNote>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial"/>
+                        <decoNote type="border"/>
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     <additions ana="no"><p/></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1799"/>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" to="20r"/>
+                        <title type="uniform">Hrafnkels saga Freysgoða</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="isl">
+                        <locus from="21r" to="45r"/>
+                        <title type="uniform">Bandamanna saga</title>
+                        <textLang mainLang="non"/>
+                        <colophon>Anno 1680 31 Decembris</colophon>
+                     </msItem>
+                     <msItem n="3" class="isl">
+                        <locus from="45v" to="79v:24"/>
+                        <title type="uniform">Hávarðar saga Ísfirðings</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="4" class="laus">
+                        <locus from="79v:25" to="79v:29"/>
+                        <title type="supplied">Verse in honor of Hávarður</title>
+                        <textLang mainLang="is"/>
+                        <colophon>BSSon</colophon>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="79"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">foolscap</watermark>
+                           </support>
+                           <foliation ana="fol later">sparse foliation</foliation>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="21 25">
+                              <num type="wpl" atLeast="8" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" scope="major" script="hum cursiva">This seems to be a single hand switching
+                           between chancery, hum cursiva and kurrent.</handNote>
+                        <handNote scribeRef="#BenSig001" scope="minor" script="chancery"><locus from="79v:25" to="79v:29"/></handNote>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">large initial on first page</decoNote>
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     <additions ana="low"><p>In the bottom margin of fol. <locus>1r</locus>, <q>RagnhidurÞordar dottur raudapr<gap/></q> can be read. In the back, there are loose palimpsest slips (Danish and
+                           Icelandic writing), which might have been used as support for the binding.</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1660" notAfter="1700">ca. 1680</origDate>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to V</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="formal">
+                        <locus from="1r" to="4v:5"/>
+                        <title type="supplied">Preface</title>
+                        <textLang mainLang="is"/>
+                        <author key="#BjoJon006">Björn á Skarðsá</author>
+                     </msItem>
+                     <msItem n="2" class="landfr tjodfr?">
+                        <locus from="4v:6" to="34r"/>
+                        <title type="supplied">Tyrkjarans saga</title>
+                        <textLang mainLang="is"/>
+                        <author key="#BjoJon006">Björn á Skarðsá</author>
+                        <note>including a commentary paragraph at the end.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="34"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="202"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">large round watermark, difficult to see.</watermark>
+                           </support>
+                           <foliation ana="fol later"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="31">
+                              <num type="wpl" atLeast="8" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">initials and rubrics neatly decorated</decoNote>
+                        <decoNote type="paratext">squiggles around catchwords and diamond shaped endings.</decoNote>
+                     </decoDesc>
+                     <additions ana="low"><p>very few marks in the margins; some additions and corrections by the
+                        scribe</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1799"/>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to VI</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="contemporary">
+                        <titlePart>Bandamanna Saga seu Historia Conjuratorum [...] Hafniæ Anno MDCCLXVIII Otto Ionæus.</titlePart>
+                     </titlePage>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" to="39v"/>
+                        <title type="uniform">Bandamanna Saga</title>
+                        <textLang mainLang="non"/>
+                        <filiation>
+                           <ref type="ms" target="#AM04-493-en" ana="antigraph">AM 493 4to</ref>
+                        </filiation>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="39"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="175"/>
+                              </dimensions>
+                              <watermark ana="yes">Maid of Dort "ProPatria"; J Honig <ex>et</ex> Zoonen"</watermark>
+                           </support>
+                           <foliation ana="pag contemporary"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="18 20">
+                              <num type="wpl" atLeast="6" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#OddJon007" scope="sole" script="unknown">Oddur Jónsson (Otto Ionæus)</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="low"><p>A few scholarly notes in the margins</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1768"/>
+                        <origPlace key="DK" cert="high"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to VII</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="18v"/>
+                        <title type="uniform" ref="#hsh">Sörla þáttur [Latin]</title>
+                        <note>Latin transl. by Johannes Olavius</note>
+                        <textLang mainLang="la"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="18"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="170"/>
+                              </dimensions>
+                              <watermark ana="yes">Large circular watermark with crown on top.</watermark>
+                           </support>
+                           <foliation ana="pag contemporary"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="16 18">
+                              <num type="wpl" atLeast="4" atMost="6"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"><p/></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1799"/>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to VIII</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" to="18v"/>
+                        <title type="uniform">Hávarðar saga Ísfirðings</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="isl">
+                        <locus from="19r" to="33"/>
+                        <title type="uniform">Grettis saga [Excerpts]</title>
+                        <textLang mainLang="non" otherLangs="is"/>
+                        <note>with an introductory note on sources by Jón Ólafsson</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="33"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="208"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">Maid of Dort</watermark>
+                           </support>
+                           <foliation ana="fol later"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1 2" writtenLines="28 31">
+                              <num type="wpl" atLeast="5" atMost="18"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="175"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent">Kurrent for main text, chancery for
+                           rubrics</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="low"><p>A few notes and comments in the margins; Fol. 26 is an added slip with a note (by the
+                           scribe).</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1799"/>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to IX</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="avint?">
+                        <locus from="1r" to="14r"/>
+                        <title type="supplied">Ævintýri af einum italienskum biskupi</title>
+                        <rubric>Æfintýr af einum Italienskum Biskupi. Skrifad Anno 1597. Ifirsett á Islendski, á þeim nyrri
+                           Tíðum</rubric>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="14"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="207"/>
+                                 <width unit="mm" quantity="167"/>
+                              </dimensions>
+                              <watermark ana="yes">Maid of Dort "ProPatria"; "IH <ex>et</ex> Zoon"</watermark>
+                           </support>
+                           <foliation ana="pag contemporary"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="18 19">
+                              <num type="wpl" atLeast="4" atMost="6"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="150"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     <additions ana="no"><p/></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1750" notAfter="1799"/>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to X</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="almb">
+                        <locus from="1r" to="70v"/>
+                        <title type="uniform">Huga saga sterka og Skaplers konungs</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="70"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">Present on some leaves; difficult to see.</watermark>
+                           </support>
+                           <foliation ana="fol later">Sparse foliation in pencil</foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="23 25">
+                              <num type="wpl" atLeast="7" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">richly decorated intitials</decoNote>
+                        <decoNote type="paratext">sparse lines on catchwords</decoNote>
+                     </decoDesc>
+                     <additions ana="low"><p>Between fols. <locus>3v</locus> and <locus>4r</locus>, there is a loose octavo-sized
+                           bifolio added (<q>Hoc Volumine Continentur.</q>) containing a register of sagas, which might have been
+                           the original context of the text. <title type="uniform">Huga saga sterka og Skaplers konungs</title> is
+                           listed as item 1 of volume 2. On fol. <locus>70v</locus>, a different hand added <q>endad 14 Martij
+                              Anno christj 1716.</q></p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1675" notAfter="1725">according to addition 1716</origDate>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to XI</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="other">
+                        <locus from="1r" to="16r"/>
+                        <title type="supplied">Ævintýri af Alexander og Lúðvík</title>
+                        <textLang mainLang="is"/>
+                        <colophon>Og Endast Hier so þetta æfen<ex>n</ex>tyr nú 9 April<ex>us</ex> 1723</colophon>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="16"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">large crown on coat of arms (no lions)</watermark>
+                           </support>
+                           <foliation ana="fol later">sparse foliation</foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="22 27">
+                              <num type="wpl" atLeast="8" atMost="13"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="999">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent">Kurrent for main text, chancery fractura for
+                           rubrics</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     <additions ana="low"><p>Few additions in the margins, possibly from one of the scribes.</p></additions>
+
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1723"/>
+                        <origPlace key="unknwon"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to XII</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="">
+                        <locus from="1r" to="19v"/>
+                        <title type="supplied">Krembra saga Gauta konungs [Danish]</title>
+                        <textLang mainLang="da"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="19"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">large crown on coat of arms (no lions)</watermark>
+                           </support>
+                           <foliation ana="pag contemporary"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="19 22">
+                              <num type="wpl" atLeast="5" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonMor001" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="paratext"/>
+                        <decoNote type="border"/>
+                     </decoDesc>
+                     <additions ana="low"><p>A note on fol. <locus>1r</locus> reads: <q>udaf det Norske Oversat paa dansk. 14.
+                              Dec. 1757.</q> Some underlining and additions in the margins by the scribe himself.</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1757"/>
+                        <origPlace key="DK" cert="high"/>
+                     </origin>
+                     <provenance>
+                        <note>Used to be part of <ref type="ms">Thott 1764 4to</ref></note>
+                     </provenance>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Thott 1776 4to XIII</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="other">
+                        <locus from="1r" to="14r"/>
+                        <title type="supplied">Fortælling om Kong Aage i Upsala</title>
+                        <textLang mainLang="da"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="14"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">Large crown on a coat of arms-like shape.</watermark>
+                           </support>
+                           <foliation ana="pag contemporary"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="22">
+                              <num type="wpl" atLeast="5" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="105"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="paratext"/>
+                        <decoNote type="border"/>
+                     </decoDesc>
+                     <additions ana="low"><p>A note on fol. <locus>1r</locus> reads: <q>udaf det g<ex>am</ex>l<ex>e</ex> Norske
+                              Oversat paa dansk. d<ex>en</ex> 14. Dec. 1757.</q> Underlinings and additons in the margins by the
+                           scribe himself.</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1757"/>
+                        <origPlace key="DK" cert="high"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <!-- check bækur.is for the history!! -->
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:20.895+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-06-12" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

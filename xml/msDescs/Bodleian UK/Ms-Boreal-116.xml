@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ms Boreal 116</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ms-Boreal-116" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BDL">Bodleian Library, Oxford</repository>
+                  <idno>Ms Boreal 116</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Carmina pervetusta, prisca Scandinavorum et Islandorum communi lingua composita - secundum optima
+                     exemplaria adcuratissime exarata et lectionibus rarus in margine notatis ad aucta per Finnum Magnæum (vel Magnússon
+                     aut Magnusen)</titlePart>
+                     <note>Later note on Merlínusspá states it was written c.1195 by 'Gunlogo monacho Thingeyrensi'</note>
+                  </titlePage>
+                  <msItem class="spadkv" n="1">
+                     <locus from="3" to="51"/>
+                     <title type="uniform">Merlínus Spá</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="kvad" n="2">
+                     <locus from="53" to="86"/>
+                     <title type="uniform">Hugsvinnsmál</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="kvad" n="3">
+                     <locus from="87" to="109"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <title type="uniform" ref="#oeos">Ljóð Örvar-Odds</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Lióþ Ørvar-Odds, er hann qvad um ævi sína á dauðadegi</rubric>
+                     <incipit>Hlýdi seggir / enn ok segia man</incipit>
+                     <explicit>kveþio mína / kem ec þar eigi</explicit>
+                     <note>Extract</note>
+                  </msItem>
+                  <msItem class="fas" n="4">
+                     <locus from="111" to="116"/>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Vísur úr Søgubroti frá Starcade og Vicare konungi</rubric>
+                     <incipit>Starcaþe quvad: Þá varc úngr / er inni brann</incipit>
+                     <explicit>þöglan þul / þióþans synir</explicit>
+                     <note>Extract</note>
+                  </msItem>    
+                  <msItem class="fas" n="5">
+                     <locus from="117" to="125"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Vísur úr Saugo Ketils Hængs</rubric>
+                     <incipit>Ketill drap úngr Flugdreca oc qvad: Föra canncat / í frásaugr</incipit>
+                     <explicit>nióttu nú heill handa / her manom viþ sciliaz</explicit>
+                     <note>Former Boreal MS 20757</note>
+                     <note>Extract</note>
+                  </msItem>
+                  <msItem class="fas" n="6">
+                     <locus from="125" to="127"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Vísur úr Saugu Gríms lodinnkinna</rubric>
+                     <incipit>Grímr hittir tvær Trøllkonar, hann qvaþ: Havt heita þiþ / herians dætr</incipit>
+                     <explicit>þróttar mestr / en meijar baþ</explicit>
+                     <note>Former Boreal MS 20757</note>
+                     <note>Extract</note>
+                  </msItem>
+                  <msItem class="fas" n="7">
+                     <locus from="127" to="135"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Úr Saugu Ørvar Odds</rubric>
+                     <incipit>Heiþor Vaíva sagþi Oddi foríøg naudgom, hon qvaþ: Ægdu mer eigi / Oddr á jadri</incipit>
+                     <explicit/>
+                     <note>Former Boreal MS 20757</note>
+                     <note>Extract</note>
+                  </msItem>
+                  <msItem class="kvad" n="8">
+                     <locus from="135" to="139"/>
+                     <title type="uniform">Haraldskvæði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="kvad" n="9">
+                     <locus from="140" to="148"/>
+                     <title type="uniform">Kvæði Gísla Súrssonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="kvad" n="10">
+                     <locus from="150" to="155"/>
+                     <title type="uniform">Sextán Vísur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="78"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="112"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="contemporary pag">
+                           <p>The pagination jumps from 101 to 104, so there is one less leaf in the book block than may appear at first glance.</p>
+                        </foliation>
+                        <condition ana="good"/>	
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="26 28">									
+                           <num type="wpl" atLeast="2" atMost="5"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="60"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>	
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#FinMag001" script="kurrent" scope="sole">Finnur Magnusson</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <note>On p. 155: <q>Vísur þessar eru skrifadar eptir blödum þessum aptan vid bók Síra Jóns Halldorssonar i Hítardal /:
+                     af sal. Dr. H. Finssonar Mseta safni :/ í hvöria hann ritad hafdi Sæmundar Eddu og nockr yngri fornqvædi -.-
+                     Líkann uppruna hafa þær ad hyggiu minni þeim alþeckta biargbúa þátt, þótt eg ej þori at fullyrda þá
+                     meiníngu.</q></note>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>	
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1824"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="FinMag001">Finnur Magnusson</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:27.306+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-29" who="#PTL">Information supplemented with reference to manuscript in Oxford.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

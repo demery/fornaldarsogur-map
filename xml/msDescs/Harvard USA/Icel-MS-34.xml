@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+
+      <fileDesc>
+         <titleStmt>
+            <title>Icel. MS. 34</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Icel-MS-34" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#HHVD">Harvard University, Houghton Library, Cambridge, MA</repository>
+                  <idno>Icel. MS. 34</idno>
+               </msIdentifier>
+
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem class="fas" n="1">
+                     <locus from="1r" to="17v"/>
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                     <rubric>Sagann af Jngvari Viðforla Skr<supplied>i</supplied>fuð á Helgafelli af Stud<ex>ent</ex>
+                           M<ex>onsieur</ex> Þorgeiri Pals Syni 1805. </rubric>
+                     <textLang mainLang="non"/>
+                     <note>fol. 1v is blank.</note>
+                  </msItem>
+                  <msItem class="sagnps" n="2">
+                     <locus from="17v" to="48r"/>
+                     <title type="uniform">Breta saga</title>
+                     <rubric>Brettlands ed<ex>ur</ex> Einglands Bigging</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="sagnps">
+                     <locus from="48r" to="58v"/>
+                     <title type="uniform">Breta saga</title>
+                     <rubric>Saga enns Heilaga Edvardi Kongs.</rubric>
+                     <textLang mainLang="non"/>
+                     <note>fols. 49-56 (chapters 8-10) are missing.</note>
+                  </msItem>
+                  <msItem n="4" class="konth">
+                     <locus from="59r" to="63v"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <rubric>Þ<ex>atturinn</ex> af Hakone Norraena.</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="almb" n="5">
+                     <locus from="64r" to="70r"/>
+                     <title type="uniform">Galeso Cymon saga ens heimska</title>
+                     <rubric>Þattur af Galeso Simone.</rubric>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="fas" n="6">
+                     <locus from="254v" to="272v"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <rubric>Sagan af Egli Einhendta og Asmundi Berserkjebana</rubric>
+                     <incipit/>
+                     <explicit/>
+                  </msItem>
+                  <msItem class="almb" n="7">
+                     <locus from="70vr" to="87v"/>
+                     <title type="uniform">Virgilíus saga</title>
+                     <rubric>Lyfssaga þess Nafnfraega Virgelii.</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                     <note>The text is incomplete. Cf. Lbs. 661, 4to, 162v-174r: “Lifs Saga Wirgelĳ utlogd ur Jtalendsku Ano
+                        1676.” On 174r: “… endar svo þessi Saga af Wirgilio Galdramanni.” ??See Drög. Ítalia 71, item I 605.??
+                        Also, Lbs. 896, 4to, 1v-20r: “Lĳf Saga þesz nafn Fræga Vyrgilii Wr Hollendsku wtlogd.” See Ward 1: 196-97.
+                        This is translated from: Virgilius. Von zĳn leuen, doot, ende vanden wonderlĳcken wercken die hi dede by
+                        nigromancie … (Antwerp, ?1512). There is a facsimile in: Virgilius. Facsimile van de oudste druk van het
+                        Vlaamse volkboek, ed. Jan Gessler and Frank van den Wĳngaert (Antwerp: De Vlĳt, 1950). It is likely that
+                        the present text was translated from one of the many later editions.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="79"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="213"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <!--<foliation ana=""/>-->
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <catchwords ana=""/>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoPal005" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote/>
+                  </decoDesc>
+                  <additions ana="low"><p>On fol. <locus from="12r" to="12r">12r</locus>: <q>Jon Gudmundsson a Bookena med
+                           Riettum</q>. On fol. <locus from="43v" to="43v">43v</locus>: <q>Jon Gudmundson med eigin hendi. Testor
+                           J. Brynjulfsson.</q>
+                     </p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Bound in tooled leather on wood boards.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1805"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="FriEgg001"/>
+                     <name type="person" role="owner" key="JohGud004"/>
+                     <name type="person" role="owner" key="KonMau001"/>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2013-01-15" who="#BES">Generated from Shaun Hughes description. Information from the manuscript itself
+            needed.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

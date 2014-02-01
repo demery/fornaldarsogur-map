@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+
+      <fileDesc>
+         <titleStmt>
+            <title>Ms Germ qu. 935</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ms-Germ-qu-935" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#SB">Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Berlin</repository>
+                  <idno>Ms Germ qu. 935</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1" to="129"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <note>copy of Biörner's ed.</note>
+                  </msItem>
+                  <msItem n="2" class="nafsk">
+                     <locus from="131" to="132"/>
+                     <title type="supplied">Index of names in Völsunga saga</title>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="133" to="198"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <note>copy of Biörner's ed.</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="201" to="234"/>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <note>copy of Biörner's ed.</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="237" to="266"/>
+                     <title ref="#ngth" type="uniform">Norna-Gests þáttur</title>
+                     <note>copy of Biörner's ed.</note>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="267" to="275"/>
+                     <title ref="#hthth" type="uniform">Helga þáttur Þórissonar</title>
+                     <note>copy of Biörner's ed.</note>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="277" to="313"/>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <note>copy of Biörner's ed.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="158"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag">Items 1 and 2 paginated separately in ink on top outer corners, item 1
+                           probably by a contemporary hand, item 2 by the scribe (Grimm).</foliation>
+                        <foliation ana="later pag">In pencil on top outer corners on every recto-page after items 1 and
+                           2.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="24 31">
+                           <num type="wpl" atLeast="6" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="108"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Pp. 1-129 and 201-313.</handNote>
+                     <handNote scribeRef="#JacGri001" scope="minor" script="kurrent">Pp. 131-198.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="other">Chapter headings underlined in red ink.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Table of contents on fly-leaf and marginal notes and corrections by <name type="person">Grimm</name>. A
+                        dried and pressed leaf (Black Poplar?) is kept with the manuscript. </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Bound in cardboard covered with paper.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1805" notAfter="1810"/>
+                     <origPlace key="DE"/>
+                     <name type="person" role="commie" key="JacGri001"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:28.874+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-05-02" who="SH">Information added from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

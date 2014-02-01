@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11160</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11160" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11160</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="160"/>
+                           <num type="back-flyleaf" value="3"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <foliation ana="later pag">
+                           <p>Völsunga saga has a contemporary pagination running up to p. 180. Ragnars saga, which follows has a
+                              contemporary pagination starting again from 1, but also a later pagination has been added starting
+                              from 180 (instead of 181 as should be the case). Neither Krákumál nor the note
+                              booklets which have been inserted afterwards have contemporary pagination, but the later pagination
+                              is continued for both, excepting two unpaginated leaves which stand between Ragnars saga and
+                              Krákumál and between Krákumál and the notes, as well as three unpaginated pages at the end of the first booklet.
+                              This means that the pagination runs up to 312 but would run up to 320 if all 160 leaves were
+                              consecutively paginated.</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance>
+                     <name type="person" role="owner" key="FinMag001"/>
+                     <name type="person" role="owner" key="JosBan001"/>
+                     <p>According to note on flyleaf, purchased from Finnur Magnússon in July 1837</p>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11160 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="fas" n="1">
+                        <locus from="1r" to="90r"/>
+                        <title ref="#vs" type="uniform">Völsunga saga</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Hér byrjast Volsúnga saga eþur Sagan af Sigurþe Fafnis-bana</rubric>
+                        <incipit>Hér hefir upp oc segir frá þeim manni er Sige er nefndur.</incipit>
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#NKS04-1824b-en" ana="antigraph">NKS 1824 b 4to</ref>.</p>
+                        </filiation>
+                        <note>Locus is from 1-179 in pagination.</note>
+                        <note>The first chapter of Ragnars saga (Frá Heimi ok Áslaugu) seems to be included as a final chapter of
+                           Völsunga saga. On page 171 we have 'ok varð þeim þat at alldurlagi', the final words of Völsunga saga,
+                           and the next line begins 'Heimir í Hlynndölum spyrr nú þessi tidindi at daudur er Sigurdur'.</note>
+                     </msItem>
+                     <msItem class="fas" n="2">
+                        <locus from="91r" to="133v"/>
+                        <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Frá Herrúdi Jalli ok Þóru Borgarhiort</rubric>
+                        <incipit>Herrúdur hét jarl ríkur ok ágiætur á Gautlandi; hann var kvóngadur.</incipit>
+                        <colophon>ok þetta þótti mönnum undarligt, ok saugdu síþan fra audrum mönnum.</colophon>
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#NKS04-1824b-en" ana="antigraph">NKS 1824 b 4to</ref>.</p>
+                        </filiation>
+                        <note>Locus is from 180-277 in pagination.</note>
+                     </msItem>
+                     <msItem class="fas" n="2.1">
+                        <locus from="135r" to="139v"/>
+                        <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                        <title type="suppplied">Krákumál</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Biarkamál</rubric>
+                        <incipit>Hiuggum vér med hiörfi</incipit>
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#NKS04-1824b-en" ana="antigraph">NKS 1824 b 4to</ref> (extract).</p>
+                        </filiation>
+                        <note>Locus is from 278-283 in pagination.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="24"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="contemporary pag">See below</foliation>
+                           <foliation ana="later pag"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1 2" writtenLines="21 23">
+                              <num type="wpl" atLeast="4" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="185"/>
+                                 <width unit="mm" quantity="125"/>
+                              </dimensions>
+                              <note>Krákumál is laid out in two columns</note>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent">Unknown</handNote>
+                     </handDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1800" notAfter="1837"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 11160 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="fas" n="3">
+                        <locus from="145r" to="151r"/>
+                        <title ref="#rsl" type="supplied">Variant readings for Ragnars saga loðbrókar</title>
+                        <rubric>Forskellig læsemaade til Ragnar Lódbroks saga efter Biörne</rubric>
+                        <note>Taken from Biörner's edition, Nordiska Kämpadater, 1737</note>
+                        <note>Locus is from 284-296 in pagination.</note>
+                     </msItem>
+                     <msItem class="fas" n="3">
+                        <locus from="153r" to="160v"/>
+                        <title ref="#vs" type="supplied">Variant readings for Völsunga saga</title>
+                        <rubric>Forskiellig læsemaade</rubric>
+                        <note>Taken from Biörner's edition, Nordiska Kämpadater, 1737</note>
+                        <note>Locus is from 297-312 in pagination.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="16"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                              <watermark ana="yes">Maid of Dort</watermark>
+                           </support>
+                           <foliation ana="later pag"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="17 18">
+                              <num type="wpl" atLeast="2" atMost="5"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="155"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#ThoGud003" scope="sole" script="kurrent"> Þorgeir Guðmundson (according to marginal
+                           note on 145r "skr. af. stud. Gudmundsen")</handNote>
+                     </handDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1800" notAfter="1837"/>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:55.265+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-11" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1454 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1454-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1454 8vo</idno>
+               </msIdentifier>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Lbs 1454 8vo I</idno>
+                  </altIdentifier>                 
+                  <msContents>
+                     <titlePage ana="no"/>                    
+                     <msItem n="1" class="salm ban">
+                        <locus from="1r:1" to="13v:23"/>
+                        <title type="supplied">Hymns and prayers</title>
+                        <textLang mainLang="non"/>
+                        <note>Various loose leaves.</note>
+                     </msItem>
+                     <msItem n="2" class="isl">
+                        <locus from="14r:1" to="14r:27"/>
+                        <title type="uniform">Ljósvetninga saga <note>(Fragment)</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Íslendinga sögur annað bindi Máls greinar Ur Ljósvetnínga sögu</rubric>
+                        <incipit>Illa mun sjatna ójafnaður þeirra bræðra</incipit>
+                     </msItem>
+                     <msItem n="3" class="hattal">
+                        <locus from="15r:1" to="18v:29"/>
+                        <title type="supplied">Háttalykill Lopts ríka <note>(Beginning)</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hatta likell hin<ex>n</ex> Dÿre sem Loptúr Rÿke Güttormsson
+                           kvad til Kristinar D:B: Dröttkveded.</rubric>
+                        <incipit>Fÿrst vil eg metú múste Möens bediar lïn</incipit>
+                        <explicit/>
+                     </msItem>
+                  </msContents>
+
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <note>Leaves of various sizes.</note>
+
+                              <num type="book-block" value="18"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="161"/>
+                                 <width unit="mm" quantity="103"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="average poor"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="33">
+                              
+                              <num type="wpl" atLeast="4" atMost="10"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="150"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="6">
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none">
+                           <p>Loose leaves.</p>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1900"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Lbs 1454 8vo II</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="kvad">
+                        <locus from="1r:1" to="35r:18"/>
+                        <title type="supplied">Poems</title>
+                        <author key="SigJon020">By Sigfús Jónsson and others</author>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <note>Leafs of various sizes.</note>
+
+                              <num type="book-block" value="35"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="163"/>
+                                 <width unit="mm" quantity="104"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="poor"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="22">
+                              
+                              <num type="wpl" atLeast="3" atMost="6"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="155"/>
+                                 <width unit="mm" quantity="89"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="5">
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none">
+                           <p>Loose leafs.</p>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1900"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Lbs 1454 8vo III</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="4v:31"/>
+                        <title ref="#hskh" type="uniform">Hálfs saga konungs og Hálfsrekka <note>(Beginning)</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Saga af Hálfi konúngi og Rekkum hans</rubric>
+                        <incipit>Alfrekr h<ex>é</ex>t k<ex>onún</ex>gr er bjó a Alfreksstöð<ex>um</ex></incipit>
+                        <explicit>firr e<ex>n</ex> a<ex>t</ex> jafn lengð ann<ex>ars</ex> dags við eingúm</explicit>
+                        <note>Older vers., copy of Lbs 1572 4to</note>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <note>Leafs of various sizes.</note>
+                              
+                              <num type="book-block" value="4"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="204"/>
+                                 <width unit="mm" quantity="163"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                           </support>
+                           
+                           <foliation ana="contemporary pag">Paginated 1-8</foliation>
+                           
+                           <condition ana="good"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="32">
+                              
+                              <num type="wpl" atLeast="9" atMost="12"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="173"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none">
+                           <p>In quires</p>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1800" notAfter="1900"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:16.063+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-09" who="#SMM">Added msDesc codes and completed with some
+            information.</change>
+         <change when="2013-03-21" who="#SK">added information from the P.E.Ó.-catalogue such as
+            classes and other information</change>
+         <change when="2013-07-18" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-08-30" who="#TL">Checked markup consistency</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

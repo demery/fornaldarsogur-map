@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 202 i fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0202i-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 202 i fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="8">1r:1-8</locus>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <title type="parallel">Norna-Gests þáttr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Søgu þättur af norna Gest</rubric>
+                     <incipit>Svo var sagt ad ä einum tÿma þä er Olaffur k<ex>onun</ex>gur sat I Þraändheÿme</incipit>
+                     <explicit>og gestur andadest, og þotte ollum merkeligt hans andlät, þotte k<ex>onun</ex>ge og mikid mark ad
+                        sogu hans, og fan<ex>n</ex>st um hans lifdaga, og likur hier frä Nornagieste ad segia.</explicit>
+                     <filiation>
+                        <ref type="ms" target="unknown">Copied from a manuscript older than 1646, which was received from the
+                              priest <name key="HogAmu001" type="person" role="owner">Högni Ámundason</name>.</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9r:1" to="12v:15">9r:1-12v:15</locus>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <title type="parallel">Norna-Gests þáttr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>SØGU ÞATTUR AF Norna Gesti</rubric>
+                     <incipit>Svo er sagt ad a einum tima þä er Olaf<ex>ur</ex> k<ex>onungur</ex> sat I
+                        Þrandh<ex>ei</ex>mi</incipit>
+                     <explicit>G<ex>estur</ex> andadist, þotti o<ex>llum</ex> m<ex>er</ex>kil<ex>e</ex>gt hans andlät. Þotti
+                           k<ex>onungi</ex> m<ex>ikit</ex> m<ex>ar</ex>k ad sog<ex>um</ex> h<ex>ans</ex>
+                        <ex>og</ex> þ<ex>at</ex> fan<ex>nst</ex> um<ex>m</ex> lÿfdaga h<ex>ans</ex> s<ex>e</ex>m h<ex>ann</ex>
+                        sagde, <ex>og</ex> lÿkur her f<ex>ra</ex> Norna Gest ad seigia.</explicit>
+                     <note>The beginning of <title type="uniform" xml:lang="is">Hálfs saga og Hálfsrekka</title> on fol.
+                           <locus>12v</locus> is heavily crossed out, and the rest of the story was transferred to <ref type="ms">AM 202 e fol.</ref>
+                     </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="12"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="295"/>
+                              <width unit="mm" quantity="186"/>
+                           </dimensions>
+                           <watermark ana="yes">Watermark looks like an oval seal with a s-shaped centre and a crown on top. cf.
+                              watermark in AM 202 g fol.</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p>Foliated on top right corners of recto pages.</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="35 40">
+                           <num type="wpl" atLeast="11" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" atLeast="140" atMost="150"/>
+                           </dimensions>
+                           <catchwords ana="yes">On fol. <locus>1v, 2v and 9r-10v</locus>.</catchwords>
+                           <note>On fol. <locus>5r</locus> space is left blank to indicate a lacuna.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#JonGis003" scope="major" script="kurrent"><p><name type="person" key="JonGis003">Jón Gissurarson</name> wrote fols. <locus from="1" to="7">1-7</locus>.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"><p>One of Árni Mangússon's
+                           scribes wrote fol. <locus from="8r" to="8v">8</locus> and added it by his order.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"><p>This scribe wrote fols. <locus from="9" to="12">9-12</locus>. On fol. <locus from="11r:1" to="11r:16">11r</locus>, however, the
+                           script changes to kurrent for the first half of the page.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">The beginnings of the two texts are marked with embellished initials.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p><name key="ArnMag001" type="person">Árni Magnússon</name> added in the top right corner of fol. <locus>1r</locus>: <q xml:lang="is">Med hendi Jóns Gissurs sonar</q>, referring to fols <locus from="1r" to="8v">1-7</locus>. Fol.
+                           <locus>8</locus> was later added for Árni Magnússon by one of his scribes. The front flyleaf is
+                        inscribed: <q>Norna-Gests Saga. 2 Exempl.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Bound in a grey cardboard binding with <q xml:lang="is">No 202. i Norna-Gests Saga. 2 Exempl:</q>
+                           written on the front board.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                     <note>The two items belonged originally to different manuscripts.</note>
+                  </origin>
+                  <provenance>
+                     <p>
+                     <name key="ArnMag001" type="person" role="owner">Árni Magnússon</name> aquired the two items seperately, cut them
+                        out of their original context and rebound them. 
+                     <name key="HogAmu001" type="person" role="owner">Högni Ámundason</name> sold first part of the
+                        manuscript to Árni Magnússon.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:01.145+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:12.812+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:23.348+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:38.05+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:16.805+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2012-12-13" who="#BES">Prepared for completion. Last few things to be checked with the ms.</change>
+         <change when="2012-12-17" who="#BES">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

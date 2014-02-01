@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 30</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-30" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 30</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="88v"/>
+                     <title type="uniform">Heimskringla</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="1.1" class="formal">
+                        <locus from="1r" to="6v"/>
+                        <title type="supplied">Formáli</title>
+                     </msItem>
+                     <msItem n="1.2" class="kon">
+                        <locus from="7r" to="76r"/>
+                        <title type="uniform">Ynglinga saga</title>
+                        <textLang mainLang="non"/>
+                        <filiation>
+                           <p>Copy of 
+                           <ref type="ms" target="#Papp-fol-nr-18" ana="antigraph">Papp. fol. nr.
+                           18</ref>.</p>
+                        </filiation>
+                     </msItem>
+                     <msItem n="1.3" class="kon">
+                        <locus from="77r" to="88v"/>
+                        <title type="uniform">Halfdans saga svarta</title>
+                        <textLang mainLang="non"/>
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#Papp-fol-nr-18" ana="antigraph">Papp. fol. nr.
+                           18</ref>.</p>
+                        </filiation>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="89r" to="148v"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>B-vers.</note>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#Papp-fol-nr-62" ana="antigraph">Papp. fol. nr.
+                        62</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="156r" to="244v"/>
+                     <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                     <textLang mainLang="non"/>
+                     <note>older vers.</note>
+                     <filiation>
+                        <p>Derived from <ref type="ms" target="#Papp-4to-nr-6" ana="protograph">Papp. 4to nr. 6</ref> and
+                        <ref type="ms" target="#Papp-fol-nr-63" ana="protograph">Papp. fol. nr. 63</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="246r" to="295v"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <textLang mainLang="non"/>
+                     <note>younger vers.</note>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-fol-nr-56" ana="antigraph">Papp. fol. nr. 56</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="298r" to="374r"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#Papp-fol-nr-56" ana="antigraph">Papp. fol. nr.
+                        56</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="358r" to="419v"/>
+                     <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <note>older vers.</note>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#Papp-fol-nr-56" ana="antigraph">Papp. fol. nr.
+                        56</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="420r" to="579v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#Papp-fol-nr-88" ana="antigraph">Papp. fol. nr.
+                        88</ref>.</p></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4">A former front cover is preserved and counted as fourth
+                              front-flyleaf.</num>
+                           <num type="book-block" value="586"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes">different watermarks, e.g. a foolscap, two lions holding a coat of arms with a
+                              crown on top and circular watermark with floral ornaments and an image in the centre.</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="15 17">
+                           <num type="wpl" atLeast="2" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GudOla001" scope="sole" script="kurrent">Kurrent for main text,
+                        chancery for rubrics</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">same ink as main text</decoNote>
+                     <decoNote type="other">rubrics in same ink as main text</decoNote>
+                     <decoNote type="paratext">same ink as main text</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>A total of seven, almost full-sized leaves are added in front of the different sagas or parts. Fol.
+                           <locus>281bis</locus> (part 5) is newer than the rest, probably a replacement for the original.
+                        Scholarly notes in the margins. On the former front cover, there are two stickers with the shelfmark and a
+                        note: <q>Sagor på Isländska vtan Version 7 Stycken N: 30 isldandica</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbeled paper on cardboard. The spine and the corners are in white leather. On the spine the
+                           shelfmark is imprinted with golden letters. A former front cover is preserved and now counted as
+                           a flyleaf.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1681" notAfter="1695"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <name type="organisation" role="commissioner" key="AntKol001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:53.937+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-04" who="#BES">Measured and evalutated with the manuscript in situ.</change>
+         <change when="2013-04-05" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

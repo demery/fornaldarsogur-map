@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+
+      <fileDesc>
+         <titleStmt>
+            <title>Ms Germ qu. 26</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ms-Germ-qu-26" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#SB">Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Berlin</repository>
+                  <idno>Ms Germ qu. 26</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem n="1" class="isl">
+                     <locus from="2r:1" to="61v:19"/>
+                     <title type="uniform">Vatnsdæla saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifat á Stórakambi i Breiduvik 1804 af Th: Thorsteinssyni</colophon>
+                  </msItem>
+                  <msItem n="2" class="landn">
+                     <locus from="62r:1" to="65v:24"/>
+                     <title type="supplied">Ágrip um landnám þeirra er bigðu Fljót, Sléttuhlíð, Höfðaströnd ok þar sveitir</title>
+                     <textLang mainLang="non"/>
+                     <note>Based on Landnámabók?</note>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="66r:1" to="95r:17"/>
+                     <title type="supplied">Starkaðar saga gamla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="islst">
+                     <locus from="95v:1" to="116r:13"/>
+                     <title type="supplied">Þáttur af Yvari víðfaðma, Helga hvassa ok Hræreki kóngi, Haraldi Hilditönn ok
+                        Brávallarbarðaga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifad á Stórakambe árit 1804. af Th:Thorsteinsyni</colophon>
+                     <note>Reconstructed from Saxo? Chapter counting continued from previous item.</note>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="117r:1" to="136r:4"/>
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifat á Stóra=Kambi Anno 1804. af ThThorsteinsyni</colophon>
+                  </msItem>
+                  <msItem n="6" class="konth">
+                     <locus from="136v:1" to="150v:15"/>
+                     <title type="uniform">Hemings þáttur Aslákssonar</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Þen<ex>n</ex>an<ex>n</ex> Sóguþátt ritadi á Stórakambe 1804 Th:Thorsteinson</colophon>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="151r" to="172v:8"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifat á Stóra Kambe i Breiduvik 1804. af ThThorsteinsyni</colophon>
+                  </msItem>
+                  <msItem n="8" class="isl">
+                     <locus from="173r:1" to="179v:22"/>
+                     <title type="uniform">Þorsteins saga hvíta</title>
+                     <textLang mainLang="non"/>
+                     <colophon>1784.</colophon>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="180r:1" to="232v:14"/>
+                     <title type="uniform">Reykdæla saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>þan<ex>n</ex> 3 Decemb<ex>e</ex>r; 1784.</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="232"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">The number 462 is written in ink in the top outer corner of fol. 232v and might
+                           be an original feature.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="20 24">
+                           <num type="wpl" atLeast="9" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="138"/>
+                              <width unit="mm" quantity="118"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <!-- possibly the same as ThoTho049, who wrote Ms. Germ qu. 27? No mention of Brekkubær or Stóra-Kambi in æviskrár but of relatively close places-->
+                     <handNote scribeRef="#ThoTho049" scope="major" script="kurrent">Fols. 1r-172v</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Fols. 173r-186r and 195r-232v.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Fols. 186v-194v.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="other">Red book-block. Framed title-page written with red and dark ink. Decorated initial
+                        over 3 lines on fol. 180r.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A translation by <name type="person">Rühs</name> into German of the title-page, including some information
+                        on the content of the sagas, is added to the front of the manuscript. Numbered paper tabs glued
+                        to the outer margins at beginnings of new items. </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Cardboard, covered with dark brown leather.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1784" to="1804"/><!-- check if that´s correctly encoded, it was written in 1784 and in 1804 -->
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:28.348+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-30" who="SH">Information added from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

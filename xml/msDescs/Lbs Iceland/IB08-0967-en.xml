@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 967 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0967-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 967 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="25v:21"/>
+                     <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagann af Hiálmtir og Ølver Fóstbræðrum</rubric>
+                     <incipit>Ingvi hefur kóngur heiti han<ex>n</ex> riedi firir man<ex>n</ex>heimum.</incipit>
+                     <explicit>og bar han<ex>n</ex> alla sina Daga og er mart man<ex>n</ex>a frá þeim komi</explicit>
+                     <finalRubric>og endum vier so þessa sögu af þeim Fóstbræðrum<ex>m</ex> Hiálmtiri
+                        og Ølver Endir</finalRubric>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="26r:1" to="64r:13"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Eigli hinum Einhenta</rubric>
+                     <incipit>Hertriggur hefur kóngur heiti</incipit>
+                     <explicit>og hefur eingin hlutur af hen<ex>n</ex>i fundist og öingvu þvi sem þar var á</explicit>
+                     <finalRubric>liukum vier so þessari sögu af Eigli Einhenta og þeim Gnodar Asmundi
+                           Fóstbrædrum<ex>m</ex> E. Endirin</finalRubric>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="64"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="164"/>
+                              <width unit="mm" quantity="106"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23 27">
+                           <num type="wpl" atLeast="4" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="95"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Names written on fol. <locus from="64v" to="64v">64v</locus>, presumably by former manuscript owners.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Paper cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1840" notAfter="1860"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:51:57.863+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2012-02" who="#SK">Added class to the items and some information from the P.E.Ó. catalogue</change>
+         <change when="2012-02" who="#SK">Added little bit of information and made some correction from the XML-file on handrit.is</change>
+         <change when="2013-07-29" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-09-03" who="#OHA">Added missing items.</change>
+         <change when="2013-09-04" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

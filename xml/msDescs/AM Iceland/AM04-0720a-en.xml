@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 720 a VIII 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0720a-VIII-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 720 a 4to</idno>
+               </msIdentifier>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a I 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="" defective="true">
+                        <locus from="1r:1" to="1v:2"/>  							
+                        <author key="">Thomas Aquinas</author>
+                        <title type="uniform">Lauda Sion Salvatorem</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true">sumit unus sumunt mille</incipit>
+                        <explicit><ex>et</ex> sodales sancto<ex>rum</ex> fac ciuium</explicit>
+                        
+                        <note>Fragment of the Latin liturgical text with musical notation</note>
+                     </msItem>
+                     
+                     <msItem n="2" class="kvad" defective="true">
+                        <locus from="1v:3" to="1v:17"/>
+                        <title type="supplied">Ólafsvísur</title>
+                        <textLang mainLang="non"/>
+                        <incipit>H<ex>err</ex>a k<ex>on</ex>g Olaf hialp<ex>ar</ex>re Noræx</incipit>
+                        <explicit defective="true">skein bonden þ<ex>an</ex>n s<ex>e</ex>m</explicit>
+                        
+                        <note>Fragmentary. Entire text copied out on AM slips</note>
+                        
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="leaf">
+                        <supportDesc material="perg">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="1"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="233"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                          <!-- <foliation ana="no|contemporary|later|pag|col|fol"/>-->
+                           
+                          <!-- <condition ana="poor|average|good"/>-->
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1">	<!-- written lines -->								
+                              <!-- Latin text probably had ca. 15 lines per page -->
+                              <num type="wpl" atLeast="5" atMost="17"/>
+                             
+                              
+                              <!--<dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" scope="major" script="cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="textualis"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="medium">
+                        <decoNote type="other">Latin text accompanied by musical notation.</decoNote>
+                     </decoDesc>
+                     
+                     <additions ana="medium">
+                        <p>Contains two slips in AM's hand. The first reads: <q>Herra
+                           K<ex>ong</ex> Olaf hialpare Norex landa, / þer kom til handa / med
+                           helgum anda / eilif nad fyrer Jesum Krist; / heidr þinn mun um
+                           heiminn nordr standa, / þu komt oss bade ur kvolum <ex>ok</ex> vanda, /
+                           kender tru krapta <ex>ok</ex> list; / mustare klen / þu vigder væn, / villo
+                           kroten en miskun sen, / þu þat þ<ex>a</ex>t len / af guði igen, / herradæmi
+                           <ex>ok</ex> himna vist. / herra k<ex>ong</ex> Olaf huggara ma þig kalla, þu lezt
+                           falla / forna stalla, / braust þu i sundr bolund hof; / refsa lezta
+                           ran ok stulde alla, / rettum domi villdar e<ex>cki</ex> kalla, / <ex>ok</ex> aflder
+                           þannveg J<ex>e</ex>su lof; / logi kom raudr, / en uppgeck audr, / iafnan
+                           dom feck rikr <ex>ok</ex> snaudr, / þann la daudr / er þess var [traudr] /
+                           lydum þotti login vid of. / Herra k<ex>ong</ex> Olaf hvar komu laun a moti, /
+                           þu eydder bloti / med oxi <ex>ok</ex> spioti, / bodadir ollum retta tru; /
+                           þegnar lanzins þola med engu hoti, / af þvi giordizt kurin lioti, /
+                           rikis folkit reidizt nu; / heyr <ex>ok</ex> se / hvat sart kann ske,</q></p>
+                        
+                        <p>The second reads: <q>þeir
+                           selldu þig fyrer mutu <ex>ok</ex> fe, / fals <ex>ok</ex> ve / kom folke a kne, / aumliga
+                           keypte olldin su. / Herra k<ex>ong</ex> Olaf heimrinn ma þin niota, / þu vant at
+                           hliota / virding skiota, / vetrna fim <ex>ok</ex> fullan tog; / aller giordu
+                           þrendr upp at þiota, / þer i gegn bada hoggva <ex>ok</ex> skiota, / feingu þinu
+                           folke slog; / a Stiklastodum sem stendr skrif / med stale klavf þu
+                           buna hlif, / geck þu i kif, / ok gaf þitt lif, fyrer þau dyru drottins
+                           log. / Herra k<ex>on</ex>g Olaf hiartanliga ma skyra / dauda hins dyra /
+                           Haralldar hlyra, liosit yfver hans likama skein; / bonden þann sem <gap/></q></p>
+                        
+                        <p>A note in the margin of fol. <locus>1v</locus> reads: <q>ur latinskre messu saungs bok. bladit er komit frä Jslandi</q></p>
+                     </additions>
+                     
+                    <!-- <bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p/>
+                        </binding>							
+                     </bindingDesc>-->
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1300" notAfter="1500"/>
+                        <origPlace key="IS"/>
+                        <note>ON text dated to ca. 1500 by Kristian Kålund (Katalog, II:144). Latin text conjectured to be 14th c.</note>
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                     
+                  </history>	
+                  
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a II 4to</idno>
+                  </altIdentifier>
+               
+               <msContents>
+                  
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="helgkv" defective="true">
+                     <locus from="1r:1" to="1v:22"/>  							
+                     <title type="supplied">Margrétarvísur</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">faallda naunnu fogre litu þ<ex>ei</ex>r au<ex>n</ex>gva<ex>n</ex> suan<ex>n</ex>aa</incipit>
+                     <explicit defective="true">v<ex>ar</ex> sett<ex>ur</ex> eitt k<ex>er</ex>itt[?] t<ex>il</ex></explicit>
+                     
+                     <note>Defective. Begins in the second stanza and ends in the middle of the 18th stanza.</note>
+                                          
+                  </msItem>
+               
+                  <msItem n="2" class="helgkv" defective="true">
+                     <locus from="2r:1" to="2v:5"/>  							
+                     <title type="supplied">Mariuvísur</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">gud sin m<ex>un</ex>di þa</incipit>
+                     <explicit><ex>ok</ex> sy<ex>n</ex>ge v<ex>er</ex>z Ave Maria</explicit>
+                     
+                     <note>Defective</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="3" class="helgkv" defective="true">
+                     <locus from="2v:6" to="2v:24"/>  							
+                     <title type="supplied">Meyjarkvæði</title>
+                     <textLang mainLang="non"/>
+                     <incipit><supplied reason="omitted">U</supplied>m heid<ex>ur</ex>z mey vil e<ex>g</ex> hefiaa</incipit>
+                     <explicit defective="true">þ<ex>ess</ex>e fallda lindi<ex>n</ex> fliodu<ex>m</ex></explicit>
+                     
+                     <note>Defective</note>
+                     
+                  </msItem>
+                  
+               
+               </msContents>				
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">								
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="2"/>
+                          <!-- <num type="back-flyleaf" value=""/>-->
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           
+                           <watermark ana="no"/>
+                           
+                        </support>
+                        
+                        <foliation ana="no"/>
+                        
+                        <!--<condition ana="poor|average|good"/>-->
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="24">									
+                           
+                           <num type="wpl" atLeast="9" atMost="13"/>
+                           
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="textualis"/>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Inserted slip from AM reads: <q>fyrra bladed <del type="overstrike">þetta</del> er ur Margretar visum. hverra
+                        upphaf er: Margret heiter mærenn biarta, er mina linar syndaparta,
+                        þad sidara bladed er um Mariam carminis initium
+                        ignoratur.</q></p>
+                  </additions>
+                  
+                 <!-- <bindingDesc>
+                     <binding ana="plain|moderate|decorative" contemporary="true">
+                        <p>Contemporary binding from 1967. </p> !!CHECK!!!!
+                     </binding>							
+                  </bindingDesc>-->
+                  
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate notBefore="1500" notAfter="1599"/>
+                     <origPlace key="IS"/>
+                     <p>Dated to the 16th century by Kristian Kålund (Katalog, II:144).</p>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                  </provenance>
+                  
+               </history>			
+              
+               </msPart>
+               
+               <msPart>
+                  
+                  <altIdentifier>
+                     <idno>AM 720 a III 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="kvad" defective="true">
+                        <locus from="1r:1" to="1r:12"/>  							
+                        <title type="supplied">Lögbrotsvísur</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true">heilog er su hialpin mest</incipit>
+                        <explicit>hi<ex>er</ex> sk<ex>al</ex> frædit falla. Amen</explicit>
+                          
+                     </msItem>
+                     
+                     <msItem n="2" class="kvad">
+                        <locus from="1r:13" to="1v:35"/>  							
+                        <title type="supplied">Boðorðavísur</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Bodorda vysur</rubric>
+                        <incipit>Sialfur Gud f<ex>irir</ex> son<ex>ar</ex> þyns naad</incipit>
+                        <explicit defective="true">godan<ex>n</ex> hialpar ki<ex>ar</ex>na[?] suo</explicit>
+                        
+                     </msItem>
+                     
+                 
+                  </msContents>				
+                  
+                  <physDesc>
+                     <objectDesc form="leaf">
+                        <supportDesc material="perg">								
+                           <support>
+                             <!-- <num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="1"/>
+                              <!--<num type="back-flyleaf" value=""/>-->
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="162"/>
+                                 <width unit="mm" quantity="133"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="average">Lower margin cropped with some loss of text.</condition>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <!-- margin cropped, previously 36+ lines -->
+                           <layout ana="verse-prose" columns="1" writtenLines="35">									
+                              
+                              <num type="wpl" atLeast="14" atMost="16"/>
+                               
+                              <!--<dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                     
+                     <!--<bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p>Rebound in 1967.</p>
+                        </binding>							
+                     </bindingDesc>-->
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1500" notAfter="1599"/>
+                        <origPlace key="IS"/>
+                        <p>Dated to the 16th century by Kristian Kålund (Katalog, II: 145).</p>
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                     
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a IV 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="" defective="true">
+                        <locus from="1r:1" to="2v:19"/>  							
+                        <title type="uniform">Hugsvinnsmál</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true"><supplied reason="omitted">r</supplied>aad hollur <ex>ok</ex> riettdæmur wert</incipit>
+                        <explicit defective="true">ath liodu<ex>m</ex> þ<ex>e</ex>ssum<ex>m</ex> mega lyd<ex>er</ex> nema. mu<ex>n</ex>a</explicit>
+                        
+                        <note>Fragment (bifolium) contains sections 13.1-25.5, 111.(3),4-119.9, 125, 138, 143, 130, 147.1-2 
+                           (following Tuvestrand's 1977 edition).</note>
+                           
+                     </msItem>
+                  </msContents>				
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">								
+                           <support>
+                             <!-- <num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="2"/>
+<!--                              <num type="back-flyleaf" value=""/>-->
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="152"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                         <!--  <condition ana="poor|average|good"/>-->
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="19">									
+                              
+                              <num type="wpl" atLeast="4" atMost="9"/>
+                              
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                     
+                     <!--<bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p>Rebound in 1967.</p>
+                        </binding>							
+                     </bindingDesc>-->
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1500" notAfter="1599"/>
+                        <origPlace key="IS"/>
+                        <p>Dated to the 16th century by Kristian Kålund (Katalog, II: 145)</p> 
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                     
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a V 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="helgkv">
+                        <locus from="1r:1" to="2v:27"/>  							
+                        <title type="supplied">Píslardrápa</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true">Postuli ein<ex>n</ex> m<ex>ed</ex> prydi hæsta</incipit>
+                        <explicit defective="true"><ex>ok</ex> h<ex>ar</ex>d<ex>an</ex> ro<ex>m</ex> aa efsta domi</explicit>
+                        
+                        <note>Fragment</note>
+                        
+                     </msItem>
+                  </msContents>				
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">								
+                           <support>
+                              <!--<num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="2"/>
+                             <!-- <num type="back-flyleaf" value=""/>-->
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="138"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <!--<condition ana="poor|average|good"/>-->
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="25 27">									
+                              
+                              <num type="wpl" atLeast="9" atMost="13"/>
+                              
+                              <!--<dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="textualis"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                     
+                    <!-- <bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p>Rebound in 1967.</p>
+                        </binding>							
+                     </bindingDesc>-->
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate when="1500"/>
+                        <origPlace key="IS"/>
+                        <p>Dated to ca. 1500 by Kristian Kålund (Katalog, II: 145)</p>
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                     
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a VI 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="helgkv" defective="true">
+                        <locus from="1r:1" to="2v:24"/>  							
+                        <title type="supplied">Heilagra manna drápa</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true">u<ex>m</ex> dyrn<ex>ar</ex> þustu</incipit>
+                        <explicit defective="true">meing<ex>it</ex> hio s<ex>em</ex> skip<ex>at</ex>i þeingill</explicit>
+                        
+                        <note>Fragment</note>
+                        
+                     </msItem>
+                     
+                  </msContents>				
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">								
+                           <support>
+                              <!--<num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="2"/>
+                             <!-- <num type="back-flyleaf" value=""/>-->
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="126"/>
+                                 <width unit="mm" quantity="93"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="poor">Both leaves heavily worn and creased. Large holes at the top of both leaves have resulted in loss of
+                              text. The outer margin of fol. <locus>2</locus> is irregularly cut, though this seems to have occured prior to writing, 
+                              and no text appears to have been lost.</condition>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="24">									
+                              
+                              <num type="wpl" atLeast="9" atMost="13"/>
+                              
+                              <!--<dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="low">
+                        <decoNote type="marginal">Floral drawing in the lower margin of fol. <locus>2v</locus>.</decoNote>
+                     </decoDesc>
+                     
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                     
+                    <!-- <bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p>Rebound in 1967.</p>
+                        </binding>							
+                     </bindingDesc>
+                     -->
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1400" notAfter="1499"/>
+                        <origPlace key="IS"/>
+                        <p>Dated to the 15th century by Kristian Kålund (Katalog, II: 145).</p>
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                     
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a VII 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="helgkv" defective="true">
+                        <locus from="1r:1" to="1r:20"/>  							
+                        <title type="supplied">Pálsvísur</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true">h<ex>er</ex>an f<ex>er</ex> e<ex>r</ex> hialpin skædi</incipit>
+                        <explicit>vileg svo enda viso manes[?]</explicit>
+                        <note>Fragment</note>                           
+                     </msItem>
+                     
+                     <msItem n="2" class="helgkv" defective="true">
+                        <locus from="1r:21" to="1v:23"/>  							
+                        <title type="supplied">Thómastdiktur</title>
+                        <textLang mainLang="non"/>
+                        <incipit><supplied reason="omitted">V</supplied>il e<ex>g</ex> ens bi<ex>ar</ex>ta blo<ex>m</ex>a</incipit>
+                        <explicit defective="true">rekin j fiot<ex>ur</ex> <ex>og</ex> streing</explicit>
+                        <note>Fragment</note>
+                     </msItem>
+                     
+                     
+                                          
+                  </msContents>				
+                  
+                  <physDesc>
+                     <objectDesc form="leaf">
+                        <supportDesc material="perg">								
+                           <support>
+                             <!-- <num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="1"/>
+                            <!--  <num type="back-flyleaf" value=""/>
+                              -->
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="150"/>
+                                 <width unit="mm" quantity="102"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                          <!-- <condition>Fragment</condition>-->
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="23">									
+                              
+                              <num type="wpl" atLeast="9" atMost="12"/>
+                              
+                            <!--  <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                     
+                    <!-- <bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p>Rebound in 1967.</p>
+                        </binding>							
+                     </bindingDesc>-->
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate when="1500"/>
+                        <origPlace key="IS"/>
+                        <p>Dated to ca. 1500 by Kristian Kålund (Katalog, II:145)</p>
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                     
+                  </history>	
+                  
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a VIII 4to</idno>
+                  </altIdentifier>
+                              
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="hels" defective="true">
+                     <locus from="1r:1" to="1r:23"/>
+                     <title type="supplied">Maríujarteikn</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">vi<ex>n</ex>sensius e<ex>n</ex> an<ex>nar</ex> stephan<ex>us</ex></incipit>
+                     <explicit><ex>og</ex> hellt ho<ex>n</ex> þa tueim hondu<ex>m</ex> aa kertinu</explicit>
+                     
+                     <note>Fragment</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="1r:24" to="1v:29"/>
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <incipit><supplied reason="omitted" instant="false">K</supplied>ongr het þr<ex>an</ex>nr</incipit>
+                     <explicit defective="true">i himne eru þ<ex>ri</ex>ar</explicit>
+                     
+                     <note>Fragment</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="3" class="helgkv" defective="true">
+                     <locus from="2r:1" to="2v:29"/>
+                     <title type="uniform">Lilja</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">fagran plog s<ex>em</ex> allde<ex>n</ex> skog<ex>ia</ex></incipit>
+                     <explicit defective="true"> æ þackandi micle[?] miskun<ex>n</ex> min n</explicit>
+                     
+                     <note>Fragment. Contains stanzas 10-32.</note>
+                     
+                  </msItem>
+                  
+               </msContents>
+               
+                  <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="2"/>
+                          <!-- <num type="back-flyleaf" value=""/>-->
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="148" atMost="166"/>
+                              <width unit="mm" atLeast="147" atMost="150"/>
+                           </dimensions>
+                        
+                           <watermark ana="no"/>
+                           
+                        </support>
+                        <foliation ana="fol">
+                           <p>Foliated 1-2 in the upper margin of recto leaves</p>
+                        </foliation>
+                        
+                       <!-- <condition ana="poor|average|good"/>-->
+                           
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="29">
+                           <num type="wpl" atLeast="7" atMost="17"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="123" atMost="130"/>
+                              <width unit="mm" atLeast="122" atMost="128"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                     
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="textualis">I. <locus from="1r" to="1v">1r-v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="major" script="textualis">II. <locus from="2r" to="2v">2r-v</locus></handNote>
+                  </handDesc>
+                     
+                     <!--<decoDesc ana="low">
+                        <!-\- possibly a red initial on fol. 1r? Does not appear in b/w photographs -\->
+                     <decoNote type="initial"/>
+                     
+                  </decoDesc>-->
+                     
+                  <additions ana="low">
+                     <p>Inserted AM slip reads: <q>Af Eiriki vidförla. ur liliu</q></p>
+                  </additions>
+                     
+                 <!-- <bindingDesc>
+                     <binding ana="plain|moderate|decorative" when="1967-08" contemporary="false">
+                        <p>Rebound in 1967. (<dimensions type="binding" unit="mm">
+                              <height>244</height>
+                              <width>248</width>
+                              <depth>2</depth>
+                           </dimensions>).</p>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1400"/>
+                     <origPlace key="IS"/>
+                     <p>Dated to ca. 1400 by Kristian Kålund (Katalog, II:146)</p>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                  </provenance>
+               </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a IX 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="kvad">
+                        <locus from="1r:1" to="2v:15"/>  							
+                        <title type="supplied">Barngælur</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Kued<ex>it</ex> er yf<ex>er</ex> bornu<ex>m</ex> kuædi þ<ex>e</ex>tta</incipit>
+                        <explicit>uitie kuædit er nu uti</explicit>
+                        
+                        <note>Lacuna between fols. <locus>1</locus> and <locus>2</locus>.</note> 
+                        <note>Kålund (Katalog, II:146) notes traces of earlier pigments which suggest that the parchment is a palimpsest.</note>
+                     </msItem>
+                     
+                     
+                     
+                  </msContents>				
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">								
+                           <support>
+                              <!--<num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="2"/>
+                             <!-- <num type="back-flyleaf" value=""/>-->
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="162"/>
+                                 <width unit="mm" quantity="142"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                          <!-- <condition ana="poor|average|good"/>-->
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="15 26">									
+                              
+                              <num type="wpl" atLeast="9" atMost="11"/>
+                              
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="textualis"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="medium">
+                        <p>Inserted slip from AM reads: <q>Fra Monsr Jone Widarlin elldra. 1725</q>. Five lines (prayer?) and pen tests 
+                           in a later hand on fol. <locus>2v</locus>.</p>
+                     </additions>
+                     
+                    <!-- <bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p>Rebound in 1967</p>
+                        </binding>							
+                     </bindingDesc>-->
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate when="1600"/>
+                        <origPlace key="IS"/>
+                        <p>Dated to ca. 1600 by Kristian Kålund (Katalog, II:146)</p>
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                        <name type="person" role="owner" key="JonPal004">Jón Vídalín Pálsson</name>
+                     </provenance>
+                     
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a X 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="kvad" defective="true">
+                        <locus from="1r:1" to="1v:32"/>  							
+                        <author key="EinSig001">Einar Sigurðsson</author>
+                        <title type="supplied">Píslarminning</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true">þo odygd hefdi mig</incipit>
+                        <explicit defective="true">aum<ex>um</ex> þræl þren<ex>n</ex>ing sæl</explicit>
+                        
+                        <note>Fragment</note>
+                        
+                     </msItem>
+                     
+                     <msItem n="2" class="kvad" defective="true">
+                        <!-- uncertain where text ends due to illegibility -->
+                        <locus from="2r:1" to="2r:x"/>  							
+                        <author key="EinSig001">Einar Sigurðsson</author>
+                        <title type="supplied">Hjónasinna</title>
+                        <textLang mainLang="non"/>
+                        <!-- incipit and explicit illegible in photographs -->
+                        <incipit/>
+                        <explicit/>
+                        
+                        <note>Fragment. Contains the first 12 verses. Illegible.</note>
+                        
+                     </msItem>
+                     
+                  </msContents>				
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">								
+                           <support>
+                             <!-- <num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="2"/>
+                             <!-- <num type="back-flyleaf" value=""/>-->
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="237"/>
+                                 <width unit="mm" quantity="173"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                          <!-- <condition ana="poor|average|good"/>-->
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="32">									
+                              
+                              <num type="wpl" atLeast="10" atMost="13"/>
+                              
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" scope="major" script="textualis"/>
+                        <handNote scribeRef="unknown" scope="minor" script="semihybrida"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="low">
+                        <p>Inserted slip from AM reads: <q>Þesse 2. in<ex>n</ex>lógd blód voru samfóst i kiólnum. Eg skar þau hvert frä ódru, til
+                           ad þvo þad fyrra, med þvi eg sä, ad þad sidara ecki þolde vatned.</q> Pen tests in the lower margin of fol. 1v.</p>
+                     </additions>
+                     
+                    <!-- <bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p>Rebound in 1967.</p>
+                        </binding>							
+                     </bindingDesc>-->
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1500" notAfter="1599"/>
+                        <origPlace key="IS"/>
+                        <p>Dated to the 16th century by Kristian Kålund (Katalog, II:146)</p>
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                     
+                  </history>
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 720 a XI 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="kvad" defective="true">
+                        <locus from="1r:1" to="1r:22"/>  							
+                        <title type="supplied">A moral poem</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true">ma þ<ex>ad</ex> san<ex>n</ex>a</incipit>
+                        <!-- explicit illegible in photographs -->
+                        <explicit/>
+                        
+                     </msItem>
+                     
+                     <msItem n="2" class="trul">
+                        <locus from="1r:23" to="1v:20"/>  							
+                        <author key="EinSig001">Einar Sigurðsson</author>
+                        <title type="supplied">Iðrunarvísur</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Post<supplied reason="illegible" source="#KKKKat">ulinn drottens</supplied></incipit>
+                        <explicit><ex>og</ex> æra him<ex>m</ex>na lios[?] skiæra</explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="3" class="trul" defective="true">
+                        <locus from="1v:21" to="1v:28"/>  							
+                        <title type="supplied">Vísur um nafn Jesu</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Jh<ex>esus</ex> nafn e<ex>r</ex> einka sætt</incipit>
+                        <explicit defective="true">orde godz af vyfe vt</explicit>
+                        
+                        <note>Defective. Lacks ending.</note>
+                        
+                     </msItem>
+                     
+                     <msItem n="4" class="trul">
+                        <locus from="2r:1" to="2r:29"/>  							
+                        <title type="supplied">Vísur um brúðkaupið í Kana</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Sveitin<ex>n</ex> sat vid bordit</incipit>
+                        <explicit>af giæskv sin<ex>n</ex>e bljk amen</explicit>
+                        
+                        <note>Possibly a palimpsest? (B/W photos seem to show lighter letters beneath the current text)</note>
+                        <note>Photograph of partial transcription in AMI images folder.</note>
+                        
+                     </msItem>
+                     
+                     <msItem n="5" class="trul">
+                        <!-- end line of text uncertain; illegible in photographs -->
+                        <locus from="2v:1" to="2v:17"/>  							
+                        <title type="supplied">Marísvísur</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Nad<ex>ar</ex> sæt nafn<ex>it</ex> þitt</incipit>
+                        <!-- explicit illegible in photographs -->
+                        <explicit/>
+                        
+                     </msItem>
+                     
+                     
+                  </msContents>				
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">								
+                           <support>
+                            <!--  <num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="2"/>
+                            <!--  <num type="back-flyleaf" value=""/>-->
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="128"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                          <!-- <condition ana="poor|average|good"/>-->
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="28">									
+                              
+                              <num type="wpl" atLeast="9" atMost="12"/>
+                              
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                     
+                     <!--<bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p>Rebound in 1967</p>
+                        </binding>							
+                     </bindingDesc>-->
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1600" notAfter="1699"/>
+                        <origPlace key="IS"/>
+                        <p>Dated to the 17th century by Kristian Kålund (Katalog, II:146)</p>
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                  </history>
+                  
+               </msPart>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:44.952+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:44.141+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:51.756+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:08.72+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:45.824+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-04-16" who="#JSL">Supplemeneted with information from Kålund and handrit catalogs.
+            Cataloged MS from photographs.</change>
+         <change when="2013-08-23" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

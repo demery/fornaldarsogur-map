@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 33 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0033-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 33 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" facs="#JS04-0033-0001r" to="35v"/>
+                     <title type="uniform">Svarfdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="36r" facs="#JS04-0033-0036r" to="46v"/>
+                     <title type="uniform">Vopnfirðinga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Broddhelga þáttur</rubric>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="46v" facs="#JS04-0033-0046v" to="49r"/>
+                     <title type="uniform">Ölkofra þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="49r" facs="#JS04-0033-0049r" to="51r"/>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þáttur úr Ólafs konungs sögu helga</rubric>
+                  </msItem>
+                  <msItem n="5" class="konth">
+                     <locus from="51r" facs="#JS04-0033-0051r" to="53v"/>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Slysa-Hróa þáttur</rubric>
+                  </msItem>
+                  <msItem n="6" class="islt">
+                     <locus from="53v" facs="#JS04-0033-0053v" to="56v"/>
+                     <title type="uniform">Egils þáttur Síðu-Hallssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Egils þáttur Síðu-Hallssonar</rubric>
+                  </msItem>
+                  <msItem n="7" class="isl">
+                     <locus from="56v" facs="#JS04-0033-0056v" to="59r"/>
+                     <title type="uniform">Droplaugarsona saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Upphaf sögu Droplaugarsona</rubric>
+                     <note>Fragment</note>
+                  </msItem>
+                  <msItem n="8" class="hetkv">
+                     <locus from="59v" facs="#JS04-0033-0059v" to="60v"/>
+                     <title type="uniform">Ævikviða Örvar-Odds</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Kvæði Örvar-Odds undir andlát sitt</rubric>
+                  </msItem>
+                  <msItem n="9" class="fas">
+                     <locus from="60v" facs="#JS04-0033-0060v" to="62r"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Gríms þáttur loðinkinna</rubric>
+                  </msItem>
+                  <msItem n="10" class="helgkv">
+                     <locus from="62v" facs="#JS04-0033-0062v" to="62v"/>
+                     <title type="supplied">Maríu vísur síra Jóns Pálssonar</title>
+                     <textLang mainLang="non"/>
+                     <note><ref target="JS04-0507">JS 507 8vo</ref> contains <title type="uniform">Maríuvísur</title> by
+								séra <name type="person">Jón Pálsson</name> but they are not the same as the ones kept here</note>
+                  </msItem>
+                  <msItem n="11" class="regist">
+                     <locus from="63r" facs="#JS04-0033-0063r" to="63r"/>
+                     <title type="supplied">Table of contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Innihald</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="63"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="194"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="contemporary pag">
+									<p>Old pagination 1-68 (1r-35v)</p>
+								</foliation>
+							   <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 4" writtenLines="24 30">
+                           <num type="wpl" atLeast="10" atMost="14"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#EyjJon002" scope="major" script="unknown"><!--[síra <name type="person" key="EyjJon002">Eyjólfur Jónsson</name> á <placeName>Völlum</placeName>]--></handNote>
+                     <!-- what is meant here by 'back'? Insertions on fols. 9ff.? -->
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">Back written by another scribe.</handNote>
+						</handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+						   <p>Fol. 9 is an insertion (written in a different hand)</p>
+						   <p>Blank spaces filled in by a different hand on fols. <locus from="9r" facs="#JS04-0033-0009r" to="9r">9r</locus> and <locus from="10v" facs="#JS04-0033-0010v" to="11">10v-11</locus>.</p>
+						</additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Leather on spine and corners; spine embossed</p>
+                     </binding>
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1730" to="1745">[1730-1745?]</origDate>
+							<origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                     <p>
+                     <name type="person" role="owner" key="JonSig004">Jón Sigurðsson</name> received the manuscript from Dr. <name type="person" role="owner" key="HalSch001">Hallgrímur Scheving</name> in 1847.
+                  </p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:15.998+02:00" who="#EAH"> Created as subset of full fileon handrit.is.</change>
+         <change when="2011-05-06T17:53:22.679+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:42.056+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-07-30" who="#SMM">Added and completed msItems with information gathered from and pictures viewed on handrit.is. Completed FASNL encoding.</change>
+         <change when="2012-11-14">Translated.</change>
+         <change when="2012-11-27" who="#SMM">Added some information from black and white picture from the Arnamagnaean collection in Copenhagen.</change>
+         <!-- watermark and layout dimensions missing. -->
+         <change when="2013-08-28" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+
+      <fileDesc>
+         <titleStmt>
+            <title>Icel. MS. 32</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Icel-MS-32" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#HHVD">Harvard University, Houghton Library, Cambridge, MA</repository>
+                  <idno>Icel. MS. 32</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     
+                     <note>Most likely drawn by <name type="person" role="other" key="HjaTho004">séra Hjálmar Þorsteinsson
+                           (1742-1819)</name>, the parson at Trollatunga, who was known for his drawing and binding skills
+                        (Æviskrár 2: 356). <q>Skemtilegur fraasagna fiesiód<ex>ur</ex> af mørgum merkilegum fornkongum, hertogum,
+                           jørlum og høfdingiu<ex>m</ex>. Sem aa fyrre ølldum hier aa nordurløndum mørg frægd<ex>ar</ex> verk
+                           framed hafa, og sin<ex>um</ex> und<ex>ir</ex> mønum lof-lega stiórnad / nú ad nýiu uppskrifadur / of
+                           þeim sem / Heidrar Iafnan Spekina. / In<ex>n</ex>fest 1789 of þeim er Hef<ex>ur</ex> Þetta Skrifad. H.
+                           Þ. S.</q></note>
+                  </titlePage>
+                  <msItem class="regist" n="1">
+                     <locus from="2r" to="4r"/>
+                     <title type="supplied">Table of contents</title>
+                     <rubric>Formäli</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="ridd" n="2">
+                     <locus from="6r" to="29r"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <rubric>Hier byriar Sögu af Sigurde þøgla</rubric>
+                     <incipit>AA dög<ex>um</ex> Artús k<ex>ong</ex>s ens fræga</incipit>
+                     <explicit>og lyk<ex>ur</ex> þan<ex>n</ex>in<ex>g</ex> sögu af Sigurdi þögla.</explicit>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="unknown" ana="apograph"/><p>On fol. <locus from="28v:1" to="28v:3">28v</locus> the scribe left a note saying: </p>Þessa Bó a eg undir skrifadur og er vel ad
+                           hen<ex>n</ex>i komin<ex>n</ex>/ Benedictsson</filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="30r" to="51r"/>
+                     <title type="uniform" ref="#vs">Völsunga saga</title>
+                     <rubric>Saga Ragnars Lod-brókar, Budlunga Wolsunga, Guikunga, Sigurd<ex>ar</ex> fanfis bana og Sona
+                        Ragnars</rubric>
+                     <incipit>Hier hef<ex>ur</ex> upp <ex>og</ex> seig<ex>ur</ex> af þ<ex>ei</ex>m man<ex>n</ex>i er Siggi
+                        het</incipit>
+                     <note>Items 3-5 are written as one saga.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="51r" to="65r"/>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <note>Items 3-5 are written as one saga.</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="65r" to="66r"/>
+                     <title type="uniform" ref="#rth">Ragnarssona þáttur</title>
+                     <explicit>Nu lykure hier sögu þeira Budlunga, Wolsunga, Guikunga, Sigurdae Fabnisbana Ragnars k<ex>ong</ex>s
+                           lodbrok<ex>ar</ex> og Sona han<ex>s</ex></explicit>
+                     <colophon>Thom: Thorf: Sene(?)</colophon>
+                     <textLang mainLang="non"/>
+                     <note>Items 3-5 are written as one saga.</note>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="67r" to="74r"/>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis</title>
+                     <rubric>Sagan af An Bogsveige</rubric>
+                     <incipit>I þ<ex>an</ex>n tij<ex>ma</ex> er Fylcis k<ex>ong</ex><ex>ur</ex></incipit>
+                     <explicit>o<ex>g</ex> likur hier sogur af Än Bogsveigar</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="" n="5">
+                     <locus from="75r" to="253r"/>
+                     <title type="uniform">Þiðreks saga</title>
+                     <rubric>missing</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                     <note>First few pages missing, probably 2 or 3; text starts on fol. <locus from="78r" to="78r">78r</locus>.</note>
+                  </msItem>
+                  <msItem class="fas" n="7">
+                     <locus from="254v" to="272v"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <rubric>Sagan af Egli Einhendta og Asmundi Berserkjebana</rubric>
+                     <incipit/>
+                     <explicit/>
+                  </msItem>
+                  <msItem class="fas" n="8">
+                     <locus from="273r" to="297v"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <rubric>Sagan af ÞialarJoone Svipdagssyne</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem class="kim avint anekd?" n="9">
+                     <locus from="298r" to="321v"/>
+                     <title type="supplied">Sagan af Rósaníu</title>
+                     <rubric>Sogur þättur af Roosania, utlagdur af Italiensku mäli. 1712</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="318"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <watermark ana="yes"><note>Maid of Dort <q>PRO PATRIA</q>
+                              </note></watermark>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="20 31">
+                           <num type="wpl" atLeast="12" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="172"/>
+                              <width unit="mm" quantity="138"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#HalJak001" scope="major" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Later replacements for wornout pages: fols.
+                           <locus from="161r" to="162v">161-62</locus>, <locus from="254r" to="254v">254</locus>, <locus from="261r" to="261v">261</locus>, 
+                        <locus from="320r" to="321v">320-21</locus>.</handNote>
+
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="other">The title page is decorated</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>On fol. <locus from="73v" to="73v">73v</locus> <q>Stepan SSon/
+                           Jomfru Ragnheiður/ Stephan B<ex>enediktsson</ex>V<ex>íðimÿri</ex>/ [second hand] Stephan
+                     Bened<ex>iktsson</ex></q> is written in a later hand. On fol. <locus from="1v" to="1v">1v</locus>, <q>Katrín</q> is written,
+                        most likely Einarsdóttir. On fol. <locus from="5v" to="5v">5r</locus>: <q>Ben<ex>ediktsson</ex></q>. On
+                        fol. <locus from="29v" to="29v">29v</locus>: <q>Þessa Bók a eg undir skrifadur og er vel ad henni kominn.
+                              S<ex>tefán</ex> Benedictsson.</q>” On fol. <locus from="321v" to="321v">321v</locus>: <q>Veledla /
+                           Madami Ragnheidur Benediktsdóttir / j / Vÿdimíri á Þeßa sögu bok. / Vitnar undirskrifadur /
+                              S<ex>igurður</ex> Sigurdsson.</q>
+                        <q>Rag<ex>nheiður</ex></q>
+                     </p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Bound in tooled leather over wood boards. Several pages of printed waste within the binding. 
+                           They contain a commentary on the book of Job (Comentarii in Liber Iob). The binding was most
+                           likely done by <name type="person" role="binder" key="HjaTho004">séra Hjálmar Þorsteinsson (1742-
+                              1819)</name>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1789"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="SteBen001"/>
+                     <name type="person" role="owner" key="RagBen001"/>
+                     <name type="person" role="owner" key="BenHal003"/>
+                     <name type="person" role="owner" key="AstVid001"/>
+                     <name type="person" role="owner" key="ArcCoo001"/>
+                     <name type="person" role="owner" key="KonMau001"/>
+                  </provenance>
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:18.558+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2012-12-14" who="#BES">Prepared file for vistit at library.</change>
+         <change when="2013-01-05" who="#BES">Added information from the manuscript itself.</change>
+         <change when="2013-01-07" who="#BES">Added additional information based on Shaun Hughes.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

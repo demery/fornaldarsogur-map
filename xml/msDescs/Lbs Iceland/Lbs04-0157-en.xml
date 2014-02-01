@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 157 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0157-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 157 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>2 bækur. Annálar frá heimsins upphafi og til þess tíma 16(67) Önnur
+                        bók Crymogea i latnesku máli giorða af þeim hálærða kennimanni séra Arngrími
+                        Jónssyni sóknarpresti á Melst(að) en utlögð á íslensku af séra Jóhanni
+                        Jónssyni</titlePart>
+                     <note>The titlepage applies to text that starts on fol. 7</note>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" to="5v"/>
+                     <title ref="#ff" type="uniform">Frá Fornjóti og ættmönnum hans</title>
+                     <note>Hversu Noregur byggðist</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.1" class="kont">
+                     <locus from="5r" to="6v"/>
+                     <title type="supplied">Konungatal</title>
+                     <rubric>Catalogus eður nafnaregistur nokkurra nálægra ríkja konunga.</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="annal">
+                     <locus from="7r" to="61v"/>
+                     <title type="supplied">Flateyjarannáll</title>
+                     <note>Flateyjarannáll og Falteyjarannálsframhald Magnúsar sýslumanns Jónssonar
+                        og séra Jóns Arasonsar</note>
+                     <note>Eftir eiginhandarriti þeirra frænda Magnúsar og Jóns</note>
+                     <note>With remarks by Hannes Finsson bishop</note>
+                     <note>Remarks on the work by síra Jón Halldórsson fol. 60</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="sagnfr sagnps">
+                     <locus from="62r" to="63v"/>
+                     <title type="supplied">Brenna Adams biskups</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="sagnfr landfr">
+                     <locus from="64r" to="72v"/>
+                     <title type="uniform">Crymogæa Arngríms lærða</title>
+                     <note>In Jóhannes Jónsson in Otradalur's hand and translation</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="annal">
+                     <locus from="91r" to="117v"/>
+                     <title type="supplied">Chronica eður Odda annálar</title>
+                     <note>Sæmundurs fróði translation from latin</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="annal">
+                     <locus from="118r" to="135r"/>
+                     <title type="supplied">Annálabrot</title>
+                     <note>ab Anno 1328 ad 1372</note>
+                     <note>Udcopieret efter A. Magnæi egenhændig Udskrift af hans Bibliothesues No
+                        423 in 4to</note>
+                     <filiation><ref type="ms" target="AM04-423-en" ana="antigraph">Copied from AM 423 4to in Arni Magnussons own hand</ref></filiation>
+
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="annal">
+                     <locus from="138r" to="161v"/>
+                     <title type="uniform">Annales Reseniani</title>
+                     <filiation><ref type="ms" target="AM04-424-en" ana="antigraph">Copied from AM 424 4to</ref></filiation>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="10"/>
+                           <num type="book-block" value="162"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later pag"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 33">
+                           <num type="wpl" atLeast="5" atMost="18"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="135"/>
+                              <width unit="mm" quantity="175"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="9">
+                     <handNote scribeRef="#MagJon008" script="kurrent" scope="minor"/>
+                     <handNote scribeRef="#HanFin001" script="hum cursiva" scope="minor"/>
+                     <handNote scribeRef="#JonHal004" script="hum cursiva" scope="minor"/>
+                     <handNote scribeRef="#SigJon028" script="kurrent" scope="minor">Kurrent and chancery</handNote>
+                     <handNote scribeRef="#FinJon001" script="textualis" scope="minor"/>
+                     <handNote scribeRef="#JohJon006" script="chancery" scope="minor"/>
+                     <handNote scribeRef="#GisEin006" script="kurrent" scope="minor"/>
+                     <handNote scribeRef="#SkuMag001" script="hum cursiva" scope="minor"/>
+                     <handNote scribeRef="#GudGud003" script="kurrent" scope="minor"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">headings</decoNote>
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Notes in the margin by Hannes Finnsson bishop</p>
+                     <p>Notes by the rev Jóns Halldórssonar in his own hand f.60</p>
+                     <p>Table of contents on front-flyleaf 2r and v in the hand of Páll stúdent
+                        Pálsson from the time of binding</p>
+                     <p>An added fol. from the time of the manuscript's binding is placed between
+                        fol. 63 and 64 as a titlepage for Crymogaea</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:42.63+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-06" who="#SK">Added information from the P.E.Ó-catalogue and the
+            manuscript itself</change>
+         <change when="2012-11" who="#SK">Put in the last bit of information from the manuscript
+            itself.</change>
+         <!-- Lokið en ef til vafi með greiningu á skrift Skúla Magnússonar. Blendingsskrift. -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

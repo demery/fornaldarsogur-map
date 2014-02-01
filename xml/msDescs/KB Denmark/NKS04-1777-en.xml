@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1777 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1777-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1777 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="handfr"> 
+                     <locus from="1v" to="1v"/>
+                     <title type="supplied">Note on text</title> 
+                     <textLang mainLang="la"/>
+                     <colophon>Hafniæ 20 Jilij Anni 1680 Olaus Borrichius</colophon>
+                     <author>Olaus Borrichius</author>
+                  </msItem>
+                  <msItem n="2" class="formal">
+                     <locus from="2r" to="2v"/>
+                     <title type="supplied">Introduction</title>
+                     <rubric>Gammelt Nyt: det er Om historie Om Kong Gothrichs oc Kong Rollof</rubric>
+                     <textLang mainLang="da"/> 
+                     <explicit>Danske tunge maal. aff Samuel Zachariæson.</explicit>
+                     <author>Samuel Zachariæsön</author>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="3r" to="37r:10"/>
+                     <title ref="#gsgr" type="uniform">Gautreks saga [Danish]</title>
+                     <textLang mainLang="da"/>
+                     <note>Danish transl. by Samuel Zachariæsön</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="37:11" to="125v"/> 
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar [Danish]</title>
+                     <rubric>Cap: XVI.</rubric>
+                     <textLang mainLang="da"/>
+                     <note>Danish transl. by Samuel Zachariæsön</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="front-flyleaf" value="3"/>
+                        <num type="book-block" value="125"/>
+                        <num type="back-flyleaf" value="5"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="200"/>
+                           <width unit="mm" quantity="154"/>
+                        </dimensions>
+                        <watermark ana="yes">Foolscap</watermark>
+                     </support>
+                        <foliation ana="fol later">later foliation in pencil every tenth page</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="19 27">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/> 
+                  </handDesc> 
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">a few squiggles</decoNote>
+                  </decoDesc>
+                  <additions ana="medium"><p>On fols. <locus>127r, 128r and 130v</locus>, there are several squiggles and test
+                     writings. On the last back flyleaf, <q>Signior Signior</q> is added.
+                  Several notes and additions in the margins, a signature on fol. <locus>2r</locus>.</p></additions> 
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Light embossed leather on thin wooden boards. On the covers, there are lines and ornaments embossed. 
+                           The leather is coming away from the spine. The pastedown is loose and defective.
+                        The binding is in poor condition overall.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1680"/>
+                     <origPlace key="DK"/>
+                     <note>Dated ca. 1680 based on the note on fol. <locus>1v</locus>.</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:39.2+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-03" who="#BES">Added catalog info.</change>
+         <change when="2013-05-28" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

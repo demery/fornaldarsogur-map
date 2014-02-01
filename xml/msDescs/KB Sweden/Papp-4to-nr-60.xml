@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 60</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-60" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 60</idno>
+               </msIdentifier>
+               <msContents>
+                  
+                  <!-- notes in Gödel indicate that there is some type of title page, i.e. choose "contemporary" or "later" -->
+<!--                  <titlePage ana=""/>-->
+                  
+                  <msItem n="1" class="fas">
+<!--                     <locus from="X:X" to="X:X"/>  							--> <!-- add locus -->
+                     <title ref="#ysv" type="uniform">Yngvars saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her beriar Søguna af Ingvari Vidførla og Sveini Syni Hans</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0343b-en" ana="antigraph">AM 343 b 4to</ref>. Cf. note on title
+                           page.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="18"/>
+<!--                           <num type="back-flyleaf" value=""/>--> <!-- check number of back fly leaves -->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           
+<!--                           <watermark ana=""/>--><!-- choose "yes" or "no" -->
+                           
+                        </support>
+                        
+<!--                        <foliation ana=""/> --> <!-- choose either "no" or a combination of "fol"/"pag" and "later"/"contemporary", i.e. ana="fol later" for later foliation -->
+                        
+<!--                        <condition ana="poor|average|good"/>--> <!-- choose one of the three options -->
+                        
+                     </supportDesc>
+                     
+                     <!--<layoutDesc>
+                        <layout columns="x" writtenLines="x x">--> <!-- add the number of columns, i.e. "1" or "2" ("1 2" in the case it is switching); add the lowest and highes number of lines from a count of three random pages, i.e. "20 25" for 20 to 25 lines per page)  -->		
+                        
+                           
+                           <!--<num type="wpl" atLeast="" atMost=""/>-->  <!-- add words per line, again based on counts of wpl from 3 pages at random -->
+                           
+                           <!--  <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>--> <!-- add dimensions of writing surface in mm -->
+                  </objectDesc>
+                  
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="minor" script="cursiva">Various scribes</handNote>
+                  </handDesc>
+                  
+                  <!-- <decoDesc ana="no|low|medium|high">--> <!-- choose one of the four values for decoration -->
+                  <!-- <decoNote type=""/>
+                        <decoNote> text text </decoNote>-->  <!-- it is possible to specify the type of decoration (e.g. "initial") or just describe it briefly in prose-->
+                  <!--</decoDesc> -->
+                  
+                  <additions ana="low">
+                     <p>Some notes about Oddr Munk on front flyleaf.</p>
+                  </additions>
+                  
+                  <!-- <bindingDesc>
+                     <binding ana="plain|moderate|decorative" contemporary="">
+                        <p>Bound in a grey paper wrapper (cf. Gödel catalog).</p>
+                     </binding>							
+                  </bindingDesc>-->    <!-- choose one of the three values of ana to describe the level of decoration of the binding;
+                  is it contemporary or not? (add "true" or "false")-->
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1734"/>
+<!--                     <origPlace key=""/>--> <!-- orig Place most likely unknown -->
+                  </origin>
+                  
+                  <provenance>
+                     <p>Once in the possession of <name type="person" role="owner" key="NilBro001">N.R. Brocman</name>, whose collection
+                        ended up in the Antikvitetsarkiv.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:56.793+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-09-05" who="#JSL">Added details from Gödel catalogue; previous (complete) record missing from SVN?</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

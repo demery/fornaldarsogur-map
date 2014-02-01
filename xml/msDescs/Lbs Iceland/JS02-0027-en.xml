@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 27 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS02-0027-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 27 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"> <!-- check-->
+								<titlePart>Nokkrar fróðlegar formannasögur til
+									leyfilegrar skemmtunnar</titlePart>
+						</titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="1v" to="1v">1v</locus>
+                     <title type="supplied">Table of Contents</title>
+                    <rubric>Innihald bókarinnar</rubric>
+                    <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="2r" to="39v"/>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                            <rubric>Sagan af Vilhjálmi sjóð</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="40r" to="61r"/>
+                     <title type="uniform">Mágus saga</title>
+                            <rubric>Sagan af Máus jarli og þeim Ámundasonum</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="61v" to="73v"/>
+                     <title type="uniform">Partalópa saga</title>
+                            <rubric>Sagan af Partalópa</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="74r" to="104v"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                    <textLang mainLang="non"/><rubric>Sagan af Hrólfi kóngi kraka</rubric>
+                            <incipit>Madur er nefndur Hälfdän en<ex>n</ex>
+                                an<ex>nar</ex> Fröde, brædúr túeir o<ex>g</ex> konga sÿn
+								er og stÿrde sÿnu rÿke huor þ<ex>eir</ex>ra.</incipit>
+                            <explicit>ok endar hier saúghúna Hrölfs k. kraka ok
+									kap<ex>p</ex>a han<ex>n</ex>s.</explicit>
+                            <note>40 chapters</note>
+                     <filiation><p>Copy of 
+                               <ref type="ms" target="#AM04-0285-is" ana="antigraph">AM 285 4to</ref>; copied into
+                               <ref type="ms" ana="apograph" target="#LbS04-0715-en">Lbs. 715 4to</ref>
+                               <ref type="ms" ana="apograph" target="#LBS02-0272-en">Lbs 272 fol.</ref>
+                               <ref type="ms" ana="apograph" target="#LBS04-0154-en">Lbs 154 4to</ref>
+                               <ref type="ms" ana="apograph" target="#BA02-4860-en">BM Add 4860 fol.</ref></p>
+                            </filiation>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="105r" to="110r"/>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                            <rubric>Sagan af Drauma-Jóni</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="110v" to="132v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                            <rubric>Sagan af Þorsteini Víkingssyni</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="133r" to="139v"/>
+                     <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                            <rubric>Sagan af Friðþjófi Þorsteinssyni</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="140r" to="147v"/>
+                     <title type="uniform">Ála flekks saga</title>
+                            <rubric>Sagan af Álaflekk</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="148r" to="177v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                            <rubric>Sagan af Hrólfi kóngi Gautrekssyni</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="178r" to="189r"/>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                            <rubric>Sagan af Flóris kóngi og sonum hans</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="189v" to="233v"/>
+                     <title type="uniform">Rémundar saga keisarasonar</title>
+                            <rubric>Sagan af Rémund keisarasyni</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="234r" to="253r"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                            <rubric>Sagan af Þjalar-Jóni Svipdagssyni og Eireki forvitna</rubric>
+                    <textLang mainLang="non"/>
+                  <msItem n="14" class="ridd">
+                     <locus from="253v" to="258v"/>
+                     <title type="uniform">Tiodels saga riddara</title>
+                            <rubric>Sagan af Thiodel og hans kvinnu</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="ridd">
+                     <locus from="259r" to="271v"/>
+                     <title type="uniform">Viktors saga og Blávus</title>
+                            <rubric>Sagan af Bláus og Victor</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="fas">
+                     <locus from="272r" to="279r"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                            <rubric>Sagan af Þorsteini bæjarbarni</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="17" class="ridd">
+                     <locus from="279v" to="305v"/>
+                     <title type="uniform">Dínus saga drambláta</title>
+                            <rubric>Sagan af Dínus drambláta</rubric>
+                    <textLang mainLang="non"/>
+                    </msItem>
+                  </msItem>
+                  <msItem n="18" class="ridd">
+                     <locus from="306r" to="314r"/>
+                     <title type="uniform">Nitida saga</title>
+                    <textLang mainLang="non"/>
+                     <rubric>Sagan af Nitida hinni frægu</rubric>
+                            <colophon>Hannes Gunnlaugsson braut stafina (<locus from="314r" to="314r">314r</locus>)</colophon>
+                        </msItem>
+                  <msItem n="19" class="ridd">
+                     <locus from="314v" to="329r"/>
+                     <title type="uniform">Dámusta saga</title>
+                  <rubric>Hér byrjast sagan af Dámusta</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="20" class="almb">
+                     <locus from="329v" to="347v"/>
+                     <title type="uniform">Helenu saga</title>
+                   <rubric>Sagan af Helenu einhendu í hvörri sjá má lukkunnar óstöðugleika
+								og einninn af læra góða dyggð þolinmæðinnar</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="21" class="ridd">
+                     <locus from="348r" to="362v"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                            <rubric>Sagan af Vilmundi viðutan</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="22" class="fas">
+                     <locus from="363r" to="381r"/>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                            <rubric>Sagan af Hálfdáni Brönufóstra</rubric>
+                    <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="388"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <note>The flyleaves are made from a bookkeeping register dating from the first
+                              part of the 19th century</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="304"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes">foolscap?</watermark>
+                        </support>
+							   <foliation ana="later fol"/>
+							   <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="33 35">
+                           <num type="wpl" atLeast="7" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="240"/>
+                              <width unit="mm" quantity="146"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+							<handNote scribeRef="#HanGun001" scope="major" script="hybrida"/>                      
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">fols. <locus>1-2</locus>, 
+                        <locus>6</locus>, <locus>10</locus>, <locus>379-381r</locus></handNote>
+						</handDesc>
+                  <decoDesc ana="medium">
+							<decoNote type="border">Decorative border: <locus from="39r" to="39r">39r</locus>, <locus from="61r" to="61r">61r</locus>, <locus from="73v" to="73v">73v</locus>, <locus from="74r" to="74r">74r</locus>, <locus from="104v" to="104v">104v</locus>, <locus from="110r" to="110r">110r</locus>, <locus from="132v" to="132v">132v</locus>, <locus from="177v" to="177v">177v</locus>, <locus from="189r" to="189r">189r</locus>, <locus from="253r" to="253r">253r</locus>, <locus from="271v" to="271v">271v</locus>, <locus from="279r" to="279r">279r</locus>, <locus from="305v" to="305v">305v</locus>, <locus from="381r" to="381r">381r</locus></decoNote>
+                     <decoNote type="frieze" subtype="tail-piece">Knotwork and gilded knotwork: <locus from="73v" to="73v">73v</locus>, <locus from="139v" to="139v">139v</locus>, <locus from="147v" to="147v">147v</locus>, <locus from="314r" to="314r">314r</locus>, <locus from="329r" to="329r">329r</locus></decoNote>
+                     <decoNote type="paratext" subtype="title-page">Decorated title page: <locus from="1r" to="1r"/></decoNote>
+                     <decoNote type="paratext">Decorated and coloured rubrics: <locus from="40r" to="40r">40r</locus>, <locus from="74r" to="74r">74r</locus>, <locus from="133r" to="133r">133r</locus>, <locus from="140r" to="140r">140r</locus>, <locus from="148r" to="148r">148r</locus>, <locus from="178r" to="178r">178r</locus>, <locus from="189v" to="189v">189v</locus>, <locus from="234r" to="234r">234r</locus>, <locus from="253v" to="253v">253v</locus>, <locus from="259r" to="259r">259r</locus>, <locus from="272r" to="272r">272r</locus>, <locus from="279v" to="279v">279v</locus>, <locus from="306r" to="306r">306r</locus>, <locus from="314v" to="314v">314v</locus>, <locus from="329v" to="329v">329v</locus>, <locus from="348r" to="348r">348r</locus>, <locus from="363r" to="363r">363r</locus></decoNote>
+                     <decoNote type="initial">Coloured initials and ornamental letters in the text (also at beginning and ending of chapters): <locus from="40r" to="40r">40r</locus>, <locus from="61v" to="61v">61v</locus>, <locus from="62r" to="62r">62r</locus>, <locus from="73v" to="73v">73v</locus>, <locus from="74r" to="74r">74r</locus>, <locus from="104v" to="104v">104v</locus>, <locus from="105r" to="105r">105r</locus>, <locus from="110r" to="110r">110r</locus>, <locus from="133r" to="133r">133r</locus>, <locus from="139v" to="139v">139v</locus>, <locus from="140r" to="140r">140r</locus>, <locus from="147v" to="147v">147v</locus>, <locus from="148r" to="148r">148r</locus>, <locus from="177v" to="177v">177v</locus>, <locus from="178r" to="178r">178r</locus>, <locus from="189v" to="189v">189v</locus>, <locus from="190r" to="190r">190r</locus>, <locus from="234r" to="234r">234r</locus>, <locus from="253r" to="253r">253r</locus>, <locus from="253v" to="253v">253v</locus>, <locus from="254r" to="254r">254r</locus>, <locus from="258v" to="258v">258v</locus>, <locus from="259r" to="259r">259r</locus>, <locus from="271v" to="271v">271v</locus>, <locus from="272r" to="272r">272r</locus>, <locus from="279r" to="279r">279r</locus>, <locus from="279v" to="279v">279v</locus>, <locus from="280r" to="280r">280r</locus>, <locus from="306r" to="306r">306r</locus>, <locus from="314v" to="314v">314v</locus>, <locus from="315r" to="315r">315r</locus>, <locus from="329v" to="329v">329v</locus>, <locus from="330r" to="330r">330r</locus>, <locus from="348r" to="348r">348r</locus>, <locus from="362v" to="362v">362v</locus>, <locus from="363r" to="363r">363r</locus></decoNote>
+                     <decoNote type="border">Colours in the manuscript: red, green, blue and brown.</decoNote>
+						</decoDesc>
+                  <additions ana="low">
+                     <p>There are almost no marginalia, only a couple of scribal corrections. The margin area is obscured at some places because of the conservation.</p>
+                     <p>Back flyleaf (<locus from="0001v-RFl" to="0001v-RFl">1v</locus> and <locus from="0002v-RFl" to="0002v-RFl">2v</locus>) contain a bookkeeping list from first part of the 19th century.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">-&gt;
+                        <p>Pressed leather binding with wooden boards, printed; clasps but a hook is missing.</p>
+                        <!-- scribbles on one side of one of the strips? -->
+							   <p>Two strips of the manuscript kept with the manuscript; scribbling on the verso side of the strips</p>
+                     </binding>
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate when="1670"/>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:14.191+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:21.312+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:40.939+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:18:16.411+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2012-10-22" who="#SMM">Adapted xml encoding to FASNL requirements. Translation and pictures from handrit.is yet to be checked.</change>
+         <change when="2012-11-07" who="#SMM">Black and white from the Arnamagnaean collection in Copenhagen checked for layout dimensions and more.</change>
+         <change when="2013-04-12" who="BES">Added missing information from TL's files.</change>
+         <change when="2013-08-29" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

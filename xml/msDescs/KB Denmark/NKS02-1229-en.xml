@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1229 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1229-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1229 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><note>A separate titlepage for each item.</note>
+                  <titlePart><locus from="1r" to="1r">1r</locus>: Variantes Lectiones In Historiam Sturlaugs Stafsama cum Impressa Sveciæ, et eodicibus chart. N. 336, <ex>et</ex> 337, A. Magn. Bibliothec. Collatæ T. Olavius</titlePart>
+                  <titlePart><locus from="6r" to="6r">6r</locus>" Rymur af Hervöru hvoriar ordte Asmundur heitinn Sæmundssonu. Skrevet efter Cod. Chart. N. 612, Lit. B. Biblioth. A. Magnæi af T. Olavius.</titlePart></titlePage> 
+                  <msItem n="1" class="fas handfr">
+                     <locus from="1r" to="5v"/>
+                     <title type="uniform" ref="#sss">Sturlaugs saga starfsama [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-336-en" ana="antigraph">AM 336 4to</ref>
+                        <ref type="ms" target="#AM04-337-en" ana="antigraph">AM 337 4to</ref>
+                        <ref type="book" target="#GudOla1694" ana="antigraph">Guðmundur Ólafssson's edition</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="6r" to="100v"/>
+                     <title type="uniform">Rímur af Hervöru Angantýsdóttur</title>
+                     <textLang mainLang="is" otherLangs="da"/>
+                     <!-- actually a copy of AM 614 b 4to? cf. Rímnatal I:223 -->
+                     <filiation>
+                       <p>Copy of <ref type="ms" target="#AM04-0612b-en" ana="antigraph">AM 612 b 4to</ref></p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>      
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="100"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="310"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort</watermark>
+                        </support>
+                        <foliation ana="pag contemporary"><p>Items individually paginated</p></foliation> 
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="23 28"> 
+                           <num type="wpl" atLeast="3" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="255"/>
+                              <width unit="mm" quantity="133"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>        
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="#TeiOla001" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">initials on titlepages</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p><name key="PetSuh001" type="person" role="owner">Suhm</name>'s hand on the title page</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Cardboard binding with leather spine and corners.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="owner"/>
+                     <note>Formerly Suhm's collection no 448 fol.</note>
+                  </provenance> 
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:34.804+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-30" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-05-14" who="#BES">Added missing information with manucsript in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

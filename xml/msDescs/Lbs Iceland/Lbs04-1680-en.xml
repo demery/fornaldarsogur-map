@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1680 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1680-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1680 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                    <titlePart>Forn søgur gamlar <gap/> Ritadar Mióabooli Anno MDCCLXXXIX</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="16v"/>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Hjälmtýr oc Ølver</rubric>
+                     <note>younger vers.</note>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="17r" to="22v"/>
+                     <title type="uniform">Ajax saga frækna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Aiax Frækna</rubric>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="22v" to="55v"/>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagann af Wilhialmi Siöd</rubric>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="56r" to="78v"/>
+                     <title type="uniform">Rémundar saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Remund Keisara Syne þeim Fræga</rubric>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="79r" to="88v"/>
+                     <title type="uniform">Jasonar saga bjarta</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Iasoni Biarta</rubric>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="89r" to="95v"/>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Floris og Somum Han<ex>n</ex>s</rubric>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="96r" to="111v"/>
+                     <title type="uniform">Dínus saga drambláta</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Dinus Dramblaata oc Phijlotemja</rubric>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="112r" to="205v"/>
+                     <title type="uniform">Mágus saga jarls</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Mäus Ialli</rubric>
+                  </msItem>
+                    <msItem n="9" class="fas">
+                     <locus from="206r" to="226r"/>
+                       <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                       <textLang mainLang="non"/>
+                       <rubric>Sagan<ex>n</ex> af Þorsteini Vijkings Syni</rubric>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="226v" to="229v"/>
+                     <title type="uniform">Karlamagnús saga <note>[Excerpt]</note></title>
+                     <title type="parallel">Geiplu þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Geiplum</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="229"/>
+                           <!--<num type="back-flyleaf" value=""></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                          <!-- <watermark ana=""/>-->
+                        </support>
+                        <foliation ana="later pag"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="26 32">
+                           <num type="wpl" atLeast="7" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="188"/>
+                              <width unit="mm" quantity="142"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>  
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown">á Mjóabóli</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">Rubrics are decorated</decoNote>
+                  </decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown"> <!-- moderate? -->
+                     <p>Leather cover with clasps</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1789"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance><p>
+                     Bought in 1940 from <name type="person" role="owner" key="ThoTho037">Þorsteinn Þorsteinson</name> at Arnbjargarlækur</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:01.974+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-05-24" who="#SMM">Added items and classes with titles and other information from the PEO catalogue</change>
+         <change when="2012-11-27" who="#SMM">Added some information from black and white picture from the Arnamagnaean collection in Copenhagen.</change>
+         <!-- watermark missing, binding to be checked. -->
+         <change when="2013-08-30" who="#BES">Added missing items and loci according to PEÓ. Checked for Proofreading.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

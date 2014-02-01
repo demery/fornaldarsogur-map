@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Säfstaholmssamlingen I Papp. 13</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Safstaholmssamlingen-I-Papp-13" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#RAS">Riksarkivet, Stockholm</repository>
+                  <idno>Säfstaholmssamlingen I Papp. 13</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="121v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="sv"/>
+                     <note>Swedish transl.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="123r" to="272v"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="sv"/>
+                     <!-- this note, as well as those of subsequent items, seems to have been cropped somehow -->
+                     <note>Swedish transl. by Biörner, copy of KVHAA (H.</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="274r" to="349v"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="sv"/>
+                     <note>Swedish transl., copy of Papp. 4to nr 51 whic</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="353r" to="369r"/>
+                     <title type="uniform" ref="#ask">Ásmundar saga kappabana</title>
+                     <textLang mainLang="sv"/>
+                     <note>Ásmundar saga kappabana</note>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="370r" to="419r"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <!-- add <author> with @role="translator"? No info readily available on G. Dahlstedt -->
+                     <rubric>Samson Fagras Saga Af den Gambla Giöthiskan In på wårt nu wahnlige språk Verterat af Georg Dahlstedt
+                        Anno 1702</rubric>
+                     <textLang mainLang="sv"/>
+                     <note>Short version</note>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="422r" to="497r"/>
+                     <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="501r" to="514r"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <!--                     <textLang mainLang=""/>-->
+                     <rubric>Ett Uttog af Samson then Fagres Saga Och thes andra del, Om Nordurlanda Skipan Eller Norrlands
+                        Delning</rubric>
+                     <note>Short version</note>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="514v" to="532v"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="9" class="unknown">
+                     <locus from="533r" to="537v"/>
+                     <title type="supplied">Sigurðar saga</title>
+                     <rubric>Uttog af Sigurs Saga</rubric>
+                     <rubric>Om en Siödrabning wid en Ö uti Jättalandet</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="538"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="205"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag contemporary">Only the last three items, which form an independent block, have
+                           pagination 1-77, though towards the end much of it has been trimmed off. Items 7, 8 and 9 are not bound
+                           in to the codex. The seem to have simply been placed between the final leaf (f.500) of the codex and
+                           the back cover; thus it may be more correct to consider the book block as consisting of 500
+                           leaves.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="15 21">
+                           <num type="wpl" atLeast="5" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Item 1</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Items 2-5</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Item 6</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Items 7-9</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium">
+                     <p>A family tree diagram appears on f. 122v.</p>
+                     <p>A family tree diagram appears on f. 273r.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound in white parchment, somewhat stained. On the spine there is written in ink <q>M. S.
+                              S. Gange Hrolfs. Hrolf Krakes Halfdan Östenssons Asmund Kappabans Samson Fragras Hialmters oc Olvers
+                              Sagor.</q>. On two white labels below are printed: <q>S4</q> and <q>F.13</q> and <q>F.23</q>. The
+                           fore-edge of the book block is speckled brown and red.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <!-- Sweden? -->
+                     <!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="GusBon001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:17.637+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-09" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

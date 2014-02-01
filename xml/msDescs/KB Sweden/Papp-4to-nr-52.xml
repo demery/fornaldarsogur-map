@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 52</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-52" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 52</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="28v"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <rubric>Sagann af Fridþiöfs Frækna Þorsteins sÿne</rubric>
+                     <incipit>Sua byriar þessa sógu at Beli Köngur styrdi...</incipit>
+                     <explicit>ok enda hier nú sóguna af Fridþiöf frækna. Endir.</explicit>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <note>Icelandic text with Swedish transl.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="29"/>
+                           <num type="back-flyleaf" value="10"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="163"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag later">Starting with '1' on 2r.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="2" writtenLines="26 30">
+                           <num type="wpl" atLeast="3" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JacRee001" scope="sole" script="kurrent">Jakob Reenhielm (signature on f. 1r)</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <!-- extent/type of additions unknown? 
+                  <additions ana="yes"> </additions> -->
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbelled paper on cardboard. The spine and the corners are in white leather. On the spine, the
+                           shelfmark is imprinted with golden letters. <q>COD. ISL. PAPP. 4:o N:o 52 </q>. The
+                           flyleaves contain a variety of material which has been bound up. Front flyleaves i and ii are blank.
+                           iii is an older cover with labels attached to it marking the Kungliga Bibliotek's shelfmarks (F.K.7 and
+                           Papp. 4o nr. 52). On the reverse is a note which explains how the Kungliga Bibiotek came into
+                           possession of the manuscript: <q>1741 in Mart är denna Sagan kiöpt för Kgl. R. Ant. Archivum på
+                              Bokauctionen i Upsala efter framl. Arch. O. Rudbeck: kostar I d. 18 .</q> iv has various notes. The
+                           back flyleaves i-iv contain notes on religious matters, including copies of biblical verses. vi is a
+                           folded parchment leaf in folio which comes from an antiphonary and contains musical notation.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1700"/>
+                     <!-- Sweden? -->
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JacRee001"/>
+                     <name type="person" role="owner" key="OloRud001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:56.029+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-04" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

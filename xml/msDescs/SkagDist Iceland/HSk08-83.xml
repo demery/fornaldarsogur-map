@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>HSk 83 8vo</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="HSk08-83-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#HSSSF">Héraðsskjalasafn Skagfirðinga, Akureyri</repository>
+                        <idno>HSk 83 8vo</idno>
+                    </msIdentifier>
+
+                    <history>
+                        <origin>
+                            <origDate notBefore="1891" notAfter="1917"/>
+                            <origPlace key="IS">Iceland</origPlace>
+                        </origin>
+                        <provenance>
+                            <name type="person" role="owner" key="SimEir001">Símon Eiríksson í Litladal</name>
+                            <name type="person" role="owner" key="SteJon002">Stefán á Höskuldsstöðum (donated the manuscript to the
+                                archives ca. 1980)</name>
+                        </provenance>
+                    </history>
+
+                    <msPart>
+                        <altIdentifier>
+                            <idno>HSk 83 8vo I</idno>
+                        </altIdentifier>
+                        
+                        <msContents>
+                            <titlePage ana="no"/>
+                            
+                            <msItem n="1" class="fas">
+                                <locus from="1r:1" to="17v:20"/>
+                                <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                                <textLang mainLang="non"/>
+                                <rubric>Saga. Ketils Hængs.</rubric>
+                                <incipit>Hallbjörn hét madur. hann var kalladur Hálftröll. han<ex>n</ex> var son Úlfs hins óarga.</incipit>
+                                <explicit>en<ex>n</ex> Grimur Lodinkinni eptir han<ex>n</ex>; Örvar-Oddur var sonur Gríms</explicit>
+                                <finalRubric>og likur hér þessari sögu.</finalRubric>
+                            </msItem>
+                            <msItem n="2" class="fas">
+                                <locus from="18r:1" to="26v:22"/>
+                                <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                                <textLang mainLang="non"/>
+                                <rubric>Saga. Grims Lodin<ex>n</ex>kn<ex>n</ex>a</rubric>
+                                <incipit>Svo er sagt af Grimi Lodinnkin<ex>n</ex>a; ad han<ex>n</ex> var bædi mikill
+                                    og sterkur og hin<ex>n</ex> mesti garpur</incipit>
+                                <explicit>og bjó þó mjög einn um sitt; han<ex>n</ex> vard ellidaudur madur</explicit>
+                                <finalRubric>og lykur hér sögu Grims Lodinkin<ex>n</ex>a; en<ex>n</ex> her hefir upp Ørvar=Odds sögu, og er mikil saga.</finalRubric>
+                            </msItem>
+                            <msItem n="3" class="islst">
+                                <locus from="27r:1" to="42v:12"/>
+                                <title type="uniform">Holta-Þóris saga</title>
+                                <textLang mainLang="is"/>
+                                <rubric>Hier hefst sagan af Holta Þórer mikla. Þorgyrs sonar. Horska.</rubric>
+                                <incipit>Bardur hjet madur. kalladur blonckihorn</incipit>
+                                <explicit>Gekk hann fast ad Eptirmálum Brenu-Njáls födur sins og hefndum med
+                                    Kára Solmundarsyni.</explicit>
+                                <colophon>Párud veturinn 1917 S Eiriksson.</colophon>
+                            </msItem>
+                            <msItem n="4" class="riddf">
+                                <locus from="43r:1" to="60v:41"/>
+                                <title type="uniform">Nitida saga</title>
+                                <textLang mainLang="is"/>
+                                <rubric>Sagann af Titusi karlssini og Nitida Frægu Frakklandsdrottningu</rubric>
+                                <colophon>Párad af Simoni Eirikssonar Litladal Arid 1911</colophon>
+                                <incipit>Þad er upphaf þessarar sogu, ad i fornöld bjó gamall madur med konu sinni i einum skóg</incipit>
+                                <explicit>Hlödver fekk til konu dóttur konsyni í Aausturiki</explicit>
+                                <finalRubric>og endar svo þessi saga af Nitidá hinni frægu Frakka drottningu.</finalRubric>
+                            </msItem>
+                            <msItem n="5" class="kvad">
+                                <locus from="61r:1" to="61r:26"/>
+                                <title type="supplied">A poem by Snorri Bjarnarson á Húsafelli</title>
+                                <textLang mainLang="is"/>
+                                <rubric>Ort af sér Snorra Bjarnarsyni á Husafelli</rubric>
+                                <incipit>Skidvakur hestur mitt indi er æ</incipit>
+                            </msItem>
+
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="chart">								
+                                    <support>
+                                        <num type="book-block" value="61"/>
+                                        <dimensions type="leaf">
+                                            <height unit="mm" quantity="169"/>
+                                            <width unit="mm" quantity="107"/>
+                                        </dimensions>
+                                        <watermark ana="no"/>
+                                    </support>
+                                    <foliation ana="pag contemporary">Irreguarly paginated</foliation>
+                                    <condition ana="good"/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ana="verse-prose" columns="1" writtenLines="20">
+                                        <num type="wpl" atLeast="7" atMost="8"/>
+                                        
+                                        <dimensions type="written">
+                                            <height unit="mm" quantity="158"/>
+                                            <width unit="mm" quantity="100"/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                                
+                            </objectDesc>
+                            
+                            <handDesc hands="1">
+                                <handNote scribeRef="#SimEir001" scope="sole" script="hum cursiva"/>
+                            </handDesc>
+                            
+                            <decoDesc ana="no"><decoNote/></decoDesc>
+                            
+                            <additions ana="no"/>
+                            
+                            <bindingDesc>
+                                <binding ana="plain" contemporary="true">
+                                    <p>Paper binding.</p>
+                                </binding>							
+                            </bindingDesc>
+                            
+                        </physDesc>
+                    </msPart>
+
+                    <msPart>
+                        <altIdentifier>
+                            <idno>HSk 83 8vo II</idno>
+                        </altIdentifier>
+                        
+                        <msContents>
+                            <titlePage ana="no"/>
+                            
+                            <msItem n="1" class="kvad laus">
+                                <locus from="62r:1" to="79r:23"/>
+                                <title type="supplied">Various short poems</title>
+                                <textLang mainLang="is"/>
+                                <rubric>Smá  Kvædi 1891</rubric>
+                                <note>Named authors:
+                                    Bólu-Hjálmar,
+                                    Guðrún Þórðardóttir,
+                                    Kristján Jónsson Fjallaskáld</note>
+                            </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="chart">								
+                                    <support>
+                                        <num type="book-block" value="18"/>
+                                        <dimensions type="leaf">
+                                            <height unit="mm" quantity="170"/>
+                                            <width unit="mm" quantity="104"/>
+                                        </dimensions>
+                                        <watermark ana="no"/>
+                                    </support>
+                                    <foliation ana="no"/>
+                                    <condition ana="good"/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="23">
+                                        <num type="wpl" atLeast="6" atMost="9"/>
+                                        
+                                        <dimensions type="written">
+                                            <height unit="mm" quantity="162"/>
+                                            <width unit="mm" quantity="98"/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                                
+                            </objectDesc>
+                            
+                            <handDesc hands="1">
+                                <handNote scribeRef="#SimEir001" scope="sole" script="hum cursiva"/>
+                            </handDesc>
+                            
+                            <decoDesc ana="no"><decoNote/></decoDesc>
+                            
+                            <additions ana="no"/>
+                            
+                            <bindingDesc>
+                                <binding ana="plain" contemporary="true">
+                                    <p>Paper binding.</p>
+                                </binding>							
+                            </bindingDesc>
+                            
+                        </physDesc>
+                    </msPart>
+
+                    <msPart>
+                        <altIdentifier>
+                            <idno>HSk 83 8vo III</idno>
+                        </altIdentifier>
+                        
+                        <msContents>
+                            <titlePage ana="no"/>
+
+                            <msItem n="1" class="">
+                                <locus from="80r:1" to="86r:20"/>
+                                <title type="supplied">Sagan af Sigríði Noregssól</title>
+                                <textLang mainLang="is"/>
+                                <rubric>Sagan af Sigridi Noregs sól</rubric>
+                                <colophon>1913</colophon>
+                                <incipit>J fornöld bjó i Norvegi stórrikur bóndi</incipit>
+                                <explicit>og þóttist han<ex>n</ex> stjórnsamur og góðsamur kóngur</explicit>
+                                <finalRubric>og likur svo þessari sögu</finalRubric>
+                            </msItem>
+                            <msItem n="2" class="">
+                                <locus from="86v:1" to="91r:31"/>
+                                <title type="supplied">Lítil smásaga af Jóhannesi kóngssyni</title>
+                                <textLang mainLang="is"/>
+                                <rubric>Litil smásaga af Jóhannes kóngssyni.</rubric>
+                                <incipit>Þad er upphaf sögu ad firir Einlandi rédi sá kóngur er Hergyr hét.</incipit>
+                                <explicit>Vóru margir Einlands kóngar komnir frá þeim.</explicit>
+                                <finalRubric>Likur svo þessari sögu af Jóhanesi og Marju.</finalRubric>
+                            </msItem>
+                            <msItem n="3" class="">
+                                <locus from="91v:1" to="95r:21"/>
+                                <title type="supplied">Lítil munnmælasaga af Jakob</title>
+                                <textLang mainLang="is"/>
+                                <rubric>Litil munmæla saga af Jakob</rubric>
+                                <colophon>ritud 1913</colophon>
+                                <incipit>Þad er Upphaf sögu þessar ad i Skotlandi i fornöld bjó rikur bóndi</incipit>
+                                <explicit>og urdu þau hjón gömul og þóttu merk i sin<ex>n</ex>i stödu.</explicit>
+                                <finalRubric>og ljúkum svo þessari sögu</finalRubric>
+                            </msItem>
+                            <msItem n="4" class="">
+                                <locus from="95r:22" to="96v:26"/>
+                                <title type="supplied">Smásaga af tveimur skólapiltum</title>
+                                <textLang mainLang="is"/>
+                                <rubric>hier hefst Litil Smá saga af Tuemur Skólapiltum</rubric>
+                                <incipit>J fornöld fóru tver skólapiltar hem úr skóla</incipit>
+                                <explicit>Enn ekki var þad á Jslandi</explicit>
+                            </msItem>
+                            <msItem n="5" class="islst">
+                                <locus from="97r:1" to="101r:29"/>
+                                <title type="uniform">Illuga saga Tagldarbana <note>(Excerpts)</note></title>
+                                <textLang mainLang="is"/>
+                                <rubric>Nokkur ord úr sögu af Jlluga Talgdarbana.</rubric>
+                                <incipit>J fornöld var á vesturlandi mig mig minir í Snæfelsíslu</incipit>
+                                <explicit>og féll fyrir Jndrida ilbreda á Járnbardanum i Svoldur=orustunni.</explicit>
+                            </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="chart">								
+                                    <support>
+                                        <num type="book-block" value="22"/>
+                                        <dimensions type="leaf">
+                                            <height unit="mm" quantity="171"/>
+                                            <width unit="mm" quantity="105"/>
+                                        </dimensions>
+                                        <watermark ana="no"/>
+                                    </support>
+                                    <foliation ana="pag contemporary">Paginated 1 - 45</foliation>
+                                    <condition ana="good"/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="31">
+                                        <num type="wpl" atLeast="9" atMost="11"/>
+                                        
+                                        <dimensions type="written">
+                                            <height unit="mm" quantity="168"/>
+                                            <width unit="mm" quantity="99"/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                                
+                            </objectDesc>
+                            
+                            <handDesc hands="1">
+                                <handNote scribeRef="#SimEir001" scope="sole" script="hum cursiva"/>
+                            </handDesc>
+                            
+                            <decoDesc ana="no"><decoNote/></decoDesc>
+                            
+                            <additions ana="no"/>
+
+                            <bindingDesc>
+                                <binding ana="plain" contemporary="true">
+                                    <p>Paper binding.</p>
+                                </binding>							
+                            </bindingDesc>
+                            
+                        </physDesc>
+                    </msPart>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-09-09" who="#OHA">File created; catalogued from manuscript.</change>
+            <change when="2013-09-12" who="#SMM">Created and added scribeRef and owner keys. Proofread.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

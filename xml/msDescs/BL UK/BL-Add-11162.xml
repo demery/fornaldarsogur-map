@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>BL Add. 11162</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Den Arnamagnæanske Samling</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="BL-Add-11162">
+                    <msIdentifier>
+                        <!--<country>United Kingdom</country>
+                        <settlement>London</settlement>-->
+                        <repository ref="#BL">British Library, London</repository>
+                        <idno>BL Add. 11162</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="kon">
+                            <locus from="1r:1" to="47v:10">1r-47v</locus>
+                            <title type="uniform">Ynglinga saga</title>
+                        </msItem>
+                        <msItem n="2" class="lists">
+                            <locus from="48r:1" to="50v:14">48r-50v</locus>
+                            <title type="supplied">List of Old Norse texts concerning Iceland.</title>
+                        </msItem>
+                        <msItem n="3" class="fas">
+                            <locus from="51r:1" to="74v:13">51r-74v</locus>
+                            <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                            <colophon>
+                                <locus>74v</locus>Og Endum<ex>m</ex> vi<ex>e</ex>r So þessa sogu Af Könge Hroolfi Sturlaugs Syne
+                                in Decemb<ex>e</ex>r Anno. 1759.</colophon>
+                        </msItem>
+                        <msItem n="4" class="fas">
+                            <locus from="75r:1" to="113r:12">75r-113r</locus>
+                            <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                        </msItem>
+                        <msItem n="5" class="fas">
+                            <locus from="115r:1" to="144v:16">115r-144v</locus>
+                            <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                            <textLang mainLang="is">Icelandic</textLang>
+                            <rubric>Saga Af Hroolfe Hellga Sÿne Ad Vidur Nefne K R A K A !! I. Capi.</rubric>
+                            <incipit>Madur hiet Halfd an en<ex>n</ex> an<ex>n</ex>ar Fröde brædúr tveÿr ƻ könga sÿn<ex>er</ex> og
+                                stÿrde sÿ nu Rÿke hvuer þ<ex>eir</ex>ra.</incipit>
+                            <explicit>Og endum<ex>m</ex> Vier so Hrölfs Köngs Kraka Sogú og Kappa Hans allra sem Byriud Var
+                                    þa<ex>n</ex>n 10da Martÿ Ao 1760: En<ex>n</ex> endúd þan<ex>n</ex> 20. Novembr Sama är i
+                                Wopnaf. af JSigurds sÿne. Anno 1654. Þann 31.Jaunarii.</explicit>
+                            <filiation>Primary manuscipt.</filiation>
+                            <note>Divided into 30 chapters by the scribe.</note>
+                        </msItem>
+                        <msItem n="6" class="fas">
+                            <locus from="145r:1" to="151r:22">145r-151r</locus>
+                            <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                        </msItem>
+                        <msItem n="7" class="isl">
+                            <locus from="152r:1" to="217v:21">152r-217v</locus>
+                            <title type="uniform">Egils saga Skallagrímssonar</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="1"/>
+                                    <num type="book-block" value="217"/>
+                                    <num type="back-flyleaf" value="0"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="200"/>
+                                        <width unit="mm" quantity="160"/>
+                                    </dimensions>
+                                    <watermark ana="yes">Unidentifiable</watermark>
+                                </support>
+                                <foliation ana="fol later">In pencil.</foliation>
+                                <condition ana="good">The paper has been strengthened by repairs.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-separate" columns="1" writtenLines="31 36">
+                                    <num type="wpl" atLeast="11" atMost="19"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" atLeast="185" atMost="195"/>
+                                        <width unit="mm" atLeast="140" atMost="150"/>
+                                    </dimensions>
+                                    <catchwords ana="yes"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scribeRef="#HanWiu001" scope="minor" script="hum cursiva">
+                                <p>The first item is the youngest part of the codex and it was written by <name type="person">Hans
+                                        Evertsson Wium</name> (1776-?), who was a teacher in Copenhagen and copied manuscripts for
+                                    individuals, for example Finn Magnussen.</p>
+                            </handNote>
+                            <handNote scribeRef="#JakSig001" scope="major" script="kurrent">Items 2, 3 and 4 were written by <name type="person">Jakob Sigurdsson</name>, a poet from <name type="place">Hof in
+                                    Vopnafjörður</name>
+                            </handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="hybrida">The fifth item is in two hands of the
+                                late eighteenth century.</handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="hybrida">The fifth item is in two hands of the
+                                late eighteenth century.</handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="hum cursiva">Fols. <locus>152r-155v</locus> of
+                                item six are added in a different hand than the remaining part of the text. The hand is younger
+                                and the paper has remained more clean.</handNote>
+                            <!-- eighteenth century hand??; otherwise <origDate> range needs to be expanded; cf. below -->
+                            <handNote scribeRef="unknown" scope="minor" script="hybrida">The sixth item is mainly in a seventeenth
+                                century hand.</handNote>
+                        </handDesc>
+                        <decoDesc ana="low">
+                            <decoNote type="initial">Very large ornamental initials in most texts of the older part of the
+                                manuscript, <locus>75r</locus>, <locus>51r</locus>, <locus>115r</locus>. Modest or no initials in
+                                the remaining texts.</decoNote>
+                            <decoNote type="paratext">Ornamental ending in the shape of horizontal curly grid on
+                                    <locus>74v</locus>; V-shaped ending of text otherwise.</decoNote>
+                            <decoNote type="paratext">Ornamental curly ending on <locus>113r</locus>.</decoNote>
+                            <decoNote type="paratext">Ornamental horizontal curly grid ending on <locus>151r</locus>.</decoNote>
+                        </decoDesc>
+                        <additions ana="high">
+                            <p> Marginalia consist of scribal corrections, user signatures, writing exercises and scribbles. The
+                                latter category is in empty spaces at ends of texts. The first item contains a foreword describing
+                                the antigraph and a list of Old Icelandic texts related to Iceland in item 2. There are also
+                                several NB marks in the margin. This is a clear indicaiton of a scholarly interest. The remaining,
+                                older parts of the text, nevertheless, contain no marginalia indicating a scholarly interest.<list>
+                                    <item>
+                                        <locus>fly-leaf front</locus>, Purch<ex>ase</ex>.d of Prof. Finn Magnusen July 1837</item>
+                                    <item>
+                                        <locus>1v</locus>, Inritud eptir gamallri pappírs skruddu, sem ritad hefir (her um bil
+                                        1760) frændi Konferenz ráds Jóns Eiríks sonar at heiti Sigurdr, auk nefndr land þíngs
+                                        skrifare, búanda á ættar ódali mínu Knapp<supplied reason="damage">a</supplied> völlum í
+                                        Skapta fells sýslu út á Ís landi.</item>
+                                    <item>
+                                        <locus>10v</locus>, NB at several places in item 1.</item>
+                                    <item>
+                                        <locus>48r</locus>, <q>Hisdorier som angaae Island ere:</q> A list of Old Icelandic texts
+                                        related to Iceland</item>
+                                    <item>
+                                        <locus>74r</locus>: Writing practices copying dates and letters from the colophon: 1759,
+                                        1759, A, J, S</item>
+                                    <item>
+                                        <locus>75r</locus>: Correction, missing word heited</item>
+                                    <item>
+                                        <locus>77r</locus>: Unreadable correction and addition in pencil.</item>
+                                    <item>
+                                        <locus>113r</locus>: Syg Arna syne</item>
+                                    <item>
+                                        <locus>113r</locus>: Joseph Skaptason Eignar sier þes<ex>s</ex>a bok.</item>
+                                    <item>
+                                        <locus>113r</locus>: .. Byrdugum ..</item>
+                                    <item>
+                                        <locus>113r</locus>: Jospeh Skaptason Hephur Eigna s Ns</item>
+                                    <item>
+                                        <locus>133v</locus>: alt til enda</item>
+                                    <item>
+                                        <locus>114r</locus>: Skyalldar Syster Hryns Var Hrund Hen<ex>n</ex>ar</item>
+                                    <item>
+                                        <locus>114r</locus>: J Sigurs syn</item>
+                                    <item>
+                                        <locus>114r</locus>: MArnason</item>
+                                    <item>
+                                        <locus>114r</locus>: BSigurds son</item>
+                                    <item>
+                                        <locus>114r</locus>: P P Palls son</item>
+                                    <item>
+                                        <locus>114r</locus>: Paulls son</item>
+                                    <item>
+                                        <locus>114r</locus>: Þessa bók hefur Metusalem lesed</item>
+                                    <item>
+                                        <locus>114v</locus>: <q>... Vellærdum ... Sira Arna Þorsteinssyne af Kyrkjubæ.</q>;
+                                        Dedication</item>
+                                    <item>
+                                        <locus>114v</locus>: ISigrussone</item>
+                                    <item>
+                                        <locus>137r</locus>: Two vertical lines in the margin marking the place in the text where
+                                        queen Olof ends the conversation with king Adils, her husband, and goes to meet king
+                                        Hrolf, her son.</item>
+                                    <item>
+                                        <locus>144r</locus>: Unreadable marginalia vertical across the whole margin.</item>
+                                    <item>
+                                        <locus>144v</locus>: 60 JSyg; wrting exrcises copying words from the linea abor</item>
+                                    <item>
+                                        <locus>144v</locus>: Þesse Saga endúd er Af Hónúm<ex>m</ex> Hrölfe Kraka, ünder Dagan
+                                            Ödum<ex>m</ex> ber, Ecki er þetta Vaka. Helldúr laangtúm<ex>m</ex> Leingre
+                                            En<ex>n</ex> maa /(smaa?). Lidid Verka þreyta, furdú Raangt er fÿr<ex>er</ex> þaa,
+                                        föllkenú Eÿga ad Veÿta So er ordin<ex>n</ex> Sveittur mieg. Sógún<ex>n</ex>ar hverfúr þúla
+                                        Þesa skrifad (hripad?) þvÿ hef eg, Þriätÿú Capitula. JSigurdson</item>
+                                    <item>
+                                        <locus>144v</locus>: Þesar visur hefur her, herlegur á þ undargum gert nunana O
+                                        A(?)graver, vist h<ex>an</ex>n Jakob Sigurdsson</item>
+                                    <item>
+                                        <locus>144v</locus>: Arne Thorsteins son</item>
+                                    <item>
+                                        <locus>151r</locus>: Bronu föstra endud er, artug virta saga, liliur gulls nü laune mier,
+                                            leida<ex>n</ex>n augna baga # hinde<ex>n</ex>n linda hreppi rö, hier og i
+                                            odru<ex>m</ex>m heime, indes mindar føgur frö, frÿd ifer hana streimi# </item>
+                                    <item>
+                                        <locus>151v</locus>: Sr Arne Thorstsson.</item>
+                                </list>
+                            </p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="moderate" contemporary="false">
+                                <condition ana="good">Binding in good conditon</condition>
+                                <p>Recent binding with blue canvas lining and a white leather spine with black and gold
+                                    imprint.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1700" notAfter="1799"/>
+                            <origPlace key="IS"/>
+                            <origPlace key="DK"/>
+                            <note>The manuscript consists of four parts. Items 2-4 have belonged together and were
+                            written in 1760, according to the colophon. Items 5 and 6 were added later, while the manuscript was
+                            still in Iceland. They are written in 18th and 17th century hands, respectively. Item 1 in the hand of
+                                <name type="person" key="HanWiu001">H.E. Wium</name> (1776-?) was added last, probably in Denmark.
+                            It has the number 236 in the middle of the upper margin, which may indicate that the text belonged to
+                            a larger codex, or it may be some sort of accounting number of the scribe. Item 4 may have been
+                            written for <name type="person" key="ambig">Skapti Einarsson</name> of <name type="place">Hof</name>,
+                            because his son, <name type="person" key="ambig">Joseph Skaptason</name> has stated ownership of the book on
+                                <locus>113r</locus>.</note>
+                        </origin>
+                        <provenance>
+                            <p><name type="person" role="owner" key="FinMag001">Finnur Magnusson</name> sold it to the British
+                                Museum in 1837. </p>
+                            <p><name type="person" role="signatory" key="ambig">Arne Thorsteins son</name> on <locus>144v and
+                                    151v</locus>. </p>
+                            <p><name type="person" role="signatory" key="MetArn001"/>Metúsalem Árnason of Burstafell in Vopnafjörður
+                                on <locus>114r</locus>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>Tereza Lansing's original work.</change>
+            <change when="2013-04-16" who="#PTL">Adapted file to FAS project's format.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

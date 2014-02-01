@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 644 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0644-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 644 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="11r"/>
+                     <title type="uniform">Nítídu saga frægu</title>
+                     <rubric>Hér byrjast sagan af Sagan af Niteda frægu.</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="11r" to="33v"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <rubric>Hér byrjast sagan af Þjalar-Jóni Svipdagssyni og Eiríki
+                        víðförla</rubric>
+                     <colophon>Og lyktast hér sagan af Þjalar-Jóni Svipdagssyni Anno 1731. Dag 9.
+                        februarí</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="34r" to="71v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <rubric>Hér byrjar söguna af Hrólfi Gautrekssyni</rubric>
+                     <colophon>... og lýkur hér nú sögu Hrólfs Gautrekssonar. Seint og illa
+                        skrifuð.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="72r" to="103v"/>
+                     <title type="uniform">Dínusi saga drambláta saga</title>
+                     <rubric>Sagan af Dínusi drambláta</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="103r" to="125v"/>
+                     <title type="uniform">Blómsturvalla saga</title>
+                     <rubric>Hér byrjar Blómsturvalla sögu</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="126r" to="144v"/>
+                     <title type="uniform">Nikulás saga leikara</title>
+                     <rubric>Hér hefur upp söguna af Nikulási leikar.</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="forns">
+                     <locus from="145r" to="165v"/>
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <rubric>Hér byrjar söguna af Sigurgarði og Ingigerði</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="almb">
+                     <locus from="166r" to="173r"/>
+                     <title type="uniform">Bertrams saga greifa</title>
+                     <rubric>Historían af greifa Bethram af Roselien</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="konth">
+                     <locus from="173v" to="177v"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <title type="uniform">Hákonar saga norræna</title>
+                    <rubric>... historiu af Hákoni norska</rubric>
+                     <note>defective at the end</note>
+                     <explicit>Biður hann nú að Vigfús taki niður til grundvallar allt það sem hinn
+                        enski ...</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="177"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="173"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="22 30">
+                           <num type="wpl" atLeast="11" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="123"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Written mainly in one hand. Only three leaves are in a different hand in
+                        the 8th and 9th chapters of the Saga of Sigurgarður frækni</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Scribbles here and there by a reader in a few places</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Library binding, leather spine and corners</p>
+                      </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1710" notAfter="1750"/><p><locus from="33" to="33"/>Anno 1731. Dag 9. Februarij</p>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonGun005"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:46.699+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-09" who="#SK">Added information from the P.E.Ó.-catalogue and other
+         sources</change>
+         <change when="2011-11" who="#SK">Added information from the
+               manuscript itself</change>
+          </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

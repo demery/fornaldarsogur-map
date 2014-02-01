@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 157 h fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed by the University of Copenhagen under
+                  a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0157h-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 157 h fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" facs="#AM02-0157h-0001r" to="15v">1r-15v</locus>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="15v" facs="#AM02-0157h-0015v" to="16r">15v-16r</locus>
+                     <title type="uniform">Heiðarvíga saga</title>
+                     <textLang mainLang="non"/>
+                     <note> Part of the saga: Tryggðamál (Griðamál). </note>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="17r" facs="#AM02-0157h-0017r" to="23v">17r-23v</locus>
+                     <title type="uniform">Valla-Ljóts saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="23v" facs="#AM02-0157h-0023v" to="23v">23v</locus>
+                     <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="non"/>
+                     <note>Only first chapter and beginning of second. Crossed out.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="23"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="280"/>
+                              <width unit="mm" quantity="185"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"><ref>Illuga saga Gríðarfóstra</ref> has been crossed out; manuscript only contains
+                           chapter 1 and beginning of chapter 2 (see fol. <locus from="23v" facs="#AM02-0157h-0023v" to="23v"
+                              >23v</locus>). Because of folios being trimmed, the titles and marginalia are cut off (see for
+                           example fols. <locus from="11v" facs="#AM02-0157h-0011v" to="11v">11v</locus>, <locus from="17v"
+                              facs="#AM02-0157h-0017v" to="23v">17v-23v</locus>). </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="35">
+                           <num type="wpl" atLeast="10" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="244"/>
+                              <width unit="mm" quantity="143"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#PalSve001" scope="major" script="chancery">fol.<locus from="1r"
+                           facs="#AM02-0157h-0001r" to="16r">1r-16r</locus></handNote>
+                     <handNote scribeRef="#KolHan001" scope="minor" script="chancery">Folios <locus from="17r"
+                           facs="#AM02-0157h-0017r" to="23v">17r-23v</locus> are either by the hand of <name type="person"
+                           key="PalSve001">Páll Sveinsson</name> or <name type="person" key="#KolHan001">Kolbeinn Hannesson</name>
+                        (see <ref target="AM04-0435b" type="ms">AM 435 b 4to</ref>, folios 7v and 9r), chancery script.
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial" subtype="flourished"> Floral decorations on initials written in ink (see for example
+                           <locus from="1r" facs="#AM02-0157h-0001r" to="1v">1r-v</locus>, <locus from="15v"
+                           facs="#AM02-0157h-0015v" to="15v">15v</locus> and <locus from="17r" facs="#AM02-0157h-0017r" to="17r"
+                           >17r</locus>). </decoNote>
+                     <decoNote subtype="head-piece"> Head piece on fol. <locus from="1r" facs="#AM02-0157h-0001r" to="1r"
+                           >1r</locus>. </decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>Marginalia by <name key="ThoTor001" type="person">Þormóður Torfason</name> (see for example fols. <locus
+                           from="12r" facs="#AM02-0157h-0012r" to="12r">12r</locus> and <locus from="13r" facs="#AM02-0157h-0013r"
+                           to="13v">13v</locus>).</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Binding from 1976. Paper boards wrapped in linen cloth. Dust covers belong to this binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1700"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <!-- this needs some clarification -->
+                     <p>The manuscript was nr. XVI in <name key="ThoTor001" role="owner" type="person">Þormóður Torfason</name>'s
+                        collection. All sagas and more (see <ref target="AM02-0147" type="ms">AM 147 fol.</ref>) reached Þormóður
+                        in <date when="1685">1685</date> through a salesman in <name type="place">Eyrarbakki</name>, <name
+                           key="ambig" role="owner" type="person">Andrese Laridtssyne Beck</name>, from séra <name key="TorJon002"
+                           role="owner" type="person">Torfi Jónsson</name> í <name type="place">Gaulverjabæ</name>, except for the two first
+                        and the last which were given to him by <name key="ArnMag001" role="owner" type="person">Árni Magnússon</name>. Árni
+                        divided the book in <date when="1720">1720</date> (see <ref target="AM04-0453b" type="ms">AM 435 b
+                           4to</ref>, fols. 9r-10). </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:48.888+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:05.133+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:16.235+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data,
+            now removed.</change>
+         <change when="2011-05-07T18:50:14.477+02:00" who="#EAH">Extracted pagination and page dimension data from previous
+            version.</change>
+         <change when="2011-05-07T19:17:09.379+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-03-18" who="#SMM">Rectified some codes. Translated into English. Added some information from pictures
+            on handrit.is.</change>
+         <change when="2013-03-26" who="#SMM">Added layout dimensions after checking pictures from the Arnamagnaean Collection,
+            Copenhagen.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 210 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0210-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 210 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="riddst">
+                     <locus from="1r" to="15v"/>
+                     <title type="uniform">Kára saga Kárasonar</title>
+                     <colophon>Endað á Volaseli þann 19. Janúarí af J. Ketilson</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="16r" to="22v"/>
+                     <title type="uniform">Nikulás saga leikara</title>
+                     <colophon>Endað á Volaseli þann 18 Febrúarí 1841. af J. Ketilson</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="23r" to="28v"/>
+                     <title type="uniform">Ásmundar saga Sebbafóstra</title>
+                     <rubric>Söguþátturinn af Ásmundi Sebba fóstra</rubric>
+                     <colophon>Endað á Volaseli þann 26 Febr: 1841. af H Ketilson</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="29r" to="33r"/>
+                     <title type="uniform">Drauma Jóns saga</title>
+                     <colophon>Endað á Volaseli þann 22 December 1841. af H Ketilson</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="almb">
+                     <locus from="34r" to="48v"/>
+                     <title type="uniform">Flóres saga og Leós</title>
+                     <colophon>23./1. 1841</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="forns skalds">
+                     <locus from="49r" to="59v"/>
+                     <title type="supplied">Ármanns saga og Dalmanns(?)</title>
+                     <author>Halldór Jakobsson</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6.1" class="tjods">
+                     <locus from="59v" to="59v"/>
+                     <title type="supplied">Appendix</title>
+                     <colophon>Endað á Volaseli þann 14 Apríl 1841. af H Ketilson</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="60r" to="71v"/>
+                     <title type="uniform">Amúratis saga</title>
+                     <title type="parallel">Amoratis sagakonungs í Phrygia</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="8" class="ridd avint">
+                     <locus from="72r" to="80r"/>
+                     <title type="supplied">Sigurðar saga snarfara</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="fas" defective="true">
+                     <locus from="80r" to="80v"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <explicit defective="true">og veitið mér mína bæn en fyrr en ég gangi nauðug með nokkrum
+                        manni. skal ég</explicit>
+                     <note>The beginning only; ends in Chapter III.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="80"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="fol later">Only from time of restoration</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="27 39">
+                           <num type="wpl" atLeast="10" atMost="21"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="177"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <note>The quantity of text on each page differs from beginning to end, being
+                              more spacious at the beginning and getting tighter at the end.</note>
+                           <catchwords ana="yes">Usually, but not always present</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#HalKet002" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Decorated Initials and headings. <!--Most elaborate an
+                        original --></decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p><q>Sigurður Gíslason</q> on the previously empty page <locus from="33v" to="33v"/></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>A plain library binding with modern flyleaves.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1841"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance><name type="person" role="owner" key="MarJon002">Marteini Jónsson 1863
+                        </name></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:50.655+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change who="#SK" when="2012-04">Corrected, adapted to FASNL and added information from
+            P.E.Ó.-catalogue and other sources.</change>
+         <change who="#SK" when="2012-05">Added information from the manuscript itself.</change>
+         <change when="2013-08-06" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

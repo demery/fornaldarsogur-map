@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 43</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-43" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 43</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4">A former front cover is preserved and now counted as fourth
+                              front-flyleaf.</num>
+                           <num type="back-flyleaf" value="3"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions ana="low">
+                     <p>On the former front cover, a later hand added the shelf mark and <q>S. af Gongu Hrofe. <del>S. af Gisla Sursyne. Knytlinga S.</del>
+                           Thiodolfs af Hvine Ynglinga-tal.</q> Another hand added in pencil: <q>91/29</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbeled paper on cardboard. The spine and the corners are in white leather. On the spine, the shelf
+                           mark is imprinted with golden letters. A former front cover is preserved and now counted as a
+                           flyleaf.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Papp 4to nr. 43 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="1r" to="31v"/>
+                        <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                        <textLang mainLang="non"/>
+                        <explicit><ex>og</ex> lauk so h<ex>a</ex>nz æffe. Hr<ex>olfr</ex> var sär á höndum</explicit>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="31"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="170"/>
+                              </dimensions>
+                              <watermark ana="yes">A large foolscap</watermark>
+                           </support>
+                           <foliation ana="fol later">
+                              <p/>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="28 32">
+                              <num type="wpl" atLeast="9" atMost="15"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="170"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonEgg001" scope="sole" script="kurrent">Chancery for rubrics, kurrent for main
+                           text.</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1650" notAfter="1699"/>
+                        <origPlace key="DK"/>
+                     </origin>
+                     <provenance>
+                        <name key="JonEgg001" type="person" role="owner"/>
+                        <name key="AntKol001" type="organisation" role="owner"/>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Papp 4to nr. 43 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="contemporary">
+                        <titlePart>Thjodolfs af Hwine Ynglingatahl af Gudmund Olsson Translatoren i dät Giöthiska språket
+                           [...]</titlePart>
+                     </titlePage>
+                     <msItem n="1" class="kvad">
+                        <locus from="2r:8" to="18r:9"/>
+                        <title type="uniform">Ynglinga saga <note>[Verses, Swedish]</note></title>
+                        <textLang mainLang="sv"/>
+                        <!-- @role="translator"? I don't think GO is the author! -->
+                        <author>Guðmundur Ólafsson</author>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="20"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">Two-part emblem; two lions holding a coat of arms with a crown on top, "AJ"
+                                 below the image.</watermark>
+                           </support>
+                           <foliation ana="later fol">
+                              <p/>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="14 16 ">
+                              <num type="wpl" atLeast="2" atMost="6"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="170"/>
+                                 <width unit="mm" atLeast="50" atMost="135"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/> 
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1650" notAfter="1699"/>
+                        <origPlace key="SE"/>
+                     </origin>
+                     <provenance>
+                        <name key="AntKol001" type="organisation" role="owner"/>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:55.243+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-04" who="#BES">Measured and evalutated with the manuscript in situ.</change>
+         <change when="2013-04-08" who="#BES">Added missing information from catalog and balck-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westin 602 a</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Westin-602-a" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>Westin 602 a</idno>
+               </msIdentifier>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="227"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="22" atMost="210"/>
+                              <width unit="mm" atLeast="85" atMost="162"/>
+                           </dimensions>
+                           <note>Several blank pages and leaves.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol later">Printed foliation in top right corners, including front and back
+                           fly-leaves.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="major" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"/>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Half binding; cardboard covered with marbled paper, red leather spine and corners, gold embossing on
+                           spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history/>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Westin 602 a VIII</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="43r:1" to="43v:26"/>
+                        <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                        <textLang mainLang="non" otherLangs="sv"/>
+                        <rubric>Hier byriast Sogu af Katle Hæng.</rubric>
+                        <rubric>I Cap: Fra uppvexti Ketils Hængs.</rubric>
+                        <incipit>Hallbiórn hiet Madur hann var kalladur hálftróll</incipit>
+                        <explicit>margt Sagdi Hallbiorn fyrer Syni Sinum. II Cap</explicit>
+                        <note>Beginning only. Icelandic text with Swedish translation.</note>
+                     </msItem>
+                  </msContents>
+                  <!-- Monumenta islandica Historiæ Svio-Gothicæ inservientia on fol 76r-v is only a note about some fornaldarsögur, their editions and some notes concerning them, but no sagas are transcribed -->
+                  <physDesc>
+                     <objectDesc form="leaf">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="206"/>
+                                 <width unit="mm" quantity="162"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="fol later">Printed foliation in top right corner.</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2" writtenLines="26 32">
+                              <num type="wpl" atLeast="9" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" atLeast="130" atMost="170"/>
+                                 <width unit="mm" quantity="115"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="chancery">Icelandic text written in chancery, Swedish
+                           text written in current.</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+<!--                  <history/>-->
+                  <!-- <origDate notBefore="1700" notAfter="1799"/>
+							<origPlace key="#SE"/> ORIGIN UNCLEAR, NO INFO IN CATALOGUE, BUT I´D SAY IT WAS WRITTEN IN THE 18TH CENT-->
+               </msPart>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:22.53+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-10" who="SH">Added information from catalogue and the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

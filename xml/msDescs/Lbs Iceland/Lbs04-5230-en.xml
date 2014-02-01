@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt> 
+                <title>Lbs 5230 4to</title> 
+            </titleStmt> 
+            
+            <publicationStmt> 
+                <availability status="restricted"> 
+                    <p>Not ready for publication.</p> 
+                </availability> 
+                <authority>Den Arnamagnæanske Samling, København</authority>                 
+            </publicationStmt> 
+            
+            <sourceDesc> 
+                <msDesc xml:id="Lbs04-5230-en" xml:lang="en"> 
+                    <msIdentifier> 
+                        <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository> 
+                        <idno>Lbs 5230 4to</idno> 
+                    </msIdentifier> 
+                    
+                    <msContents> 
+                        <summary>Fornmannasögur Norðurlanda</summary>
+                        <titlePage ana="contemporary"> 
+                        </titlePage> 
+                        
+                       <!-- <msItem n="#" class="fas"> 
+                            <locus from="X" to="X"/>  
+                            <title type="uniform" ref="#"></title>
+                            <textLang mainLang="non"/> 
+                            
+                            <filiation> 
+                                <ref type="ms" target="#XXX" ana="protograph|antigraph|apograph">Copy of XXX.</ref> 
+                                <ref type="ms" target="#XYC" ana="protograph|antigraph|apograph">Copy of XYC.</ref> 
+                            </filiation> 
+                            <note> 
+                                <!-\- e.g. versions -\->
+                            </note>  
+                            <!-\-*-\->
+                            
+                        </msItem> -->
+                    </msContents>              
+                    
+                    <physDesc> 
+                        <objectDesc form="codex">                          
+                            <supportDesc material="chart">                                 
+                                <support> 
+                                    <num type="front-flyleaf" value="2"/> 
+                                    <num type="book-block" value="403"/> 
+                                    <num type="back-flyleaf" value="1"/> 
+                                    <dimensions type="leaf"> 
+                                        <height unit="mm" quantity="203"/> 
+                                        <width unit="mm" quantity="159"/> 
+                                    </dimensions>
+                                    <!--<watermark ana="no|yes"/>-->
+                                </support> 
+                                <!--<foliation ana="no|contemporary|later|pag|col|fol"/> -->
+                                <!--<condition ana="terrible|poor|average|good|excellent"/>-->
+                            </supportDesc> 
+                            <!--<layoutDesc> 
+                                <layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">                                   
+                                    <num type="wpl" atLeast="" atMost=""/> 
+                                    <dimensions type="written"> 
+                                        <height unit="mm" quantity=""/> 
+                                        <width unit="mm" quantity=""/> 
+                                    </dimensions> 
+                                </layout> 
+                            </layoutDesc>--> 
+                            
+                        </objectDesc> 
+                        
+                        <handDesc hands="1"> 
+                            <handNote scribeRef="#MagJón014" scope="sole" script="textualis"/> 
+                        </handDesc> 
+                        <!--<decoDesc ana="no|low|medium|high"> 
+                            <decoNote type="border"/>
+                        </decoDesc>-->
+                        <!--<additions ana="no|low|medium|high"> 
+                            <p> 
+                            </p> 
+                        </additions> -->
+                        <!--<bindingDesc> 
+                            <binding ana="plain|moderate|decorative" contemporary="false"> 
+                                <p/> 
+                            </binding>                             
+                        </bindingDesc>-->
+                    </physDesc> 
+                    
+                    <history> 
+                        <origin> 
+                            <origDate when="1904"/> 
+                            <origPlace key="IS"/>  
+                        </origin> 
+                        <provenance> 
+                            <name type="person" role="owner" key="BjoHal008">Björn Halldórsson</name>, goldsmith, sold the manuscript to the Landsbókasafn <date when="1995-04-07">7 April 1995</date> <!-- add BjoHal008 to authority file -->
+                            </provenance> 
+                    </history>                     
+                    
+                </msDesc> 
+                
+            </sourceDesc> 
+            
+        </fileDesc> 
+        <revisionDesc> 
+            <change when="2011" who="#EAH">Auto-generated from FASNL bibliography data</change>  
+            <change when="2014-01-23" who="#SH">Document created by Silvia Hufnagel with information from the unprinted Lbs-catalogue draft Handritaskrá 1964-2013</change>
+        </revisionDesc> 
+    </teiHeader> 
+    
+    <facsimile> 
+        <surface/> 
+    </facsimile> 
+    
+    <text> 
+        <body> 
+            <p/> 
+        </body> 
+    </text> 
+</TEI> 

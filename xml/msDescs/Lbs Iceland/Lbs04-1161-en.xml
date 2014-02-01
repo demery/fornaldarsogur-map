@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1161 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1161-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1161 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="43"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="major" script="unknown"/>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1800" to="1825">[1800-1825?]</origDate>
+                     <!--<origPlace key=""></origPlace>-->
+                  </origin>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1161 4to 1st part</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="26v"/>
+                        <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                        <rubric>Sagan af Þorsteini Víkingssyni</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="26"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="211"/>
+                                 <width unit="mm" quantity="170"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later pag">
+                              <p>There is also an old pagination 1-52 (1r-26v)</p>
+                           </foliation>
+                           <condition ana="poor">Dirty, has been cut and repaired, in loose leaves</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="22 24">
+                              <num type="wpl" atLeast="8" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="145"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Initials are slightly decorated</decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>allar stund ætíð sæl og blessuð Kristín mín góð Guð gefi</p>
+                        <p>Þorgerður á bókina?</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1800" to="1825">[1800-1825?]</origDate>
+                        <!--<origPlace key=""></origPlace>-->
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1161 4to 2nd part</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="isl">
+                        <locus from="27r" to="32v"/>
+                        <title type="uniform">Þorsteins saga Síðu-Hallssonar</title>
+                        <rubric>Úr sögu Þorsteins Síðu-Hallssonar</rubric>
+                        <note>Under the rubric: (Ex. Membrana Bibliothecæ Regiæ in 4to)</note>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="isl draum" defective="true">
+                        <locus from="32v" to="32v"/>
+                        <title type="uniform">Draumur Þorsteins Síðu-Hallssonar</title>
+                        <note>Fragmentary. Just the beginning</note>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="kvsk kvad ordsk" defective="true">
+                        <locus from="33r" to="33v"/>
+                        <title type="supplied">Hallmundarkviða</title>
+                        <note>With key to the poetic language </note>
+                        <note>Named Hallmundarkviða in some other manuscripts</note>
+                        <note>Missing the end</note>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="4" class="islt" defective="true">
+                        <locus from="34r" to="35r"/>
+                        <title type="uniform">Þorsteins þáttur tjaldstæðings</title>
+                        <note>Missing the beginning</note>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="5" class="isl" defective="true">
+                        <locus from="35v" to="37v"/>
+                        <title type="uniform">Þorsteins saga hvíta</title>
+                        <rubric>Sagan af [Þorst]eine inum hvíta</rubric>
+                        <note>Missing the end</note>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="11"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" min="187" max="195"/>
+                                 <width unit="mm" min="157" max="164"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol">Pencil foliation added at time of repair</foliation>
+                           <condition ana="average">
+                              <note>Folio 37 has been added when the manuscript was repaired</note>
+                              <p>Text is missing due to tearing on folios: 33r-34v, 36</p>
+                           </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="25 28">
+                              <num type="wpl" atLeast="13" atMost="21"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="175"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GisKon001" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1800" to="1825">[1800-1825?]</origDate>
+                        <origPlace key=""/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1161 4to 3rd part</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="forns" defective="true">
+                        <locus from="37r" to="42v"/>
+                        <title type="uniform">Huldar saga hinnar miklu</title>
+                        <incipit>... auða er það að segja að hann fór vestur um fjall og dróst mikið
+                           lið að honum ...</incipit>
+                        <explicit>Dagur gjörðist sáttur, heilum sáttum við Dómarr og og fóstraði
+                           Dyggva son hans, er fyrstur var konungur kallaður með Svíum - Svasi son
+                           Dags var mikill maður, hans son var Beigaði ...</explicit>
+                        <note>See edition from 1911, Sagan af Huld hinni miklu og fjölkunnugu
+                           trölldrotningu</note>
+                        <note>Fragmentary, end of chapter 18 - end of chapter 28</note>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="6"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="207"/>
+                                 <width unit="mm" quantity="168"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="31 32">
+                              <num type="wpl" atLeast="11" atMost="16"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="140"/>
+                                 <width unit="mm" quantity="187"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonEsp001" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1800" to="1825">[1800-1825?]</origDate>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:39.583+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:51.8+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:10.125+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2012-09-12" who="#SK">Added information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

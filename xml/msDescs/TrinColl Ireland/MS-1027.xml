@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>MS 1027</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+				<msDesc xml:id="MS-1027" xml:lang="en">
+					<msIdentifier>
+						<settlement>Dublin</settlement>
+						<repository ref="#TCL">Trinity College Library and Royal Irish Academy, Dublin</repository>
+						<idno>MS 1027</idno>
+						<altIdentifier type="former_shelfmark">
+							<idno>MS L.4.1</idno>
+						</altIdentifier>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="no"/>
+						
+						<msItem n="1" class="edd">
+							<locus from="1r" to="12r"/>  							
+							<title type="uniform">Völuspá</title>
+							<textLang mainLang="non"/>
+						</msItem>
+					
+						<msItem n="2" class="edd">
+							<locus from="13r" to="33v"/>  							
+							<title type="uniform">Hávamál</title>
+							<textLang mainLang="non"/>
+						</msItem>
+					<!-- blank page, unfoliated -->
+						<msItem n="3" class="edd">
+							<locus from="34r" to="41v"/>  							
+							<title type="uniform">Vafþrúðnismál</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="3" class="edd">
+							<locus from="42r" to="51r"/>  							
+							<title type="uniform">Grímnismál</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="4" class="edd">
+							<locus from="52r" to="59r"/>  							
+							<title type="uniform">Skírnismál</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="5" class="edd">
+							<locus from="60r" to="67r"/>  							
+							<title type="uniform">Hárbarðsljóð</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="6" class="edd">
+							<locus from="68r" to="78r"/>  							
+							<title type="uniform">Lokasenna</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank unfoliated leaf -->
+						<msItem n="7" class="edd">
+							<locus from="79r" to="84v"/>  							
+							<title type="uniform">Þrymskviða</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="8" class="edd">
+							<locus from="85r" to="91r"/>  							
+							<title type="uniform">Hymiskviða</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank unfoliated leaf -->
+						<msItem n="9" class="edd">
+							<locus from="92r" to="99v"/>  							
+							<title type="uniform">Völundarkviða</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="10" class="edd">
+							<locus from="100r" to="105r"/>  							
+							<title type="uniform">Alvíssmál</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="11" class="edd">
+							<locus from="106r" to="109r"/>  							
+							<title type="uniform">Baldurs draumar</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="12" class="edd">
+							<locus from="110r" to="115v"/>  							
+							<title type="uniform">Fjölsvinnsmál</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="13" class="edd">
+							<locus from="116r" to="124v"/>  							
+							<title type="uniform">Hyndluljóð</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank leaf -->
+						<msItem n="14" class="edd">
+							<locus from="125r" to="127r"/>  							
+							<title type="uniform">Grógaldur</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank leaf -->
+						<msItem n="15" class="edd">
+							<locus from="128r" to="138v"/>  							
+							<title type="uniform">Sólarljóð</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="16" class="edd">
+							<locus from="139v" to="144r"/>  							
+							<title type="uniform">Gróttasöngur</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="17" class="fas">
+							<locus from="145r" to="156r"/>  							
+							<title ref="#hs" type="uniform">Hervarar saga <note>[Extracts]</note></title>
+							<title type="parallel">Hervarar saga ok Heiðreks</title>
+							<title type="supplied">Riddles from Hervarar saga og Heiðreks</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="18" class="edd">
+							<locus from="157r" to="167v"/>  							
+							<title type="uniform">Helga kviða Hundingsbana I</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank leaf -->
+						<msItem n="19" class="edd">
+							<locus from="168r" to="179v"/>  							
+							<title type="uniform">Helga kviða Hundingsbana II</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="20" class="edd">
+							<locus from="180r" to="190r"/>  							
+							<title type="uniform">Helga kviða Hjörvarðssonar</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank leaf -->
+						
+						<msItem n="21" class="edd">
+							<locus from="190r" to="230r"/>  							
+							<title type="uniform">Frá dauða Sinfjötla</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						
+						<msItem n="22" class="edd">
+							<locus from="231r" to="233r"/>  							
+							<title type="uniform">Helreið Brynhildar</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank leaf -->
+						<msItem n="23" class="edd">
+							<locus from="234r" to="239v"/>  							
+							<title type="supplied">Sigurðarkviða hin skamma</title>
+							<rubric>Fra dauþa Sigvrþar</rubric>
+							<textLang mainLang="non"/>
+							</msItem>
+						
+						<msItem n="24" class="edd">
+							<locus from="240r" to="248r"/>  							
+							<title type="uniform">Atlakviða</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank leaf -->
+						
+						<msItem n="25" class="edd">
+							<locus from="249r" to="255r"/>  							
+							<title type="uniform">Sigurðarkviða</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank leaf -->
+						<msItem n="26" class="edd">
+							<locus from="256r" to="268r"/>  							
+							<title type="uniform">Guðrúnarkviða</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<!-- blank leaf -->
+						<msItem n="27" class="edd">
+							<locus from="269r" to="273r"/>  							
+							<title type="uniform">Guðrúnarhvöt</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<msItem n="28" class="edd">
+							<locus from="274r" to="279v"/>  							
+							<title type="uniform">Hamðismál</title>
+							<textLang mainLang="non"/>
+						</msItem>
+						<msItem n="29" class="edd">
+							<locus from="280r" to="297v"/>  							
+							<title type="uniform">Atlamál</title>
+							<textLang mainLang="non"/>
+						</msItem>						
+						
+						<msItem n="30" class="edd">
+							<locus from="298r" to="304r"/>  							
+							<title type="uniform">Oddrúnargrátur</title>
+							<textLang mainLang="non"/>
+						</msItem>
+											
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="2"/>
+									<num type="book-block" value="304"/>
+									<num type="back-flyleaf" value="3"/>
+									<note>Quarto</note>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="202"/>
+										<width unit="mm" quantity="157"/>
+									</dimensions>
+									
+									<watermark ana="yes"/>
+									
+								</support>
+								
+								<foliation ana="later fol"/>
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-separate" columns="1" writtenLines="22 28">									
+									
+									<num type="wpl" atLeast="7" atMost="9"/><note>In prose sections</note>
+									<dimensions type="written">
+										<height unit="mm" quantity="160"/>
+										<width unit="mm" quantity="120"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="unknown" scope="sole" script="unknown"/>
+						</handDesc>
+						
+						<decoDesc ana="low">
+							<decoNote type="initial"/>
+						</decoDesc>
+						
+						<additions ana="no"/>
+						
+						<bindingDesc>
+							<binding ana="moderate" contemporary="false">
+								<p>Note from binder on 2nd front flyleaf: The Revd Mr. Johnstone at Mr. Kennedy+s N. 111 Shoe Lane London.</p>
+							</binding>							
+						</bindingDesc>
+						<!--1-->
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1750" notAfter="1799"/>
+<!--							<origPlace key=""/>-->
+							
+						</origin>
+						
+						<!--<provenance>
+							<name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+							<name type="person" role="owner" key=""></name>
+							<name type="person" role="signatory" key=""></name>
+							<name type="person" role="commissioner" key=""></name>
+							<name type="person" role="unknown" key=""></name>
+						</provenance>-->
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2012-11-27" who="#JSL">Created file from in-house template using information from Skulerud, Olai. 1919.
+			Catalogue of Norse Manuscripts in Edinburgh, Dublin and Manchester.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 1 d β fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0001d-beta-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 1 d β fol.</idno>
+               </msIdentifier>
+               <msContents>                  
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="8v:17"/>
+                     <title type="uniform" ref="#snfdsv">Sögubrot af nokkrum fornkonungum í Dana og
+                        Svíaveldi</title>
+                     <textLang mainLang="non"/>
+                    
+                     <rubric>Sogubrot af Nockrúm fornkongum<ex>m</ex> J Dana og Svija Vellde.</rubric>
+                     <rubric>Ord Audaz Vid fodur sin<ex>n</ex>, fram<ex>m</ex>berande Ord Helga med under<add place="above">higgiu</add></rubric>
+                     <incipit>Sie eg ad þetta mál þarf ad lytt sie</incipit>
+                     <explicit>főlk er Alfar Kalladest Var miklu frýdara en<ex>n</ex> an<ex>n</ex>ad Man<ex>n</ex>kin a Nordurlondum<ex>m</ex>.</explicit>
+                     <filiation>
+                        <ref type="ms" target="#AM02-0001a-en" ana="apograph">Copy of AM 1 a fol.</ref>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="8"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/> <!-- check -->
+                              <width unit="mm" quantity="163"/>
+                           </dimensions>
+                           <watermark ana="yes">Foolscap</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliated in red ink in top margins by <name type="person" key="KriKaa001">Kålund</name>. Paginated
+                              in top outer corners of recto pages and additionally on fol. <locus>8v</locus>.</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="26 29">	
+                           <num type="wpl" atLeast="12" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#HjaTho001" scope="sole" script="early kurrent"> <!-- Kålund calles script type "Kursiv" -->
+                        <p>Written by the priest Hjalti Þorsteinsson of <name type="place" key="Vatns02">Vatnsfjörður</name>.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>An AM-slip in the front reads: <q xml:lang="is">Ur Num. 15. in 4to. fra Eckiu Sal. Þormodar Torfasonar. 
+                        Epter þessu nidlags Exemplare hafde Sal. Assessor Þormodr lated Asgeir
+                        rita Exemplar in folio. og hafde Asgeir
+                        allstadar úmbreitt literatura ad methodum
+                        veterioru<ex>m</ex>. Þetta Asgeirs Mstum stod i Num. 13. in
+                        folio. En<ex>n</ex> var ölldungis onytt, eins <ex>og</ex>
+                        þetta nærverandi Exemplar med hendi Sr Hiallta, og þeim mun 
+                        verra, ad Asgeir hafdi æred liber vered i at umbreita literaturâ.
+                        en<ex>n</ex> orden voru eins raung i hverutveggiu.
+                        Eg reif so þetta Asgeirs avtographum i sundur, ad
+                        eingan<ex>n</ex> villa skyllde</q>.</p>
+                  </additions>
+               <bindingDesc>
+                  <binding ana="plain" contemporary="false">
+                     <p>Plain brown standard half binding. The original binding is preserved and is kept in the same box. It is a
+                        plain cardboard binding from 
+                     Árni Magnússon's time with two flyleaves inside.</p>
+                  </binding>
+               </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1690" notAfter="1710"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance><p>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     got the fragment from <name type="person" role="owner" key="ThoTor001">Torfæus</name>'s widow.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:39.851+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:51:59.295+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:10.9+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:24.115+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2013-09-22" who="#BES">Added information from handrit.is and catalog.</change>
+         <change when="2013-07-31" who="#BES">Added missing information with manucript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

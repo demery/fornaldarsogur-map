@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1795 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1795-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1795 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 758 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="8v"/>
+                     <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                     <rubric>Hversu Noregur Bygdist</rubric>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="#GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref></filiation>
+                  </msItem>
+                  <msItem n="2" class="samt">
+                     <locus from="9r" to="27v"/>
+                     <title type="uniform">Hrafns saga Sveinbjarnarsonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="islst?">
+                     <locus from="28r" to="40v"/>
+                     <title type="uniform">Gríms saga Vestfirðings</title>
+                     <textLang mainLang="non"/> 
+                     <note>More detailed than AM 569 d 4to (with inserted vísur)</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="40"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="252"/> 
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="no">Chain lines but no watermark</watermark>
+                        </support>
+                        <foliation ana="fol contemporary later"/>
+                        <condition ana="average">Strong discoloration in the upper margins</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="24 29">
+                           <num type="wpl" atLeast="5" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent">Alternating script: kurrent and chancery fractura</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">decorated initials and rubrics</decoNote>
+                     <decoNote type="paratext">squiggles and lines</decoNote>
+                     <decoNote type="other">alternating script and diamond shaped endings</decoNote>
+                  </decoDesc>
+                  <additions ana="no"><p>Nothing but the shelfmark</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Plain thin paper binding, heavily stained; spine in poor condition.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no 758 4to</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:46.608+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-03" who="#BES">Added catalog info.</change>
+         <change when="2013-05-31" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

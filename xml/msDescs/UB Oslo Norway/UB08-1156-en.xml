@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>UB 1156 8vo</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="UB08-1156-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 1156 8vo</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+<!--						<titlePage ana="no|contemporary|later"/>-->
+						
+						<msItem n="1" class="riddst">
+							<locus from="1r:X" to="35v:X"/>  							
+							<title type="uniform">Bernótus saga Borneyjarkappa</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Bernótusi Borneyarkappa</rubric>
+							<incipit/>
+							<explicit/>
+														
+						</msItem>
+						
+						<msItem n="2" class="forns">
+							<locus from="36r:X" to="92v:X"/>  							
+							<title type="uniform">Andra saga jarls</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Anðra jalli ok Högna Hjaranða syni</rubric>
+							<incipit/>
+							<explicit/>
+							
+						</msItem>
+						
+						<msItem n="3" class="unknown">
+							<locus from="93r:X" to="120v:X"/>  							
+							<title type="supplied">Tístrans saga og Indiönu</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Tistran ok Inðíönu</rubric>
+							<incipit/>
+							<explicit/>
+							
+						</msItem>
+						
+						<msItem n="4" class="fas">
+							<locus from="121r:X" to="139r:X"/>  							
+							<title type="uniform" ref="#fsf">Friðþjófs saga</title>
+							<title type="parallel">Friðþjófs saga frækna</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Friðþjófi inum frækna</rubric>
+							<incipit/>
+							<explicit/>
+							
+						</msItem>
+						
+						<msItem n="5" class="fas" defective="true">
+							<locus from="139r:X" to="153v:X"/>  							
+							<title type="uniform" ref="#upp">Af Upplendinga konungum</title>
+							<textLang mainLang="non"/>
+							<rubric>Sögu-þáttr af Upplenðínga-konúngum</rubric>
+							<incipit/>
+							<explicit defective="true"/>
+							
+							<note>Defective. Lacks ending.</note>
+							
+						</msItem>
+						
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+<!--									<num type="front-flyleaf" value=""/>-->
+									<num type="book-block" value="153"/>
+<!--									<num type="back-flyleaf" value=""/>-->
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="195"/>
+										<width unit="mm" quantity="163"/>
+									</dimensions>
+									
+<!--									<watermark ana="no|yes"/>-->
+									
+								</support>
+								
+								<foliation ana="pag">
+									<p>Paginated 1-306 in a younger hand.</p>
+								</foliation>
+								
+<!--								<condition ana="poor|average|good"/>-->
+									
+							</supportDesc>
+							<!--<layoutDesc>
+								<layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">									
+									
+									<num type="wpl" atLeast="" atMost=""/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions>
+								</layout>
+							</layoutDesc>-->
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#MagJon001" scope="sole" script="unknown"/>
+						</handDesc>
+						
+						<!--<decoDesc ana="no|low|medium|high">
+							<decoNote type="border"/>
+						</decoDesc>
+						
+						<additions ana="no|low|medium|high">
+							<p>Autograph on inside of front cover: <q>Magnús Ketilbjs. Tjaldanesi</q>; probably the scribe's grandson (cf. typescript
+								cat.)</p>
+						</additions>-->
+						
+						<!--<bindingDesc>
+							<binding ana="plain|moderate|decorative" contemporary="false">
+								<p/>
+							</binding>							
+						</bindingDesc>-->
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<p>Probably written some time between 1850 and 1875.</p>
+							<origDate notBefore="1850" notAfter="1875"/>
+							<origPlace key="IS"/>
+						</origin>
+						
+						<provenance>
+							<p>UB 1156-1159 8vo purchased by the University of Oslo from Albert Ólafsson á Hvarfi (Gvarv) in Telemark in 1932.</p>
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-17" who="#JSL">Inserted template elements and entered information from Jónas Kristjánsson's typescript
+				catalog, "Skrá um íslenzk handrit í Noregi" and notes made by Matthew Driscoll.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>Waller ms se 568</title>
+			</titleStmt>
+
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>
+			</publicationStmt>
+
+			<sourceDesc>
+				<msDesc xml:id="Waller-ms-se-0568" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+						<idno>Waller ms se 568</idno>
+					</msIdentifier>
+
+					<msContents>
+						<msItem n="1" class="fas">
+							<locus from="1r" to="12v"/>
+							<title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+							<textLang mainLang="la" otherLangs="non sv"/>
+							<filiation><ref>Copy of Verelius' edition from 1672.</ref></filiation>
+						</msItem>
+					</msContents>
+
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<num type="book-block" value="16"/>
+									<dimensions type="leaf">
+										<height unit="mm" quantity="330"/>
+										<width unit="mm" quantity="209"/>
+									</dimensions>
+									<note>Four blank leaves.</note>
+									<watermark ana="yes"/>
+								</support>
+								<foliation ana="no"/>
+								<condition ana="good"/>
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-separate" columns="1 2" writtenLines="39 41">
+									<num type="wpl" atLeast="7" atMost="9"/>
+									<dimensions type="written">
+										<height unit="mm" quantity="285"/>
+										<width unit="mm" quantity="175"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote scribeRef="#BalCro001" scope="sole" script="hum cursiva"/>
+						</handDesc>
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						<additions ana="low">
+							<p>References to the printed edition by Verelius. Many slips of papers with illustrations glued in.
+							</p>
+						</additions>
+						<bindingDesc>
+							<binding ana="none">
+								<p>No binding.</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+
+					<history>
+						<origin>
+							<origDate when="1800"/>
+							<origPlace key="SE"/>
+						</origin>
+						<provenance>
+							<p>The University Library Uppsala acquired the collection of <name key="EriWal002" type="person" role="owner">Erik Waller</name>, including this manuscript, after his death in <date when="1955">1955</date>.</p>
+						</provenance>
+					</history>
+
+				</msDesc>
+
+			</sourceDesc>
+
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-04-17" who="#SH">Created and added information from the online catalogue and librarian
+				information.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

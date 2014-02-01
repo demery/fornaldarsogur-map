@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Perg. 4to nr 18</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Perg-4to-nr-18" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Perg. 4to nr 18</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="isl" defective="true">
+                     <locus from="1r" to="12r"/>
+                     <title type="uniform">Heiðarvíga saga</title>
+                     <title type="parallel">Víga-Styrs saga og heiðarvíga</title>
+                     <rubric/>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl" defective="true">
+                     <locus from="12v" to="24r"/>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <rubric>Saga þ<ex>eir</ex>ra hrafns ok gvn<ex>n</ex>laugs ormstungv ept<ex>ir</ex> þ<ex>u</ex>i sem sagt
+                           hef<ex>ir</ex> v<ex>er</ex>it a islandi a lannams sogur <ex>ok</ex> forna f<ex>re</ex>ði</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="tjos">
+                     <locus from="24v:1" to="24v:36"/>
+                     <title type="supplied">About an abbot</title>
+                     <rubric/>
+                     <incipit><supplied>S</supplied>vo byriaz nokr(?) æentyr at aboti nockvr I svart munka</incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="25r" to="34v"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <explicit>þa svarar halfdan, sp<ex>ur</ex>tt havfv<ex>m</ex> v<ex>er</ex> at</explicit>
+                     <textLang mainLang="non"/>
+                     <note>Older vers.</note>
+                     <note>Formerly called item 5 in Perg. 4to nr. 20</note>
+                  </msItem>
+                  <msItem n="5" class="kon" defective="true">
+                     <locus from="35r" to="54v"/>
+                     <title type="uniform">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Ending defective and 2 leaves missing after fol. 37v.</note>
+                     <note>Formerly called item 2 in Perg. 4to nr. 20</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="54"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="235"/>
+                              <width unit="mm" quantity="163"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="fol later">Some gatherings have additional foliation.</foliation>
+                        <condition ana="poor">Holes and cuts throughout the manuscript. The script is somewhat faded. Leaves at
+                           the beginning and end of gatherings are blackened or worn. The gatherings are no longer sewn to each
+                           other or to the spine.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="29 36">
+                           <num type="wpl" atLeast="17" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="6">
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p><locus from="1r" to="8v"/>.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p><locus from="9r" to="13r"/>.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p><locus from="13v" to="24r"/>. This scribe is, according to Vilhlem Gödel (Kat, p. 60), Norwegian.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p><locus from="24v:1" to="24v:36"/>.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p><locus from="25r" to="34v"/>.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p><locus from="35r" to="54v"/>.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Initials rendered in red or black, sometimes with a third colour, which might have
+                        been green</decoNote>
+                     <decoNote type="other">Rubrics rendered in red or black</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A few additions in the margins, most are difficult to read. On the binding, two paper stickers indicate
+                        the shelf marks.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Bound in a two heavily damaged parchment leaves contaning manuscript waste, both of them in Latin,
+                           written in two columns. The outer leaf is from a catholic liturgical book (ps. 88,3-16; ps. 101,1-23,
+                           and prayers). The other leaf contains Jerome's Vita S. Hilarionis, chs. 14-20.37. The leaves are sewn
+                           together with a thick leather thread. Both leaves were trimmed to ca. 23 x 25 cm. The leaves are
+                           overlapping on the spine and the inner half of the front cover. The outer leaf is placed in a way that
+                           the free space between the two columns is located on the spine. On the inside of the back cover, there
+                           is a heavily damaged illumination, possibly the initial "D", ca. 5 x 4 cm in black and red, along with earlier
+                           marginalia.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1280" notAfter="1320"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>Perg. 4to nr. 18 is one of the manuscripts collected by <name type="person" role="collector" key="JonEgg001">Jón
+                           Eggertsson</name> for the <name type="organisation" role="owner" key="AntKol001">
+                              Swedish Antiquitetskollegie</name> in Iceland in 1682-1683.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:07.377+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-19" who="#BES">Prepared for visit at the library.</change>
+         <change when="2013-03-04" who="#BES">Measured and evalutated with the manuscript in situ.</change>
+         <change when="2013-03-21" who="#BES">Added missing information from black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

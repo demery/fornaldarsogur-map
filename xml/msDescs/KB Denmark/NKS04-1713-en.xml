@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1713 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1713-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1713 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 12 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/> <!-- check -->
+                  <msItem n="1" class="fas handfr">
+                     <locus from="1r" to="3r"/>
+                     <title type="uniform" ref="#hsgr">Hrómundar saga Gripssonar [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0587b-en" ana="antigraph">copy of AM 587 b 4to</ref>
+                     </filiation>
+                     <note>Variant readings only</note>
+                  </msItem>
+                  <msItem n="2" class="ridd handfr">
+                     <locus from="3v" to="13v"/>
+                     <title type="uniform">Samsons saga fagra [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la da"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-588k-en" ana="antigraph">copy of AM 588 k 4to</ref>
+                     </filiation>
+                     <note>On fol. <locus>13v</locus> the scribe made a note (in Danish) on the quality of the manuscripts he used for items 1 and 2.</note>
+                  </msItem>
+                  <msItem n="2" class="kon handfr">
+                     <locus from="14r" to="15r"/>
+                     <title type="uniform">Ólafs saga helga [Variants, Excerpt]</title>
+                     <title type="parallel">Óláfs þáttur digrbeins</title>
+                     <title type="parallel">Óláfs þáttur Geirstaðaálfs</title>
+                     <textLang mainLang="non" otherLangs="la is"/>
+                     <note>Variant readings from AM 65 fol and AM 320 4to</note>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0320-en" ana="antigraph">copy of AM 320 4to</ref>
+                        <ref type="ms" target="#AM04-0065-en" ana="antigraph">copy of AM 65 fol.</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="konth handfr" defective="true">
+                     <locus from="15v" to="68v"/>
+                     <title type="uniform">Hemings þáttur Áslákssonar [Variants, Excerpt]</title>
+                     <textLang mainLang="non" otherLangs="la da"/>
+                     <filiation><ref type="ms" target="#AM04-0326-b-en" ana="antigraph">copy of AM 326 b 4to</ref></filiation>
+                     <note>Variants from <locus>16r</locus> to <locus>18v</locus>; excerpts of the ending on fol. <locus>19r</locus> to <locus>68v</locus>.</note>
+                     <note>On the last page, the scribe makes note (in Danish) on the quality of the exemplar</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="69"/> 
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="222"/> 
+                              <width unit="mm" quantity="170"/>
+                           </dimensions>
+                           <watermark ana="yes">beehive</watermark>
+                        </support>
+                        <foliation ana="pag contemporary fol later"><p>Two sets of pagination; later foliation in pencil at the
+                           beginnings of texts. Fol. 13bis is blank.</p></foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="16 18">
+                           <num type="wpl" atLeast="2" atMost="5"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Chancery for rubrics.</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     <additions ana="low"><p>
+                        On fol. 1r <name key="PetSuh001" type="person" role="owner">Suhm</name> made a note, most likely the name of the scribe: possibly <q>erlings(?)</q>.
+                     </p></additions>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="true">
+                           <p>Plain paper binding</p>
+                        </binding>
+                     </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 12 4to.</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:39.2+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-02" who="#BES">Added catalog info.</change>
+         <change when="2013-05-23" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

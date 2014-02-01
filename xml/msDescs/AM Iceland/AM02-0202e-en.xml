@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 202 e fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0202e-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 202 e fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="5v">1r-5v</locus>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <rubric>Söguþáttur af Hálfi konungi og Hálfs rekkum</rubric>
+                     <textLang mainLang="non"></textLang>
+                     <note>Gap on fol. 4v can be recognised and filled out.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="5"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="296"/>
+                              <width unit="mm" quantity="190"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="32 43">
+                           <num type="wpl" atLeast="8" atMost="22"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Fols. 1 and 5 are inserted leaves, added for <name key="ArnMag01" type="person">Árni Magnússon</name>, as
+                        written on fols. 1v and 5r.</p>
+                     <p>Written at the top of fol. 1r: "Af Halfi og Halfsreckum".</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1700"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:03.661+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:14.53+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:24.844+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:39.715+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:18.402+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-03-26" who="#SMM">Rectified some codes. Translated into English.</change>
+         <change when="2013-04-10" who="#SMM">Added information from black and white photos in the Arnamagnaean Collection, Copenhagen.</change>
+         <!-- watermark and layout dimensions missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

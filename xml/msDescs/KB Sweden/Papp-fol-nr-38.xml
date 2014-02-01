@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 38</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-38" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 38</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="isl" defective="true">
+                     <locus from="1r" to="36v"/>
+                     <title type="uniform">Bjarnar saga hítdælakappa</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="AM04-0551d-alpha-en" ana="antigraph">AM 551 d 4to</ref>.</p>
+                     </filiation>
+                     <note>fragm.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="37r" to="43v"/>
+                     <title type="uniform" ref="#snfdsv">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                     <rubric>Sogubrot af nockrum fornk<ex>onun</ex>g<ex>u</ex>m í Dana oc Svia veldi</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="godfrn skaldskfr">
+                     <locus from="44r" to="98v"/>
+                     <title type="supplied">Comments on Edda Snorra Sturlusonar</title>
+                     <rubric>Her byriar Samantekt um Skilning a Eddu Su fyrsta fregn af Saturno i Krit eptir fornum frædibockum
+                        uptecknat til gamans Anno 1641</rubric>
+                     <author key="JonGud003">Jón Guðmundsson lærði</author>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="bokmfr skaldskfr">
+                     <locus from="100r" to="122v:5"/>
+                     <title type="supplied">Comments on Vǫluspá</title>
+                     <rubric>Nockorar mals grein<ex>er</ex> um þ<ex>at</ex> hvaþ<ex>an</ex> bokin<ex>n</ex>Edda hefr sitt
+                        heiti.</rubric>
+                     <textLang mainLang="non"/>
+                     <author key="BjoJon006">Björn Jónsson</author>
+                  </msItem>
+                  <msItem n="5" class="run?">
+                     <locus from="123r" to="126r:10"/>
+                     <title type="supplied">On runes</title>
+                     <rubric/>
+                     <incipit>At fornu i þ<ex>eir</ex>ri Gomlu norrænu Kolluþuz run<ex>er</ex> bæþi ristingar og sva
+                        Skrifelsi</incipit>
+                     <textLang mainLang="non"/>
+                     <author key="BjoJon006">Björn Jónsson</author>
+                  </msItem>
+                  <msItem n="6" class="run godfrn">
+                     <locus from="127r" to="145v"/>
+                     <title type="supplies">Summary on runes</title>
+                     <rubric>Nockut Litit samtak vm Runer ... Á Skarðza i Skagafyrðe Anno 1642 B: J: S:</rubric>
+                     <textLang mainLang="non"/>
+                     <author key="BjoJon006">Björn Jónsson</author>
+                  </msItem>
+                  <msItem n="7" class="ordb logfr">
+                     <locus from="146r" to="169v"/>
+                     <title type="supplied">Jónsbók, Glossary</title>
+                     <rubric>Her up<ex>p</ex>teikaz Dim<ex>m</ex> famæle Log bokar islendinga, oc þ<ex>eir</ex>ra
+                        raðningar.</rubric>
+                     <textLang mainLang="non"/>
+                     <author key="BjoJon006">Björn Jónsson</author>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="168"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="332"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Two lions holding a coat of arms with a crown on top. "BA" below the image. The
+                              watermark on the flyleaves is a beehive with floral ornaments. "1910" and "No 2". On the opposite
+                              side it reads "LESSEBO"</watermark>
+                        </support>
+                        <foliation ana="pag fol later">
+                           <p>Modern foliation on every tenth leaf. Older pagination on some leaves, e.g. <q>154</q> on fol.
+                                 <locus>57v</locus>, <q>160</q> on fol. <locus>60v</locus></p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="30 35">
+                           <num type="wpl" atLeast="4" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="270"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#AsgJon001" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>At the beginning of items, a later hand added comments on the exemplar of the text. E.g. on fol.
+                           <locus>1r</locus>
+                        <q>Exscr. cod. AM 551.d. 4to</q> and on fol. <locus>44r</locus> <q>Eplaust eptir Jón Guðmundsson lærda.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>The original binging is lost. The present binding is a modern cardboard binding with marbeled paper on
+                           the boards; spine and corners in with leather. The golden imprint on the spine reads: <q>Cod. Island.
+                              Papp. Fol. N:o 38</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>Possibly commissioned by <name type="person" role="commissioner" key="ThoTor001">Torfæus</name></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:02.944+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-27" who="#BES">Prepared for visit at the library.</change>
+         <change when="2013-03-05" who="#BES">Added missing information from the manuscript itself. A few things leaft to
+            check!</change>
+         <change when="2013-03-21" who="#BES">Added last pieces of information and compared script.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

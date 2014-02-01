@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 568 I-II 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0568-I-II-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 568 I-II 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <!--<num type="front-flyleaf" value=""></num>-->
+                           <num type="book-block" value="197"/>
+                           <!--<num type="back-flyleaf" value=""></num>-->
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions ana="low">
+                     <p>Ten loose AM slips with saga titles.</p>
+                     <p>Seven loose slips with titles in a 19th c. hand. On one of the slips, Agnete Loth has
+                        added information on <title type="uniform">Hálfdanar saga Brönufóstra</title></p>
+                     <p>Photocopy of five pages in Danish on the condition of this manuscript.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" notBefore="1994-03" notAfter="1996-06" contemporary="false"> <!-- plain? varify! -->
+                        <p>Dimensions: <dimensions type="binding" unit="mm">
+                              <height>215</height>
+                              <width>175</width>
+                           </dimensions>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance>
+                     <p>
+                        <name key="ArnMag001" role="owner" type="person">Árni Magnússon</name> got the manuscript from pastor 
+                        <name type="person" role="owner" key="ArnJon013">Árni Jónsson</name> in Neðri-Brekka (cf. AM slips).</p> 
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 568 I 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="isl" defective="true">
+                        <locus from="1r" to="16v">1r-16v</locus>
+                        <title type="uniform">Egils saga Skallagrímssonar</title>
+                        <textLang mainLang="non"></textLang>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="16"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="142"/>
+                              </dimensions>
+                           </support>
+                           <foliation ana="later fol">Foliated separately in plastic pockets.</foliation>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="46">
+                              <num type="wpl" atLeast="12" atMost="15"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="175"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                             <!-- <watermark ana=""/>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="secondary" subtype="initial">Initials slightly bigger and lightly decorated.
+                        </decoNote>
+                     </decoDesc>
+                     <additions ana="no">
+                       <p/>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"></origPlace>
+                        <origDate notBefore="1600" notAfter="1650"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 568 II 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="isl" defective="true">
+                        <locus from="1r" to="20r">1r-20r</locus>
+                        <title type="uniform">Egils saga Skallagrímssonar</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="2" class="isl" defective="true">
+                        <locus from="21r" to="30r">21r-30r</locus>
+                        <title type="uniform">Vatnsdæla saga</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="3" class="isl" defective="true">
+                        <locus from="31r" to="40r">31r-40r</locus>
+                        <title type="uniform">Kjalnesinga saga</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="4" class="isl" defective="true">
+                        <locus from="40r" to="43v">40r-43v</locus>
+                        <title type="uniform">Jökuls þáttur Búasonar</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="5" class="fas" defective="true">
+                        <locus from="43v" to="48v">43v-48v</locus>
+                        <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="6" class="ridd" defective="true">
+                        <locus from="49r" to="59r">49r-59r</locus>
+                        <title type="uniform">Nikulás saga leikara</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="7" class="ridd" defective="true">
+                        <locus from="59v" to="64v">59v-64v</locus>
+                        <title type="uniform">Nitida saga</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="8" class="ridd" defective="true">
+                        <locus from="65r" to="68v">65r-68v</locus>
+                        <title type="uniform">Valdimars saga</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="9" class="isl" defective="true">
+                        <locus from="69r" to="82v">69r-82v</locus>
+                        <title type="uniform">Víglundar saga</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="10" class="fas" defective="true">
+                        <locus from="83r" to="87v">83r-87v</locus>
+                        <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                        <textLang mainLang="non"></textLang>
+                        <title type="parallel">Friðþjófs saga ins frækna</title>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="11" class="isl" defective="true">
+                        <locus from="88r" to="95v">88r-95v</locus>
+                        <title type="uniform">Þórðar saga hreðu</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Ending missing. Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="12" class="isl" defective="true">
+                        <locus from="96r" to="107r">96r-107r</locus>
+                        <title type="uniform">Króka-Refs saga</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Beginning of first chapter missing. Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="13" class="laus" defective="true">
+                        <locus from="107r" to="107r">107r</locus>
+                        <title type="supplied">Lausavísa</title>
+                        <textLang mainLang="non"></textLang>
+                        <title type="beg">Refur var haldinn rausnar samur | ráða klókur og tölu tamur</title>
+                     </msItem>
+                     <msItem n="14" class="isl" defective="true">
+                        <locus from="107v" to="114v">107v-114v</locus>
+                        <title type="uniform">Bandamanna saga</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="15" class="isl" defective="true">
+                        <locus from="115r" to="118v">115r-118v</locus>
+                        <title type="uniform">Orms þáttur Stórólfssonar</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="16" class="isl" defective="true">
+                        <locus from="119r" to="127v">119r-127v</locus>
+                        <title type="uniform">Hávarðar saga Ísfirðings</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="17" class="sagnfr" defective="true">
+                        <locus from="128r" to="131v">128r-131v</locus>
+                        <title type="supplied">Kalmarstríðið</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Beginning and ending missing. Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="18" class="almb" defective="true">
+                        <locus from="132r" to="143v">132r-143v</locus>
+                        <title type="uniform">Helenu saga</title>
+                        <title type="parallel">Sagan af Helenu einhentu</title>
+                        <title type="parallel">Sagan af Helenu vænu og sonum hennar</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="19" class="almb" defective="true">
+                        <locus from="144r" to="169v">144r-169v</locus>
+                        <title type="uniform">Flóres saga og Leó</title>
+                        <title type="parallel">Oktavianus saga keisara</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="20" class="fas" defective="true">
+                        <locus from="170r" to="177v">170r-177v</locus>
+                        <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Beginning and ending missing. Text shortened because of damage.</note>
+                        <note>The text at the end of the third chapter.</note>
+                     </msItem>
+                     <msItem n="21" class="ridd" defective="true">
+                        <locus from="178r" to="181r">178r-181r</locus>
+                        <title type="uniform">Tiodels saga riddara</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                     <msItem n="22" class="almb" defective="true">
+                        <locus from="181r" to="181v">181r-181v</locus>
+                        <title type="supplied">Um tilburð í Konstantínópel</title>
+                        <textLang mainLang="non"></textLang>
+                        <note>Text shortened because of damage.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="181"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions><!--
+                              <watermark ana=""/>-->
+                           </support>
+                           <foliation ana="later fol">
+                              <p>Each item foliated separately in plastic pockets.</p>
+                           </foliation>
+                           <condition ana="poor">22 Fragments, possibly from the same codex</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="36 52">
+                              <num type="wpl" atLeast="13" atMost="17"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="175"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="secondary" subtype="initial">
+                           <p>Initials slightly bigger and lightly decorated.</p>
+                        </decoNote>
+                        <decoNote type="secondary">
+                           <p>Chapter numbers in an orange colour on fol. <locus>69r-82v</locus> and the first words underlined.</p>
+                        </decoNote>
+                     </decoDesc>
+                     <additions ana="medium">
+                        <p><name type="person" key="ambig">Páll Jónsson</name> has added a poem on fol. <locus>166v</locus> with his name. 
+                           Begins: <q>Vísur einar vil hér byrja | virðar hlíði á þetta smíði</q>.</p>
+                        <p>Scribbling on fol. <locus>21v, 89v, 92v, 129v, 146r, 178v, 181r-v</locus>.</p>
+                        <p>The chapter numbers seem to have been added later in some places, some in blank spaces and others in the margins.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1600" notAfter="1650"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:31.318+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:34.352+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:43.146+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:59.362+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:37.019+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-07-01" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <!-- watermark + bindingDesc missing -->
+         <change when="2013-08-22" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

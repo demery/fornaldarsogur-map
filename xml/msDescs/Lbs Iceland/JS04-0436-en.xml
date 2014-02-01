@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 436 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0436-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 436 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="forns">
+                     <locus from="1r" to="68r"/>
+                     <author>Snorri Björnsson</author>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar sögu af Starkaði enum gamla, Vikars þáttur</rubric>
+                     <note>On fol. <locus>37r</locus> is this rubric:
+                        <q>Þáttur af Helga hvassa og Hræreki kóngi, Haraldi hilditönn og
+                        Brávallarbardaganum</q></note>
+                  </msItem>
+                  <msItem n="2" class="kon">
+                     <locus from="69r" to="90v"/>
+                     <title type="supplied">Íslenskt sögubrot um Danakónga, frá Ívari víðfaðma til
+                        Haraldar blátannar. Ritað eftir bókfellsblöðum er fun[d]ust í Árna
+                        Magnússonar bókasafni in qvarto nr. 544</title>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="AM04-0544" ana="antigraph">AM 544 4to</ref>
+                        úr Hauksbók</filiation>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="91v" to="96r">91v-96r</locus>
+                     <title type="supplied">Brot af sögu Danakónganna Haraldar blátannar og Sveins
+                        tjúguskeggs, ritað eftir gamallri skinnbók er finnst meðal Á. Magnússonar
+                        MSS in qvarto nr. 415</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="AM04-0415" ana="antigraph">AM 415 4to</ref> úr
+                        Flateyjarbók </filiation>
+                     <colophon>Nóta, þetta síðara fragmentum sýnist ei vera annað en ágrip úr
+                        his[to]riu Adami Bremensio er Snorri Sturluson síterar í sinni
+                        Noregskonungasögu og kallar Brimabók, en höfundur þessa fragment[i]
+                        Hamborgarhistoriu. H[allgrímur] Sch[eving]</colophon>
+                     <colophon>Aftan við nótuna er efnisyfirlit handrits</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="96"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Front pastedown and front flyleaf are printed waste containing text in Latin, as are
+                              the back flyleaf and rear pastedown.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="225"/>
+                              <width unit="mm" quantity="175"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag">1-34 (69r-85v), 39-55 (88r-96r)</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="14 25">
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Headings</decoNote>
+                     <decoNote type="border"/>
+                  </decoDesc>
+                     <additions ana="high">
+                        <p>Page <locus from="28r" to="28r">28r</locus>
+                           contains some annotations on the words 'arghöggvi' and 'hnepptir'.</p>
+                        <p>Page <locus from="29v" to="29v">29v</locus>
+                           contains some annotations on the word 'skrípilegt'.</p>
+                        <p>Corrections and words underlined throughout.</p>
+                     </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1810" to="1820"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="HalSch001">Hallgrímur Scheving</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:18.273+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:24.442+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:43.471+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2012-08-01" who="#SMM">Completed FASNL encoding. Provided information based
+            on pictures from handrit.is where possible. See note on decoNote msPart II.</change>
+         <change when="2012-11" who="#SK">Added some more information from the manuscript itself</change>
+         <!-- seemingly not our "Sögubrot...", thus no fas -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

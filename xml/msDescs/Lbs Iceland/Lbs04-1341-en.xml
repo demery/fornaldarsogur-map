@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1341 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1341-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1341 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Sögu-safn V.</titlePart>
+                     <note>Ffl2r</note>
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="18v"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <rubric>Sagan af Hermann og Jarlmann</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="almb">
+                     <locus from="19r" to="55v"/>
+                     <title type="uniform">Ambáles saga</title>
+                     <rubric>Sagan af Ambáles eður Amlóða</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="avint smas">
+                     <locus from="56r" to="58r"/>
+                     <title type="supplied">Egypski þjófurinn</title>
+                     <rubric>Frá þjófnum egypska eftir Heródótusi</rubric>
+                     <textLang mainLang="non"/>
+                     <msItem n="4" class="avint">
+                        <locus from="58r" to="58v"/>
+                        <title type="supplied">Ævintýri</title>
+                        <rubric>Ævintýr úr ritum Catonis rómverska</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="59r" to="70r"/>
+                     <title ref="#ask" type="uniform">Ásmundar saga kappabana</title>
+                     <rubric>Hér hefur sögu af Ásmundi er kallaður er kappabani</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="avint smas">
+                     <locus from="70v" to="71r"/>
+                     <title type="supplied">Um berdreymi</title>
+                     <rubric>Ævintýr um berdreymi</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="alf">
+                     <locus from="71r" to="71v"/>
+                     <title type="supplied">Um nokkra afguði</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="avint">
+                     <locus from="71v" to="72r"/>
+                     <title type="supplied">Frásaga af bónda einum</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="8" class="avint">
+                     <locus from="72r" to="72v"/>
+                     <title type="supplied">Frásaga af Karólus Frakkakóngi</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="avint">
+                     <locus from="72v" to="73r"/>
+                     <title type="supplied">Frásaga um Amphilochius</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="10" class="avint">
+                     <locus from="73r" to="74v"/>
+                     <title type="supplied">Um nauðstadda ekkju</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <note>Ffl is part of binding</note>
+                           <num type="book-block" value="74"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Ffl is part of binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="201"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag">1-36, 1-80, 1-32</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="23 25">
+                           <num type="wpl" atLeast="10" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="163"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GisKon001" scope="sole" script="hum cursiva">Gísli
+                        Konráðsson</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">headings</decoNote>
+                  </decoDesc>
+                  <additions ana="low">Title-page Ffl 2r and a list of contents in the hand of Páll Pálsson
+                     student on Ffl 2v from the time of binding <q>Innihald</q></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>A plain library binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1840"/>
+                  </origin>
+                  <provenance><name type="person" role="owner" key="JonTho009"/>Jón Thorkelsson
+                     rektor</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:54.286+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07-27" who="#SK">Added items and classes and other information from the
+            P.E.Ó.-catalogue</change>
+         <change when="2012-09-19" who="#SK">Added items, layout and other information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

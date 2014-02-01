@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+	
+		<fileDesc>
+			<titleStmt>
+				<title>UB 246 fol.</title>
+			</titleStmt>
+
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>
+			</publicationStmt>
+
+			<sourceDesc>
+				<msDesc xml:id="UB02-0246-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 246 fol.</idno>
+					</msIdentifier>
+
+					<msPart>
+
+						<altIdentifier>
+							<idno>UB 246 I fol.</idno>
+						</altIdentifier>
+
+						<msContents>
+
+							<!--<titlePage ana="no|contemporary|later">
+								<titlePart></titlePart>
+							</titlePage>-->
+
+							<msItem n="1" class="kon">
+								<!-- loci approximated throughout from page numbers given in typescript catalogue -->
+								<locus from="1r:X" to="16r:X"/>
+								<title type="uniform">Skálda saga</title>
+								<textLang mainLang="non"/>
+								<rubric>Skallda Saga Harallz Hárfagra</rubric>
+								<incipit/>
+								<explicit/>
+
+								<filiation>
+									<ref type="ms" target="AM04-0307-en" ana="antigraph">copy of AM 307 4to.</ref>
+								</filiation>
+
+							</msItem>
+
+							<msItem n="2" class="fas">
+								<locus from="16v:X" to="19r:X"/>
+								<title type="uniform" ref="#upp">Af Upplendinga konungum</title>
+								<textLang mainLang="non"/>
+								<rubric>Af Upplendinga konungum</rubric>
+								<incipit/>
+								<explicit/>
+
+								<filiation>
+									<ref type="ms" target="AM04-0307-en" ana="antigraph">copy of AM 307 4to.</ref>
+								</filiation>
+
+							</msItem>
+
+							<msItem n="3" class="fas">
+								<locus from="19r:X" to="31r:X"/>
+								<title type="uniform" ref="#rth">Ragnarssona þáttur</title>
+								<title type="parallel">Ragnarssona þáttr</title>
+								<textLang mainLang="non"/>
+								<rubric>Af Ragnars sunum oc þeirra ætt</rubric>
+								<incipit/>
+								<explicit/>
+
+								<filiation>
+									<ref type="ms" target="AM04-0307-en" ana="antigraph">copy of AM 307 4to.</ref>
+								</filiation>
+
+							</msItem>
+
+						</msContents>
+
+					</msPart>
+
+					<msPart>
+
+						<altIdentifier>
+							<idno>UB 246 II fol.</idno>
+						</altIdentifier>
+
+						<msContents>
+
+							<!--<titlePage ana=<!-\-"no|contemporary|later"-\->>
+								<titlePart></titlePart>
+							</titlePage>-->
+
+							<msItem n="1" class="fas">
+								<locus from="32r:X" to="49v:X"/>
+								<title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+								<title type="parallel">Norna-Gests þáttr</title>
+								<textLang mainLang="non"/>
+								<rubric>Sógu þáttr af Norna Gesti</rubric>
+								<incipit/>
+								<explicit/>
+
+								<filiation>
+									<ref type="ms" target="AM02-0202i-en" ana="antigraph">copy of AM 202i fol.</ref>
+								</filiation>
+
+							</msItem>
+
+							<msItem n="2" class="islt">
+								<locus from="50r:X" to="53v:X"/>
+								<title type="uniform">Þorsteins þáttur tjaldstæðings</title>
+								<title type="parallel">Þorsteins þáttr tjaldstæðings</title>
+								<textLang mainLang="non"/>
+								<rubric>Af Ásgrími hersi oc Þórsteini Tialldstæding syni hans</rubric>
+								<incipit/>
+								<explicit/>
+
+							</msItem>
+
+							<msItem n="3" class="islt">
+								<locus from="54r:X" to="57v:X"/>
+								<title type="uniform">Sneglu-Halla þáttur</title>
+								<title type="parallel">Sneglu-Halla þáttr</title>
+								<textLang mainLang="non"/>
+								<rubric>Saga Snegluhalla</rubric>
+								<incipit/>
+								<explicit/>
+
+								<note>Copied from a paper MS in the AM collection (itself a copy of Flateyjarbók) [cf. Note in typescript
+									catalogue].</note>
+
+							</msItem>
+
+						</msContents>
+
+					</msPart>
+
+					<msPart>
+
+						<altIdentifier>
+							<idno>UB 246 III fol.</idno>
+						</altIdentifier>
+
+						<msContents>
+
+							<!--<titlePage ana="no|contemporary|later">
+								<titlePart></titlePart>
+							</titlePage>-->
+
+							<msItem n="1" class="kon">
+								<locus from="59r:x" to="61r:x"/>
+								<title type="uniform">Olafs saga Tryggvasonar</title>
+
+								<msItem n="1.1" class="konth">
+									<locus from="59r:X" to="61r:X"/>
+									<title type="supplied">Eiríks þáttur Hákonarsonar</title>
+									<title type="parallel">Eiríks þáttr Hákonarsonar</title>
+									<textLang mainLang="non"/>
+									<rubric>Þáttr Eiríks Hákonarsunar</rubric>
+									<incipit/>
+									<explicit/>
+									
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+								<msItem n="1.2" class="islt">
+									<locus from="61r:X" to="72v:X"/>
+									<title type="uniform">Orms þáttur Stórólfssonar</title>
+									<title type="parallel">Orms þáttr Stórólfssonar</title>
+									<textLang mainLang="non"/>
+									<rubric>Þáttr Orms Storolfssunar</rubric>
+									<incipit/>
+									<explicit/>
+									
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+								<msItem n="1.3" class="isl">
+									<locus from="72v:X" to="76v:X"/>
+									<title type="uniform">Hallfreðar saga vandræðaskálds</title>
+									<textLang mainLang="non"/>
+									<rubric>Þáttr Hallfredar Vandrædaskalldz</rubric>
+									<incipit/>
+									<explicit/>
+
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+								<msItem n="1.4" class="islt">
+									<locus from="76v:X" to="87r:X"/>
+									<title type="uniform">Grænlendinga þáttur</title>
+									<title type="uniform">Grænlendinga þáttr</title>
+									<textLang mainLang="non"/>
+									<rubric>Grænlendinga þáttr</rubric>
+									<incipit/>
+									<explicit/>
+
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+								<msItem n="1.5" class="kon">
+									<locus from="87r:X" to="94v:X"/>
+									<title type="uniform">Færeyinga saga <note>(Excerpt)</note></title>
+									<textLang mainLang="non"/>
+									<rubric>Af Sigmundi Brestis syni</rubric>
+									<incipit/>
+									<explicit/>
+
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+								<msItem n="1.6" class="kon">
+									<locus from="94v:X" to="97v:X"/>
+									<title type="uniform">Orkneyinga saga <note>(Excerpt)</note></title>
+									<textLang mainLang="non"/>
+									<rubric>Orkneyia Jarla þáttr</rubric>
+									<incipit/>
+									<explicit/>
+
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+								<msItem n="1.7" class="konth">
+									<locus from="98r:X" to="102v:X"/>
+									<title type="uniform">Hálfdanar þáttur svarta</title>
+									<title type="parallel">Hálfdanar þáttr svarta</title>
+									<textLang mainLang="non"/>
+									<rubric>Þáttr Hálfdanar Svarta</rubric>
+									<incipit/>
+									<explicit/>
+
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+								<msItem n="1.8" class="konth">
+									<locus from="102v:X" to="117r:X"/>
+									<title type="uniform">Haralds þáttur hárfagra</title>
+									<title type="uniform">Haralds þáttr hárfagra</title>
+									<textLang mainLang="non"/>
+									<rubric>Upphaf ríkis Haralldz Hárfagra</rubric>
+									<incipit/>
+									<explicit/>
+
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+								<msItem n="1.9" class="konth">
+									<locus from="117r:X" to="119r:X"/>
+									<title type="uniform">Haralds þáttur grenska</title>
+									<title type="parallel">Haralds þáttr grenska</title>
+									<textLang mainLang="non"/>
+									<rubric>Þáttr Haralldz Grænska</rubric>
+									<incipit/>
+									<explicit/>
+
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+								<msItem n="1.10" class="konth">
+									<locus from="119r:X" to="122v:X"/>
+									<title type="uniform">Ólafs þáttur Geirstaðaálfs</title>
+									<title type="parallel">Ólafs þáttr Geirstaðaálfs</title>
+									<textLang mainLang="non"/>
+									<rubric>Þáttr Olafs Geirstadaálfs</rubric>
+									<incipit/>
+									<explicit/>
+
+									<filiation>
+										<ref type="ms" target="GKS02-1005-en" ana="antigraph">copy of GKS 1005 fol. (Flateyjarbók)</ref>
+									</filiation>
+									
+								</msItem>
+
+							</msItem>
+
+						</msContents>
+
+					</msPart>
+					
+					<msPart>
+						
+						<altIdentifier>
+							<idno>UB 246 IV fol.</idno>
+						</altIdentifier>
+						
+						<msContents>
+							
+							<!--<titlePage ana="no|contemporary|later">
+								<titlePart></titlePart>
+							</titlePage>-->
+							
+							<msItem n="1" class="islt">
+								<locus from="125r:X" to="130v:X"/>
+								<title type="uniform">Gull-Ásu-Þórðar þáttur</title>
+								<title type="parallel">Gull-Ásu-Þórðar þáttr</title>
+								<textLang mainLang="non"/>
+								<rubric>Af Gullásu Þorðe</rubric>
+								<incipit/>
+								<explicit/>
+								
+							</msItem>
+							
+							<msItem n="2" class="islt">
+								<locus from="130r:X" to="142r:X"/>
+								<title type="uniform">Egils þáttur Síðu-Hallssonar</title>
+								<title type="parallel">Egils þáttr Síðu-Hallssonar</title>
+								<textLang mainLang="non"/>
+								<rubric>Af Egli Síðuhallzsyni</rubric>
+								<incipit/>
+								<explicit/>
+								
+								<note>Variants taken (or perhaps copied from) AM 518 4to (cf. typescript catalog).</note>
+								
+							</msItem>
+							
+							<msItem n="3" class="konth">
+								<locus from="142v:X" to="155r:X"/>
+								<title type="uniform">Karls þáttur vesæla</title>
+								<title type="parallel">Karls þáttr vesæla</title>
+								<textLang mainLang="non"/>
+								<rubric>Af Karle Vesæla</rubric>
+								<incipit/>
+								<explicit/>
+								
+							</msItem>
+							
+							<msItem n="4" class="islt">
+								<locus from="155v:X" to="160r:X"/>
+								<title type="uniform">Stúfs þáttur</title>
+								<title type="uniform">Stúfs þáttr</title>
+								<textLang mainLang="non"/>
+								<rubric>Af Stúf Kattarsyni</rubric>
+								<incipit/>
+								<explicit/>
+								
+								<filiation>
+									<ref type="ms" target="AM04-0533-en" ana="antigraph">copy of AM 533 4to.</ref>
+								</filiation>
+								
+							</msItem>
+							
+						</msContents>
+						
+					</msPart>
+					
+					<msPart>
+						
+						<altIdentifier>
+							<idno>UB 246 V fol.</idno>
+						</altIdentifier>
+						
+						<msContents>
+							
+							<!--<titlePage ana="no|contemporary|later">
+								<titlePart></titlePart>
+							</titlePage>-->
+							
+							<msItem n="1" class="isl">
+								<locus from="161r:X" to="196v:X"/>
+								<title type="uniform">Gull-Þóris saga</title>
+								<textLang mainLang="non"/>
+								<rubric>Gullþóris Saga</rubric>
+								<incipit/>
+								<explicit/>
+								
+								<note>Related to copy in AM 495 4to (cf. typescript catalog).</note>
+								
+							</msItem>
+							
+						</msContents>
+					
+
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<num type="book-block" value="197"/>
+									<dimensions type="leaf">
+										<height unit="mm" quantity="310"/>
+										<width unit="mm" quantity="199"/>
+									</dimensions>
+									<!--<watermark ana="no|yes"/>-->
+								</support>
+
+								<!--<foliation ana="no|contemporary|later|pag|col|fol"/>-->
+
+								<condition ana="unknown"/>
+
+							</supportDesc>
+							<!--<layoutDesc>
+								<layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">
+									<num type="wpl" atLeast="" atMost=""/>
+									<!-\- based on counts of wpl from 3 pages at random -\->
+									<dimensions type="written">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions>
+								</layout>
+							</layoutDesc>-->
+
+						</objectDesc>
+
+						<handDesc hands="1">
+							<handNote scribeRef="unknown" scope="sole" script="unknown"/>
+						</handDesc>
+
+						<!--<decoDesc ana="no|low|medium|high">
+							<decoNote type="border"/>
+						</decoDesc>-->
+
+						<!--<additions ana="unknown">
+							<p/>
+						</additions>-->
+
+						<!--<bindingDesc>
+							<binding ana="plain|moderate|decorative" contemporary="false">
+								<p/>
+							</binding>
+						</bindingDesc>-->
+
+					</physDesc>
+
+					<history>
+						<origin>
+							<origDate notBefore="1700" notAfter="1799"/>
+							<origPlace key="IS"/>
+						</origin>
+
+						<provenance>
+							<p>Purchased from <name type="person" role="owner" key="PetPet005">Petersen bergráði</name> 
+								in 1849 (cf. typescript catalog).</p>
+							</provenance>
+
+					</history>
+					</msPart>
+				</msDesc>
+
+			</sourceDesc>
+
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-17" who="#JSL">Added template elements and input data from Jónas Kristjánsson's typescript catalog,
+			"Skrá um íslenzk handrit í Noregi".</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

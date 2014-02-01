@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>R 697</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-697" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 697</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="127"/>
+                           <num type="back-flyleaf" value="1"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions ana="low">
+                     <p>A yellow label has been stuck on the inside front cover in the top-left hand corner. It reads <q>Upsala
+                           Univ. Bibliotek R:697</q></p>
+                     <p>On the inside front cover someone has written the following in ink: <q>Upsala Univ. Bibliothek Ur Nordins
+                           Saml. 398 Eigils S " " " 100 Halfdanar S. Brunaf Kristni B. Maga S. " " " 71 Ketil Hängs S.
+                           Langfeðgatal Catal. Histor. &amp; Fabul. Island Salans Saml. No 72 Yngl. S. Hálfd. Svarta S.</q></p>
+                     <p>A sheet has been pasted upon the first front flyleaf - it is a library insert which contains a list of all
+                        the people who loaned the manuscript out and the dates when they took and returned it, between 1956 and
+                        1991.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound in orange-red-brown marbelled paper on cardboard boards with white parchment
+                           corners and spine uncovered. On the spine there is written in ink: <q>R 697. EGILS SAGA SKALLAGRIMS
+                              SONAR.</q>. The name of the saga is written on a red background.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <!-- item IV has to have been done after 1716 -->
+                     <origDate notBefore="1650" notAfter="1716"/>
+                     <!--                     <origPlace key=""/>-->
+                  </origin>
+               </history>
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 697 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" to="40v"/>
+                        <title type="uniform">Egils saga Skallagrímssonar</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="2"/>
+                              <num type="book-block" value="40"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <note>A sheet has been pasted upon the first front flyleaf (see additions).</note>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="213"/>
+                                 <width unit="mm" quantity="162"/>
+                              </dimensions>
+                              <watermark ana="no">No visible watermarks.</watermark>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="31 35">
+                              <num type="wpl" atLeast="16" atMost="18"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="186"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="chancery">Very dense hand.</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 697 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="1r" to="5v"/>
+                        <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                        <rubric>Hier hefur søgu Halfdane Brønu Föstra</rubric>
+                        <rubric>I Cap. Frä Hringe Dana Könge og Børn um hanns</rubric>
+                        <incipit>Hringur er köngur nefndur, han<ex>n</ex> riedi fyrir Danmørk, hann var vitur madur</incipit>
+                        <explicit>halfdan seigist hun ad vitid hafum hina fundist han<ex>n</ex></explicit>
+                        <!-- Check text -->
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="6r" to="11r"/>
+                        <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                        <rubric>Sagann af Illuga Grydar föstra</rubric>
+                        <rubric>! Cap. Upphaf Sigurdar og Illauga.</rubric>
+                        <incipit>Sa köngur hiet Hrïngur, er riedi fyrir Danmórku, og war Skialldarson</incipit>
+                        <explicit>og liukum vier so þessari sógu Af Illuga Gridarföstra.</explicit>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="fas" defective="true">
+                        <locus from="11v" to="20v"/>
+                        <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                        <rubric>Sagann Af Eigle Einhenda og Asmunde Berserkja Bana</rubric>
+                        <rubric>I Cap. Burtnäm Dætra Hryggvids köngs</rubric>
+                        <incipit>Hertyggur hefur köngur heitid, hann riedi fyrir Austur</incipit>
+                        <explicit>fagrir og godir gripir seigir jotuninn, edur willtu selia mier</explicit>
+                        <textLang mainLang="non"/>
+                        <note>Saga is cut off in the middle of chapter 13.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="21"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">A fool</watermark>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="22 31">
+                              <num type="wpl" atLeast="9" atMost="13"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="172"/>
+                                 <width unit="mm" quantity="126"/>
+                              </dimensions>
+                              <catchwords ana="yes">With flourishes</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudOla001" scope="major" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="paratext">Some decoration around the titles e.g. f. 1r. Some minor decoration around
+                           divisions e.g. f. 2v.</decoNote>
+                     </decoDesc>
+                     <additions ana="medium">
+                        <p>On <locus>f. 1r</locus> <q>N. 1.</q> has been written at the top and in pencil at the bottom: <q>Nord. 100.</q></p>
+                        <p>On <locus>f. 6r</locus> at the top in ink has been written <q>No. 2</q> and in pencil <q>arn. S.
+                           79.</q>?</p>
+                        <p>There are various notes in the margins in black ink, perhaps also by Guðmundur, the scribe.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 697 III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="isl">
+                        <!-- Check catalogue -->
+                        <locus from="1r" to="4v"/>
+                        <title type="uniform"/>
+                        <rubric>Saga Capitule : fra ingiallde bröþur Hälfdanar Hrÿtbeins</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="1" class="isl">
+                        <!-- Check catalogue -->
+                        <locus from="5r" to="11v"/>
+                        <title type="uniform"/>
+                        <rubric>Hier hefur upp saugu frä Hälfdane kongi Suarta</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="12"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="fol">Leaves <locus from="1r" to="11r">1r-11r</locus> are foliated in pencil with
+                              117-137, only the rectos, except for 138 on <locus>f. 11v</locus> and 1 on <locus>fol. 12r</locus>. A
+                              contemporary pagination is also present for item 2, but only sporadically (1, 5, 7, 8, 9, 10, 11,
+                              12, 13).</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="21 22">
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="155"/>
+                                 <width unit="mm" quantity="112"/>
+                              </dimensions>
+                              <catchwords ana="yes">With flourishes</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 697 IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="15r"/>
+                        <title ref="#ksh" type="uniform">Ketils saga hængs <note>[Swedish]</note></title>
+                        <rubric>Kiettil hængs och Grim ludinkinns Saga Försvänskad uti Junii måned Åhr 1716 Af Nils hufwud Son
+                           Jul.</rubric>
+                        <textLang mainLang="sv"/>
+                        <note>Beneath the rubric on <locus>1r</locus> is written: <q>Antiqua Lingua Norvagica et versione Latina
+                              Islefi Thorlevii Islandi edidit Olavis Rudbeckius upsala Anno 1697 Folio.</q></note>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="15v" to="21r"/>
+                        <title ref="#gsl" type="uniform">Gríms saga loðinkinna <note>[Swedish]</note></title>
+                        <textLang mainLang="sv"/>
+                        <note>This text is shown as a continuation of the previous as <q>Capitel 7</q>.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="22"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="163"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="22">
+                              <num type="wpl" atLeast="9" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="175"/>
+                                 <width unit="mm" quantity="122"/>
+                              </dimensions>
+                              <catchwords ana="yes">With flourishes</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>On <locus>f.1r</locus> <q>No 264</q> has been written and crossed out. Also the number 11. </p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 697 V</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="att">
+                        <!-- Check catalogue -->
+                        <locus from="1r" to="2v"/>
+                        <title type="uniform">Langfeðgatal</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="isl">
+                        <locus from="2v" to="8r"/>
+                        <title type="supplied">Various genealogical tables</title>
+                        <textLang mainLang="non"/>
+                        <msItem n="2.1" class="aett">
+                           <locus from="2v" to="3r"/>
+                           <rubric>Ættarbogen (\: linea genealogica)</rubric>
+                        </msItem>
+                        <msItem n="2.2" class="aett">
+                           <locus from="3r" to="3v"/>
+                           <rubric>Onnur Ættartala fra Oden til danmerkur</rubric>
+                        </msItem>
+                        <msItem n="2.3" class="">
+                           <locus from="4r" to="4v"/>
+                           <rubric>Noregs kongar</rubric>
+                        </msItem>
+                        <msItem n="2.4" class="">
+                           <locus from="5r" to="5r"/>
+                           <rubric>Aunnur ætt fra Ragnar</rubric>
+                        </msItem>
+                        <msItem n="2.5" class="">
+                           <locus from="5v" to="6r"/>
+                           <rubric>Aunnur ætt fra Ragnar</rubric>
+                        </msItem>
+                        <msItem n="2.6" class="aett">
+                           <locus from="6r" to="7v"/>
+                           <rubric>Ættartala fra Oþen til Einglands</rubric>
+                        </msItem>
+                        <msItem n="2.7" class="aett">
+                           <locus from="8r" to="8r"/>
+                           <rubric>NAunnur Ættartala</rubric>
+                        </msItem>
+                     </msItem>
+                     <msItem n="3" class="misc">
+                        <locus from="9r" to="15r"/>
+                        <!-- needs title -->
+                        <title type="supplied"/>
+                        <rubric>Catalogus Historiarum et monumentorum e penu Antiquitatis Islandica depomptus</rubric>
+                        <textLang mainLang="non"/>
+                        <note>An alphabetical list of sagas and þættir.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="16"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="161"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="no">But <q>1</q> appears on <locus>f.1r</locus>.</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="25 28">
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="193"/>
+                                 <width unit="mm" quantity="123"/>
+                              </dimensions>
+                              <note>Layout is not dense - the list of names are spread out on the page.</note>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Various notes in pencil from <locus from="8r" to="10r">8r-10r</locus> adding English names for monarchs
+                           and years AD.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 697 VI</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="?">
+                        <!-- Check catalogue -->
+                        <locus from="1r" to="15r"/>
+                        <!-- is this the kristni bálkr of some legal text? -->
+                        <title type="supplied">?</title>
+                        <rubric>Her hæfver upp Kristeni Bolken oc hans Brænez.</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="16"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="168"/>
+                              </dimensions>
+                              <watermark ana="yes">Two lions flanking a crown on a pedestal.</watermark>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="average">The part is made up of two quires, the second of which is coming away from the
+                              binding.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="23 25">
+                              <num type="wpl" atLeast="7" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                              <catchwords ana="yes">With flourishes</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>On f.<locus>1r</locus> <q>N.19.</q> has been written in the top-right corner.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:11.364+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-10" who="#PTL">Completed details in Upsala with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

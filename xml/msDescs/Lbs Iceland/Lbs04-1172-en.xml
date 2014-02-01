@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1172 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1172-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1172 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="2r" to="16r"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <note>Some text missing at the beginning</note>
+                     <incipit>... við að þegar degi hallar er sett, vil ég að þú sért lítt úti og þó
+                        helst að þú gangir ei norður á eyna frá bænum.</incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="17r" to="24v"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <rubric>Hér kemur frá Grími loðinkinnu</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2.1" class="kvad">
+                     <locus from="24v" to="24v"/>
+                     <note>A verse in skaldic meter</note>
+                     <incipit>Lét ég sett letri, /af Loðinkinna ...</incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="25r" to="76r"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <rubric>Hér birtist saga af Örvar Oddi</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="76r" to="102r"/>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="forns avint">
+                     <locus from="102r" to="107r"/>
+                     <title type="uniform">Jóns saga leikara</title>
+                     <rubric>Saga af Jón leiksveini</rubric>
+                     <note>Composed on the basis of the rimur. The original saga has not survived.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="107r" to="122r"/>
+                     <title type="uniform">Blómsturvallasaga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6.1" class="annal">
+                     <locus from="122r" to="122v"/>
+                     <title type="supplied">Um tilburð í Stralsund 30.1.1670</title>
+                     <rubric>Under skrifast hér Til Stralsund skéði soddan teikn</rubric>
+                  <note>Filling up an empty space.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="123r" to="132r"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <rubric>Saga af Herrauði og Bósa</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ferds">
+                     <locus from="133r" to="136r"/>
+                     <title type="uniform">Reisubók Jóns Indíafara</title>
+                     <rubric>Þetta eftir bók Jóns Ólafssonar Indíafara (samin 1661). Anno 1613
+                        endaði það svenska stríð millum Svíaríkis og Danmerkur.</rubric>
+                     <note>A part</note>
+                     <explicit>En nú (segir author 1661) Er þar komin öll dönsk vísa og tungumál, þá
+                        voru þar 15 kirkjur, 1 prófastur, enginn biskup, 30 bændur. </explicit>
+                     <colophon>Jóns skrif er ei meira hér innfært</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="tjods">
+                     <locus from="136r" to="136v"/>
+                     <title type="supplied">Um Bjarna í Efranesi</title>
+                     <filiation type="article" ana="protograph apograph">? M. Ketilsson Maanedstidende I.aarg bls. 52-3</filiation>
+                     <rubric>So þessi blaðsíða verði ei auð þá er þetta eftirfylgjandi, því til þess
+                        eru ill dæmi að varast þau.</rubric>
+                     <colophon>Endar so þessa bók</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="avint">
+                     <locus from="137r" to="139v"/>
+                     <title type="supplied">Gnýs ævintýri</title>
+                     <title type="supplied">Stývarðs saga og Gnýs</title>
+                     <rubric>Ein lítil frásaga</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="139v" to="145v"/>
+                     <title type="uniform">Nitidu saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="145v" to="159r"/>
+                     <title type="uniform">Rémundar saga keisarasonar</title>
+                     <rubric>Sagan af Remundi kerrumanni</rubric>
+                     <colophon>NB So mikill mismunur er á milli Remundar sögu hér að framan
+                        skrifaðri, sem einasta hefur sögunnar efni enn ei söguna sjálfa og sýni ég
+                        hér mismuninn frá hennar 27 kap. og þessarar 30 kap.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="159r" to="181r"/>
+                     <title type="uniform">Rémundar saga keisarasonar</title>
+                     <note>From chapter 30 onwards appears to be a fuller version</note>
+                     <incipit>So snemma sem sólin kom upp þá var Geiraldur kongsson uppi og býður að
+                        fá sér sín bestu herklæði og sinn góða hest mmeð sínum besta búnaði og þegar
+                        þetta var gjört herklæddu hann fjórir jarlar og síðan stígur hann á sinn
+                        hest so hann studdist hvorki við stigreip né söðulboga ... </incipit>
+                     <colophon>Og endar hér so þennan síðari part af keisara Remundar historíu eður
+                        sögu.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="181"/>
+                           <note>Three loose leaves at the back, one of them modern with a list of contents</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="198"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no">Only from time of restoration</foliation>
+                        <condition ana="poor average">The effectivity of the restoration is questionable</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="25 31">
+                           <num type="wpl" atLeast="8" atMost="14"/>
+                           <dimensions type="written"/>
+                           <height unit="mm" quantity="187"/>
+                           <width unit="mm" quantity="122"/>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"/>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Initials and headings in the central/main sections<locus from="24r" to="75r"/></decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>fol 1r: Þessa bók á guðelskandi heiðurskvinna Ásgerður Ólafsdóttir anno 1839
+                        vitnar 25.9. ...</p>
+                     <p>Endir þessarar sögubókar Jón Jónsson, fol. 181r</p>
+                     <p>Finis Björn Björnsson á þessa bók með réttu vitnar Sigríður Jónsdóttir af
+                        Reykjavík, fol 181v</p> On fol. 181v some older text appears, probably in
+                     verse form but hard to read. There are also two loose leaves with some text, as well as 
+                     verses and an alphabet and on the verso side the name Jakob Jónsson á Harastöðum
+                     in pencil and in modern a modern hand. On the second leaf that has previosuly been an inner cover
+                     sheet in binding there is a letter to Konferensráð Sveinn Jónsson á Eyjum from
+                     Jón Andrésson </additions>
+                  <bindingDesc>
+                     <binding ana="moderate">
+                        <p>Leather on wooden boards</p>
+                        <p>Binding kept separate</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="AsgOla001">Ásgerður Ólafsdóttir</name>
+                     <name type="person" role="owner" key="BjoBjo003">Björn Björnsson</name>
+                     <name type="person" role="owner" key="SigJon034">Sigríður Jónsdóttir</name>
+                     <name type="person" role="owner" key="GudHja001">Guðmundur Hjartarson</name>
+                     <name type="person" role="owner" key="JonTho010">Jón Þorkelsson
+                        þjóðskjalavörður</name>
+                     <!-- display these somehow? -->
+                     <name type="person" role="name" key="ambig">Jakob Jónsson Harastöðum </name>
+                     <name type="person" role="name" key="ambig">Sveinn Jónsson Eyjum</name>
+                     <name type="person" role="name" key="ambig">Andrés Jónsson </name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:52.075+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07" who="#SK">Added items and classes and other information from the
+            P.E.Ó.-catalogue and the XML-file on handrit.is as well as the digital image of the
+            manuscript itself. Made some corrections</change>
+         <change when="2012-09-12" who="#SK">Added more information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

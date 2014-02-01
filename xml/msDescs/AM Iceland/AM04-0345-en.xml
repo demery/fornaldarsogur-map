@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 345 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed by the University of Copenhagen under
+                  a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0345-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 345 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="8v">1r-8v</locus>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9r" to="29v">9r-29v</locus>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="30r" to="50r">30r-50r</locus>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <note>The year <date when="1694">1694</date> is written at the end.</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="50v" to="74r">50v-74r</locus>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <note>At the end: <q>Kalfa wyk ... 1695</q>.</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="74v" to="78v">74v-78v</locus>
+                     <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>The year <date when="1694">1695</date> is written at the end.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="78"/>
+                           <!--<dimensions type="leaf">
+                              <!-\-<height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>-\->
+                           </dimensions>-->
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="28 32">
+                           <num type="wpl" atLeast="14" atMost="22"/>
+                           <!--<dimensions type="written">
+                              <!-\-<height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>-\->
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="major" script="cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="semihybrida"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Initials decorated in black ink. Some are left blank. Mostly in the first half of
+                        the manuscript.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Register on fol. 29v from <date when="1702">1702</date> of 19 sagas that are mostly in this manuscript or
+                        in <ref>AM 536 4to</ref> and <ref>AM 585 a-e 4to</ref>. Later says: <q>Þeſsarar bokar Regiſtur sem þeſsar
+                           sogur hefur jn<ex>n</ex>e ad hallda: ſkrifadar af Jone Sal. Thordarſyne An<ex>n</ex>o 1700. Þeſsa fyrr
+                           nefnda Sogu book  eg Jon Jonſson En<ex>n</ex> Eingin<ex>n</ex> an<ex>n</ex>ar hveria mier Giefid hefur
+                              min<ex>n</ex> salugi [elſk]u fader Jon Thor[darson] M ... Jon Jonſson med Eigin<ex>n</ex> H[en]de.
+                              An<ex>n</ex>o 1703</q>. Kålund doubts whether fols. 4-8 and 30-78 are written by Jón Þórðarson and
+                        refers to <ref>AM 426 fol.</ref> <name key="ArnMag001" type="person">Árni Magnússon</name> got this
+                        collection as one book from <name key="MarBer001" type="person">Markús Bergsson</name> with AM 536 4to and
+                        AM 585 a-e 4to.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" notBefore="1981" notAfter="1981" contemporary="false">
+                        <!-- binding ana needs to be checked -->
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1675" notAfter="1700"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>See additions.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:17.688+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:24.347+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:33.856+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data,
+            now removed.</change>
+         <change when="2011-05-07T18:41:49.533+02:00" who="#EAH">Extracted pagination and page dimension data from previous
+            version.</change>
+         <change when="2011-05-07T19:17:27.653+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-05-14" who="#SMM">Translated into English. Added information from black and white photos in the
+            Arnamagnaean Collection, Copenhagen.</change>
+         <!-- watermark, dimensions and bindingDesc missing. -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

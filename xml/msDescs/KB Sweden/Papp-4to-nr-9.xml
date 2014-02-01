@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 9</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-9" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 9</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kon" defective="true">
+                     <locus from="1r" to="229v:10"/>
+                     <title type="uniform">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="1.1" class="fas">
+                        <locus from="73v" to="74v"/>
+                        <title ref="#ff" type="uniform">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Fundinn Noregur</title>
+                        <textLang mainLang="non"/>
+                        <filiation>
+                           <p>Derived from 
+                           <ref type="ms" target="#GKS02-1005-is" ana="protograph">GKS 1005 fol.</ref></p>
+                        </filiation>
+                     </msItem>
+                     <msItem n="1.2" class="fas">
+                        <locus from="110r" to="113v"/>
+                        <title ref="#hsh" type="uniform">Sörla þáttur</title>
+                        <textLang mainLang="non"/>
+                        <filiation>
+                           <p>Derived from 
+                           <ref type="ms" target="#GKS02-1005-is" ana="protograph">GKS 1005 fol.</ref></p>
+                        </filiation>
+                     </msItem>
+                     <msItem n="1.3" class="fas">
+                        <locus from="134r" to="138r"/>
+                        <title ref="#hthth" type="uniform">Helga þáttur Þórissonar</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="229v:11" to="230v"/>
+                     <title type="supplied">Óláfs ríma</title>
+                     <textLang mainLang="non"/>
+                     <author>Einar Gilsson</author>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="231r" to="351v"/>
+                     <title type="supplied">Úr Noregs konunga sögur</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="3.1" class="kon">
+                        <locus from="231r" to="267v:18"/>
+                        <title type="uniform">Magnús saga góða</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3.2" class="kon">
+                        <locus from="167v:19" to="300r:2"/>
+                        <title type="uniform">Haralds saga harðráða</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3.3" class="kon">
+                        <locus from="300r:3" to="310v:22"/>
+                        <title type="supplied">Magnús saga berfætts</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3.4" class="kon">
+                        <locus from="310v:23" to="336v"/>
+                        <title type="uniform">Sigurðar saga Jórsalafara</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="351"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="yes">different watermarks: e.g. two lions holding a coat of arms with a large crown on
+                              top; a round watermark, rather small, with floral ornaments</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="32 38">
+                           <num type="wpl" atLeast="12" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <!-- 15 leaves at the end as well? -->
+                           <note>fols. 41r-52v are blank.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext"><p>The rubrics are slightly decorated. There is open space for initials but none of them is filled in.</p></decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>A few scholarly comments and marks for chapters in the margins, e.g. a variant reading on fol.
+                           <locus>231r</locus>, probably from the text mentioned in the note on front-flyleaf:
+                           <q>Distinctio capitum ex Cod. Husafeld(?). vid. Chap. 163</q>. On the recto side of the front-flyleaf,
+                           <q>TTS</q> is added in red. And <q>Emptus Anno Domini 1682</q> in black. On the verso-side of the
+                        flyleaf, <q>Historia Olai Triggonis Completissima</q> and <q>Fragmentum Historia Magni Regis Boni</q> is
+                        added by the same hand. There are two stickers with the shelfmark on the binding. In the manuscript case,
+                        there are two little slips (photocopies) with information on Norna-Gests þáttr and Flateyjarbók.
+                     </p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Thick wooden plates covered in pressed leather</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:58.314+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-01" who="#BES">quick prep. for library. still catalog info missing.</change>
+         <change when="2013-03-07" who="#BES">Measured and checked with the manuscript in situ.</change>
+         <change when="2013-04-03" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

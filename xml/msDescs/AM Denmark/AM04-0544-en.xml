@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 544 4to</title>
+         </titleStmt>
+
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc xml:id="AM04-0544-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 544 4to</idno>
+                  <altIdentifier type="nickname">
+                     <idno>Hauksbók</idno>
+                  </altIdentifier>
+               </msIdentifier>
+
+               <msContents>
+                  <titlePage ana="no"/>
+
+                  <msItem n="1" class="misc">
+                     <locus from="1r:1" to="14v:30"/>
+                     <title type="supplied" xml:lang="la">Geographica qvædam et physica, Theologica qvædam ex sermonibus
+                        Augustini, Varia, atqve inter ea Astronomica qvædam</title>
+                     <title type="supplied" xml:lang="is">Heimslýsing ok helgifræði</title>
+                     <textLang mainLang="non"/>
+
+                     <filiation>
+                        <p>
+                           <ref type="ms" target="#AM04-0765-en" ana="apograph">AM 765 4to</ref> is <name type="person" key="ArnMag001">Árni Magnússon</name>'s
+                           autograph copy of fols <locus>1r-4r</locus> and <locus>8r-9r</locus>.</p>
+                     </filiation>
+
+                     <note>Fols. <locus>1r-14v</locus> contain a collection of dissertations and excerpts on geographical, chronological and
+                        theological subjects. Ends defective.</note>
+
+                     <msItem n="1.1" class="geog">
+                        <locus from="1r:1" to="1v:23"/>
+                        <title type="supplied" xml:lang="en">On Famous Rivers and Miraculous Springs</title>
+                        <textLang mainLang="non"/>
+                        <!-- fol. 1r almost entirely illegible in MS -->
+                        <incipit>Brunnr er <supplied reason="damage">einn i paradiso. er or falla fiorar ar hingat i
+                              þenna</supplied> heim.</incipit>
+                        <explicit>En ef hia er þei<ex>m</ex> latet liggia kleði eða vll eða smo tre. þa verðr alt at
+                           steíní.</explicit>
+                        <!--<bibl>Rafn, <ref type="primary" target="AntR">Antiquités Russes</ref><biblScope type="volume"
+                              >II</biblScope><biblScope type="pages">430-432</biblScope><note>Edited in extracts from the copy
+                                 <ref type="ms">AM 765 4to</ref></note></bibl>-->
+                     </msItem>
+
+                     <msItem n="1.2" class="biblHist">
+                        <locus from="1v:24" to="2r:9"/>
+                        <title type="supplied" xml:lang="la">Prologus</title>
+                        <rubric>prologus</rubric>
+                        <textLang mainLang="non"/>
+                        <incipit>Þat er sagt at moyses tæki þat rað fystr.</incipit>
+                        <explicit>oc namo þar siðan aðrer eftír þei<ex>m</ex> at skrifa a boku<ex>m</ex> þau tiðendi er eigi
+                           skyldi or minni liða.</explicit>
+                        <!--<listBibl>
+                           <bibl>Werlauff, <ref target="Symbol">Symbolæ ad Geographiam Medii Ævi</ref><biblScope type="pages"
+                                 >5:26-28</biblScope><note>Extract</note></bibl>
+                           <bibl>Rafn, <ref type="primary" target="AntR">Antiquités Russes</ref><biblScope type="volume"
+                                 >II</biblScope><biblScope type="pages">432-433</biblScope><note>Edited from the copy <ref
+                                    type="pages">AM 765 4to</ref></note></bibl>
+                        </listBibl>-->
+                     </msItem>
+
+                     <msItem n="1.3" class="geog">
+                        <locus from="2r:9" to="2r:20"/>
+                        <title type="supplied" xml:lang="en">On Paradise</title>
+                        <textLang mainLang="non"/>
+                        <rubric>fra paradiso.</rubric>
+                        <incipit>Sva er sagt at paradis er hi<ex>n</ex>n æsti lutr þessarar veraldar</incipit>
+                        <explicit>oc veria bio<add place="above">r</add>g oc hitar at me<ex>n</ex>n skili eigi þangat
+                           komast.</explicit>
+                        <!--<bibl>Rafn, <ref type="primary" target="AntR">Antiquités Russes</ref><biblScope type="volume"
+                              >II</biblScope><biblScope type="pages">433</biblScope><note>Edited from the copy <ref type="ms">AM
+                                 765 4to</ref></note></bibl>-->
+                     </msItem>
+
+                     <msItem n="1.4" class="geog">
+                        <locus from="2r:20" to="4r:7"/>
+                        <title type="supplied" xml:lang="en">A Geographical Compendium</title>
+                        <textLang mainLang="non"/>
+                        <rubric>her segir fra þui hu<ex>er</ex>su lond liggia i veroldenni.</rubric>
+                        <incipit>Þessarar bygðar þa er indialand yst.</incipit>
+                        <explicit>þar er meinlangs borg a. j henni var ambrosius b<ex>ysku</ex>p.</explicit>
+                        <!--<listBibl>
+                           <bibl>Rafn, <ref type="primary" target="AntR">Antiquités Russes</ref><biblScope type="volume"
+                                 >II</biblScope><biblScope type="pages">434-439</biblScope><note>Edited from <ref type="ms">AM 765
+                                    4to</ref></note></bibl>
+                           <bibl>Werlauff, <ref target="Symbol">Symbolæ ad Geographiam Medii Ævi</ref><biblScope type="pages"
+                                 >9-12</biblScope><note>Some extracts in footnotes</note></bibl>
+                        </listBibl>-->
+                     </msItem>
+
+                     <msItem n="1.5" class="serm">
+                        <locus from="4r:7" to="8r:12"/>
+                        <title type="supplied" xml:lang="en">Sermon on the Creator</title>
+                        <textLang mainLang="non"/>
+                        <rubric>v<ex>m</ex> þar huaðan otru hofst.</rubric>
+                        <incipit>Líufír bræðr. Sua segia oll helgar</incipit>
+                        <explicit>a hinu<ex>m</ex> helga crosse.</explicit>
+
+                     </msItem>
+
+                     <msItem n="1.6" class="biblHist">
+                        <locus from="8r:12" to="8v:7"/>
+                        <title type="supplied" xml:lang="en">How Noah's Sons Divided The World Amongst Themselves</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Fra þuí huar hu<ex>er</ex>r noa sona bygði heimi<ex>n</ex>n.</rubric>
+                        <incipit>Synir noa voro .iij. þeir skiftu ollum heímí m<ex>eð</ex> ser huar kyn hu<ex>er</ex>s
+                              þ<ex>ei</ex>ra skilldi byggia.</incipit>
+                        <explicit>þa verða tungur alsz .ij. oc .lxx. en þioð lond. þushundrað.</explicit>
+                        <!--<bibl>Werlauff, <ref target="Symbol">Symbolæ ad Geographiam Medii Ævi</ref><biblScope type="pages"
+                              >9</biblScope><note>A small extract in the footnotes</note></bibl>-->
+                     </msItem>
+
+                     <msItem n="1.7" class="geog">
+                        <locus from="8v:7" to="9r:31"/>
+                        <title type="supplied" xml:lang="en">On Various Fantastic Peoples</title>
+                        <textLang mainLang="non"/>
+                        <rubric>her segir fra marghattaðu<ex>m</ex> þioðum.</rubric>
+                        <incipit>Sva segia froðar bækr at i heímínu<ex>m</ex> se sua marg hattaðar þioðer beði at vęxti oc at
+                           eðli.</incipit>
+                        <explicit>þeir ero sua við me<ex>n</ex>n sem olmer hundar.</explicit>
+                        <!--<bibl>Rafn, <ref type="primary" target="AntR">Antiquités Russes</ref><biblScope type="volume"
+                              >II</biblScope><biblScope type="pages">440-441</biblScope><note>Short extracts from the copy <ref
+                                 type="ms">AM 765 4to</ref></note></bibl>-->
+                     </msItem>
+
+                     <msItem n="1.8" class="serm">
+                        <locus from="9r:31" to="10v:27"/>
+                        <author>St. Augustine of Hippo</author>
+                        <title type="supplied" xml:lang="en">Sermon</title>
+                        <textLang mainLang="non"/>
+                        <!-- rubric faded -->
+                        <rubric>Her segir <gap reason="illegible"/></rubric>
+                        <incipit>Hin helgi b<ex>ysku</ex>p er heitir augustinus melti við þa me<ex>n</ex>n er ha<ex>n</ex>n var
+                           kennímaðr yfír.</incipit>
+                        <explicit>beði þessa heíms oc sua annars þat se. A-M-E-N.</explicit>
+
+                     </msItem>
+
+                     <msItem n="1.9" class="gudfr">
+                        <locus from="10v:28" to="12r:11"/>
+                        <title type="supplied" xml:lang="en">Elucidarius <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>her segir huaðan blot skur guða hofust.</rubric>
+                        <incipit>Ef aller gofgaðu ei<ex>n</ex>n guð fyst i upp hafe.</incipit>
+                        <explicit>þetta er at dœma lifendr oc dauða.</explicit>
+
+                        <note>Four passages from the Elucidarius.</note>
+
+                     </msItem>
+
+                     <msItem n="1.10" class="serm">
+                        <locus from="12r:11" to="13r:26"/>
+                        <title type="supplied" xml:lang="en">A Sermon On Ember Days</title>
+                        <textLang mainLang="non"/>
+                        <rubric>vm ímbru daga hald.</rubric>
+                        <incipit>Moyses bauð gyðingu<ex>m</ex> forðu<ex>m</ex> i logu<ex>m</ex> at hallda ímbru daga ferna a
+                              hu<ex>er</ex>íu<ex>m</ex> .ij. miseru<ex>m</ex>.</incipit>
+                        <explicit>Sa er lifir oc rikir með feðr oc syni oc anda helgum vm allar allder j einu<ex>m</ex> guðdome.
+                           A-</explicit>
+
+                     </msItem>
+
+                     <msItem n="1.11" class="nature">
+                        <locus from="13r:26" to="13v:11"/>
+                        <title type="supplied" xml:lang="en">On Rainbows</title>
+                        <textLang mainLang="non"/>
+                        <rubric>vm regnboga.</rubric>
+                        <incipit>A regn boga ero þrir lítír.</incipit>
+                        <explicit>oc nokor miseri siðan at eigi skilldi oftar floð koma þat er heimen æyddi sua sem a hans dogum
+                           hafðe orðet.</explicit>
+
+                     </msItem>
+
+                     <msItem n="1.12" class="nature">
+                        <locus from="13v:11" to="14r:4"/>
+                        <title type="supplied" xml:lang="en">On The Course Of The Sun</title>
+                        <textLang mainLang="non"/>
+                        <rubric>v<ex>m</ex> solstoðr</rubric>
+                        <incipit>Þa er laupar hefer veret um varet aðr a þei<ex>m</ex> degi er .x. netr ero til ions
+                           messo</incipit>
+                        <explicit>Sia er solar gangr at tolo stiorno oddae norðan a islande.</explicit>
+
+                     </msItem>
+
+                     <msItem n="1.13" defective="true" class="geog">
+                        <locus from="14r:5" to="14v:30"/>
+                        <title type="supplied" xml:lang="en">On Foreign Towns and the Burial Places of Saints</title>
+                        <textLang mainLang="non"/>
+                        <rubric>vm borga skipan oc legstaðe heilagra ma<ex>n</ex>na.</rubric>
+                        <!-- text on 14v very faded in MS; partially touched-up in later ink -->
+                        <incipit>Rvma borg er yf<ex>ir</ex> ollu<ex>m</ex> borgom. </incipit>
+                        <explicit defective="true">oc af bondom hins</explicit>
+
+                     </msItem>
+
+                  </msItem>
+
+                  <msItem n="2" class="misc">
+                     <locus from="15r:1" to="19v:35"/>
+                     <title type="supplied" xml:lang="la">Theologica qvædam, videntur esse úr Adamsbók</title>
+                     <title type="supplied" xml:lang="is">Heimspeki ok helgifræði</title>
+
+                     <msItem n="2.1" defective="true" class="vita">
+                        <locus from="15r:1" to="15r:9"/>
+                        <title type="supplied" xml:lang="is">Sagan af Guðs þiónústumaðr</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true">vin þin<ex>n</ex> þer. þui segi ek</incipit>
+                        <explicit>k<ex>onung</ex>r bað m<ex>enn</ex> sina lata fara h<ex>ann</ex> með naðu<ex>m</ex>
+                              þ<ex>uia</ex>t h<ex>ann</ex> e<ex>r</ex> guðs þiónóstu m<ex>aðr</ex>.</explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.2" class="gudfr">
+                        <locus from="15r:9" to="16r:3"/>
+                        <title type="supplied" xml:lang="en">A Conversation Between a Pupil and a Master</title>
+                        <textLang mainLang="non"/>
+                        <rubric>fra heilræðum spekínga</rubric>
+                        <incipit><supplied reason="omitted">N</supplied>v spurði lærisvein<ex>n</ex> meist<ex>ar</ex>a
+                              sin<ex>n</ex>.</incipit>
+                        <explicit>þ<ex>at</ex> vetti oss faðir <ex>ok</ex> sun <ex>ok</ex> hin<ex>n</ex> helgi andi
+                           am<ex>en</ex></explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.3" class="laknfr">
+                        <locus from="16r:4" to="17r:14"/>
+                        <title type="supplied" xml:lang="en">A Treatise on the Four Elements and Their Mixture in Man's
+                           Blood</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Af natturu mann<supplied reason="omitted">zin</supplied>s <ex>ok</ex> bloði.</rubric>
+                        <incipit>Allzvalltandi guð e<ex>r</ex> af engu efni g<ex>er</ex>ði alla luti.</incipit>
+                        <explicit><ex>ok</ex> fellr þui vari slefa oruósu<ex>m</ex>
+                              se<ex>m</ex> bornu<ex>m</ex></explicit>
+                        <!--<bibl>Möbius, <ref type="primary-2" target="Mobius1877">Analecta norræna</ref><biblScope type="pages"
+                              >201-203</biblScope></bibl>-->
+                        
+                     </msItem>
+                     
+                     <msItem n="2.4" class="krsidfr">
+                        <locus from="17r:14" to="18v:31"/>
+                        <title type="supplied" xml:lang="en">On Seth's Journey To Paradise and On the Cross of Christ</title>
+                        <textLang mainLang="non"/>
+                        <rubric>huaðan komin<ex>n</ex> e<ex>r</ex> ✠ d<ex>r</ex>ottin<supplied reason="damage">s</supplied></rubric>
+                        <incipit>Sva e<ex>r</ex> sagt siðan ada<ex>m</ex> hafði syndína g<ex>er</ex>ua i
+                           paradíso.</incipit>
+                        <explicit><ex>ok</ex> san<ex>n</ex>aðiz sua spasaga drotni<ex>n</ex>gar.</explicit>
+                        <!--<listBibl>
+                           <bibl>Möbius, <ref type="primary-2" target="Mobius1877">Analecta norræna</ref><biblScope type="pages"
+                                 >204-207</biblScope></bibl>
+                           <bibl>Unger, <ref type="primary-2" target="HMS1877">Heilagra manna søgur</ref><biblScope type="pages"
+                                 >298-301</biblScope></bibl>
+                        </listBibl>-->
+                     </msItem>
+                     
+                     <msItem n="2.5" class="didac">
+                        <locus from="18v:31" to="18v:35"/>
+                        <title type="supplied" xml:lang="en">A List of Twelve Unseemly Things in the World</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Þesser e<ex>r</ex>u xíj heíms osomar þ<ex>ei</ex>r e<ex>r</ex> tela allt
+                              v<ex>er</ex>alld<ex>ar</ex> lif</incipit>
+                        <explicit>lyðr laga lauss.</explicit>
+                        <!--<bibl>Unger, <ref type="primary-2" target="HMS1877">Heilagra manna søgur</ref><biblScope type="pages"
+                              >301</biblScope><note>Footnote 1</note></bibl>-->
+                     </msItem>
+                     
+                     <msItem n="2.6" class="map">
+                        <locus from="19r" to="19r"/>
+                        <title type="supplied" xml:lang="en">A Plan of Jerusalem with Drawings of Churches and Temples</title>
+                        <textLang mainLang="la">Latin</textLang>
+                        <rubric><supplied reason="illegible">Civitas Hiervsale<ex>m</ex> famosisima</supplied></rubric>
+                     </msItem>
+                     
+                     <msItem n="2.7" class="law">
+                        <locus from="19v:1" to="19v:21"/>
+                        <title type="supplied" xml:lang="is">Afsaknir Fyrir Samneyti Við Bannsetta</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Uær viliu<ex>m</ex> þ<ex>at</ex> birta f<ex>yr</ex>i fo<supplied reason="omitted">l</supplied>ke
+                           af hu<ex>er</ex>ium t<ex>il</ex> fellu<ex>m</ex> þ<ex>ei</ex>r men<ex>n</ex> megu
+                              lögl<ex>ega</ex> af sakaz sem bansettu<ex>m</ex> m<ex>onnum</ex> samneyta sua at þ<ex>ei</ex>r falla
+                              i ecke ban<ex>n</ex> eða forboð f<ex>yr</ex>i þa skyld.</incipit>
+                        <explicit><ex>ok</ex> fær h<ex>ann</ex> e<ex>i</ex>g<ex>i</ex> forðaz þ<ex>ei</ex>ra samneyte.</explicit>
+                        
+                     </msItem>
+                     
+                  </msItem>
+
+                  <msItem n="3" class="edd">
+                     <locus from="20r:1" to="21r:18"/>
+                     <title type="uniform">Völuspá</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit>Hlioðs bið ek allar helgar kind<ex>ir</ex> meiri ok min<ex>n</ex>i
+                        mǫgu hei<ex>m</ex>dallar villtv at ek vafǫðrs vel fra<ex>m</ex>m telia
+                        forn spiǫll fira þau er ek fremz<ex>r</ex> v<ex>m</ex> man.</incipit>
+                     <explicit>Kemr hin<ex>n</ex>dimi dreki fliugandi naðr fraan<ex>n</ex> neðan f<ex>ra</ex>
+                        niða b<ex>er</ex>r sier i fiǫðrum flygr uǫll yf<ex>ir</ex>
+                        niðhoggr nai nv man hon sǫkkvaz.</explicit>
+
+                     <note>The text is different from Völuspá in Codex Regius and in Snorri's Edda and represents an independent
+                        record based on oral tradition.</note>
+
+                  </msItem>
+
+                  <msItem n="4" class="hist">
+                     <locus from="22r:1" to="33v:31"/>
+                     <title type="uniform" xml:lang="is">Trójumanna saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>H<ex>er</ex> hefr troio m<ex>anna</ex> sogv</rubric>
+                     <incipit>A dogv<ex>m</ex> Josve e<ex>r</ex> hofði<ex>n</ex>gi v<ex>ar</ex> a
+                        iorsala l<ex>an</ex>di yf<ex>ir</ex> gyþinga lyð eft<ex>ir</ex>
+                        m<ex>o</ex>yises</incipit>
+                     <explicit>en h<ex>er</ex> eft<ex>ir</ex> hef<ex>ir</ex> sogv f<ex>ra</ex> enea
+                        <ex>ok</ex> þei<ex>m</ex> e<ex>r</ex> bretl<ex>an</ex>d bygðv</explicit>
+
+                  </msItem>
+
+                  <msItem n="5" class="nature">
+                     <locus from="34r:1" to="34r:36"/>
+                     <title type="supplied" xml:lang="en">Seven Precious Stones And Their Nature</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit><supplied reason="omitted">E</supplied>matist<ex>vs</ex> hef<ex>ir</ex>
+                        pvrpvralit se<ex>m</ex> vindropi</incipit>
+                     <explicit><ex>ok</ex> vtan vm linklæði þa e<ex>r</ex> sagt at h<ex>ann</ex>
+                        bœt<ex>ir</ex> riðv <ex>ok</ex> allzkyns meínsemðer</explicit>
+
+                  </msItem>
+
+                  <msItem n="6" class="mnem">
+                     <locus from="35v:1" to="35v:32"/>
+                     <title type="supplied" xml:lang="la">Cisiojanus</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit>Cicio ianus epi cibi uendicat oct fe ma maran</incipit>
+                     <explicit>Sicca uiris afia curuis rex bustet cauet sic Brito creans stilbon ori
+                        ris aud saba uiris as</explicit>
+                     <note>
+                        <title type="supplied">Ciciojanus</title> is a versified Latin enumeration for remembering church
+                        festivals throughout the year.</note>
+
+                  </msItem>
+
+                  <msItem n="7" class="sagnfr">
+                     <locus from="36r:1" to="59r:20"/>
+                     <title type="uniform">Breta sögur <note>(Including Merlínusspá)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>h<ex>er</ex> hefr breta sogvr</rubric>
+                     <incipit>Nv e<ex>r</ex> at segia af enea env<ex>m</ex> millda at h<ex>ann</ex> rakz lengi i hafe þa er h<ex>ann</ex>
+                        for af troio <ex>ok</ex> ko<ex>m</ex> h<ex>ann</ex> vm siþ<ex>ir</ex><supplied reason="omitted">við</supplied> sikiley.</incipit>
+                     <explicit>h<ex>ann</ex> fost<ex>ra</ex>di hakon svn haralz k<ex>onung</ex>s
+                        harfa<supplied reason="omitted">g</supplied>ra</explicit>
+
+                  </msItem>
+
+                  <msItem n="8" class="gudfr" defective="true">
+                     <locus from="60r:1" to="68v:37"/>
+                     <title type="supplied" xml:lang="en">Two Dialogues between the Body and the Soul</title>
+                     <textLang mainLang="non"/>
+                     <rubric>V<ex>ið</ex>ræða lika<ex>m</ex>s <ex>ok</ex> salar</rubric>
+                     <incipit>Bok þ<ex>er</ex>sa g<ex>er</ex>ði meistari valltíʀ af samburð 
+                        tveg<ex>g</ex>ia m<ex>ann</ex>a <ex>ok</ex> rœðir hvaʀ við an<ex>n</ex>an af sinv efni
+                        hvaʀ</incipit>
+                     <explicit defective="true">en heí<ex>m</ex>r eg<ex>g</ex>iar hegoma þ<ex>at</ex>
+                        e<ex>r</ex> at heliaz a v<ex>er</ex>alld<ex>ar</ex></explicit>
+
+                  </msItem>
+
+                  <msItem n="9" class="konth" defective="true">
+                     <locus from="69r:1" to="72v:9"/>
+                     <title type="uniform" xml:lang="is">Hemings þáttur Áslákssonar</title>
+                     <title type="parallel">Hemings þáttr Áslákssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit defective="true">seð h<ex>af</ex>a. loðin svar<ex>ar</ex> sva sagða ek</incipit>
+                     <explicit><ex>ok</ex> andaðiz i þ<ex>ei</ex>ri einsetv</explicit>
+                     <finalRubric><ex>ok</ex> lykr þ<ex>ar</ex> nv fra hemingi at segia</finalRubric>
+
+                     <filiation>
+                        <p>
+                           <ref type="ms" target="#AM04-0326b-en" ana="protograph">AM 326b 4to</ref> is a copy of <title type="uniform">Hemings þáttr Áslákssonar</title>
+                           written by <name type="person" key="AsgJon001">Ásgeir Jónsson</name>. It was most likely copied
+                           during the winter <date from="1697" to="1698">1697-98</date>, when Ásgeir was in <name type="place" key="Copen01">Copenhagen</name>. This copy is of particular importance because it was
+                           written when a leaf which has since disappeared was still to be found before the present fol. <locus>69</locus>.</p>
+                     </filiation>
+
+                  </msItem>
+
+                  <msItem n="10" class="fas" defective="true">
+                     <locus from="72v:9" to="76v:36"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <title type="parallel">Hervarar saga ok Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <rubric>her hefr vpp sogv heiðreks konvngs ens vitra</rubric>
+                     <incipit>Sva er sagt at i fyrndin<ex>n</ex>i v<ex>ar</ex> kallað iotvnheímar
+                        norðr i fin<ex>n</ex>mork en ymis l<ex>an</ex>d f<ex>yri</ex>
+                        svn<ex>n</ex>an <ex>ok</ex> milli<ex>m</ex> haloga
+                        l<ex>an</ex>dz</incipit>
+                     <explicit defective="true">en fvglar flvgv yf<ex>ir</ex> havfði þ<ex>er</ex><ex>ok</ex> tvei<ex>m</ex>megin 
+                        þin þ<ex>at</ex> var þ<ex>ei</ex>ra vegr þv</explicit>
+
+                     <note>The saga ends in the beginning of the riddle section known as <title type="uniform">Heiðreks
+                           gátur</title>.</note>
+
+                  </msItem>
+
+                  <msItem n="11" class="isl" defective="true">
+                     <locus from="77r:1" to="89v:35"/>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <title type="paralle" xml:lang="is">Fóstbrœðra saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit defective="true">ken<ex>n</ex>ing<ex>ar</ex> nafn at þv skallt
+                        kolbrvnar skalld heita</incipit>
+                     <explicit>Nv luk. sva sem. sagt. var ęfi þ<ex>ormoðar</ex> kolbrvn<ex>ar</ex>
+                        s<ex>kallds</ex></explicit>
+                     <finalRubric><ex>ok</ex> lykr h<ex>er</ex> fra sogn þ<ex>ei</ex>ri er v<ex>er</ex> 
+                        kvnv<ex>m</ex> at segia f<ex>ra</ex> þ<ex>ormodi</ex> kap<ex>p</ex>a hins. helga olafs. k<ex>onvng</ex>s</finalRubric>
+
+                     <note>Pictures of the text describing the battle of <name type="place" key="Stikl01">Stiklastaðir</name> [fols. <locus from="78v" to="79r">78v-79r</locus>].</note>
+
+                  </msItem>
+
+                  <msItem n="12" class="arith">
+                     <locus from="89v:35" to="93r:17"/>
+                     <title type="supplied" xml:lang="la">Algorismus</title>
+                     <textLang mainLang="non"/>
+                     <rubric>h<ex>er</ex> byriar algorismu<ex>m</ex></rubric>
+                     <incipit>List þessi heitir algorism<ex>vs</ex></incipit>
+                     <explicit>fig<ex>vr</ex>v er her e<ex>r</ex> sidaʀ. ger. <ex>ok</ex> kollvt
+                        e<ex>r</ex> kvb<ex>vs</ex> p<ex>er</ex>fect<ex>vs</ex></explicit>
+
+                  </msItem>
+
+                  <msItem n="13" class="isl">
+                     <locus from="93r:17" to="101v:24"/>
+                     <title type="uniform" xml:lang="is">Eiríks saga rauða</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her hefr up<ex>p</ex> Sogu þeirra Þorfinnz Karlsefnis
+                        oc Snorra Þorbrandz sonar.</rubric>
+                     <incipit>Olafr het her k<ex>onvng</ex>r e<ex>r</ex> kalladr var oloafr
+                        hviti</incipit>
+                     <explicit/>
+                     <colophon>veri gvð með ors ameɴ</colophon>
+
+                     <filiation>
+                        <p>Fols. <locus>60-83</locus> of <ref type="ms" target="#AM04-1008-en" ana="apograph">AM 1008 4to</ref> contains a copy of this saga. The hand is unidentified;
+                           corrections by <name type="person" key="ArnMag001">Árni Magnússon</name>.</p>
+                     </filiation>
+
+                     <note>Rubric added by Árni Magnússon. Pictures on fols. <locus from="97v" to="98r">97v-98r</locus>: The description of
+                        Wineland.</note>
+
+                  </msItem>
+
+                  <msItem n="14" class="kon">
+                     <locus from="101v:25" to="104v:17"/>
+                     <title type="uniform" xml:lang="is">Skálda saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>H<ex>er</ex> hefr sogv skallda Harallz k<ex>onvn</ex>gs
+                        harfagra</rubric>
+                     <incipit>Haralldr k<ex>onvng</ex>r harfag<ex>ri</ex> reð f<ex>yri</ex>
+                        noregi</incipit>
+                     <explicit><ex>ok</ex> seg<ex>ir</ex> h<ex>er</ex> ecki lengra af
+                        h<ex>anv</ex>m</explicit>
+
+                     <filiation>
+                        <p>
+                           <ref type="ms" target="#AM04-0307-en" ana="apograph">AM 307 4to</ref>, <ref type="ms" target="#AM02-0067a-en" ana="apograph">AM 67 a fol.</ref> and <ref type="ms" target="#AM02-0067b-en" ana="apograph">AM 67 b
+                                    fol.</ref> are copies of Skálda saga.
+                              AM 307 4to has lacunae where the original was indistinct. However, <name type="person" key="ArnMag001">Árni Magnússon</name> has filled in text corresponding to the bottom lines
+                                 of fol. <locus>101v</locus>. The hand is identical with the one who wrote <ref type="ms">AM 1008
+                                 4to</ref>.
+                              AM 67 a fol. was written by <name type="person" key="AsgJon001">Ásgeir Jónsson</name>, probably
+                           during the winter of <date from="1697" to="1698">1697-98</date>, when he stayed in <name type="place" key="Copen01">Copenhagen</name>. There are a few lacunae,
+                                 particularly in the reproduction of fol. <locus>102r</locus>.
+                              AM 67 b fol. is another, almost identical, copy by Ásgeir Jónsson. It has some
+                                 mistakes which are not in AM 67 a fol., and it is probably a copy of the latter and not of Hauksbók itself.                           
+                        </p>
+                     </filiation>
+                  </msItem>
+
+                  <msItem n="15" class="fas">
+                     <locus from="104v:18" to="105r:21"/>
+                     <title type="supplied" ref="#upp">Af Upplendinga konungum</title>
+                     <textLang mainLang="non"/>
+                     <rubric>af vp<ex>p</ex>lendinga konvngv<ex>m</ex></rubric>
+                     <incipit>Olafr svn ingiallz k<ex>onvng</ex>s illraða af svia ʀ<ex>ik</ex>i
+                        rvddi vermaland</incipit>
+                     <explicit><ex>ok</ex> af h<ex>ans</ex> nafni erv yn<supplied reason="omitted">g</supplied>lingar kallader</explicit>
+
+                     <filiation>
+                        <p>
+                           <ref type="ms" target="#AM04-0307-en" ana="apograph">AM 307 4to</ref> is a copy. 
+                           The hand is identical with the one who wrote AM 1008 4to.</p>
+                     </filiation>
+                     
+                  </msItem>
+
+                  <msItem n="16" class="fas">
+                     <locus from="105r:21" to="107v:5"/>
+                     <title type="uniform" ref="#rth">Ragnarssona þáttur</title>
+                     <title type="parallel">Ragnarssona þáttr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her seger af Ragnars svnv<ex>m</ex><ex>ok</ex> hv<ex>er</ex>sv marg<ex>ir</ex> k<ex>onvn</ex>gar erv komner af
+                        þei<ex>m</ex></rubric>
+                     <incipit>Eft<ex>ir</ex> davða rings k<ex>onvn</ex>gs tok ragnaʀ
+                        svn hans k<ex>onvn</ex>gdóm yf<ex>ir</ex> svia velldi <ex>ok</ex>
+                        dana</incipit>
+                     <explicit>þ<ex>ei</ex>ra svn var haralldr k<ex>onvng</ex>r en<ex>n</ex>
+                        harfagri er fystr varð einvallz k<ex>onvng</ex>r yfer ollvm
+                        norege</explicit>
+
+                     <filiation>
+                        <p>
+                           <ref type="ms" target="#AM04-0307-en" ana="protograph">AM 307 4to</ref> is a copy. 
+                           The hand is identical with the one who wrote AM 1008 4to.</p>
+                     </filiation>
+
+                  </msItem>
+
+                  <msItem n="17" class="nature">
+                     <locus from="107v:6" to="107v:42"/>
+                     <title type="supplied" xml:lang="la">Prognostica Temporum</title>
+                     <!-- is this actually in Old Norse-Icelandic? Illegible in MS -->
+                     <textLang mainLang="la"/>
+                     <rubric/>
+                     <incipit>Si prima feria fuerit k<ex>a</ex>l<ex>en</ex>da ianuaríj</incipit>
+                     <explicit>ho<ex>m</ex>i<ex>ni</ex>b<ex>us</ex> i<ex>n</ex> notu</explicit>
+
+                  </msItem>
+
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="107"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Front and rear flyleaves modern.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="243"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+
+                        <foliation ana="fol later">
+                           <p> Besides <name type="person" key="KriKaa001">Kålund</name>'s foliation in red in the upper right-hand
+                              corners, there are two older foliations. The earlier one is from <date when="1800">c. 1800</date> and 
+                              shows traces of an earlier, random order of the gatherings; it
+                              includes fols. <locus>1r-14v</locus>, but not fols. <locus>102r-107v</locus>. The gathering was probably lent out, perhaps for the
+                              use of the editing of <bibl>
+                                 <ref type="primary-1" target="SRDMAE">Scriptores Rerum Danicarum, II</ref>
+                              </bibl>. <name type="person" key="JonSig004">Jón Sigurðsson</name> did the second foliation, and it is similar
+                              to the order mentioned by <name type="person" key="ArnMag001">Árni Magnússon</name> in <ref type="ms">AM 435 a 4to</ref>, although it has been done without consideration for fols. <locus>1r-14v</locus>, as
+                              these leaves were not incorporated into the Reykjavík collection of antiquities until <date when="1887">1887</date>.</p>
+                           <p> Fols. <locus>1r-14r</locus> are paginated 1-27.</p>
+                        </foliation>
+
+                        <condition ana="poor">
+                           <p>There are lacunae in three places in the manuscript: After fol. <locus>14</locus> two leaves have been excised, and
+                              all that remains are narrow strips in the gutter. After fol. <locus>68</locus> one gathering is missing,
+                              and after fol. <locus>76</locus> at least one gathering of eight leaves has been lost. Several leaves are damaged with
+                              tears or holes, and others have an irregular shape.
+                              Some of the damage does not allow the lines to be of full length, but this damage is apparently
+                              older than the script. </p>
+                           <p>The following leaves are torn: fols. <locus>2, 9-10, 15-28, 30, 32-35, 37-38, 40-43, 45-47, 49, 51, 53-60,
+                              67-68, 70, 74-80, 82, 86, 88-89, 95, 97-100</locus>. On fol. <locus>82</locus> a corner has been torn off, and fols.
+                              <locus>19</locus>, <locus>21</locus>
+                              and <locus>59</locus> are half-leaves, although a thin slip of the lower part is preserved at the spine. The
+                              lower part of these leaves was probably left blank, as the trimming has not caused any loss of text.
+                              The bottom margin of fol. <locus>63</locus> is trimmed. </p>
+                           <p>Several leaves are in poor condition due to dampness and wear. They have become dark, faded or
+                              wrinkled. The script was touched up in <date notBefore="1600" notAfter="1699">the seventeenth
+                                 century</date> with black ink where the writing had faded. </p>
+                           <p>The restoration of the script on the following folios was done by Bishop <name type="person" key="BrySve001">Brynjólfur Sveinsson</name>: fols. <locus>1v, 3r, 4r, 5r, 6v, 8v, 9r, 10r, 14r-v, 22r,
+                              30v, 36r-52v, 72v, 77r, 78r, 103r, 104r</locus>. According to <name type="person" key="ArnMag001">Árni
+                                 Magnússon</name>'s account in <ref type="ms">AM 435 a 4to</ref>, fol. <locus>113</locus>, the lögmaður
+                              <name type="person" key="SigBjo001">Sigurður Björnsson</name> told him that the rest of the touching
+                              up was done by himself and another lögmaður, <name type="person" key="SigJon009">Sigurður Jónsson</name>. Sigurður Björnsson did the touching up on the following
+                              folios: <locus>46v-47r, 48r, 49r-v, 50r and 52r-v</locus>. Sigurður Jónsson did the rest of the touching up in the
+                              section <locus>36r-59r</locus> containing <title type="uniform">Bretasögur</title>.</p>
+                        </condition>
+
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="30 43">
+                           <num type="wpl" atLeast="13" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                           <note> Fols. <locus>21v</locus>, <locus>34v-35r</locus>
+                           and <locus>59v</locus> were originally blank.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+
+                  <handDesc hands="13">
+                     <!-- fix these scribe refs? -->
+                     <handNote scribeRef="unknown" scope="major" script="carolingian"><!-- #AM544-4to-H1 -->
+                        <p>Hand 1 occurs on fols. <locus>1r-14v</locus>; the script is Carolingian insular minuscule.
+                           The scribe was possibly Norwegian.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H2 -->
+                        <p>Hand 2 is found on fols. <locus>15r-18v:31</locus>. The script is early Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H3 -->
+                        <p>Hand 3 has only written 4 lines and occurs on fol. <locus>18v:31-35</locus>. The script of this hand is Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H4 -->
+                        <p>Hand 4 occurs on fol. <locus>19r</locus>, and the script is Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H5 -->
+                        <p>Hand 5 occurs on fol. <locus>19v</locus>, and the script is Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H6 -->
+                        <p>Hand 6 is considered to be Icelandic and occurs on fols. <locus>20r-21r</locus>. The script of this hand is Icelandic Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="#HauErl001" scope="major" script="textualis">
+                        <p>Hand 7 occurs on fols. <locus>22r-34r</locus>, <locus>36r-59r</locus>, <locus>60r-80r:26</locus>, 
+                           <locus>99r:14-100r:2</locus> and <locus>101v-107v:5</locus>. The script is Gothic
+                           bookhand. The hand appears to be the same hand as in <ref type="ms">AM 371 4to</ref>
+                           and may be identified as <name type="person" key="HauErl001">Haukr
+                              Erlendsson</name>'s.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H8 -->
+                        <p>Hand 8 occurs on fol. <locus>35v</locus>, and the script is early Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="major" script="textualis"><!-- #AM544-4to-H9 -->
+                        <p>Hand 9 uses Icelandic othography, and the writer has therefore been described as The First Icelandic
+                              Secretary. This hand is to be found on fols. <locus>80r:26-81r:7</locus>, <locus>81r:9-85v</locus> and <locus>87r:14-99r:14</locus>. The
+                           script is Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H10 -->
+                        <p>Hand 10 occurs on fol. <locus>81r:7-9</locus>. The script is Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H11 -->
+                        <p>Hand 11 occurs on fol. <locus>86r:1-7</locus>. The script is Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H12 -->
+                        <p>Hand 12 occurs on fols. <locus>86r:7-87r:13</locus>. The script is Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H13 -->
+                        <p>This writer has been described as The Second Icelandic Secretary, and the hand occurs on fols.
+                           <locus>100r:3-101r</locus>. The script is Gothic bookhand.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis"><!-- #AM544-4to-H14 -->
+                        <p>Hand 14 occurs on fol. <locus>107v:6-42</locus>. The script is Gothic bookhand.</p>
+                     </handNote>
+                  </handDesc>
+
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">
+                        <p>Multi-line initials variously in red, blue and green inks throughout. Initial letters of several sentences have
+                        also been colored in red.</p>
+                     </decoNote>
+                     <decoNote type="miniature" subtype="map">
+                        <p>On fol. <locus>19r</locus> there is a drawing of Jerusalem including the most important
+                           buildings.</p>
+                     </decoNote>
+                  </decoDesc>
+
+                  <additions ana="high">
+                     <p>There are several marginalia in this manuscript, including emendations and cross-references in multiple hands. 
+                        Some marginal notes consist of single letters, while others are figurative.
+                        Fol. <locus>8v</locus>, for example, has a drawing of a man's head wearing a hat.</p>
+                     <p>
+                        
+                           More extensive notes occur throughout, e.g.:
+                           fol. <locus>5v</locus>: <q xml:lang="is">He<ex>r</ex> e<ex>r</ex> sk<ex>ri</ex>f and<ex>r</ex>es
+                                    issle<ex>n</ex>din</q>.
+                           fol. <locus>19r</locus>: <q xml:lang="is">þ<ex>ei</ex>m go</q>.
+                           fol. <locus>21r</locus>: <q xml:lang="is">amen m<ex>ed</ex> aund <ex>ok</ex> mun<ex>n</ex> halla
+                                    reikn<ex>ar</ex> hofud sum<ex>m</ex>u allir huad bat<ex>ar</ex>
+                                 þ<ex>ad</ex> mælgi <ex>ok</ex> mal</q>.
+                           fol. <locus>21v</locus>: some runic letters, the beginning of <title type="uniform">Ave
+                                 Maria</title>
+                              <q xml:lang="la">aue maria gracia plena dominus</q> and the statement: <q xml:lang="is">þessa bok a
+                                 Teitr Palsson skal urentr vera</q>.
+                        
+                     </p>
+                     <p>Among the scribblings on the originally blank <locus>fols 34v-35r</locus> are statements about
+                        Christ, an alphabet in runes, a religious Latin verse and a drawing of a face.</p>
+                     <p>Fols. <locus>6r, 7, 8r, 13v, 28v, 42v, 70r, 74v, 75r and 99r</locus> have corrections and references written in a
+                        contemporary hand.</p>
+                     <p>
+                        <name type="person" key="ArnMag001">Árni Magnússon</name>, his archivist, <name type="person" key="JonSig004">Jón Sigurðsson</name>, and others have in several places added chapter headings.</p>
+                  </additions>
+
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>In <date when="1730">1730</date>, <name type="person" key="JonOla003">Jón Ólafsson</name> described the
+                           manuscript as <q>skinnalaus</q>, or without any outer covering, and <q>med hampreimum</q>, which refers
+                           to the thongs of hemp across the spine to which the gatherings were fastened. The manuscript was not
+                           bound at this time. About a century later, in <date when="1828">1828</date>, Möbius (<bibl>
+                              <ref type="secondary" target="Mobius1860">Edda Sæmundar hinns fróða</ref>
+                              <!--<biblScope type="volume">III</biblScope>-->
+                           </bibl>) wrote that there was a wooden board belonging to the binding of the book on which there was a
+                           runic sign: <q>In tabula lignea, ad ligaturam voluminis pertinene, incisus est character insignis, e
+                              Runis variis compositus, et priscum aliqvem libri possessorem indigitans</q>. But when <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
+                              <ref type="secondary" target="KKKat">Katalog, I, 687</ref>
+                           </bibl>) described AM 544 4to in <date when="1889">1889</date>, this wooden board had disappeared.</p>
+                        <p>AM 544 4to was bound in <date when="1909">1909</date> and again in <date when="1967">1967</date>. The
+                           latter is also the manusript's present binding, a modern standard half-binding. The dimensions are:
+                              <dimensions type="binding">
+                              <height>248</height>
+                              <width>183</width>
+                              <depth>72</depth>
+                           </dimensions>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1290" notAfter="1360"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <title type="ms">Hauksbók</title> has been divided into 3 parts in the AM collection: <ref type="ms">AM
+                           371 4to</ref>, AM 544 4to and <ref type="ms">AM 675 4to</ref>. In addition to several unknown scribes, the
+                        manuscript was written by <name type="person" role="owner" key="HauErl001">Haukr Erlendsson</name>. Letters from <date when="1302-01-28">28 January 1302</date> and <date when="1310-10-12">14 October 1310</date>, written by
+                        Haukr, serve as evidence for this, as the script in the letters is similar to the main
+                        hand in Hauksbók. After Haukr Erlendsson's death in <name type="place" key="Norwa01">Norway</name> in <date when="1334">1334</date>, it is presumed that the codex passed to his successors
+                        in <name type="place" key="Icela01">Iceland</name> and was then passed on as an heirloom for
+                        about the next 300 years. The next known owner, <name type="person" role="owner" key="BjaEin002">Bjarni
+                           Einarsson</name>, can be 
+                        discerned from a note on fol. <locus>59v</locus>: <q>
+                           Biarni Einarsson a <name type="place" key="Hamr01">Hamr</name> a þ<ex>es</ex>sa bök m<ex>ed</ex>
+                              r<ex>e</ex>ttu og hef<ex>ur</ex> h<ex>ann</ex> lied mi<ex>er</ex> hana i bokaskiptum og skal
+                              h<ex>ann</ex> fä hana aptur þ<ex>ad</ex> f<ex>ir</ex>sta eg kan<ex>n</ex> heim m<ex>ed</ex>
+                              skilu<ex>m</ex>
+                        </q>. Bjarni Einarsson, who was a prosperous and notable man, knew the county sheriff (sýslumaður) 
+                        <name type="person" role="owner" key="AriMag001">Ari Magnússon</name><!-- owner? --> of <name type="place" key="Ögur01">Ögur</name> (<date from="1571" to="1652">1571-1652</date>). In <date when="1635">1635</date>, after Bjarni Einarsson had died, Ari Magnússon lent <title type="ms">Hauksbók</title> to <name type="place" key="Skaga01">Skagafjörður</name>, and the manuscript passed on
+                        to two men with antiquarian interests, the priest <name type="person" role="owner" key="ArnJon001">Arngrímur
+                           Jónsson</name> (<date from="1568" to="1648">1568-1648</date>), and then on to the farmer <name type="person" role="owner" key="BjoJon006">Björn Jónsson</name> of <name type="place" key="Skarð02">Skarðsá</name>
+                           (<date from="1574" to="1655">1574-1655</date>). A third person, the Bishop of <name type="place" key="Hólar01">Hólar</name>, <name type="person" key="ThoSku001" role="other">Þorlákur Skuláson</name> (<date from="1597" to="1656">1597-1656</date>), mentioned in his letter to <name type="person" key="OleWor001" role="other">Ole Worm</name> (<date from="1588" to="1654">1588-1654</date>) in <name type="place" key="Copen01">Copenhagen</name> in <date when="1636">1636</date> that Björn Jónsson had obtained the manuscript.
+                        From <date from="1660" to="1670">1660 to 1670</date> Bishop <name type="person" role="owner" key="BrySve001">Brynjólfur
+                           Sveinsson</name> owned the manuscript and touched up the script. </p>
+                    
+                     <p>In <ref type="ms">AM 435 a 4to</ref>, fols. <locus from="111v" to="114v">111v-114v</locus>, 
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> wrote: <q xml:lang="is">Ur landnama bok (α) og
+                           Kristindoms Sỏgu, fragmenta nokkur, Geographica qvædam <ex>et</ex> physica. Theologica qvædam ex
+                           Sermonibus Augustini. Varia, atqve inter ea Astronomica qvædam. Theologica qvædam, videntur esse ur
+                           Adams bok. Delineatio urbis Hierosolymorum. Vỏluspa. Trojomanna Saga. De gemmis nonnulla. Bretasỏgur.
+                           vïda ölæsar (β). Vidræda likams <ex>og</ex> salar. <locus>[112v]</locus> aptan af Hemings Sỏgu, þar ï
+                           um lika Lodin. Saga Heidreks k<ex>onun</ex>gs ens vitra, vant<ex>ar</ex> vid endan<ex>n</ex>. aptan af
+                           Sỏgu Þorgeirs Havarssonar, og Þormodar Kolbrunar skallds. Algorismus (er de Arithmetica. Saga Þorfinns
+                           Karlsefnes oc Snorra Þorbrands sonar. Saga Skallda Harallz k<ex>onung</ex>s Harfagra af nidium Ragnars
+                           Lodbrokar fragment. Lucidarium. Bokin er i 4to <locus>[113v:13-17]</locus> β] I þ<ex>ess</ex>um
+                           Bretasỏgum er vida dreged i stafena med nyu bleke, seiger Sigurd<ex>ur</ex> Biỏrnsson lỏgmad<ex>ur</ex>
+                           þad giỏrt hafa Sigurd Jonsson lỏgman<ex>n</ex>, sem <del>i</del> bokena brukad hafe.
+                              <locus>[114r]</locus> Merlinus Spä in membranâ, i bok þ<ex>ad</ex> er boken<ex>n</ex> sem eg nu ä
+                           4to sende Mag. Bryniolfur Sigurde Jons syne lỏgman<ex>n</ex>e, <ex>og</ex> bad h<ex>an</ex>n /: so sem
+                           vel lesande man<ex>n</ex> /: ad draga i þä öskiru stafena. Þad giỏrde lỏgmadur, ad samverkande Sigurde
+                           Biỏrnssyne lỏgman<ex>n</ex>e, sem þä ätte heima i Einarsnese, post 1664. en<ex>n</ex> ad<ex>ur</ex>
+                              en<ex>n</ex> h<ex>an</ex>n vard landskrifare. Ret. Sigurdar Biỏrns son<ex>ar</ex> lỏgman<ex>n</ex>s
+                           1707.</q>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:26.196+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:29.886+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:39.044+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:55.117+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:32.962+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-07-29" who="#JSL">Added template elements and supplied details from handrit record.</change>
+         <change when="2013-07-30" who="#JSL">Minor updates from in situ consultation with manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

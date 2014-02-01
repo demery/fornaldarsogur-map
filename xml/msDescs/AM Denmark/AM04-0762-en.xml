@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 762 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0762-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 762 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas kvad">
+                     <locus from="1r:1" to="3r:25"/>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar <note>[stanzas and explanations]</note></title>
+                     <textLang mainLang="da" otherLangs="la non"/> 
+                     <rubric>RHYTHMI Aliqvot veterum Danorum et Norvagorum tam
+                        principum qvam aliorum magnatum et celebrium Skaldoru<ex>m</ex>
+                        Ex Antivqitatibus istis Collecti. Ex Historia Ragnari L:</rubric>
+                     <incipit>Den tijd Ragnar Lodbrog haffdi skiøtt sin spiud j Den gruelege
+                        slang paa Gautland</incipit>
+                     <explicit>ægre fandem erue.</explicit>
+                     <note>Short summary in Danish, vísur in Icelandic with Latin translations. Explanations in Danish and Latin.</note>
+                  </msItem>
+                  <msItem n="2" class="kon kvad">
+                     <locus from="3r:26" to="6r:8">3r-6r</locus>
+                     <title type="supplied">Haralds saga harðráða <note>[stanzas and explanations]</note></title>
+                     <note>Short introductions in Danish, vísur in Icelandic, Latin translations. Explanations in Danish and Latin.</note>
+                     <textLang mainLang="da" otherLangs="la non"/> 
+                     <rubric>Ex historia Haraldi Sigurdi. f: Regis Norvegiæ.</rubric>
+                     <incipit>Harald seilede en gang langs for Norig</incipit>
+                     <explicit>mot. hominum convent<ex>us</ex>
+                     </explicit>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="6r:9" to="36v:31">6r-36v</locus>
+                     <title type="supplied">Orkneyinga saga <note>[stanzas and explanations]</note></title>
+                     <note>Short introductions in Danish, vísur in Icelandic, Latin translations. Explanations in Danish and Latin.</note>
+                     <textLang mainLang="da" otherLangs="la non"/> 
+                     <rubric>Ex Relationibus Comitum Orkneyensium</rubric>
+                     <incipit>TorffEnar orchadum lames slog ihel Haldan hȧlegg</incipit>
+                     <explicit>j mod fienderne</explicit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="36"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="320"/> 
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                           <watermark ana="yes">Castle with two round towers</watermark>
+                        </support>
+                        <foliation ana="pag later"> 
+                           <p>Paginated irregularly in the top right hand corners of uneven pages. Foliated
+                        in the bottom right hand corners.</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="36 41">
+                           <num type="wpl" atLeast="4" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="300"/>
+                              <width unit="mm" quantity="85"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MagOla002" scope="sole" script="semihybrida">
+                        <!--<p>Written by Magnús Ólafsson.</p>-->
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium"><p>
+                     In the margins, there are some references and numbers of stanzas.
+                     There is an AM-slip that reads: <q xml:lang="la">Magni Olavii Enodatio Cantilenarum qvarumdam. Dono
+                     D<ex>omi</ex>ni Christiani Wormii possidet A. M. 1706.
+                     Ligaturam ipse addi curavi. Est mihi et aliud Exemplar.</q>
+                  </p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Bound in light parchment. Two stickers on the spine, one being green with the shelf mark, the other one
+                           being circular with no traces of writing remaining.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1649"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ChrWor001"/> 
+                     <name type="person" role="owner" key="ArnMag001"/>
+                     <p>Christian Worm gave the manuscript to Árni Magnússon in <date when="1706">1706</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:45.804+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:44.737+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:52.251+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:09.272+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:46.362+02:00" who="#EAH">
+                Extracted layout data from previous version.
+         </change>
+         <change when="2013-07-22" who="#BES">Added information from handrit.is and catalog.</change>
+         <change when="2013-07-19" who="#BES">Added missing information from manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 949 a-g 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0949a-g-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 949 a-g 4to</idno>
+               </msIdentifier>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="372"/>
+                              <num type="back-flyleaf" value="1"/>
+                              
+                              <note>Each part has one modern front and rear flyleaf.</note>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="220"/>
+                                 <width unit="mm" quantity="180"/>
+                              </dimensions>
+                           </support>
+                        </supportDesc>
+                                                
+                     </objectDesc>
+                     
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="false">
+                           <p>Bound in in a single volume with late nineteenth-century paper boards (woodgrain decoration) 
+                              and linen spine and corners. Blue university spine label with shelfmark and another spine label with 
+                              the number 2081.</p>
+                        </binding>							
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     
+                     <!-- no attempt has been made to date individual parts -->
+                     <origin>
+                        <origDate notBefore="1800" notAfter="1849"/>
+                        <origPlace key="DK"/>
+                     </origin>
+                     
+                     <provenance>
+                        <p>The entire manuscript was acquired from <name type="organisation" role="owner" key="KglNordOld">Det kongelige
+                           nordiske Oldskriftselskab</name> in <date when="1883">1883</date>.</p> 
+                     </provenance>
+                     
+                  </history>					
+                                
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 949 a 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="5r:15"/>
+                        <title type="uniform" ref="#ask">Ásmundar saga kappabana</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefr upp savgo Ásmundar er kalladr er kappabani</rubric>
+                        <incipit>Buðli er k<ex>onon</ex>gr nefndr, h<ex>ann</ex> réð f<ex>irer</ex>
+                           Svíþjóðu, ríkr ok ágætr</incipit>
+                        <explicit>ok er sá eigi nefndr. Siðan gőrðist A<ex>smundr</ex>
+                           k<ex>appa</ex>b<ex>ana</ex> víðfrægr ok <gap/> <add place="margin-right">máð út i 
+                              codex</add> ok lýkr þar þessari sögu.</explicit>
+                        
+                        <filiation>
+                           <p>According to a note on fol. <locus>1r</locus>, this is a copy of <ref type="ms" target="#Perg-4to-nr-7" ana="antigraph">Stock. perg. 7 4to</ref>.
+                           </p>
+                        </filiation>
+                        
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="6"/>
+                              <num type="back-flyleaf" value="1"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              
+                              <watermark ana="yes">Initials(?) visible on fols. 5-6.</watermark>
+                              
+                           </support>
+                           <foliation ana="pag">
+                              <p>Paginated in the top outer corners, probably by the scribe
+                                 himself. Fols. 5v-6v blank.</p>
+                           </foliation>
+                           
+                           <condition ana="good"/>
+                           
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="34 37">
+                              <num type="wpl" atLeast="18" atMost="20"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                                          
+                     <additions ana="low">
+                        <p>In the margin next to the rubric the scribe wrote: <q xml:lang="la">ex codice
+                        membranae. No 7 4. p. 104</q>. Some occasional marginal emendations.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 949 b 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="ridd" defective="true">
+                        <locus from="1r:1" to="132v:23"/>
+                        <title type="uniform">Þiðreks saga af Bern</title>
+                        <textLang mainLang="non"/>
+                        <rubric/>
+                        <incipit>Ef menn vilja gyrnaz ath heyra þan<ex>n</ex> stórtiþindi, er verit hafa í fornum sid</incipit>
+                        <explicit defective="true">ok leiðu hann inn fyri konúng ok svo gjora þær.</explicit>
+                        
+                        <note>Fols. <locus>1r-3r</locus> contain the preface to the saga. Text defective; ends with ch. 239.</note>
+                     </msItem>
+                     
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="132"/>
+                              <num type="back-flyleaf" value="1"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              
+                              <watermark ana="yes">At least two different kinds of paper. Letter 'E' (initial?) visible in lower
+                              corner of fol. <locus>113</locus>.</watermark>
+                           
+                           </support>
+                           <foliation ana="pag">
+                              <p>Paginated in the upper outer corners.</p>
+                           </foliation>
+                           
+                           <condition ana="good">
+                              <p>Small tears on fols. <locus>52</locus>, <locus>80</locus> and elsewhere mended with common tape.</p>
+                           </condition>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="27">									
+                              
+                              <num type="wpl" atLeast="7" atMost="10"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="low">
+                        <p>A sparse amount of marginalia, especially toward the end of the text.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 949 c 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="1r:1" to="39v:23"/>
+                        <title type="uniform" ref="#hs">Hervarar saga</title>
+                        <title type="parallel">Hervarar saga ok Heiðreks</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefr upp Hervarar sögu ok Heiðreks konungs</rubric>
+                        <incipit>Svâ fin<ex>n</ex>st ritað í fornum bókum at Jötunheimar voru
+                           kallaðir norðr um Gandvík, en Ýmisland fyrir sunnan í millum
+                           Hálogalands</incipit>
+                        <explicit defective="true">ok síðan setti hann þar yfir Valðar konúng ok gipti
+                           honum Alfhilði dóttr sína. Þeirra</explicit>
+                        
+                        <filiation>
+                           <p>According to a note on fol. <locus>1r</locus>, this is a copy of 
+                              <ref type="ms" target="#AM02-0192-en" ana="antigraph">AM 192 fol.</ref></p>
+                        </filiation>
+                        
+                        <note>Lacks the riddles. Blank space where they should be on fol. <locus>28r-v</locus>. Text ends defective.</note>
+                        
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="38"/>
+                              <num type="back-flyleaf" value="1"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="220"/>
+                                 <width unit="mm" quantity="175"/>
+                              </dimensions>
+                              
+                              <watermark ana="yes">'ørholm' visible on fol. <locus>28</locus>.</watermark>
+                              
+                           </support>
+                           
+                           <foliation ana="pag">
+                              <p>Paginated in the upper outer corners. Gatherings (in 4s) numbered in upper outer corners.</p>
+                           </foliation>
+                           
+                           <condition ana="good">
+                              <p>A lacuna of one leaf following fol. <locus>2</locus>.</p>
+                           </condition>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="22 24">
+                              <num type="wpl" atLeast="4" atMost="6"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="105"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="low">
+                        <p>Occasional marginal emendations.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 949 d 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="35v:23"/>
+                        <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric/>
+                        <incipit>Þar hefjum vér eina frásögu af einum konúngi þeim, er Gauti hét</incipit>
+                        <explicit>en þó var hann vinsæll ok stórgjöfull, ok inn hæversklig
+                           <add place="above">a</add>sti at siá</explicit>
+                        <finalRubric>ok lýkr hér Gjafa-Refs sögu.</finalRubric>
+                        
+                        <filiation>
+                           <p>According to a note on fol. <locus>1r</locus>, this is a copy of <ref type="ms" target="#AM02-0152-en">AM 152 fol</ref>.</p>
+                        </filiation>
+                        
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="38r:1" to="141v:6"/>
+                        <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                        <textLang mainLang="non"/>
+                        <rubric/>
+                        <incipit>Þar hefjum vér þessa sögu, er Gautrekr hefir konúngr heitit son Gauta
+                           konúngs</incipit>
+                        <explicit>þá kémr þat framm, at þat þikist annar heyra, er
+                           annar heyrir ekki í frásögum</explicit>
+                        <finalRubric>ok lýkr hér nú Hrólfs sogu Gautreks sonar.</finalRubric>
+                     
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="141"/>
+                              <num type="back-flyleaf" value="1"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <note>Fol. <locus>24bis</locus> is a half-leaf (inserted later).</note>
+                              
+                              <watermark ana="yes">'ørholm' watermark on fol. <locus>20</locus>. Flower flanked by two figures (Maid of Dort?) on fol. 36. Initials 'Å.O.'
+                              on fol. <locus>37</locus>.</watermark>
+                           </support>
+                           
+                           <foliation ana="fol">
+                              <p>Every 10 leaves foliated in pencil. 
+                                  Gatherings numbered (in 4s) in upper corners
+                              of recto leaves (separate gathering enumeration for each text).</p>
+                           </foliation>
+                           
+                           <condition ana="good">
+                              <p>Fol. <locus>20</locus> is loose.</p>
+                           </condition>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="19 22">
+                              <num type="wpl" atLeast="8" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="125"/>
+                              </dimensions>
+                              <note>Fols. <locus>36r-37v</locus> blank.</note>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="high">
+                        <p>Extensive marginalia. Fol. <locus>20</locus>, containing verses missing in the text,
+                    was added later (now loose) and bears the watermark of
+                Ørholm. Half-leaf of text containing verses added between fols. <locus>24</locus> and <locus>25</locus>. 
+                           Extensive note (extended ending) following
+                        the text on fol. <locus>141v</locus>.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 949 e 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="8v:16"/>
+                        <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Söguþáttr af Ílluga Gríðarfóstra</rubric>
+                        <incipit>Þat er upphaf þessarrar sögu at sá konungr réði
+                           fyr<del>r</del>i Danmörk er Hríngr hét</incipit>
+                        <explicit>en eptir dauða hennar varð Íllugi fóstbróðir Gnoðar-Asmundar.</explicit>
+                        <finalRubric>ok lýkr hér sögu Ílluga gríðarfóstra.</finalRubric>
+                        
+                        <filiation>
+                           <p>According to a note on fol. <locus>1r</locus>, this is a copy of <ref type="ms" target="#AM04-0363-en" ana="antigraph">
+                              AM 363 4to.</ref></p>
+                        </filiation>
+                        
+                        <note>Rubric added in a later hand.</note>
+                     
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="8"/>
+                              <num type="back-flyleaf" value="1"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="220"/>
+                                 <width unit="mm" quantity="175"/>
+                              </dimensions>
+                              
+                              <!-- no clearly visible watermarks found during cursory inspection -->
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="pag">
+                              <p>Paginated in the upper corners of recto leaves.</p>
+                           </foliation>
+                           
+                           <condition ana="good"/>
+                                                      
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="20 24">
+                              <num type="wpl" atLeast="8" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Appears to be the same hand as
+                        AM 949 d 4to.</handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                     
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 949 f 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="23r:13"/>
+                        <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                        <textLang mainLang="non"/>
+                        <rubric/>
+                        <incipit>Eirekr hét konúngr er réði fyrir Svíþjóðu. Hann var kallaðr Eirekr
+                           hinn sigrsæli.</incipit>
+                        <explicit>en Klakka hafði heyrt segja hina fyrri frændr sina</explicit>
+                        <finalRubric>ok þar lyktum vér þessa sögu.</finalRubric>
+                        
+                        <!-- filiation information taken from handrit record -->
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#AM04-0343c-en" ana="antigraph">AM 343 c 4to</ref>.</p>
+                        </filiation>
+                        
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="24"/>
+                              <num type="back-flyleaf" value="1"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="215"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              
+                              <watermark ana="yes">Initials 'I.T.'(?) partially visible on fol. <locus>24</locus>. Maid of Dort with flower and fence
+                              visible on fols. <locus>2-3</locus>.</watermark>
+                           </support>
+                           
+                           <foliation ana="fol">
+                              <p>Fols. <locus>10</locus> and <locus>20</locus> numbered in pencil. Gatherings numbered (in 4s) in upper corners of recto leaves.
+                              </p>  
+                           </foliation>
+                           
+                           <condition ana="good"/>
+                           
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="22 24">
+                              <num type="wpl" atLeast="9" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                              <note>Fols. <locus>23v-24v</locus> are blank. Fol. <locus>24</locus> is unopened.</note>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Same hand as AM 949 d 4to</handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="low">
+                        <p>Sparsely annotated. Scribal note on fol. <locus>18v</locus> mentions a lacuna of one leaf in the exemplar.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 949 g 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <msItem n="1" class="kon">
+                        <locus from="1r:1" to="26v:9"/>
+                        <title type="uniform">Ólafs saga Tryggvasonar <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Fædd<del>u</del>r Olaf<del>u</del>r Tryggvason</rubric>
+                        <incipit>Ástríður hét kona sú, er átt hafðe Trÿggvi</incipit>
+                        <explicit>þó at fyrir man<ex>n</ex>dóms-sakir góðra höfdíngja væra ek vel
+                           halldin<ex>n</ex>.</explicit>
+                        
+                        <filiation>
+                           <p>Transcript of the Skálholt-edition of <ref type="ms" target="#GKS02-1005-en">GKS 1005 fol. 
+                           (Flateyarbók)</ref> (cf. note on fol. <locus>1r</locus>).</p>
+                        </filiation>
+                        
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="28"/>
+                              <num type="back-flyleaf" value="1"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="215"/>
+                                 <width unit="mm" quantity="175"/>
+                              </dimensions>
+                              
+                              <watermark ana="yes">'ørholm' watermark visible on multiple leaves.</watermark>
+                              
+                           </support>
+                           
+                           <foliation ana="fol">
+                              <p>Fols. <locus>10-14</locus>, <locus>20</locus> and <locus>25-26</locus> numbered in pencil.</p>
+                           </foliation>
+                           
+                           <condition ana="good"/>
+                                                      
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="19 25">
+                              <num type="wpl" atLeast="7" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="150"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <note>Fols. <locus>16</locus>,
+                                 <locus>25v</locus> and <locus>27r-28v</locus> blank.</note>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="low">
+                        <p>Occasional marginal emendations.</p>
+                     </additions>
+                     
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:47.97+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:46.242+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:53.552+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:10.688+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:47.708+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-07-31" who="#JSL">Added template elements. Added details from handrit catalog.</change>
+         <change when="2013-08-01" who="#JSL">Cataloged from manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

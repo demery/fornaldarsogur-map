@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 88</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-88" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 88</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="88v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <note>Written in two columns: Icel. on the inside, Swedish transl. on the outside</note>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-4to-nr-30" ana="antigraph">Papp. 4to nr. 30</ref>.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="88"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Foolscap: Fool with pointed collar, large spheres on the central point, "HTB"(?) on
+                              opposite side. The watermark of the flyleaves reads "HOWARD" and shows a beehive with ornaments.
+                              Below the hive, "1839" can be read.</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p>modern foliation on every tenth page</p>
+                        </foliation>
+                        <condition ana="average">A few stains and leaves coming away from binding.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="28 35">
+                           <num type="wpl" atLeast="10" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="270"/>
+                              <width unit="mm" quantity="200">Two columns without space in between, the inner one 90mm, the outer
+                                 110mm, a total of 200mm.</width>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ArnJon020" scope="sole" script="chancery">Arngrímur Jónsson wrote the Icelandic text
+                        (inner column) in chancery and the Swedish text (outer column) in kurrent.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">same ink as text</decoNote>
+                     <decoNote type="paratext">same ink as text</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>On the recto side of the front-flyleaf: <q>Island. Chart. in fol. No 88. Inbunden år 1843.
+                        G.O.H.C.</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with leather spine and corners. The golden imprint on the spine reads:
+                              <q>SAGA af GAUNGU-HROLFE. ISL. <ex>et</ex> SUET.</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1683" notAfter="1691"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <name key="AntKol001" type="organisation" role="commissioner">Antikvitetskollegiet</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:06.085+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. catalog info still missing.</change>
+         <change when="2013-03-06" who="#BES">Measured and checked at the library.</change>
+         <change when="2013-03-25" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 587 b 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0587b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 587 b 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="11v:11"/>
+                     <title ref="#hsg" type="uniform">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Hromunde Greipssyne</rubric>
+                     <incipit>Sa k<ex>onung</ex>r reþe f<ex>yrir</ex> Gorþom i Danm<ex>or</ex>k e<ex>r</ex> Olafr het</incipit>
+                     <finalRubric>oc lykr hier saugo Hromundz Greipssonar.</finalRubric>
+                     <colophon>Su saga sem þetta var effter skriffad vard naumlega lesen<ex>n</ex> og ei sem skilian legust
+                     um landa edur stada heite sum. Þö er þad vyst ad räda hier af kong Olafur mune verid hafa kongur ad nafnbök i Norex velldj
+                     einhuórs stadar. þar sem nær grendsad hefur vid Svyþiöd, þvy þä hefur Norex ryke haft marga smäa k<ex>onun</ex>ga
+                     sem breysast kan<ex>n</ex> af fornum frædum. so skrifar Sr. <name type="person" key="MagOla002">Magnus i Laufäse Olafs<ex>syne</ex>
+                        </name> etc.</colophon>
+                     
+                     <note>Colophon appears to be in a slightly later hand.</note>
+                  
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="11"/>
+                          <!-- <num type="back-flyleaf" value=""/>-->
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="163"/>
+                           </dimensions>
+                           
+                           <!--<watermark ana="no|yes"/>-->
+                           
+                        </support>
+                        
+                        <foliation ana="later fol">
+                           <p>Foliated in the upper corners of recto leaves.</p>
+                        </foliation>
+                        <foliation ana="contemporary pag">
+                           <p>Traces of an earlier pagination (253-274) cropped in upper margins.</p>
+                        </foliation>
+                        
+                        <!--<condition ana="poor|average|good">
+                           <p/>
+                        </condition>-->
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21">
+                           <num type="wpl" atLeast="7" atMost="9"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                     <handNote scribeRef="#AsgJon001" scope="major" script="unknown">Fols. <locus>1r-4v</locus> in the hand of Ásgeir Jónsson.</handNote>
+                     
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">Script switches to an unknown hand on fols. <locus>5r-11v</locus>.</handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Marginal Notes in the hand of <name key="ThoTor01" type="person">Þormóðar Torfasonar (Torfæus)</name> on bl. <locus>5v</locus>.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Plain pasteboard binding from late 18th century. Offset from printed text on pastedowns.</p>
+                     </binding>							
+                  </bindingDesc>
+               
+               </physDesc>
+               <history>
+                  <!-- actually written in Norway...? -->
+                  <origin>
+                     <p>Written ca. <origDate notBefore="1690" notAfter="1710">ca. 1700</origDate> in <origPlace key="IS">Iceland</origPlace>.</p>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                    
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:37.723+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:38.763+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:47.202+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:03.571+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:41.011+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-06-03" who="#JSL">Added details from handrit and Kålund catalogs.</change>
+         <change when="2013-06-07" who="#JSL">Cataloged from photographs.</change>
+         <change when="2013-08-23" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>  
+   <facsimile>
+      <surface/>
+   </facsimile>
+   
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

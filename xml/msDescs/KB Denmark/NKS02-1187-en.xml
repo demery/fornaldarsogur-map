@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1187 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1187-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1187 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Fragment or Saugu Hafdanar Eysteinssonar Udskreven efter Cod: Membr: Bibliothe: A: Magnæi No. 586
+                        in 4to Af MMagnusen</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" to="12v"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0586-is" ana="antigraph">AM 586 4to</ref></p>
+                     </filiation>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="13r" to="19r"/>
+                     <title type="uniform" ref="#bsh">Bósa saga og Herrauðs [Variants]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0586-is" ana="antigraph">AM 586 4to</ref>
+                        <ref type="book" target="#OlaVer1666" ana="antigraph">Verelius's edition 1666</ref>
+                     </filiation>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Variants only</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="19"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Coin-like watermark: "GR" in the centre, a crown on top with leaves at the side and
+                              around it; a small maid of Dort "ProPatria".</watermark>
+                        </support>
+                        <foliation ana="pag contemporary"><p>separately paginated</p></foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1 4" writtenLines="22 30">
+                           <num type="wpl" atLeast="3" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="230"/>
+                              <width unit="mm" quantity="132"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="#MMagnu001" script="unknown">The script is a mixture. There are aspects of
+                        chancery and hum cursiva present as well as features of early kurrent.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Very slight decoration of initials and rubrics</decoNote>
+                  </decoDesc>
+                  <additions ana="no"><p/></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Thin paper covers</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="owner"/>
+                     <p>Formerly Suhm's collection no. 235 fol.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:33.255+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-29" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-05-17" who="#BES">Added missing information with manuscript in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

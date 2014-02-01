@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+   
+      <fileDesc>
+         <titleStmt>
+            <title>UB 306 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="UB04-0306-en" xml:lang="en">
+               
+               <msIdentifier>
+                  <repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+                  <idno>UB 306 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  
+                  <msItem n="1" class="isl" defective="true">
+                     <!-- some misnumbering in pagination of images; loci may be slightly off throughout as a result -->
+                     <locus from="1r:1" to="14v:11"/>
+                     <title type="uniform">Gull-Þóris saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her Hefst Saga Gull Þoriss</rubric>
+                     <incipit>Hallstein<ex>n</ex> son Þ<ex>or</ex>olfs mostra skeg<ex>g</ex>ia nam all<ex>an</ex> Þorskafi<ex>or</ex>d</incipit>
+                     <explicit>Voblu Gun<ex>n</ex>n<ex>ar</ex> og Ott<ex>ar</ex> skilde ut<ex>an</ex> fara og v<ex>er</ex>a burt. Cætera desunt</explicit>
+                     
+                     <note>Same redaction as in AM 561 4to 'with lacunae unfilled' (e.g. fol. 7v) (cf. Jónas Kr. typescript catalog).</note>
+                  
+                  </msItem>
+                  
+                  <msItem n="2" class="fas">
+                     <locus from="15r:1" to="25v:29"/>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Aan Bogsveiger</rubric>
+                     <incipit>J þan<ex>n</ex> tima er filkis k<ex>on</ex>g<ex>ar</ex> v<ex>or</ex>u i Norge</incipit>
+                     <explicit>fad<ex>ir</ex> Sigurd<ex>ar</ex> biodaskalla agiætz ma<ex>nn</ex>s i Norege</explicit>
+                     <finalRubric>og lykr her v<ex>id</ex> saugu Ans Bogsveigers</finalRubric>
+                     
+                     <filiation>
+                        <ref type="ms" target="#AM04-0343a-en" ana="antigraph">A copy of AM 343a 4to.</ref>
+                     </filiation>
+                  
+                  </msItem>
+                  
+                  <msItem n="3" class="isl">
+                     <locus from="26r:1" to="55v:6"/>
+                     <title type="uniform">Vatnsdæla saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Vatnsdæla Saga</rubric>
+                     <incipit>Madur er nefndr Ketill þrumr</incipit>
+                     <explicit>og b<ex>ar</ex> Þorkell þad fir<ex>ir</ex> ad h<ex>an</ex>n v<ex>ar</ex> rett christin og elskadi Gud</explicit>
+                     <finalRubric>og endum vier þar Watnsdæla Saugu</finalRubric>
+                     
+                     <filiation>
+                        <p>A copy of <ref type="ms" target="#AM04-0559-en" ana="protograph">AM 559 4to</ref> or a related MS (cf. typescript cat.)</p>
+                     </filiation>
+                                   
+                  </msItem>
+                  
+                  <msItem n="4" class="isl">
+                     <locus from="56r:1" to="123v:36"/>
+                     <title type="uniform">Laxdæla saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Jslendinga Sagan Laxdæla</rubric>
+                     <incipit>Ketill flatnefr het m<ex>adur</ex></incipit>
+                     <explicit>Bolli lifdi til elli og helt st<ex>or</ex>mensku sin<ex>n</ex>i[?] og hofdingskap og v<ex>an</ex> þ<ex>ad</ex>[?]
+                     m<ex>ar</ex>g m<ex>ed</ex> af [.]eks [..]k<ex>um</ex> s<ex>e</ex>m ej ne skrifad. en<ex>n</ex> vel hefdi matt ifra og edra</explicit>
+                     <colophon>Endud Laxdæla 1785 dj 15 Aprilis</colophon>
+                 
+                     <filiation>
+                        <ref type="ms" target="#Rask29-en" ana="antigraph">Appears to be a copy of Rask 29 (cf. typescript cat.)</ref>
+                     </filiation>
+                     
+                  </msItem>
+                  
+                  <msItem n="5" class="isl" defective="true">
+                     <locus from="124r:1" to="148v:36"/>
+                     <title type="uniform">Eyrbyggja saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Biriar Eyrbiggiu edur Þornesinga Saugu</rubric>
+                     <incipit>Ketill Flatnefur hiet m<ex>adur</ex></incipit>
+                     <explicit defective="true">en<ex>n</ex> er ad v<ex>ar</ex> hug<ex>ad</ex> fanst þ<ex>ar</ex> e<ex>ck</ex>j þvikt</explicit>
+                     
+                     <note>Defective. Lacks ending.</note>
+                                         
+                  </msItem>
+                  
+                  <msItem n="6" class="fas" defective="true">
+                     <locus from="149r:1" to="149r:14"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit defective="true">leingia ad þ<ex>ar</ex> fiell Hrolfur k<ex>on</ex>g og aller kapp<ex>ar</ex> h<ex>an</ex>s 
+                        med godan ordstyr</incipit>
+                     <explicit>og lagt hia h<ex>onu</ex>m sverdid Skofnung og sin<ex>n</ex> haug<ex>ur</ex> efft<ex>ir</ex> hv<ex>or</ex>n
+                     kappana og med þeim vopn þ<ex>eir</ex>ra</explicit>
+                     <finalRubric>og lykur hier saugu af Hrolfi kongi kraka og kappum hans</finalRubric>
+                     
+                     <note>Fragment; end only.</note>
+                     
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="149"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="203"/>
+                              <width unit="mm" quantity="162"/>
+                           </dimensions>
+                           
+                           <!--<watermark ana="no|yes"/>-->
+                           
+                        </support>
+                        
+                        <foliation ana="no"/>
+                        
+                        <condition ana="unknown"/>
+                        
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="34 36">									
+                           
+                           <num type="wpl" atLeast="11" atMost="16"/>
+                           
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown">Jónas Kristjánsson suggests that Hjálmarr Þorsteinsson
+                        had the MS commissioned or perhaps wrote it himself (cf. typescript cat.)</handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low">
+                     <p>MS waste contains parts of personal letters. One is addressed to <name type="person" key="HjaTho004">Hjálmarr Þorsteinsson</name>, 
+                        priest in Tröllatunga. Another is from <name type="person" key="BenBog001">Benedikt Bogason á Staðarfell</name>, 
+                        dated 14 December 1783. A table of contents
+                     has been added to the former. Autograph on front pastedown of a certain Sæmundur Þorsteinsson. The front pastedown also
+                     bears an unidentified location: <q>Krambe vid Hrotsfiord</q>.</p>
+                  </additions>
+                  
+                  <!--<bindingDesc>
+                     <binding ana="plain|moderate|decorative" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>-->
+                  
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <p>Written <origDate notBefore="1775" notAfter="1799">s. XVIII 4/4</origDate> (cf. typescript catalog). Dated 1785 on fol. 123v.</p>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance/>
+                                    
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:21.703+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-07-19" who="#JSL">Added template elements. Cataloged from photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

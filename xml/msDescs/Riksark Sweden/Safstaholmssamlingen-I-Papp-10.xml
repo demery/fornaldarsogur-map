@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Säfstaholmssamlingen I Papp. 10</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Safstaholmssamlingen-I-Papp-10" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#RAS">Riksarkivet, Stockholm</repository>
+                  <idno>Säfstaholmssamlingen I Papp. 10</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="prent">
+                     <locus from="1r" to="124v"/>
+                     <title type="uniform">Printed material</title>
+                     <textLang mainLang="la"/>
+                     <note>A work by Biorner.</note>
+                  </msItem>
+                  <msItem n="2" class="kon">
+                     <locus from="125v" to="163r"/>
+                     <title type="uniform">Vilhjálms þáttur bastar∂a</title>
+                     <rubric>Þattur / af / Wilhiälme Bastharde / og nockrum (ødrum Eingla / kongum.</rubric>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Old Norse text is on the versos facing the Latin on the rectos.</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="164r" to="193v"/>
+                     <title type="uniform" ref="#hsh">Hálfs saga og Hálfsrekka</title>
+                     <rubric>Här börjar En kårt berättelse om Kong Alf och hand hieltar</rubric>
+                     <rubric>I Cap. Om Kong Alfrek på Alfreksstad...</rubric>
+                     <incipit>En konung het Alfrek, som bodde på Alreksstad</incipit>
+                     <textLang mainLang="sv"/>
+                     <note>older vers., Swedish transl. by Carl Hagelberg</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="195"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="308"/>
+                              <width unit="mm" quantity="193"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <!-- only item 3 foliated? was previously encoded with @ana="yes" -->
+                        <foliation ana="fol pag">But only item 3, pagination from 1-58.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="19 23">
+                           <num type="wpl" atLeast="5" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="250"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <catchwords ana="yes">With flourishes</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#CarHag001" scope="major" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote>A large sheet with a family tree of Hromundr Grípsson and Hálfr appears as f.194. It is folded
+                        twice and bears the title: <q>Genealogia Regum Alfreki et Alfii, nec non Hromunderi
+                        Gripsonii</q></decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>On the inner front cover there hs been written: <q>Säfstahalmssaml. 10.</q> in pencil.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound in colourful marbelled paper on cardboard boards with white parchment corners and
+                           spine. On the spine there is written in ink: <q>1 Biorners Inledning 2 
+                              Conspectus Regum S. 3 William Bastards Saga 4 K: Alfs
+                              Saga.</q>. There are also two white labels below on which are printed: <q>11</q> and
+                              <q>F.10</q>. The fore-edge is red.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <!-- Sweden? -->
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="GusBon001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:16.889+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-09" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

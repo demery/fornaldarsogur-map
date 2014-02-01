@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 80</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-80" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 80</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="168v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <rubric>Hier byrjar Upphaf á søgunne af Ørvar Odde, syne Grïms lodinnkinnu</rubric>
+                     <incipit>Madur hiet Grïmur lodinkinna, hanns kona hiet Lopthæna.</incipit>
+                     <explicit>og endum wer hier sögu Ørvar-Odds enns Widforla</explicit>
+                     <textLang mainLang="non"/>
+                     <!-- this and all subsequent <msItem> notes appear to have been cropped somehow; move to <filiation> when
+                        complete -->
+                     <note>younger vers., copy of Papp. fol. nr 102 which itself is a copy</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="170r" to="197v"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <rubric>Hier byriar søgu Katle hæng</rubric>
+                     <incipit>Hallbjórn hiet madur, hann war kalladur hälftróll</incipit>
+                     <explicit>Ketill hængur riede fyrir hrafnistu á undan hann lifde.</explicit>
+                     <textLang mainLang="non"/>
+                     <note>copy of Papp. fol. nr 102 which itself is a copy</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="199r" to="212r"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <rubric>Sagann af Grime lodinnkinnu</rubric>
+                     <incipit>Svo er sagt af Grime, syne Ketils, ad hann var badr mikill og sterkur</incipit>
+                     <explicit>og lykur sier þessara sögu (þessum sögum) frä Ketli hæng og Grimr lodinkinnu.</explicit>
+                     <textLang mainLang="non"/>
+                     <note>copy of Papp. fol. nr 102 which itself is a copy</note>
+                  </msItem>
+                  <msItem n="4" class="samh">
+                     <locus from="199r" to="212r"/>
+                     <title type="supplied">Nockrar samhendur</title>
+                     <incipit>Opt er Is lestru illa skör festur</incipit>
+                     <textLang mainLang="non"/>
+                     <note>23 verses</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="216"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol">On every tenth page there is an number in ink and one in pencil. The pencil foliation,
+                           which is one ahead, replaces the ink one, which has a pencil strike through it. </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="15 16">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="130"/>
+                              <width unit="mm" quantity="102"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#GudOla001" scope="major" script="kurrent"/>
+                     <handNote scribeRef="#HelOla001" scope="minor" script="kurrent">only item 4.</handNote>
+                  </handDesc>
+                  <!-- more detail required
+                  <decoDesc ana="yes">
+                     <decoNote/>
+                  </decoDesc> -->
+                  <additions ana="low">
+                     <p><q>JBiörnsternia</q> is written on the inside front cover.</p>
+                     <p>The contents of the manuscript have been written on the reverse of flyleaf i</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Marbelled paper on cardboard. The spine and the corners are in brown leather. On the spine, the
+                           shelfmark is imprinted with golden letters. <q>SAGANN OFWER ODDE &amp; C.</q>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1680" notAfter="1699"/>
+                     <origPlace key=""/>
+                  </origin>
+                  <provenance>
+                     <name key="JohBio001" type="person" role="signatory">J. Beronius Biörnstierna (see inside front cover).</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:58.063+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-05" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

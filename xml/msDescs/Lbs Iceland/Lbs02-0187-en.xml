@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 187 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs02-0187-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 187 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" facs="#Lbs02-0187-0001r" to="64r">1r-64r</locus>
+                     <title type="uniform">Heiðarvíga saga</title>
+                     <note>Retelling by <name type="person" key="JonOla003">Jón Ólafsson</name> úr
+                        Grunnavík at the beginning of the saga on fol. <locus from="1r" facs="#Lbs02-0187-0001r" to="35v">1r-35v</locus>
+                     </note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="65r" facs="#Lbs02-0187-0065r" to="131r">65r-131r</locus>
+                     <title type="uniform">Reykdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="132r" facs="#Lbs02-0187-0132r" to="157v">132r-157v</locus>
+                     <title type="uniform">Svarfdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="158r" facs="#Lbs02-0187-0158r" to="203v">158r-203v</locus>
+                     <title type="uniform">Ljósvetninga saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4.1" class="isl">
+                     <locus from="202v" facs="#Lbs02-0187-0202v" to="203v">202v-203v</locus>
+                     <title type="uniform">Þórarins þáttur ofsa</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="attat">
+                     <locus from="205r" facs="#Lbs02-0187-0205r" to="205r">205r</locus>
+                     <title type="supplied">Ættartala</title>
+                     <note>Ágrip af ættartölu</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="forns">
+                     <locus from="206r" facs="#Lbs02-0187-0206r" to="228v">206r-228v</locus>
+                     <title type="uniform">Hálfdanar saga gamla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="230r" facs="#Lbs02-0187-0230r" to="239v">230r-239v</locus>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <rubric>Hér byrjar sögu Hrólfs Gautrekssonar. Sá fyrzi [sic] hluti inniheldur
+                        Skafnatungu þátt og byrjar fyrst að segja frá Gauta kóngi</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="239v" facs="#Lbs02-0187-0239v" to="273v">239v-273v</locus>
+                     <title ref="#hsk" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <rubric>Hér byrjar nú söguna af Hrólfi kóngi Gautrekssyni</rubric>
+                     <colophon>Skrifað að Fjarðarhorni við Hrútafjörð árið 1816 af Sigurði
+                        Sigurðssyni</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="273"/>
+                           <num type="back-flyleaf" value="4"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="292"/>
+                              <width unit="mm" quantity="180"/>
+                           </dimensions>
+                           <watermark ana="yes">In the watermark the years 1810 og 1811 are visible</watermark>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 34">
+                           <num type="wpl" atLeast="9" atMost="14"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes">Present in the latter part of the manuscript, folios 132-203</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#OlaSiv001" scope="major" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="#SigSig011" scope="minor" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Decorated initials in places</decoNote>
+                  </decoDesc>
+                  <additions ana="no">
+                     </additions>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS">Ísland Western NorthWestern</origPlace>
+                     <origDate from="1810" to="1816">[1810?]-1816</origDate>
+                  </origin>
+                  <provenance> <name type="person" role="owner" key="BogTho001"/></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:27.674+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:38.438+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:56.241+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:30.679+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-12-07" who="#SK">Added information from the digitized version of the manuscript on handrit.is</change>
+         <!-- Size of written area in the layoutDesc still lacking -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

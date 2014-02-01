@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1626 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1626-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1626 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <note>The same material as in Lbs 1492 4to, but in another order.</note>
+                  </summary>
+
+                  <titlePage ana="contemporary">
+                     <titlePart>Fornmannasögur Norðurlanda. Annað bindi. Skrifaðar eptir gömlum bókum. M.D.C.C.C.L.X.X.X.I.I.I.</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="2r:1" to="2r:14">3</locus>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Innihald bókarinnar:</rubric>
+                     <incipit>I-IV. Hrafnistumannasögr.</incipit>
+                     <explicit>XII - - Drauma Jóni.</explicit>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="3r:1" to="17r:13">5-33</locus>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hrafnistuanna=sögur. Sagan af Katli= Hæng.</rubric>
+                     <incipit>Hallbjörn hét maðr, hann var kallaðr hálftröll</incipit>
+                     <explicit>Ketill réð fyrir Hrafnistu meðan han<ex>n</ex> lifði, en Grímr loðinkinni
+                        eptir hann. Örvar Oddr var sonr Gríms</explicit>
+                     <finalRubric>ok lýkr hér sögunni af Katli Hæng.</finalRubric>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="17r:14" to="24v:23">33-48</locus>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Grími Loðinkinna.</rubric>
+                     <incipit>Svo er sagt af Grími Loðinkinna, at hann var bæði mikill ok sterkr ok hinn
+                        mesti garpr</incipit>
+                     <explicit>han<ex>n</ex> var ram<ex>m</ex>r at afli ok fullhugi hinn mesti, ok bjó þó
+                        mjök einn um sitt han<ex>n</ex> varð ellidauðr maðr</explicit>
+                     <finalRubric>ok lýkr hér sögu Gríms Loðinkin<ex>n</ex>a, er hér hefr upp Örvar Odds
+                        sögu <ex>ok</ex> er mikil saga.</finalRubric>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="25r:1" to="109v:18">49-218</locus>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefr upp söguna af Örvar=Oddi.</rubric>
+                     <incipit>Grímr hét maðr ok var kallaðr Loðinkinni því var hann svo kallaðr at hann var
+                        með því alinn</incipit>
+                     <explicit>er hann hefir fyrir búit öllum sínum útvöldum vinum um óendanligar aldri alda.</explicit>
+                     <finalRubric>At þessu fyrirrituðu bindum vér hér enda á sögu Örvar Odds, ok allra hans
+                        frægðarverka. hafi sá þakkir er les, en ánægju er hlíðir á.</finalRubric>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="110r:1" to="131v:22">219-262</locus>
+                     <locus from="133r:1" to="133r:2">263</locus>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Án bogsveigir</rubric>
+                     <incipit>Í þann tíma er fylkiskonúngar vóru í Noregi, hófst þessi saga.</incipit>
+                     <explicit>hann var mikilmenni hann var faðir Sigurðar bjóðaskalla ágæts manns í Noregi.</explicit>
+                     <finalRubric>Ok lýkr hér við sögu Áns bogsveigir.</finalRubric>
+                     <note>Leaf 132 has been misplaced and should be between leaves 134 and 135.</note>
+                  </msItem>
+                  <msItem n="6" class="kons">
+                     <locus from="133r:3" to="134v:22">263-266</locus>
+                     <locus from="132r:1" to="132v:22">267-268</locus>
+                     <locus from="135r:1" to="163v:15">269-326</locus>
+                     <title type="supplied">Ynglinga saga</title>
+                     <title type="supplied">Hölga saga hins Háleiska og Huld ríku drottningu hans</title>
+                     <!-- textLang? -->
+                     <rubric>Ýnglinga saga eðr ok af Hölga inum Háleizka ok Huld Drottníngu h<ex>an</ex>s inni ríku.</rubric>
+                     <incipit>Þat er sagt at áðren Gefjan fekk Sæland af Gylfa, héti þar Lagarstöð</incipit>
+                     <explicit>Olafr var af ættum Ýnglínga, ok braut niðr heiðna siði í Norvegi, var þarmeð hinum forna
+                        átrúnaði lokið.</explicit>
+                     <finalRubric>Lýkr svo þessari sögu.</finalRubric>
+                     <note>Leaf 132 has been misplaced and should be between leaves 134 and 135.</note>
+                  </msItem>
+                  <msItem n="7" class="forns">
+                     <locus from="164r:1" to="240v:20">327-480</locus>
+                     <title type="uniform">Sigurðar saga snarfara</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Sigurði konúngi Haralldssyni snarfara</rubric>
+                     <incipit>I kap. Vatnar hefir konúngr heitið. hann réði fyrir Roga ok Hörðalandi</incipit>
+                     <explicit>ok þá lét k<ex>onún</ex>gr skrásetja hana, en Oddr Ófeigsson kom með hana út híngað
+                        til Íslands.</explicit>
+                     <finalRubric>Lýkr hér sögunni af Sigurði konúngi snarfara</finalRubric>
+                  </msItem>
+                  <msItem n="8" class="forns">
+                     <locus from="241r:1" to="298v:22">481-596</locus>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Starkaði gamla Stórvyrkssyni</rubric>
+                     <incipit>I.kap Svo byrjar þessa sögu, at Starkaður hét maðr, hann var kallaðr Áludrengr</incipit>
+                     <explicit>sá haugr er útfrá Hleiðrar garði. þar er hét Balúngarheiði, sézt hans en<ex>n</ex> marki.</explicit>
+                     <finalRubric>Lýkr þarmeð sögu Starkaðar Stórvirkssonar.</finalRubric>
+                  </msItem>
+                  <msItem n="9" class="avint">
+                     <locus from="299r:1" to="323r:1">597-645</locus>
+                     <title type="uniform">Jasonar saga bjarta</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Jasyni bjarta <ex>ok</ex> Herrauði hertoga</rubric>
+                     <incipit>I kap Melander er konúngr nefndr er réði fyrir Indíalandi</incipit>
+                     <explicit>Herrauðr gaf Jasyni klæðit góða áðr þeir skildu.</explicit>
+                     <finalRubric>Ok lúkum vér hér sögun<ex>n</ex>i af Jasoni bjarta ok Herrauði hertoga.</finalRubric>
+                  </msItem>
+                  <msItem n="10" class="forns">
+                     <locus from="323r:2" to="367v:22">645-734</locus>
+                     <title type="supplied">Goðleifs saga prúða</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Goðleyfi prúða</rubric>
+                     <incipit>I kap. Í vestrátt af Spaníalanði er lanzhluti sá er kallast Portúgal</incipit>
+                     <explicit>Friðleyfr jarl stýrði ríki sínu lengi ok andaðist í hárri elli.</explicit>
+                     <finalRubric>Endar svo sagan af Goðleyfi jarli inum prúða.</finalRubric>
+                  </msItem>
+                  <msItem n="11" class="avint">
+                     <locus from="368r:1" to="380r:9">735-759</locus>
+                     <title type="supplied">Felix saga og Iðunnar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Felix ok Iðunni</rubric>
+                     <incipit>I kap. Suður í landinu Polonía bjó ein<ex>n</ex> ríkr borgari sem Hinrik hét</incipit>
+                     <explicit>lifði þetta tengða fólk með þ<ex>es</ex>sum hætti lánga æfi í lukku ok velgengni</explicit>
+                     <finalRubric>endar þannig sagan af Felix ok Iðunni.</finalRubric>
+                  </msItem>
+                  <msItem n="12" class="avint">
+                     <locus from="380r:10" to="390v:21">759-780</locus>
+                     <title type="supplied">Selikó saga og Berissu</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Selikó ok Berissu</rubric>
+                     <incipit>I kap. Í ríki því er Iuiða heitir skamt frá Guinea mjök nærri höfuðstað ríkisins</incipit>
+                     <explicit>ok skildi eigi sínar samvistir til dauða dags.</explicit>
+                     <finalRubric>Endast þannig sagan af Selikó ok Berissu.</finalRubric>
+                  </msItem>
+                  <msItem n="13" class="ridd">
+                     <locus from="391r:1" to="400v:9">781-</locus>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Söguþáttr af DraumaJóni</rubric>
+                     <incipit>I. kap Hinrik er jarl nefndr í Saxlandi, han<ex>n</ex> var vitr maður</incipit>
+                     <explicit>unntust þau Jón jarl ok systir keisarans vel ok lengi</explicit>
+                     <finalRubric>ok lúkum vér hér Drauma Jóns sögu.</finalRubric>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="400"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="191"/>
+                              <width unit="mm" quantity="159"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="pag contemporary">Paginated 1-800</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22">
+                           <num type="wpl" atLeast="8" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="122"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MagJon001" scope="sole" script="hum cursiva">Magnús Jónsson í Tjaldanesi</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Leather spine and corners.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1883"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:00.895+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2012-12-20" who="#SK">This manuscript has to be catalogued from the real thing</change>
+         <change when="2013-09-12" who="#OHA">Catalogued from manuscript.</change>
+         <!-- Ynglinga saga needs another look: version? textLang? -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

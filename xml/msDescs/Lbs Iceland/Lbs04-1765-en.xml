@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1765 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1765-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1765 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="tjodfr">
+                     <locus from="1r" facs="#Lbs04-1765-0001r" to="7v">1r-7v</locus>
+                     <title type="supplied">Þáttur af Þorbjörgu kólku á Kólkunesi</title>
+                     <textLang mainLang="is"/>
+                     <colophon>Ritið að Nyrðrum-Ökrum MDCCCLX (1860). Feigur Fallandason</colophon>
+                  </msItem>
+                  <msItem n="2" class="tjodfr" defective="true">
+                     <locus from="7v" facs="#Lbs04-1765-0007v" to="7v">7v</locus>
+                     <title type="supplied">Frá ýmsum Eyfirðingum</title>
+                     <textLang mainLang="is"/>
+                     <note>The beginning only</note>
+                  </msItem>
+                  <msItem n="3" class="fas" defective="true">
+                     <locus from="8r" facs="#Lbs04-1765-0008r" to="9v">8r-9v</locus>
+                     <title ref="#ff" type="uniform">Frá Fornljóti og ættmönnum hans</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hversu Norvegur byggðist</rubric>
+                     <note>Missing the end</note>
+                     <explicit defective="true">Haddingur son Rauma átti Haddingjadal og <gap/></explicit>
+                  </msItem>
+                  <msItem n="4" class="vedfr tjodfr">
+                     <locus from="10r" facs="#Lbs04-1765-0010r" to="11v">10r-11v</locus>
+                     <title type="supplied">Veðurspár</title>
+                     <incipit>Þegar sólargeislar myndast í skýjum á vetrarlofti um sólaruppkomu
+                        boðar regn</incipit>
+                     <explicit defective="true">Verði kalt stöðuvatn fyrir utan sólarhita volgara en vant er, boðar
+                        stór regn, vatns eður sem <gap/></explicit>
+                     <note>Fragmentary, lacunas at the beginning in the middle and at the end</note>
+                     <note>Folio <locus>10v</locus> blank and 1/3 of <locus>10r</locus> as well</note>
+                  </msItem>
+                     <msItem n="5" class="edd kvad">
+                        <locus from="12r" facs="#Lbs04-1765-0012r" to="15v">12r-15v</locus>
+                        <title type="uniform">Völuspá</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="6" class="edd kvad" defective="true">
+                        <locus from="16r" facs="#Lbs04-1765-0016r" to="18v">16r-18v</locus>
+                        <title type="uniform">Hávamál</title>
+                        <textLang mainLang="non"/>
+                        <note>Hávamál in gömlu eftir Sæmundar-Eddu</note>
+                        <note>Missing the end from verse 50</note>
+                     </msItem>
+                     <msItem n="7" class="edd kvad">
+                        <locus from="20r" facs="#Lbs04-1765-0020r" to="24v">20r-24v</locus>
+                        <title type="uniform">Sólarljóð</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="8" class="laus">
+                        <locus from="24v" facs="#Lbs04-1765-0024v" to="27r">24v-27r</locus>
+                        <title type="Supplied">Vísur</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Þvat hér ossa ævi</incipit>
+                     </msItem>
+                     <msItem n="9" class="edd" defective="true">
+                        <locus from="27r" facs="#Lbs04-1765-0027r" to="27r">27r</locus>
+                        <title type="uniform">Bjarkamál</title>
+                        <textLang mainLang="non"/>
+                        <note>Fragmentary</note>
+                     </msItem>
+                     <msItem n="10" class="hetkv fas">
+                        <locus from="27r" facs="#Lbs04-1765-0027r" to="27v">27r-27v</locus>
+                        <title type="supplied" ref="#rsl">Ragnars sögu loðbrókar [Verses]</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Svo kvað trémaður xl álna hár í Sámseyju</rubric>
+                        <incipit>Það var fyrir löngu</incipit>
+                        <explicit>hlýr hvorgi mér/ hold né dęþi</explicit>
+                        <note>Sámsey-verses</note>
+                     </msItem>
+                     <msItem n="11" class="gat">
+                        <locus from="27v" facs="#Lbs04-1765-0027v" to="28r">27v-28r</locus>
+                        <title type="supplied">Gáta úr Ganþreið</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Ec sá Fljúga fugla marga</incipit>
+                     </msItem>
+                     <msItem n="12" class="run">
+                        <locus from="28r" facs="#Lbs04-1765-0028r" to="28v">28r-28v</locus>
+                        <title type="supplied">Merking málrúna</title>
+                        <textLang mainLang="non"/>
+                        <note>Runes in alphabetic order along with their meanings</note>
+                     </msItem>
+                     <msItem n="13" class="godkv edd">
+                        <locus from="28v" facs="#Lbs04-1765-0028v" to="31r">28v-31r</locus>
+                        <title type="uniform">Baldurs draumar</title>
+                        <title type="uniform">Vegtamskviða</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Vegtamskviða</rubric>
+                     </msItem>
+                     <msItem n="14" class="godkv edd">
+                        <locus from="31r" facs="#Lbs04-1765-0031r" to="33v">31r-33v</locus>
+                        <title type="uniform">Alvíssmál</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="15" class="kvad">
+                        <locus from="33v" facs="#Lbs04-1765-0033v" to="33v">33v</locus>
+                        <title type="supplied">Þorbjargar kvæði kólku</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Svo kenndi Þorbjörg kólka Grími bónda í Höfnum að smíða öngul á færi
+                           sitt til þess að hann fiskaði vel </rubric>
+                     </msItem>
+                     <msItem n="16" class="handfr skrif bokfr">
+                        <locus from="34r" facs="#Lbs04-1765-0034r" to="34r">34r</locus>
+                        <title type="supplied">On abbreviations in Icelandic handwriting</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Um<ex>m</ex> Nockur Baund Og Skam<ex>m</ex>stafan<ex>ir</ex> i Letri <ex>og</ex> Bóku<ex>m</ex></rubric>
+                        <note>Abbreviations and their expansions in alphabetical order</note>
+                     </msItem>
+                     <msItem n="17" class="kvad">
+                        <locus from="35r" facs="#Lbs04-1765-0035r" to="37v">35r-37v</locus>
+                        <author key="ArnGis006">Árni Gíslason</author>
+                        <title type="supplied">Hársljóð</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Hársljóð yfirsett af Árna Gíslasyni á Vestfjörðum</rubric>
+                     </msItem>
+                     <msItem n="18" class="heilrkv">
+                        <locus from="37v" facs="#Lbs04-1765-0037v" to="37v">37v</locus>
+                        <title type="supplied">Heilræðavísur Lúthers</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="19" class="attfr attat">
+                        <locus from="38r" facs="#Lbs04-1765-0038r" to="39r">38r-39r</locus>
+                        <title type="supplied">Biskupar komnir af Jóni Arasyni</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="20" class="attfr attat">
+                        <locus from="39r" facs="#Lbs04-1765-0039r" to="39v">39r-39v</locus>
+                        <title type="supplied">Ættartal frá Guðmundi Arasyni lögmanni</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="21" class="attfr attat">
+                        <locus from="39v" facs="#Lbs04-1765-0039v" to="40r">39v-40r</locus>
+                        <title type="supplied">Ættartal frá Ara Mássyni </title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="22" class="ritas isl">
+                        <locus from="41r" facs="#Lbs04-1765-0041r" to="43r">41r-43r</locus>
+                        <title type="supplied">Ritaskrá Íslendingasagna og þátta</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="23" class="ritas fas ridd isl">
+                        <locus from="43v" facs="#Lbs04-1765-0043v" to="45r">43v-45r</locus>
+                        <title type="supplied">Ritaskrá ýmissa fornsagna</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="24" class="ritas tjods avint bokfr">
+                        <locus from="45v" facs="#Lbs04-1765-0045v" to="49r">45v-49r</locus>
+                        <title type="supplied">Ritaskrá ýmissa sagna, ævintýra- og þjóðsagna</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="25" class="hels ritas">
+                        <locus from="49r" facs="#Lbs04-1765-0049r" to="50r">49r-50r</locus>
+                        <title type="supplied">Ritaskrá heilagra manna sagna</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="26" class="ritas forns riddst">
+                        <locus from="50r" facs="#Lbs04-1765-0050r" to="50r">50r</locus>
+                        <title type="supplied">Ritaskrá ýmissa síðari tíma sagna</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="27" class="annal" defective="true">
+                        <locus from="50v" facs="#Lbs04-1765-0050v" to="50v">50v</locus>
+                        <title type="supplied">Annáll</title>
+                        <textLang mainLang="is"/>
+                        <note>Fragment</note>
+                     </msItem>
+                     <msItem n="28" class="alm">
+                        <locus from="51r" facs="#Lbs04-1765-0051r" to="54v">51r-54v</locus>
+                        <title type="supplied">Almanaksbrot</title>
+                        <textLang mainLang="is"/>
+                        <note>Almanakið nær til og með júlí 1875.</note>
+                     </msItem>
+                     <msItem n="29" class="attfr attat">
+                        <locus from="55r" facs="#Lbs04-1765-0055r" to="56v">55r-56v</locus>
+                        <title type="supplied">Ættartölubrot Kárs á Vatnsskarði</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="30" class="attfr attat">
+                        <locus from="57v" facs="#Lbs04-1765-0057v" to="59v">57v-59v</locus>
+                        <title type="supplied">Ættartölubrot frá Hrólfi Þórðarsyni</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="31" class="kvad">
+                        <locus from="59v" facs="#Lbs04-1765-0059v" to="60r">59v-60r</locus>
+                        <title type="supplied">Lítið kvæði</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Lítið kvæði sem sagt er að ort hafi Þorbjörg kolka á
+                           Kolkunesi</rubric>
+                        <note>The poem is generally attributed to by Fiðlu-Björn</note>
+                     </msItem>
+                     <msItem n="32" class="attfr attat">
+                        <locus from="60r" facs="#Lbs04-1765-0060r" to="62r">60r-62r</locus>
+                        <title type="supplied">Ættartölubrot Einars Oddssonar</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="33" class="attfr attat">
+                        <locus from="62v" facs="#Lbs04-1765-0062v" to="63r">62v-63r</locus>
+                        <title type="supplied">Frá Oddi Gunnarssyni á Dagverðareyri</title>
+                        <textLang mainLang="is"/>
+                        <colophon>Skrifað 1854 af H (runic H)</colophon>
+                     </msItem>
+                     <msItem n="34" class="attfr attat">
+                        <locus from="63v" facs="#Lbs04-1765-0063v" to="64v">63v-64v</locus>
+                        <title type="supplied">Ættartölubrot til Péturs Péturssonar</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="35" class="kvad">
+                        <locus from="64v" facs="#Lbs04-1765-0064v" to="66r">64v-66r</locus>
+                        <title type="supplied">Hreggviður</title>
+                        <author key="SveSol002">Sveinn Sölvason lögmaður</author>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="36" class="attfr attat">
+                        <locus from="66r" facs="#Lbs04-1765-0066r" to="67v">66r-67v</locus>
+                        <title type="supplied">Nokkrir ættarþættir taldir til Eiríks
+                           Hallgrímssonar</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="37" class="kvad">
+                        <locus from="67v" facs="#Lbs04-1765-0067v" to="68v">67v-68v</locus>
+                        <title type="supplied">Samstæður</title>
+                        <textLang mainLang="is"/>
+                        <author key="HalPet001">Hallgrímur Pétursson</author>
+                     </msItem>
+                     <msItem n="38" class="attfr attat">
+                        <locus from="69v" facs="#Lbs04-1765-0069v" to="71v">69v-71v</locus>
+                        <title type="supplied">Fornmanna ættleggir</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="71"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="207" atMost="220"/>
+                              <width unit="mm" atLeast="85" atMost="178"/>
+                           </dimensions>
+                           <watermark ana="no">Probably not</watermark>
+                        </support>
+                        <foliation ana="no"><p>Blank pages: <locus>10v, 19r-19v, 34v, 40v og 69r</locus></p></foliation>
+                        <condition ana="average">Has been restored</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="25 38">
+                           <num type="wpl" atLeast="5" atMost="15">
+                              <dimensions type="written">
+                                 <height unit="mm"/> <!-- add quantity -->
+                                 <width unit="mm"/>
+                              </dimensions>
+                              <catchwords/>
+                           </num>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#HjaJon003" scope="sole" script="kurrent">
+                        <name type="person" key="HjaJon003">Hjálmar Jónsson í Bólu</name>
+                        (Bólu-Hjálmar) uses kurrent, chancery and hum cursiva</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Large coloured initials: <locus from="1r" facs="#Lbs04-1765-0001r" to="1r">1r</locus>, <locus from="8r" facs="#Lbs04-1765-0008r" to="8r">8r</locus>, red-coloured</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>Fol. <locus>58r</locus> at the bottom a scribe's (H.J.) note: <q>(mér leiðist á sama
+                        stað)</q></p>
+                     <p>Fol. <locus>58r</locus> at the bottom a scribe's (H.J.) note: <q>Þetta er Hugrún, sem
+                        kvað til mín: :að var lá og herlegheit [etc]</q> (cf. ljóðasafn hjá
+                     H.L.)</p></additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>Without binding</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1854" notAfter="1875">1854-[1875?]</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:43.114+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:02.522+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:21.162+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2013-01" who="#SK">Added information on items and layout and other things
+            from the digitized version on handrit.is and other sources</change>
+         <!-- Still lacking information in layout on size of written area  -->
+         <change when="2013-08-29" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

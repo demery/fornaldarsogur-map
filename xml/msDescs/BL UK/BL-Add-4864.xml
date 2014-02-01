@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 4864</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-4864" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 4864</idno>
+               </msIdentifier>
+               <msPart>
+                  <altIdentifier>
+                     <idno>I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="bisks" n="1">
+                        <locus from="2r" to="11r"/>
+                        <title type="uniform">Hungurvaka</title>
+                        <textLang mainLang="is"/>
+                        <note>Followed by Jón Egilsson's account of Bishop Þorlákr Þórhallsson.</note>
+                     </msItem>
+                     <msItem class="bisks" n="2">
+                        <locus from="11v" to="41r"/>
+                        <title type="uniform">Skálholtsannáll</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="3"/>
+                              <num type="book-block" value="41"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="315"/>
+                                 <width unit="mm" quantity="200"/>
+                              </dimensions>
+                              <watermark ana="yes">Crown with the initials CR below.</watermark>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="34 35">
+                              <num type="wpl" atLeast="10" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="250"/>
+                                 <width unit="mm" quantity="145"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="chancery fractura">Unknown</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="low">Note in another hand, f. 13r</additions>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="false">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1750" notAfter="1799"/>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="owner" key="JosBan001">Joseph Banks</name>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="isl" n="3">
+                        <locus from="43r" to="87r"/>
+                        <title type="uniform">Svarfdæla saga</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="46"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="325"/>
+                                 <width unit="mm" quantity="210"/>
+                              </dimensions>
+                              <watermark ana="yes">A lion rampant within a circular design topped by a crown.</watermark>
+                           </support>
+                           <foliation ana="later fol">Blank leaf after f. 87 is not included in the foliation</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="27">
+                              <num type="wpl" atLeast="8" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="250"/>
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="late kurrent">Unknown</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">Some marginal notes</additions>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="false">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1750" notAfter="1799"/>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="owner" key="JosBan001">Joseph Banks</name>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="almb" n="4">
+                        <locus from="88r" to="114v"/>
+                        <title type="uniform">Apollonius saga</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem class="fas" n="5">
+                        <locus from="114v" to="126r"/>
+                        <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="42"/>
+                              <num type="back-flyleaf" value="3"/>
+                              <note>This section is made up of 42 leaves but the first two, a titlepage followed by a blank leaf,
+                                 have been inserted prior to msPart II</note>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="290"/>
+                                 <width unit="mm" quantity="215"/>
+                              </dimensions>
+                              <watermark ana="yes">A crown above a design and the initials CD</watermark>
+                           </support>
+                           <foliation ana="later fol">Blank leaf after f. 42 (title page) is not included in the foliation.
+                              Likewise with blank page after f. 126</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="30 32">
+                              <num type="wpl" atLeast="11" atMost="13"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="230"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent">Unknown</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"> </additions>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="false">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1770" notAfter="1799"/>
+                        <note>The paper for this section has the date 1770 stamped on it and the Danish coat of arms.</note>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="owner" key="JosBan001">Joseph Banks</name>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:58.831+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-04" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

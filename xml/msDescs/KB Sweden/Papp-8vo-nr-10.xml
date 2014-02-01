@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 8vo nr 10</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-8vo-nr-10" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 8vo nr 10</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="54v:15"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <rubric>Hier byriar sagann af hrolfe konunge gautrikssyne</rubric>
+                     <incipit>þad er upphaf søgu þessar ad gautrykr konungr son gauts konungs riede</incipit>
+                     <textLang mainLang="non"/>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="54v:16" to="92v"/>
+                     <title type="uniform">Hávarðar saga ísfirðings</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="riddf">
+                     <locus from="93r" to="135v"/>
+                     <title type="uniform">Gibbons saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="136r" to="179v"/>
+                     <title type="uniform">Elís saga og rósamundu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="180r" to="193v"/>
+                     <title type="uniform">Tiodels saga riddara</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="rimur">
+                     <locus from="194r" to="251v"/>
+                     <title type="uniform">Pontus rímur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="251"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atMost="155" atLeast="150"/>
+                              <width unit="mm" quantity="104"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23 27">
+                           <num type="wpl" atLeast="6" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="140"/>
+                              <width unit="mm" quantity="88"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoEir004" scope="sole" script="kurrent">Þórálfur Eiríksson</handNote>
+                  </handDesc>
+                  <!-- more detail required 
+                  <decoDesc ana="yes">
+                     <decoNote/>
+                  </decoDesc> -->
+                  <additions ana="low">
+                     <p>f. 251v - various doodles and names written (see signatories)</p>
+                     <p>f. 193r-v, various names written on the verso side (Hallkell Bjarnason, Hromundur Bjarnason) and a long
+                        note on the recto: <q>Jeg Biarni jons son A þessa sogv bök m riettu þvi þoralfr eiriks son hefr skrifad
+                           hana firer mig og hef jeg fiengid firer sitt omak Biarna jons son mz E. H.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The binding is contemporary though repair work has been done and new flyleaves added to the bookblock.
+                           The boards are wooden, the front board has been snapped at some point and glued back together. There
+                           are holes for a strap made of a strip of parchment to pass thorugh in the centre of the outer edges of
+                           teh front and back board. The spine is covered in brown leather upon which are printed in gilt the
+                           three crowns and <q>COD. ISL. PAPP. 8:o N:o 10</q>. A red label is attached to the front cover at
+                           the bottom. It reads: <q>Riks-Bibliotek STOCKHOLM Handskrifter. Islandica Pappir
+                              8o No 10</q>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <!-- presumably this is dated on fol. 135v? -->
+                     <origDate when="1655">See f.135v</origDate>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <!-- this encoding doesn't really work (Bjarni appears twice) -->
+                     <p>Numerous unidentified owners (see additions above): 
+                     <name type="person" role="signatory" key="ambig">Bjarni Jónsson</name>, 
+                     <name type="person" role="commissioner" key="ambig">Bjarni Jónsson</name>, 
+                     <name type="person" role="signatory" key="ambig">Hromundur Bjarnason, f. 251v</name>, 
+                     <name type="person" role="signatory" key="ambig">Hallkell Bjarnason</name>, 
+                     <!-- possibly SigJon008? -->
+                     <name type="person" role="signatory" key="ambig">Sigurður Jónsson, f. 251v</name>.
+                     <name type="organisation" role="owner" key="AntKol001"/></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:58.833+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-06" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

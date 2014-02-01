@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 20</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-20" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 20</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Hic incipitur Wolsungorum Historia sive Relatio de Sigurdo Serpenstis Occisore</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="128r"/>
+                     <title type="uniform" ref="#vs">Völsunga saga <note>[Latin]</note></title>
+                     <rubric>Hic incipitur Wolsungorum historia sive Relatio de Sigurdo Serpenstis Occiosoris nomen prafert. Cap.
+                        I. De Breda servo à Siga<ex>m</ex> interferto.</rubric>
+                     <incipit/>
+                     <explicit>in summa inibi paupertate educatur</explicit>
+                     <textLang mainLang="la"/>
+                     <note>Latin transl. by Jón Vigfússon</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="128"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="325"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes">"AS", A fool with a pointed collar of seven equally long points, the central one
+                              has an addition which ends in three balls. On the flyleaves, the watermark is a bee hive with floral
+                              ornaments around it. Below the hive, the year "1839" is written, and "HOWARD" on the opposite site
+                              of the bifolio.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary fol later">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="29 30">
+                           <note>The outer column is blank.</note>
+                           <num type="wpl" atLeast="2" atMost="5"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="270"/>
+                              <width unit="mm" quantity="65"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonVig011" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>On the first front flyleaf, a later hand noted <q>Island. Chart. in folio. No 20.
+                           Inbunden år 1843 G. O. H. C. Närvarande öfversättning er gjort och skrifven af Isändaren Jonas
+                           Wigfusson.</q>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Cardboard binding with leather spine. Title in golden letters on the spine: <q>Wolsungorum HISTORIA.
+                              Latine p. J. Vigfusson</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1684" notAfter="1691"/>
+                     <origPlace key=""/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:02.185+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-22" who="#BES">Prepared for visit at the library.</change>
+         <change when="2013-03-05" who="#BES">Added missing information from the manuscript itself. Layout info still
+            missing.</change>
+         <change when="2013-04-03" who="#PTL">Added remaining locus and layout details.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 635 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-0635-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 635 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 69 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="sagnfr">
+                     <locus from="1r" to="8v"/>
+                     <title type="supplied">Konungatal Dana</title>
+                     <textLang mainLang="non"/> 
+                     <filiation>
+                        <ref type="ms" target="Papp-fol-nr-76" ana="antigraph">Copy of Papp fol. nr. 76</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="sagnfr">
+                     <locus from="9r" to="11v"/>
+                     <title type="supplied">Um Svein kóng i Danmörk</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#Papp-fol-nr-60" ana="antigraph">Copy of Papp fol. nr. 60</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="mannt sagnfr">
+                     <locus from="13r" to="16r"/>
+                     <title type="supplied">Obituarium</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="Papp-fol-nr-76" ana="antigraph">Copy of Papp fol. nr. 76</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="17r" to="43r"/>
+                     <title type="uniform" ref="#hs">Hervarar saga [Excerpts]</title>
+                     <rubric>Variantes Lectiones es Heiðreksþáttur</rubric>
+                     <filiation>
+                        <ref type="ms" target="#Papp-4to-nr-15" ana="antigraph">Papp. 4to no 15</ref>
+                        <ref type="book" target="#OlaVer1672" ana="antigraph">Verelius' edition</ref>
+                     </filiation>
+                     <note>Excerpts from the U and R redactions</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="43"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="199"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes">"GR" with crown on top; Maid of Dort "ProPatria"</watermark>
+                        </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="2224">
+                           <num type="wpl" atLeast="4" atMost="9"/>
+                              <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                              <catchwords ana="no"/>
+                           
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#HanFin001" scope="sole" script="hum cursiva">Hannes Finnsson</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>A few notes on the origins of the texts by the scribe himself. Sparse notes by <name key="PetSuh001" type="person" role="owner">Suhm</name>.</p></additions> <!-- check -->
+              <bindingDesc>
+                 <binding ana="decorative" contemporary="unknown">
+                    <p>Light brown leather binding with golden imprints on the spine: Title and floral ornaments.</p>
+                 </binding>
+              </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 69 4to.</name></p>
+                     <p><name key="JacLan001" type="person" role="owner"/></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:36.091+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-05-01" who="#BES">Added catalog info.</change>
+         <change when="2013-05-21" who="#BES">Added missing information with manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

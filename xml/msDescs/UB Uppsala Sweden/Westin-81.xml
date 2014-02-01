@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westin 81</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Westin-81" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>Westin 81</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="22r:17"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hálfi oc hálfs reckom.</rubric>
+                     <incipit>Alrekr het konogr er bió á Alreks staudom</incipit>
+                     <explicit>Iri het dóttir hanns oc er þadan micil ætt cominn</explicit>
+                     <filiation>
+                        <p>Derived from <ref type="ms" target="#AM02-0202b-en" ana="protograph">AM 202 b fol.</ref>
+                           and <ref type="ms" target="#AM02-0202c-en" ana="protograph">AM 202 c fol.</ref>.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="22"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="198"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <note>Fol. 22v blank.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Printed foliation in top outer corners.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="23 24">
+                           <num type="wpl" atLeast="2" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="145"/>
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="mixed">Initials over 2 to 6 lines at every chapter begininning. Red book edge.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Notes in Latin and variants in the outer margins, most
+                        likely by the scribe himself.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in cardboard with marbled pattern.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1780" notAfter="1820"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <p>The manuscript once belonged to <name key="BirTho001" role="owner" type="person">Birger Thorlacius</name>, after
+                        whose death <name type="person" role="owner" key="JacWes001">Jacob Westin</name> bought it at an auction in <date when="1830">1830</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:23.827+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-08" who="SH">Added information from the catalogue and from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

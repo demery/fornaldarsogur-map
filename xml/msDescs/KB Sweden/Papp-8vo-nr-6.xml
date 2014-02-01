@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 8vo nr 6</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-8vo-nr-6" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 8vo nr 6</idno>
+               </msIdentifier>
+               <physDesc>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Cream parchment on cardboard. On the spine the following is printed: <q>COD. ISL. PAPP. 8:o N:o 6 </q>,
+                           and <q>N: 6 islandica</q> is handwritten in ink. A red label is attached to the front cover in the
+                           bottom left-hand corner. On the label: <q>Riks-Bibliotek STOCKHOLM Handskrifter. Islandica Pappir 8o No
+                              6</q> On the front inside cover a print from a book of a heron's (ardea piscatrix) skeleton has been
+                           pasted. On the recto of the fourth front flyleaf a list of the contents of both manuscript parts,
+                           clearly made after they were bound together, has been included (Sögur á þessari bók). </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1674" to="1681"/>
+                     <origPlace key="IS"/>
+                     <note>Part I dated to 1681 in colophon and part II to 1674 in colophons.</note>
+                  </origin>
+                  <provenance>
+                     <!-- doesn't display, even when put into <p> -->
+                     <name type="person" role="signatory" key="ambig">Guðmundur Grimsson</name>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Papp 8vo nr 6 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" to="36v:20"/>
+                        <title type="uniform">Þórðar saga hreðu</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="36v:21" to="51v"/>
+                        <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                        <rubric>Søguþattur Af þorsteins Bæjarmagns</rubric>
+                        <incipit>I þann tima er Hakon kongr sigurdarson riedi firir norik</incipit>
+                        <explicit>og lukum vier her søgu af þorsteini Bæjarbarns</explicit>
+                        <colophon>Anno 1681 G: G: S E: H:</colophon>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="isl">
+                        <locus from="51r" to="88v:24"/>
+                        <title type="uniform">Hávarðar saga ísfirðings</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="4" class="isl">
+                        <locus from="88v:25" to="114v"/>
+                        <title type="uniform">Króka-Refs saga</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="4"/>
+                              <num type="book-block" value="114"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="163"/>
+                                 <width unit="mm" quantity="103"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol">Fairly random (some leaves enumerated, others not) pencil
+                              foliation</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="25 30">
+                              <num type="wpl" atLeast="6" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="135"/>
+                                 <width unit="mm" quantity="86"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudOla001" scope="sole" script="kurrent">(see f.114v)</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Papp 8vo nr 6 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="unknown">
+                        <locus from="1r" to="34v"/>
+                        <title type="supplied">Sigrgarðar saga frækna rikarðssonar</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="ridd">
+                        <locus from="35r" to="44v"/>
+                        <title type="uniform">Nitida saga</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="fas">
+                        <locus from="45r" to="73v"/>
+                        <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                        <rubric>Hier biriast saga af Sturlauge hinum Starfsama</rubric>
+                        <incipit>So biriar þessa søgu ad haralldr kongr rijed firir þrandheijme</incipit>
+                        <explicit>...sottdaudr a dogum frijd froda dana konungr oc endum vir sogu af sturlauge
+                           starfsama</explicit>
+                        <colophon>4 desem Anno 1674</colophon>
+                        <textLang mainLang="non"/>
+                        <filiation>
+                           <p>Derived from <ref type="ms" target="#GKS02-1006-en" ana="protograph">GKS 1006 fol.</ref></p>
+                        </filiation>
+                        <note>Older vers.</note>
+                     </msItem>
+                     <msItem n="4" class="isl">
+                        <locus from="74r" to="101v:17"/>
+                        <title type="uniform">Bandamanna saga</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="5" class="isl">
+                        <locus from="101v:18" to="108v"/>
+                        <title type="uniform">Ölkofra þáttur</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="6" class="unknown" defective="true">
+                        <locus from="109r" to="109r:7"/>
+                        <title type="supplied">Galefreys þáttur riddaras</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="110"/>
+                              <num type="back-flyleaf" value="3"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="168"/>
+                                 <width unit="mm" quantity="103"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="later fol">Some pages are foliated in pencil.</foliation>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="23 26">
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="143"/>
+                                 <width unit="mm" quantity="90"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#TeiArn001" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>On fol. <locus>23r</locus>
+                           <name type="person" role="signatory" key="TeiArn001">Teitr Arngrimsson</name> wrote: <q>þessa sögubók á
+                              Teitur Arngrimsson</q>.</p>
+                        <p>On fol. <locus>110v</locus>, there are many pen trials, the word <q>gudsnad</q> and a note by <name type="person" role="owner" key="IslArn001">Isleifur Arngrimsson</name>: <q>þessa bók á Isleifur
+                              Arngrimsson oc er vel ad kominn</q>.</p>
+                        <p>A page has been added beside the first back flyleaf. It is from a ledger containing transactions from the
+                           1610s and 1620s</p>
+                     </additions>
+                     <accMat/>
+                  </physDesc>
+                  <history>
+                     <provenance>
+                        <name type="person" role="owner" key="TeiArn001">Teitr Arngrimsson</name>
+                        <name type="person" role="owner" key="IslArn001">Isleifur Arngrimsson</name>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:59.597+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-05" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

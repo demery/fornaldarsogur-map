@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 103</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-103" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 103</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="57v:11"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Perg-4to-nr-7" ana="antigraph">Perg. 4to nr 7</ref>.</p>
+                     </filiation>
+                     <note>older vers.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3">The former paper front cover is now flyleaf nr. 2</num>
+                           <num type="book-block" value="57"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes">Different watermarks: "EW" with a crown and a cross on top; a postal horn on the
+                              opposite side. "IBM" and a large round watermark with crown on top and a lion in the center. There
+                              is writing around the outside and beneath the lion. On the right side it reads
+                              "PROPATRIA".</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>sparse foliation in pencil</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="2" writtenLines="27 31">
+                           <note>two columns, outer column blank</note>
+                           <num type="wpl" atLeast="2" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="230" atMost="270"/>
+                              <width unit="mm" quantity="103"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoBro001" scope="sole" script="hum cursiva"><p>Probably written by Þorvaldur
+                           Brockmann.</p></handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>A few corrections to the text by a later hand, partly in darker ink. On the original
+                        front cover, as well as the third front flyleaf, there are several notes and stickers with the the
+                        shelfmark, the former shelfmark <q>L. No 21</q> as well as the title <q>Saga af Orvar
+                     Oddi</q>.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with marbeled paper on the boards; spine and corners in white leather. The
+                           golden imprint on the spine reads: <q>Cod. Isl. Papp. Fol. N:o 103</q>. The front cover of an older
+                           binding is preserved and now counted as a flyleaf.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1749"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:01.152+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. catalog info still missing.</change>
+         <change when="2013-03-06" who="#BES">Measured and checked at the library.</change>
+         <change when="2013-03-26" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

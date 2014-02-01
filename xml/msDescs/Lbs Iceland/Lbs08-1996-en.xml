@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1996 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1996-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1996 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>         
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="44r"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Jóni Svipdagssyni er kallaðr var Þjalar-Jón og Eiríki Vilhjálmsyni er nefnið hin forvitni</rubric>
+                  </msItem>
+                  <msItem n="2" class="kvad">
+                     <locus from="44v" to="63v"/>
+                     <title type="supplied">kvæði eftir Jón Ófeigsson [1841], síra Hallgrím Pétrsson, Lopt rika, Snorra Sturluson</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="55"/>
+                           <num type="back-flyleaf" value="6"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="162"/>
+                              <width unit="mm" quantity="98"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 24">
+                           <num type="wpl" atLeast="5" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="127"/>
+                              <width unit="mm" quantity="72"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonSig021" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Initials richly decorated and foliated throughout.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Some readers' additions.</p>
+                     <p>6 inserted leaves.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1857"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:18.771+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-10" who="#SMM">Added msItems and updated msDesc codes. Completed information where possible.</change>
+         <change when="2013-07-22" who="#SMM">Completed cataloguing.</change>
+         <change when="2013-09-21" who="#TL">Checked markup.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

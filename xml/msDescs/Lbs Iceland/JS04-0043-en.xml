@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 43 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0043-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 43 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Ein ágæt, nytsöm, fróðleg, lystileg, skemmtirík og artug bók.
+                        Innihaldandi margra ypparlegar ágætra ok mikilsháttar manna, sem og annarra
+                        (nýtilgenginna?) ævisögur, uppruna, atgjörvi, vöxt, vænleik, afreksverk og
+                        framfarir með því fleira þar að hnígur, ásamt þeirra afdrif og endalykt. Og
+                        margt annað skemmtilegt hvorra registur sjá má á eftirfylgjandi blaðsíðum.
+                        Þeim til gamans, skemmtunar og eftirlætis er slíkt heldur girnast að lesa
+                        eður heyra sér til dægrastyttingar. Samantekin af virðulegum höfðingsmanni
+                        Magnúsi Jónssyni að Vigur</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="sagnt">
+                     <locus from="2r" facs="#JS04-0043-0002r" to="6r"/>
+                     <title type="supplied">Kólumbus og landkönnunarsiglingar hans</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Þáttur af Columbo um hans landa uppleitun og ókunnar siglingar</rubric>
+                  </msItem>
+                  <msItem n="2" class="sagnfr">
+                     <locus from="6r" facs="#JS04-0043-0006r" to="9r"/>
+                     <title type="supplied">Ameríkus Vesputsí og landkönnunarsiglingar hans</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Americi Vesputii þáttur um hans siglingar og landa uppleitun</rubric>
+                     <colophon>Hans Hansson Skoning</colophon>
+                     <author key="HanSko001">Hans Hansson Skoning</author>
+                  </msItem>
+                  <msItem n="3" class="almb">
+                     <locus from="10r" facs="#JS04-0043-0010r" to="17v"/>
+                     <title type="uniform">Markólfs saga og Salómons </title>
+                     <title type="parallel">Salómons saga og Markólfs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Markólfs lífssaga og samtal þeirra Salómons konungs ins vísa</rubric>
+                  </msItem>
+                  <msItem n="4" class="avint">
+                     <locus from="18r" facs="#JS04-0043-0018r" to="53v"/>
+                     <title type="supplied">Unidentified ævintýri</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nokkur ævintýr gömul</rubric>
+                     <note>Numbers 1-43 in the margins</note>
+                  </msItem>
+                  <msItem n="5" class="almb">
+                     <locus from="54r" facs="#JS04-0043-0054r" to="57v"/>
+                     <title type="supplied">Unidentified Text</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefst upp ein frásögn er menn hafa til gamans</rubric>
+                  </msItem>
+                  <msItem n="6" class="hels">
+                     <locus from="58r" facs="#JS04-0043-0058r" to="70v"/>
+                     <title type="uniform">Margrétar saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af hinni heilögu Margrétu</rubric>
+                  </msItem>
+                  <msItem n="7" class="almb">
+                     <locus from="71r" facs="#JS04-0043-0071r" to="74r"/>
+                     <title type="uniform">Lykla-Péturs saga og Magelónu fögru</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Ein skemmtilig historia af fögru Magelona, sem var ein kungsdóttir af
+                        Neaples, og einum riddara hvör að hét Pétur, son eins greifa af Provincia
+                        útlögð af frantsisku á þýsku af meistara Vitus Varbeck og nú nýlega í dönsku
+                        snúin lystileg á að heyra og í að lesa og nú íslenskuð</rubric>
+                     <colophon>Útgefið í Kaupenhafn þann 28. d. martii, anno 1883, y. g. f.
+                        velviljugur þénari Laurents Benedicht (<locus to="74r" facs="#JS04-0043-0074r" from="74r">74r</locus>)</colophon>
+                  </msItem>
+                  <msItem n="8" class="landfr">
+                     <locus from="76r" facs="#JS04-0043-0076r" to="122v"/>
+                     <title type="uniform">Compendium Cosmographicum</title>
+                     <textLang mainLang="is"/>
+                     <author key="HanNan001">[Hans Nansen]</author>
+                     <colophon>Þetta er svo stuttlega skrifað um jörðina með sínum kóngaríkjum og
+                        löndum og endast hér með annar partur þessa bæklings. Anno 1660. Anno 1660,
+                        Skrifað og endað í Skálavík við Mjóafjörð anno 1660 þann þrítugasta og
+                        fyrsta martii mánaðar. Þórður Jónsson m.e.h. (<locus to="122v" facs="#JS04-0043-0122v" from="122v">122v</locus>)</colophon>
+                     <note>Beginning missing.</note>
+                  </msItem>
+                  <msItem n="9" class="sagnfr">
+                     <locus from="123r" facs="#JS04-0043-0123r" to="152v"/>
+                     <author key="HanSko001">Hans Hansson Skoning</author>
+                     <title type="supplied">Um Tyrkja skikk og siði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Um Tyrkjaríið eður Tyrkjanna trúarbrögð, lögmál og ýmislegar undarligar
+                        og sérligar leremoníur, kirkjusiði og annað fleira þess háttar</rubric>
+                     <colophon>Útlagt úr dönsku eftir geographisku skrifi Hans Hanssonar Skonning
+                           (<locus to="152v" facs="#JS04-0043-0152v" from="152v">152v</locus>)</colophon>
+                  </msItem>
+                  <msItem n="10" class="damis">
+                     <locus from="152v" facs="#JS04-0043-0152v" to="154v"/>
+                     <title type="supplied">Historía um einn stríðamann og hjón og hvörsu djöfullinn
+                        kom í spilið með þeim</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="isl" defective="true">
+                     <locus from="156r" facs="#JS04-0043-0156r" to="159r"/>
+                     <title type="uniform">Ölkofra þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>hefði þeir við ást, að þeim væri ekki í vilnað</rubric>
+                     <note>Beginning missing</note>
+                  </msItem>
+                  <msItem n="12" class="konth">
+                     <locus from="159v" facs="#JS04-0043-0159v" to="163v"/>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Slysa-Hróa</rubric>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="164r" facs="#JS04-0043-0164r" to="176r"/>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Hálfi kóngi og hans rekkum</rubric>
+                  </msItem>
+                  <msItem n="14" class="konth" defective="true">
+                     <locus from="176v" facs="#JS04-0043-0176v" to="186v"/>
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þáttur af Rauðúlfi og sonum hans</rubric>
+                  </msItem>
+                  <msItem n="15" class="samt" defective="true">
+                     <locus from="187r" facs="#JS04-0043-0187r" to="188v"/>
+                     <title type="uniform">Sturlu þáttur</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">settist fram á þiljur <gap/></incipit>
+                     <explicit>þegar Eyjólfur ofsi var drepinn þar og víðar á stórfundum um Island
+                        hér um mikla sögu má gjöra, þar um ei fleira að finnist</explicit>
+                     <note>Beginning missing</note>
+                  </msItem>
+                  <msItem n="16" class="kvas kon" defective="true">
+                     <locus from="189r" facs="#JS04-0043-0189r" to="192v"/>
+                     <author key="BjaKol001">Bjarni Kolbeinsson</author>
+                     <title type="uniform">Jómsvíkinga drápa</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Aungan kveð ek at óði</incipit>
+                     <note>Beginning missing</note>
+                  </msItem>
+                  <msItem n="17" class="run">
+                     <locus from="193r" facs="#JS04-0043-0193r" to="199r"/>
+                     <title type="supplied">Rúnir</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þrídeilur rúna</rubric>
+                     <note>On the names, making and interpretation of runes</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="199"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="192"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">in the lower margin</foliation>
+                        <condition ana="average">
+                           <p>There is a lacuna in the manuscript between folios <locus>178-180</locus>. Leaves partially loose from the binding</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1 2" writtenLines="23 30">
+                           <num type="wpl" atLeast="7" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="164"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <note>Fols. <locus>1v, 9v, 74v, 199v, 75, 155, 180</locus> are blank </note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="9">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">enlarged and decorated</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Blank added leaves: <locus>75, 154, 179</locus></p>
+                     <p>Title-page <locus from="1r" facs="#JS04-0043-0001r" to="1r">1r</locus> is an addition
+                     </p>
+                     <p>Some scribble on fol. <locus from="1v" facs="#JS04-0043-0001v" to="1v">1v</locus></p>
+                     <p>Scribble on leaf <locus from="74v" facs="#JS04-0043-0074v" to="74v">74v</locus></p>
+                     <p>Scribble on leaf <locus from="198v" facs="#JS04-0043-0198v" to="198v">198v</locus></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Leather binding on wooden boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1660" to="1680">1660-[1680?]</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     <p>
+                     <name type="person" role="owner" key="ArnTho008">Arnfríður Thorláksdóttir</name> á
+                           <placeName>Hreggstöðum á Barðaströnd</placeName> left an autograph on fols.
+                        <locus from="70v" facs="#JS04-0043-0070v" to="70v">70v</locus> and
+                     <locus from="162v" facs="#JS04-0043-0162v" to="162v">162v</locus></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:16.895+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:23.424+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:42.621+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2012-07-31" who="#SMM">Added and completed msItems with information gathered
+            from and pictures viewed on handrit.is. Completed FASNL encoding.</change>
+         <change when="2012-11" who="#SK">Adapted to FASNL and information on layoutDesc and
+            bindingDesc as needed from the manuscript itself.</change>
+         <change when="2013-08-28" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

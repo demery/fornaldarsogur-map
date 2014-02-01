@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kall 241 fol.</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="Kall02-0241-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                        <idno>Kall 241 fol.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="no"/>
+                        <msItem n="1" class="isl">
+                            <locus from="1r" to="25v"/>
+                            <title type="uniform">Bjarnar saga hítdælakappa</title>
+                            <rubric>Her Biriar Søgu af Birne Hiit dala Kappa</rubric>
+                            <incipit>Nu skal seigia nockut, af þ<ex>ei</ex>m Islendsku mønum</incipit>
+                            <explicit>Tekr nu þ<ex>ada</ex>n af adt kyrraz um<ex>m</ex> málin. Oc lykr her
+                                nu þ<ex>e</ex>ssare Søgu.</explicit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="26r" to="34v"/>
+                            <title type="uniform" ref="#hskh">Hálfs saga konungs og Hálfsrekka</title>
+                            <rubric>Her hefer Søguna af Alfe Konge og Alfreckum</rubric>
+                            <incipit>Alf rekur hefur Kongur heitit, er beó á Alfreckstødum, han<ex>n</ex> Rede fyrer Hørdalande,</incipit>
+                            <explicit> Yre het Dóttr h<ex>a</ex>ns, <ex>oc</ex> er þ<ex>adan</ex> mikil. ætt kvamin<ex>n</ex>; 
+                                Oc lycktum<ex>m</ex> ver þa Søgu af Hálfe k<ex>onungs</ex>
+                                <ex>oc</ex> H<ex>álfs</ex> Recku<ex>m</ex>.</explicit>
+                            <filiation>
+                                <p>Copy of <ref type="ms" target="#JS02-0007-en" ana="antigraph">JS 7 fol</ref>.</p>
+                            </filiation>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="1"/>
+                                    <num type="book-block" value="34"/>
+                                    <num type="back-flyleaf" value="1"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="314"/>
+                                        <width unit="mm" quantity="195"/>
+                                    </dimensions>
+                                    <watermark ana="yes">Coat of arms with french lily and crown; Maid of Dort</watermark>
+                                </support>
+                                <foliation ana="later fol"/>
+                                <condition ana="good"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-separate" columns="1" writtenLines="33 35">
+                                    <num type="wpl" atLeast="12" atMost="15"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="240"/>
+                                        <width unit="mm" quantity="142"/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scope="sole" scribeRef="unknown" script="chancery">Rubrics in fractura, almost gothic textualis</handNote>
+                        </handDesc>
+                        <decoDesc ana="high">
+                            <decoNote type="initial">highly decorated initials and rubrics in the beginning of each
+                                saga, but no color</decoNote>
+                        </decoDesc>
+                        <additions ana="low">
+                            <p>Three additions, one in latin <list type="bulleted">
+                                <item>
+                                    <locus from="27v"/>Sidan siglda Hiordleifr sudr til Niardeyrar</item>
+                                <item>
+                                    <locus from="28v"/>nempe utrang Hiordleifi uxorem secum in Daniam 
+                                    avexerat Reidarus.</item>
+                                <item>
+                                    <locus from="29v"/>Halfr kongr var afian sumur i hernadi or hafdi
+                                    iafnan sigr</item>
+                            </list></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="moderate" contemporary="unknown">
+                                <p>Later binding in average condition; moderate decoration with red handmade marbeled paper.
+                                    A little handwritten slip with the titles of the sagas is glued on the spine.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1700" notAfter="1799"/>
+                            <origPlace key="unknown"/>
+                        </origin>
+                        <provenance>
+                            <name type="person" role="owner" key="JohKal001"/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+                bibliography data</change>
+            <change when="2011-05-06T17:53:33.024+02:00" who="#EAH">Introduced repository auth file.
+                Updated repository element pointing, adding @ref and removing @key. </change>
+            <change when="2013-02-11T12:01:00+01:00" who="#SID">Doubble checked last details and added
+                rubric, incipit and explicit + textlang and script</change>
+            <change when="2013-06-04" who="#BES">Checked and corrected some details.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1637 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1637-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1637 4to</idno>
+               </msIdentifier>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Lbs 1637 4to I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="ridd">
+                        <locus from="1r" to="8v"/>
+                        <title type="uniform">Flóvents saga</title>
+                        <incipit>... Þó fengu þeir honum hest að ríða heim aftur ...</incipit>
+                        <note>The beginning is lacking, the saga begins in 4th chapter and the end
+                           of 5th chapter is lacking and the beginning of 6th chapter</note>
+                        <explicit>... og lýkur hér sögu þess nafnfræga Flóvents
+                           Frakklandskóngs</explicit>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="8v" to="13v"/>
+                        <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                        <rubric>Hér byrjast sagan af Hálfdani Eysteinssyni</rubric>
+                     </msItem>
+                     <msItem n="3" class="ridd">
+                        <locus from="13v" to="18r"/>
+                        <title type="uniform">Jarlmanns saga og Hermanns</title>
+                        <rubric>Hér byrjast agan af Hermann og Jarlmann</rubric>
+                     </msItem>
+                     <msItem n="4" class="fas">
+                        <locus from="18r" to="24r"/>
+                        <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                        <rubric>Sagan af Egli einhenta og Ásmundi berserkjabana</rubric>
+                     </msItem>
+                     <msItem n="5" class="ridd">
+                        <locus from="24r" to="35v"/>
+                        <title type="uniform">Sigurgarðs saga frækna</title>
+                        <rubric>Sagan af Sigurgarði frækna</rubric>
+                        </msItem>
+                        <msItem n="6" class="ridd">
+                           <locus from="35v" to="53v"/>
+                           <title type="uniform">Dínus saga drambláta</title>
+                           <rubric>Saga af Dínusi drambláta</rubric>
+                        </msItem>
+                        <msItem n="7" class="almb">
+                           <locus from="53v" to="58v"/>
+                           <title type="uniform">Marselíus saga og Rósamundu</title>
+                           <rubric>Saga af Marselíus og Rósamunda</rubric>
+                        </msItem>
+                        <msItem n="8" class="aevint">
+                           <locus from="58v" to="68v"/>
+                           <title type="uniform">Clarus saga</title>
+                           <rubric>Sagan af Claró keisarasyni</rubric>
+                        </msItem>
+                        <msItem n="9" class="ridd">
+                           <locus from="68v" to="81v"/>
+                           <title type="uniform">Blómsturvalla saga</title>
+                           <rubric>Blómsturvallna saga</rubric>
+                        </msItem>
+                        <msItem n="10" class="ridd">
+                           <locus from="81v" to="92r"/>
+                           <title type="uniform">Samsons saga fagra</title>
+                           <rubric>Saga af Samsoni fagra</rubric>
+                        </msItem>
+                        <msItem n="11" class="fas">
+                           <locus from="92r" to="103r"/>
+                           <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                           <rubric>Saga af Hiater(sic) og Ölver</rubric>
+                        </msItem>
+                        <msItem n="12" class="fas">
+                           <locus from="103r" to="106v"/>
+                           <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                           <rubric>Söguþáttur af Eiríki víðförla</rubric>
+                           <note>D-version</note>
+                        </msItem>
+                        <msItem n="13" class="ridd">
+                           <locus from="106v" to="109v"/>
+                           <title type="uniform">Drauma-Jóns saga</title>
+                           <rubric>Söguþáttur af Drauma Jóni</rubric>
+                        </msItem>
+                        <msItem n="14" class="almb">
+                           <locus from="109v" to="110v"/>
+                           <title type="uniform">Salómons saga og Markólfs</title>
+                           <rubric>Samtal Salamonis kóngs og Marcólfs</rubric>
+                        </msItem>
+                        <msItem n="15" class="ridd">
+                           <locus from="110v" to="11r"/>
+                           <title type="uniform">Bærings saga</title>
+                           <rubric>Saga af Bæring fagra</rubric>
+                           <explicit>... Kom móti þeim einn mikill dreki og bitust lengi og rifust
+                              Þar næst þótti mér sem drekinn flýði með ljóninu ...</explicit>
+                           <note>Only the beginning</note>
+                        </msItem>
+                        <msItem n="16" class="ridd">
+                           <locus from="112r" to="133v"/>
+                           <title type="uniform">Bærings saga</title>
+                           <rubric>Hér skrifast saga af Bæring fagra riddara</rubric>
+                           <note>30 chapters</note>
+                        </msItem>
+                        <msItem n="17" class="almb">
+                           <locus from="135r" to="153"/>
+                           <title type="uniform">Helenu saga</title>
+                           <rubric>Saga Helena einhentu</rubric>
+                           <note>A part,the beginnig, defect at the end</note>
+                        </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="153"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" atLeast="197" atMost="209"/>
+                                 <width unit="mm" quantity="160"/> 
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later pag">Top and middle of page, partly at bottom to in
+                              different hand.</foliation>
+                           <condition ana="poor">Restored but both loose from the binding and containing loose
+                              leaves. Dirty but text mostly legible</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="34 36">
+                              <num type="wpl" atLeast="11" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" atLeast="179" atMost="195"/>
+                                 <width unit="mm" atLeast="140" atMost="150"/>
+                              </dimensions>
+                              <note>Different scribes use the leaf-space differently, one filling the
+                                 page more. But as he manuscript has been cut it is not easy to discern
+                                 the whole story.</note>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <!-- previously marked as #SigJon038 (invalid) -->
+                        <handNote scribeRef="ambig" scope="major" script="kurrent">Sigurður
+                           Jónsson fols. 1-110</handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent">fols.
+                           111-153</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                        <decoNote/>
+                     </decoDesc>
+                     <additions ana="low">Fol 111 Names and other scribbles: <p>Guð laun ...</p><p>
+                           Þessi penni ...</p><p> Þessa bók á EOS</p><p> Flóvent Jónsson,</p><p>
+                           Sigurður Jónsson hefur skrifað þetta ...</p><p> Sigurður Jónsson </p><p>
+                           Sigurður Venesta vilao volete falleg mey vil ég þig </p></additions>
+                     <bindingDesc>
+                        <binding ana="moderate">
+                           <p>Leather-covered wooden boards. Coloured parchment perhaps.</p>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1760" notAfter="1800"/>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Lbs 1637 4to II</idno>
+                  </altIdentifier>
+                  <msContents>
+                        <msItem n="1" class="aevint">
+                           <locus from="1r" to="3v"/>
+                           <title>Aledinusar saga</title>
+                        </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="4"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="105"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="poor">Restored has helped.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="22 25">
+                              <num type="wpl" atLeast="7" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="154"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <catchwords ana="no">Pseudo</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="low"> All kinds of scribbles: <p>Vel lusugum, Sigríði Haldansddur 
+                           að 182345</p><p>Griðku rím</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin/>
+                     <provenance/>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:01.439+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-08" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources</change>
+         <change when="2012-05" who="#SK">Added information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 4661 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-4661-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 4661 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Elstu flestar Fornsögur Norðurlanda. At nýu ritaðar Árum eptir
+                        Guðs burð MDCCCXXVII af ᚵᛁᛋᛚᛆ ᚴᚭᚿᚱᛆᛑᛋᛋᛦᚿᛁ [Gísla Konráðssyni]</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="register">
+                     <locus from="1v:1" to="1v:13"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Innihald bócarinnar</rubric>
+                     <incipit>j, af Haka oc Hagbarði / Saga /</incipit>
+                     <explicit>xij af Norna Gesti</explicit>
+                     <note>Item 1, 'j. af Haka oc Hagbarði / Saga /', and item 10, 'x. af
+                        Starkaði gamla / Saga /' have been struck through at a later time, as
+                        these two sagas are now missing in the manuscript.</note>
+                  </msItem>
+                  <msItem n="2" class="formal" defective="true">
+                     <locus from="2r:1" to="2r:24"/>
+                     <title type="supplied">Fyrirmáli</title>
+                     <textLang mainLang="non"/>
+                     <incipit><supplied reason="damage">Þess b</supplied>er ad geta, ad Sögur þessar, eru ei samhlióda</incipit>
+                     <explicit>þar ec nenti ei né kom vid ad rita nema um sinn - ᚵ. ᚴᚭᚿᚱᛆᛑᛋᛋᚭᚿ [G. Konráðsson]</explicit>
+                  </msItem>
+                  <msItem n="3" class="" defective="true">
+                     <locus from="2v:1" to="2v:21"/>
+                     <title type="supplied">Band þat hellsta er í sögum fyr<supplied reason="damage"><ex>ir</ex></supplied>
+                        kemur</title>
+                     <textLang mainLang="non"/>
+                     <note>A list of the manuscript's most frequently used abbreviations.</note>
+                  </msItem>
+                  <msItem n="4" class="forns" defective="true">
+                     <locus from="3r:1" to="3r:23"/>
+                     <title type="supplied">Haka saga og Hagbarðs</title>
+                     <textLang mainLang="non"/>
+                     <explicit>oc hafndi sva födr síns. Oc lycr hér Sögu þ<ex>eir</ex>ra
+                        b<ex>ræd</ex>ra Haka oc Hagbarðs.</explicit>
+                     <note>Only the last page remains.</note>
+                  </msItem>
+                  <msItem n="5" class="forns">
+                     <locus from="3v:1" to="9r:30"/>
+                     <title type="supplied">Helga saga Haddingjaskata</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sögu þáttr af Helga Haddingiaskata. /:eft<ex>ir</ex> qvið<ex>um</ex>:/</rubric>
+                     <incipit>i. Cap. Frá Hiörvarði K. oc Atla Iðmund<ex>ar</ex>syni</incipit>
+                     <explicit>þat var mælt í fornöldin<ex>n</ex>i at þau Helgi oc Svava væru
+                        endrborin<ex>n</ex> Helgi Hundingsbani oc Sigrún Högnad<ex>óttir</ex>.
+                        oc lýkr þ<ex>ar</ex> þeßi saga.</explicit>
+                  </msItem>
+                  <msItem n="6" class="forns">
+                     <locus from="9v:1" to="12v:32"/>
+                     <title type="supplied">Frá fornkonungum, forfeðrum Völsunga, Buðlunga, Gjúkunga,
+                        og annarra er við þeirra sögur koma</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá Forn-Konúngom. Forfeðr<ex>um</ex> Volsunga, Buðlúnga Gjúkúnga
+                        oc an<ex>n</ex>ara er við þ<ex>eir</ex>ra sögur koma.</rubric>
+                     <incipit>1, Volsúnga ætt. 1. Siggi k<ex>onún</ex>gr í Vestur-Húnalandi frá
+                        206 til 236. circa 30 ár</incipit>
+                     <explicit>oc h<ex>a</ex>fdi lidsin<ex>n</ex>i Hæklins nockrs. var h<ex>ann</ex>
+                        heygdr þ<ex>ar</ex> med kúnni.</explicit>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="13r:1" to="49r:33"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefr sögu þeirra Volsúnga, Buðlúnga, Gjúkúnga, Ragnars
+                        Loðbrókar oc sona h<ex>a</ex>ns.</rubric>
+                     <incipit>1ti Cap: Frá Siggari o<ex>c</ex> Scaða. Hér hefr upp oc segir af
+                        þ<ex>ei</ex>m man<ex>n</ex>i</incipit>
+                     <explicit>Nú var þat gert sem kerlíng hafdi rád til géfid. oc vex hún þar
+                        upp i miklu fátæki.</explicit>
+                     <note>The saga is divided in three sagas: Völsungar, Buðlungar and Gjúkungar.
+                        The last chapter is the first chapter of Ragnars saga loðbrókar, which then
+                        starts from its second chapter.</note>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="49v:1" to="64v:38"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <rubric>Ragnars=Saga Loðbrókar oc Sona hans.</rubric>
+                     <textLang mainLang="non"/>
+                     <incipit>I Cap. Frá Herrauði Jarli. Herrauðr hét Jarl micill oc ágætr á
+                        Gautlandi</incipit>
+                     <explicit>Þetta þótti mönnom und<ex>ar</ex>ligt oc sögdu sídan frá öðdrum mönnum.
+                        Oc lýkor hér Saugo Ragnars Konúngs Loðbrókar oc Sona hans.</explicit>
+                     <note>Starts from chapter 2; the first chapter is found at the end of Völsunga saga above.
+                        The text varies quite a lot from Rafn's text.</note>
+                  </msItem>
+                  <msItem n="9" class="forns">
+                     <locus from="65r:1" to="80v:28"/>
+                     <title type="supplied">Sögubrot frá Brávallabardaga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sögubrot frá Brávalla=bardaga oc Ivari Víðfaðma, Hræreki
+                        Slaungvanbaug, Helga Hvaka, Haraldi Hylditönn oc Sigurði
+                        k<ex>onún</ex>gi Hríng /:aucit ætt<ex>ar</ex>taulom:/</rubric>
+                     <incipit>I. Cap. ætt Ivars Viðfaðma, frá Sciöldúng<ex>um</ex></incipit>
+                     <explicit>þ<ex>ei</ex>r píndu Játmund k<ex>onún</ex>g hinn Helga at bodi
+                        Ivars, oc lagdi h<ex>ann</ex> und<ex>ir</ex> sic hans ríki.</explicit>
+                  </msItem>
+                  <msItem n="10" class="fornth forns hetkv">
+                     <locus from="81r:1" to="90v:22"/>
+                     <title type="uniform">Völundarkviða</title>
+                     <title type="supplied">Völundarþáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saugo þáttr af Vaulundi Smið;</rubric>
+                     <incipit>I. Cap. Upphaf Völundar oc bræðra h<ex>an</ex>s</incipit>
+                     <explicit>en<ex>n</ex> og vitum vér meir af Völundi smið að segja
+                        en<ex>n</ex> nú var falt, og lýkur hér sögu hans.</explicit>
+                     <note>This seems to be some sort of a prose text from Völundarkviða</note>
+                     <note>The last leaf of the saga has been lost, but replaced by Gísli
+                        himself</note>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="91r:1" to="98v:32"/>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her hefur Hálfs=Rekka Saugu.</rubric>
+                     <incipit>I Cap: Frá Alreki konungi. Alrekur /:al:Alfrekr hét konúngur</incipit>
+                     <explicit>Íri hét dóttir h<ex>an</ex>z, oc er þad<ex>an</ex> mikil ætt komin. oc
+                        lýkr at segia frá Hálfi K. oc Reck<ex>um</ex> h<ex>an</ex>z.</explicit>
+                     <note>First leaf of the saga has been lost, but replaced by Gísli himself</note>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="99r:1" to="99v:30"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>/:set jeg in<ex>n</ex>i Ragn<ex>ars</ex>sögu pag. 84./*/</rubric>
+                     <incipit>Ragnar quad: Brynhildar leizt brögn<ex>um brúnstein hafa fránan</ex></incipit>
+                     <explicit>illa dreyr við Orðstyr allvaldr jörfurs falli.</explicit>
+                     <note>Extracts. An addition to Ragnars saga loðbrókar, fol. 54v:34, copied from
+                        Rafn's edition.</note>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="100r:1" to="107r:27"/>
+                     <title ref="#ngth" type="uniform">Norna-Gests þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saugu=þáttr af Norna=Gesti /:ept<ex>ir</ex> þ<ex>ei</ex>m ný
+                        útg: 1829:/</rubric>
+                     <incipit>Sva er sagt at á ein<ex>um</ex> tíma, þá er Olafr Konúngr
+                        /:Tryggvas<ex>on</ex>:/ sat í Þándheími</incipit>
+                     <explicit>oc þótti san<ex>n</ex>az um lífdaga h<ex>an</ex>z sem hann
+                        sagdi; Oc lýkr þ<ex>ar</ex> frá Norna Gésti at segja</explicit>
+                     <note>Copied from Rafn's edition of 1829.</note>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="107v:1" to="107v:27"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Heilræði Br.hild<ex>ar</ex> I Volsúnga Sögu XX. Cap:
+                        /ept<ex>ir</ex> hin<ex>n</ex>i ný útg:/</rubric>
+                     <incipit>Sigurdr mællti: aldrej finst þér vitrari Kona í Veröldu</incipit>
+                     <explicit>Hún svarar þik vil ec hellst eiga, þótt ec kiósa um alla menn
+                        oc þetta bundu þau eydum med sér.</explicit>
+                     <note>Extracts. An addition to Völsunga saga, fol. 30r:8, copied from Rafn's edition.</note>
+                  </msItem>
+                  <msItem n="15" class="forns">
+                     <locus from="108r:1" to="110r:24"/>
+                     <title type="supplied">Starkaðar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>3. Kap. Til Starkaðar Sögu (ept<ex>ir</ex> m<ex>er</ex>kj<ex>um</ex>
+                        hér oc ad fr<ex>am</ex>an)</rubric>
+                     <incipit>Þá var ek úngr er inni brann</incipit>
+                     <explicit>ef braut með gjöf Gautar grandlaust bera randir.</explicit>
+                     <note>Extracts. An addition to Starkaðar saga gamla, which is missing from the manuscript.</note>
+                  </msItem>
+                  <msItem n="16" class="">
+                     <locus from="110r:1" to="111v:22"/>
+                     <title type="supplied">Kvæðisbrot frá Runamo</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Hér ritast kvæðisbrot þat er loks varð lesit á flöt<ex>um</ex>
+                        kletti</incipit>
+                     <note>A short account on the runes of Runamo, that were thought to have
+                        been deciphered by Finnur Magnússon.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="111"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="198"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="pag contemporary">Paginated. Due to damages, the first page
+                           number, 19, appears at fol. 5r. The pagination starts again from 1
+                           to 104 at fol. 13r; 1-32 at 65r; 1-20 at 81r; 63-104 at 91r.</foliation>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 36">
+                           <num type="wpl" atLeast="9" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="175" atMost="188"/>
+                              <width unit="mm" quantity="132"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GisKon001" scope="sole" script="hum cursiva">Gísli
+                        Konráðsson</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Decorated title page initials and headings.
+                        The leaf before the title page has a printed picture with the text:
+                        'Die Leoparden-Jagd', and the leaf after the last page of text, with
+                        the text: 'Der Herr und Sclave'.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>The saga of Starkaður gamli has been among the items of this manuscript,
+                        right after Hálfs saga og Hálfsrekka but is now lost as the last leaf
+                        in Völundar þáttur and the first leaf of Hálfs saga og Hálfsrekka.
+                        These two leafs were added by the scribe himself.</p>
+                     <p>The title page <locus from="1r" to="1r"/> has two additions: <q>Eigandi
+                        G. Konráðsson</q> and <q>nú gefin Brandi Árnasyni fyrir Bóka hyrdingu 20
+                        Maji 1857 af mjer Gísla Konráðssyni.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>The binding is in good condition.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1827"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="GisKon001">Gísli Konráðsson</name>
+                     <name type="person" role="owner" key="BraArn001">Brandur Árnason</name>
+                     <name type="person" role="owner" key="JonTho058">Jón L. Þórðarson</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:10.385+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-02-27" who="#SK">Added items and other information from the
+            P.E.Ó.-catalogue</change>
+         <change when="2013-07-10" who="#OHA">Cataloged from manuscript.</change>
+         <change when="2013-07-12" who="#OHA">Corrected errors and added information.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

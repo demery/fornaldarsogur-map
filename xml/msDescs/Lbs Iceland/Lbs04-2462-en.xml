@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2462 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-2462-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2462 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="2" class="isl">
+                     <locus from="1r" to="46v">1r-46v</locus>
+                     <title type="uniform">Fljótsdæla saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Síðari hluta Droplaugarsona sögu er hér aukið við Fljótsdælu </note>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="47r" to="65r">47r-65r</locus>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="sagnps">
+                     <locus from="66r" to="73v">66r-73v</locus>
+                     <title type="supplied">Um handtöku E. Brandts og J. Fr. Struenses 1772 <note>(Excerpt)</note></title>
+                     <textLang mainLang="is"/>
+                     <note>From a thesis printed in Copenhagen in 1772</note>
+                  </msItem>
+                  <msItem n="5" class="islt">
+                     <locus from="74r" to="77r">74r-77r</locus>
+                     <title type="uniform">Brandkrossa þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="78r" to="81r">78r-81r</locus>
+                     <title type="uniform">Droplaugarsona saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="sagnps">
+                     <locus from="82r" to="94r">82r-94r</locus>
+                     <title type="uniform">Trójumanna saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Brot eður [h]lutur Trójumanna sögu og Grikkja</rubric>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="98r" to="118v">98r-118v</locus>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="119r" to="144v">119r-144v</locus>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Historia hoc die decimo tertio mense januarii anno autem Christi
+                        millesimo octingentesimo primo scripta fuit. M.A.</colophon>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="145r" to="167r">145r-167r</locus>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="167"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Flyleaves from the time of binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="199"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="pag contemporary"><p>Traces of old
+                              pagination 1-90 (<locus>1r-46v</locus>) and 1-45 (<locus>145r-167r</locus>)</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="24 29">
+                           <num type="wpl" atLeast="9" atMost="16"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="9">
+                     <handNote scribeRef="#GisKon001" scope="major" script="hum cursiva">Gísli
+                        Konráðsson wrote fols. <locus>66r-77r</locus></handNote>
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Fols. 98r-118v</handNote>
+                     <handNote scribeRef="#MagArn002" scope="minor" script="kurrent">M[agnús]
+                        Á[rnason] wrote fols. <locus>119r-144v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="major" script="hum cursiva">Fols. <locus>145r-167r</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">mild decoration</decoNote>
+                     <decoNote type="vignette" subtype="tailpiece">Fols. <locus>118v</locus>, <locus>144v</locus> </decoNote>
+                  </decoDesc>
+                  <additions ana="no">
+                  <p/></additions>
+                  <bindingDesc ana="moderate">
+                     <binding ana="plain" contemporary="false">
+                        <p>Paper boards, leather spine and corners</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1775" to="1825">[1775-1825?]</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="EgiGot001">Egill Gottskálksson</name>, cf.
+                     Lbs manuscript-catalogue. </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:45.297+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:06.319+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:25.112+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:57.679+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2013-01-25" who="#SK">Leiðrétti og bætti við eftir stafrænum myndum á handrit.is </change>
+         <change when="2013-09-02" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

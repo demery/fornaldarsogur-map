@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 6 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0006-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 6 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="53r:16">1r-53r</locus>
+                     <title type="uniform" ref="#vs">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>SAga Af RAgnar Lodbrők Ok Mørgum<ex>m</ex> Kőngum<ex>m</ex> merkeleg<ex>um</ex></rubric>
+                     <incipit>I. CAp <supplied instant="false">H</supplied>er hefr upp, <ex>ok</ex> seig<ex>er</ex> fra þeim
+                           man<ex>n</ex>e er Sigi er nefndr</incipit>
+                     <explicit><ex>og</ex> vard þeim þad ad alldur laghi:</explicit>
+                     <filiation>
+                        <p>Possibly a copy of <ref type="ms" target="#NKS04-1824-b-en" ana="antigraph">NKS 1824 b
+                        4to</ref>.</p></filiation>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="53r:17" to="85v:20">53r-85v</locus>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>4I. CAp.</rubric>
+                     <incipit>Heimir i Hlymzdølum<ex>m</ex> spyr nu þesse tijþindi</incipit>
+                     <explicit>Ok þetta þotti mon<ex>n</ex>um undarligt ok saughdu sijdan<ex>n</ex> fra audrum<ex>m</ex>
+                           mon<ex>n</ex>um<ex>m</ex></explicit>
+                     <filiation>
+                        <p>Possibly a copy of <ref type="ms" target="#NKS04-1824-b-en" ana="antigraph">NKS 1824 b
+                        4to</ref>.</p></filiation>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="85v:21" to="91v:23">85v-91v</locus>
+                     <title type="uniform">Krákumál</title>
+                     <textLang mainLang="non"/>
+                     <rubric>6I. CAp. Kraku mal, er sumer kalla Lodbrőkar qvidu</rubric>
+                     <incipit>Hiuggum ver met hiørvi hitt var ei fyrer laungu</incipit>
+                     <explicit>Lifs ero lidnar stunder Hlæande skal ek deÿa</explicit>
+                     <filiation>
+                        <p>Possibly a copy of <ref type="ms" target="#NKS04-1824-b-en" ana="antigraph">NKS 1824 b
+                        4to</ref>.</p></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="91"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="295"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes">Ornamental watermark, reminiscent of a chandelier (?). The same watermark as in AM
+                              34 II fol.</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliated 1-91 in red ink in the top right corners by <name type="person" role="scholar" key="KriKaa001">Kålund</name>.</p>
+                        </foliation>
+                        <foliation ana="pag contemporary">
+                           <p>An older, presumably contemporary pagination 133-314 can be seen
+                              on the top outer corners.</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 27">
+                           <num type="wpl" atLeast="4" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="138"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="yes">Catchwords on fols. 42v, 43v, 53v, 67r and 80v</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonErl001" scope="sole" script="semihybrida"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">slightly decorative initials and enlarged letters</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>
+                        <name type="person" role="scribe" key="JonErl001">The scribe</name> added variants to
+                           <title>Krákumál</title> in comparison to Ole Worm's edition. There are marginalia throughout the
+                        manuscript, some of which may be by <name type="person" role="marginal" key="ThoTor001">Torfæus</name>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Light brown-whitish parchment binding on card boards. On the spine, presumably <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> wrote: <q xml:lang="is">Ragnars Saga
+                              Loðbrokar</q>. The binding was restored in <date when="1985-06-04">1985</date>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                        <name type="person" role="marginal" key="ThoTor001"/>
+                        <name type="person" role="owner" key="ArnMag001"/>
+                        <note>Based on the pagination, the manuscript might have been part of a larger codex.</note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:42.491+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:01.257+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:12.646+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:26.046+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:05.661+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-02-15" who="#BES">Added missing information from the ms. itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

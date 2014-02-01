@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1331 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1331-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1331 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="forns riddst">
+                     <locus from="1r" to="14r"/>
+                     <title type="uniform">Ásmundar saga og Tryggva</title>
+                     <colophon>Lambastöðum 25 januarí 1834 Björn Erlendsson 2 5 18</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="14r" to="48r"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <rubric>Sagan af Þjalar-Jóni og Eiríki forvitna</rubric>
+                     <colophon>Lambastöðum 5 februarí 1834 B Erlendsson 2 5 18</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="48r" to="77r"/>
+                     <title type="uniform">Ásmundar saga víkings</title>
+                     <colophon>Lambastöðum þann 13 februarí 1834 B Erlendsson</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="77r" to="119v"/>
+                     <title type="uniform">Mágus saga jarls</title>
+                     <colophon>Lambastöðum 18 júlí 1834 2.5. 18</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="konth">
+                     <locus from="120r" to="126v"/>
+                     <title type="uniform">Sigurðar saga ganganda Bárðarsonar</title>
+                     <colophon>18 apríl 1834 BES</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="skol leikl pred">
+                     <locus from="128r" to="134"/>
+                     <title type="uniform">Skraparotspredikun</title>
+                     <colophon>9.25-18. Jeg hef skrifað 24 maí 1834 (2.5. 18</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="kons" defective="true">
+                     <locus from="134r" to="162v"/>
+                     <title type="uniform">Magnússona saga</title>
+                     <title type="uniform">Sigurðar saga jórsalafara og bræðra hans Eysteins og
+                        Ólafs</title>
+                     <colophon>Lambastöðum 13 ágúst B Erlendsson (2.5. 18)</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="162"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="201"/>
+                              <width unit="mm" quantity="164"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag">1-318, folio 127 blank, folio 160 blank and added later
+                           due to fill the lacuna</foliation>
+                        <condition ana="average">The third last folio, at least, is missing and the two
+                           last folios are torn and only half of them remains.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="26 29">
+                           <num type="wpl" atLeast="9" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="183"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#BjoErl001" scope="sole" script="hum cursiva">Björn
+                        Erlendsson á Lambastöðum</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">Names, on inner front-board<p>Jónas Erlendsson</p>On folio
+                        126v<p>Jósep Jónsson</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>rexin on paperboards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1834"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:54.011+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07-27" who="#SK">Added items and classes and other information from the
+            P.E.Ó.-catalogue</change>
+         <change when="2012-09-18" who="#SK">Added information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

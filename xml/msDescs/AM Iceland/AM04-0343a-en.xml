@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 343 a 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0343a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 343 a 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="5v">1r-5v</locus>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="5v" to="14r">5v-14r</locus>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="14r" to="21v">14r-21v</locus>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="21v" to="30v">21v-30v</locus>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                     <textLang mainLang="non"/>
+                     <note>Fol. 28v originally blank.</note>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="30v" to="48v">30v-48v</locus>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="48v" to="54r">48v-54r</locus>
+                     <title ref="#ysv" type="uniform">Yngvars saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <note>One folio missing after fol. 53 (see comment by <name key="ArnMag001" type="person">Árni
+                        Magnússon</name>).</note>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="54r" to="57v">54r-57v</locus>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="57v" to="59v">57v-59v</locus>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="fas">
+                     <locus from="59v" to="81v">59v-81v</locus>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="81v" to="87r">81v-87r</locus>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="87r" to="98v">87r-98v</locus>
+                     <title type="uniform">Sálus saga og Nikanórs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="99r" to="103v">99r-103v</locus>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="103v" to="104v">103v-104v</locus>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Two fragments.</note>
+                  </msItem>
+                  <msItem n="14" class="ridd">
+                     <locus from="105r" to="108r">105r-108r</locus>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <textLang mainLang="non"/>
+                     <note>Beginning missing.</note>
+                  </msItem>
+                  <msItem n="15" class="ridd">
+                     <locus from="108r" to="110r">108r-110r</locus>
+                     <title type="supplied">Perus saga meistara</title>
+                     <textLang mainLang="non"/>
+                     <note>Fol. 110v originally blank.</note>
+                     <!-- class of Perus saga? -->
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="110"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="220"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="poor">Some pages missing, damaged or torn.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="38 45">
+                           <num type="wpl" atLeast="15" atMost="21"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="192"/>
+                              <width unit="mm" quantity="117"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc ana="9">
+                     <handNote scribeRef="#JonGis001" scope="minor" script="cursiva">Gothic cursiva</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="cursiva">Various scribes, gothic cursiva</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Blank spaces left for initials at the beginning of each saga.</decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>Fol. 35 is an addition from the <date from="1600" to="1700">17th century</date>.</p>
+                     <p>Comment by <name key="ArnMag001" type="person">Árni Magnússon</name> on fol. 53.</p>
+                     <p>Some younger marginalia (see for example fol 74r, 76v and 104v).</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false"> <!-- check binding ana -->
+                        <p>Original binding is made of thick boards wrapped in a leather cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1450" notAfter="1475"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <!--<provenance>
+                     <p/>
+                  </provenance>-->
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:16.391+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:23.537+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:33.071+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:48.694+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:26.877+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-04-19" who="#SMM">Translated. Added information from black and white photos in the Arnamagnaean Collection, Copenhagen.</change>
+         <!-- watermark and bindingDesc missing + msItem n. 15 missing class -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

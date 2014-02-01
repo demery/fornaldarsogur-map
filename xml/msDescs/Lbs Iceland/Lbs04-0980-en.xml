@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 980 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0980-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 980 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Þessi bók hefur inni að halda eftir fylgjandi sögur ........... S
+                        Jónsson. </titlePart>
+                     <titlePart>George Stephens -. Bought in Cheapinghaven, Denmark. April 24,
+                        1882.</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" facs="#Lbs04-0980-0001r" to="8r">1r-8r</locus>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <note>Without rubric</note>
+                     <incipit>Í þann tíma Hákon jarl rér fyrir Nor... ...</incipit>
+                     <explicit>... Ljúkum vér hér þætti af Þorsteini bæjar barni Endir
+                        Finis</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="8r" facs="#Lbs04-0980-0008r" to="19r">8r-19r</locus>
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <rubric>Hér skrifast Hænsa Þorisrs saga</rubric>
+                     <colophon>Og lýkur hér Hænsna-Þórirs sögu</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="20r" facs="#Lbs04-0980-0020r" to="57v">20r-57v</locus>
+                     <title type="uniform">Sálus saga og Nikanórs</title>
+                     <colophon>Enduð d 22 desembris af Gss 1686</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="57v" facs="#Lbs04-0980-0057v" to="69r">57v-69r</locus>
+                     <title type="uniform">Ála flekks saga</title>
+                     <colophon>Og endar hér Álaflekks sögu Enduð dag 1 februarí 1682</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="69r" facs="#Lbs04-0980-0069r" to="89v">69r-89v</locus>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <rubric>Hér byrjar söguna af Eigli einhendta</rubric>
+                     <note>Missing the ending</note>
+                     <explicit>Tryggvi kongur var þá maður gamall og bað hann ...</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="89"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <condition ana="poor">Dark from dirt but still easily legible. Due to
+                           conservation a little bit of the text is hidden on leaves 1r, 67r,
+                           71v, 72v, 73r og 89r</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="22 29">
+                           <num type="wpl" atLeast="9" atMost="18"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="cursiva">Scribe unknown but see
+                        page 57v</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">19r, 48r, 56r, 78v og 83r in different
+                        hand</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium">
+                     <p>Front-board-v, front-flyleaf 1r-1v<locus from="FF01r" facs="#Lbs04-0980-0001r" to="FF01v">FFl1r-FFl1v</locus>,
+                        rear-flyleaf-1r-2v <locus from="RF02r" facs="#Lbs04-0980-0002r" to="RF02v"/>
+                        and rear-board-r are invoices from 1836 og 1837 </p>
+                     <p>Front-flyleaf 2r <locus from="2r" facs="#Lbs04-0980-0002r" to="2r">2r</locus>: Þessi bók hefur inni að halda eftirfylgjandi sögur [a
+                        register in differnet hand]</p>
+                     <p>Some verses and a name 19v: <locus from="19v" facs="#Lbs04-0980-0019v" to="19v">19v</locus>Bók ég sendi burt frá mér/ búinn er hana að kanna
+                        /fyrir lánið þakka ég þér /þundur greipar fanna. Fyrir lánið málma maður /
+                        mun yður bættur skaði /þér skuluð hafa þökk og heiður /það er nóg í staðinn
+                        /og forlátið þér þetta Jón ... Guðmundur Guðmundsson</p>
+                     <p>Rear-flyleaf <locus from="RFl01r" facs="#Lbs04-0980-9901r" to="RFl01r">RFl01r</locus>1r contains a fragment of a verse: Fyrir lánið þakka ég þér / þundur greipar
+                        (gereipa sic!) fanna</p>
+                     <p><locus from="RFI9902v"/>Name: Jon Thorgeirsson, Christian</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Leather corners and spine</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1686" to="1687">1686-1687</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>Owner: Prófessor <name type="person" key="GeoSte001">George
+                           Stephens</name>, <placeName>Copenhagen</placeName>, bought 24. apríl 1882
+                        in Denmark (see FF2r <locus from="FF2r" facs="#Lbs04-0980-0002r" to="FF2r">FF2r</locus>)</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:38.724+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:50.203+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:08.397+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2012-05" who="#SK">Adapted to FASNL from XML-file on handrit.is and added
+            information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

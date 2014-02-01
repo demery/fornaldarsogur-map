@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lbs 1993 8vo</title>
+			</titleStmt>
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="Lbs04-5227-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+						<idno>Lbs 5227 4to</idno>
+					</msIdentifier>
+					<msContents>
+						<titlePage ana="no">
+						</titlePage>
+						<msItem n="1" class="fas">
+							<locus from="1r" facs="#Lbs04-5227-0001r" to="59r">1r-59r</locus>
+							<title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+							<rubric>Sagann af Hrólfi kóngi Kraka og Köppum hans.</rubric>
+							<rubric>Fróda þáttur</rubric>
+							<incipit>Maður hjet Halfdán, en<ex>n</ex> an<ex>n</ex>ar Fródi bræðr</incipit>
+							<explicit>handa hverjum kappa og nokkurt vopn hja</explicit> 
+							<finalRubric>og endar hier Sögu Hrólfs k<ex>onun</ex>gs kraka og kappa hans</finalRubric>
+							<note>52 chapters</note>
+							<msItem n="1.1" class="kvad" defective="true">
+								<locus from="59r:11" to="59r:19"/>
+								<title type="uniform">Bjarkamál hin forna</title>
+								<rubric>Brot bjarkr mála ena fornu</rubric>
+								<incipit>Dagur er uppkominn dynja hana fjadrar</incipit>
+								<explicit>heldur vek ég yður að hörðum hildarleiki</explicit>
+								<note>2 verses</note>
+							</msItem>
+						</msItem>
+						<msItem n="2" class="forns">
+							<locus from="61r" facs="#Lbs04-5227-0045r" to="97v">61r-96v</locus>
+							<title type="uniform">Hjálmars saga hugumstóra.</title>
+							<rubric>Sagann af Hjálmari hugumstóra</rubric>
+							<rubric>1 Kap.</rubric>
+							<incipit>Það er upp haf þessarar Sögu ad fyrir Gardariki</incipit>
+							<explicit>fall Hjálmars og fer þadan í burtu</explicit>
+								<finalRubric>og ljúkum vér svo þessari sögu.</finalRubric>
+							<colophon>Sturlaugur.</colophon>
+							<note>Colophon written with darker ink</note>
+							<note>24 chapters</note>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+								    <num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="95"/>
+									<num type="back-flyleaf" value="1"/>
+									<dimensions type="leaf">
+										<height unit="mm" quantity="214"/>
+										<width unit="mm" quantity="170"/>
+									</dimensions>
+									<note>Second part (from fol. <locus>61r</locus> on) written on different paper.</note>
+									<!--<watermark ana=""/>-->
+								</support>
+								<foliation ana="contemporary pag">
+									<p>Fol. <locus>1v-60v</locus> and fol. <locus>61r-95v</locus> paginated as two separated book blocks.</p>
+								</foliation>
+								<condition ana="good">A few stains, mostly in second half</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-separate" columns="1 2" writtenLines="26 29">
+									<num type="wpl" atLeast="7" atMost="11"/>
+									<dimensions type="written">
+										<height unit="mm" quantity="190"/> <!-- from scaled pictures -->
+										<width unit="mm" quantity="140"/> <!-- from scaled pictures -->
+									</dimensions>
+									<catchwords ana="yes"/>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+						</handDesc>
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						<additions ana="no">
+							<p/>
+						</additions>
+						<bindingDesc>
+							<binding ana="decorative" contemporary="true">
+								<p/>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate notBefore="1875" notAfter="1925"/>
+							<origPlace key="IS"/>
+						</origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-05-29" who="SMM">Completed cataloguing after looking at pictures on handrit.is.</change>
+			<!-- changed xml of handrit.is file to fit FASNL guidelines. -->
+			<change when="2013-08-29" who="#BES">Proofread and added additional info.</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<surface/>
+	</facsimile>
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

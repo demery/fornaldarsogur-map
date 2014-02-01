@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 638 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0638-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 638 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="22r"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <rubric>Saga Þorsteins Víkingssonar</rubric>
+                     <note>Written by GGS at Narfakoti 1807</note>
+                     <colophon>Byrjuð annan janúarí en enduð þann 13da sama mánaðar í Narfakoti af
+                        G.G.S.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="23" to="80r"/>
+                     <title type="uniform">Mágus saga jarls</title>
+                     <rubric>Saga Mávusar jarls</rubric>
+                     <note>In 53 chapters with Hrólfs þáttur skuggafífls, Vilhjálms þáttur Laissonar
+                        and Geirarðs þáttur frækna</note>
+                     <colophon>Byrjuð þann 1sta november enn enduð 17da December Anno 1799 á
+                        Flankastöðum á Miðnesi af GGSRituð á Flankastöðum á Miðnesi af GGS.<locus from="80r" to="80r"/> p. 80r</colophon>
+                     <textLang mainLang="non"/>
+                     <msItem n="2.1" class="ridd">
+                        <locus from="64v" to="72r"/>
+                        <title type="uniform">Hrólfs þáttur skuggafífls</title>
+                        <title type="uniform">og Vilhjálms þáttur Laissonar</title>
+                        <rubric>Þáttur Hrólfs og Vilhjálms</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2.2" class="ridd">
+                        <locus from="72r" to="80r"/>
+                        <title type="uniform">Geirarðs þáttur frækna</title>
+                        <rubric>Geiralds þáttur</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="3" class="rim">
+                     <locus from="81r" to="111v"/>
+                     <title type="uniform">Rímur af Klarus keisarasyni og Serená dramblátu</title>
+                     <note>11 rímur</note>
+                     <author key="OlaJon">Ólafur Jónsson á Þverbrekku</author>
+                     <note>Ortar 1713 (i.e. composed 1713)</note>
+                     <colophon>Byrjaðar að skrifa þann 18da en endað þann 28da janúarí 1797. skrifað
+                        1797 p111r</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="rim">
+                     <locus from="112r" to="129v"/>
+                     <title type="uniform">Rímur af Alexander og Loðvík</title>
+                     <author key="ArnBöd">Árni Böðvarsson</author>
+                     <note>8 rímur</note>
+                     <colophon>Þessar rímur var byrjað að skrifa þann 14da en endaðar þann
+                           21.december1803.<locus from="129v" to="129v">129v</locus></colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="129"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="167"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Added on cataloguing, in pencil and only appearing on every tenth
+                           leaf</foliation>
+                        <condition ana="average">Damaged at the beginning - unskilfully repaired, but otherwise, apart from being a bit stained, in good condition</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23 31">
+                           <num type="wpl" atLeast="6" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="141"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GudGud014" scope="major" script="chancery"><q>Anno 1799 á Flankastödum á Midnese af G. G. S.</q>(fol. 80r)</handNote>
+                     
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"/>
+                     <decoNote type="paratext">Red decorative headings</decoNote>
+                     <decoNote type="paratext">Decorative titlepage</decoNote>
+                     <decoNote type="vignette">Tailpiece</decoNote>
+                  </decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Library binding with leather spine and corners</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1797" notAfter="1807"/>
+                     <origPlace key="IS">Reykjanes Gullbringusýsla</origPlace>
+                  </origin>
+                  <acquisition><p><name type="person" role="owner" key="ArnHan002"/>Bought by Árni H. Hannesson</p></acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:46.43+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-07" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources </change>
+         <change when="2011-11" who="#SK">Added information from the P.E.Ó-catalogue and the
+            manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

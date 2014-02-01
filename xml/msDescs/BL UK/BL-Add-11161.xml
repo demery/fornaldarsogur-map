@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 11161</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-11161" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 11161</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="fas" n="1">
+                     <locus from="2r" to="110r"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <rubric>Hier er upphaf á Sogu Ørvar Odds enns vydforla</rubric>
+                     <incipit>Madr het Grimr lodinkina hans kona het Lopthæna</incipit>
+                     <colophon>Saga þessi var biriud 26 Aprilis endud 11 Maji</colophon>
+                  </msItem>
+                  <msItem class="fas" n="2">
+                     <locus from="111r" to="147r"/>
+                     <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                     <rubric>Saga af Sturlauge enum starfsama</rubric>
+                     <incipit>Aller menn sem sannfrodir eru ok þessi tiþinþi vita at griker ok aþrir menn bigþer first
+                        norþrlond</incipit>
+                     <colophon>Þesse Saga var biriud þann 12 Maii enn endud d. 15 ejusdem mensis</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="148"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="182"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="14 16">
+                           <num type="wpl" atLeast="7" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" min="105" max="125"/>
+                              <width unit="mm" min="105" max="115"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">Several names and a note ('Þetta er godur penni þad vitnar heima sætann Steinun Runulfs
+                     Dotter') written of final leaf, 148v</additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Leaves are mounted on supports.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="signatory" key="SteRun001">Steinunn Runúlfsdóttir</name> (wife of Síra Ketill
+                        Bjarnason (d.1744) and Síra Þorvarður Guðmundsson (d.1779)?). </p>
+                     <p><name type="person" role="signatory" key="ambig">Steinunn Runúlfsdóttir</name> (perhaps the great-granddaughter of the
+                        previously mentioned Steinunn?). </p>
+                     <name type="person" role="signatory" key="JonSig004"/>
+                     <name type="person" role="signatory" key="ambig">Bergþor Jónsson. </name>
+                     <name type="person" role="owner" key="FinMag001"/>       
+                     <name type="person" role="owner" key="JosBan001"/>
+                     <p>According to note on flyleaf, purchased from Finnur Magnússon in July 1837</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:55.563+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-11" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

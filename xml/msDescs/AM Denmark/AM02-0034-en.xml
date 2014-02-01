@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 34 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0034-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 34 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="back-flyleaf" value="0"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Bound in a grey cardboard binding from c. <date notBefore="1730" notAfter="1780">1730-80</date>. On the outside of the front board is written: <q>No 34. 1. Flateyar Bok 3 Exempl.
+                              in Folio. 2. ...... 4 Exempl. in Qvarto.</q>
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1688" notAfter="1707"/>
+                     <origPlace key="NO"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 34 I fol.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="7v:18">1r-7v</locus>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Hversu Noregur byggðist</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Or Flateyiar Boc Col. 8. Hvessu Noregr Bygþiz</rubric>
+                        <filiation>
+                           <ref type="ms" target="#GKS02-1005-is" ana="antigraph">A copy of Flateyarbók with a note: <q xml:lang="is">saman<ex>n</ex>lesin<ex>n</ex> v<ex>id</ex> Membr: Anno 1695</q>.</ref>
+                        </filiation>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="7"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="317"/>
+                                 <width unit="mm" quantity="205"/>
+                              </dimensions>
+                              <watermark ana="yes">large watermark with a crown and various ornaments</watermark>
+                           </support>
+                           <foliation ana="fol later">
+                              <p>Foliated 1-7 in red ink in top outer corners by <name type="person" role="scholar" key="KriKaa001">Kålund</name>. Foliated in pencil in the bottom margin.</p>
+                           </foliation>
+                           <foliation ana="pag contemporary">
+                              <p>Paginated 1-14 in dark ink by the scribe in top outer corners.</p>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="28 29">
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="247"/>
+                                 <width unit="mm" quantity="125"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#AsgJon001" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>One marginal note by the scribe himself: A correction of <q>hross</q> to <q>Hrog</q> on
+                           fol. <locus>3r</locus>. On fol. <locus>7v</locus>, at the end of the text:
+                                 <q>Saman<ex>n</ex>lesin<ex>n</ex> v<ex>id</ex> Membr: An<ex>n</ex>o 1695</q>. An AM-slip reads
+                              <q>Ur Num. 13. in Folio fra Stangarlandi.</q></p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1688" notAfter="1707"/>
+                        <origPlace key="NO"/>
+                        <note>Most likely written in Norway.</note>
+                     </origin>
+                     <provenance>
+                        <p>
+                           <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> acquired this transcript from <name type="person" role="owner" key="ThoTor001">Torfæus</name>.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 34 II fol.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="8r:1" to="14v:4">8r-14v</locus>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Hversu Noregur byggðist</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier seiger Hversu Noreg<ex>ur</ex> Bygdist</rubric>
+                        <incipit><supplied instant="false">N</supplied>u skal seigia Dæmi til hv<ex>er</ex>su Noregur
+                           bygdizt</incipit>
+                        <explicit>Dronning Megreta moder Olafs köngs e<ex>n</ex> Walldmars Dana köngs epter er hon lief fanga
+                           Albrikt</explicit>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="7"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="317"/>
+                                 <width unit="mm" quantity="205"/>
+                              </dimensions>
+                              <watermark ana="yes">Design reminiscent of a chandelier. The same watermark as
+                                 in AM fol. 6.</watermark>
+                           </support>
+                           <foliation ana="fol later">
+                              <p>Foliated 8-14 in red ink in the top outer corners by <name type="person" role="scholar" key="KriKaa001">Kålund</name>. Foliation repeated in pencil in the bottom margin.</p>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="24 26">
+                              <num type="wpl" atLeast="7" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="220"/>
+                                 <width unit="mm" quantity="131"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonErl001" scope="sole" script="hybrida"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">slightly decorated initials</decoNote>
+                     </decoDesc>
+                     <additions ana="low"><p>On fols. <locus from="12v" to="13r">12v-13r</locus> are scholarly notes in the
+                        margins in the same hand as the main text. They have been partly cut off during trimming: On
+                           fol. <locus>12v</locus>: <q>fridfroda fridleifs alias <damage extent="2"/>ifs</q>, on fol.
+                              <locus>13r</locus>: <q>Danorum regum principumq<ex>ue</ex> feru</q> and <q><del>ingjaldur S<damage/>-kadar fostre, -broder hans
+                                 S<damage/></del></q>. In the paragraphs next to which the marginalia is found, words, mostly
+                           names, have been numbered from 1 to 18 and from 1 to 22.</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1600" notAfter="1672"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p><name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> notes (elsewhere): <q xml:lang="is">Ur bok <name type="person" role="owner" key="ThoVig002">Þorbiargar
+                                 Vigfussdottur</name>, sem kom til min fra Sr <name type="person" role="owner" key="ThoJon007">Þordi Jonssyne</name>
+                           </q>.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 34 III fol.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="15r:1" to="17v:28">15r-17v</locus>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Hversu Noregur byggðist</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Huoriu Noreg Bydist</rubric>
+                        <incipit>Nu skal seigia dæme til huorfu Noreg bygdist</incipit>
+                        <explicit>Og lidi med Adam og Haralldi Härfagra þeirra i milli</explicit>
+                        <colophon>Þetta Skrifad Etter Bok Magnússar Jonssonar brodue Jons Palss og Sigurdar. ... Ad Eyri I
+                           Seydisfirdi Anno 1664 31 Augusti (þar underskrifad Nafn) Sigurdur Þ. Jonsson Mls</colophon>
+                        <note>first 6 chapters</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="3"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="317"/>
+                                 <width unit="mm" quantity="203"/>
+                              </dimensions>
+                              <watermark ana="yes">large watermark, possibly a crown with a little cross on top of it as part
+                                 of a larger image.</watermark>
+                           </support>
+                           <foliation ana="fol later">
+                              <p>Foliated 15-17 in red ink in the top outer corners by <name type="person" role="scholar" key="KriKaa001">Kålund</name>. Foliation repeated in pencil in bottom margin.</p>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="33 38">
+                              <num type="wpl" atLeast="9" atMost="16"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="270"/>
+                                 <width unit="mm" quantity="180"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#SigJon013" scope="sole" script="kurrent">
+                           <p>Main text written in kurrent; chancery fractura frequently used for highlighting purposes.</p>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">Carefully decorated initials, black ink</decoNote>
+                        <decoNote type="paratext">Decorative pattern in black ink at the end of each paragraph and below the
+                           catchwords.</decoNote>
+                     </decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p>Written <q xml:lang="is">Ad Eyri J Seydisfirdi Anno <origDate when="1664">1664</origDate> 31
+                              Augusti</q>.</p>
+                        <origPlace key="IS">Seyðisfjörður, Iceland</origPlace>
+                     </origin>
+                     
+                     <provenance>
+                        <p>
+                        According
+                        to the colophon, the MS was written by Sigurður Jónsson for bishop <name type="person" role="commissioner" key="BrySve001">Brynjólfur Sveinsson</name> after a copy Magnús Jónsson, his brother, had written
+                        <q xml:lang="is">Effter Odrum fornfrædum</q>.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+
+               <!--from here on in 4to -->
+
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 34 IV 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="fas" n="1">
+                        <locus from="18r" to="27r:9">18r-27r</locus>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Hversu Noregur byggðist</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hvessa Noregr bygdiz</rubric>
+                        <incipit>Nu skal segia dęmi til hvessu</incipit>
+                        <explicit>modir Olafs k<ex>ong</ex>s en<ex>n</ex> dottir Valdamars dana konungs eftir er hon let fanga
+                              alb<ex>re</ex>ct</explicit>
+                        <filiation>
+                           <p>This part of the manuscript contains an
+                              inaccurate copy of 
+                           <ref type="ms" target="#GKS02-1005-is" ana="antigraph">Flateyarbók</ref>.</p>
+                        </filiation>
+                        <note>Árni Magnússon has compared this transcript with <ref type="ms">AM 2 4to</ref>.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="10"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="211"/>
+                                 <width unit="mm" quantity="168"/>
+                              </dimensions>
+                              <watermark ana="yes">ornamental watermark</watermark>
+                           </support>
+                           <foliation ana="fol later">
+                              <p>Foliated 18-27 in red ink in the top outer corners by <name type="person" key="KriKaa001">Kålund</name>. Foliation repeated in pencil in the bottom margin</p>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="22 24">
+                              <num type="wpl" atLeast="5" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="168"/>
+                                 <width unit="mm" quantity="123"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#AsgJon001" scope="sole" script="early kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="medium">
+                        <p>Several corrections in the hand of <name type="person" role="scholar" key="ArnMag">Árni
+                              Magnússon</name>. On fol. <locus>18r</locus> in the top margin is written in the hand of the scribe:
+                              <q xml:lang="la">Ex Cod. Flateyensi Col: 8</q>. The AM-slip reads: <q>þetta Exemplar er hvergi nærri
+                              Correct qvantum ad literaturam, og þvi verd eg þad einu hverntima ad conferera med Codice flatáensi,
+                              hvadan þad skrifad er. Variæ lectiones med minne hende, eru epter hendi Sr Jons i Villingahollte.
+                              sem eg hafde ä Islande 1707. i bok Sr þordar Jonzsonar. hvert exemplar att hefur Mag.
+                              Bryniolfur.</q></p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1655" notAfter="1707"/>
+                        <origPlace key="unknown"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 34 V 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="29r:1" to="33r:24">29r-33r</locus>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Hversu Noregur byggðist</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Her skal Seigia Dæmi til hverso Norvegur bygdist j fyrsto, eþor hvorsu konga ætter hofust þar,
+                           eþor j oþrum londum, eþor hvi þeir heita, Skiólldungar, Budlungar, Bragningar, Ødlingar, eþr Niflungar,
+                           sem konga ætternar eru afkomnar</rubric>
+                        <incipit>Forniotur h<ex>e</ex>f<ex>ur</ex> m<ex>adur</ex> heitit, han<ex>n</ex> atti þria sono</incipit>
+                        <explicit>Epter Drottning Margret vard ko<ex>n</ex>g<ex>ur</ex> yf<ex>ir</ex> Danm<ex>or</ex>k, Norvegi oc
+                              Svyar<ex>ike</ex></explicit>
+                        <filiation><ref type="ms" target="#AM02-0034-en VII">Differs from the other copies, especially
+                              at the ending, yet corresponding to AM 34 VII 4to</ref>.</filiation>
+                     </msItem>
+                     <msItem n="2" class="fornb annal">
+                        <locus from="33v:1" to="33v:26">33v</locus>
+                        <title type="supplied">Letter</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Bref þess Tyrkneska Keisara þeim christna Keisara tilskrifad</rubric>
+                        <incipit>Marchomet keisarans son<ex>ur</ex></incipit>
+                        <explicit>ad mil þoknast mijn sin<ex>n</ex>ar</explicit>
+                        <note>Incomplete (?)</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="5"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="215"/>
+                                 <width unit="mm" quantity="170"/>
+                              </dimensions>
+                              <watermark ana="yes">Different watermarks. On the bifolio <locus>28/34</locus>: a large watermark
+                                 with two lions holding an emblem with a crown on top (cf. part VI). On the bifolia <locus>29/33
+                                    and 30/32</locus>: a fool with a five-pointed collar, the middle one ending in three large
+                                 balls. Possibly the same watermark as in AM 11 fol. Similar, but not the same as in AM 65 fol.
+                                 The central bifolio bears a different watermark with ca. 6 block-letters below it.</watermark>
+                           </support>
+                           <foliation ana="fol later">
+                              <p>Foliated 28-34 (including flyleaves) in red ink in the top outer corners by <name type="person" role="scholar" key="KriKaa001">Kålund</name>. Foliation repeated in pencil in bottom margin</p>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="22 28">
+                              <num type="wpl" atLeast="11" atMost="17"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="158"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <catchwords ana="yes">Catchwords only on fol. 29v</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GriArn001" scope="sole" script="hybrida">
+                           <p>Fols. <locus from="29r" to="33r">29r-33r</locus> in a hybrida script. Fol. <locus from="33v" to="33v">33v</locus> is written in a kurrent script.</p>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Marginalia in the hand of the scribe on fol. <locus>30v</locus>: <q><damage/>(favdr solva)</q><q>þetta
+                              helld eg of-skrifud tvisvar.</q><q>favdr</q> On fol. <locus>28r</locus>, 
+                           <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> wrote: <q xml:lang="is">Kom fra
+                              Islandi med minum pappirum 1720.</q> An AM-slip reads: <q>þetta var fest framanvid Annala in 4to.
+                              med hendi Grims Arnasonar, er eg feck af Monsr Scheving. </q>
+                        </p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <!-- proposed date based on known dates of scribe (JSL) -->
+                        <origDate notBefore="1674" notAfter="1704"/>
+                        <origPlace key="unknown"/>
+                     </origin>
+                     <provenance>
+                        <p>
+                           <q xml:lang="is">er eg [<name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>] feck af
+                              Monsr <name type="person" role="owner" key="LarSch001">Scheving</name>.</q>
+                        </p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 34 VI 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="35r:1" to="41r:13">35r-41r</locus>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Hversu Noregur byggðist</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hvórsu Norvegur Bygdest Nu Skal Seigia Dæme til hvorsu Norvegur bygdest, og hvórsu kőnga Ætter
+                           hőfust þar, edur j odrum lóndumm og hvi þeir heite Skiolldungar, Budlungar, Bragningar, Ødlingar og
+                           Niflungar, er konga Ætternar eru fra komnar</rubric>
+                        <incipit>Forniötur hiet madur, han<ex>n</ex> ättr þriä sonu</incipit>
+                        <explicit>fader Sigurdar. ut supra</explicit>
+                        <note>first 5 chapters</note>
+                     </msItem>
+                     <msItem n="2" class="attat">
+                        <locus from="41v:1" to="42r:19">41v-42r</locus>
+                        <title type="supplied" xml:lang="en">Genealogy from Adam to Ólafur</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Ættartala fra Adam fyrsta man<ex>n</ex>e til þessa</rubric>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="12"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="211"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes">Two lions carrying an emblem with a crown on top. Same watermark as in AM 34 V
+                                 4to.</watermark>
+                           </support>
+                           <foliation ana="fol later">
+                              <p>Foliated 35-46 in red ink in the top outer corners by <name type="person" key="KriKaa001">Kålund</name>. Foliation repeated in pencil in the bottom margin.</p>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="21 22">
+                              <num type="wpl" atLeast="7" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="145"/>
+                                 <width unit="mm" quantity="12"/>
+                              </dimensions>
+                              <note>Fol. 42r-46v are left blank.</note>
+                              <catchwords ana="yes">Catchwords are found on fols. 35r-40v and 41v</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#OlaGis002" scope="sole" script="chancery">
+                           <p>According to the AM-slip, this part is written by Ólafur Gíslason. </p>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>On this AM-slip Árni Magnússon noted: <q>Epter nyu Exemplare skrifudu (ad eg meina)
+                              af Sr Olafi Gislasyne ä Hofi i Vopnafirde, þä hann var þienare i Skalhollte</q></p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p>According to Loth (<bibl>
+                              <ref>Sønderdelte arnamagnæanske papirhåndskrifter, p. 141</ref>
+                           </bibl>), this part of the manuscript might have been written in <origDate when="1669">1669</origDate>,
+                           not 1679 as stated in the final rubric on fol. <locus>42r</locus>.</p>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 34 VII 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="fas" n="1">
+                        <locus from="48r" to="51v:16">48r-51v</locus>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Hversu Noregur byggðist</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Her Skal Seigia Dæmi til Hverso Norvegur bygdist i fyrsto, Eþor hvorso Konga ætter hőfust þar,
+                           eþor i óþrum lóndum; Eþor hvi þeir heita, Skióldungar, Bud lungar, Bragningar, Ødlingar eþr Niflüngar,
+                           sem kon ga ætternar ero afkomnar</rubric>
+                        <incipit>Her skal seigia dæmi til hverso Noreg<ex>ur</ex></incipit>
+                        <explicit>Ept<ex>ir</ex> Drottning Margret v<ex>ar</ex>d k<ex>on</ex>g<ex>ur</ex> yfir Danmork Norvegi
+                              o<ex>g</ex> Svy<ex>ar</ex>r<ex>ike</ex></explicit>
+                        <filiation>
+                           <ref type="ms" target="#AM02-0034-en V">Corresponding to AM 34 V 4to</ref>
+                        </filiation>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="6"/>
+                              <num type="back-flyleaf" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="fol later">
+                              <p>Foliated 47-51 in red ink in the top outer corners by <name type="person" key="KriKaa001">Kålund</name>. Foliation repeated in pencil in bottom margin.</p>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="29 31">
+                              <num type="wpl" atLeast="8" atMost="16"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="164"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="chancery">
+                           <p/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>On fol. <locus from="49r" to="49r">49r</locus> the scribe wrote a marginal note in
+                           kurrent in the outer margin: <q>þetta helld eg ofskrifad tvisvar</q>. In a different hand on fol.
+                              <locus from="51v" to="51v">51v</locus> in the outer margin: <q>NB</q> and again vertically:
+                              <q>heidrekur Kongur hygg þu ad gätu Sadge Gestumblindi</q></p>
+                        <note>The bifolio 47/52 was originally used as a cover for the quire. On the inner side (fols. 52r-47v)
+                           events in Copenhagen are described, cf. AM 34 VIII fol.</note> Now there is a new thick paper bifolio
+                        in its place, counted as front and back-flyleaf.</additions>
+                  </physDesc>
+                  <history>
+                     <provenance>
+                        <p>
+                           <name type="person" role="owner" key="ThoTor001">Torfæus</name> once owned this part of the manuscript.
+                              <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> bought it from him.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 34 VIII fol.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="sendbr">
+                        <!-- uncertain what this locus encoding signifies -->
+                        <locus from="52r:1" target="47v">52r/47v</locus>
+                        <title type="supplied">Letter describing events in Copenhagen</title>
+                        <!-- written in Icelandic? Danish? -->
+<!--                        <textLang mainlang=""/>-->
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="2"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="195"/>
+                              </dimensions>
+                              <watermark ana="yes">lily</watermark>
+                           </support>
+                           <foliation ana="fol later">
+                              <p>Only fol. <locus>47</locus> is foliated.</p>
+                           </foliation>
+                           <condition ana="average">
+                              <p>Having been used as cover for <ref target="ms">AM 34 VII 4to</ref>, the leaf is now kept as the
+                                 last part of the manuscript. The edge is damaged and has been repaired. Some text is lost.</p>
+                           </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="25">
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="240"/>
+                                 <width unit="mm" quantity="200"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent">
+                           <p/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>On fol. <locus from="47r" to="47r">47r</locus>, <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> wrote the following note: <q>Eg
+                              skar þetta ut ur Num. 1. 1720. i kaupenhafn. Mente Martio. Eru Origines Norvegiæ. fra
+                              Stangalande</q> meaning AM 34 VII 4to.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1714-06-30"/>
+                        <origPlace key="DK">Copenhagen</origPlace>
+                     </origin>
+                     <provenance>
+                        <p>
+                           <name type="person" role="owner" key="ThoTor001">Torfæus</name> once owned this part of the manuscript.
+                              <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> bought it from him.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:46.546+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:03.792+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:14.937+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:28.57+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:08.036+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-02-05" who="#BES">Prepared for adding information from the ms. itself</change>
+         <change when="2013-02-13" who="#BES">Added missing information</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

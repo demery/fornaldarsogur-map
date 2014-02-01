@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1541 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1541-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1541 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="annal">
+                     <locus from="1r" to="57"/>
+                     <title type="uniform">Setbergs annáll 1600-1716</title>
+                     <author key="GisTho001">Gísli Þorkelsson á Setberg</author>
+                  </msItem>
+                  <msItem n="2" class="annal">
+                     <locus from="57" to="76v"/>
+                     <title type="supplied">Viðbætur við annála Benedikts Péturssonar </title>
+                     <author key="JonHal004">Jón Halldórsson í Hítardal</author>
+                  </msItem>
+                  <msItem n="3" class="tyd tjodfr">
+                     <locus from="77r" to="123v"/>
+                     <title type="supplied">Amphitheatro Naturæ</title>
+                     <title type="supplied">Náttúruþekking þeirra hluta sem forundranlegir ...
+                        finnast</title>
+                     <author key="HanSko001">Hans Hanson Skonning</author>
+                     <note>Translated by Hannes Pálsson í Hnífsdal</note>
+                  </msItem>
+                  <msItem n="4" class="avit bis">
+                     <locus from="125r" to="133r"/>
+                     <title type="supplied">Af biskupunum Oddi Einarssyni, Gísla Oddssyni og
+                        Brynjólfi Sveinssyni</title>
+                  </msItem>
+                  <msItem n="5" class="tjodfr sagnt landfr">
+                     <locus from="135r" to="141"/>
+                     <title type="supplied">Um Þórisdal. Frásögn Helga Grímssonar í Húsadal.</title>
+                  </msItem>
+                  <msItem n="6" class="attat">
+                     <locus from="141" to="142"/>
+                     <title type="supplied">Ættartala Sigurðar prests á Grenjaðarstað og Jóns
+                        sýslumanns Þorlákssonar</title>
+                  </msItem>
+                  <msItem n="7" class="tyd almb">
+                     <locus from="143" to="205r"/>
+                     <title type="uniform">Pontanus saga og Diocletianus</title>
+                     <title type="uniform">Sjö meistara saga</title>
+                     <rubric>Saga af þeim sjö vísu meisturum</rubric>
+                     <note>Written ca 1750</note>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="206r" to="249v"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <note>In the hand of Pétur Jónsson í Svefneyjum except for the last two and a half
+                        folios</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="249"/>
+                          <dimensions type="leaf">
+                             <height unit="mm" quantity="190"/>
+                             <width unit="mm" quantity="153"/>
+                          </dimensions>
+                        </support>
+                        <!--<condition ana=""></condition>-->
+                        <foliation ana="no">Blank folios: 124, 133v, 134v 205v</foliation>
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#GisKon001" scope="minor" script="hum cursiva">I. Gísli Konráðsson, folios: 1-12
+                        </handNote>
+                     <handNote scribeRef="#PetJon004" scope="major" script="unknown">II. Pétur Jónsson í Svefneyjum, folios: 13-76, 125-142, 206-247</handNote>
+                     <handNote scribeRef="#HanPal003" scope="minor" script="unknown">III. Hannes Pálsson í Hnífsdal, folios: 77-123</handNote>
+                  </handDesc>
+                  <!--<decoDesc ana="">
+                     <decoNote></decoNote>
+                  </decoDesc>-->
+                  <!--<additions ana=""></additions>-->
+                  <!--<bindingDesc>
+                     <binding><p>Leather</p></binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                  </origin>
+                  <!--<provenance>
+                     This section needs to be researched and revised
+                     <name type="place">Skáleyjar</name>
+                     <name type="family">Skáleyjarfólkið</name>
+                     <name type="place">Svefneyjar</name>
+                     <name type="family">Svefneyjarfólkið</name>
+                     <name type="person">Margrét Magnúsdóttir Rúfeyjum</name>
+                  </provenance>-->
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:59.516+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-01-22" who="#SK">Catalogued according to the P.E.Ó. catalogue</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

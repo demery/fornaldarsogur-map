@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 356 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0356-en" xml:lang="en">
+         
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 356 4to</idno>
+               </msIdentifier>
+              
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="35r:3"/>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <rubric/>
+                     <incipit>Þar hefium vier eina frasogu af einum Konunge
+                        þeim er Gaute het</incipit>
+                     <explicit>þviat mier þiker.</explicit>
+                    <!-- explicit? -->
+                     <note>Copied from a manuscript that ends defective</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="2" class="fas">
+                     <locus from="38r:1" to="165v:18"/>
+                     <rubric/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <incipit>Þar hefium ver þessa Sogu er Gautrekr hefer
+                        Konungr heitit</incipit>
+                     <explicit>er an<add place="above">n</add>ar heyrer ecke. i frasogum.</explicit> 
+                     <finalRubric>Ok lykr hier nu Hrolfs sogu Gautrekz sonar.</finalRubric>
+                                          
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="6"/>
+                           <num type="book-block" value="165"/>
+                           <num type="back-flyleaf" value="4"/>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">Coat of arms flanked by rampant lions on front flyleaves. Fence with inscription 'EPO...' on fol. <locus>35</locus>.
+                              Crown visible on rear flyleaves.</watermark>
+                           
+                        </support>
+                        
+                        <foliation ana="later pag">
+                           <p>Paginated 1-330. </p>
+                        </foliation>
+                        
+                        <condition ana="good"/>
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="19 20">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="95"/>
+                           </dimensions>
+                           <note>Fols. 35v-37v blank.</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="#EyjBjo001" scope="sole" script="unknown">
+                        <!--<p>Written by Eyjólfur Björnsson.</p>-->
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Titles and initials slightly bigger.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Few additions in the margins. Slip affixed to front flyleaf in the hand of AM reads: 
+                        <q>af Gautreke <ex>og</ex> Dalafiflum. vantar aptan vid. af Hrolfi k<ex>ong</ex>e
+                           Gautrekssyne. med hendi Eyjolfs Biórnssonar. ex membranâ in folio, er eg feck af
+                           Vigfuse Gudbrandssyne.</q></p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Plain limp vellum binding over paper boards. Speckled red painting on paper edges. Handwritten spine title:
+                        <q>Hrolfs saga Gautreks-sonar</q>. Modern blue shelfmark label and another label reading <q>1107</q> affixed to spine.</p>
+                     </binding>							
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1690" notAfter="1710"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:19.808+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:25.685+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:35.154+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:50.933+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:28.976+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-05-14" who="#SMM">Added information from black and white photos in the Arnamagnaean Collection, Copenhagen.</change>
+         <change when="2013-07-24" who="#JSL">Added details from in situ manuscript examination.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 8 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR04-0008-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 8 4to</idno>
+                  <altIdentifier type="fromer_shelfmark">
+                     <idno>ÍBR. A. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Forn-konunga sögur I.</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="FFI01v" to="FFI01v"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Innihald</rubric>
+                     <note>Later addition from the time of binding in the hand of<name type="person" key="PalPal003">Páll Pálsson stúdent</name></note>
+                  </msItem>
+                  <msItem n="2" class="konth forns">
+                     <locus from="1r" facs="#IBR04-0008-0001r" to="39r">1r-39r</locus>
+                     <title type="uniform">Hálfdanar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Hálfdani konungi gamla</rubric>
+                  </msItem>
+                  <msItem n="3" class="">
+                     <locus from="40r" facs="#IBR04-0008-0040r" to="44r">40r-44r</locus>
+                     <title type="supplied">Frá Fornkonungum</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá Fornkonungum forfeðrum Völsunga, Buðlunga, Gúkunga og annara er við
+                        þeirra sögur koma</rubric>
+                     <note>Based on Völsunga saga</note>
+                  </msItem>
+                  <msItem n="4" class="forns">
+                     <locus from="45r" facs="#IBR04-0008-0045r" to="52v">45r-52v</locus>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <title type="supplied">Viðbætur við Starkaðarsögu</title>
+                     <rubric>Til Starkaðar sögu eftir merkjum hvar innsetjast á </rubric>
+                     <note>Contains a list of scribal additions to Starkaðar saga gamla (item 5 below).
+                        <!--Marked where the appropriate places for them are in the text.--></note>
+                  </msItem>
+                  <msItem n="5" class="forns skalds">
+                     <locus from="53r" facs="#IBR04-0008-0053r" to="95v">53r-95v</locus>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <author key="SnoBjo001">Snorri Björnsson á Húsafelli</author>
+                     <rubric>Sagan af Starkaði gamla</rubric>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="96r" facs="#IBR04-0008-0096r" to="103v">96r-103v</locus>
+                     <title type="uniform" ref="#upp">Af Upplendinga konungum</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Íslenskt sögubrot um Danakonunga frá Ívari víðfaðma til Haraldar
+                        blátannar. Ritað eftir bókfellsblöðum er fundust í Árna Magnússonar
+                        bókasafni in quarto Nr 544</rubric>
+                     <filiation><p>Based on <ref type="ms" target="AM 544 4to" ana="protograph">AM 544 4to (Hauksbók)</ref></p></filiation>
+                     <colophon>Anno MDCCCXX (1820)</colophon>
+                  </msItem>
+                  <msItem n="7" class="fornth tjods">
+                     <locus from="104r" facs="#IBR04-0008-0104r" to="105v">104r-105v</locus>
+                     <title type="uniform">Jóns þáttur Upplendingakonungs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Söguþáttur af Jóni Upplendingakonungi</rubric>
+                     <colophon>Ritin eftir eldgömlum blöðum vitnar H. Davíðsson</colophon>
+                  </msItem>
+                  <msItem n="8" class="konth">
+                     <locus from="105v" facs="#IBR04-0008-0105v" to="109v">105v-109v</locus>
+                     <title type="uniform">Völsa þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="nafsk">
+                     <locus from="110r" facs="#IBR04-0008-0110r" to="119v">110rv-119v</locus>
+                     <title type="supplied">Sterkra manna tal</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sterkra mannatal. Nokkuð uum sterkustu menn sem verið hafa á öllum
+                        öldum sem menn til vita, hvar af sýnist að mannkynið hefur alla tíð
+                        veriðlíkt sjálfu sér um vöxt og afl. Þar þessir allir báru annað hvert af
+                        öllum á sinni öld eða jafnvægðu þeim sterkustu frá því menn fyrst til vita
+                        til Anno Mundi 2900.</rubric>
+                     <note>Contains a list of the strongest men and the weight
+                        each one can lift (fols. <locus>117v-119v</locus>).</note>
+                  </msItem>
+                  <msItem n="10" class="attat">
+                     <locus from="120r" facs="#IBR04-0008-0120r" to="147r">120r-147r</locus>
+                     <title type="supplied">Alheims ættartal</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sú rétta alheimsætt eftir ritningunni hvar af sést hvað langt elstu
+                        for(n)menn á Norðurlöndum eru niðurkomnir frá Adam hér um bil.</rubric>
+                  </msItem>
+                  <msItem n="11" class="attat">
+                     <locus from="147v" facs="#IBR04-0008-0147v" to="151v">147r-151v</locus>
+                     <title type="supplied">Nokkrar fornmannaættir</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="153"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="168" atMost="205"/>
+                              <width unit="mm" atLeast="105" atMost="167"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag col">
+                          <p><list>
+                                 <item>Paginated 1-104 <locus from="1r" to="52v"/>, every other page</item>
+                              <item>Paginated 1-115 <locus from="53r" to="110r"/>, every page</item>
+                              <item>Columns 1-128 <locus from="120r" to="151v"/> </item>
+                              </list></p>
+                           
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="22 31">
+<!--                           <note>Partly two columns,<locus> 120r-151v</locus> (1-128)</note>-->
+                           <num type="wpl" atLeast="3" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="150" atMost="180"/>
+                              <width unit="mm" atLeast="92" atMost="135"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#EinBja003" scope="sole" script="kurrent">
+                        <name type="person" key="EinBja003">Einar Bjarnason</name> wrote in kurrent and chancery.</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Decorated, enlarged initial in red (<locus from="53r" facs="#IBR04-0008-0053r" to="53r">53r</locus>)</decoNote>
+                     <decoNote type="initial" subtype="decorated">Slightly decorated initials in some
+                        places.</decoNote>
+                     <decoNote type="paratext">Heading in red, decorated (<locus from="53r" facs="#IBR04-0008-0053r" to="53r">53r</locus>)</decoNote>
+                     <decoNote type="paratext">Decorated headings (<locus from="1r" facs="#IBR04-0008-0001r" to="1r">1r</locus>, <locus from="77v" facs="#IBR04-0008-0077v" to="77v">77v</locus>, <locus from="96r" facs="#IBR04-0008-0096r" to="96r">96r</locus>)</decoNote>
+                     <decoNote type="secondary" subtype="display-script">Chapter headings and titles
+                        penned in a distinctive script.</decoNote>
+                     <decoNote type="diagram">Array of troops (<locus from="88r" facs="#IBR04-0008-0088r" to="88r">88r</locus>)</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p><locus from="0001r-FFl" facs="#IBR04-0008-0001r-FFl" to="0001r-FFl">ffl1r</locus> is a titlepage in the hand of <name type="person" key="PalPal003">Páll Pálsson</name> student: <q>Fornkonungasögur
+                           I.</q>.</p>
+                     <p><locus from="0001v-FFl" facs="#IBR04-0008-0001v-FFl" to="0001v-FFl">ffl1v</locus> has a register in the hand of <name type="person" key="PalPal003">Páll Pálsson</name> stúdents:
+                        <q>Innihald</q>.</p>
+                     
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Leather binding on wooden boards.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1801" to="1820">1801-1820.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name type="person" role="donor" key="GudEin005">Guðmundur Einarsson</name>, county clerk,
+                        donated the manuscript to <name type="organisation" role="owner" key="IslBom">The Icelandic literary
+                           society's Reykjavík division (Reykjavíkurdeild Hins íslenska bókmenntafélags)</name> 
+                        in <date when="1865">1865</date>. Its former shelfmark is ÍBR. A. 13. The
+                     <name type="organisation" role="owner" key="LBS">Landsbókasafn</name> bought the whole collection in <date when="1901">1901</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:06.839+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:15.161+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:35.542+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:11.348+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-01" who="#SK">Adapted to FASNL and from the digitized version of
+            manuscript itself on handrit.is</change>
+         <change when="2012-05" who="#SK">Added information from the manuscript itself.</change>
+<change when="2013-08-20" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

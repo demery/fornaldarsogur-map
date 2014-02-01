@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2497 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-2497-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2497 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+<!--                     <locus from="" to=""/>-->
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <note>According to the PEO catalogue (I. auk., p. 77), this is one of two printed items included in the volume.</note>
+                  </msItem>
+                  
+                  <msItem n="2" class="riddf">
+                     <!-- <locus from="" to=""/> -->
+                     <title type="uniform">Jarlmanns og Hermanns</title>
+                  </msItem>
+                  
+                  <msItem n="3" class="riddf">
+                     <!-- <locus from="" to=""/> -->
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <note>Taken from a printed volume.</note>                     
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="34"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+<!--                           <watermark ana=""/>-->
+                        </support>
+<!--                        <foliation ana=""/>-->
+<!--                        <condition ana=""/>-->
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <catchwords ana=""/>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#SigSig009" scope="sole" script="unknown">Sigfús Sigfússon</handNote>
+                  </handDesc>
+                  <!--<decoDesc ana="">
+                     <decoNote type=""/>
+                  </decoDesc>
+                  <additions ana="">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1902"/>
+                     <!-- origPlace conjectured (JSL) -->
+                     <origPlace key="IS"/>
+                     <note>Part of a two volume set with Lbs 2498 8vo.</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:21.973+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <!-- this MS needs to be consulted in situ for further cataloging -->
+         <change when="2013-11-14" who="#JSL">Added some details from PEO catalogue. Commented out elements for validation.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

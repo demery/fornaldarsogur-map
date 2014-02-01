@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 591 c 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0591c-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 591 c 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="22r:13">1r-22r:13</locus>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Byriar Søgu af Hrőlffe Kőnge Kraka.</rubric>
+                     <incipit>Hälffdan hefur köngur heitid en<ex>n</ex> an<ex>n</ex>ar frödi,
+                        þ<ex>ei</ex>r voru brædur,</incipit>
+                     <explicit>Haugar voru og orpner eftter kap<ex>p</ex>a kongz o<ex>g</ex>
+                        so nockurt vopn hia huériu<ex>m</ex>, og endar so
+                        þeßa sógu</explicit>
+                     <filiation><p>Derived from <ref type="ms" target="#AM08-0109a-II-is" ana="protograph">AM 109 a II 8vo</ref>.</p></filiation>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="22r:14" to="29r:18">22r:14-29r:18</locus>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Byriar Søgu af Hälffdäni Eysteinssyne.</rubric>
+                     <incipit>Þränd<ex>ur</ex> h<ex>efur</ex> köng<ex>ur</ex> heitid, han<ex>n</ex>
+                        riedi f<ex>irir</ex> Þrändheimi i Noregi, o<ex>g</ex> vid h<ex>ann</ex> er
+                        þrandh<ex>eim</ex>
+                        kendur,</incipit>
+                     <explicit>og er margt stör men<ex>n</ex>i frä þeim komid i Noregi og
+                        Orkneyu<ex>m</ex>, og lukum ver so þeßare sogu, þacke þ<ex>ei</ex>r
+                        hliddu, heill sa er läz, niöte sa er nam</explicit>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="29r:19" to="32v:25">29r:19-32v</locus>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nu skrifast Saga af Fridþiőffee enu<ex>m</ex> frækna.</rubric>
+                     <incipit>Bele h<ex>efur</ex> köngur heitid, han<ex>n</ex> riedi f<ex>irir</ex>
+                        Signafylki, han<ex>n</ex> ätti tuó syni o<ex>g</ex> dött<ex>ur</ex>
+                        eina,</incipit>
+                     <explicit>Fridþ<ex>iöffur</ex> andadist i elli sin<ex>n</ex>e og þau
+                        Jngibiórgu bædi. og lukum vier so þeßare Sógu</explicit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="32"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="205"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes">watermark with rays and a sceptre</watermark>
+                        </support>
+                        <foliation ana="fol contemporary later">
+                           <p>Foliated in the upper right hand
+                              corner, fols. <locus>28 and 29</locus> by the scribe himself. There are
+                              remains of a <name type="person" key="KriKaa001">Kålund</name> foliation
+                              in red ink in the upper right hand corner.</p>
+                        </foliation>
+                        <condition ana="good">The manuscript is in fairly good condition, but there are some
+                           grease spots on the paper, and it has become dark brown through storage and
+                           use.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="31 36">
+                           <num type="wpl" atLeast="13" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#OlaGis002" scope="sole" script="kurrent">
+                       <!-- <p>Written by Ólafur Gíslason,
+                           vicar of <name type="place" key="Hof01">Hof</name> in <name type="place" key="Vopnaf01">Vopnafjörður</name>. </p>-->
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Very plain and only slightly enlarged initial at the
+                        beginning of the text.</decoNote>
+                     <decoNote type="paratext">Two v-shaped endings.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                    <p>There are very few marginal
+                     comments in the manuscript, and they are in a different hand than that of main
+                     text. The only addition in <title type="uniform">Hrólfs saga kraka</title> is a
+                     correction of a missing pronoun: <locus>10v</locus>, <q>+þau</q>. The additions
+                     in <title type="uniform">Hálfdanar saga Eysteinssonar</title> are in a
+                     different hand and they are: <q>Lurland</q>, <locus>26r</locus> and <q>Róst
+                        Stadiu<ex>m</ex>
+                     </q>, <locus>26v</locus>. 
+                     On the fly-leaf <name type="person" key="ArnMag001">Árni Magnússon</name>
+                     noted the names of the sagas in the manuscript. <name type="person" key="MagEin001">Magnus Einarsson</name>
+                       wrote underneath: <q xml:lang="is">Úr bokum er eg feck af S<ex>ira</ex> Olafe Gisla syne ä Hofe i
+                        Vopnafirde.</q>, a sentence that originated from <name type="person">Arni
+                           Magnusson</name> and can also be found in <ref type="ms" target="#AM04-0349-en">AM 349 4to</ref>
+                     and other manuscripts.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The manuscript is currently bound in BD-standard binding, lined with
+                           grey canvas; corners and spine in mustard-coloured canvas.
+                           An older binding is preserved: grey cardboard from ca. 1750, bookbinder <name type="person">Matthias Larsen Bloch</name>. The binding is lined with
+                           waste paper containing a <!-- printed? --> text in Danish. The number <q>No 591c</q> and
+                           the titles: <q>Hrolfs Saga Kraka</q>, <q>af Halfdani Eisteinssyni</q> and 
+                              <q>af Fridþiófi frækna</q> are written on the front cover. The shelfmark
+                           and number of leaves are noted in a different hand <!-- almost certainly Kålund --> on the inner side of
+                           the binding.
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     Written in <origPlace key="IS">Iceland</origPlace>
+                        <origDate notBefore="1677" notAfter="1697">c. 1687</origDate>
+                     </origin>
+                  <provenance>
+                        <p>The scribe probably wrote the manuscript for
+                        his own use, because it does not seem to have passed on to other owners
+                        before <name key="ArnMag001" type="person" role="owner">Árni Magnússon</name> received
+                        it. The manuscript was probably part of a larger codex (cf. Loth, <ref type="secondary">Sønderdelte arnamagnæanske papirhåndskrifter</ref>,
+                        122-142). According to Loth, the codex originally consisted of the the
+                        following parts: <ref target="#AM04-0552-f-en">AM 552 f 4to</ref>, <ref target="#AM04-0546-b-en">AM 546 f 4to</ref>, <ref target="#AM04-0552-e-en">AM 552 e 4to</ref>, <ref target="#AM04-0552e-en">AM 552 a 4to</ref>, <ref target="#AM04-0552i-en">AM 552 i 4to</ref>, <ref target="#AM04-0591f-en">AM 591 f 4to</ref>, <ref target="#AM04-0552d-en">AM 552 d 4to</ref>, <ref target="#AM04-0552-o-en">AM 552 o 4to</ref>, <ref target="#AM04-0565a-en">AM 565 a 4to</ref>, <ref target="#AM04-0565b-en">AM 565 b 4to</ref>, <ref target="#AM04-0441-en">AM 441 4to</ref>, <ref target="#AM04-0552k-α-en">AM 552 kα 4to</ref>,
+                        <ref target="#AM04-0591c-en">AM 591 c 4to</ref>, <ref target="#AM04-0591d-en">AM 591d 4to</ref>, <ref target="#AM04-0591h-en">AM 591 h 4to</ref>, <ref target="#AM04-0459-en">AM 459 4to</ref>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:40.612+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-04-16" who="#BES">Imported and adjusted information from TL's file.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

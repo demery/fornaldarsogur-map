@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Huseby nr 36</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Huseby-nr-36" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Huseby nr 36</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <note>f. 1r reads <q>Nordmanna sögur</q> and f.1v has a list of contents under <q>Innihald</q>.</note>
+                  </titlePage>
+                  <msItem n="1" class="isl">
+                     <locus from="2r" to="12v"/>
+                     <title type="uniform">Þorsteins saga hvíta</title>
+                     <textLang mainLang="non"/>
+                     <!-- is this actually a rubric? -->
+                     <note>Saga / af / Þorsteini / Hvita</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="13r" to="31v"/>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis</title>
+                     <rubric>Saga af Aan Bogsveiger</rubric>
+                     <incipit>I þann tima er fylkes kóngar redu Norvegi hófst þessi saga</incipit>
+                     <explicit>ok líkr her vid Söguna af Ane Bogsveiger.</explicit>
+                     <textLang mainLang="non"/>
+                     <note>B-vers.</note>
+                  </msItem>
+                  <msItem n="3" class="islt">
+                     <locus from="32r" to="35v"/>
+                     <title type="uniform">Stúfs þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="islt">
+                     <locus from="36r" to="37v"/>
+                     <title type="uniform">Þorsteins þáttur forvitna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="islt">
+                     <locus from="38r" to="52v"/>
+                     <title type="uniform">Stjörnu-Odda draumur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="islt">
+                     <locus from="53r" to="54v"/>
+                     <title type="supplied">Variant readings</title>
+                     <rubric>Varietas lectionum ex edit: Stephanius Biornonis vid. Rimbegla</rubric>
+                     <textLang mainLang="non" otherLangs="la"/>
+                  </msItem>
+                  <msItem n="7" class="avint">
+                     <locus from="56r" to="63v"/>
+                     <title type="supplied">Æfintyr</title>
+                     <rubric>Æfinntyre um Morguns Middegis og Aftans stundernar: Fabula Aurora, Meridie et Vespere</rubric>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Old Norse text on the versos with Latin text facing on the rectos.</note>
+                  </msItem>
+                  <msItem n="8" class="unknown">
+                     <locus from="64r" to="83r"/>
+                     <title type="supplied">Hákonar Qvida / Sturlu Þordar / Sona</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <!-- actually a rubric? -->
+                     <note>Hákonar Qvida / Sturlu Þordar / Sonar</note>
+                     <note>Old Norse text on the versos with Latin text facing on the rectos.</note>
+                     <note>Copied from Skuli Þorláksson's edition of 1780.</note>
+                  </msItem>
+                  <msItem n="9" class="unknown">
+                     <locus from="83v" to="93r"/>
+                     <title type="supplied">Hrafnsmál Sturlu / um / Hákon Gamla</title>
+                     <note>Hrafnsmál Sturlu / um / Hákon Gamla</note>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Old Norse text on the versos with Latin text facing on the rectos.</note>
+                  </msItem>
+                  <msItem n="10" class="unknown">
+                     <locus from="93v" to="96r"/>
+                     <title type="supplied">Pauculæ ad voces et phrases in / Hakonar Qvida
+                        obscuriores</title>
+                     <textLang mainLang="la" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="11" class="unknown">
+                     <locus from="96v" to="101r"/>
+                     <title type="supplied">Nogle linier til Eleverne i Harrow School</title>
+                     <rubric>Nogle linier til Eleverne i Harrow School, udenfor London, angaaende det,
+                     som studerende ungdom i sær bør have for Øine; paa Engelsk og Latin forfatte</rubric>
+                     <textLang mainLang="en" otherLangs="la"/>
+                     <note>English text on the versos with Latin text facing on the rectos.</note>
+                  </msItem>
+                  <msItem n="12" class="kvad">
+                     <locus from="101v" to="103r"/>
+                     <title type="supplied">Kvæði</title>
+                     <rubric>Qvæde J. J.</rubric>
+                     <incipit>Ad morgni rós eg meta sá</incipit>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <note>Old Norse text on the versos with Latin text facing on the rectos.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="101"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="121"/>
+                              <width unit="mm" quantity="98"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag contemporary">No. 158 has been inadvertently left out of the pagination.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="19 23">
+                           <num type="wpl" atLeast="5" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="113"/>
+                              <width unit="mm" quantity="86"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="border">f.1r has decorations in red and black ink, a floral pattern, a crown on a flight of steps
+                     and a border in the two colours. Such a border also appears on fols. 2r and 13r. On f. 31v there is a decorative
+                     ink design filling up the page at the end of a text. On fols. 62v and 63r there are patterns of
+                     asterisks arranged in triangles. Red ink is used at various points for chapter headings and
+                     underlining.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>On front flyleaf i verso, in red crayon is written <q>George Stephens. bought in 
+                      Copenhagen 1854.</q></p>
+                     <p>A small paper perforated label has been pasted in the inner back cover, bottom right-hand corner.
+                     <q>Msc. 36</q> has been written on it in pencil</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound with colourful marbelled paper on cardboard boards with black leather on the spine 
+                        and corners. The front and back flyleaf are made from a printed leaf which seems to contain information
+                        similar to census information (?). The fore-edge of the book block is coloured red.
+                        The whole has been given a grey paper cover. A green label on said cover bears the shelfmark.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1849"/>
+                     <origPlace key=""/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="GeoSte001"/>
+                     <p>See note on front flyleaf verso.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:07.322+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-08" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

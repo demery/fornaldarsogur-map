@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1504 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1504-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1504 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Fornmannasögur Norðrlanda XIV. bindi</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="riddst">
+                     <locus from="1" to="112"/>
+                     <title type="uniform">Randvers saga fagra</title>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="113" to="176"/>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="177" to="220"/>
+                     <title ref="#ysv" type="uniform">Yngvars saga víðförla</title>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="221" to="x"/>
+                     <title type="uniform">Flóres saga og Leó</title>
+                  </msItem>
+                  <msItem n="5" class="forns">
+                     <locus from="x" to="x"/>
+                     <title type="uniform">Hálfdanar saga gamla</title>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="x" to="x"/>
+                     <title type="uniform">Elís saga og Rósamundu</title>
+                  </msItem>
+                  <msItem n="7" class="forns">
+                     <locus from="x" to="x"/>
+                     <title type="uniform">Ásmundar saga Sebbafóstra</title>
+                  </msItem>
+                  <msItem n="8" class="avint">
+                     <locus from="x" to="x"/>
+                     <title type="uniform">Hermóðs saga og Háðvarar</title>
+                  </msItem>
+                  <msItem n="9" class="forns">
+                     <locus from="x" to="x"/>
+                     <title type="uniform">Starkaðar saga Áludrengs</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="400"/>
+                           <!--<dimensions type="leaf">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <watermark ana=""/>-->
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                    <!-- <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MagJon001" scope="sole" script="hum cursiva">Magnús Jónsson í Tjaldanesi</handNote>
+                  </handDesc>
+                  <!--<decoDesc ana="">
+                     <decoNote type=""/>
+                  </decoDesc>
+                  <additions ana=""/>
+                  <bindingDesc>
+                     <binding ana="" contemporary=""/>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1896"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:57.788+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-02-05" who="#SMM">Provided msItems and various other information from PEÓ catalogue</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

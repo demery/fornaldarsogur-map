@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>GKS 1019 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS02-1019-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>GKS 1019 fol.</idno>
+               </msIdentifier>
+               <msContents>
+<!--                  <titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="95v"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka [Danish]</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="97r" to="141r"/>
+                     <title type="uniform" ref="#bsh">Bósa saga og Herrauðs [Danish]</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="142r" to="182v"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga konungs og Hálfsrekka [Danish]</title>
+                     <textLang mainLang="da"/>
+                     <filiation>
+                        <ref type="ms">derived from JS 43 4to</ref>
+                     </filiation>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="187r" to="234v"/>
+                     <title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar [Danish]</title>
+                     <textLang mainLang="da"/> <!-- verses in original? -->
+                     <note>Danish transl. by Thorfæus, which was commissioned by King Frederik III</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="235r" to="283v"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar [Danish]</title>
+                     <textLang mainLang="da"/> <!-- verses in original? -->
+                     <note>Danish transl. by Torfæus</note>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="284r" to="447v"/>
+                     <title type="uniform">Grettis saga [Danish]</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="447"/>
+<!--                           <num type="back-flyleaf" value="2 (or more!)"></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="304"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+<!--                           <watermark ana=""></watermark>-->
+                        </support>
+                        <!--<foliation ana=""></foliation>
+                        <condition ana=""></condition>-->
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <catchwords ana=""/>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc n="2">
+                     <handNote scribeRef="unknown" script="unknown"/>
+                     <handNote scribeRef="unknown" script="unknown"/>
+                  </handDesc>
+                  <!--<decoDesc ana="">
+                     <decoNote></decoNote>
+                  </decoDesc>
+                  <additions ana="">
+                     <p></p>
+                  </additions>-->
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Leather binding with king Frederik's initials.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:05.327+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-19" who="#BES">Added information from Kålund's catalog.</change>
+         <!-- more complete description seems to have been lost; need to consult MS again -->
+         
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Add. 5 4to</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="Add04-0005-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                        <idno>KBAdd 5 4to</idno>
+                        <altIdentifier type="former_shelfmark">
+                            <idno>Add. 5 4to</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                      <!--  <titlePage ana=""></titlePage>-->
+                        <msItem n="1" class="isl">
+                            <locus from="1r" to="19r"/>
+                            <title type="uniform">Droplaugarsona saga</title>
+                            <textLang mainLang="non"></textLang>
+                        </msItem>
+                        <msItem n="2" class="islt">
+                            <locus from="20r" to="34r"/>
+                            <title type="uniform">Þorsteins þáttur uxafóts</title>
+                            <textLang mainLang="non"></textLang>
+                        </msItem>
+                        <msItem n="3" class="konth">
+                            <locus from="34r" to="42v"/>
+                            <title type="uniform">Indriða þáttur ilbreiðs</title>
+                            <textLang mainLang="non"></textLang>
+                        </msItem>
+                        <msItem n="4" class="fas">
+                            <locus from="43r" to="51r"/>
+                            <title type="uniform" ref="#hsh">Sörla þáttur</title>
+                            <title type="parallel">Þáttur af Högna og Héðinn</title>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="5" class="isl">
+                            <locus from="51v" to="126r"/>
+                            <title type="uniform">Fóstbræðra saga</title>
+                            <textLang mainLang="non"></textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <!--<num type="front-flyleaf" value=""/>-->
+                                    <num type="book-block" value="126"/>
+                                    <!--<num type="back-flyleaf" value=""/>-->
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="184"/>
+                                        <width unit="mm" quantity="153"/>
+                                    </dimensions>
+                                    <!--<watermark ana=""/>-->
+                                </support>
+                                <foliation ana="later fol">Foliation starts with the number 89 on fol. <locus>1r</locus>.</foliation>                        
+                                <condition ana="good"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-prose" columns="1" writtenLines="22 26">
+                                    <num type="wpl" atLeast="7" atMost="13"/>
+                                   <!-- <dimensions type="written">
+                                        <height unit="mm" quantity=""/>
+                                        <width unit="mm" quantity=""/>
+                                    </dimensions>-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <handNote scribeRef="unknown" scope="minor" script="late kurrent"/>
+                            <handNote scribeRef="unknown" scope="major" script="early kurrent"/>
+                        </handDesc>
+                        <decoDesc ana="low">
+                            <decoNote type="initial">Titles and story initials decorated.</decoNote>
+                        </decoDesc>
+                        <additions ana="low">
+                            <p>Squiggles here and there.</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="decorative" contemporary="unknown">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1700" notAfter="1799"/><!-- Date from MYSQL database -->
+                            <origPlace key="IS"/>
+                        </origin>
+                    </history>
+                </msDesc> 
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+            <change when="2011-05-06T17:52:51.99+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+            <change when="2013-07-08" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+            <!-- watermark, layout dimensions, bindingDesc and origDate missing -->
+            <change when="2013-08-26" who="#BES">Proofread.</change>
+      </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

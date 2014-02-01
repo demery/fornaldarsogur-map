@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Säfstaholmssamlingen I Papp. 11</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Safstaholmssamlingen-I-Papp-11" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#RAS">Riksarkivet, Stockholm</repository>
+                  <idno>Säfstaholmssamlingen I Papp. 11</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="96v"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="97r" to="196v"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="199v" to="220r"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="sv"/>
+                     <!-- not certain what is meant by this (and subsequent item notes) -->
+                     <note>among others Ketils saga hængs</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="224r" to="232v"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="sv"/>
+                     <note>among others Gríms saga loðinkinna</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="234r" to="347v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="sv"/>
+                     <note>among others Örvar-Odds saga</note>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="349r" to="375v"/>
+                     <title type="uniform">Jarlmanns saga og hermanns</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="376r" to="410r"/>
+                     <title type="uniform">Jarlmanns saga og hermanns</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="410"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="197"/>
+                              <width unit="mm" quantity="157"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag contemporary">Runs alongside item 1 from 1-189. Afterwards there is no more
+                           pagination/foliation. Where p. 13 should be there is a blank space and the following page bears the
+                           number 13. Pp. 69 and 70 are written twice.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="20 22">
+                           <num type="wpl" atLeast="7" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="yes">Item 1 has catchwords, although many have been trimmed off in
+                              binding.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#GusBon001" scope="major" script="kurrent">Items 2-5, 7</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Item 1</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Item 6</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>On the inner front cover there has been written: <q>Säfstahalmssaml. 11.</q> in pencil.</p>
+                     <p>On the first flyleaf a list of the contents of the codex has been written, 5 items under the title
+                           <q>Sagor</q>.</p>
+                     <p>On the second front flyleaf, verso, is written: <q>Vopiscus Scribe, ur bibet, securus quod velis
+                           dicas, habiturus mendaciorum comites, quos historica eloquentia miramur auctores.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound in white parchment with some stains on the front. On the spine there is printed in
+                           gilt <q>SAGOR</q>. On two white labels below are printed: <q>82</q> and <q>F.11</q>. The fore-edge is
+                           red.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1749"/>
+                     <!-- Sweden? -->
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="GusBon001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:17.142+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-09" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

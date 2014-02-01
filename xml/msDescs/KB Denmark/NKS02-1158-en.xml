@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1158 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1158-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1158 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>[1r] Fragment or Saugu Af Asmunde Eyvinde ok Hilldebrande Húnakappa. Skrevet efter Cod. Membr:
+                        Biblioth A. Magnæi No 586 in 4to Af. M Mamgnusen</titlePart>
+                     <titlePart>[10r] Æfintír um Kongs Son Hertuga Son ok Jarls Son. Skrevet efter Cod: Membr. Biblioth: A. Magnæi
+                        No 586 in 4to af. M Magnusen</titlePart>
+                     <titlePart>[20r] Fragment or Saugu Anselmus Erkibiskúps. Skrevet efter Cod: Membr: Biblioth: A: Magnæi. No
+                        586. in 4to. af. M Magnusen</titlePart>
+
+                     <note>cf. also the first pages of texts in NKS 1155 fol.: similar hand and style as here on title
+                        pages</note>
+                  </titlePage>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="2r" to="9v"/>
+                     <title type="uniform" ref="#ask">Ásmundar saga kappabana</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="AM04-0586-is" ana="antigraph">AM 586 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="avint">
+                     <locus from="11r" to="19v"/>
+                     <title type="supplied">Af þremur kumpánum</title>
+                     <title type="parallel">Um kóngsson, hertogason og jarlsson</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="AM04-0586-is" ana="antigraph">AM 586 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="sagnps" defective="true">
+                     <locus from="21r" to="28v"/>
+                     <title type="supplied">Af Vilhjálmi bastarði ok sonum hans</title>
+                     <title type="parallel">Anselmus þáttur erkibiskups</title>
+                     <title type="parallel">Af Tómasi erkibiskupi</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="AM04-0586-is" ana="antigraph">AM 586 4to</ref>.</p>
+                     </filiation>
+                     <note>end missing, since antigraph is defective</note>
+                  </msItem>
+                  <msItem n="4" class="sagnps" defective="true">
+                     <locus from="30r" to="31v"/>
+                     <title type="uniform">Roðberts þáttur</title>
+                     <title type="parallel">Frá ferðum Roðberts og hans manna</title>
+                     <title type="parallel">Af Baldvin Jórsalakonungi</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="AM04-0586-is" ana="antigraph">AM 586 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="31"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort and a circle with the letters GR; a crown and branches with leaves
+                              inside it.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p>Every item is individually paginated.</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21 24">
+                           <num type="wpl" atLeast="3" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="230"/>
+                              <width unit="mm" atLeast="130" atMost="150"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#MMagnu001" scope="major" script="early kurrent">script is a mixture with aspects of
+                        chancery, hum cursiva and early kurrent. According to the title pages,
+                           the texts were written by "M. Magnusen"
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">A different hand(?) wrote the title pages of
+                        item 1-3. They are written in chancery and, in parts, kurrent script.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>
+                        <name key="PetSuh001" type="person" role="scholar">Suhm</name> added a note on title page of item 1 and a
+                        few marginal notes.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Rather thick paper used as binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="medium"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="signatory"/>
+                     <p>Formerly Suhm's collection no. 243 fol.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:31.733+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-19" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-04-24" who="#BES">Added missing information with the ms in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

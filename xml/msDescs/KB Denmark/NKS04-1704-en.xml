@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1704 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1704-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1704 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 954 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="isl" defective="true">
+                     <locus from="1r" to="46r"/>
+                     <title type="uniform">Ljósvetninga saga</title>
+                     <incipit>Hier Biriust Saga su Er Reikdæla heiter</incipit> 
+                     <explicit>vm<ex>m</ex> vig þor steins flelaga Gretters asmund<ex>ar</ex>sonar</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="47r" to="71r"/>
+                     <locus from="72v" to="72v"/>
+                     <title type="uniform">Ljósvetninga saga</title> 
+                     <textLang mainLang="non"/>
+                     <note>Last leaf of the saga misbound after first leaf of next item</note>
+                     <colophon>J. J. s<ex>on</ex> 1728</colophon> 
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="71v" to="72r"/>
+                     <locus from="73r" to="84v"/>
+                     <title type="uniform">Vopnfirðinga saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>J. J.son 1728</colophon> 
+                  </msItem>
+                  <msItem n="4" class="islt">
+                     <locus from="85r" to="88r:18"/>
+                     <title type="uniform">Brandkrossa þáttur</title>
+                     <textLang mainLang="non"/>
+                     <colophon>J. J.son 1728</colophon>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="88r:19" to="102v"/>
+                     <title type="uniform">Droplaugarsona saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>J. J.son 1728</colophon> 
+                  </msItem>
+                  <msItem n="6" class="konth">
+                     <locus from="103r" to="111v"/>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="isl">
+                     <locus from="112r" to="136v"/>
+                     <locus from="176r" to="176r"/>
+                     <title type="uniform">Svarfdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="isl">
+                     <locus from="137r" to="144v"/>
+                     <title type="uniform">Valla-Ljóts saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Februarj 1692. Are Joonss<ex>on</ex> M: Eg: H:</colophon> 
+                  </msItem>
+                  <msItem n="9" class="isl" defective="true">
+                     <locus from="145r" to="174r"/>
+                     <title type="uniform">Reykdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="176v" to="213v"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>With picture on fol. <locus>176v</locus></note>
+                  </msItem>
+                  <msItem n="11" class="samt" defective="true">
+                     <locus from="214r" to="214r"/>
+                     <title type="uniform">Sturlunga saga</title>
+                     <incipit><ex>ok</ex> ætladi utan at þ<ex>vi</ex> er h<ex>ann</ex></incipit>
+                     <explicit>at sum<ex>ir</ex> villdo v<ex>id</ex>t<ex>ak</ex>a en<ex>n</ex> sum<ex>ir ei</ex></explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="front-flyleaf" value="2"/>
+                        <num type="book-block" value="214"/> 
+                        <num type="back-flyleaf" value="1"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="200"/>
+                           <width unit="mm" quantity="160"/>
+                        </dimensions>
+                        <watermark ana="no"/>
+                     </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 35">
+                           <num type="wpl" atLeast="8" atMost="15"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                              <catchwords ana="yes">not everywhere</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="#AriJon002" scope="minor" script="kurrent">Ari Jónsson (reference uncertain) wrote items
+                        7-8, <locus from="112r" to="144v"/>. Rubrics in chancery.</handNote> 
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">J J(óns?)son wrote items 2-5, <locus from="47r" to="102v"/>. Rubrics in chancery.</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="illustration">A large and elaborate drawing of Hrólfur Gautreksson as king on fol.
+                        <locus>146v</locus> (fills the whole page); 
+                        two quotes and explanations accompany the image.</decoNote>
+                     <decoNote type="initial">Decorated initials and rubrics</decoNote>
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="high"><p>Extensive notes and additions in the margins.
+                     Fols. <locus>25</locus> and <locus>40</locus> are additions (small slips).
+                     On fols. <locus>174v</locus> and <locus>175v</locus>, there are verses and names added; among others: <q>JonJonsson</q>. 
+                  </p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Darkened parchment on wooden boards with affixed metal clasp in the middle.
+                           The binding was lined with Icelandic private letters which since become loose, so the pastedowns are counted as flyleaves.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1680" notAfter="1730"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 954 4to.</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:38.699+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-05-02" who="#BES">Added catalog info.</change>
+         <change when="2013-05-22" who="#BES">Added missing information with manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

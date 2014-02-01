@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>HSk 2 4to</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="HSk04-2-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#HSSSF">Héraðsskjalasafn Skagfirðinga, Akureyri</repository>
+                        <idno>HSk 2 4to</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="no"/>
+                        <msItem n="1" class="forns">
+                            <locus from="1r:1" to="18r:6"/>
+                            <title type="uniform">Ásmundar saga víkings</title>
+                            <textLang mainLang="is"/>
+                            <rubric>Hier Birjast Sagann af Þeim Sigursæla Kappa Ámundi Vikíng</rubric>
+                            <incipit>1. Hringur hefur Kóngur heitid er rjed firir Gautlandi</incipit>
+                            <explicit>og Er ei getid um nafn þeirra i þessari sögu: En i öðrum sögum Er þess
+                                vel getid:</explicit>
+                            <finalRubric>lúkum vier Svo Sögu þessari Lukum vjer Sögu þessari:</finalRubric>
+                            <colophon>þann 10<ex>da</ex> Janúar ár 1866 á Felli vid Kolla fyrdi á Jslandi á þess
+                                vestur kjálka i nordur alfu heims: (Efrópu)</colophon>
+                            <!-- move note to colophon? -->
+                            <note>At the very end, the scribe has added: Enn þeir sem Eru svo titilþægir ad lesa
+                                sögu þessa. bid eg þá ad lesa i málid: þvi þess þarf sumstadar og færa þaug ord á
+                                betri veg: sem van sköpud Eru: vin samlegast lesari góður littu á bladid En hlædu Eigi
+                                hát ad orðum: hreint þó gángi þaug úr skorðum: 10:12:18:</note>
+                        </msItem>
+                        <msItem n="2" class="forns">
+                            <locus from="18r:7" to="33r:31"/>
+                            <title type="uniform">Eiríks saga frækna</title>
+                            <textLang mainLang="is"/>
+                            <rubric>Hjer birjast Sagan af: Eyriki Grimssyni Frækna</rubric>
+                            <incipit>Firsti Cap. Á ofann verðum dögum Haralds hins hár fagra var bóndi Eirn á Hálogalandi
+                                er Grimur hjet.</incipit>
+                            <explicit>Og mundi hafa verid likt med honum og Sigurdi Fafnersbana.</explicit>
+                            <finalRubric>og lukum vjer svo sogunni af Eyriki Frækna og Argusi Fostbrodir hans</finalRubric>
+                            <colophon>Endad ad klóra hana mánudagin þan 26 Febr<ex>uar</ex> átján hundrud segstiju og segs
+                                á Felli utij horni á Kolla fyrði i Stranda=Sÿslu af mjer. 10:12:18;;</colophon>
+                            <note>At the very end, the scribe has added: Sögu Greijid Eÿriks Er. Uppá dregin blaðið hjer.
+                                þeir sem vilja þessa sjá. þarna Er hún: lífid=Á:: þess vil Eg bidja þá sem lesa þessa sög:
+                                hana færa velá vegin. verd Eg sliku heldur fegin<ex>n</ex> Penni slæmur: blek er breigshsthjá
+                                Bögla þundi. og er bogin af þeim fundi. Eins og dregin væri af hundi</note>
+                        </msItem>
+                        <msItem n="3" class="fas">
+                            <locus from="34r:1" to="42v:5"/>
+                            <locus from="43r:1" to="43r:5"/>
+                            <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Sagann af Kjetil Hallbjarnarsýní, (hang)</rubric>
+                            <incipit>Hallbjörn hjet maður, hann var kalladur hálftröll, hann var son Úlfs hins óarga</incipit>
+                            <explicit>kietill ried firir hrafnistu medan<ex>n</ex> han<ex>n</ex> lifdi, en<ex>n</ex> grijmur
+                                Lodin<ex>n</ex>kin<ex>n</ex>i eptir han<ex>n</ex>, er var oddur var sonur Gríms</explicit>
+                            <finalRubric>og lijkur hier þessari Søgu.</finalRubric>
+                            <note>43r is written after 42v and includes therefore the same text.</note>
+                        </msItem>
+                        <msItem n="4" class="fas">
+                            <locus from="42v:6" to="42v:24"/>
+                            <locus from="43r:6" to="45v:22"/>
+                            <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                            <textLang mainLang="non"/>
+                            <rubric>SAgAn<ex>n</ex> af grÿm lodin<ex>n</ex> kin<ex>n</ex></rubric>
+                            <incipit>Grijmur Son Kietils var bædi mikill og sterkur þvij var han<ex>n</ex> kalladur
+                                lodin<ex>n</ex> kin<ex>n</ex></incipit>
+                            <explicit>þeirra son var Hámundur Fadir Gunnars á Hlidarenda. Grímur bjó i Hrafnistu til Elli</explicit>
+                            <finalRubric>og Endar hjer so söguna af hönum.</finalRubric>
+                        </msItem>
+                        <msItem n="5" class="fas">
+                            <locus from="45v:23" to="69v:11"/>
+                            <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Hjer er Upphaf Sögu Ørvar Odds.</rubric>
+                            <incipit>1. Kapituli: Það er upphaf á þessari sögu ad Madur er nemdur Grimur lodinn hans
+                                kona hjet Lofthæna</incipit>
+                            <explicit>enn sú mær sem Oddur átti á (Bjarma landi) Jrlandi fór Nordur til Hrafnistu og er mikil
+                                ætt frá henni kominn</explicit>
+                            <finalRubric>og lúkumm Vjer hjer Ørvar Odds Sögu</finalRubric>
+                            <colophon>þann 27<ex>da</ex> Martÿus 1862 af K.M.S.A.F. vid Kolla fjörd á Jslandi nú verandi á
+                                Gjögri i Stranda Sijslu á Jslandi.</colophon>
+                            <note>At the very end, the scribe has added: og bid eg gód fúsann Lesara ad lesa i málid og færa
+                                á betri Veg þvi vidast og allstadar þarf þess i sögu þessari</note>
+                        </msItem>
+                        <msItem n="6" class="skalds">
+                            <locus from="71r:1" to="93r:25"/>
+                            <title type="supplied">Natan Ketilsson</title>
+                            <textLang mainLang="is"/>
+                            <rubric>Sagann af Natan Kjetilssyni</rubric>
+                            <incipit>1. Kap: frá ætt og uppruna Natans med fleiru. Kjetill hjet maður son Eyjólfs Eyólfssonar</incipit>
+                            <explicit>Higgu fæðir lika ljett lofi drósin spjöllud ásta kvæðin Næsta nett, Natans-Rósa köllud</explicit>
+                            <finalRubric>Endir Natans-Sögu</finalRubric>
+                            <colophon>Skrifadur dag 12<ex>ta</ex> (atján-hundrud sjö=týu) atján-hundrud segstýu og sjö artal eptir
+                                Krists fæðing af Á.O.Á.b.Á.H.</colophon>
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="book-block" value="93"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="200"/>
+                                        <width unit="mm" quantity="162"/>
+                                    </dimensions>
+                                    <watermark ana="no"/>
+                                </support>
+                                <foliation ana="pag">Irregular pagination</foliation><!-- contemporary / later ? -->
+                                <condition ana="good"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-prose" columns="1" writtenLines="29 32">
+                                    <num type="wpl" atLeast="8" atMost="14"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="176"/>
+                                        <width unit="mm" quantity="145"/>
+                                    </dimensions>
+                                    <catchwords ana="no"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <handNote scribeRef="unknown" scope="major" script="hum cursiva">Á.O.Á.b.Á.H.</handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="hybrida">K.M.S.A.F.</handNote>
+                        </handDesc>
+                        <decoDesc ana="low">
+                            <decoNote/>
+                        </decoDesc>
+                        <additions ana="low">
+                            <note>The manuscript is composed mostly on 19th century leaves that seem to contain a copy
+                                of a much older manuscript. Leaves 36, 37, 41 and 42 are from that older manuscript.
+                                42v and 43r contain the same text, 42v from the original and 43r from the more recent copy.</note>
+                            <note>In the binding:</note>
+                            <p>Gjöf frá S.J. til H.K. 8/12 1938. Bókin er frá Birni Jónssyni ritstjóra á Akureyri</p>
+                            <p>Sigtyr Johnson</p>
+                            <p>Sigtyr Johnston Blaine Wash</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="plain" contemporary="false">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1800" notAfter="1867"/>
+                            <origPlace key="IS">Fell, Kollafjörður, Iceland</origPlace>
+                        </origin>
+                        <provenance>
+                            <name type="person" role="owner" key="BjoJon011">Björn Jónsson ritstjóri, Akureyri</name>
+                            <name type="person" role="owner" key="SigJon037">Sigtýr Jónsson í Blaine, Washington</name>
+                            <name type="person" role="owner" key="HelKon001">Helgi Konráðsson, Sauðárkróki</name>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-09-09" who="#OHA">File created; catalogued from manuscript.</change>
+            <change when="2013-09-12" who="#SMM">Created and added some owner keys and proofread.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

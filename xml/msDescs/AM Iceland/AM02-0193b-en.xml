@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 193 b fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0193b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 193 b fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="5v">1r-5v</locus>
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="5"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="317"/>
+                              <width unit="mm" quantity="206"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="later fol"/>
+                        <foliation ana="later pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="33">
+                           <num type="wpl" atLeast="11" atMost="12"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scribeRef="#AsgJon001" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <!-- Actually inserted by Asgeir in Stangeland or AM at a later date? Seems unlikely that AM was in Norway at this time -->
+                     <p>Fol. 5r is an insertion leaf by <name key="ArnMag01" type="person">Árni Magnússon</name>, probably written in Stangarland in <date when="1689">1689</date> (MJ).</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1689" notAfter="1704"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>The book to which the manuscript belonged was nr. XIII in <name key="ThoTor001" role="owner"
+                        type="person">Þormóður Torfason</name>'s collection. <name key="ArnMag001" role="owner" type="person">Árni Magnússon</name> got the manuscript from Þormóður's widow in <date when="1720">1720</date> and separated it (see<ref>AM 435 b fol.</ref>, fol. 6v and note in <ref>AM 202 c fol.</ref>)</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:58.168+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:10.823+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:21.582+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:35.984+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:14.933+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-03-22" who="#SMM">Rectified some codes. Translated into English.</change>
+         <change when="2013-04-02" who="#SMM">Added information from black and white photos in the Arnamagnaean Collection, Copenhagen.</change>
+         <!-- watermark and layout dimensions missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

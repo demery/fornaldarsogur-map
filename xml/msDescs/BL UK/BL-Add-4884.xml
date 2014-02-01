@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 4884</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-4884" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 4884</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="215"/>
+                           <num type="back-flyleaf" value="2"/>
+                        </support>
+                        <foliation ana="later fol">
+                        </foliation>
+                        <condition ana="good"/>	
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Leaves are mounted on supports.</p>
+                     </binding>							
+                  </bindingDesc>  
+               </physDesc>
+               <history>
+                  
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="JosBan001">Joseph Banks</name>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier>
+                     <idno>BL Add. 4884 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                  <msItem class="almb" n="1">
+                     <locus from="1r" to="64v"/>
+                     <title type="uniform">Pontianus saga og Diocletianus</title>
+                     <title type="supplied">Sjö meistara saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="2">
+                     <locus from="65r" to="81v"/>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier skrifast Sagann af AN Bogsveigir</rubric>
+                     <incipit>I þann tyma er Fylkis kongar voru i Norege hoofst þesse saga</incipit>
+                     <colophon>Og lÿkum hier vid sögu Aans Bogsveigis</colophon>
+                     <note>Two verses after the end of the saga on f. 81v: 'Vysa um Aan Bogs:' beginning 'Stucku ij störer stricker'
+                     and one on Þorir Haalegg 'Alld er forfid fillde...'.</note>
+                  </msItem>
+                  <msItem class="ridd" n="4">
+                      <locus from="167r" to="178r"/>
+                     <title type="uniform">Ajax saga frækna</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="forns" n="5">
+                      <locus from="179r" to="194r"/>
+                     <title type="uniform">Ásmundar saga og Tryggva</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="6">
+                      <locus from="195r" to="215v"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="is"/>
+                      <rubric>Hier byriast Sagan af Eigle Einhenda og Asmunde Berserkiabana</rubric>
+                      <incipit>Hertriggur hefur kongur heited, han Ried fyrir Austur i Russia</incipit>
+                      <colophon>og endar so þessa sogu af Eigle Einhenda og Asmunde Berserkia Bana</colophon>
+                  </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">							
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="book-block" value="130"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="192"/>
+                                 <width unit="mm" quantity="155"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>	
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="21 29">									
+                              <num type="wpl" atLeast="8" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="170"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>	
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="fractura"/>
+                     </handDesc>
+                     <additions ana="no">
+                     </additions>	
+                  </physDesc>
+                </msPart>
+               <!-- proper encoding for this? -->
+                <msPart>
+                  <altIdentifier>
+                    <idno>BL Add. 4884 II</idno>
+                  </altIdentifier>
+                  <msContents>   
+                  <msItem class="kon" n="3">
+                     <locus from="83r" to="166v"/>
+                     <title type="uniform">Sverris saga</title>
+                     <textLang mainLang="is"/>
+                     <note>This text seems to have been inserted into the rest of the texts but has a different source.</note>
+                  </msItem>
+                  </msContents>
+                   <physDesc>
+                      <objectDesc form="codex">							
+                         <supportDesc material="chart">								
+                            <support>
+                               <num type="book-block" value="85"/>
+                               <dimensions type="leaf">
+                                  <height unit="mm" quantity="192"/>
+                                  <width unit="mm" quantity="155"/>
+                               </dimensions>
+                               <watermark ana="unknown"/>
+                            </support>
+                            <foliation ana="later fol"/>
+                            <condition ana="good"/>	
+                         </supportDesc>
+                         <layoutDesc>
+                            <layout ana="verse-prose" columns="1" writtenLines="33 35">									
+                               <num type="wpl" atLeast="15" atMost="17"/>
+                               <dimensions type="written">
+                                  <height unit="mm" quantity="165"/>
+                                  <width unit="mm" quantity="132"/>
+                               </dimensions>
+                            </layout>
+                         </layoutDesc>	
+                      </objectDesc>
+                      <handDesc hands="1">
+                         <handNote scribeRef="unknown" scope="sole" script="fractura"/>
+                      </handDesc>
+                      <additions ana="no">
+                      </additions>	
+                   </physDesc> 
+                </msPart>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:00.018+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-15" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

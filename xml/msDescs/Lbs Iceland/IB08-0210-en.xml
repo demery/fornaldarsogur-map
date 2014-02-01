@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 210 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0210-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 210 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r:1" to="1v:28"/>
+                     <locus from="94r:1" to="95r:28"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga <note>(Fragments)</note></title>
+                     <textLang mainLang="non"/>
+                     <incipit><damage>v</damage>ill <damage>þ</damage>ig feig<ex>an</ex> fieck hreggvidur
+                        Hrolfi þa vo<damage>p</damage>n gripina og menid</incipit>
+                     <explicit>en<ex>n</ex> er Jarl frietti þettad liet h<ex>an</ex>n safna lidi</explicit>
+                     <note>Fragment of Göngu-Hrólfs saga used as fly-leaf and lining in binding.</note>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="2r:1" to="93r:3"/>
+                     <title type="uniform">Dínus rímur drambláta</title>
+                     <textLang mainLang="is"/>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <rubric>Rímur af Dínusi hinum Drambláta. qvednar af Gudmundi Bergþórs syni</rubric>
+                     <incipit>Fyrsta Ríma Nøckvin Grérs af nausti hils</incipit>
+                     <explicit>hneitirs flet sig þreita liet.</explicit>
+                     <note>17 rímur</note>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="95"/>
+                           <note>Flyleaves and rear pastedown included in foliation since they contain an important text from
+                              Göngu-Hrólfs saga. The book-block itself consists of
+                              92 leaves with one front and back flyleaf.  Fol. 95 is now part of the binding.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="159"/>
+                              <width unit="mm" quantity="101"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="20 24">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="124"/>
+                              <width unit="mm" quantity="77"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="semihybrida">
+                        <!--Unidentified scribe of Göngu-Hrólfs saga-->
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some initials decorated in black ink.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Older fragments of Göngu-Hrólfs saga on the flyleaves and binding.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Leather binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1820" notAfter="1840"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>The manuscripts <ref type="ms">ÍB 203-218 8vo</ref> were acquired from <name type="person" role="owner" key="MarJon002">Marteinn Jónsson</name>, goldsmith, in <date when="1861">1861</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:51:55.248+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-03" who="#SK">Added information from the P.E.Ó.-catalogue and other sources</change>
+         <change when="2013-06-14" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <change when="2013-09-03" who="#OHA">Added missing information and reconsidered the foliation.</change>
+         <change when="2013-09-04" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

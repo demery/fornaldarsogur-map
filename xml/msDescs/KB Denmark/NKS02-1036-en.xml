@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1036 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1036-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1036 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="9v"/>
+                     <title ref="#ff" type="uniform">Frá Fornljóti og ættmönnum hans</title>
+                     <filiation><ref type="ms" target="#AM02-0034-en" ana="antigraph">copy of AM 34 fol.</ref></filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="annal">
+                     <locus from="11r" to="13r"/>
+                     <title type="supplied">Annals</title>
+                     <rubric>Nockrir Annalar</rubric>
+                     <rubric>Um<ex>m</ex> Uppruna Nordman<ex>n</ex>a</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="annal">
+                     <locus from="13v" to="22r"/>
+                     <title type="supplied">Annals</title>
+                     <rubric>Nockrir Annalar</rubric>
+                     <rubric>Sem vid hafa borid sydan<ex>n</ex> Miklu Plägu</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ordb">
+                     <locus from="22v" to="26r"/>
+                     <title type="supplied">Lawbook Glossary</title>
+                     <rubric>Undervysan nockur um<ex>m</ex> Løgböbena Edur Fornyrdi Løg Bökaren<ex>n</ex>ar</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="26"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="338"/>
+                              <width unit="mm" quantity="220"/>
+                           </dimensions>
+                           <watermark ana="yes">Two different marks: one says 'J Honig <ex>et</ex> zoon' and one is
+                              a shield: beehive surrounded by ornaments and a tree on
+                              top</watermark>
+                        </support>
+                        <foliation ana="fol later">Foliation on every tenth page</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="24 32">
+                           <num type="wpl" atLeast="6" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="250"/>
+                              <width unit="mm" quantity="169"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scope="minor" scribeRef="unknown" script="chancery">Fols. <locus from="1r" to="9v"/></handNote>
+                     <handNote scope="major" scribeRef="unknown" script="chancery">Fols. <locus from="11r" to="26r"/></handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>Scholarly notes on source materials in the margins; additions and corrections within the
+                     texts.
+                     On the outside of the front cover, three words are written: <q>[...] til Norge</q>.
+                  </p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Plain thin cardboard binding. On the spine, the title was written by hand (fading away)</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:29.661+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-06-14" who="#BES">Added missing information with the manuscript in situ.</change>
+         <change when="2013-08-26" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

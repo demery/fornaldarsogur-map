@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 51 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB02-0051-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 51 fol.</idno>
+                  <msName> Svartskinna</msName>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later"><note>From the 19th c.</note></titlePage>
+                  <msItem n="1" class="almb tyd">
+                     <locus from="1r" to="42v"/>
+                     <title type="uniform">Huga saga sterka og Skaplers konungs</title>
+                     <note>cf. Hug Schapler, Strassburg 1500</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd" defective="true">
+                     <locus from="43r" to="55v"/>
+                     <title type="uniform">Sigurgarðs saga og Valbrands</title>
+                     <note>Lacking at the beginning and fragmentary due to damage</note>
+                     <note>Starts in chapter 7</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="sagnps">
+                     <locus from="56r" to="112r"/>
+                     <title type="uniform">Trójumannasaga</title>
+                     <rubric>Skrifuð Anno 1688</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd" defective="true">
+                     <locus from="112v" to="162v"/>
+                     <title type="uniform">Tristrams saga og Ísöndar</title>
+                     <note>Lacking at the end</note>
+                     <explicit>Hún talaði þá mörg orð um ást þeirra og samvistir og um þeirra
+                        ...</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas" defective="true">
+                     <locus from="163r" to="168v"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <note>Lacking at the mere beginning</note>
+                     <incipit>... á sjó til fiskjar. Það var og um dag er hann var róin að Ketill
+                        tók einn fiskbát ...</incipit>
+                     <textLang mainLang="non"/>
+                     <explicit/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="169r" to="172r"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <rubric>Nú kemur frá Grími loðinkinna</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas" defective="true">
+                     <locus from="172v" to="202v"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <rubric>Nú kemur Örvar Odds saga</rubric>
+                     <note>Ends defective. Possible lacuna in the middle, or may be mis-bound</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="sagnfr" defective="true">
+                     <locus from="1r" to="1v"/>
+                     <title type="supplied">Loðvíks saga fyrsta Frakkakonungs og Vilhjálms af
+                        Choren</title>
+                     <textLang mainLang="non"/>
+                     <note>Fragment, only one leaf</note>
+                     <note>Counted in the P.E.Ó. catalogue as the first item but no trace of it
+                        now</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/> 
+                           <num type="book-block" value="202"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <note>The catalogue counts 408 pages or 204 folios</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="275"/>
+                              <width unit="mm" quantity="180"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Foliation from time of conservation, does not agree
+                           current foliation</foliation>
+                        <condition ana="poor">Leaves torn at the edges and lacking at both beginning
+                           and end as well as in between.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="32 35">
+                           <num type="wpl" atLeast="13" atMost="17"/>
+                           <note>Verses are distinguished by bigger writing</note> 
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#JonTho001" scope="major" script="chancery"><name key="MagJon008" type="person" role="comissioner">Magnús Jónsson i Vígur</name>'s scribe.
+                        <!-- all evidence points to this JonTho but a slight doubt remains --></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">A younger hand
+                        from ca. 1820 filled in lacking text on added folios</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Some coloured in yellow, green. Some contain
+                        faces</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Added fols. <locus from="62r" to="62v"/>,
+                           <locus from="151r" to="151v"/>, <locus from="166r" to="166v"/> and their text from ca. 1820.
+                     </p>
+                     <!-- contemporary marginalia? -->
+                     <p>Some contemporary additions.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>Binding lost; now loose leaves</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1668" notAfter="1708"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="donor" key="ThoOla003">Þorlákur Ólafsson</name>
+                     <name type="person" role="comissioner" key="MagJon008">Magnús Jónsson í Vigur</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:49.315+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-11" who="#SK">Finished cataloguing from the manuscript itself</change>
+         <change when="2013-08-05" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

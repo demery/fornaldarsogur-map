@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 4 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0004-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 4 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r:1" to="21r:8">1r-21r</locus>
+                     <title type="uniform" ref="#vs">Völsunga saga <note>[Latin]</note></title>
+                     <textLang mainLang="la"/>
+                     <rubric>IN RAGNARI LODBROCI Historiam paraphrasis</rubric>
+                     <incipit>Codex αχέφαλος erat Revertens autem sub vesperam domum</incipit>
+                     <explicit>velorum in primis accurata spesiosaq<ex>ve</ex> pictura</explicit>
+                     <filiation>Translation of <ref type="ms" target="#NKS04-1824-b-en" ana="protograph">NKS 1824 4to</ref>
+                     </filiation>
+                     <note>ends in chapter 17</note>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="24r:1" to="25v:48">24r-25v</locus>
+                     <title type="uniform" ref="#vs">Völsunga saga <note>[Latin]</note></title>
+                     <textLang mainLang="la"/>
+                     <rubric/>
+                     <incipit>atq<ex>ve</ex> etiam sevios(?) rogitaus(?)</incipit>
+                     <explicit>antiquitate æstimatus(?) habetuz(?) gr:Pannolebriov <gap/></explicit>
+                     <note>chapters 8 to 10</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="25"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes">"K" and a snake of a stick on the opposite side.</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p>Foliated in bottom margins.</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="31 49">
+                           <num type="wpl" atLeast="9" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="275" atMost="310"/>
+                              <width unit="mm" atLeast="135" atMost="200"/>
+                           </dimensions>
+                           <note>fols. <locus from="21v" to="23v">21v-23v</locus> are blank.</note>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#TorJon002" scope="major" script="unknown">Torfi
+                    Jónsson from <name type="place" key="Gaulv01">Gaulverjabær</name> wrote
+                fols. <locus from="1r" to="21v">1-21</locus>.</handNote>
+                     <handNote scribeRef="#SveJon001" scope="minor" script="unknown">Sveinn
+                    Jónsson from Barð wrote fols. <locus from="24r" to="25v">24-25</locus>.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>There are two AM-slips. The one in the beginning of the manuscript reads: 
+                        <q>Versionem Latinam Ragnars Sogu, sem eg hefi med hende 
+                           Sr Torfa Jonssonar i Gaulveribæ, corrigerada af Mag.
+                           Bryniolfi. seger Sr Jon Torfason fodur sin<ex>n</ex> giort i Skalhollte, 
+                           þa han<ex>n</ex> var ut Skolavetrenum adr en<ex>n</ex> han<ex>n</ex> (Torfe) siglde um sumared epter,
+                           idqve Jubente Bryniolfo. Eg feck þesse blod i Gaulveriabæ 1704. Sr Torfe deponerade in Decembri 1642. 
+                           Ergo er versionem giord um veturenn 1641-42. a audru
+                           are Mag. Bryniolfs.</q> The second slip used to be located between fols. 23 and 24, but is now in the beginning with the other slip: 
+                        <q>Mun ei þetta kun<ex>n</ex>a ad vera Sr Jsleifs uppkast, Munde han<ex>n</ex> ei vertera 
+                           Ragn<ex>ar</ex>s-Sogu, α þä h<ex>an</ex>n v<ex>ar</ex> hiä Jone Eggertssyne. 
+                           α] Non: Ecki fin<ex>n</ex> eg þ<ex>ad</ex> neinstadar, og ei 
+                           hefur h<ex>an</ex>n sialfur skrifad mi<ex>er</ex> þ<ex>ad</ex> til, en<ex>n</ex> h<ex>an</ex>n
+                           þö nefnt adr<ex>ar</ex> sogur er h<ex>an</ex>n snere. þetta er <ex>og</ex>, ad vïsu,
+                           ecki hond Sr Jsleifs. þad er hond Sr Sveins
+                           a Barde</q>.
+                     Scholarly notes and corrections on fols. 1r-3v</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Grey cardboard binding; <q>No 4. Fragmentum Historiæ Lodbroki latine</q> written on front cover. The paste-down is made from printed material.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1641" notAfter="1687"/>
+                     <origPlace key="IS"/>
+                     <note>The first translation of Völsunga saga
+                        was made in the winter 1641-42 by <name key="TorJon002" type="person" role="scribe">Torfi Jónsson</name>, 
+                        later priest of Gaulvejarbær, commissioned by bishop <name key="BrySve001" type="person" role="commissioner">Brynjólfur Sveinsson</name>. 
+                        The second translation must have been made before 1687.</note>
+                  </origin>
+                  <provenance>
+                     <name key="BrySve001" type="person" role="commissioner"/>
+                     <name key="TorJon002" type="person" role="translator"/>
+                     <name key="SveJon001" type="person" role="translator"/>
+                     <name key="ArnMag001" type="person" role="owner"/>
+                     <p>Árni Magnússon acquired the manuscript in 1704.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:41.623+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:00.705+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:12.15+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:25.485+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:05.154+02:00" who="#EAH">
+                Extracted layout data from previous version.
+         </change>
+         <change when="2013-02-18" who="#BES">Prepared for session with ms.</change>
+         <change when="2013-04-09" who="#BES">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

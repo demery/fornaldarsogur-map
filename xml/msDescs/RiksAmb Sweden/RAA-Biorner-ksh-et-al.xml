@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>KVHAA</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- formerly given the xml:id "Biörner-Brahe-Vol-4" -->
+            <msDesc xml:id="RAA-Biorner-ksh-et-al" xml:lang="en">
+               <msIdentifier>
+                  <!-- does not display properly; needs reorganization -->
+                  <repository ref="#RAA">Riksantikvarieämbetet, Stockholm</repository>
+                  <collection>Kungliga Vitterhets Historie och Antikvitets Akademien</collection>
+                  <idno>Forn Sagor om Ketill Häng, Grim Ludenkind och Pile Odder</idno>
+                  <altIdentifier>
+                     <idno>H.1. - Forn Sagor om Ketill Häng, Grim Ludenkind och Pile Odder</idno>
+                     <!-- line below does not display properly as a note; what to do with it? -->                     
+<!--                     <note>Kungliga Vitterhets Historie och Antikvitets Akademien, Stockholm</note>-->
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="12r"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <rubric>Forn Sagor om Kämpare Ketil Häng, Grim Ludenkind, samt Pile Odder den Wodfarne som wardt furste el.
+                        Zar i Gårdariekt el. Ryssland.</rubric>
+                     <rubric>Her börjar Sagan om Ketil Häng</rubric>
+                     <rubric>Om Ketil Hängs upwäxt</rubric>
+                     <incipit>Hallbiörn het en man, som war kalladur Half Troll</incipit>
+                     <textLang mainLang="sv"/>
+                     <note>The main rubric is on a piece of paper which has been pasted onto f. 1r.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="13r" to="20r"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <rubric>Grim Ludinkins Ketil Hängs samt Pile Odds Sagor i Svenska öfversatte</rubric>
+                     <rubric>Sagan om Grim Ludenkinn</rubric>
+                     <rubric>Om Grim Ludenkinn och hans</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="21r" to="62r"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <rubric>Här börjar upsoknt af sagan om Orvar Odde eller Pile Odd, Grim Ludinkinns son.</rubric>
+                     <rubric>Om Pile odds födelse på Berurioder.</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="62"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="312"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol later">On every tenth leaf in pencil, 10, 20 etc.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="28 36">
+                           <num type="wpl" atLeast="8" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="275"/>
+                              <width unit="mm" quantity="185"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#EriBio001" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium">
+                     <p><q>Hist. has been written in pencil in the inside front cover, top-left corner.</q></p>
+                     <p>An ex libris from the Kungliga Vitterhets Historie och Antikvitets Akadamiens Bibliotek has been pasted in
+                        the inner front cover but has been crossed out in pencil and a stamp reading: <q>Riksant. ämb Antikv.
+                           Topogr. Arkivet</q> has been placed beneath.</p>
+                     <p>A small label has been pasted in the bottom left-hand corner of the inner front cover, upon which is
+                        written: <q>K. Vitt. Hist. Antikv. Akad. A. T. A. Hyllnr: H. 1</q>.</p>
+                     <p>On front flyleaf 1 is the following: <q>1875 Dec. Till Kongl. Vitterh. Hist. och Antiqv. Akademiens
+                           Bibliothek. af JNordenfalk fr. Holms Bibl. -1847.-</q>. And below this <q>Biörner,
+                           E. J.</q> in pencil.</p>
+                     <p>On the reverse first front flyleaf is written in pencil: <q>NB Rudbecks öfsätn; af den sagor</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>The volume is bound in cardboard boards covered in black and white marbelled paper with brown leather
+                           corners and spine. Upon the spine the following is written in gilt: <q>Forn Sagor om Ketil
+                              Häng, Grim Ludenkind och Pile Odder.</q> and lower down: <q>Öfversättning af
+                              E. J. Björner M. G. G.</q>. This volume is kept in a box with others. The box bears the
+                           name which the saga has been given as a shelfmark (Biörner-Brahe vol. 4).</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1850"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="EriBra001"/>
+                     <p>The Kungliga Vitterhets Historie och Antikvitets Akademien, Stockholm, is now part of the
+                        Riksantikvarieämbetet, as a special collection. No numbers are used as shelfmarks and the old shelfmarks from
+                        the Vitterheds Akademien are ignored in favour of more descriptive designations.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:32.691+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-10" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

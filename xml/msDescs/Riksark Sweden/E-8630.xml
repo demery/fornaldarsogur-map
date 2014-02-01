@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>E 8630</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="E-8630" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#RAS">Riksarkivet, Stockholm</repository>
+                  <idno>E 8630</idno>
+               <altIdentifier>
+                  <idno>Skoklostersamling I, E8630</idno>
+               </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="31r"/>
+                     <title type="uniform" ref="#hs">Hervarar saga</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <note>f. 30v is blank and 31r has notes in Swedish on the saga.</note>
+                  </msItem>
+                  <msItem n="2" class="not">
+                     <locus from="31v" to="32r"/>
+                     <title type="supplied">Notes copied from a book</title>
+                     <textLang mainLang="la"/>
+                     <rubric>Ex. lib. Ecclesia Cathedralis Upsaliensis, p.276</rubric>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="33r" to="45r"/>
+                     <title type="uniform" ref="#bsh">Bósa saga og Herrauðs</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Anno 1662 finis</colophon>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="48r" to="59v"/>
+                     <title type="uniform" ref="#gsgr">Gautreks saga og Gjafa-Refs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Af Gautreki och Hrolfi</rubric>
+                     <incipit>þar hefum vier eina katliga frasogu af...</incipit>
+                     <note>After the description on f. 48r there is a blank leaf, and the text proper starts on f.50r.</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="62r" to="123v"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <rubric>Cap. XII.</rubric>
+                     <incipit>þar hefium vier þessa frá saugu er Gautrekur kongur</incipit>
+                     <note>Written as a continuation of the previous saga after two blank leaves ff.60-61. </note>
+                     <note>Followed by four blank leaves.</note>
+                  </msItem>   
+                  <msItem n="5" class="kon" defective="true">
+                     <locus from="128r" to="133v"/> 
+                     <title type="uniform">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fragmentum Historiæ Olafs Tryguasons Norvegiæ Regis</rubric>
+                  </msItem>
+                  <msItem n="6" class="kvad" defective="true">
+                     <locus from="134v" to="135v"/> 
+                     <title type="uniform">Unknown kvæði</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Ogradr sa audan armgriots trana fliota</incipit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="135"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="325"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="29 34">
+                           <num type="wpl" atLeast="9" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="268"/>
+                              <width unit="mm" quantity="168"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#JonJon030" scope="major" script="kurrent">Ff. 1-123</handNote>
+                     <handNote scribeRef="#OloVer001" scope="minor" script="kurrent">Ff. 128-135</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="illustration">
+                        <p>On f. 134r there is a full-page drawing of a king in a crown holding a book and
+                     an axe with a shield bearing a unicorn emblem before him. Next to it is written:
+                     <q>Olafs dÿrd</q>.</p></decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>There are many marginal notes throughout the manuscript.</p>
+                     <p>A slip of paper has been pasted in between the boards and the first leaf. On it has been
+                     written the following: <q>Thetta exemplaret af Herwara Saga är iherförn wäst recommendabelt,
+                     at that er något fullkomligarn, ån that trykt exemplaret och skrifwit wid islandaren Rugmans
+                     egnu hand. mig är det skiånkt i Decem 1743 af Professoren Skyttianum i Uppsala Mr Johna Ihre.
+                     Bielke.</q></p>
+                     <p>Beneath the text on f. 133v is written and afterwards crossed out: <q>Olafs dÿrd dÿrd dyrd
+                     Brinþværi dÿrd dÿrd Fÿreadal Brintvari Grimhilldur Saugu boanda
+                     Kalmars</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound in patterned brown leather, somewhat worn, with two holes on both the front
+                           and the back cover where originally some sort of fastening would have been, although nothing remains
+                           of it. On the spine there is a white paper label, upon which has been written <q>11. 
+                           Hervarar saga.</q> The manuscript is clearly made up of 9 quires which are coming off 
+                           the binding. A parchment leaf, apparently medieval and bearing Greek script in black and red ink,
+                           has been used as a strip in attaching the quires to the boards.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1640" notAfter="1680"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JohIhr001"/>
+                     <name type="person" role="owner" key="CarBie001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:01.227+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-09" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 327 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0327-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 327 8vo</idno>
+               </msIdentifier>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 327 8vo I</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="rimur">
+                        <locus from="1r:1" to="15v:5"/>
+                        <title type="supplied">Ríma af Símeó afríkanska</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Ríma af Símeó afríkaníska (:útløgð úr Dønsku:)</rubric>
+                        <incipit>Atburdir sem fregna eg frá</incipit>
+                        <explicit>Yndis góda hyggi þægd, þeir sem Ljódin nýta.</explicit>
+                        <author>Sigfús Jónsson á Laugalandi</author>
+                        <note>Written 1845 by Ólafur Eyjólfsson á Laugalandi</note>
+                     </msItem>
+                     <msItem n="2" class="rimur">
+                        <locus from="15v:6" to="34v:4"/>
+                        <title type="supplied">Greifaríma</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Ríma af einum Greifa. orkt af Dannibrogsmanni Sigfúsa Jónssyni</rubric>
+                        <incipit>Til svo bar um Tíma þá</incipit>
+                        <explicit>Grædist yndid þýdt og hægt, þeim sem hlýda á Ljódin.</explicit>
+                        <author>Sigfús Jónsson á Laugalandi</author>
+                        <note>Written 1845 by Ólafur Eyjólfsson á Laugalandi</note>
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="3"/>
+                              <num type="book-block" value="34"/>
+                              <num type="back-flyleaf" value="2"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="100"/>
+                                 <width unit="mm" quantity="81"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="contemporary pag">Paginated 1-68</foliation>
+                           
+                           <condition ana="good"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="14 16">
+                              
+                              <num type="wpl" atLeast="3" atMost="5"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="88"/>
+                                 <width unit="mm" quantity="67"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="#OlaEyj001" scope="minor" script="hum cursiva">
+                           Ólafur Eyjólfsson á Laugalandi í Eyjafirði</handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="true">
+                           <p>Paper cover.</p>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1840" notAfter="1850"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 327 8vo II</idno>
+                  </altIdentifier>
+
+                  <msContents>
+                     <msItem n="1" class="riddf">
+                        <locus from="1r:1" to="23v:23"/>
+                        <title type="uniform">Adónías saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier skrifast Sagan<ex>n</ex> af ADDONIUS</rubric>
+                        <incipit>I Cap<ex>itule</ex> Á þeim tyma efter Nooaflood</incipit>
+                        <note>Fragmental 23 leaves.</note>
+                     </msItem>
+                     <msItem n="2" class="rimur">
+                        <locus from="24r:1" to="27v:28"/>
+                        <title type="supplied">Aldaglaumur</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Allda Glaumur Kvedin af Jacobi Jonssyni</rubric>
+                        <incipit>Hugsast mier ad hreifa liodum</incipit>
+                        <explicit>fram<ex>m</ex> ad Morgne dírum Dags. ENDER</explicit>
+                     </msItem>
+                     <msItem n="3" class="rimur">
+                        <locus from="28r:1" to="29r:19"/>
+                        <title type="supplied">Tímaríma</title>
+                        <textLang mainLang="is"/>
+                        <author>Jón Einarsson í Hraukbæ</author>
+                        <rubric>Týma Rýma</rubric>
+                        <incipit>Gódur er Gud og giædsku hreirn</incipit>
+                        <explicit>vil eg ad Børnin taki. Ender</explicit>
+                     </msItem>
+                     <msItem n="4" class="salm">
+                        <locus from="30r:1" to="34v:19"/>
+                        <title type="supplied">Bæjavísur í Fnjóskadal</title>
+                        <textLang mainLang="is"/>
+                        <author>Sigurður Árnason skáld og prestur á Hálsi</author>
+                        <rubric>Sálmur um alla Bæi og Búendur í Háls Prestakalli</rubric>
+                        <incipit>Tón. Fadir vor sem á Himni er</incipit>
+                        <explicit>sól geisla føgur Luckan<ex>n</ex> klár Endir</explicit>
+                     </msItem>
+                     <msItem n="5" class="fas">
+                        <locus from="36r:1" to="40v:28"/>
+                        <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan<ex>n</ex> af Giafa Ref</rubric>
+                        <incipit>Gaútrek<ex>r</ex> var kong<ex>r</ex> nefnd<ex>r</ex></incipit>
+                        <finalRubric>og lik<ex>r</ex> hier so sógun<ex>n</ex>e af Giafa Ref<ex>e</ex>.</finalRubric>
+                     </msItem>
+                     <msItem n="6" class="lakn grasfr">
+                        <locus from="41r:1" to="88v:9"/>
+                        <title type="supplied">Um lækningajurtir</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Nockud um læknÿngar fyrst um nätturugrasa</rubric>
+                        <incipit>Alljum hvitur laukur</incipit>
+                        <explicit>men<ex>n</ex> segia þad auke miolk i konubriostum</explicit>
+                        <note>In the hand of Guðmundur Gíslasonar</note>
+                     </msItem>
+                     <msItem n="7" class="kvad">
+                        <locus from="89r:1" to="94v:18"/>
+                        <title type="supplied">Grýlukvæði</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Grílu=Qvædi</rubric>
+                     </msItem>
+                     <msItem n="8" class="ljodbr">
+                        <locus from="95r:1" to="102v:4"/>
+                        <title type="supplied">Eitt Prídilegt Liódabréf</title>
+                        <textLang mainLang="is"/>
+                        <incipit>Búin<ex>n</ex> Sóma Báru Lióma</incipit>
+                        <note>The name Elena is woven into the poem at the end</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="102"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="166"/>
+                                 <width unit="mm" quantity="107"/>
+                              </dimensions>
+                           </support>
+                           <condition ana="average poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="21 23">
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="152"/>
+                                 <width unit="mm" quantity="92"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="999">
+                        <handNote scribeRef="#GudGis004" scope="minor" script="late kurrent">
+                           Guðmundur Gíslason í Melgerði í Eyjafirði wrote fols. <locus from="41r:1" to="88v:9">41r:1-88v:9</locus></handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="unknown">Various other hands</handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1900"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:56.142+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-02" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources</change>
+         <change when="2013-07-30" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-08-20" who="#BES">Proofread (unable to anything about the comments underneath).</change>
+         <!-- Vandræða handrit. Ósamstæður tíningur frá mismundandi tíma. Ætti ef til vill að skrá í þremur hlutum eða fleiri. 
+            Eða amk. efnisskrá item 1 sem sögur og þá 1.1.og 1.2; 2 lækningakver 3. rímur 3.1 og 3.2 og svo 4 kveðskapur 4.1 4.2 og svo framvegis -->
+         <!-- #OHA: Gerði mitt besta til að skrá. Skráði í tveimur hlutum. 
+            Það mætti vel fara í gegnum þetta aftur. -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

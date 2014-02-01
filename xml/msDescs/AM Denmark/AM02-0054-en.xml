@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 54 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0054-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 54 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kon">
+                     <locus from="1ra:1" to="72ra:2">1ra-72ra:2</locus>
+                     <title type="uniform">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="book" ana="apograph">Bjarni Einarsson uses fols. <locus>31ra-va, 48vb-49ra, 50ra-b, 54rb-55ra
+                              and 69ra-70rb</locus> of this manuscript in his edition of <ref type="primary-3" target="Rit15">Hallfreðar saga</ref> as Ed. 54.</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="islt">
+                     <locus from="72ra:3" to="73vb:39">72ra:3-73vb</locus>
+                     <title type="uniform">Halldórs þáttur Snorrasonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Fragment</note>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="74ra:1" to="74va:21">74ra-va:21</locus>
+                     <title type="uniform">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Fragment</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="74va:22" to="76ra:48">74va:22-76ra:48</locus>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit>Þad v<ex>ar</ex> a e<ex>in</ex>ne nott ad ol<ex>afr</ex> k<ex>onungr</ex> T<ex>ryggva</ex>
+                           s<ex>on</ex> v<ex>ak</ex>ti a bæ<ex>n</ex> j sæ<ex>n</ex>g si<ex>nn</ex>i</incipit>
+                     <explicit>og þotti aullu<ex>m</ex> merkil<ex>e</ex>gt h<ex>an</ex>s andlat þotti k<ex>on</ex>gi m<ex>ar</ex>k
+                        at sog<ex>um</ex> h<ex>an</ex>s o<ex>g</ex> þotti san<ex>n</ex><ex>az</ex> u<ex>m</ex> lifd<ex>ag</ex>a
+                           h<ex>an</ex>s s<ex>e</ex>m h<ex>enn</ex>i sagdi</explicit>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="76ra:49" to="76vb:13">76ra:49-vb</locus>
+                     <title type="uniform" ref="#hthth">Helga þáttur Þórissonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit>Þordur h<ex>e</ex>t m<ex>adr</ex> e<ex>r</ex> bio J n<ex>oreg</ex>e a bæ þ<ex>eim</ex> er ad
+                           raudab<ex>er</ex>gi h<ex>e</ex>t</incipit>
+                     <explicit>þa hyrfi o<ex>g</ex> eiru<ex>m</ex> horn<ex>in</ex> o<ex>g</ex> h<ex>e</ex>fr eingi<ex>n</ex> sied
+                           han<ex>n</ex> sida<ex>an</ex> o<ex>g</ex> lykur suo þessare sogu</explicit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="76"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="315"/>
+                              <width unit="mm" quantity="232"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliated in red ink in the top outer corners by <name type="person" role="scholar" key="KriKaa001">Kålund</name>. Traces of other foliations.</p>
+                        </foliation>
+                        <condition ana="average">
+                           <p>The manuscript ends defective and has various lacunæ. Of fol. 71 only a thin slip at the spine is
+                              left.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="37 50">
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="230"/>
+                              <width unit="mm" quantity="161"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="major" script="textualis">
+                        <p>Fols. <locus from="1ra" to="72ra:2">1ra-72ra:2</locus> are written in a hand from the end of the
+                           fourteenth century.</p>
+                     </handNote>
+
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p>Fols. <locus from="72ra" to="73vb">72ra-73vb</locus> are written in a hand from c. 1500.<note> Same hand
+                              as in <ref target="AM04-0325-VI-da">AM 325 VI 4to</ref>, fol. <locus from="17ra:13" to="36v">17ra:13-36v</locus>.</note></p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p>Fols. <locus from="74ra" to="76vb">74ra-76vb</locus> are written in a hand from the sixteenth
+                           century.</p>
+                     </handNote>
+                  </handDesc>
+
+                  <decoDesc ana="high">
+                     <decoNote type="initial">
+                        <p>The initials occur in varying colours with ornate decoration. Rubrics in red.</p>
+                     </decoNote>
+                  </decoDesc>
+
+                  <additions ana="low">
+                     <p>
+                        <name type="person" role="scholar" key="ArnMag001">Árni Magnússon</name> has marked some of the lacunae in
+                        the bottom margin of the previous page. A number of seventeenth-century notes in the lower margins of the
+                        codex provide information of the manuscript's extent at the time (108 leaves). Also written here and there
+                        in the margins are the names of various owners. On the front flyleaf, a little AM-slip is glued to the
+                        paper. Notes on the rebinding are given on the verso side of the front flyleaf: <q>Indbundet i jan.
+                           1935. Tidligere i tarveligt bind fra 1880erne.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false" when="1935">
+                        <p>Modern binding with brown leather on spine and corners. Gilded imprints on the spine: <q>AM 54 fol.</q>
+                           and <q>69</q>. According to note on the front flyleaf, the manuscript was rebound in 1935, replacing a
+                           binding from the 1880s.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1385" notAfter="1599"/>
+                     <origPlace key="IS"/>
+                     <note>The main part of the manuscript (<locus from="1ra" to="72ra">1ra-72ra</locus>) was written in the second half or end of the 14th century. Fols. <locus from="72ra" to="73vb">72ra-73vb</locus>, items 2-3, were written ca. 1500, and fols. <locus from="74ra" to="76vb">74ra-76vb</locus>, items 4-5, were written in the 15th century.</note>
+                  </origin>
+                  <provenance>
+                     <p>According to <ref type="ms">AM 435a 4to</ref>, fol. 37v, <name type="person" role="owner" key="ArnGud001">Árni Guðmundsson</name> of <name type="place" key="Bíldud02">Bíldudalur</name> gave the manuscript to
+                           <name type="person" role="owner" key="ArnTho002">Arngrímur Þorkelsson</name>, who might have given it to
+                           <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:46.997+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:04.049+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:15.198+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:28.856+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:08.3+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-02-04" who="#BES">Added missing information from catalogs and the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

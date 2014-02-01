@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 752 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0752-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 752 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="4r"/>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="is"/>
+                     <note>In the hand of Stefán Stefánsson í Stóru Vogum from 1802</note>
+                     <note>Only the latter part, the former part lacking. </note>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="4v" to="80v"/>
+                     <title type="uniform">Mágus saga jarls</title>
+                     <textLang mainLang="non"/>
+                     <note>In the hand of Stefán Stefánsson í Stóru Vogum from 1802</note>
+                  </msItem>
+                  <msItem n="3" class="rimur">
+                     <locus from="81r" to="133v"/>
+                     <title type="uniform">Vilmundar rímur viðutan</title>
+                     <textLang mainLang="is"/>
+                     <author>Hallur Magnússon</author>
+                     <note>24 rímur</note>
+                     <note>Written in 1843 in Móakot by the farmhand Þórður Jónsson</note>
+                  </msItem>
+                  <msItem n="4" class="rimur">
+                     <locus from="135r" to="161v"/>
+                     <title type="uniform">Friðþjófs rímur frækna</title>
+                     <textLang mainLang="is"/>
+                     <author>Brynjólfur Halldórsson</author>
+                     <note>6 rímur</note>
+                     <note>Written ca. 1780</note>
+                  </msItem>
+                  <msItem n="5" class="rimur">
+                     <locus from="162r" to="188v"/>
+                     <title type="uniform">Klemus rímur</title>
+                     <textLang mainLang="is"/>
+                     <author>Páll Sveinsson</author>
+                     <note>5 rímur</note>
+                     <note>Written ca. 1800</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""></num>-->
+                           <num type="book-block" value="178"/>
+                           <!--<num type="back-flyleaf" value=""></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                          <!-- <watermark ana=""/>-->
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 33">
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                         <!--  <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="#SteSte007" scope="minor" script="unknown">Stefán Stefánsson í Stóru-Vogum wrote fols. <locus>1r-77</locus> </handNote>
+                     <handNote scribeRef="#ThoJon039" scope="minor" script="unknown">Þórður Jónsson í Móakoti wrote fols. <locus>78-128</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">Unknown scribe/s</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <!--<bindingDesc>
+                     <binding ana="plain" contemporary="">                        
+                        <p>Leather</p>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1780" to="1843"/>
+                     <origPlace key="IS">Suðurnes, Reykjanes, Gullbringusýsla</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:51:57.6+02:00" who="#EAH"> Introduced repository auth file.Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-02" who="#SK">Added information from the P.E.Ó.-catalogue and other sources</change>
+         <change when="2013-02" who="#SK">Added some information from the P.E.Ó.-catalogue and other sources</change> 
+         <change when="2013-06-14" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <!-- watermark, layout dimensions and bindingDesc missing -->
+         <change when="2013-08-20" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

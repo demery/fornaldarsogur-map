@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	
+	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>UB 1157 8vo</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="UB08-1157-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 1157 8vo</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+<!--						<titlePage ana="no|contemporary|later"/>-->
+						
+						<msItem n="1" class="fas">
+							<locus from="1r:1" to="64v:24"/>  							
+							<title type="uniform" ref="#vs">Völsunga saga</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Sigurði Fafnisbana ok Völsúngum</rubric>
+							<incipit>Hér hefir upp ok segir frá þeim man<ex>n</ex>i er Sigi er nefndr</incipit>
+							<explicit>nú vex hon þar upp í miklu fátæki</explicit>														
+													
+						</msItem>
+						
+						<msItem n="2" class="fas">
+							<locus from="65r:1" to="108v:16"/>  							
+							<title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagan af Ragnari konúngi "Loðbrók" ok Sonum hanns</rubric>
+							<incipit>Herraudr hét jarl ríkr ok ágætr á Gautlandi</incipit>
+							<explicit>Haraldr konúngr enn hárfagri er fyrstr vard ein vallds konúngr yfir öllum Noregi</explicit>
+							<finalRubric>Ok lýkr hér sögw Ragnars konúngs Loðbrókar ok sona hans</finalRubric>
+							
+						</msItem>
+						
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+<!--									<num type="front-flyleaf" value=""/>-->
+									<num type="book-block" value="108"/>
+<!--									<num type="back-flyleaf" value=""/>-->
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="200"/>
+										<width unit="mm" quantity="166"/>
+									</dimensions>
+									
+<!--									<watermark ana="no|yes"/>-->
+									
+								</support>
+								
+								<foliation ana="pag">Paginated [81]-296.</foliation>
+								
+<!--								<condition ana="poor|average|good"/>-->
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-separate" columns="1" writtenLines="23 24">									
+									
+									<num type="wpl" atLeast="9" atMost="11"/>
+									
+									<!--<dimensions type="written">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions>-->
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#MagJon001" scope="sole" script="unknown"/>
+						</handDesc>
+						
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						
+						<additions ana="no">
+							<p/>
+						</additions>
+						<!--
+						<bindingDesc>
+							<binding ana="plain|moderate|decorative" contemporary="false">
+								<p/>
+							</binding>							
+						</bindingDesc>-->
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<p>Probably written some time between 1850 and 1875.</p>
+							<origDate notBefore="1850" notAfter="1875"/>
+							<origPlace key="IS"/>
+						</origin>
+						
+						<provenance>
+							<p>UB 1156-1159 8vo purchased by the University of Oslo from Albert Ólafsson á Hvarfi (Gvarv) in Telemark in 1932.</p>
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-24" who="#JSL">Added template elements. Cataloged from photographs.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

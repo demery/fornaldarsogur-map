@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>R 703</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-703" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 703</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="12v:15"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="1.1" class="">
+                        <locus from="1r:1" to="2v:28"/>
+                        <title type="uniform">Völsunga saga</title>
+                        <incipit defective="true">ad störtydin<ex>n</ex>dum<ex>m</ex> muni giegna <ex>og</ex> hlaupa aff
+                           skipum</incipit>
+                        <explicit defective="true">þä haffdi han<ex>n</ex> Eir<ex>n</ex> hrijng <ex>og</ex> tok loki h<ex>an</ex>n
+                           aff h<ex>ono</ex>m</explicit>
+                     </msItem>
+                     <msItem n="1.2" class="" defective="true">
+                        <locus from="3r:1" to="4v:28"/>
+                        <title type="uniform">Völsunga saga</title>
+                        <incipit defective="true">mællti han<ex>n</ex> af m<ex>ik</ex>lum<ex>m</ex> modi Brod<ex>ir</ex>
+                              min<ex>n</ex> hef<ex>ur</ex> þu drepid</incipit>
+                        <explicit defective="true">sött dauda eda sædauda eda uopndäuda</explicit>
+                     </msItem>
+                     <msItem n="1.3" class="" defective="true">
+                        <locus from="5r:1" to="12v:15"/>
+                        <title type="uniform">Völsunga saga</title>
+                        <incipit defective="true">Nu legzt Brynh<ex>ildur</ex> J Reckiu</incipit>
+                        <explicit>nu uex h<ex>un</ex> þ<ex>ar</ex> up<ex>p</ex> j m<ex>ik</ex>lu fätæki</explicit>
+                     </msItem>
+                     <note>Fragm.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="12v:15" to="22r:12"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>43 cap:</rubric>
+                     <incipit>herraud<ex>ur</ex> hiet jall rijk<ex>ur</ex>
+                        <ex>og</ex> agiæt<ex>ur</ex> ä gautlandi</incipit>
+                     <explicit>h<ex>ann</ex> fagnadi ormavagni</explicit>
+                     <filiation>
+                        <p>Derived from <ref type="ms" target="#NKS04-1824b-en" ana="protograph">NKS 1824 b 4to</ref>.</p>
+                     </filiation>
+                     <note>Defective?</note>
+                  </msItem>
+                  <msItem n="3" class="islt">
+                     <locus from="22v:1" to="24r:38"/>
+                     <title type="uniform">Þorsteins þáttur stangarhöggs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Þorsteine stangar högg</rubric>
+                     <incipit>MAdur hiet Þorarin<ex>n</ex> er bio J sun<ex>n</ex>u dal gamallmadur og sionlijtill</incipit>
+                     <explicit>h<ex>afa</ex> m<ex>ar</ex>gi<ex>r</ex> hofdijngsm<ex>enn</ex> f<ex>rä</ex> þ<ex>ei</ex>m
+                        komid</explicit>
+                     <finalRubric><ex>og</ex> lyk<ex>ur</ex> þar ad seigia frä þorsteini vor<ex>um</ex> stang<ex>ar</ex>
+                        hogg.</finalRubric>
+                     <colophon>1674 greg<ex>or</ex>i<ex>us</ex> m<ex>esso</ex> skrifud <ex>og</ex> end<ex>n</ex>dud</colophon>
+                  </msItem>
+                  <msItem n="4" class="hattal">
+                     <locus from="24v" to="25"/>
+                     <title type="uniform">Háttalykill Lopts ríka Guttormssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>hätta lykill lopts rijka skrifast hi<ex>er</ex> ept<ex>er</ex> t<ex>il</ex> skiemtun<ex>ar</ex>
+                           þ<ex>ei</ex>m lesa e<ex>dur</ex> hey<ex>ra</ex> uilia</rubric>
+                     <incipit>First uil eg mætu musti</incipit>
+                     <explicit>en<ex>n</ex> eyk su er myn leika</explicit>
+                     <note>54 verses</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="25"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="25 37">
+                           <num type="wpl" atLeast="15" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some decorated initials.</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>Table of contents on front fly-leaf. Some corrections and marginalia.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in cardboard covered with marbled paper. White spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1683"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" key="JonEgg001" role="owner">Jón Eggertsson</name> bought the manuscript for <name type="organisation" key="AntKol001" role="owner">Antikvtetskollegiet</name> on his
+                     journey through Iceland between <date from="1682" to="1683">1682 and
+                     1683</date>.
+                  Uppsala Universitetsbiblioteket acquired <name type="person" role="owner" key="MagCel001">Magnus von Celse</name>'s collection,
+                     among them this manuscript, in <date when="1795">1795</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:11.887+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-05" who="SH">Added information from the catalogue by Gödel and from photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

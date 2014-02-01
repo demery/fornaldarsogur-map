@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 623 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0623-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 623 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Sögu-Safn I</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="31v"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hermann og Jarlmann</rubric>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="32r" to="69v"/>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Konráð keisarasyni og Roðbert svikara</rubric>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="70r" to="104v"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Vilmundi viðutan sonarsyni Bögubósa</rubric>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="105r" to="135r"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Þjalar-Jóni og Eiríki forvitna</rubric>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="135v" to="198v"/>
+                     <title type="uniform">Mágus saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefur upp söguna af Bragða-Máusi jalli</rubric>
+                     <note>Fol. <locus from="179r" to="179r">179r</locus> says:
+                           <q>Annar partur sögunnar. Um þá frændur Hrólf skuggafífl, Vilhjálm
+                           Laisson og Geirharð Vilhjálmsson</q>
+                     </note>
+                     <note>A longer version</note>
+                     <msItem n="5.1" class="laus">
+                        <locus from="198v" to="198v"/>
+                        <title type="supplied">Vísa</title>
+                        <incipit>Margt brallaði Máus jarl</incipit>
+                        <colophon>: Jón </colophon>
+                        <note>Colophon in greek letters</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="199r" to="208r"/>
+                     <title type="uniform">Dínus saga drambláta</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Dínus drambláta og Phílómu drottningu</rubric>
+                     <colophon>Rituð 1853. Jón </colophon>
+                     <note>Colophon in greek letters</note>
+                  </msItem>
+                  <msItem n="7" class="regist">
+                     <locus from="208v" to="208v"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Innihald</rubric>
+                     <note>Register over the last three items</note>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="209r" to="254v"/>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Vilhjálmi Rígarðssyni sjóð</rubric>
+                     <colophon>1853 Jón </colophon>
+                     <note>Colophon in runic alphabet</note>
+                  </msItem>
+                  <msItem n="9" class="skalds">
+                     <locus from="255r" to="290v"/>
+                     <author key="JonBja002">Jón Bjarnason</author>
+                     <title type="uniform">Parmes saga loðinbjarnar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Parmus Loðinbirni</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="290"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="235"/>
+                              <width unit="mm" quantity="190"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="contemporary pag">
+                           <p>Pagination 1-206 (<locus>105r-208v</locus>), 1-164 (<locus>209r-290v</locus>)</p>
+                        </foliation>
+                        <condition ana="good">Some of the ink rather faded</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="23 29">
+                           <num type="wpl" atLeast="7" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="204"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="major" script="hum cursiva">Fols. <locus>1r-104v</locus></handNote>
+                     <handNote scribeRef="#JonJon038" scope="major" script="hum cursiva"> Fols. <locus>105r-284v?</locus></handNote>
+                     <handNote scribeRef="#PalPal003" scope="minor" script="hum cursiva">Fols. <locus>285r-290v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Second front flyleaf (recto side) in the hand of <name type="person" key="PalPal003">Páll
+                           Pálsson</name> stúdent: A later title page</p>
+                     <p>Second front flyleaf (verso side) in the hand of <name type="person" key="PalPal003">Páll
+                           Pálsson</name>: A Table of contents (<q>Innihald</q>)</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1853" to="1899"/>
+                     <origPlace key="IS"/>
+                     <note>Volume I of a 19 volume story-collection: <ref target="JS04-623" type="ms">JS
+                           623 4to</ref> - <ref target="JS04-641" type="ms">JS 641 4to</ref></note>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:18.7+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:25.128+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:44.047+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2012-08-03" who="#SMM">Adapted to FASNL encoding. Updated msItems with rubric
+            titles.</change> <!-- all information that can be gathered from manuscript itself missing -->
+         <change when="2012-11" who="#SK">Corrected class and added information lacking from the
+            manuscript itself.</change>
+         <change when="2013-08-28" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

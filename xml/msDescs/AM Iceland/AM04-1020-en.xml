@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 1020 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-1020-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 1020 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Addit. 57 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 1020 I 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <titlePage ana="contemporary"/>
+                     
+                     <msItem n="1" class="isl">
+                        <locus from="1r:1" to="19v:20"/>
+                        <author key="JonOla003">Jón Ólafsson úr Grunnavík</author>
+                        <title type="uniform">Grettis saga <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Inn-tak vijsnanna ij Grettes søgu, saman tekit af þeim er þar ij jaatade o-fullkomleik sinn</rubric>
+                        <incipit>Vijsnan<ex>n</ex>a auctor hallda sumer antiqvarii</incipit>
+                        <explicit>und-klacks hugar rackum.</explicit>
+                        <colophon>Kona! ätta men<ex>n</ex> gätu ei vond saxnum ur hende hins hughrausta Grettes [þä er han<ex>n</ex> var
+                        daudur] fyrr en<ex>n</ex> þrir hiuggu af hónum hendena. Tantum.</colophon>
+                        
+                        <note>Title page on front flyleaf recto reads: <q>Vijsur sem eru ij Grettis Sògu wt-þijddar Hafniæ 1735.</q></note>
+                        <note>12 lines of text on fol. <locus>20r</locus> related to these verses. Dated 1741 with the autograph of a certain
+                        <name type="person">Oddur Þorkelsson</name>.</note>
+                        
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="1"/>
+                              <num type="book-block" value="20"/>
+                             <!-- <num type="back-flyleaf" value=""/>-->
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="203"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              
+                              <!--<watermark ana="no|yes"/>-->
+                              
+                           </support>
+                           
+                           <foliation ana="fol later">Foliated in the upper corner of fols. <locus>1</locus> and <locus>10</locus>.</foliation>
+                           
+                          <!-- <condition ana="poor|average|good"/>-->
+                        
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="25">
+                              <num type="wpl" atLeast="4" atMost="11"/>
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonOla003" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     
+                     <!--<decoDesc ana="no|low|medium|high">
+                        <decoNote type=""/>
+                     </decoDesc>-->
+                     
+                     <additions ana="medium">
+                        <p>Contains emendations and variant readings throughout. Some are from the scribe, while others are in a
+                        later hand.</p>
+                     </additions>
+                     
+                     <!--<bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p/>
+                        </binding>							
+                     </bindingDesc>-->
+                  
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate when="1735"/>
+                        <origPlace key="IS"/>
+                        <note>Dated to the 18th century by Kålund (Katalog, II:295). Dated 1735 on front flyleaf recto (former cover).</note>
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                  </history>
+               </msPart>
+               
+              <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 1020 II 4to</idno>
+                  </altIdentifier>
+       
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="7v:x"/>
+                        <author role="editor" key="OlaVer001">Olaf Verelius</author>
+                        <title ref="#hs" type="uniform">Hervarar saga og Heiðreks <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>So qvad Hervor i Säms Eyu</rubric>
+                        <incipit>Waknadu Angantyr, vekr þig Hervor</incipit>
+                        <explicit>et hierosolimam fairus incidit runas</explicit>
+                        <colophon>Hæc omnia ex notis Olavi Verelij, ad sogu Hervar<ex>ar</ex> editæ Upsalæ Anno 1672.</colophon>
+                       <!-- <filiation></filiation>-->
+                        <note>Contains poetic extracts, Swedish translations and commentary of the U version of the saga from 
+                           Olaf Verelius' 1682 edition.</note>
+                        
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <!--<num type="front-flyleaf" value=""/>-->
+                              <num type="book-block" value="7"/>
+                             <!-- <num type="back-flyleaf" value=""/>-->
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="208"/>
+                                 <width unit="mm" quantity="166"/>
+                              </dimensions>
+                              
+                             <!-- <watermark ana="no|yes"/>-->
+                              
+                           </support>
+                           
+                          <!-- <foliation ana="no|contemporary|later|pag|col|fol"/>-->
+                           <!-- Only pag/fol. 1 given any enumeration; not sure how to encode this -->
+                           
+                           <!--<condition ana="poor|average|good"/>-->
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="2" writtenLines="26">
+                              <num type="wpl" atLeast="7" atMost="8"/>
+                              <!--<dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="unknown">scribe used multiple scripts in a (rather successful) attempt to copy the various fonts present in the printed edition</handNote>
+                      
+                     </handDesc>
+                     
+                     <decoDesc ana="medium">
+                        <decoNote type="illustration">Contains images of runic inscriptions copied from Verelius' edition on fols. <locus>4v</locus>,
+                           <locus>5r</locus> and <locus>6v</locus>.</decoNote>
+                     </decoDesc>
+                     
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                     
+                    <!-- <bindingDesc>
+                        <binding ana="plain|moderate|decorative" contemporary="false">
+                           <p/>
+                        </binding>							
+                     </bindingDesc>-->
+                  
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <!-- MS date previously given as 1672, but this cannot be correct, as it is actually the date of the edition; needs revision -->
+                        <origDate notBefore="1672" notAfter="1750"/>
+                        <origPlace key="IS"/>
+                     
+                     </origin>
+                     
+                     <provenance>
+                        <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                     </provenance>
+                     
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:48.829+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:46.89+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:54.067+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:11.242+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:48.238+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-03-26" who="#JSL">Added information from handrit and Kålund catalogs.</change>
+         <change when="2013-04-03" who="#JSL">Cataloged from manuscript photographs.</change>
+         <change when="2013-08-23" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

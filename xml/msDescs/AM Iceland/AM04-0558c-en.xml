@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 558 c 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0558-c-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 558 c I-II 4to</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="74"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="211"/>
+                              <width unit="mm" quantity="161"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <foliation ana="contemporary fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc ana="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p><dimensions type="binding" unit="mm">
+                           <height>210</height>
+                           <width>168</width>
+                           <depth>15</depth>
+                        </dimensions></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1700"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 558 c I 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="isl">
+                        <locus from="1r" to="68v"/>
+                        <title type="uniform">Grettis saga</title>
+                        <textLang mainLang="non"/>
+                        <note>Incomplete.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="68"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="203"/>
+                                 <width unit="mm" quantity="163"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <foliation ana="contemporary fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="23 35">
+                              <num type="wpl" atLeast="9" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="163"/>
+                                 <width unit="mm" quantity="119"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc ana="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Slightly decorated initials.</decoNote>
+                     </decoDesc>
+                     <additions ana="medium">
+                        <p>Corrections and reading variants in the margins.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1600" notAfter="1700"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p/>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 363 I 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="6v"/>
+                        <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                        <textLang mainLang="non"/>
+                        <note>Fragment.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="6"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="220"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <foliation ana="contemporary fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="37">
+                              <num type="wpl" atLeast="10" atMost="16"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="176"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc ana="1">
+                        <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1600" notAfter="1700"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p/>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:31.537+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-06-18" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <!-- watermark missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

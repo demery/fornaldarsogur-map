@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 320 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0320-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 320 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="skaldskfr" defective="true">
+                     <locus from="1r" facs="#IB04-0320-0001r" to="20v">1r-20v</locus>
+                     <title type="uniform">Edda</title>
+                     <rubric>Skálda</rubric>
+                     <note>A part of Skáldskaparmál</note>
+                     <filiation>
+                        <ref type="book" target="Resens Edda" ana="protograph">A copy of P.H. Resen, Edda
+                           Islandorum, Havniæ 1665</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                     <note>Extract from Resen's Edda, with some additions</note>
+                     <note>Defective at the end as is obvious from the catchword <q>Dulenn</q> on fol. <locus from="20v" to="20v">20v</locus></note>
+                  </msItem>
+                  <msItem n="2" class="landn sagnfr">
+                     <locus from="21r" facs="#IB04-0320-0021r" to="27r">21r-27r</locus>
+                     <title type="uniform">Íslendingabók</title>
+                     <rubric>Schedae Ara prests fróða um Island. Prentaðar í Skálholti, af Hendrich
+                        Kruse, Anno 1688</rubric>
+                     <filiation>
+                        <p>A copy of the printed version from Skálholt: <ref type="book" target="Skálholt 1688" ana="antigraph">Schedæ Ara prests fróða um Island, Skálholt, 1688</ref>.</p>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="islst">
+                     <locus from="27v" facs="#IB04-0320-0027v" to="29v">27v-29v</locus>
+                     <title type="uniform">Þóris þáttur hasts og Bárðar birtu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="attfr">
+                     <locus from="29v" facs="#IB04-0320-0029v" to="30v">29v-30v</locus>
+                     <title type="supplied">Ættartala frá Hervöru Angantýsdóttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="forns" defective="true">
+                     <locus from="33r" facs="#IB04-0320-0033r" to="49r">33r-49r</locus>
+                     <title type="uniform">Huldar saga hinnar miklu</title>
+                     <textLang mainLang="non"/>
+                     <note>See printed edition: Sagan af Huld drottningu hinni ríku, 1909</note>
+                     <note>Cætera desunt. Ends defective</note>
+                  </msItem>
+                  <msItem n="6" class="islt">
+                     <locus from="49r" facs="#IB04-0320-0049r" to="52r">49r-52r</locus>
+                     <title type="uniform">Brandkrossa þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="islt">
+                     <locus from="52r" facs="#IB04-0320-0052r" to="55v">52r-55v</locus>
+                     <title type="uniform">Þorsteins þáttur stangarhöggs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <!-- defective? This seems very short -->
+                     <locus from="55v" facs="#IB04-0320-0055v" to="58v">55v-58v</locus>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <rubric>Söguþáttur af Gauta konungi</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="bokmfr fas">
+                     <locus from="58v" facs="#IB04-0320-0058v" to="59r">58v-59r</locus>
+                     <title type="supplied">On Gautreks saga</title>
+                     <title type="supplied">Umfjöllun um Ættarstapa í söguþættinum af Gauta konungi</title>
+                     <rubric>Merk þú þettað</rubric>
+                     <textLang mainLang="is"/>
+                     <note>The scribe could be the author</note>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="61r" facs="#IB04-0320-0061r" to="74v">61r-74v</locus>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="riddst">
+                     <locus from="74v" facs="#IB04-0320-0074v" to="104r">74v-104r</locus>
+                     <title type="uniform">Líkafróns saga og kappa hans</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="105"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Last three pages blank</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="193"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                       <foliation ana="no"/>
+                        <condition ana="good">Crude cutting of paper at binding</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="27 34">
+                           <num type="wpl" atLeast="9" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="170" atMost="193"/>
+                              <width unit="mm" atLeast="130" atMost="155"/>
+                           </dimensions>
+                           <!-- which part...? -->
+                           <note>A part of the manuscript very badly cut</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#SigSig011" scope="minor" script="chancery">Sigurður
+                        Sigurðsson, <placeName>Fjarðarhorni</placeName>, wrote fols. <locus>1r-20v</locus></handNote>
+                     <handNote scribeRef="#OlaSiv001" scope="major" script="hum cursiva">Ólafur
+                        Sigurðsson Sívertsen wrote fols. <locus>21r-59r</locus></handNote>
+                     <handNote scribeRef="#MatSiv001" scope="minor" script="hum cursiva">Matthías
+                        Sigurðsson Sivertsen á <placeName>Kjörseyri</placeName> wrote fols. <locus>61r-104r</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>In the bottom margin of fol. <locus from="1r" to="1r">1r</locus> can be read:  <q>Pétur Eggerz í Júlí 1877: P. heldur það sé sú bók,
+                           sem Rask talar um í Hrútafirði og hefir átt hana Matthías á Kjörseyri</q>
+                        </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Leather over paper boards. Brown parchment</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1790" to="1820">[1790-1820?]</origDate>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="MatSiv001">Matthías Sigurðsson
+                           Sívertsen</name> á <placeName>Kjörseyri</placeName> owned the manuscript after <name type="person" role="owner" key="PetEgg001">Pétri Eggerz</name> (<locus from="1r" facs="#IB04-0320-0001r" to="1r">1r</locus>).</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:00.747+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:11.302+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:32.461+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:08.421+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-03" who="#SK">United the catlogued three parts into one and added some
+            information from the XML-file and digital version on handrit.is and other
+            sources</change>
+         <change when="2012-05" who="#SK"> Added some information from the manuscript itself.
+         </change>
+         <change when="2013-08-07" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

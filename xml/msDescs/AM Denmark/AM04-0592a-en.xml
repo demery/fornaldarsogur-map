@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 592 a 4to</title>
+         </titleStmt>
+
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0592a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 592 a 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="riddf" defective="true">
+                     <locus from="1r:1" to="29v:11"/>  							
+                     <title type="uniform">Mágus saga</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">keis<ex>ari</ex> mæ<ex>lti</ex> herra h<ex>ugon</ex>[?]
+                        mv<ex>n</ex> e<ex>ck</ex>i hitt san<ex>n</ex>ara</incipit>
+                     <explicit><ex>og</ex> vox da<ex>m</ex>borg[?] leingi enn her e<ex>n</ex>dur so sa sogu.</explicit>
+                     
+                     <note>Begins defective.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="2" class="riddf">
+                     <locus from="29v:12" to="41v:8"/>  							
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <title type="parallel">Sigrgarðs saga frækna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Af Sygurde enum frækna</rubric>
+                     <incipit><supplied reason="omitted" instant="false">S</supplied>igardr h<gap/> ried f<ex>irir</ex> gardum austr ryke</incipit>
+                     <explicit><ex>og</ex> e<ex>n</ex>dar hier fra S<ex>igurgardi</ex>[?] ad seig<ex>ur</ex></explicit>
+                     
+                  </msItem>
+                  
+                  <msItem n="3" class="riddf" defective="true">
+                     <locus from="41v:9" to="41v:33"/>  							
+                     <title type="supplied">Hrólfs þáttur skuggafífls</title>
+                     <title type="parallel">Hrólfs þáttr skuggafífls</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þattur af Hrolfe Skuggafyfle</rubric>
+                     <incipit><supplied reason="omitted">H</supplied>rolfr skuggafyfl var ingialld<ex>sson</ex></incipit>
+                     <explicit defective="true">e<ex>r</ex> i b<ex>ur</ex>t skip<ex>it</ex> e<ex>n</ex> þau</explicit>
+                     
+                     <note>Contains only the beginning of the þáttr.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="4" class="riddf" defective="true">
+                     <locus from="42r:1" to="85r:33"/>  							
+                     <title type="supplied">Flóres saga og Leó</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">hielldu [?] <gap reason="illegible"/></incipit>
+                     <explicit><ex>og</ex> e<ex>n</ex>dar so þessa sogu</explicit>
+                     
+                     <note>Lacks beginning of the saga.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="5" class="fas" defective="true">
+                     <locus from="85v:1" to="85v:29"/>  							
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Søguþattur af illuga <supplied reason="damage">gridar</supplied>
+                        fostra</rubric>
+                     <incipit>Sa k<ex>onungr</ex> ried f<ex>irir</ex> danmork er hringr h<ex>iet</ex></incipit>
+                     <explicit defective="true">heim t<ex>il</ex> hall<ex>ar</ex> <ex>ok</ex> e<ex>r</ex> mioc oglad<ex>ur</ex></explicit>
+                     
+                  </msItem>
+                  
+                  <msItem n="6" class="riddf" defective="true">
+                     <locus from="86r:1" to="91r:20"/>  							
+                     <title type="uniform">Ála flekks saga</title>
+                     <textLang mainLang="non"/>
+                     <!-- first page too faded to read -->
+                     <rubric/>
+                     <incipit defective="true"/>
+                     <explicit><ex>og</ex> lukr ver so þ<ex>ess</ex>are sogu</explicit>
+                     
+                     <note>Lacks beginning of the saga. First page too faded to read</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="7" class="riddf">
+                     <locus from="91r:21" to="121r:7"/>  							
+                     <title type="uniform">Sigurðar saga þǫgla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Sugurde þogla</rubric>
+                     <incipit>[?]oveg er [?] k<ex>onungur</ex> er ried f<ex>irir fraklande</ex></incipit>
+                     <explicit>endar hier nu sogu af sugrdj þøgla</explicit>
+                     
+                  </msItem>
+                  
+                  <!-- note quite sure what this is; Þorsteins þáttr skelks? -->
+                  <msItem n="8" class="">
+                     <locus from="121r:7" to="124v:21"/>  							
+                     <title type="supplied">Af Starkaði</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Af starkardi</rubric>
+                     <incipit>Vr[?] þan<ex>n</ex> tyma var kongr aa øgdu<ex>m</ex> er haralldi hiet</incipit>
+                     <explicit><ex>og</ex> endar hier fra starkard gamla</explicit>
+                     
+                  </msItem>
+                  
+                  <msItem n="9" class="kon" defective="true">
+                     <locus from="124v:25" to="126r:5"/>  							
+                     <title type="uniform">Færeyinga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>færeynga þaattur</rubric>
+                     <incipit>Þorbiorn h<ex>iet</ex> madr <ex>og</ex> var kalladr</incipit>
+                     <explicit><ex>og</ex> leifr ondudust aa dogu<ex>m</ex> mag<ex>n</ex>usa k<ex>onungs</ex> goda</explicit>
+                     
+                     <!-- move to <filiation>? -->
+                     <note>Text follows Flateyjarbók. Contains beginning and ending of saga with a large lacuna after fol. <locus>123</locus>.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="10" class="kon">
+                     <locus from="126r:6" to="135r:21"/>  							
+                     <title type="uniform">Færeyinga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>færeynga þattr sem stendr fyrer þennan<ex>n</ex></rubric>
+                     <incipit><supplied reason="omitted" instant="false">H</supplied>ofg<ex>ri</ex>mr [?] h<ex>iet</ex> madr</incipit>
+                     <explicit>do h<ex>ann</ex> þar oc ap [?] j elli sin<ex>n</ex></explicit>
+                     
+                     <!-- move to <filiation>? -->
+                     <note>Text follows Flateyjarbók.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="11" class="konth">
+                     <locus from="135r:22" to="138v:12"/>  							
+                     <title type="supplied">Hróa þáttur heimska</title>
+                     <title type="parallel">Hróa þáttr heimska</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hroa þattur</rubric>
+                     <incipit>Hroe h<ex>iet</ex> m<ex>adur</ex> h<ex>ann</ex> fæddest vp j danmork</incipit>
+                     <explicit><ex>og</ex> lykr hi<ex>er</ex> hroa þætti</explicit>
+                     
+                  </msItem>
+                  
+                  <msItem n="12" class="islt">
+                     <locus from="138v:13" to="140r:26"/>  							
+                     <title type="uniform">Auðunar þáttur vestfirska</title>
+                     <title type="parallel">Auðunar þáttr vestfirska</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Audu<supplied reason="omitted" instant="false">n</supplied>ar þaattur</rubric>
+                     <incipit>Audu<ex>n</ex> h<ex>iet</ex> m<ex>adur</ex> vestfyrskr</incipit>
+                     <explicit>lykr so h<ex>anns</ex> þætti</explicit>
+                     
+                  </msItem>
+                  
+                  <msItem n="13" class="kon">
+                     <locus from="140r:27" to="142r:32"/>  							
+                     <title type="supplied">Blóð-Egils þáttur</title>
+                     <title type="parallel">Blóð-Egils þáttr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Af Blodeigle</rubric>
+                     <incipit>Ragnar h<ex>iet</ex> m<ex>adur</ex></incipit>
+                     <explicit>og lykur so þessum þætte</explicit>
+                     
+                  </msItem>
+                  
+                  <!-- not sure what this is; Jökuls þáttr? -->
+                  <msItem n="14" class="" defective="true">
+                     <locus from="142v:1" to="142v:34"/>  							
+                     <title type="supplied">Dofra þáttur</title>
+                     <title type="parallel">Dofra þáttr</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit><gap/>ur til enn iola apta<ex>n ad hal[...]</ex></incipit>
+                     <explicit>lyf af m<ex>er</ex>, e<ex>c</ex> veit</explicit>
+                     
+                     <note>Upper and outer margins of leaf damaged with some loss of text.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="15" class="almb" defective="true">
+                     <locus from="143:1" to="223v:28"/>  							
+                     <title type="supplied">Olgeirs saga danska</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit defective="true"><gap/> drap ein<ex>n</ex> m<ex>an</ex>kugn<ex>an</ex> [?] ko<ex>n</ex>g s<ex>m</ex>
+                     stod hia</incipit>
+                     <explicit defective="true"><ex>og</ex> er nu skiott daudr af ungri og þosta</explicit>
+                     
+                     <note>Begins and ends defective. Entry in AM's table of contents for this item includes a note: 
+                        <q xml:lang="da">udsat paa Iislandsk af den Danske tryckte</q></note>
+                     
+                  </msItem>
+                  
+            
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="224"/>
+                           <num type="back-flyleaf" value="0"/>
+                          
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <note>Leaves vary greatly in size from 165mm x 95mm (fol. <locus>20</locus>) to 210mm x 165mm (fol. <locus>94</locus>).</note>
+                           <watermark ana="yes"/>
+                           
+                        </support>
+                        
+                        <foliation ana="later fol">
+                           <p>Foliated in pencil in the upper and lower margins. Foliated 1-2, 13, 3-12, 14-156, 156bis, 157-223</p>
+                        </foliation>
+                        
+                        <condition ana="poor">
+                           <p>Many leaves are heavily worn and barely legible. Extensive loss of text resulting from damage to leaf margins.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="29 34">		
+                           <num type="wpl" atLeast="12" atMost="16"/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="medium">
+                     <p>A tipped-in leaf at the front of the volume contains a table of contents in the hand of
+                        <name type="person" key="ArnMag001">Árni Magnússon</name>. A second tipped-in leaf has
+                        an inscription in his hand which reads: <q xml:lang="is">Komnar til min fra 
+                           <name type="person" role="owner" key="HalEin002">Halldore Einarssyne</name></q>. 
+                        Contains occasional marginal notes (variant readings, commentary).
+                        Alphabet and inscription (autograph?) on fol. <locus>44r</locus>: <q>Signingenn j næfn hvedt[?]</q>.
+                        Autograph on fol. <locus>70r</locus>: <q>jon ionsson</q> (also on fols. <locus>107v</locus>, <locus>108r</locus>,
+                        <locus>129r</locus> and <locus>131v</locus>).
+                        Autograph on fol. <locus>91r</locus>: <q>Gysla</q>.
+                        Inscription on rear pastedown: <q>Ónýt skrudda! Skrifud ílla skrattin<ex>n</ex> taki þig!
+                        icki skaltu optar villa augna-dapran<ex>n</ex> mig.</q>
+                     </p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Bound in contemporary pasteboards. Table of contents written on the front cover. Printed waste
+                        on front and rear pastedowns.</p>
+                     </binding>							
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                  </provenance>
+                  
+               </history>					
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:43.259+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:42.934+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:42:07.579+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2013-05-22" who="#JSL">Added information from handrit and Kålund catalogs. 
+            Cataloged from manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

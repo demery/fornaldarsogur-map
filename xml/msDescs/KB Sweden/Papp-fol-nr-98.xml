@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 98</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-98" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 98</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>K<ex>onung</ex> Krembres <ex>och</ex> Giotaland, och K<ex>onung</ex> Augis <ex>och</ex> Uppsala,
+                        Saga. Ifrån Islandskan ofwer satt af N. H. D.</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="forns">
+                     <locus from="1r" to="48v"/>
+                     <title type="supplied">Krembres saga Gautakonungs og Áka Svíakonungs</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <msItem n="1.1" class="formal">
+                        <locus from="1r" to="3v"/>
+                        <title type="supplied">Introduction</title>
+                        <textLang mainLang="sv"/>
+                     </msItem>
+                     <msItem n="1.2" class="formal">
+                        <locus from="3v" to="24v"/>
+                        <title type="supplied">Krembres saga Gautakonungs og Áka Svíakonungs <note>[Translation]</note></title>
+                        <textLang mainLang="sv"/>
+                     </msItem>
+                     <msItem n="1.3" class="formal">
+                        <locus from="27r" to="48v"/>
+                        <title type="supplied">Krembres saga Gautakonungs og Áka Svíakonungs <note>[Original Text]</note></title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="49r" to="120v"/>
+                     <title type="uniform">Elís saga og Rósamundu</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="121r" to="150r"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="sv"/>
+                     <note>among others Hálfs saga konungs og Hálfsrekka</note>
+                     <!-- check this note! Is there more than this saga in this part? -->
+                  </msItem>
+                  <msItem n="4" class="almb" defective="true">
+                     <locus from="153r" to="161v"/>
+                     <title type="uniform">Huga saga sterka og Skaplers konungs</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="162r" to="197r"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="206r" to="213v"/>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="¨218r" to="328v"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="8" class="islt">
+                     <locus from="330r" to="354v"/>
+                     <title type="uniform">Orms þáttur Stórólfssonar</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="9" class="islt">
+                     <locus from="356r" to="374v"/>
+                     <title type="uniform">Stjörnu-Odda draumur</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="10" class="natfr">
+                     <locus from="375r" to="382v"/>
+                     <title type="supplied">On Iceland's nature</title>
+                     <textLang mainLang="sv"/>
+                     <author>Jón Guðmundsson hinn lærði</author>
+                     <filiation>
+                        <p>Swedish translation of <ref type="ms" target="#Papp-fol-nr-64" ana="protograph">Papp. fol. nr
+                           64</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="11" class="run">
+                     <locus from="383r" to="397r"/>
+                     <title type="supplied">Ólaf hinn gamli: Um runa konstina</title>
+                     <textLang mainLang="sv"/>
+                     <filiation>
+                        <p>Swedish translation of <ref type="ms" target="#Papp-fol-nr-64" ana="protograph">Papp. fol. nr
+                           64</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="12" class="ridd" defective="true">
+                     <locus from="403r" to="406v"/>
+                     <title type="uniform">Mágus saga</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="13" class="isl">
+                     <locus from="407r" to="646r"/>
+                     <title type="uniform">Grettis saga</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="649r" to="663r"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="15" class="fas">
+                     <locus from="665r" to="692v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="16" class="fas">
+                     <locus from="693r" to="726v"/>
+                     <title type="uniform" ref="#hsgr">Hrómundar saga Gripssonar</title>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#Papp-fol-nr-67" ana="protograph">Papp. fol. nr 67</ref>.</p>
+                     </filiation>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <msItem n="16.1" class="formal">
+                        <locus from="693r" to="706r"/>
+                        <title type="uniform">Hrómundar saga Gripssonar <note>[original text]</note></title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="16.2" class="formal">
+                        <locus from="707r" to="726v"/>
+                        <title type="uniform">Hrómundar saga Gripssonar <note>[Translation]</note></title>
+                        <textLang mainLang="sv"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="17" class="skaldskfr">
+                     <locus from="727r" to="828r"/>
+                     <title type="supplied">Edda Snorra Sturlusonar</title>
+                     <textLang mainLang="sv"/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-fol-nr-38" ana="protograph">Papp. fol. nr 38</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="18" class="isl">
+                     <locus from="838r" to="859v"/>
+                     <title type="uniform">Grettis saga</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="19" class="fas">
+                     <locus from="861v" to="925v"/>
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <note>Only written on the verso leaves, the recto leaves are blank</note>
+                  </msItem>
+                  <msItem n="20" class="riddst">
+                     <locus from="927r" to="938v"/>
+                     <title type="supplied">Játmundar saga helga</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2">The front cover of a former binding is preserved and now counted as
+                              second front-flyleaf</num>
+                           <num type="book-block" value="938"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="325"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Different watermarks, mostly "LMAV" and two lions holding an emblem with a crown
+                              and a cross on top, a postal horn and "EW" with a crown on top. On the last leaves, there is the
+                              maid of dort with "IR" underneath and GR with a crown on top.</watermark>
+                        </support>
+                        <foliation ana="fol contemporary later">
+                           <p>in parts contemporary foliation</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1 2" writtenLines="23 33">
+                           <num type="wpl" atLeast="2" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="280" atMost="320"/>
+                              <width unit="mm" atLeast="100" atMost="160"/>
+                           </dimensions>
+                           <catchwords ana="some"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="6">
+                     <handNote scribeRef="#NilDal001" scope="major" script="kurrent"/>
+                     <handNote scribeRef="#ThoBro001" scope="minor" script="kurrent">Þorvaldur Brockmann wrote <locus from="860r" to="926v">860r-926v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Some items have been emended rather extensively, possibly by a scribe of another part.
+                     Between fols. <locus>1</locus> and <locus>2</locus>, a little slip is inserted: <q>21/22</q>. KB
+                     Stockholm stamp on fol. <locus>1r</locus> and the first front flyleaf. The original front cover has
+                     two stickers with the shelfmark.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with marbeled paper on the boards; spine and corners in white leather. The
+                           golden imprint on the spine reads: <q>Cod. Isl. Papp. Fol. N:o 98</q>. The front cover of an older
+                           binding is preserved and now counted as a front flyleaf.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1749"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:07.103+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. catalog info still missing.</change>
+         <change when="2013-03-06" who="#BES">Measured and checked. Catalog info added. Layout info etc. still missing.</change>
+         <change when="2013-04-03" who="#PTL">Added remaining scribe and layout details.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2316 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-2316-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2316 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                  </titlePage>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r" to="2v"/>
+                     <title type="supplied">Kvæði</title>
+                     <author key="JonHja001">Jón Hjaltalín</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="klog">
+                     <locus from="3r" to="4r"/>
+                     <title type="supplied">Statútur Gregoríusar páfa sjöunda</title> 
+                     <textLang mainLang="is"/>
+                     <note>Decrees issued by Pope Gregory VII</note>
+                  </msItem>
+                  <msItem n="3" class="idn bokg?">
+                     <locus from="4r" to="4v"/>
+                     <title type="supplied">Um prentverk</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="4v" to="18r"/>
+                     <title type="uniform">Tristrams saga og Ísoddar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="18v" to="50v"/>
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Sigurgarði og Ingigerði</rubric>
+                  </msItem>
+                  <msItem n="6" class="almb">
+                     <locus from="50v" to="57v"/>
+                     <title type="uniform">Bertrams saga greifa</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="58r" to="78v"/>
+                     <title type="uniform">Flóres saga og Blankiflúr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Flórent og Blankinflúr</rubric>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="78v" to="86r"/>
+                     <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="fas">
+                     <locus from="86r" to="94v"/>
+                     <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="forns" defective="true">
+                     <locus from="95r" to="136v"/>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <textLang mainLang="non"/>
+                     <note>End is missing.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="236"/> <!-- flyleaves? -->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="162"/>
+                           </dimensions>
+                          <!-- <watermark ana=""/>-->
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good">The last pages are torn at the bottom.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 25">
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#EliSig001" scope="sole" script="kurrent">Elías Sigurðsson í Straumfjarðartungu</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some initials slightly decorated in black ink.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Scribbles here and there.</p>
+                  </additions>
+                 <!-- <bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p>Leather binding</p>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1850"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:05.243+02:00" who="#EAH"> Introduced repository auth file.Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-01-24" who="#SK">Added items and other information from the P.E.Ó.-catalogue</change>
+         <change when="2013-06-12" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <!-- watermark, layout dimensions and bindingDesc missing -->
+         <change when="2013-08-30" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

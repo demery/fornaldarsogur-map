@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Mssu (Ducharme)</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="Mssu-Ducharme" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#ULYL">University Library, Yale, New Haven, CT</repository>
+                        <idno>Mssu (Ducharme)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="no">
+                            
+                        </titlePage>
+                        <msItem n="1" class="formal">
+                            <locus from="1r" to="1v"/>
+                            <title type="supplied">Note on translation</title>
+                            <textLang mainLang="en"/>
+                            <incipit>The translation of Frithiofs Saga <add place="above">as Legend</add>
+                                has endeavoured to give the correct meaning</incipit>
+                            <explicit>good feeling seem to render it mostly of the hand only of a master</explicit>
+                        </msItem>
+                        <msItem n="1" class="avis formal">
+                            <locus from="2r" to="4v"/>
+                            <title type="supplied">Biographical summary</title>
+                            <textLang mainLang="en"/>
+                            <rubric/>
+                            <incipit>Frithiof, son of the norwegian Jarl Thorstein, was brought up in the house of
+                                Hilding</incipit>
+                            <explicit>there he terminated in repose a restless life, leafing two sons Hunthiof and
+                                Gunthiof.</explicit>
+                            <colophon>Translated from the Danish of James Bærens Mænichen, entitled "The Dwarfs (or Ferries) Gods,
+                                Fables and Heros of the Northern Nations until the period of Frode the 7th. Copenhagen
+                                1800</colophon>
+                            <filiation><p>Translated from Jacob Bærent Møinichen's <ref type="book">Nordiske Folks Overtroe,
+                                        Guder, Fabler og Helte indtil Frode 7 Tider</ref>.</p></filiation>
+                        </msItem>
+                        <msItem class="tyd" n="3">
+                            <!-- fas? (at most related material) -->
+                            <locus from="1v" to="5r"/>
+                            <author>Esaias Tegnér</author>
+                            <title type="uniform">Frithjofs saga <note>[English]</note></title>
+                            <author role="translator">James Thain</author>
+                            <textLang mainLang="en" otherLangs="sv"/>
+                            <rubric>1. Frithiof and Ingegorg</rubric>
+                            <incipit>On Hildings lands with his forstering care there grew the filants</incipit>
+                            <note>With pictures from a Swedish version glued onto the pages</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="2"/>
+                                    <num type="book-block" value="150"/>
+                                    <num type="back-flyleaf" value="2"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="190"/>
+                                        <width unit="mm" quantity="150"/>
+                                    </dimensions>
+                                    <watermark ana="unknown"/>
+                                </support>
+                                <foliation ana="pag contemporary">
+                                    <p>Pagination in the centre of the top margin, cut off or left out on some pages.</p>
+                                </foliation>
+                                <condition ana="average"><p>The condition of the leaves is fine, but the binding is falling
+                                        apart.</p></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-separate" columns="1" writtenLines="22 26">
+                                    <num type="wpl" atLeast="3" atMost="11"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="154"/>
+                                        <width unit="mm" quantity="115"/>
+                                    </dimensions>
+                                    <catchwords ana="no"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scribeRef="#JamTha001" scope="major" script="hum cursiva"/>
+                        </handDesc>
+                        <decoDesc ana="medium">
+                            <decoNote type="other">Large printed illustrations are glued onto the pages</decoNote>
+                        </decoDesc>
+                        <additions ana="high">
+                            <!-- ? 'since departed' presumably means that Mr. Thain was deceased; the dedication and autograph are
+                                presumably in the hand of Cecilia -->
+                            <p>Large printed illustrations are glued onto ca. every eighth page. Below the images, a verse of
+                                    <q>Frithiof</q> in Swedish is cited. Dedicational note affixed to inside front cover: <q><name type="person" role="owner" key="CecHoy001">Cecilia Hoyle</name> the gift of her faithful
+                                    friend, since departed, <name type="person" role="scribe" key="JamTha001">James
+                                    Thain</name>.</q> On the second front flyleaf in the same hand, most likely the scribe
+                                    himself:<q>Cecilia Hoyle. 10 Aug<ex>ust</ex> 1835.</q>
+                            </p>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="decorative" contemporary="true">
+                                <p>Embossed black leather on cardboard with marbeled paper on the inside. Front board is detached
+                                    and in poor condition.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1830" notAfter="1835"/>
+                            <origPlace key="US"/>
+                        </origin>
+                        <provenance>
+                            <name type="person" role="owner" key="CecHoy001">Cecilia Hoyle</name>
+                            <name type="person" role="owner" key="JamTha001">James Thain</name>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2012-12-13" who="#BES">Created this file according to sparse catalog entry on the Beinecke
+                Website.</change>
+            <change when="2013-02-14" who="#BES">Added missing information with the manuscript in situ.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

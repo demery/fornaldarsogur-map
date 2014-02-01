@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 56</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-56" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 56</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="298v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <note>younger vers.</note>
+                     <note>The volume is laid out as a printed volume with an introduction for the reader,
+                     the Old Norse text on the left and the Swedish text on the right, followed by an 
+                     index at the back of the volume.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="298"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="240"/>
+                              <width unit="mm" quantity="185"/>
+                           </dimensions>
+                           <watermark ana="yes">Fleur de Lis with 'JKool'.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           The pagination runs from f. 5v onwards but starts with '4'.
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="16 19">
+                           <num type="wpl" atLeast="5" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="164"/>
+                              <width unit="mm" quantity="132"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MagAdl001" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote>On fol. 1r there is an elegantly drawn frontispiece which portrays Örvar-Oddr facing down a
+                     club-wielding giant foe with a large crossbow. The writing block is delineated with black lines.</decoNote>
+                  </decoDesc>
+                  <additions ana="no">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The boards are cardboard covered in marbelled red, orange and green paper on the inside covers.
+                        The volume is bound in green leather with a gilt border on the front and back covers and gilt decoration on the spine.
+                        On the spine a red leather section contains the inscription <q>SAGA OM ORVAR ODDER</q>.
+                        A paper label also attached to the spine reads <q>Isl. pp 4o 56.</q>.
+                        The book block has a gilt fore-edge.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1786"/>
+                     <origPlace key="SE">Stockholm</origPlace>
+                     <note>On f. 4r it states that this manuscript is based on a translation made a few years earlier in 1783.</note>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:56.296+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-04" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

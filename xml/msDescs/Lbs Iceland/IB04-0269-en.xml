@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 269 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0269-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 269 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <!--<titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="52r"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="52v" to="85r"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                    <!-- <locus/>-->
+                     <title type="uniform">Ectors saga</title>
+                     <title type="parallel">Hektors saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Written 1680</note>
+                  </msItem>
+                  <msItem n="4" class="heims sidfr kenb">
+                    <!-- <locus/>-->
+                     <title type="uniform">Konungs skuggsjá</title>
+                     <rubric>Speculum Regale</rubric>
+                     <textLang mainLang="non"/>
+                     <note>The latter part is in a different hand (2).</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <!--<num type="front-flyleaf" value=""></num>-->
+                           <num type="book-block" value="213"/>
+                          <!-- <num type="back-flyleaf" value=""></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="173"/>
+                              <width unit="mm" quantity="138"/>
+                           </dimensions>
+                           <!--<watermark ana=""></watermark>-->
+                        </support>
+                       <!-- <foliation ana=""></foliation>
+                        <condition ana=""></condition>-->
+                     </supportDesc>
+                    <!-- <layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  
+                  <handDesc hands="3">
+                     <handNote scribeRef="#JonOla009" scope="major" script="unknown"><!--Sr. Jón Ólafsson
+                        á Lambavatni--></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">Scribe unknown, but evidently a younger
+                        hand who has written the latter part of Konungs skuggsjá and added text which had been lacking in Jon's
+                        parchment exemplar.</handNote>
+                     <handNote scribeRef="#HalEin001" scope="minor" script="unknown"><!--Hálfdan rektor
+                        Einarsson á Hólum,--> Marginalia, notes and variants in his hand</handNote>
+                  </handDesc>
+                  <!--<decoDesc ana="">
+                     <decoNote></decoNote>
+                  </decoDesc>-->
+                  <!--<additions ana=""></additions>-->
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Leather binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1660" notAfter="1700"/>
+                  </origin>
+                  <provenance><p><name type="person" role="owner" key="ThoTho021">Þorsteinn
+                        Þorsteinsson á Upsum</name>, 1871.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:51.811+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-03" who="#SK">Added items and other information from
+            P.E.Ó.-catalogue.</change>
+         <change when="2013-08-06" who="#BES">Proofread.</change>
+         <!-- Still lacking information from the manuscript itself as type of script, size of the 
+            writing area and so on. -->
+         
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

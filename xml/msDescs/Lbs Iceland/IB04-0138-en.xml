@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 138 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0138-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 138 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="23r"/>
+                     <title type="uniform">Dínus saga drambláta</title>
+                     <rubric>Sagan af Dínusi drambláta</rubric>
+                     <colophon>Endir þessarar sögu</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="regist">
+                     <locus from="24r" to="24r"/>
+                     <title type="supplied">Table of Contents</title>
+                     <rubric>Þessi bók hefur inni að halda nokkrar riddarasögur</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="25r" to="92v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <rubric>Hér byrjar sögu af Hrólfi Gautrekssyni. Segir fyrst frá Gota kóngi og
+                        öðrum fornkóngum í Gautlandi og Norvegi</rubric>
+                     <finalRubric>og lýkur hér so sogunne af Hrólfi kóngi Gautrekssyni,</finalRubric> 
+                     <colophon>skrifuð 1774 á Hólum í Hjaltadal.</colophon>
+                     <textLang mainLang="is"/>
+                    
+                  </msItem>
+                  <msItem n="4" class="ridd" defective="true">
+                     <locus from="93r" to="108v"/>
+                     <title type="uniform">Clarus saga</title>
+                     <rubric>Saga af Klares og Serena</rubric>
+                     <explicit>hún tekur við og þackar honum og verdur hun feigen so hun þikest
+                        einkis meins kienna er hún hefir nockud ad færa karle sýnum, þóktest vita
+                        hvað hun muni fyrer höndum eiga ef hún kæme so búenn afttur betra Lietter
+                        hun ej</explicit>
+                     <textLang mainLang="is"/>
+                     <!-- does this mean there is a lacuna in the middle somewhere? -->
+                     <note>Lacking at the end of the story and little more</note>
+                  </msItem>
+                  <msItem n="5" class="avint">
+                     <locus from="109v" to="109v"/>
+                     <title type="supplied">Völundarhúss bygging</title>
+                     <rubric>Eitt ævintýr um Völundarhússins bygging</rubric>
+                     <textLang mainLang="is"/>
+                     <note>There is a drawing of a labyrinth on p. 109r</note>
+                   <msItem n="5.1" class="laus kvad">
+                     <locus from="109v" to="109v"/>
+                     <title type="supplied">Lausavísa</title>
+                     <incipit>Hefur aungvann heila kálfs</incipit>
+                     <textLang mainLang="is"/>
+                     <note>At the bottom are two lines of a verse in the same hand</note>
+                  </msItem>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="110r" to="115v"/>
+                     <title type="uniform">Nitida saga</title>
+                     <rubric>Söguþáttur af Nitida hinni frægu</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="115v" to="121v"/>
+                     <title type="uniform">Nikulás saga leikara</title>
+                     <rubric>Söguþáttur af Nikulási leikara og byrjast á þennan hátt</rubric>
+                     <finalRubric>Og lykur hier so sogunne af Nicholáse leikara</finalRubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="122r" to="131v"/>
+                     <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                     <rubric>Saga af Friðþjófi frækna</rubric>
+                     <finalRubric>Og endar so hier med sögu af Friðþjófe frækna. FINIS</finalRubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="132r" to="187v"/>
+                     <title type="uniform">Adonías saga</title>
+                     <rubric>Hér byrjast sagan af Addonius . s</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="188r" to="207r"/>
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <rubric>Sagan af kóngabörnunum Sigurði og Signýju. Einnig Tryggva
+                        Karlssyni</rubric>
+                     <colophon>og er saga þesse komen á enda so falleg sem aller heira meiga,
+                        hefe jeg ei sied hana lengre þar sem hun fyrer mig bar. Tantum
+                        est.</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="208r" to="213v"/>
+                     <title type="uniform">Elís saga og Rósamundu</title>
+                     <rubric>Hér byrjast sagan af Elis og Rósamundu</rubric>
+                     <colophon>Tantum est</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="12" class="isl">
+                     <locus from="214r" to="223r"/>
+                     <title type="uniform">Gunnars saga Keldugnúpsfífls</title>
+                     <rubric>Þáttur af Gunnari Keldugnúpsfífli</rubric>
+                     <colophon>og endar so hier med þessa søgu # FINIS</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="13" class="fas" defective="true">
+                     <locus from="224r" to="227v"/>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <rubric>Hér skrifast sagan af Þorsteine bæjarmagn</rubric>
+                     <explicit>Frosti gieck þa fram og mælte hvør skal mier i móte til þess vard
+                        fullsterku og urdu miklar sviptingar berast þeir nú ad sp<gap/>
+                        Þorst.</explicit>
+                     <textLang mainLang="is"/>
+                     <note>The end of the story is lacking</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                          <!-- <num type="front-flyleaf" value=""></num>-->
+                           <num type="book-block" value="227"/>
+                          <!-- <num type="back-flyleaf" value=""></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="194"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag fol contemporary">
+                           <p>Old pagination 1-46 (1r-24v), 1-51 (25r-50r); old foliation 1-50 (138r-187r)</p>
+                        </foliation>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23 29">
+                           <!--The sagas do not have verses and not this version of Friðþjófs saga but
+                              there are verses as additional material.-->
+                           <num type="wpl" atLeast="10" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="5">
+                     <summary>Five main hands. The main hand uses 4 or more scripttypes. Then there
+                        are writing exercises and scribble in more than one hand from later
+                        time.</summary>
+                     <handNote scribeRef="unknown" scope="minor" script="hybrida">1r-23r</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="unknown">24r,
+                        25r-108v, 122r-227v</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">109r-109v</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">110r-121r</handNote>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="illustration">A drawing of a labyrinth: <locus from="109r" facs="#IB04-0138-0109r" to="109r">109r</locus>
+                      </decoNote>
+                     <decoNote type="initial" subtype="decorated">25r, 93r, 122r, 132r, 188r, 214r </decoNote>
+                     <decoNote type="initial" subtype="flourished">in most stories, titles and
+                        chapter headings. </decoNote>
+                     <decoNote type="border" subtype="frieze"/>
+                  </decoDesc>
+                  <additions ana="high"><p>Writing exercises and scribble are later additions to
+                     empty spaces or pages between stories as well as in the margins. Some of it is of
+                     contains names of owners.</p><list>
+                     <item>Marteinn Jónsson 12/12 60<locus from="1r" to="1r"/>; A scribble or exercise: Virðuleglegre heiður kvinnu</item>
+                     <item>An empty page <locus from="24r" to="24r"/> has been filled later with all
+                        sorts of scribble. At the top: <q>Björn Sigurðsson: Með eigin hendi</q>; in the
+                        margin, written sideways: <q>Kristborg virðugleg<gap/> heiðurs<gap/></q>; The verse: <q>Fimmtán
+                           vetur og fjóra betur <gap/>, Móðir mín á menntir fín <gap/></q> is written twice with
+                        some more writing exercises.</item>
+                     <item>The same verses are repeated on page 121v <locus from="121v" to="121v"/> as
+                        well as the name  of Guðrún Björnsdóttir. One hand on leaf 121v is the same as
+                        the more primitive one on leaf 24v.</item>
+                     <item>At the end of Hrólfs saga Gautrekssonar 
+                        is written in different hand: <q>G G Amen</q></item>
+                     <item>At the end of Nikulás saga leikara<locus from="131v" to="131v"/> is written:
+                        <q>Gudrun Bjorns dotter á bókina</q>, as well as some scribble and writing
+                        exercises repeating this and the verses from page 24r </item>
+                     <item>At the end of Friðþjófs saga frækna<locus from="131v" to="131v"/>, some
+                        scribble: <q>Hafe sa þock er las en skömm skrifade. Virduleg og velforst</q></item>
+                     <item>At the end of Adonías saga<locus from="187v" to="187v"/>, some scribble: <q>Hafe
+                        sa þök er L aunga sa sem skrifade</q></item>
+                     <item>Different names on fol. <locus from="207v" to="207v">207v</locus></item>
+                     <item>Scribble and writing exercises at the end of Sigurðar saga fóts: <locus from="207v" to="207v"/> <q>GSigvaldason</q>; <q>SBJonsson</q>; <q>Gudrun Bjornsdotter</q>; <q>med
+                        egenn hende</q>; <q>Søgubók, gudmundson</q>; <q>GSigvalldason</q>; <q>SMagnusson</q>; <q>MS Jon</q>; <q>GS</q>;
+                        <q>Christian</q>; <q>MSveinsson</q></item>
+                     <item>Fragments of leaves are added in between fols. <locus from="208" to="209">208-209</locus>. There are names on them.</item>
+                     <item>On right hand side of fol. <locus from="208v" to="208v">208v</locus> sideways in the margin is written:
+                        <q>Gudmundur. Gudrun Biornsdotter a Hreimsstodum a
+                        bókena med riettu þad vitnar sa</q></item>
+                     <item>On the recto side of a slip affixed to fol. <locus from="209r">209r</locus>: <q>Þessa bók á eg undirteiknuð
+                        Guðrún, eij veit eg hvurs dóttur hún er og hef líeð Jens Magnússini til
+                        yferlesningar sier til dægrastíttijngar - Ólafur Jóhnsson hefur skrifað
+                        þettað.</q></item>
+                        <item><locus from="209r" to="209r"/> On the slip's verso-side, the following text, names and verses are
+                           written sideways: <q>Ríchtínus Björnsson Blekið
+                           lekur bókfell á /bytur lítið <gap/> [á?] þesse penne þóknast mier /þó ad sie úr
+                        hrafne /hann hefur skorið Geirager /Guðmundur ad nafne. Solfe ad heimann
+                        lagde leid /liet uppá Baukenn [onidr?] Kómba <gap/> Vyrdulegur heidursqvinnu
+                        Gudrunu Biornsd Magnusson hefur skrifad þettad Gudrun Bjornsdotter a Bokina
+                        og einginn annar</q> </item>
+                     <item>In the margin of fol. <locus from="210r" to="210r">210r</locus> is written
+                        sideways: <q>Þessa bók á eg underteiknud Gudrun ey veit eg hvurs dóttur hún er
+                        og hef lied Jens Magnussini til yferlesningar sier til dægrastittingar:
+                        Olafur Jóhnson hefur skrifad þettad</q></item>
+                     <item>A loose leaf <locus from="accMat01r" to="accMat01r"/> bears this text: <q>Arið
+                           1857 lét eg hlaða 64 faðma af túngarði, plægja í fyrsta sinni 1452 #(fer)
+                           faðma án þess ad vinna meira að því, og taka upp svörð, í minnsta lagi
+                           100 hestar þurrir. - Ljótstöðum 23/4 58 August Jónsson</q></item>
+                  </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Library binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS">Vesturland Ísland</origPlace>
+                     <origDate from="1750" to="1799">[1750-1799?]</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" key="GudBjo004" role="owner">Guðrún Björnsdóttir á <placeName key="HreBor01">Hreimstöðum</placeName>
+                        </name>
+                     <name type="person" key="MarJon002" role="owner">Marteinn Jónsson</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:56.485+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:08.312+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:30.191+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:06.353+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2011-10" who="#SK">Added information to the cataloguing on handrit.is and
+            adapted for the Fas-project as well as corrected from the pictures of the manuscript
+            itself on handrit.is</change>
+         <change when="2011-11" who="SK">Added the last bit of information from the manuscript
+            itself</change>
+         <change when="2013-08-06" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

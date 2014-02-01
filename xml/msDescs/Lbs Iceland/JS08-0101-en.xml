@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 101 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0101-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 101 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r:1" to="77v:13"/>
+                     <title type="supplied">Rollantsrímur</title>
+                     <textLang mainLang="is"/>
+                     <author key="ThoMag018">Þórður Magnússon</author>
+                     <rubric><supplied reason="damage">Hier</supplied> skrifast Rollands Rýmur edur af sumum<ex>m</ex>
+                        kalladar keisara Rauner</rubric>
+                     <incipit>Mörg hafa fræðen<ex>n</ex> mætur fyrer</incipit>
+                  </msItem>
+                  <msItem n="2" class="kvad">
+                     <locus from="77v:14" to="79v:8"/>
+                     <title type="supplied">Stóradómsvísur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Storadoms Vÿsur</rubric>
+                     <incipit>Sudra ren<ex>n</ex>e flóda</incipit>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="79v:9" to="86v:25"/>
+                     <title type="supplied">Þorra Forlag</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Heired Reiners hverfing<ex>ar</ex></incipit>
+                     <colophon>1792</colophon>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="87r:1" to="120v:16"/>
+                     <title type="uniform" ref="#ask">Ásmundar saga kappabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier byriar søgu Asmundar Vijkings</rubric>
+                     <incipit>Hring<ex>r</ex> hef<ex>ir</ex> k<ex>onun</ex>g<ex>r</ex> heitid</incipit>
+                     <finalRubric>og ender hier sögu Asmund<ex>ar</ex> Vijkings Son<ex>ar</ex> Eirïks Fals.</finalRubric>
+                  </msItem>
+                  <msItem n="5" class="">
+                     <locus from="120v:17" to="123r:15"/>
+                     <title type="supplied">Mýrlandsbragur</title>
+                     <textLang mainLang="is"/>
+                     <author key="EinGud001">Einar Guðmundsson</author>
+                     <rubric>Mijr Lands Bragur skrifast hier.</rubric>
+                     <incipit>Mætur hrepte Mijrlands Gramur</incipit>
+                     <colophon>Endad ad skála kote, 25. Febr 1780</colophon>
+                  </msItem>
+                  <msItem n="6" class="riddst rimur">
+                     <locus from="124r:1" to="210v:21"/>
+                     <title type="supplied">Kára saga Kárasonar <note>(Beginning and end)</note></title>
+                     <title type="supplied">Rímur af Kára Kárasyni</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier skrifast upphaf søgu Kára Kára sonar til ad uppbyria rimurnar
+                        og enden<ex>n</ex> til ad üt enda rijm<ex>ur</ex>nar</rubric>
+                     <incipit>Sá kóng<ex>ur</ex> riede fyr<ex>er</ex> Fenedia</incipit>
+                     <colophon>Skalakote 17 Novemb<ex>e</ex>r 1779</colophon>
+                     <note>The beginning and end of Kára saga Kárasonar along with Rímur af
+                        Kára Kárasyni (2 - 14 ríma)</note>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="211r:1" to="235r:25"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Eigle Einhenta</rubric>
+                     <incipit>Hertrigg<ex>ur</ex> hef<ex>ur</ex> kong<ex>ur</ex> heited han<ex>n</ex> riede
+                        f<ex>yrer</ex> russia</incipit>
+                     <finalRubric>og endum<ex>m</ex> vier hier sógu af Eigle Einhenta.</finalRubric>
+                     <colophon>19 Decemb<ex>e</ex>r 1779 af S.E.S.</colophon>
+                  </msItem>
+                  <msItem n="6" class="kvad">
+                     <locus from="235v:1" to="274v:16"/>
+                     <title type="supplied">Different kvæði and rímur</title>
+                     <textLang mainLang="non"/>
+                     <textLang mainLang="is"/>
+                     <author key="EinGil001">Einar Gilsson</author>
+                     <author key="ThoMag018">Þórður Magnússon</author>
+                     <author key="JonGud012">Jón Guðmundsson</author>
+                     <author key="DavJon001">Davíð Jónsson</author>
+                     <author key="JonGud012">Jón Guðmundsson</author>
+                     <author key="SteJon003">Steinn Jónsson</author>
+                     <author key="BjaJon008">Bjarni Jónsson</author>
+                     <author key="JonTho004">Jón Þórðarson</author>
+                     <author key="EinJon005">Einar Jónsson</author>
+                     <author key="HalPet001">Hallgrímur Pétursson</author>
+                     <author key="JonGud012">Bjarni Gizurarson001</author>
+                     <note>Among others <title type="supplied">Skíðaríma</title> and <title type="supplied">Fjósaríma</title></note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="274"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="104"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+							   <foliation ana="no"/>
+							   <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 27">
+                           <num type="wpl" atLeast="7" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="153"/>
+                              <width unit="mm" quantity="85"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+							<handNote scribeRef="#SigEin004" scope="sole" script="late kurrent"><!--<name type="person" key="SigEin004">Sighvatur Einarsson</name>--></handNote>
+						</handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+							<binding ana="plain" contemporary="true">
+								<p>Leather binding.</p>
+							</binding>
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate notBefore="1777" notAfter="1792"/>
+                     <origPlace key="IS">Island</origPlace>
+						</origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:22.129+02:00" who="#EAH">Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:29.174+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:47.501+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-09-12" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2013-07-31" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

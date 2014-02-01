@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 582 4to</title>
+         </titleStmt>
+
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc xml:id="AM04-0582-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 582 4to</idno>
+               </msIdentifier>
+
+               <msContents>
+                  <titlePage ana="no"/>
+
+                  <msItem n="1" class="kon">
+                     <locus from="1r:1" facs="#AM04-0582-0001r" to="6r:19"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <title type="parallel">Hákonar þáttr Hárekssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Soguþattur af Hakone Harekssyne</rubric>
+                     <incipit>Eirn bonde var i Norex kongs ryke</incipit>
+                     <explicit>og lykur sogu aff hakone härekssyne.</explicit>
+
+                  </msItem>
+
+                  <msItem n="2" class="ridd" defective="true">
+                     <locus from="6v:1" facs="#AM04-0582-0006v" to="7r:30"/>
+                     <title type="uniform">Nitida saga</title>
+                     <textLang mainLang="non"/>
+                     
+                     <note>Two fragments. The first fragment contains part of the beginning of the saga. The second fragment runs to the end of the
+                        text. Remainder of text preserved elsewhere in <ref target="AM04-0537" type="ms">AM 537 4to</ref>.</note>
+                     
+                     <msItem n="2.1" class="ridd">
+                        <locus from="6v:1" to="6v:21"/>
+                        <incipit defective="true">væne vid snio huyta litu</incipit>
+                        <explicit defective="true">ad huorge j heiminum meige fin<ex>n</ex>ast natturu</explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2.2" class="ridd">
+                        <locus from="7r:1" to="7r:30"/>
+                        <incipit defective="true">kest ad oll rykin feinge frid</incipit>
+                        <explicit>og lykur so þessu æffin<ex>n</ex>tyre af hin<ex>n</ex>e frægu Nitida og livorio koonge.</explicit>
+                        
+                     </msItem>
+                     
+                  </msItem>
+
+                  <msItem n="3" class="fas">
+                     <locus from="7v:1" facs="#AM04-0582-0007v" to="20r:8"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier byriar sógu af Eygle einhendta</rubric>
+                     <incipit>Hertriggur hefur kongur heitid</incipit>
+                     <explicit>og lukum vier so þessari sógu. Finis. Ende.</explicit>
+
+                  </msItem>
+                  
+                  <msItem n="4" class="fas">
+                     <locus from="20r:5" facs="#AM04-0582-0020r" to="36r:7"/>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     
+                     <msItem n="4.1" class="">
+                        <locus from="20r:5" to="21v:5"/>
+                        <title type="uniform">Hervarar saga og Heiðreks</title>
+                        <rubric>Hervarar þattur hinn gamle, finst so skrifadur s<ex>e</ex>m hierr eptirfilger</rubric>
+                        <incipit>So finst skrifad j fornum bökum</incipit>
+                        <explicit>þa streingdu heit Arngrims syner.</explicit>
+                        
+                        <note>The U-þáttr or prologue of the U redaction of Hervarar saga.</note>
+                        
+                     </msItem>
+                     
+                     <msItem n="4.2" class="">
+                        <locus from="21v:6" to="36r:7"/>
+                        <title type="uniform">Hervarar saga og Heiðreks</title>
+                        <rubric>Sagan<ex>n</ex> af Heidreke konge og h<ex>a</ex>ns ættmon<ex>n</ex>um</rubric>
+                        <incipit>Sigurlame hiet kong<ex>ur</ex>, h<ex>an</ex>n ried f<ex>yrir</ex> Gardar<ex>iki</ex></incipit>
+                        <explicit>er Jvar kongur hin<ex>n</ex> vidfarum hafdi ätt.</explicit>
+                        
+                        <note>Expanded R-redaction of Hervarar saga.</note>
+                        
+                     </msItem>
+                         
+                  </msItem>
+
+                  <msItem n="5" class="kont" defective="true">
+                     <locus from="36v:1" facs="#AM04-0582-0036v" to="36v:9"/>
+                     <title type="supplied">Konungatal</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">51. Gorm hin<ex>n</ex> gamle</incipit>
+                     <explicit>105. Fridrich.</explicit>
+
+                     <note>Fragment. Leaf cut off.</note>
+
+                  </msItem>
+
+                  <msItem n="6" class="fas">
+                     <locus from="37r:1" facs="#AM04-0582-0037r" to="40v:7"/>
+                     <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Jlluga Grydarföstra</rubric>
+                     <incipit>Sa kongur riede fyrer Danmork er Hryngur hiet</incipit>
+                     <explicit>og lýkur so sogu Jlluga Grydarfostra.</explicit>
+
+                  </msItem>
+
+                  <msItem n="7" class="ridd" defective="true">
+                     <locus from="40v:8" facs="#AM04-0582-0040v" to="40v:18"/>
+                     <title type="uniform">Fertrams saga og Platós</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier byriar saugu af hinum volduga Fertram og h<ex>a</ex>ns brod<ex>ur</ex> Plato</rubric>
+                     <incipit>Artus hiet k<ex>ongur</ex> megtug<ex>ur</ex> o<ex>g</ex> störaudug<ex>ur</ex></incipit>
+                     <explicit defective="true">un<ex>n</ex>i hv<ex>or</ex> m<ex>adur</ex> þ<ex>ess</ex> hugustu<ex>m</ex>, nu var ...</explicit>
+
+                     <note>Fragment. Only the beginning of the text; previously pasted over. Remainder of text preserved in 
+                        <ref target="AM04-0537" type="ms">AM 537 4to</ref>.</note>
+
+                  </msItem>
+
+                  <msItem n="8" class="fas" defective="true">
+                     <locus from="41r:1" facs="#AM04-0582-0041r" to="41r:22"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit defective="true"><gap/>lid folk ryke sins, o<ex>g</ex> lyser því, ad h<ex>ann</ex> ættlar
+                        ad sækia brullup sitt</incipit>
+                     <explicit>og lukum vier so þessare sögu, og sieu<ex>m</ex> avalt Gudi befalader.</explicit>
+
+                     <note>Fragment. Only the end of the text; crossed-out and previously pasted-over. Remainder of text preserved in 
+                        <ref target="AM04-0537" type="ms">AM 537 4to</ref></note>
+
+                  </msItem>
+
+                  <msItem n="9" class="fas" defective="true">
+                     <locus from="41v:1" facs="#AM04-0582-0041v" to="44v:25"/>
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sauguþättur af Eirike vydfórla</rubric>
+                     <incipit>Þrandr er kong<ex>ur</ex> nefnd<ex>ur</ex> er firstur riede f<ex>yrir</ex> Þrandheime</incipit>
+                     <explicit defective="true">sagt foru nautum synu<ex>m</ex> þ<ex>an</ex>n f<ex>yrir</ex>burd, s<ex>e</ex>m 
+                        bar f<ex>yrir</ex> h<ex>ann</ex> <gap/></explicit>
+
+                     <note>End of text written into lower margin in a later hand.</note>
+
+                  </msItem>
+
+                  <msItem n="10" class="isl">
+                     <locus from="45r:1" facs="#AM04-0582-0045r" to="59r:30"/>
+                     <title type="uniform">Kjalnesinga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier byriar søgu af Bua Andrydarsyne</rubric>
+                     <incipit>Helge biola Ketils flatnefs, nam kialarnes</incipit>
+                     <explicit>og endar þar m<ex>ed</ex> þessa kialarness sogu.</explicit>
+                     <colophon>hæc legens condona candide tu mihi lector.</colophon>
+
+                  </msItem>
+
+                  <msItem n="11" class="islt">
+                     <locus from="59v:1" facs="#AM04-0582-0059v" to="64r:10"/>
+                     <title type="uniform">Jökuls þáttur Búasonar</title>
+                     <title type="uniform">Jökuls þáttr Búasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nw eptirfilger sagann af Jøkle Bwasyne</rubric>
+                     <incipit>Jøkle þokte nu so illt verk sitt</incipit>
+                     <explicit>þui londen<ex>n</ex> eru oss fiærlæg.</explicit>
+                     <colophon>Finis ad lectorem. hæc cum tu legeris condona lector amice atq<ex>ue</ex> boni quæso, consule mi domine
+                        definitu<ex>m</ex> die 21 Septembris Anno 1692 <name type="person" key="JonVig001">Ionas Wigfusius</name>.</colophon>
+
+                  </msItem>
+                  
+                  <msItem n="12" class="laus">
+                     <locus from="64r:11" facs="#AM04-0582-0064r" to="64r:15"/>
+                     <title type="supplied">Lausavísa</title>
+                     <incipit>Þigge sa sem þetta aa</incipit>
+                     <explicit>hoskur allar stunder.</explicit>
+                     <colophon><name type="person" key="KolSna001">Kolbeinn Snæbiørnsson</name> meh</colophon>
+                     
+                  </msItem>
+
+                  <msItem n="13" class="isl" defective="true">
+                     <locus from="64v:1" facs="#AM04-0582-0064v" to="68v:26"/>
+                     <title type="uniform">Víga-Glúms saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier byriar sogu Glums Eyolfzsonar</rubric>
+                     <incipit>Helge het m<ex>adur</ex> o<ex>g</ex> v<ex>ar</ex> kallad<ex>ur</ex> Helge hin<ex>n</ex> magre</incipit>
+                     <explicit defective="true">sagdist han<ex>n</ex> mundi lata sistur</explicit>
+
+                     <note>Defective. Lacks ending.</note>
+
+                  </msItem>
+
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="72"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           
+                          <!-- <watermark ana=""/>-->
+                           
+                        </support>
+                        
+                        <foliation ana="fol later">
+                           <p>Foliated 1-68 (including 6bis, 7bis, 36bis and 40bis).</p>
+                        </foliation>
+                        
+                        <condition ana="average">
+                           <p>Lower portion of fols. <locus from="6r" facs="#AM04-0582-0006r" to="6v">6</locus> and <locus from="36r" facs="#AM04-0582-0036r" to="36v">36</locus> cut away. 
+                              Leaves previously pasted over fols. <locus>6v-7r</locus>, <locus>36v</locus> and <locus>40v</locus> now
+                              foliated separately. Some edges have been repaired.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="25 30">
+                           <num type="wpl" atLeast="12" atMost="17"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="150" atMost="160"/>
+                              <width unit="mm" atLeast="125" atMost="135"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="3">
+                     <handNote scribeRef="#GriArn001" scope="major" script="kurrent">Fols. <locus>1-63</locus> primarily in the hand of 
+                        <name type="person" key="GriArn001">Grímur Árnason</name> á <name type="place">Möðruvöllum</name>.</handNote>
+                     <handNote scribeRef="#JonVig001" scope="minor" script="kurrent">Fols. <locus>64-68</locus> primarily in the hand of 
+                        <name key="JonVig001" type="person">Jón Vigfússon</name>.</handNote>
+                     <handNote scope="minor" script="kurrent" scribeRef="unknown">Parts of text written in a third, unknown hand.</handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="low">
+                     <decoNote type="initial" subtype="flourished">
+                        <p>Floriated initials on fols. <locus from="7v" facs="#AM04-0582-0007v" to="7v">7v</locus> and <locus from="57r" facs="#AM04-0582-0057r" to="57r">57</locus>.</p>
+                     </decoNote>
+                     <decoNote type="frieze" subtype="tail-piece">
+                        <p>Interlace knot on fol. <locus from="64r" facs="#AM04-0582-0064r" to="64r">64r</locus>.</p>
+                     </decoNote>
+                  </decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Contains occasional marginalia.</p> 
+                     <p>Fols. <locus>64-68</locus> added later (cf. handrit.is).</p>                         
+                       <p>Inserted slip in the hand of AM reads:
+                        <q>Er med hendi grims arnasonar ä Mödruvóllum
+                           Af Häkone Hárekssyne 
+                           Af Niteda frægu 
+                           Af Eigle Einhendta 
+                           Hervarar þättur 
+                           af Heidreke k<ex>on</ex>ge og han<ex>n</ex>s ættm<ex>onnu</ex>m 
+                           af Jlluga gridarfostra 
+                           af Fertram og Plato 
+                           af þialar Jone 
+                           af Eirike vidforla 
+                           af Bua Audridarsyne 
+                           af Jókle Buasyne 
+                           af Vigaglum. defect. 
+                           Hier var og 
+                           Hrafnagalldur Ödins <ex>og</ex> 
+                           Dissertatiuncula de origine vocis Væringiar s<ex>e</ex>m 
+                           eg tok hier frä 
+                           þessar sógur keypti
+                           eg af Benedict Haan<ex>n</ex>essyne (fra Snæfióllum) 1710. en<ex>n</ex>
+                           hann feck þær af Grime Einarssyne.</q>
+                     </p>
+                  </additions>
+                  
+                  <!-- binding information from handrit description -->
+                  <bindingDesc>
+                     <binding ana="plain" when="1985-03" contemporary="false">
+                        <p>Binding from March 1985.
+                           Cloth over paper boards. Spine and corners covered with heavier cloth. Dimensions:
+                              <height>208</height>mm x
+                              <width>183</width>mm x
+                              <depth>22</depth>mm.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Dated <origDate when="1692">1692</origDate> on fol. <locus>62r</locus>.</p>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name key="ArnMag001" role="owner" type="person">Árni Magnússon</name> bought the MS from 
+                        <name key="BenHan001" role="owner" type="person">Benedikt
+                           Hannesson</name> á <name type="place">Snæfjöllum</name> in
+                        <date when="1710">1710</date>, who had acquired it from <name key="GriEin001" role="owner" type="person">Grímur Einarsson</name>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:35.616+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:37.302+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref
+            and removing @key. </change>
+         <change when="2011-05-07T15:34:45.932+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data, now removed. </change>
+         <change when="2011-05-07T18:42:02.164+02:00" who="#EAH"> Extracted pagination and page dimension data from previous version. </change>
+         <change when="2011-05-07T19:17:39.667+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-06-25" who="#JSL">Added details from handrit and Kålund catalogs.</change>
+         <change when="2013-06-28" who="#JSL">Cataloged from photographs.</change>
+         <change when="2013-08-22" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

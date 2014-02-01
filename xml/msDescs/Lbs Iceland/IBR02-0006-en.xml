@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 6 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR02-0006-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 6 fol.</idno>
+                  <altIdentifier>
+                     <idno>ÍBR. B. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>
+                        Sögu-safn I. b. með hendi Magnúsar Jónssonar í
+                        Vigur [<locus from="FF2r" to="FF2r">second front flyleaf</locus>]</titlePart>
+                  </titlePage>
+                   
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="8v"/>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Gautreki konungi milda og Gauta kongi og þeim
+                        Dalafíflum</rubric>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9r" to="35r"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Hrólfi kongi Gautrekssyni</rubric>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="35r" to="86v"/>
+                     <title type="uniform">Mágus saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Mágusi jarli og þeim Ámundssonum.</rubric>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="87r" to="114r"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Göngu Hrólfi og segir fyrst af Hreggvið
+                        kongi.</rubric>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="114r" to="130v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Þorsteini víkingssyni</rubric>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="131r" to="140v"/>
+                     <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Friðþjófi en frækna, syni Þorsteins
+                        víkingssonar</rubric>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="141r" to="147v"/>
+                     <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar Sagan af Hálfdani kölluðum Brönufóstra</rubric>
+                  </msItem>
+                  <msItem n="8" class="konth">
+                     <locus from="147v" to="149v"/>
+                     <title type="uniform">Styrbjarnar þáttur Svíakappa</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefur upp þátt Styrbjarnar Svíakappa er hann barðist við Eirek kong
+                        þeirra Svíanna.</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="150"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Flyleaves contemporary to binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="285"/>
+                              <width unit="mm" quantity="185"/>
+                           </dimensions>
+                          <!-- <watermark ana=""></watermark>-->
+                        </support>
+                        <foliation ana="pag later"/>
+                        <condition ana="poor">Many repairs; some of them result in loss of text</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="36 39">
+                           <num type="wpl" atLeast="13" atMost="16"/>
+                           <dimensions type="written">
+                           <height unit="mm" quantity="250"/>
+                           <width unit="mm" quantity="160"/>
+                        </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MagJon008" scope="major" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some intitials decorated</decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <list>
+                        <item><q>Vigrarbók II</q> <locus from="FFl1r"/></item>
+                        <item>The title page is a later addition <locus from="FFl2r"/></item>
+                        <item> <locus from="FF2v" facs="#IBR02-0006-0001r" to="FF2v"/>
+                           A later table of contents in the hand of <name type="person" role="scribe" key="PalPal003">Páll stúdent
+                              Pálsson</name>.
+                           He also filled in text in places where it was lacking due to
+                           poor condition.</item>
+                     </list></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Thin wood boards covered in black fabric</p> <!-- to be varified! taken from pics -->
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1680">1680</origDate>
+                    
+                  </origin>
+                  <provenance>
+                     <p><ref type="ms" target="#IBR02-0005-en">ÍBR 5 fol.</ref> and <ref type="ms" target="IBR02-0006">ÍBR 6 fol.</ref> 
+                        used to be one manuscript (called ÍBR. B. 16). Both manuscripts have similarly themed contents. The manuscript was split
+                        up in <date when="1870">1870</date>.
+                        <name type="person" role="owner" key="BjaBjo002">Bjarni Björnsson</name> sold the manuscript to the
+                        Reykjavík division of the <name type="organisation" role="owner" key="IslBom">Icelandic Literary Society - Reykjavíkurdeild Hins
+                           íslenska bókmenntafélags</name>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:06.362+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:14.842+02:00" who="#EAH"> Introduced repository auth file.
+         Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-02" who="#SK">Adapted for the FASNL and added information from the
+            P.E.Ó-catalogue and the digital version of the manuscript itself on Handrit.is</change>
+         <change when="2013-08-20" who="#BES">Added most of the missing info from pics on handrit while proofreading.</change>
+         <!-- watermark and binding still to be varified -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 591 f 4to</title>
+         </titleStmt>
+        
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+        
+         <sourceDesc>
+            <msDesc xml:id="AM04-0591f-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 591 f 4to</idno>
+               </msIdentifier>
+             
+               <msContents>
+                  <titlePage ana="no"/>
+                   
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="7r:6"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <title type="parallel">Bósa saga ok Herrauðs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Herraud og Bosa enu<ex>m</ex> kven<ex>n</ex>sama</rubric>
+                     <incipit>Hringur hefur kongur heitid</incipit>
+                     <explicit>og lykur so þessare sögu. Niöte sa er man.</explicit>
+                     
+                     <note>Final 6 lines of the saga on fol. <locus>7</locus> are supplied in a later hand.</note>
+                  
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <!--<num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="7"/>
+                           <!--<num type="back-flyleaf" value=""/>-->
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           
+                           <!--<watermark ana="no|yes"/>-->
+                           
+                        </support>
+                        
+                        <foliation ana="fol"/> <!-- later? -->
+                        
+                      <!--  <condition ana="poor|average|good"/>-->
+                        
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="32">
+                           <num type="wpl" atLeast="13" atMost="16"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                                    
+                  <handDesc hands="1">
+                     <handNote scribeRef="#OlaGis002" scope="sole" script="unknown"><!--Written by Ólafur Gíslason--></handNote>
+                  </handDesc>
+                  
+                 <!-- <decoDesc ana="no|low|medium|high">
+                     <decoNote type=""/>
+                  </decoDesc>-->
+                  
+                  <additions ana="low">
+                     <p>Note on front flyleaf recto reads: <q>Bosa-saga. Úr bokum er eg feck af s<ex>ira</ex> Olafe Gisla syne ä Hofe i Vopnafirde.</q></p>
+                     <p>Final 6 lines of the saga on fol. <locus>7</locus> are supplied in a later hand.</p>
+                  </additions>
+                  
+                 <!-- <bindingDesc>
+                     <binding ana="plain|moderate|decorative" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>-->
+               
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1675" notAfter="1700"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <p>
+                        <name key="ArnMag001" role="owner" type="person">Árni Magnússon</name> acquired the manuscript from the scribe.</p>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:41.575+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:41.73+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:49.755+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:06.44+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:43.697+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-05-15" who="#JSL">Added information from handrit and Kålund catalogs.</change>
+         <change when="2013-05-16" who="#JSL">Cataloged from photographs.</change>
+         <change when="2013-08-23" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

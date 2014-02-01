@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 310 8vo </title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-310-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 310 8vo</idno>
+               </msIdentifier>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo I</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="10v:14"/>
+                        <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Æfin<ex>n</ex> Tyr af Eiryke Vydførla</rubric>
+                        <incipit>Þrandur Hefur kongur heitið han<ex>n</ex> Riede fyrir Þrandheime</incipit>
+                        <note>A-vers.</note>
+                     </msItem>
+                     <msItem n="2" class="gamkv">
+                        <locus from="10v:15" to="14v:23"/>
+                        <title type="supplied">Gamanvísur</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Gamans Vysur</rubric>
+                     </msItem>
+                     <msItem n="3" class="riddf">
+                        <locus from="15r:1" to="23r:18"/>
+                        <title type="supplied">Ajax saga keisarasonar</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Æfíntír af Ajax keisarasini</rubric>
+                        <incipit>Einn keisari rieði firir Róm</incipit>
+                        <explicit>saman með anæu og gleði og ljukum vjer so þessu æfintiri</explicit>
+                     </msItem>
+                     <msItem n="4" class="astkv">
+                        <locus from="23v:1" to="24r:16"/>
+                        <title type="supplied">Draumur</title>
+                        <textLang mainLang="is"/>
+                        <incipit>Mig dreimdi kvað menju rein mikið fagran<ex>n</ex> ingissvein</incipit>
+                        <explicit>her um stundu hálfa</explicit>
+                        <note>Ástarljóð</note>
+                     </msItem>
+                     <msItem n="5" class="">
+                        <locus from="25r:1" to="27v:33"/>
+                        <title type="supplied">Lítil saga</title>
+                        <textLang mainLang="is"/>
+                        <rubric>hier skrifast litil saga</rubric>
+                        <incipit>I lunduna borg a Engllandi beið ein<ex>n</ex> flugrikur herra maður</incipit>
+                        <explicit>so heirir hun að han<ex>n</ex> drepur han<ex>n</ex> so</explicit>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="27"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="average"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="25">
+                              
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="151"/>
+                                 <width unit="mm" quantity="98"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="3">
+                        <handNote scribeRef="unknown" scope="major" script="late kurrent"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none">
+                           <p>Loose leaves and quires.</p>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1900"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo II-IV</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="brefas">
+                        <locus from="29r:1" to="43v:26"/>
+                        <title type="supplied">Bréfasafn</title>
+                        <textLang mainLang="is"/>
+                        <note>Three letters: 
+                           1) From Sigurður Breiðfjörð (the poet) to séra Ólafur Indriðason (1796-1861), Kolfreyjustaður
+                           2) Látrabréf, eignað séra Þorláki Þórarinssyni
+                           3) From Hermann Jónsson (1749-1837), Fjörður in Mjóifjörður, to séra Sigfús Guðmundsson (1747-1810), Ás í Fellum
+                           4) From Séra Sigfús Guðmundsson, Ás í Fellum, to Hermann Jónsson, Fjörður in Mjóifjörður</note>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="16"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="113"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="average"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="22 24">
+                              
+                              <num type="wpl" atLeast="5" atMost="7"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="162"/>
+                                 <width unit="mm" quantity="104"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Jón Sigurðsson, Finnsstöðum</handNote><!-- where was this name found? -->
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="true">
+                           <p>Paper cover</p>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1899" notAfter="1899"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo V</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="sendbr">
+                        <locus from="45r:1" to="49v:12"/>
+                        <title type="supplied">Búdarbréf</title>
+                        <textLang mainLang="is"/>
+                        <incipit>Þad skildi vera skömm mín ef eg ekki loksins</incipit>
+                        <explicit>Dated 1888 in Búdum</explicit>
+                     </msItem>
+                     <msItem n="2" class="sendbr">
+                        <locus from="49v:13" to="52v:6"/>
+                        <title type="supplied">Látra Bréf eignað sál. síra Þórláki Þórarinssyni</title>
+                        <textLang mainLang="is"/>
+                        <incipit>Sæll vertu sveítar liúflíngur!</incipit>
+                        <explicit>sem lifir mér án Dylgju tals</explicit>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="8"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="average"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="22 23">
+                              
+                              <num type="wpl" atLeast="3" atMost="8"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="147"/>
+                                 <width unit="mm" quantity="95"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1888" notAfter="1930"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo VI</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="hels">
+                        <locus from="53r:1" to="56v:1"/>
+                        <title type="supplied">Kross gángan<ex>n</ex> Jesú Christi</title>
+                        <textLang mainLang="is"/>
+                        <incipit>Epter þad hann var til d<ex>au</ex>da dæ<ex>m</ex>d<ex>ur</ex></incipit>
+                        <explicit>enn ad alna=tølu sextán</explicit>
+                     </msItem>
+                     <msItem n="2" class="ban">
+                        <locus from="57r:1" to="62v:17"/>
+                        <title type="supplied">Brot úr bæna- og sálmakveri</title>
+                        <textLang mainLang="is"/>
+                        <explicit>frä þ<ex>ei</ex>m ï högværd og stïllijng</explicit>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="10"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="140"/>
+                                 <width unit="mm" quantity="85"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="average"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="25">
+                              
+                              <num type="wpl" atLeast="5" atMost="9"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="117"/>
+                                 <width unit="mm" quantity="67"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                        <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1700" notAfter="1900"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo VII</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="hels">
+                        <locus from="63r:1" to="70r:23"/>
+                        <title type="supplied">Messu Læti í Leirgerðar Messu</title>
+                        <textLang mainLang="is"/>
+                        <incipit>sem in<ex>n</ex>fellur þan<ex>n</ex> dag ársins</incipit>
+                        <explicit>Valhöll á þes<ex>s</ex>um<ex>m</ex> degi Dumbur Dónason</explicit>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="8"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="167"/>
+                                 <width unit="mm" quantity="107"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="average"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="27">
+                              
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="152"/>
+                                 <width unit="mm" quantity="102"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1800" notAfter="1930"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo VIII</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="pred">
+                        <locus from="71r:1" to="78r:16"/>
+                        <title type="supplied">Skraparots prédikun</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Hier Skrifast Skraparots Predikun</rubric>
+                        <incipit>Prólogus Hilli og hamingia gunst og gódvilie</incipit>
+                        <explicit>bæninni filgir stað festa su Endir</explicit>
+                        <colophon>Þorvaldur Steffans son á þessi blöd það <ex>og</ex> ein<ex>n</ex>en
+                           sá sem klórað hefur 1855</colophon>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="8"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="170"/>
+                                 <width unit="mm" quantity="102"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="good"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="24">
+                              
+                              <num type="wpl" atLeast="6" atMost="8"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="158"/>
+                                 <width unit="mm" quantity="95"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Þorvaldur Steffansson</handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1855" notAfter="1855"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo IX</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="">
+                        <locus from="79r:1" to="81v:14"/>
+                        <title type="supplied">Nokkur laus blöð</title>
+                        <textLang mainLang="is"/>
+                        <colophon>Gudimundur Benedicts son a Rángá a þetta blað</colophon>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="3"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="166"/>
+                                 <width unit="mm" quantity="108"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="poor"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="23">
+                              
+                              <num type="wpl" atLeast="5" atMost="7"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="155"/>
+                                 <width unit="mm" quantity="93"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+
+                     <additions ana="no"/>
+
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+
+                  </physDesc>
+
+                  <history>
+                     <origin>
+                        <origDate notBefore="1747" notAfter="1900"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo X</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="rimur">
+                        <locus from="82r:1" to="85r:16"/>
+                        <title type="supplied">Sýnishorn af Flórkálfasparkinu úr þeim þricktu Franz Rýmum</title>
+                        <textLang mainLang="is"/>
+                        <incipit>Erinda Tal í Fyrstu Rýmu</incipit>
+                        <explicit>er þannig skarni maka mig</explicit>
+                        <colophon>autogr. Niels Jónssonar</colophon>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="4"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="151"/>
+                                 <width unit="mm" quantity="88"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="good"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="25">
+                              
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="127"/>
+                                 <width unit="mm" quantity="70"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="#NieJon001" scope="sole" script="hum cursiva"><!--Níels Jónsson--></handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p/>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1800" notAfter="1857"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo XI</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="">
+                        <locus from="86r:1" to="96r:24"/>
+                        <title type="supplied">Skrifbók Gudbjargar Jónsdóttur a Husavík 1848</title>
+                        <textLang mainLang="is"/>
+                        <note>Includes Kötludraumur</note>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="11"/>
+                              <num type="back-flyleaf" value="1"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="166"/>
+                                 <width unit="mm" quantity="103"/>
+                              </dimensions>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="average"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="25">
+                              
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="162"/>
+                                 <width unit="mm" quantity="99"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="#ambig" scope="sole" script="hum cursiva">Guðbjörg Jónsdóttir (Húsavík)</handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="true">
+                           <p>Paper cover.</p>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1848" notAfter="1849"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>ÍB 310 8vo XII</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="kvad">
+                        <locus from="98r:1" to="178v:18"/>
+                        <title type="supplied">Ýmis kvæði</title>
+                        <textLang mainLang="is"/>
+                        <note>Nafngreindur höfundar: Síra Jón Hjaltalín (Vetrarríma, hér nefnd
+                           „Gamans Vijsur“), síra Stefán Ólafsson, síra Vernharðr Þorkelsson,
+                           E. Jónsson, Björn Jónsson á Skarðsá, Árni Sigurðsson á Skútum
+                           („Dala Visur“, þ.e. bændavísur um Öxnadal o.s.frv.), síra Þórarinn
+                           Jónsson, Jakob Guðmundsson (Pétrsríma, tvö eintök), síra Páll skáldi
+                           Jónsson, Sigurðr Breiðfjörð (Ferðaríma), Illugi Helgason á Ísólfsstöðum
+                           eða Illugi Einarsson (ljóðabréf, tvö eintök, og greinir á hvort sinn
+                           höfund), Jón Þ.s., Árni Jónsson á Stóra-Hamri.</note>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">								
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="81"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="169"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <note>Various leaves of different shapes and sizes.</note>
+                              
+                              <watermark ana="no"/>
+                              
+                           </support>
+                           
+                           <foliation ana="no"/>
+                           
+                           <condition ana="average"/>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="18">
+                              
+                              <num type="wpl" atLeast="4" atMost="7"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="146"/>
+                                 <width unit="mm" quantity="76"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="999">
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva">Various scribes</handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p>Loose leaves and quires.</p>
+                        </binding>
+                     </bindingDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origDate notBefore="1848" notAfter="1849"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance/>
+                  </history>
+                  
+               </msPart>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:48.781+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-02" who="#SK">Added Ajax saga and classes</change>
+         <change when="2013-07-24" who="#OHA">Catalogued from manuscript.</change>
+         <!-- a difficult manuscript as it is a complex one with all sorts of topics, letters, poems by various authors and so on and there is not a digitized version on handrit.is  -->   
+         <change when="2013-08-19" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

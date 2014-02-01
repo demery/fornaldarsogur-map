@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 3910 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-3910-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 3910 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r" facs="#Lbs08-3910-0001r" to="22r"/>
+                     <title type="uniform">Rímur af Gesti og Gnatus</title>
+                     <rubric>Rímur af Gesti og Gnatusi kveðnar af skáldinu Magnúsi Magnússyni
+                        [!] í Magnússkógum</rubric>
+                     <note>7 rímur</note>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="22v" facs="#Lbs08-3910-0022v" to="32r"/>
+                     <title type="uniform">Ajax saga frækna</title>
+                     <rubric>Sagan af Ajax enum frækna</rubric>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="32r" facs="#Lbs08-3910-0032r" to="50r"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <rubric>Saga af Þorsteini bæarmagni</rubric>
+                  </msItem>
+                  <msItem n="4" class="riddst">
+                     <locus from="50v" facs="#Lbs08-3910-0050v" to="74v"/>
+                     <title type="uniform">Knúts saga heimska</title>
+                     <rubric>Sagan af Knúti heimska</rubric>
+                  </msItem>
+                  <msItem n="5" class="islst">
+                     <locus from="74v" facs="#Lbs08-3910-0074v" to="108v"/>
+                     <author key="HalJak001">Halldór Jakobsson</author>
+                     <title type="uniform">Ármanns saga og Dalmanns</title>
+                     <rubric>Ármanns saga</rubric>
+                  </msItem>
+                  <msItem n="6" class="rimur">
+                     <locus from="109r" facs="#Lbs08-3910-0109r" to="110v"/>
+                     <author key="HalHal003">Hallvarður Hallsson</author>
+                     <title type="uniform">Bárðarríma</title>
+                     <rubric>Mannsaungur fyrir Bárðar rímu</rubric>
+                     <note>In the Rímnatal by Finnur Sigmundsson several names are mentioned as possible authors</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="111"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="101"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="contemporary pag">
+									<p>Old pagination 2-218 (1v-110v)</p>
+						      </foliation>
+							   <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="20 28">
+                           <num type="wpl" atLeast="5" atMost="9"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+							<handNote scribeRef="unknown" scope="sole" script="unknown">Unknown scribe</handNote>
+						</handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <!--<additions ana="">
+							<p>Part of a folio belonging to the last quire of the manuscript is present after folio 111 which very likely has been a paste-down leaf, now loosened from the cover.</p>
+							<p>Front paste-down leaf contains a table of contents of the manuscript</p>
+						</additions>-->
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+							 <p>Leather in one corner</p>
+                     </binding>
+						</bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate from="1850" to="1899"/>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+							<p>Owner of manuscript: <name type="person" key="JulSig001">Júlíus
+									Sigurðsson</name> í <placeName>Svefneyjum</placeName>, 1907
+								(back flyleaf, <locus from="110v" facs="#Lbs08-3910-0110v" to="110v">110v</locus>)</p>
+						</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:59.093+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:54:24.142+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:43.374+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-07-20" who="#SMM">Added and completed msItems with information gathered from and pictures viewed on handrit.is. Also provided provenance information from the PEÓ catalogue Completed FASNL encoding.</change>
+         <change when="2012-11-09" who="#SMM">Translated some text into English</change>
+         <change when="2012-11-14" who="SMM">Pictures on handrit.is checkede. Info on bindingDesc and layout ana provided.</change>
+         <!-- missing information regarding layoutDesc  -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

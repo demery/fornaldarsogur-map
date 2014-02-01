@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 634 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0634-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 634 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <!--<titlePage ana="">
+                  </titlePage>-->
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="13r"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <rubric>Sagan af Katli Hæng</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="13r" to="18v"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinskinna</title>
+                     <rubric>Af Grími Loðinskinna</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="19r" to="88v"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <rubric>Sagan af Örvar Oddi</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="89r" to="96v"/>
+                     <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+                     <rubric>Af Hrómundi Greipssyni</rubric>
+                     <note>Written on 3rd march 1767.</note>
+                  </msItem>
+                  <msItem n="5" class="konth">
+                     <locus from="97r" to="105r"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <rubric>Af Hákoni norræna</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="105v" to="137v"/>
+                     <title type="uniform">Mírmannssaga</title>
+                     <rubric>Af Mírmann</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="138r" to="165r"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <rubric>Sagan af Jarlman</rubric>
+                     <note>Finished on 22md june 1805.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="165r" to="178r"/>
+                     <title type="uniform">Ála flekks saga</title>
+                     <rubric>Hér byrjar Álaflekks sögu</rubric>
+                     <note>Finished on 27th febr. Anno 1806.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="179r" to="222v"/>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                     <rubric>Hér byrjar sagan af Vilhjálmi sjóð</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas" defective="true">
+                     <locus from="127v" to="128v"/>
+                     <title ref="#hskh" type="uniform">Hálfs saga ok Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="231"/>
+                          <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <!--<condition ana=""/>-->
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <catchwords ana=""/>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <!--<decoDesc ana="">
+                     <decoNote type=""/>
+                  </decoDesc>
+                  <additions ana=""/>
+                  <bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1749"/>
+                     <origPlace key="IS"/>
+                     <p>12th volume off a collection in 19 volumes: <ref target="JS04-623" type="ms">JS
+                        623 4to</ref> - <ref target="JS04-641" type="ms">JS 641
+                           4to</ref></p>
+                  </origin>
+                  <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     
+                     <p>From <name type="person" role="owner" key="JonArn002">Jón Árnason</name> the book-keeper's collection
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:27.167+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-09-06" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <!-- missing information that can be acquired from ms itself only -->
+         <change when="2013-08-27" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

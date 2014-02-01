@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 38 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR08-0038-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 38 8vo</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>ÍBR. B. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart> Sögu-Safn IV. Með hendi Jóns í Þrándarholti </titlePart>
+                     <note>Title-page is a flyleaf <locus from="FF2r" to="FF2r"/>and a
+                        part of later binding, in the hand of <name type="person" key="PalPal003">Páll
+                           Pálsson stúdent</name></note>
+                  </titlePage>
+                  <msItem n="1" class="sagnfr">
+                     <locus from="1r" facs="#IBR08-0038-0001r" to="54r">1r-54r</locus>
+                     <title type="supplied">Persakeisara saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af þeim persisku keisurum</rubric>
+                     <colophon>Endir á frásögnum um Persastríðin d. 28. aprílis 1828</colophon>
+                  </msItem>
+                  <msItem n="1.1" class="sagnps annal">
+                     <locus from="54v" facs="#IBR08-0038-0054v" to="54v"/>
+                     <title type="supplied">Byggð á Íslandi</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Það finnst skrifað í gömlum íslendskum krónólogíum</incipit>
+                     <explicit>Naddoður fann Ísland á sjötta ári Haralds hárfagra.</explicit>
+                  </msItem>
+                  <msItem n="2" class="almb">
+                     <locus from="55r" facs="#IBR08-0038-0055r" to="70v">55r-70v</locus>
+                     <title type="uniform">Salomons saga og Markólfs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Samtal Salomons kóngs <gap/> Markólfs Narra</rubric>
+                     <colophon>d. 5. janúarii 1829</colophon>
+                  </msItem>
+                  <msItem n="3" class="godfrn">
+                     <locus from="71r" facs="#IBR08-0038-0071r" to="102v">71r-102v</locus>
+                     <title type="uniform">Prose Edda</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Edda eður Gylfaginning</rubric>
+                     <author>Snorri Sturluson</author>
+                     <colophon>Endað að skrifa tólfta febrúarii átján hundruð tuttugu og níu
+                        (1829)</colophon>
+                     <note>From Snorra-Edda texts: 1) 71r-94v Gylfaginning, 2) 95r-98r Samtal Braga
+                        og Ægirs, 3) 98r-99v Viðbætir um Þór og Loka, 4) 100r-100v Reisa Þórs til
+                        Geirrauðsgarða 4) 101r-102v Um Loka skálkapör og hans straff</note>
+                  </msItem>
+                  <msItem n="4" class="kon">
+                     <locus from="103r" facs="#IBR08-0038-0103r" to="124r">103r-124r</locus>
+                     <title type="uniform">Ynglinga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Ynglingasaga. Af Óðinn og Asíamönnum</rubric>
+                     <colophon>Endir Ynglinga sögu 1829 (124r)</colophon>
+                  </msItem>
+                  <msItem n="5" class="timat kon">
+                     <locus from="124r" facs="#IBR08-0038-0124r" to="124v">124r-124v</locus>
+                     <title type="supplied">Tímatal í Noregskonungasögum</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Tímatal til upplýsingar Norvegskónga sögum</rubric>
+                  </msItem>
+                  <msItem n="6" class="kont">
+                     <locus from="125r" facs="#IBR08-0038-0125r" to="128v">125r-128v</locus>
+                     <title type="uniform">Hálfdanar saga svarta</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga Hálfdanar svarta</rubric>
+                     <colophon>d. 12. martsii 1829 (128v)</colophon>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="129r" facs="#IBR08-0038-0129r" to="140v">129r-140v</locus>
+                     <title type="uniform">Sigurðar saga turnara</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Sigurði turnara</rubric>
+                     <colophon>d. 5. martsii 1828 (140v)</colophon>
+                  </msItem>
+                  <msItem n="8" class="islt">
+                     <locus from="141r" facs="#IBR08-0038-0141r" to="150r">141r-150r</locus>
+                     <title type="uniform">Hreiðars þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Söguþáttur af Hreiðari heimska</rubric>
+                     <colophon>d. 15. janúarii 1829 (150r)</colophon>
+                  </msItem>
+                  <msItem n="9" class="forns">
+                     <locus from="151r" facs="#IBR08-0038-0151r" to="201v">151r-201v</locus>
+                     <title type="uniform">Ambáles saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Ambolis kóngi</rubric>
+                     <colophon>d. 9. aprílis 1829 (201v)</colophon>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="202r" facs="#IBR08-0038-0202r" to="226v">202r-226v</locus>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Bögu-Bósa</rubric>
+                     <colophon>d. 26. aprílis 1829 (226v)</colophon>
+                     <note>At the end of the story is some text belonging to the 15. chapter</note>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="227r" facs="#IBR08-0038-0227r" to="245v">227r-245v</locus>
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Sigurgarði frækna Ríkarðssyni</rubric>
+                     <colophon>d. 4. maii 1829 (245v)</colophon>
+                  </msItem>
+                  <msItem n="12" class="forns riddst">
+                     <locus from="246r" facs="#IBR08-0038-0246r" to="255r">246r-255r</locus>
+                     <title type="uniform">Úlfs saga Uggasonar</title>
+                     <textLang mainLang="non"/>
+                     <colophon>1831</colophon>
+                  </msItem>
+                  <msItem n="13" class="konth">
+                     <locus from="255v" facs="#IBR08-0038-0255v" to="255v">255v-255v</locus>
+                     <title type="supplied">Fróðleikur um Noregskonunga</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Haraldur hinn hárfagri dó á eyjunni Karmon 938</incipit>
+                  </msItem>
+                  <msItem n="14" class="draum">
+                     <locus from="256r" facs="#IBR08-0038-0256r" to="256v">256r-256v</locus>
+                     <title type="supplied">Draumur Daníels</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Dýr fjögur merkja fjögur einvaldsdæmi</incipit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="256"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="159"/>
+                              <width unit="mm" quantity="98"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later pag fol">
+                           <p>Pagination on the recto pages at the top right corner: 1-397 (<locus>1r-199r</locus>), 
+                              397-509 (<locus>200r-256r</locus>), 510 (<locus>256v</locus>); Foliated in pencil from time of
+                              digitisation at bottom of the page</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1 3" writtenLines="25 29"> 
+                           <num type="wpl" atLeast="24" atMost="28"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="148"/>
+                              <width unit="mm" quantity="85"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonEir002" scope="sole" script="chancery">
+                        <name type="person">Jón Eiríksson</name> á
+                        <placeName>Þrándarstöðum</placeName></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Headings and initials slightly decorated and enlarged</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Front-flyleaf<locus from="FF2r" facs="#IBR08-0038-0002r" to="FF2r">2r</locus>:
+                        Sögusafn IV. Með hendi Jóns í Þrándarholti [in <name type="person" key="PalPal003">Páls Pálssonar</name> stúdent's hand]</p>
+                     <p>Front-flyleaf <locus from="FF2v" facs="#IBR08-0038-0002v" to="2v">2v</locus>: Inniheldur: A register in the hand of <name type="person" key="PalPal003">Páls Pálssonar</name> stúdent</p>
+                     <p>Autograph: <locus from="54v" to="54v">54v</locus> <name type="person">Oddur Jónsson á Skáldabúðum</name></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain decorative">
+                        <p>Leather covered wooden boards with slight decoration on the spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1828" to="1831">1828-1831</origDate>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name type="person" role="owner" key="BjaBjo002"><!--Bjarni Björnsson--></name>
+                        <name type="organisation" role="owner" key="LBS">Landsbókasafn</name> bought the entire collection of 
+                        <name type="organisation" role="owner" key="IslBom">The Icelandic literary society's Reykjavík division 
+                           (Reykjavíkurdeild Hins íslenska bókmenntafélags)</name> in <date when="1901">1901</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:11.039+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:17.641+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:37.798+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:13.471+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-01" who="#SK">Atadapted to FASNl´project and added information from the
+            P.E.Ó.-catalogue and digital version of the manuscript itself </change>
+         <change when="2012-05" who="#SK">Added information from the
+            the manuscript itself. </change>
+         <change when="2013-08-20" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

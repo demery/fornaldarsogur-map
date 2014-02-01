@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 282 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0282-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 282 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="40v:10"/>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <rubric><ex>SAGAN af<!-- in rune-like letters until here --></ex> Ragnare lodbrook og s<ex>onum</ex> Hanz</rubric>
+                     <rubric>I Capitule Fra lyngorminum Þooru borg<ex>ar</ex>hiøtz</rubric>
+                     <incipit>Herroodvr het Jarl Rykur</incipit>
+                     <explicit>oc fǫcto(?) øþrom mǫnnomm.</explicit>
+                     <textLang mainLang="non"/>
+                     <note>Begins in chapter 2. Runic letters in the beginning of the rubric.</note>
+                  </msItem>
+                  <msItem n="2" class="laus">
+                     <locus from="40v:11" to="40v:21"/>
+                     <title type="supplied">Stanza on Ragnar loðbrók</title>
+                     <rubric>Vysa Qveþin vm Racnar conc loþbroc</rubric>
+                     <incipit>Racnar reinþi þecna, recniþ unþa mecna</incipit>
+                     <explicit>h<ex>ann</ex> facnaþi ormo vac<ex>n</ex>e;</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="regist">
+                     <locus from="41r:1" to="41v:7"/>
+                     <title type="supplied">Table of Contents</title>
+                     <rubric>Capitula Registur Þ<ex>ess</ex>ar<ex>ra</ex> Sǫgu</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="41"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="201"/>
+                              <width unit="mm" quantity="162"/>
+                           </dimensions>
+                           <watermark ana="yes">Two lions holding a coat of arms</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliated 1-41 in red ink in the top outer corners by <name type="person" key="KriKaa001">Kålund</name>.</p>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="24">
+                           <num type="wpl" atLeast="8" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="110"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                     </handDesc> 
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">Rubrics and initials are richly decorated.</decoNote>
+                     </decoDesc>
+                     <additions ana="high">
+                        <p>Expansions of many abbreviations were noted in the margins or between the lines. In
+                           the top corner of fol. <locus>1r</locus> is written: <q xml:lang="is">An<ex>n</ex>o
+                              1704 4. blada f<gap reason="damage"/>
+                               aa st:f:</q> <!-- check abbreviation -->
+                           There is an AM-slip in the front. It reads: <q>282 Þessa Ragnar Sögu Lodbrokar, feck eg 1714 i Januario af
+                           Monsr Busseus. en<ex>n</ex> h<ex>an</ex>n hafdi hana þä nylega feinged af einum godum vin i Kaupenhafn, sem e<ex>ck</ex>i
+                           villde sitt heite vita lata. Var þesse Ragnarsaga þä aptanvid Nialssögu in<ex>n</ex>bundin<ex>n</ex>,
+                           en<ex>n</ex> eg tok hana þar frä. Þetta Exemplar er hid v<ex>er</ex>sta grei.</q>
+                        </p>
+                     </additions>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="false">
+                           <p>Grey cardboard binding with two stickers on the spine: a larger green one with the shelf mark and a small round sticker with the number <q>1015</q>.
+                              </p>
+                        </binding>							
+                     </bindingDesc>
+                     
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="IS DK" cert="medium">Iceland or Denmark</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>AM 282 4to was originally in the back of a manuscript containing <title type="uniform">Njáls saga</title>. 
+                        <name type="person" role="owner" key="ArnMag001"> Árni Magnússon</name> split the two parts up
+                     after he acquired the manuscript in <date when="1714">1714</date>.</p>
+                     <name type="person" role="owner" key="AndBus001"/>
+                  </provenance>
+               </history>	
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:06.689+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:16.771+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:41:41.959+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:20.526+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-07-18" who="#BES">Added catalog info.</change>
+         <change when="2013-07-24" who="#BES">Added missing information with the manuscript in situ.</change>
+         <change when="2013-08-19" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

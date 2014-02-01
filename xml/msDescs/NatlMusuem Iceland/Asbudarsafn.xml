@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Ásbúðarsafn</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Asbudarsafn" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#THMS">Þjóðminjasafn, Reykjavík</repository>
+                  <idno>Ásbúðarsafn</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="regist">
+                     <locus from="1r:1" to="1r:10">1r</locus>
+                     <title type="supplied">Table of contents</title>
+                     <textLang mainLang="non"/>
+                     <rubric>A Bok þeßi ero ritnar Sógurnar</rubric>
+                     <incipit>1. af landinu Óbrazili _ 2. - Flóres oc Blantzeflur 3. - Raudolfi oc sunom han<ex>n</ex>s 4. - Sỏrla
+                        enom Sterka 5. - herrauds oc Bỏsa Saga 6. - Salus oc Nícanor 7. - Damusta 8. - Alefleck Rigards
+                        syne</incipit>
+                  </msItem>
+                  <msItem n="2" class="tjos">
+                     <locus from="2r:1" to="12r:8">2r-12r</locus>
+                     <title type="supplied">Um það töfraða land Obrazile</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Söguþáttur um þad Hulda og Tófrada Land OBRAZILE. Sem Liggur vid NordurJrland, er apt<ex>ur</ex> af
+                           men<ex>n</ex>sku<ex>m</ex> món<ex>n</ex><ex>um</ex> fanst, og af Synum anaud<ex>um</ex> Leistist Anno
+                        1674: og m<ex>ed</ex> hv<ex>er</ex>iu<ex>m</ex> hætte þ<ex>ad</ex> til bar,</rubric>
+                     <incipit> J mórg r hafa tru verdug<ex>ir</ex> m<ex>enn</ex> þost Siar eitt La<ex>n</ex>d. ut j
+                           Siőnu<ex>m</ex>, v<ex>id</ex> Jrl<ex>an</ex>d</incipit>
+                     <explicit>en<ex>n</ex> þ<ex>ei</ex>m sem vel ut Riette til Aoorrarsæmóar og odaudlegs nafns,</explicit>
+                     <finalRubric>og Endast med gődum oskum þttur þesse</finalRubric>
+                  </msItem>
+                  <msItem class="ridd" n="3">
+                     <locus from="16r:1" to="39v:16">16r-39v</locus>
+                     <title type="uniform">Flóres saga og Blankiflúr</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Flóres <ex>og</ex> Blantzenflúr</rubric>
+                     <incipit>Felix hefur k<ex>on</ex>g<ex>ur</ex> heitid h<ex>ann</ex> redi f<ex>yrir</ex> Alpes b<ex>or</ex>g i
+                        spania.</incipit>
+                     <explicit>endandi so sitt lif med sæmd og Sóma til guds þionustu giordar gefandi sig gudí med godum
+                           ept<ex>ir</ex>dæmum.</explicit>
+                     <finalRubric>Fínis</finalRubric>
+                     <colophon>Anno 1795 var þeßi saga ritud Thórsteirn Gislaso<supplied reason="damage" instant="false">n</supplied> 1795</colophon>
+                     <note>25 chapters</note>
+                  </msItem>
+                  <msItem class="konth" n="4">
+                     <locus from="40r:1" to="46v:27">40r-46v</locus>
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> Af Raudólfe Bőnda og sonum<ex>m</ex> han<ex>n</ex>s</rubric>
+                     <incipit>Madur hiet Rdólfur en<ex>n</ex> kona hans Ragnhilldur</incipit>
+                     <explicit>ófridar von af knuti k<ex>on</ex>gi i dan<ex>n</ex>mork,</explicit>
+                     <finalRubric>og endast Só þessi saga af R<ex>dúlfi</ex> og sinu<ex>m</ex> hans</finalRubric>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="47r:1" to="73v:31">47r-73v</locus>
+                     <title type="uniform" ref="#ssst">Sörla saga sterka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Sőrla hinum<ex>m</ex> Sterka</rubric>
+                     <incipit>J þan<ex>n</ex> Tima þa halfdan k<ex>on</ex>g<ex>ur</ex> Brőnufostri ried Sviþiod setti
+                           han<ex>n</ex> Castor mag sin<ex>n</ex> yfir Engl<ex>an</ex>d og gaf h<ex>onu</ex>m hertoga
+                        Nafn</incipit>
+                     <explicit>Hogne var kongr ifer loþiód Londum og bardez vid Heden<ex>n</ex> Hiaranda son sem seger i Olafs
+                           k<ex>on</ex>gs Triggva son<ex>ar</ex> sogu</explicit>
+                     <finalRubric>Ender Tantum Fínis</finalRubric>
+                     <note>10 chapters</note>
+                  </msItem>
+                  <msItem n="6" class="?">
+                     <locus from="74r:1" to="74r:20">74r</locus>
+                     <title>Ein Litil Historía</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Ein Litil Historía</rubric>
+                     <incipit>Eirn greifi var til varts berg An<ex>n</ex>o 1673 han<ex>n</ex> kugade fátækan<ex>n</ex>
+                        almúgi</incipit>
+                     <explicit>þan<ex>n</ex>en<ex>n</ex> verdugt straff firer sín gudlőstunar ord</explicit>
+                  </msItem>
+                  <msItem class="smas?" n="7">
+                     <locus from="74r:21" to="74v:10">74r-v</locus>
+                     <title type="supplied">Um Sækonur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>um<ex>m</ex> Sækonr</rubric>
+                     <incipit>J hollande nádest ein sæ kona sem var klædt med ólie</incipit>
+                     <explicit>Plinius skrifar at Liking alls þeß sem a Lande sé fin<ex>n</ex>ist i sionum<ex>m</ex></explicit>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="75r:1" to="91r:30">75r-91r</locus>
+                     <title type="uniform" ref="#bsh">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Herraud og Bosa</rubric>
+                     <incipit>Hringr h<ex>é</ex>t k<ex>on</ex>g<ex>ur</ex> e<ex>r</ex> rede f<ex>irir</ex> Gtl<ex>an</ex>de
+                           h<ex>ann</ex> v<ex>ar</ex> son Gta k<ex>on</ex>gs Odens son<ex>ar</ex></incipit>
+                     <explicit>er átte Sr Þorstein Ketels son prófast at Hrafnagile þ<ex>ei</ex>ra d<ex>otter</ex> Helga
+                           hen<ex>n</ex>ar son Thorsteirn Gislason á Kroe_</explicit>
+                     <finalRubric>Endast her svo Sagan<ex>n</ex> af Herrde og Boosa</finalRubric>
+                     <note>14 chapters</note>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="91v:1" to="114v:11">91v-114v</locus>
+                     <title type="uniform">Sálus saga og Nikanórs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Salus oc Nicanor</rubric>
+                     <incipit>Tímo teus h<ex>efur</ex> k<ex>on</ex>gr h<ex>ei</ex>tid h<ex>ann</ex> redi f<ex>yrir</ex> Róma
+                        Riki</incipit>
+                     <explicit>stirdu þ<ex>ei</ex>r fózb<ex>ræd</ex>r Sínum Rikium til dauda dags med fremd oc pridi oc fengu
+                        ágiætt andlát,</explicit>
+                     <finalRubric>oc líkr So þeßare Sógu af þeim Fóstb<ex>ræd</ex>rum, Slus<supplied reason="damage" instant="false">e</supplied> kónge oc nicanor hertoga</finalRubric>
+                     <note>19 chapters. Between fols. <locus>100 and 101</locus> a slip of paper with a variant reading is
+                        inserted. Twice on fol. <locus>108r</locus> the scribe left some space blank where numbers should
+                        be.</note>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="115r:1" to="128v:28">115r-128v</locus>
+                     <title type="uniform">Dámusta saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Damusta Saga</rubric>
+                     <incipit>Catalagus hef<ex>ur</ex> k<ex>on</ex>g<ex>ur</ex> heitid h<ex>ann</ex> riedi f<ex>yrir</ex>
+                           Grickl<ex>an</ex>de</incipit>
+                     <explicit>v<ex>or</ex>u so nær kirkiu, ad heira matti þangad kluckna hlíod,</explicit>
+                     <finalRubric>og endast hier med þesse Saga af Damusta, mun hun endelega vera lógd ut ur grisku
+                        male</finalRubric>
+                     <note>12 chapters</note>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="129r:1" to="150v:14">129r-150v</locus>
+                     <title type="uniform">Ála flekks saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her biriast Sagann af ALEFLECK Rýgards Syne</rubric>
+                     <incipit>Rýgard hefr kóngr heited; han<ex>n</ex> Rede fyrir Einglande; han<ex>n</ex> var son
+                           hálfdán<ex>ar</ex> Brőnu Fostra</incipit>
+                     <explicit>Sídan<ex>n</ex> gifttest Han<ex>n</ex> og þotte vera ágiætr k<ex>ón</ex>gr og m<ex>ik</ex>ill bæde
+                        at Vits munum<ex>m</ex> og Rikdómu Jokst ætt Han<ex>n</ex>s i Englandi</explicit>
+                     <finalRubric>endast hier so Alaflecks Saga</finalRubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="150"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="157"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no">
+                           <p/>
+                        </foliation>
+                        <condition ana="good">The manuscript is in good condition, but the margins have been cut very close to the
+                           text, with some loss of text on fol. <locus>25r</locus> (marginal note) and on fols.
+                              <locus>113-114</locus>. On some pages the ink has faded, on others it runs.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="27 31">
+                           <num type="wpl" atLeast="6" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="148"/>
+                              <width unit="mm" quantity="96"/>
+                           </dimensions>
+                           <catchwords ana="yes">Catchwords on fols. <locus>2r-11v, 16r, 17r-23v, 24v-26v, 27v-31v, 32v-36v, 37v,
+                                 38v-39r, 40r-46r, 56v, 66v, 81v 84v, 92v, 102v, 107r, 110v, 122v, 129r, 130r, 131v, 142v and
+                                 144v</locus>.</catchwords>
+                           <note>Fols. <locus>1v and 12v,15v</locus> are blank. Written in brown ink in one column with 16 to 33
+                              lines per page, although usually with 27 to 31 lines. New chapters begin with a chapter heading that
+                              is in the centre of an otherwise blank line. A different script is often used to indicate proper
+                              names, verses, direct speech and the first one or two lines of new chapters.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ambig" scope="sole" script="hum cursiva">Þorsteinn Gíslason used both hum cursiva and
+                        late kurrent script. Unclear whether it is <!--#ThoGis005,--> the hreppstjóri and skáld from Stokkahlöðum,
+                        1776-1838. The sprettskrift (hum cursiva) looks very similar to Þorsteinn's, but síðfljótaskrift (late
+                        current) looks different. </handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Fol. <locus>1r</locus>, right margin: <q>Tech<!-- Fech? --></q>, and bottom: <q xml:lang="is">Bókina ä G H
+                           S<!-- G G S? --> G Gugm <!-- overstrike -->/ G G G</q>. Fol. <locus>39v</locus>, bottom: <q>her
+                              aftan<ex>n</ex> vid ætti ad setiaz Sagan<ex>n</ex> af Sigurdi þógula</q>. Fol. <locus>73v</locus>,
+                        left margin: <q xml:lang="is"><supplied reason="damage" instant="false">þe</supplied>tta er satt</q>. Fol.
+                           <locus>91v</locus>, left margin: <q xml:lang="is">þ<ex>eß</ex>i cap e<ex>r</ex> e<ex>ck</ex>e
+                              fullkomen<ex>n</ex></q>. Fol. <locus>135r</locus>, right margin: <q xml:lang="is">Sig</q>. Fol.
+                           <locus>144v</locus>, left margin: <q xml:lang="is">An<ex>n</ex>o 1795<!-- 1792? --></q>. Fol.
+                           <locus>150v</locus>: <q xml:lang="la">Cantum<ex>m</ex> ANo 1795</q>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Wooden boards, covered with marbled paper, and brown leather at the corners and the spine, blue book
+                           block. <!--<height>163</height>
+                           <width>110</width>
+                           <depth>24</depth>--></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1795"/>
+                     <origPlace key="IS"/>
+                     <note>According to a note on fol. <locus from="150v" to="150v">150v</locus>, the manuscript
+                        was written in 1795.</note>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:51:48.487+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-01-29" who="#BES">Missing information added based on SVH's diss.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

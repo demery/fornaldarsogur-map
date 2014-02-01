@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 590 b-c 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0590b-c-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 590 b-c 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="10r:27">1r-10r</locus>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Hrölfe Gautrekssyne.</rubric>
+                     <incipit>Hier hefjum vi<ex>er</ex> eina kätliga frasǫgn, af einum
+                        k<ex>on</ex>ge þ<ex>eim</ex> er Gaute h<ex>ie</ex>t, h<ex>ann</ex>
+                        v<ex>ar</ex> vit<ex>ur</ex> m<ex>adur</ex> og velstillt<ex>ur</ex>
+                     </incipit>
+                     <explicit>en<ex>n</ex> þö v<ex>ar</ex> h<ex>ann</ex> vinsæll og störgiǫfull, <ex>og</ex>
+                        en<ex>n</ex> hærerskligste ad siä,</explicit>
+                     <finalRubric>og Lik<ex>ur</ex> hier Giafa Refz
+                        saugo.</finalRubric>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="10r:28" to="44r:27">10r-44r</locus>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Þar hefium Vier þeßa Saugo, er Gautrek<ex>ur</ex> k<ex>ongu</ex>r son
+                        Gauta k<ex>ongs</ex>, red f<ex>irer</ex> Gautlandi, h<ex>ann</ex> v<ex>ar</ex>
+                        ägiætr k<ex>ongu</ex>r f<ex>irer</ex> marg<ex>ra</ex> hluta sak<ex>er</ex>,</incipit>
+                     <explicit>en<ex>n</ex> hiner leite an<ex>n</ex>arz þ<ex>ess</ex> gamans er þeim þiker
+                        betra</explicit>
+                     <finalRubric>Lükum Wier hier Sogu Hrolfs kongs Gautrekßonar.</finalRubric>
+                     <note>The lower half of fol. <locus>24r</locus> and all of fol. <locus>24v</locus> are left blank to
+                        indicate a lacuna in the exemplar.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="45"/>
+                           <num type="back-flyleaf" value="1"/> 
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/> 
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol later"> 
+                           <p>Foliated with red ink in the top right corner of the recto pages by <name type="person" key="KriKaa001">Kålund</name>.</p> 
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="31 26">
+                           <num type="wpl" atLeast="13" atMost="17"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="semihybrida">The scribe mixes semihybrida with aspects of early kurrent script. A very neat script.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="other">A few lines and squiggles around the catchwords</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Marginalia by <name type="person" key="KetJor001">Ketill Jörundsson</name> and
+                        <name type="person" key="ArnMag001">Árni Magnússon</name>, red marks and underlining.</p>
+                     <p>
+                        <name type="person" key="ArnMag001">Árni Magnússon</name> noted the following on a
+                        slip of paper pasted to the front of the manuscript: <q xml:lang="is">þattr af Giafaref
+                           <ex>og</ex> Dala fiflum sem alm<ex>ann</ex>iliga so kallaz er
+                           allr contractior en<ex>n</ex> Hrolfs saga Gautr<ex>eks</ex>s<ex>onar</ex>
+                           oc excluðerar nesten allt um þa Norsku filkis k<ex>onun</ex>ga
+                           hndlar ellers um þ<ex>ad</ex> sama sem Hrolfs saga <ex>og</ex>
+                           endaz m<ex>ed</ex> hen<ex>n</ex>ar Capite mihi. 14.</q>
+                        He also wrote fol. <locus>25</locus>.
+                     </p>
+                     <p>In the outer margin of the first six folios, the scribe wrote names of characters, e.g. on fol. <locus>6v</locus>: 
+                        <q>Harallr Vinlandsk<ex>on</ex>gr/ Älfhilldr dötter h<ex>an</ex>s/ Helga dötter Gauts k<ex>on</ex>gs og Älfhilldar.</q> 
+                        He also notes the number of every new chapter and verses in the margin.</p>
+                     <p>Fols. <locus>26-27</locus> are smaller leaves (8vo) which were added later to fill in the
+                        lacuna in the text; fol. <locus>27r (8vo)</locus> is crossed
+                        out. </p>
+                     <p>Fol. <locus>25</locus> is a little slip with text on the added leaves by <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Dark brown cardboard binding. Two stickers on the spine, which are coming away.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="unknown">Iceland?</origPlace>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:39.853+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:40.228+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:42:05.023+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:42.353+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-07-22" who="#BES">Added information from handrit.is and catalog.</change>
+         <change when="2013-07-29" who="#BES">Added missing information from the manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

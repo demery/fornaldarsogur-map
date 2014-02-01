@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1492 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1492-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1492 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Fornmannasögur Norðurlanda. Annað bindi. Skrifaðar eftir ýmsum ritum
+                        árið MDCCCLXXXIII (1883).</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="2r" to="2">3</locus>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <rubric>Innihald bókarinnar</rubric>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="3r" to="24v">5-48</locus>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <rubric>Sagan af Án bogsveigir</rubric>
+                  </msItem>
+                  <msItem n="3" class="riddst avint">
+                     <locus from="25r" to="48v">49-96</locus>
+                     <title type="uniform">Jasonar saga bjarta</title>
+                     <rubric>Jasons saga bjarta</rubric>
+                     <note>A young story from rímur</note>
+                  </msItem>
+                  <msItem n="4" class="forns">
+                     <locus from="49r" to="125v">97-250</locus>
+                     <title type="uniform">Sigurðar saga snarfara</title>
+                     <rubric>Sagan af Sigurði konungi Haraldssyni snarfara</rubric>
+                     <note>A young story from rímur</note>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="126r" to="135v">251-270</locus>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                     <rubric>Söguþáttur af Drauma-Jóni</rubric>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="136r" to="150r">271-299</locus>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <rubric>Hrafnistumanna sögur. Sagan af Katli hæng.</rubric>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="150r" to="157v">299-314</locus>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <rubric>(Hrafnistumanna sögur.) Sagan af Grími loðinkinna</rubric>
+                     <colophon>Lýkur hér sögu Gríms loðinkinna, er hér hefur upp Örvar-Odds sögu og
+                        er mikil saga</colophon>
+                     <note>According to the colophon Örvar-Odds saga should follow here but does not
+                        instead there is the Saga og Goðleifur prúði. Örvar-Odds saga is the last
+                        saga of the manuscript on fol. 316r" (p. 631).</note>
+                  </msItem>
+                  <msItem n="7" class="forns avint">
+                     <locus from="158r" to="202v">315-404</locus>
+                     <title type="uniform">Goðleifs saga prúða</title>
+                     <note>A young story from rímur</note>
+                  </msItem>
+                  <msItem n="8" class="kons forns">
+                     <locus from="203r" to="260v">405-520</locus>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <rubric>Sagan af Starkaði gamla Stórvirkssyni</rubric>
+                     <note>A young story from rímur</note>
+                  </msItem>
+                  <msItem n="9" class="kons">
+                     <locus from="261r" to="292v">521-584</locus>
+                     <title type="supplied">Ynglinga saga eður saga af Hölga inum hálenska og Huld
+                        drottningu hans</title>
+                     <note>Some or other version of Ynglingasaga</note>
+                  </msItem>
+                  <msItem n="10" class="almb? avint">
+                     <locus from="293r" to="305r">585-609</locus>
+                     <title type="suplied">Felix saga og Iðunnar</title>
+                  </msItem>
+                  <msItem n="11" class="almb? avint">
+
+                     <locus from="305r" to="315v">609-630</locus>
+                     <title type="supplied">Sagan af Selikós og Berissa</title>
+                     <note>Most likly a young story from rímur</note>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="316r" to="400v">631-800</locus>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <rubric>Hér hefur upp söguna af Örvar-Oddi.</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="400"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="contemporary pag">5-800</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21">
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="120"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MagJon001" scope="sole" script="hum cursiva">Magnús
+                        Jónsson í Tjaldanesi</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"><p/></additions>
+                  <bindingDesc>
+                     <binding ana="moderate">
+                        <p>Leather spine and corners</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1883"/>
+                     <origPlace key="IS">Iceland Western Dalasýsla</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:55.622+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-09-28" who="#SK">Added classes, locus and layout and other information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

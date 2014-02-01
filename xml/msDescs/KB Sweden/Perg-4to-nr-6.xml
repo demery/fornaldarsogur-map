@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Perg. 4to nr 6</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Perg-4to-nr-6" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Perg. 4to nr 6</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="ridd" defective="true">
+                     <locus from="1r" to="3r:26"/>
+                     <title type="uniform">Amíkus saga og Amilíus</title>
+                     <textLang mainLang="non"/>
+                     <note>First page illegible</note>
+                  </msItem>
+                  <msItem n="2" class="ridd" defective="true">
+                     <locus from="3r:27" to="23v:25"/>
+                     <title type="uniform">Bevers saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd" defective="true">
+                     <locus from="24r" to="39r"/>
+                     <title type="uniform">Ívens saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Leaves missing, lacunae</note>
+                  </msItem>
+                  <msItem n="4" class="ridd" defective="true">
+                     <locus from="39v" to="56r"/>
+                     <title type="uniform">Parcevals saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Leaves missing, lacunae</note>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="56v" to="61r"/>
+                     <title type="uniform">Parcevals saga</title>
+                     <title type="parallel">Valvers þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd" defective="true">
+                     <locus from="62r" to="69v"/>
+                     <title type="uniform">Mírmanns saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Leaves missing, lacunae</note>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="70r" to="85v"/>
+                     <title type="uniform">Flóvents saga</title>
+                     <title type="parallel">Flovents saga frakkakonungs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ridd" defective="true">
+                     <locus from="86r" to="106v"/>
+                     <title type="uniform">Elís saga og Rósamundu</title>
+                     <textLang mainLang="non"/>
+                     <note>Leaves missing, lacuna in the end</note>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="107r" to="119v:14"/>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas" defective="true">
+                     <locus from="119v:15" to="126v"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Leaves missing, lacunae, ends defective</note>
+                  </msItem>
+                  <msItem n="11" class="ridd" defective="true">
+                     <locus from="127r" to="128r:20"/>
+                     <title type="uniform">Möttuls saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="ridd kvad">
+                     <locus from="128r:21" to="128v:27"/>
+                     <title type="supplied">Kvædi</title>
+                     <textLang mainLang="non"/>
+                     <note>Leaves missing, lacunae</note>
+                  </msItem>
+                  <msItem n="13" class="ridd" defective="true">
+                     <locus from="128v" to="137v"/>
+                     <title type="uniform">Clarus saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Ends defective</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="137"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="230"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="poor">The binding is falling apart. The gatherings are comming apart. Most leaves heavily darkened. 
+                           Fol. <locus>137</locus>f is only a fragment.</condition>
+                     </supportDesc>
+                  <layoutDesc>
+                     <layout ana="verse-prose" columns="1" writtenLines="30 33">
+                        <num type="wpl" atLeast="14" atMost="20"/>
+                        <dimensions type="written">
+                           <height unit="mm" quantity="180"/>
+                           <width unit="mm" quantity="120"/>
+                        </dimensions>
+                        <catchwords ana="no"/>
+                     </layout>
+                  </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="major" script="textualis">
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="cursiva">
+                        <p><locus from="128r:21" to="128v:27"/>.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">red and green</decoNote>
+                     <decoNote type="other">red rubrics</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Marginalia and (skilled) drawings, cf. <locus>61v</locus>.
+                        On fol. <locus>21r</locus> <q>Gissur gudmundz son</q> wrote his name <q>Annax 1626(?)</q>.
+                        On fol. <locus>35v</locus> is written: <q>blak er fiast en<ex>n</ex> bag er hend binda kan<ex>n</ex> e<ex>g</ex> eigi Johan<ex>n</ex> Gundmundz son</q>.
+                        On fol. <locus>39r</locus> a table of contents is added and signed by <q>B. S. S. m<ex>ed</ex> E<ex>igin</ex> H<ex>endi</ex></q>.
+                        At the top of the inside of the front board, <q>Einar Einarson</q> can be read. In the middle, a coat of arms-like drawing in black ink is found: 
+                        <q>AH 1647</q>. Several stickers with the shelf mark on the spine and front board.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <!-- 'figurative carving' ambiguous -->
+                        <p>Thick wooden boards (oak and beech) with a leather spine. A clasp has been removed. Several carvings can be seen: 
+                           <q>1676</q> and <q>180</q> on the front board, <q>H</q>, <q>AH</q> and figurative carving on the back
+                           board.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1375" notAfter="1425"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <!-- last two entries do not display -->
+                     <name type="person" role="owner" key="GizGud001"/>
+                     <name type="person" role="signatory" key="JohGud005"/>
+                     <name type="person" role="signatory" key="EinEin007"/>
+                     <name type="person" role="signatory" key="ambig">A. H. 1647</name>
+                     <name type="person" role="signatory" key="ambig">B. S. S.</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:55:07.631+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-15" who="#BES">Prepared for visit at the library.</change>
+         <change when="2013-03-04" who="#BES">Measured and checked with the manuscript in situ.</change>
+         <change when="2013-03-20" who="#BES">Added missing information from black-and-white photographs and catalog.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

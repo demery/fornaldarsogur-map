@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1583 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1583-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1583 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="other">
+                     <locus from="1r" to="69v"/>
+                     <title type="supplied">Various fragments</title>
+                     <textLang mainLang="is" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="1.1" class="trurit" defective="true">
+                     <locus from="1r" to="4v"/>
+                     <title type="supplied">12 kynþættir Juda</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="1.2" class="sagnfr" defective="true">
+                     <locus from="4v" to="7v"/>
+                     <title type="supplied">7 þau gömlu undrunarverk heimsins (and others)</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Siø þaug gømlu undrunar<ex>verk</ex> heimsins</rubric>
+                  </msItem>
+                  <msItem n="1.3" class="tjos kvad" defective="true">
+                     <locus from="8r" to="13r"/>
+                     <title type="uniform">Kötludraumur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="1.4" class="" defective="true">
+                     <locus from="13r" to="14v"/>
+                     <title type="uniform">Margrétar saga</title>
+                     <rubric>Ein historia um<ex>m</ex> Frw Margreta</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.5" class="fas" defective="true">
+                     <locus from="15r" to="22v"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <filiation>Probably derived from <ref target="#AM08-0109-a-en">AM 109a
+                           8vo</ref> via an intermediary.</filiation>
+                  </msItem>
+                  <msItem n="1.6" class="fas" defective="true">
+                     <locus from="23r" to="33r"/>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.7" class="ridd" defective="true">
+                     <locus from="33v" to="58v"/>
+                     <title type="uniform">Bærings saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Bærings saga fagra</rubric>
+                     <note>Mixed up with part of item 1.8 on <locus>34r-39v</locus></note>
+                  </msItem>
+                  <msItem n="1.8" class="kvad" defective="true">
+                     <locus from="34r" to="67v"/>
+                     <title type="supplied">Kvæði</title>
+                     <title type="supplied">Tímaríma</title>
+                     <title type="supplied">Tóubragr</title>
+                     <textLang mainLang="is"/>
+                     <author>Þorstein Gizurarson „iól", Jón Einarsson í Hraukbæ (Tímaríma), síra
+                        Hallgrimur Pétrsson, Ari Jörundarson (Tóubragr, defective, in a different
+                        hand from the 18th c.)</author>
+                     <note>Mixed up with part of item 1.7 on <locus>39v-58v</locus></note>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="70r" to="114v"/>
+                     <title type="supplied">Several rímur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2.1" class="rimur">
+                     <locus from="68r" to="72r"/>
+                     <title type="uniform">Jannesar ríma</title>
+                     <author>Guðmundur Bergþórsson.</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2.2" class="rimur">
+                     <locus from="72v" to="74v"/>
+                     <title type="uniform">Pétursrímur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Pétrsríma</rubric>
+                  </msItem>
+                  <msItem n="2.3" class="rimur" defective="true">
+                     <locus from="75r" to="83v"/>
+                     <title type="uniform">Tímaríma</title>
+                     <author>Jón Sigurðsson</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2.4" class="rimur">
+                     <locus from="84r" to="90v"/>
+                     <title type="supplied">Alnita rímur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Rima af Valnita þióf og Fóthrumum Múk kveðin af Síra Ióni Guðmundssyni
+                        á Skéggiastödum.</rubric>
+                  </msItem>
+                  <msItem n="2.5" class="rimur">
+                     <locus from="91r" to="98v"/>
+                     <title type="supplied">Ríma af Entúlus og Gný</title>
+                     <author>Þorkell Pálsson</author>     
+                     <textLang mainLang="is"/>
+                     <rubric>Ein ríma af Rómverskum keisara Líklega kveðinn af Arna
+                           Röðvarss<ex>yni</ex>
+                     </rubric>
+                     <note>The second ríma only</note>
+                  </msItem>
+                  <msItem n="2.6" class="rimur">
+                     <locus from="99r" to="104r"/>
+                     <title type="uniform">Ekkjuríma</title>
+                     <author>Bjarni Jónsson (skáldi)</author>
+                     <textLang mainLang="is"/>
+                     <msItem n="2.7" class="rimur">
+                        <locus from="104v" to="108v"/>
+                        <title type="uniform">Ríma af Þorsteini skelk</title>
+                        <rubric>Ríma af Þorsteini Skielk</rubric>
+                        <author>Árni Böðvarsson</author>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="2.8" class="rimur">
+                        <locus from="109r" to="111v"/>
+                        <title type="supplied">Kerlingarríma</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="113"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="95"/>
+                           </dimensions>
+                           <watermark ana="yes">Different watermarks: "ØRHOLM et NYEMØLLE",
+                              beehive</watermark>
+                        </support>
+                        <foliation ana="fol later">foliation in pencil added when
+                           photographed</foliation>
+                        <condition ana="poor">Dilapidated, quite damaged at the edges.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="19 35">
+                           <num type="wpl" atLeast="9" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="129" atMost="137"/>
+                              <width unit="mm" atLeast="75" atMost="82"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="#JonJon069" scope="minor" script="kurrent">Jón Jónsson á
+                        Heinabergi in 1746 (item 1)</handNote>
+                     <handNote scribeRef="#GudGud013" scope="minor" script="kurrent">Guðmundur
+                        Guðmundarson í Miðskeri in 1850 (item 1)</handNote>
+                     <handNote scribeRef="#ArnSve003" scope="minor" script="kurrent">Árni Sveinsson
+                        í Berufirði in 1830 (item 2)</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">unknown hand (item
+                        1.8)</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Elaborate large initials <locus>33v</locus>,
+                           <locus>68r</locus>, <locus>75r</locus>, <locus>84r</locus>,
+                           <locus>91r</locus>, <locus>99r</locus>, <locus>104v</locus>. Fine decorative initials at the beginning of each chapter of Item 1.5. Not
+                        very large, combination of dark brown and light brown ink. The lost initial at
+                        the beginning of Item 1.5 <title type="uniform" key="#hsk">Hrólfs saga kraka</title>
+                        must have been quite large and heavy, considering the elaborate initials at
+                        the beginning of each chapter - and remaining texts.</decoNote>
+                     <decoNote type="frieze"><locus>22v</locus></decoNote>
+                     <decoNote type="paratext">Personal names are highlighted.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p/>Marginalia are hard to read, as the manuscript is rather damaged. <list type="simple">
+                        <item>
+                           <locus>22v</locus>KRA</item>
+                        <item>
+                           <locus>22v</locus>Biorn ... son, signature illegible.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>No binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1746" to="1850"/>
+                     <origPlace key="IS">Iceland</origPlace>
+                  </origin>
+                  <provenance>
+                     <p><name key="GudJon044" type="person" role="owner">Guðmundur Jónsson á
+                           Hoffelli</name> sold the manuscript to the Landsbókasafn in 1910.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:16.6+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-09" who="#SMM">Added msItems (sub-sections) and msDesc
+            codes.</change>
+         <change when="2013-04-18" who="#BES">Added information from TL's file and P.E.Ó's
+            catalogue. Loci for subitems and other information missing.</change>
+         <!-- name refs differ from refs in entry on handrit.is! -->
+         <change when="2013-09-09" who="#TL">Added loci and changed decoDesc according to images on handrit.is. Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

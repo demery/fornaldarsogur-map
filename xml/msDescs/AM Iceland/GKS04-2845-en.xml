@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>GKS 2845 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed by the University of Copenhagen under
+                  a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS04-2845-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>GKS 2845 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" to="13r">1r-13r</locus>
+                     <title type="uniform">Bandamanna saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="13r" to="19v">13r-19v</locus>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="islt">
+                     <locus from="19v" to="26r">19v-26r</locus>
+                     <title type="uniform">Orms þáttur Stórólfssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="kon">
+                     <locus from="26r" to="32r">26r-32r</locus>
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <note>The text is printed in <bibl>
+                           <ref>Heimskringla III 1991</ref>
+                        </bibl> but follows a different manuscript.</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="32r" to="39v">32r-39v</locus>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas" defective="true">
+                     <locus from="39v" to="54v">39v-54v</locus>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Gap between fols. <locus>52</locus> and <locus>53</locus>. In <bibl><ref>Fornaldar sögur Nordrlanda III
+                              1830</ref></bibl>, the gap begins on p. 282, line 27 and ends on p. 353, line 18. Ending is also
+                        missing. The text of the manuscript ends on p. 363, line 22 in <bibl>
+                           <ref>Fornaldar sögur Nordrlanda III 1830</ref></bibl>.
+                        <!-- The text of the manuscript is used in the reading variants in <bibl>
+                              <ref target="FASNRafn" type="primary-2">Fornaldar sögur Nordrlanda III
+                                 1830:237-364</ref>
+                           </bibl>.-->
+                     </note>
+                  </msItem>
+                  <msItem n="7" class="fas" defective="true">
+                     <locus from="55r" to="59r">55r-59r</locus>
+                     <title ref="#ysv" type="uniform">Yngvars saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <note>Beginning missing. The text begins on p. 27, line 8 in <bibl>
+                           <ref>STUAGNL XXXIX 1912</ref>
+                        </bibl>. Also gap between fols. <locus>57 and 58</locus>. In the edition, the gap begins on p. 40, line 11,
+                        and ends on p. 43, line line 18.
+                        <!-- The text of the manuscript is used in the reading variants in <bibl>
+                              <ref target="STUAGNL39" type="primary-2">STUAGNL XXXIX 1912</ref>
+                           </bibl> and <bibl>
+                              <ref target="AntR">Antiquités Russes II 1852:141-169</ref>
+                           </bibl>.-->
+                     </note>
+                  </msItem>
+                  <msItem n="8" class="fas" defective="true">
+                     <locus from="59v" to="61v">59v-61v</locus>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <note>Gap between fols. <locus>59</locus> and <locus>60</locus>. In the edition <bibl>
+                           <ref>Editiones Arnamagnæanæ B 29, 1983</ref>
+                        </bibl>, the gap begins on p. 18, line 36, and ends on p. 70, line 190.
+                        <!-- The text of the manuscript is used in the reading variants in <bibl>
+                              <ref target="FASNRafn" type="primary-2">Fornaldar sögur Nordrlanda III
+                                 1830:661-674</ref>
+                           </bibl> and <bibl>
+                              <ref target="EA-B29" type="primary-2">Editiones Arnamagnæanæ B 29
+                                 1983.</ref>
+                           </bibl>.-->
+                     </note>
+                  </msItem>
+                  <msItem n="9" class="fas" defective="true">
+                     <locus from="61v" to="73v">61v-73v</locus>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <note>Gap between fols. <locus>65</locus> and <locus>66</locus>. In the edition <bibl>
+                           <ref>STUAGNL XLVIII 1924</ref>
+                        </bibl>, the gap begins on p. 32, line 11, and ends on p. 34, line 1. Ending is also missing. In the edition <bibl>
+                           <ref>STUAGNL XLVIII 1924</ref>
+                        </bibl>, the text ends on p. 88, line 23.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="book-block" value="73"/><!-- check for flyleaves -->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="178"/>
+                              <width unit="mm" quantity="132"/>
+                           </dimensions>
+                           <!--  <watermark ana=""/>-->
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="average">Pages missing, some pages cut, and text unclear in some places.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21 30">
+                           <num type="wpl" atLeast="13" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="130"/>
+                              <width unit="mm" quantity="112"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="textualis">I. <locus>1r-32r:5</locus> and
+                           <locus>55r-73v</locus>.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">II. <locus>32r:6-54v</locus>.</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Red initials or traces of them throughout.</decoNote>
+                     <decoNote type="initial">Flourished initials with black ink.</decoNote>
+                     <decoNote type="paratext" subtype="coloured">Red rubrics or traces of them.</decoNote>
+                     <decoNote type="illustration">Many marginal illustrations: animals, dragons, heads.</decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>Extensive marginalia, cf. <bibl>
+                           <ref target="MI2">Jón Helgason 1955:xiii-xiv</ref>
+                        </bibl>.</p>
+                     <p>Fol. <locus from="5v" to="5v">5v</locus> and <locus from="13v" to="13v">13v</locus>: additions by
+                        scribe.</p>
+                     <p>Fol. <locus from="31r" to="31r">31r</locus>, beginning of a psalm later found in Guðbrandur's book of
+                        psalms in 1589 (see Páll E. Ólason 1924:78).</p>
+                     <p>Fol. <locus from="53r" to="53r">53r</locus>: <q>Fragmenta Islandica</q>. Written after the manuscript
+                        arrived in Copenhagen, but before the leaf was placed in its current place: (<bibl>
+                           <ref>Jón Helgason 1955:ix</ref>
+                        </bibl>).</p>
+                     <p>Fols. <locus from="35v" to="35v">35v</locus>, <locus from="41v" to="41v">41v</locus>, <locus from="48r"
+                           to="48r">48r</locus> and <locus from="59r" to="59r">59r</locus>: names and articles written by owner
+                        (see provenance).</p>
+                     <p>Fol. <locus from="16v" to="16v">16v</locus>: addition of illegible text in manuscript by a hand from the
+                        17th century begins on <locus from="17r" to="17r">17r</locus>.</p>
+                     <p>Fols. <locus from="3v" to="3v">3v</locus>, <locus from="63v" to="63v">63v</locus> and <locus from="73v"
+                           to="73v">73v</locus>: addition of illegible words and sentences in manuscript.</p>
+                     <p>Fols. <locus from="63v" to="63v">63v</locus> and <locus from="64r" to="64v">64r-v</locus>, <locus from="65r"
+                           to="65v">65r-v</locus>, <locus from="73r" to="73v">73r-v</locus>: letter v to signal poem in the
+                        text.</p>
+                     <p>Fols. <locus from="70v" to="72r">70v-72r</locus>: Poems in the text numbered in roman numbers.</p>
+                     <p>Fols. <locus from="6r" to="6r">6r</locus>, <locus from="9v" to="9v">9v</locus>, <locus from="10r" to="10r"
+                           >10r</locus>, <locus from="32v" to="32v">32v</locus>, <locus from="37v" to="37v">37v</locus>, <locus
+                           from="38v" to="38v">38v</locus> (and more): Remarks of various content and pen-trials.</p>
+                     <p>Titles of sagas which are the youngest additions. According to <name key="JonSig004" type="person">Jón
+                           Sigurðsson</name>, they were written by <name type="person">Jón Eiríksson</name>, book-keeper at Det
+                        kongelige bibliotek (1781-1787).</p>
+                     <p>Fol. <locus from="2v" to="2v">2v</locus> and <locus from="72v" to="72v">72v</locus>: Stamp from <name
+                           type="organisation" key="KB">Det kongelige bibliotek</name>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Dimensions: <height>192</height>mm x <width>129</width>mm x <depth>58</depth>mm. Two wooden boards sewn
+                           with three leather threads.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1440" notAfter="1460"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <!-- from handrit.is -->
+                     <p><name key="ThoTor001" role="other" type="person">Þormóður Torfason</name> bought the manuscript in Iceland
+                        in <date when="1662">1662</date> for the Danish <name type="person" role="owner" key="Kri002">king</name>,
+                        and it was moved to <name type="organisation" role="repository" key="KB">Det kongelige bibliotek</name> in
+                        Copenhagen. In <date from="1682" to="1704">1682-1704</date>, Þormóður borrowed it in Stangarland and <name
+                           key="AsgJon001" role="copist" type="person">Ásgeir Jónsson</name> made a copy of it. Many articles have
+                        been written about the provenance of the manuscript before it was owned by the king. Jón Helgason believes
+                        that Þormóður got it in Hólar (<bibl><ref target="MI2">Jón Helgason 1955:xiv-xv, xvii.</ref></bibl>). </p>
+                     <p>Some names appear in the margins: <name type="person" role="owner" key="EyjJon001">Eyjólfur
+                        Jónsson</name>, who says that he owns <q xml:lang="is">þessa skitna skræðu</q> (<locus from="35v" to="35v"
+                           >35v</locus>), <name type="person" role="unknown" key="NikEin001">Nikulás Einarsson</name> (possibly
+                           from <name type="place">Reykjahlíð</name>) <!-- key uncertain --> (<locus from="41v" to="41v"
+                           >41v</locus>), <name type="person" role="unknown" key="ambig">Kolbeinn </name> (<locus from="48r"
+                           to="48r">48r</locus>), <name type="person" role="unknown" key="ambig">Bjarni Jónsson</name> (<locus
+                           from="48r" to="48r">48r</locus>), <name type="person" role="unknown" key="ambig">Þorleifur?</name>
+                           (<locus from="48r" to="48r">48r</locus>) and <name type="person" role="unknown" key="ambig">Guðríður
+                           Benediktsdóttir</name> (<locus from="59r" to="59r">59r</locus>).</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:55.064+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:06.017+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:35:09.788+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data,
+            now removed.</change>
+         <change when="2011-05-07T18:42:28.251+02:00" who="#EAH">Extracted pagination and page dimension data from previous
+            version.</change>
+         <change when="2011-05-07T19:18:04.473+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-08-26" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+   
+      <fileDesc>
+         <titleStmt>
+            <title>MS Germ qu. 884</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS-Germ-884" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#SB">Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Berlin</repository>
+                  <idno>MS Germ 884</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="fas" n="1">
+                     <locus facs="1r" to="47r">1r-47r</locus>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="non">Icelandic</textLang>
+                     <rubric>Hier byriast Saga af Hrolfe Konge Kraka, og hefst hier
+                        fyrst Froda þattur.</rubric>
+                     <rubric>Frode Kongur drepur Halfdan brodur sin, og fra sonum
+                        Halfdanar Helga og Hroar hia Wifil Kalle.
+                     </rubric>
+                     <incipit>Madur hiet Halfdan, enn annar Frode, brædur tveir og
+                        Konga syner, og styrde sinu ryke huor þeirra. </incipit>
+                     <explicit>og endar hier sogu Hrolfs Kongs Kraka og Kappa hans. </explicit>
+                     <filiation><ref type="book" target="#EriBio1737" ana="antigraph">Copy of Biorner's 1737 printed edition.</ref></filiation>
+                     <note>Divided into 52 chapters marked with Arabic numerals.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="47"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="195"/>
+                           </dimensions>
+                           <note>The upper edge has been trimmed for
+                              binding.</note>
+                           <watermark ana="yes">small
+                              scepter and capital letters IN</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p>Contemporary pagination in
+                              dark brown ink in the upper corner.</p>
+                        </foliation>
+                        <condition ana="good">The manuscript is very well preserved. There are almost
+                           no traces of use and the paper has white/creamy
+                           colour.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="26 38">
+                           <num type="wpl" atLeast="6" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="230"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#JacGri001" scope="minor" script="chancery">
+                        <p>Beginning (<locus>1r-9v (p. 1-18)</locus>) and <locus>22v - 23v (p. 44 mid - 46 top)</locus>
+                           written by Jacob Grimm.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">Hand 2:
+                        <locus>10r - 22v (p. 19-44 mid 10r - 22v)</locus>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">Hand 3:
+                        <locus> 23v - 47r (p. 46 top - 93 bottom)</locus>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">Rubricated chapters in the first
+                        section written by <name key="JacGri001" type="person">Jacob
+                           Grimm</name>, <locus>1r-9v</locus>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="high">
+                     <p>Folios <locus facs="1r" to="6r">from 1r to 13r</locus> contain marginalia written by
+                        <name key="JacGri001" type="person" role="scribe">Jacob Grimm</name>. The
+                        marginalia are mainly in German. They indicate places in the text,
+                        give explanations of difficult words and possible readings.
+                        Personal names and place names are underlined; also characters
+                        appearing without a proper name. This is different from the italics
+                        of the original which only emphasize some proper names. The
+                        underlining is done in parts written by hand 1 and 2, but is
+                        omitted in the last section written by hand 3, <locus> 23v -
+                           47r(p. 46 top - 93 bottom)</locus>. This
+                        indicates that the user was mainly interested in the story up to
+                        <title type="uniform">Fróða þáttr</title>, e.g.
+                        <list type="simple">
+                           <item>
+                              <locus>1r</locus> kvædum</item>
+                           <item>
+                              <locus>2v</locus>
+                              <q>bragdakarl</q>
+                           </item>
+                           <item>
+                              <locus>2v</locus>
+                              <q xml:lang="de">den Hunden zum Sehen? gerufen</q>
+                           </item>
+                           <item>
+                              <locus xml:lang="de">3r</locus>
+                              <q>Mage, Freund</q>
+                           </item>
+                           <item>
+                              <locus>4r</locus>
+                              <q xml:lang="is">fliott</q>
+                           </item>
+                           <item>
+                              <locus>4v</locus>
+                              <q>tom</q> marked with <q>?</q>
+                           </item>
+                           <item>
+                              <locus>4v</locus>
+                              <q>þeir</q>
+                           </item>
+                           <item>
+                              <locus>5r</locus>
+                              <q xml:lang="de">Frodes zwei Schmiede</q>
+                           </item>
+                           <item>
+                              <locus>5r</locus>
+                              <q xml:lang="de">Frodes Traum</q>
+                           </item>
+                           <item>
+                              <locus>5r</locus>
+                              <q xml:lang="de">Reigins rätselhaftes Lied</q>
+                           </item>
+                        </list>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Brown marble paper binding. The binding is in a good condition.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="DE">Germany</origPlace>
+                     <origDate when="1813">1813</origDate>
+                  </origin>
+                  <provenance>
+                     <name key="JacGri001" type="person" role="owner">Jacob Grimm</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:25.746+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-04-12" who="#BES">Added all information, mostly based on TL's files.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

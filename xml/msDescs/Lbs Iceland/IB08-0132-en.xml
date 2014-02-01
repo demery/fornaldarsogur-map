@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 132 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0132-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 132 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kvad" defective="true">
+                     <locus from="1r:1" to="1v:29"/>
+                     <locus from="3r:1" to="3v:24"/>
+                     <title type="supplied">Vikubænir</title>
+                     <textLang mainLang="is"/>
+                     <author key="JonHja001">Jón Hjaltalín</author>
+                     <rubric>Viku Bænirnar, Siera Johns Hjáltaljns.</rubric>
+                     <incipit>Sun<ex>n</ex>udags Qvølld Bæn. O þu liosana fadir og lifsins herra</incipit>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="2r:1" to="2v:20"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">hörnúng, og sum<ex>ir</ex> segia ad han<ex>n</ex> hafi</incipit>
+                     <explicit defective="true">Bóse war nú komin<ex>n</ex> uppá Skip Hræreks, og bardist</explicit>
+                     <note>On an inserted leaf</note>
+                  </msItem>
+                  <msItem n="3" class="ljodbr">
+                     <locus from="4r:1" to="6r:29"/>
+                     <title type="supplied">Ljóðabréf Sigurðar Breiðfjörðs til Gísla Konráðssonar</title>
+                     <textLang mainLang="is"/>
+                     <author key="SigBre001">Sigurður Breiðfjörð</author>
+                     <rubric>Lijóda Bref Sijgurda Breidfiørds kvedid til Gisla Konrads sonar</rubric>
+                     <incipit>Skal ei mál ad minast þess mals</incipit>
+                     <explicit>dulin Rædadad og hlod dugir ei leingur</explicit>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="6v:1" to="9r:21"/>
+                     <title type="supplied">Tíðavísur</title>
+                     <textLang mainLang="is"/>
+                     <author key="JonHja001">Jón Hjaltalín</author>
+                     <rubric>fijmtyu og Segs Tijda Vijsur jfir arin 1779 og til 1834 ortar af
+                        Sal Sier Joni Hialtalin soknar presti til breida bolstad<ex>ar</ex> og
+                        narfeirar safnadar a skoga stönd. eftir þuj dansk handriti upp skrifadar</rubric>
+                     <incipit>fista Tijda Visa jfir arid 1779 Vakni friir virdar hier</incipit>
+                     <explicit>saman bardi bøgurnar þan<ex>n</ex> Breidafiardar sigo<gap/></explicit>
+                  </msItem>
+                  <msItem n="5" class="rimur" defective="true">
+                     <locus from="9r:22" to="9v:28"/>
+                     <title type="supplied">Ferðaríma</title>
+                     <textLang mainLang="is"/>
+                     <author key="SigBre001">Sigurður Breiðfjörð</author>
+                     <rubric>Ferda Rijma Sijgurdar Brejdjords til Kaupinhafnar</rubric>
+                     <incipit>Listin forna min er mest</incipit>
+                     <note>Only the beginning.</note>
+                  </msItem>
+                  <msItem n="6" class="kvad"> <!-- Needs another look -->
+                     <locus from="10r:1" to="12r:10"/>
+                     <title type="supplied">An unidentified poem</title>
+                     <textLang mainLang="is"/>
+                     <rubric>hotar bragur giørdur af Olafe Ellens sine</rubric>
+                     <incipit>Hreppstiorans er harkan<ex>n</ex> liot</incipit>
+                     <explicit>min þvi stansar Ræda</explicit>
+                  </msItem>
+                  <msItem n="7" class="kvad">
+                     <locus from="12r:11" to="17v:23"/>
+                     <title type="supplied">Fáeinar vísur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>faeinar Visur</rubric>
+                     <incipit>Friskur eirnfinur a fotleggum<ex>m</ex> stin<ex>n</ex>ur</incipit>
+                     <explicit>Um hag sin<ex>n</ex> tok ad hugs</explicit>
+                  </msItem>
+                  <msItem n="8" class="almb" defective="true">
+                     <locus from="18r:1" to="25v:27"/>
+                     <title type="uniform">Cyrus saga Persakonungs</title>
+                     <textLang mainLang="is"/>
+                     <author key="EinBja005">Einar Bjarnason <note>(born 1653)</note></author>
+                     <rubric>Hier byriar sogu Af Cyro keysara J Persia og Media</rubric>
+                     <note>Only the beginning.</note>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="26r:1" to="36v:14"/>
+                     <title type="uniform">Nitida saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>EITT ÆFENTYR af Niteda hin<ex>n</ex>e frægu</rubric>
+                     <incipit>Heire wnger men<ex>n</ex> eitt æfentyr af einum<ex>m</ex> meykonge
+                        er Nitidä hiet</incipit>
+                     <explicit>med störgiofum og feingu so aller gott heimfarar leyfe</explicit>
+                     <finalRubric>og lÿkur hier fra Nitida hin<ex>n</ex>e frægu ad seigia</finalRubric>
+                     <colophon>skrifad 23 Decemb<ex>er</ex> Anno 1746 Sigurdur Magnússon</colophon>
+                  </msItem>
+                  <msItem n="10" class="vikus rimur">
+                     <locus from="36v:15" to="37v:25"/>
+                     <title type="supplied">Vikusálmar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Vikú Rÿma</rubric>
+                     <incipit>Kroftug Naden<ex>n</ex> kien<ex>n</ex>e eg þier</incipit>
+                     <explicit>endast þeße Rÿma ad sin<ex>n</ex>e</explicit>
+                     <finalRubric>ender Rijmu</finalRubric>
+                  </msItem>
+                  <msItem n="11" class="ridd" defective="true">
+                     <locus from="38r:1" to="55r:17"/>
+                     <title type="uniform">Bærings saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Lacking at the beginning.</note>
+                  </msItem>
+                  <msItem n="12" class="" defective="true">
+                     <locus from="55r:18" to="55v:26"/>
+                     <title type="supplied">Kiobenhavns Extraordin Relation af 11 Maij / Paris</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="13" class="kvad">
+                     <locus from="56r:1" to="61v:23"/>
+                     <title type="supplied">Nokkur kvæði eftir Hallgrím Pétursson</title>
+                     <textLang mainLang="is"/>
+                     <author key="HalPet001">Hallgrímur Pétursson</author>
+                     <rubric>Eitt kvæde ort af S<ex>iera</ex> H P S</rubric>
+                  </msItem>
+                  <msItem n="14" class="dam">
+                     <locus from="61v:24" to="63v:28"/>
+                     <title type="uniform">Dæmisögur Esóps</title>
+                     <rubric>Nockrar Dæmesogur af Asopo</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="15" class="kvad">
+                     <locus from="64r:1" to="64v:5"/>
+                     <title type="supplied">Tröllaslagur</title>
+                     <textLang mainLang="is"/>
+                     <incipit>þetta first ordt af tveimur ferda mon<ex>n</ex>um<ex>m</ex>
+                        til Trollan<ex>n</ex>a</incipit>
+                     <explicit>kapp sa ber rætur skier</explicit>
+                  </msItem>
+                  <msItem n="16" class="kvad">
+                     <locus from="65r" to="69r:27"/>
+                     <title type="supplied">Kötludraumur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Køtlu Draumur</rubric>
+                     <incipit>Mꜳr hefur bued man<ex>n</ex>a gøfugastur</incipit>
+                     <explicit>og stungen<ex>n</ex> ÿs vid stormin<ex>n</ex> þunga</explicit>
+                     <finalRubric>ender</finalRubric>
+                  </msItem>
+                  <msItem n="17" class="kvad salm">
+                     <locus from="70r:1" to="77v:24"/>
+                     <title type="supplied">Varnaðarréttur</title>
+                     <textLang mainLang="is"/>
+                     <author>Magnús Pétursson</author>
+                     <rubric>þesse Psalmur kallast varnadar Riettur giordur af sal. Magnuse Peturssyne
+                        firrum<ex>m</ex> profaste i skaptafels sÿslu</rubric>
+                     <incipit>Varnadar riettin<ex>n</ex> vil eg hätt</incipit>
+                     <explicit>Jesus minstu þess bad Magnus</explicit>
+                     <colophon>þan<ex>n</ex> 30ta december 1783</colophon>
+                  </msItem>
+                  <msItem n="18" class="kvad">
+                     <locus from="78r:1" to="93v:20"/>
+                     <title type="supplied">Various poems</title>
+                     <textLang mainLang="is"/>
+                     <note>Englabrynja, Sólarkvæði, Jesú digtur, Einn Psalmur and other</note>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="94"/>
+                           <num type="back-flyleaf" value="11"/>
+                           <note>The eleven flyleaves at the back are printed pages from various books.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="99"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="20 27">
+                           <num type="wpl" atLeast="5" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="143"/>
+                              <width unit="mm" quantity="86"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#SigMag010" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Saga initials decorated in black ink.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Scribbling throughout.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Leather binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:53.526+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-03" who="#SK">Added topics and classes and other information from the
+            P.E.Ó.-catalogue. </change>
+         <change when="2013-07-22" who="#SMM">Completed cataloguing.</change>
+         <change when="2013-09-02" who="#OHA">Added missing items.</change>
+         <change when="2013-09-04" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

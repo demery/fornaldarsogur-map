@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1150 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1150-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1150 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/> <!-- chceck! -->
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="23r"/>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <filiation>
+                        <ref type="ms" target="#AM02-0065-en" ana="antigraph">copy of AM 65 fol.</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="25r" to="54v"/>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <explicit>ok vita ef fættir takaz meþ yþr, því at mer þikkir.</explicit>
+                     <filiation>
+                        <ref type="ms" target="#AM02-0065-en" ana="antigraph">copy of AM 65 fol.</ref>
+                     </filiation>
+                     <note>end missing</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="kvad" defective="true"> 
+                     <locus from="55r" to="62r"/>
+                     <title type="uniform">Jósmvíkinga drápa</title>
+                     <explicit>Kovngs morgvn er langr á vallt.</explicit>
+                     <filiation>
+                        <ref type="ms" target="#AM02-0065-en" ana="antigraph">copy of AM 65 fol.</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  <note>parts missing</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="62"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="350"/>
+                              <width unit="mm" quantity="199"/>
+                           </dimensions>
+                           <watermark ana="yes">Coat of arms with three x's and crown on top. Two lions at the sides</watermark>
+                        </support>
+                        <foliation ana="contemporary pag">
+                           <note>pagination starts over with each saga</note>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="25 26">
+                           <num type="wpl" atLeast="5" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="238"/>
+                              <width unit="mm" quantity="119"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="unknown" script="unknown"/> <!-- partly chancery, i.e. for rubrics and terms -->
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium">
+                     <p>scholarly notes and additions in the text and margins; notes on the antigraphs in <name type="person" role="owner" key="PetSuh001">Suhm</name>'s hand. 
+                        He also made a note on the verso side of the front flyleaf and signed it <q>PFSuhm</q>. </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Brown leather binding with golden ornaments on the spine. Title <q>Norna gests s. Gauta kon. s.</q> imprinted in the second box.
+                        Marbeled paper as pastedown; fore-edge painted blue.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:30.691+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-06-14" who="#BES">Added missing information with manusript in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

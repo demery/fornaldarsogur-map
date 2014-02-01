@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 12 b fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0012b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 12 b fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem class="fas" n="1">
+                     <locus from="1r" to="25v"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <incipit>spur<supplied>d</supplied>u hua<supplied>da</supplied>n<ex>n</ex>
+                           þ<ex>ei</ex><supplied>r</supplied> være ad <supplied>komnir</supplied>
+                     </incipit>
+                     <explicit>Og hielltt svo hver heim til sin<ex>n</ex>a heim kyn<ex>n</ex>a.</explicit>
+                     <filiation>
+                        <p>AM 12 b fol. is the exemplar of the relevant part of
+                        <ref type="ms" target="#AM02-0009-en" ana="apograph">
+                           AM 9 fol.</ref>
+                        </p>
+                     </filiation>
+                     <note>Fragment.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="25"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="317"/>
+                              <width unit="mm" quantity="197"/>
+                           </dimensions>
+                           <watermark ana="yes">The watermark resembles a horse in a half
+                              circle.</watermark>
+                        </support>
+                        <foliation ana="fol later">Foliation in faded red ink by <name type="person" role="scholar" key="KriKaa001">Kålund</name> in the middle upper margin or upper right hand corner, where the leaves are not
+                           damaged. Newer foliation in pencil at the same place.</foliation>
+                        <condition ana="poor">The manuscript was in very poor condition prior to repairs. The edges have crumbled
+                           off.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="25 27">
+                           <num type="wpl" atLeast="10" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="234"/>
+                              <width unit="mm" quantity="146"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonErl001" scope="sole" script="semihybrida">
+                        <p>Main text in semihybrida, rubrics in chancery.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext">Two little horizontal curls at the end of some sections, for example on <locus>1r,
+                           18v</locus>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Very little marginalia. Some illegible writing at the edges. A hardly legible name written at the
+                        bottom of <locus>14r</locus>. <q>NB</q> at the bottom of <locus>20r</locus>, where Bjarki realises that
+                        the old man he and Hrolf had encountered was Odin.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The manuscript is currently bound in a modern binding from <date>1983</date>:
+                           BD-standard binding with leather spine and corners, canvas lining. Dimensions: <height>317</height> x
+                           <width>206</width> x <depth>12</depth>mm. The original binding is preserved and stored in a separate
+                           case: soft grey cardboard
+                           binding with solid spine from <date>ca. 1770</date> with the title <q>Hrolfs Kraka
+                              Saga</q> and <q>No 12 B.</q> written on the front.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate notBefore="1600" notAfter="1699">Written in the 17th century</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:45.63+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:03.182+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:28.003+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2013-01-31" who="#BES">Added information based on TL's diss. Check with ms and add missing
+            information</change>
+         <change when="2013-02-01" who="#BES">Checked and added missing information with the ms. in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

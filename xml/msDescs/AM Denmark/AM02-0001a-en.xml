@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 1 a fol.</title>
+         </titleStmt>
+
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc xml:id="AM02-0001a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 1 a fol.</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+              
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="14r:3"/>
+                     <title ref="#snfdsv" type="uniform">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saugubrot. Af nockrum<ex>m</ex> fornköngum<ex>m</ex> j Dana <ex>ok</ex> Svia velde 
+                        Jvari Vydfadma Hræreke Helga inum<ex>m</ex> Hvassa Harallde Hilldetøn<ex>n</ex> med Bravallar bardaga <ex>ok</ex>
+                        nockud af Sigurde Hring epter þui sem fundizt hafa ritud a nidlags Saurblada rifrilldum<ex>m</ex> 
+                        Sun<ex>n</ex>durlaus</rubric>
+                     
+                     <msItem n="1.1" class="">
+                        <locus from="1r:1" to="8r:19"/>
+                        <rubric>1. Brot vm<ex>m</ex> konbonar før Helga Hins Hvassa til Audar
+                           Hin<ex>n</ex>ar Diupaudgv Jvars döttur Vïdfadma j Sviaryke Og
+                           taalsvør Jvars vpphafslaust. Ord Audar vid fodur sin<ex>n</ex>
+                           fram<ex>m</ex>beran<ex>n</ex>de eirinde Helga med vnderhyggiu.</rubric>
+                        
+                        <msItem n="1.1.1" class="">
+                           <locus from="1r:1" to="7v:14"/>
+                           <incipit>** Se eg ad þetta mäl þarf ad litt se a a lopt borid ad
+                              men<ex>n</ex> bidie myn.</incipit>
+                           <explicit><ex>og</ex> q<ex>ve</ex>þr h<ex>an</ex>n blyþum<ex>m</ex> ordum<ex>m</ex> og fógru<ex>m</ex> ***</explicit>
+                           
+                           <note>After the texts is a note reading: <q>Hier wan<ex>n</ex>tar m<ex>ik</ex>ed vid
+                              fram<ex>m</ex> ad ellidogum<ex>m</ex> Haralldar
+                              Hilldetan<ex>n</ex>ar.</q></note>
+                           
+                        </msItem>
+                        
+                        <msItem n="1.1.2" class="">
+                           <locus from="8r:1" to="8r:19"/>
+                           <incipit>*** Og a einv hauste sotte h<ex>an</ex>n a fun<ex>n</ex>d Harallds kongs</incipit>
+                           <explicit>en<ex>n</ex> an<ex>n</ex>ar Þrøndur gamli.</explicit>
+                           
+                        </msItem>
+                     </msItem>
+                       
+                     <msItem n="1.2" class="">
+                        <locus from="8v:1" to="14r:3"/>
+                        <rubric>Bravallar bardagi midli Harallds kongs Hilldetan<ex>n</ex>ar. Og
+                           Sigurdar Hrings.</rubric>
+                        <incipit>Ok er Haralldur köng<ex>ur</ex> Hilldetøn<ex>n</ex> var
+                           ordin<ex>n</ex> so gamall er h<ex>an</ex>n hafde halft an<ex>n</ex>ad
+                           hundrad vetra</incipit>
+                        <explicit>þuiad allt forellri alf<supplied reason="omitted" instant="false">hilldar</supplied></explicit>
+                          
+                     </msItem>
+                           
+                     <filiation>
+                        <p>This is a copy of the defective manuscript <ref type="ms" target="#AM02-0001e-beta-en" ana="antigraph">AM 1 e β fol.</ref>
+                    made by <name key="JonErl001" type="person">Sr. Jón Erlendsson í
+                    Villingaholti</name>.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="19"/>
+                           <num type="back-flyleaf" value="1"/>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="305"/>
+                              <width unit="mm" quantity="190"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">Coat of arms with mitre and flanked by rampant lions visible on second 
+                              front flyleaf.</watermark>
+                           
+                        </support>
+                        
+                        <foliation ana="contemporary later pag fol">
+                           <p>Paginated (1-37) on recto leaves in upper corners. Later foliation (1-14) in red ink 
+                        by <name type="person" key="KriKaa001">Kålund</name> beneath pagination
+                              (now somewhat faded as a result of conservation). Refoliated in pencil (1-19) 
+                              by <name type="person" key="MarOve001">Mariane
+                            Overgaard</name> in 1980 during conservation.</p>
+                        </foliation>
+                        
+                        <condition ana="good"/>
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 25">
+                           <num type="wpl" atLeast="9" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="235"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                     <handNote scribeRef="#JonErl001" scope="major" script="textualis">
+                        <p>Written, apart from fol. <locus>12</locus>, by Jón Erlendsson from Villingaholt 
+                           in a clear, seventeenth-century Gothic book hand.</p>
+                     </handNote>
+                     
+                     <!-- what is the proper code for 'humbook'? -->
+                     <handNote scribeRef="unknown" scope="minor" script="textualis">
+                        <p>Fol. 12 has been added later to replace a missing leaf; the hand is younger but
+                    appears consciously to imitate the hand of the main scribe.</p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Floriated initial on fol. 5r.</decoNote>
+                  </decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Additional slip at the front of the volume in the hand of AM reads: <q>Fragment
+                        um Bravallar bardaga. Feinged til lans af Jone Þorlaks syne 1709. Sidan til
+                        kaups 1710. Er med hendi Sr Jons i Villinga hollte, og var in<ex>n</ex>bunded i
+                        bok med ödrum sögum.</q></p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in <name type="person" key="ArnMag001">Árni Magnússon</name>'s time in
+                    limp vellum over paper boards. <!--<dimensions type="binding">
+                              <height>310</height>
+                              <width>196</width>
+                              <depth>6</depth>
+                           </dimensions>-->
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Written in <origPlace key="IS">Villingaholt in southern Iceland</origPlace> in the
+                        <origDate notBefore="1640" notAfter="1660">mid seventeenth century</origDate>.</p>
+                  </origin>
+                  
+                  <provenance>
+                     <p>According to the inserted slip, <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                        borrowed the manuscript from <name type="person" role="owner" key="JonTho012">Jón Þorláksson</name> in 1709
+                        and purchased it from him in 1710.</p>
+                  </provenance>
+                                    
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:37.975+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:51:58.128+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:09.881+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:22.987+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:02.714+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-07-01" who="#JSL">Added details from handrit and Kålund.</change>
+         <change when="2013-07-02" who="#JSL">Cataloged from manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

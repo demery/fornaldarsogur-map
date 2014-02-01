@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westin 83</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Westin-83" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>Westin 83</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="18r:15"/>
+                     <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Hiaalmter og Ølver.</rubric>
+                     <incipit>Þesse Saga biriast af einum<ex>m</ex> Ägiætum konge, er Jnge hiet</incipit>
+                     <explicit>og er m<ex>ar</ex>gt Folk frä þ<ex>ei</ex>m komed, un<ex>n</ex>u þ<ex>ei</ex>r und<ex>er</ex> sig
+                        mórg k<ex>on</ex>ga Rtyrkie,</explicit>
+                     <finalRubric>og liükum<ex>m</ex> vier hier sógu Hiälm<ex>ters</ex> Ølv<ex>ers</ex> Hrings og
+                        Hervarar.</finalRubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="18"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="199"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <note>Bottom half of fol. 18r and all of fol. 18v blank.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="34 36">
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="other">Decorated initials in rubric on fol. 1. First line of new chapters written in
+                        different script. Ending written in half-diamond indention.</decoNote>
+                  </decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in cardboard with marbled pattern.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <p>The manuscript once belonged to <name key="BirTho001" role="owner" type="person">Birger Thorlacius</name>, after
+                        whose death <name type="person" role="owner" key="JacWes001">Jacob Westin</name> bought it at an auction in <date when="1830">1830</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:24.347+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-08" who="SH">Added information from cagalogue and the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

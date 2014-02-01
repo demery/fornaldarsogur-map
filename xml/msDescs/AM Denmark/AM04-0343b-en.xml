@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 343 b 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0343b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 343 b 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="36:r:10">1r-36r</locus>
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <incipit><supplied reason="omitted">E</supplied>irekr het kongr er redi fyrír 
+                        Suiþiodu han<ex>n</ex> uar kalladr Eírikir hín<ex>n</ex> sigrsælí</incipit>
+                     <explicit>en<ex>n</ex> klacka hafdí heyrt segía hína fyrrí frændr sina. ok 
+                           þar lyktum ver þessa saugu.</explicit>
+                     <filiation><p>Copy of <ref type="ms" target="#AM04-0343-a-en" ana="antigraph">AM 343 a 4to</ref>.</p></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="36"/> 
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <watermark ana="yes">Coat of arms</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliated 1-36 in red ink in the upper right corners by <name type="person" key="KriKaa001">Kålund</name>.</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="19">
+                           <num type="wpl" atLeast="6" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="yes">Catchwords are found on fols. <locus>8v, 16v and
+                              24v</locus>.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonSig022" scope="sole" script="chancery">
+                      <!--  <p>Written by the priest Jón Sigurðsson from <name type="place" key="Víðid01">Víðidalstunga</name>.</p>-->
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>In the upper right corner of fol. <locus>1r</locus> is added: <q xml:lang="is">Efter
+                    Membr. 343a.</q>. Shelfmark added in upper margin of fol. 1r.
+                     In a few spots there are marks in the margin.
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Bound in a grey cardboard with a blue paper pastedown in the front and a
+                    white (conjoint with fol. <locus>33</locus>) in the back.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1690" notAfter="1730"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:15.544+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:23+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:32.56+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:48.151+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:26.356+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-07-19" who="#BES">Added catalog info and from handrit.is.</change>
+         <change when="2013-07-19" who="#BES">Added missing information with manuscript in situ.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

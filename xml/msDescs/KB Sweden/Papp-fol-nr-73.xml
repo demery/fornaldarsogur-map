@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 73</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-73" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 73</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Grims saga Ludin-Kind, Ketil Hängs samt Pile-Odds Sagor, á Svenska öfversatte <del>Samt med Företal ökte, [...]</del>
+                        <!-- add rest! --> af E.J. Bioerner, År 1738. in Julio.</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1v" to="20r"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-fol-nr-102" ana="antigraph">Papp. fol. nr. 102</ref>.</p>
+                     </filiation>
+                     <note>Icelandic text on verso-side with Swedish transl. on recto</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="21v" to="64r"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="#Papp-fol-nr-102" ana="antigraph">Papp. fol. nr. 102</ref>.</p>
+                     </filiation>
+                     <note>Icelandic text on verso-side with Swedish transl. on recto</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="65v" to="374r"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <filiation>
+                        <p>Copy of 
+                           <ref type="ms" target="#Papp-fol-nr-102" ana="antigraph">Papp. fol. nr. 102</ref>.</p>
+                     </filiation>
+                     <note>Younger version. Icelandic text on verso-side with Swedish transl. on recto</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="174"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="320"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes">Different watermarks: "C <ex>et</ex> I Honig" with a circular image, double circle
+                              with emblem and image inside. "WB" with a small crown above, accompanied by a large circle with
+                              crown on top. There are some writings around the outline of the circle, a lion in the centre with a
+                              name (or other letters) at its feet. The watermark of the flyleaves reads "HOWARD" and shows a bee
+                              hive with ornaments. Below the hive, "1839" can be read.</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p/>
+                        </foliation>
+                        <condition ana="good">A few repairs</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 23">
+                           <num type="wpl" atLeast="2" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#EriBio001" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="medium"><p>Scholarly notes in the margins, underlining and corrections of misspellings. On fol.
+                           <locus>1r</locus>, Latin notes in the same hand as the corrections. On the front-flyleaf, a later hand
+                        added: <q>Island. Chart. in folio. No 73 1-3. Inbunden år 1843 G.O.H.C.</q>. On fol. <locus>374v</locus>,
+                        a little slip is glued onto the page: <q>Jatmund rex anglia cap. 24</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with leather spine and corners. The golden imprint on the spine reads:
+                              <q>GRIM LUDIN-KINDS, KETTIL HÄNGS samt PILE-ODDS SAGOR. Isl. text m. Sw. Öfversättn. af BIOERNER,
+                              1738.</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1738"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance><p>Translated and written by Erik J. Björner.</p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:05.55+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. catalog info still missing.</change>
+         <change when="2013-03-06" who="#BES">Measured and checked at the library.</change>
+         <change when="2013-03-25" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

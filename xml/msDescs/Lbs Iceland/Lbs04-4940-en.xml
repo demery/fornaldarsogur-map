@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 4940 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-4940-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 4940 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>
+                        <locus from="1r" to="1r"/>Fornmanna-sögur Norðurlanda. Þrettánda bindi
+                        Skrifaðar eftir gömlum bókum annó MDCCXC - VIII (1898)</titlePart>
+                  </titlePage>
+                  <msItem class="formal" n="1">
+                     <locus from="2r" to="4v"/>
+                     <title type="supplied">Formáli</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="riddst">
+                     <locus from="5r" to="24v"/>
+                     <title type="uniform">Knúts saga (Steinssonar) heimska</title>
+                     <textLang mainLang="non"/>
+                     <note>ÍB 430 4to, Lbs 1993 8vo</note>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="25r" to="44v"/>
+                     <title type="uniform ">Sigurðar saga turnara</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="riddst">
+                     <locus from="45r" to="137v"/>
+                     <title type="uniform">Hinriks saga góðgjarna og Valentínusar frækna</title>
+                     <title type="supplied">Hinriks saga góðgjarna og Valentínusar sonar
+                        hans</title>
+                     <textLang mainLang="non"/>
+                     <note>Lbs 1508 4to, ÍB 462 4to</note>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="138r" to="200v"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="201r" to="231v"/>
+                     <title type="uniform">Partalopa saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="232r" to="303v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="riddst">
+                     <locus from="304r" to="342v"/>
+                     <title type="uniform">Marons saga sterka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="skalds">
+                     <locus from="343r" to="376v"/>
+                     <title type="uniform">Rígabels saga konungs og Alkanus</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="377r" to="400v"/>
+                     <title ref="#ssst" type="uniform">Sörla saga sterka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="400"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="206"/>
+                              <width unit="mm" quantity="166"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="contemporary pag">Title-page is counted as page
+                           one.</foliation>
+                        <condition ana="good">Traces of dirt and one page has had to receive minor
+                           repairs.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="17 23">
+                           <num type="wpl" atLeast="7" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="138"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MagJon001" scope="major" script="hum cursiva">Magnús
+                        Jónsson í Tjaldanesi in his own constructed script.</handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1898"/>
+                     <origPlace key="IS"><name type="place" key="TjaSau01">Tjaldanes
+                        Saurbæ</name></origPlace>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="OloKet001">Ólöf Ketilbjarnardóttir</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:12.01+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources</change>
+         <change when="2012-05" who="#SK">Added information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

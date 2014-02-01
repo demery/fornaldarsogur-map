@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt> 
+                <title>Æbs 4530 8vo</title> 
+            </titleStmt> 
+            
+            <publicationStmt> 
+                <availability status="restricted"> 
+                    <p>Not ready for publication.</p> 
+                </availability> 
+                <authority>Den Arnamagnæanske Samling, København</authority>                 
+            </publicationStmt> 
+            
+            <sourceDesc>
+                <msDesc xml:id="Lbs08-4530-en" xml:lang="en"> 
+                    <msIdentifier> 
+                        <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository> 
+                        <idno>Lbs 4530 8vo</idno> 
+                    </msIdentifier> 
+                    
+                    <msContents> 
+                        
+                        <titlePage ana="no"> 
+                        </titlePage> 
+                        
+                        <msItem n="1" class="almb"> 
+                            <!--<locus from="X" to="X"/> --> 
+                            <title type="uniform">Griseldis saga</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="2" class="rimur"> 
+                            <!--<locus from="X" to="X"/>-->  
+                            <title type="uniform">Þorsteins ríma Austfirðings</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="3" class="ljodbr"> 
+                            <!--<locus from="X" to="X"/>--> 
+                            <author>Sr. Páll skáld</author>
+                            <title type="supplied">Ljóðabréf</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="4" class="fas"> 
+                            <!--<locus from="X" to="X"/>-->  
+                            <title type="supplied">Um slæma næturgisting</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="5" class="fas"> 
+                            <!--<locus from="X" to="X"/> --> 
+                            <title type="uniform" ref="#gsgr">Gautreks saga</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="6" class="kvad"> 
+                            <!--<locus from="X" to="X"/>-->
+                            <author>Árni Böðvarsson</author>
+                            <title type="uniform">Skjöldur</title> 
+                            <textLang mainLang="non"/> 
+                            <note>Poem</note>
+                        </msItem>                        
+                        <msItem n="7" class="XXX"> 
+                            <!--<locus from="X" to="X"/>-->  
+                            <title type="supplied">Items</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="8" class="XXX"> 
+                            <!--<locus from="X" to="X"/> --> 
+                            <title type="supplied">Poem</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="9" class="XXX"> 
+                            <!--<locus from="X" to="X"/>-->  
+                            <title type="uniform">Christ's childhood</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="10" class="XXX"> 
+                            <!--<locus from="X" to="X"/>-->  
+                            <title type="supplied">Epitaph of Sr. Snorri and Stephan amtmaður</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="11" class="kvad"> 
+                            <!--<locus from="X" to="X"/>  -->
+                            <author>Jón Þorláksson</author>
+                            <title type="uniform">Bargarbót</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="12" class="rimur"> 
+                            <!--<locus from="X" to="X"/>  -->
+                            <title type="uniform">Veiðimannaríma</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="13" class="kvad"> 
+                            <!--<locus from="X" to="X"/> --> 
+                            <author>Jakob Jónsson</author>
+                            <title type="supllied">Langloka</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="14" class="sendbr"> 
+                            <!--<locus from="X" to="X"/> --> 
+                            <title type="supplied">Letter from Jón sýslumaður to Jörgensen</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="15" class="kvad"> <!-- check class -->
+                            <!--<locus from="X" to="X"/>-->  
+                            <author>Guðmundur Bergþórsson</author>
+                            <title type="supplied">Vinaspegill</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem>                        
+                        <msItem n="16" class="rimur"> 
+                            <!--<locus from="X" to="X"/> --> 
+                            <title type="uniform">Jannesarríma</title> 
+                            <textLang mainLang="non"/> 
+                        </msItem> 
+                    </msContents>              
+                    
+                    <physDesc> 
+                        <objectDesc form="codex">                           
+                            <supportDesc material="chart">                                 
+                                <support> 
+                                    <num type="front-flyleaf" value="1"/> 
+                                    <num type="book-block" value="145"/> 
+                                    <!--<num type="back-flyleaf" value=""/>--> 
+                                    <dimensions type="leaf"> 
+                                        <height unit="mm" quantity="177"/> 
+                                        <width unit="mm" quantity="104"/> 
+                                    </dimensions> 
+                                    <!--<watermark ana="no|yes"/>-->
+                                </support> 
+                                
+                                <!--<foliation ana="no|contemporary|later|pag|col|fol"/>--> 
+                                <!--<condition ana="terrible|poor|average|good|excellent"/>-->
+                            </supportDesc> 
+                            <!--<layoutDesc> 
+                                <layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">
+                                    <num type="wpl" atLeast="" atMost=""/>
+                                    <dimensions type="written"> 
+                                        <height unit="mm" quantity=""/> 
+                                        <width unit="mm" quantity=""/> 
+                                    </dimensions>
+                                </layout> 
+                            </layoutDesc>--> 
+                            
+                        </objectDesc> 
+                        
+                        <handDesc hands="9"> 
+                            <handNote scribeRef="#abc" scope="major" script="textualis">Many scribes</handNote>
+                            <handNote scribeRef="#abc" scope="minor" script="textualis">Gautreks saga was written by H. Guðmundsson</handNote>
+                        </handDesc>
+                        <!--<decoDesc ana="no|low|medium|high"> 
+                            <decoNote type="border"/> 
+                        </decoDesc>--> 
+                        <!--<additions ana="no|low|medium|high">
+                            <p> 
+                            </p> 
+                        </additions> -->
+                        <!--<bindingDesc> 
+                            <binding ana="plain|moderate|decorative" contemporary="false"> 
+                                <p/> 
+                            </binding>                             
+                        </bindingDesc> -->
+                    </physDesc> 
+                    
+                    <history> 
+                        <origin> 
+                            <origDate from="1844" to="1846"/> 
+                            <origPlace key="IS"/> 
+                        </origin> 
+                        <provenance> 
+                            <p><name type="person" role="owner" key="TomTom003">Tómas Tómasson</name> sold the manuscript to the Landsbókasafn <date when="1989-09-12">12 September 1989</date>.</p> 
+                            <p><name type="person" role="signatory" key="">Guðriður Guðnadóttir</name><date when="1872">1872</date> 
+                            <name type="person" role="signatory" key="">Pétur Guðnason</name> 
+                            <name type="person" role="signatory" key="">Þórólfur</name> 
+                            <name type="person" role="signatory" key="">Finnur Gíslason</name> 
+                            <name type="person" role="signatory" key="">Þorsteinn Magnússon</name> 
+                            <name type="person" role="signatory" key="">Guðmundur Jónsson</name>, Stóra Búrfell, 
+                            <name type="person" role="signatory" key="">Einar</name> 
+                            <name type="person" role="signatory" key="">Gísli Jónsson</name> </p>
+                        </provenance> 
+                    </history>                     
+                    
+                </msDesc> 
+                
+            </sourceDesc> 
+            
+        </fileDesc> 
+        <revisionDesc> 
+            <change when="2011" who="#EAH">Auto-generated from FASNL bibliography data</change>
+            <change when="2014-01-23" who="#SH">Document created by Silvia Hufnagel with information from the unprinted Lbs-catalogue draft Handritaskrá 1964-2013</change> 
+        </revisionDesc> 
+    </teiHeader> 
+    
+    <facsimile> 
+        <surface/> 
+    </facsimile> 
+    
+    <text> 
+        <body> 
+            <p/> 
+        </body> 
+    </text> 
+</TEI> 

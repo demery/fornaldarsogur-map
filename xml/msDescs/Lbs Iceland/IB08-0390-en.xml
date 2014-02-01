@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 390 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0390-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 390 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="112"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="162"/>
+                              <width unit="mm" quantity="102"/>
+                           </dimensions>
+                        </support>
+                        <condition ana="average">
+                           <p>Lacking between folios <locus>54-55</locus>, <locus>70-71</locus>, <locus>104-105</locus>. </p>
+                           <p>One third of folio <locus from="112r" facs="#IB08-0390-0112r" to="112v">112</locus> has been torn
+                              away, but probably without any text loss.</p>
+                           <p>Bound in wrong order; correct order would be: 86, 88, 89, 87, 90. </p>
+                           <p>Folio <locus>71</locus> loose. </p>
+                           <p>Back flyleaf loose.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions ana="low">
+                     <p>On the verso side of the front flyleaf can be read: <q>Þ Þorsteinsson á <gap/> Ég fékk þessa bók hjá Jóni Gísla á Grýtu þann 15 júlí
+                        1859 fyrir vísu.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown"><!-- contemporary= true/false? -->
+                        <p>Marbeled paper on card boards, brown leather spine and corners.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1726" to="1760">1726-[1760?]</origDate>
+                  </origin>
+                  <provenance><p>
+                     <name type="person" role="owner" key="ThoTho021">Þ[orsteinn] Þorsteinsson [á
+                        <name type="place">Upsum</name>]</name> got the manuscript from
+                     <name type="person" role="owner" key="JonGis005">Jón Gíslason</name> á
+                           <name type="place">Grýtu </name> on <date when="1859">15 July 1859</date>.</p>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>ÍB 390 8vo I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="ridd">
+                        <locus from="1r" facs="#IB08-0390-0001r" to="37v">1r-37v</locus>
+                        <title type="uniform">Dínus saga drambláta</title>
+                        <textLang mainLang="non"/>
+                        <filiation><p>Copied from 
+                           <ref type="ms" target="IB08-0201" ana="antigraph">ÍB 201
+                           8vo</ref></p></filiation>
+                     </msItem>
+                     <msItem n="2" class="bragfr">
+                        <locus from="38r" facs="#IB08-0390-0038r" to="38r">38r-38r</locus>
+                        <title type="supplied">Bragarhættir</title>
+                        <textLang mainLang="non"/>
+                        <note>Nokkrir rímnabragir</note>
+                        
+                     </msItem>
+                     <msItem n="3" class="isl" defective="true">
+                        <locus from="39r" facs="#IB08-0390-0039r" to="54v">39r-54v</locus>
+                        <title type="uniform">Kjalnesinga saga</title>
+                        <textLang mainLang="non"/>
+                        <note>Incomplete. Ending is missing between fol. <locus>54-55</locus></note>
+                     </msItem>
+                     <msItem n="4" class="fas">
+                        <locus from="55r" facs="#IB08-0390-0055r" to="59v">55r-59v</locus>
+                        <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Söguþáttur af Grími loðinkinnu</rubric>
+                     </msItem>
+                     <msItem n="5" class="islt">
+                        <locus from="59v" facs="#IB08-0390-0059v" to="64r">59v-64r</locus>
+                        <title type="uniform" xml:lang="is">Jökuls þáttur Búasonar</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="6" class="riddst" defective="true">
+                        <locus from="64r" facs="#IB08-0390-0064r" to="70v">64r-70v</locus>
+                        <title type="uniform">Faustus saga og Ermenu í Serklandi</title>
+                        <textLang mainLang="non"/>
+                        <note>Lacking at the end between folios <locus>70-71</locus></note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="70"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="162"/>
+                                 <width unit="mm" quantity="102"/>
+                              </dimensions>
+                             <!-- <watermark ana=""></watermark>-->
+                           </support>
+                           <foliation ana="contemporary pag">
+                              <p>Paginated 1-11 (<locus>2r-7r</locus>)</p>
+                           </foliation>
+                           <condition ana="average">Lacking between fols. <locus>54r-55v</locus> and <locus>70r-71v</locus>
+                           </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="25 30">
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                            <!--  <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" scope="major" script="unknown">Hand I wrote (most of) fols. <locus>1r-64r</locus>. The script is a mixture of early kurrent and chancery. </handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent">Hand II wrote fols. <locus>64r-70v</locus></handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Pen trials and scribbling on fol. <locus>37v-38r</locus>.
+                           18th century owner's name on fol. <locus>38r-38v</locus>.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1726" to="1760">1726-[1760?]</origDate>
+                     </origin>
+                     <provenance>
+                        <p>Owner of manuscript: <name type="person" role="owner" key="JonHel004">Jón
+                              Helgason</name> á Gerðum (38v); 
+                           <name type="person" role="owner" key="JonGis005">Jón Gíslason</name> got the manuscript from <name type="person" key="GudHal001">Guðmundur Hallgrímsson</name> í Holtseli
+                           on the <locus>25th may 1766</locus> (38r-38v)</p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>ÍB 390 8vo II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="rimur">
+                        <locus from="71r" facs="#IB08-0390-0071r" to="91v">71r-91v</locus>
+                        <title type="uniform">Cedrasrímur</title>
+                        <textLang mainLang="is"/>
+                        <note>5 rímur; first three are by Jón and two last by
+                           Eiríkur</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="21"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="162"/>
+                                 <width unit="mm" quantity="102"/>
+                              </dimensions>
+                              <!--<watermark ana=""></watermark>-->
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="average">Bound in the wrong order. Correct order: 86, 88, 89, 87,
+                              90</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="23 26">
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="chancery"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial" subtype="decorated">Slightly decorated initials in some places.</decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p><name type="person" role="owner" key="GudSig008"><!-- uncertain about person key -->Guðmundur
+                           Sigurðsson</name> left an ownership note on fol. <locus>91v</locus></p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1730" to="1760">[1730-1760?]</origDate>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="owner" key="ambig">Guðmundur Sigurðsson</name>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>ÍB 390 8vo III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="kvad">
+                        <locus from="92r" facs="#IB08-0390-0092r" to="95r">92r-95r</locus>
+                        <author>Jón Pálsson Vídalín</author>
+                        <title type="supplied">Sorgarklögun</title>
+                        <textLang mainLang="is"/>
+                        <note>Erfiljóð (commemorative poem) eftir Jón Pálsson Vídalín sýslumann í Vaðlaþingi</note>
+                     </msItem>
+                     <msItem n="2" class="kvad">
+                        <locus from="95r" facs="#IB08-0390-0095r" to="95v">95r-95v</locus>
+                        <author>Jón Pálsson Vídalín</author>
+                        <title type="supplied">Erfiljóð</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="3" class="kvad">
+                        <locus from="96r" facs="#IB08-0390-0096r" to="99v">96r-99v</locus>
+                        <author>Jens Madsson Spendrup sýslumann í Hegranesþingi</author>
+                        <title type="supplied">Erfiljóð eftir Jens Madsson Spendrup</title>
+                        <textLang mainLang="is"/>
+                       
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="8"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="162"/>
+                                 <width unit="mm" quantity="102"/>
+                              </dimensions>
+                             <!-- <watermark ana=""></watermark>-->
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="average">Fol. <locus>71</locus> loose.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="18 20">
+                              <num type="wpl" atLeast="4" atMost="8"/>
+                              <!--<dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial" subtype="decorated">Slightly decorated initials in some places.</decoNote>
+                        <decoNote type="frieze" subtype="tail-piece">Knotwork on fols. <locus from="92v" facs="#IB08-0390-0092v" to="92v"> 92v</locus> and <locus from="95v" facs="#IB08-0390-0095v" to="95v">95v </locus>
+                        </decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>Pen trials on fol. <locus>92v</locus>.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1735" to="1760">[1735-1760?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>ÍB 390 8vo IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="gudfr">
+                        <locus from="100r" facs="#IB08-0390-0100r" to="103v">100r-103v</locus>
+                        <title type="supplied">Historía um straff og plágu sem 12 kynþættir Júða
+                           hljóta að líða</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="2" class="gudfr" defective="true">
+                        <locus from="103v" facs="#IB08-0390-0103v" to="104v">103v-104v</locus>
+                        <title type="supplied">Höfuðmerki hvers dags</title>
+                        <textLang mainLang="is"/>
+                        <note>Lacking at the end (fols. <locus>104-105</locus>)</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="5"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="162"/>
+                                 <width unit="mm" quantity="102"/>
+                              </dimensions>
+                              <!--<watermark ana=""></watermark>-->
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="average">Fols. <locus>104-105</locus> missing</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="20 24">
+                              <num type="wpl" atLeast="5" atMost="9"/>
+                              <!--<dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <!--check-->
+                        <handNote scribeRef="unknown" scope="major" script="unknown">Two hands?</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="low"><p>Sparse marginalia, e.g. on fol. <locus>103v</locus>: <q>Da<gap/></q></p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1730" to="1760">[1730-1760?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>ÍB 390 8vo V</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="kvad">
+                        <locus from="105r" facs="#IB08-0390-0105r" to="112r">105r-112r</locus>
+                        <title type="uniform">Kolbeinseyjarvísur</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="8"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="162"/>
+                                 <width unit="mm" quantity="102"/>
+                              </dimensions>
+                             <!-- <watermark ana=""></watermark>-->
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="poor">A third of fol. <locus from="112r" facs="#IB08-0390-0112r" to="112v">
+                                 112</locus> has been ripped off. Probably no text was written on it.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="24 27">
+                              <num type="wpl" atLeast="5" atMost="8"/>
+                             <!-- <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="unknown"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>Ownership note on fol. <locus>112v</locus> written by a certain Jón Gíslason: <q>Eg J Gs</q> and <q>J. G. S.</q></p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1730" to="1760">[1730-1760?]</origDate>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="owner" key="JonGis005">J(ón) G(ísla) S(son)</name>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:03.698+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:13.168+02:00" who="#EAH"> Introduced repository auth file.Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:33.876+02:00" who="#EAH"> Extracted pagination and page dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:09.754+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-02" who="#SK"> Catalogued partial. Added information in Part I where there is a fornaldarsaga from the digital version on handrit.is and adapted to FASNL</change>
+         <change when="2013-06-03" who="#SMM">Added information after looking at pictures on handrit.is.</change>
+         <!-- information missing, e.g. watermark and writing area + binding contemporary: true/false -->
+         <change when="2013-08-20" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+
+      <fileDesc>
+         <titleStmt>
+            <title>Mss. philol. 78</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Mss-philol-78" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBRST">Universitätsbibliothek, Rostock</repository>
+                  <idno>Mss. philol. 78</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Scand. fol. 55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Gedichte und Mährlein Von allerhand Geschichten, welche sich zu Uhralten Zeiten in denen
+                        Nordischen Ländern zugetragen. Zusammen geschrieben Von unterschiedenen den Nahmen nach unbekandten
+                        müßigen Islandern . meistentheils zum Zeitvertreib, welche dennoch zu erlernung der Sprache und
+                        erläuterung in der Nordischen VölkerArth, alten Sitten und Gebräuche dienen können. Tomus Unicus.
+                        Stockholm 1725</titlePart>
+                     <note>Title page only for first part (up to item 15)</note>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="ffl3r" to="ffl4r"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="la" otherLangs="de"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="1r" to="117r">pp. 1-233</locus>
+                     <title type="uniform">Mágus saga</title>
+                     <rubric>Hier byriast Magus Iarls Saga</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="119r" to="130r">pp. 237-259</locus>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                     <rubric>Vpphaf Sogunnar af Drauma Ione, ok Henrik Iarle</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="131r" to="181r">pp. 261-361</locus>
+                     <title type="uniform">Bærings saga fagra</title>
+                     <rubric>Hier hefst upp Sagan af Bäring Fagra</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="islt">
+                     <locus from="186r" to="201r:6">pp. 365-401</locus>
+                     <title type="uniform">Önundar þáttur tréfóts</title>
+                     <rubric>Hier bzriast Grettla, Edur Saga af Gretter Sterka Asmundar syne; og er fyrst Þattur af Ønunde
+                        Tre=fot</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="201r:7" to="359r">pp. 401-717</locus>
+                     <title type="uniform">Grettis saga</title>
+                     <textLang mainLang="non"/>
+                     <note>without separate rubric (see item 4)</note>
+                     <msItem n="6.1" class="laus">
+                        <locus from="359r" to="359r"/>
+                        <title type="supplied">Two Verses on Grettir</title>
+                        <textLang mainLang="non"/>
+                        <author>Þórður á Stringi</author>
+                        <incipit>Þrott og þrek bar Grettir</incipit>
+                        <explicit>veitt enn luckann af=neitt.</explicit>
+                     </msItem>
+                  </msItem>
+                  <msItem n="7" class="kon">
+                     <locus from="361r" to="386r">pp. 721-735</locus>
+                     <title type="uniform">Knýtlinga saga</title>
+                     <rubric>Þesse bök hefur inne ad hallda Knitlinga Sogu, som skrifud war epter miøg gamallri Membrana. Og
+                           h<ex>?</ex>yr Þm<ex>ar</ex>gt, s<ex>e</ex>m adrar Søgur ei hafa. Skrifad i Kaupenhafn. Anno
+                        1687</rubric>
+                     <rubric>Caput I</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="isl">
+                     <locus from="369r" to="392v">pp. 737-784</locus>
+                     <title type="uniform">Gunnlaugs saga ormstungu </title>
+                     <rubric>Saga þeirra. Hrafns og Gunnlaugs Orms Tungu. Epter þisem sagt hefur Ari Prestur enn Frodi Þorgilsson
+                        er mestur frædi Madur hefur verid á Islandi, á lann ráma Søgur og forn fræde</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="fas">
+                     <locus from="393r" to="415v">pp. 785-830</locus>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra <note>[Swedish]</note></title>
+                     <rubric>Här begynddes den Saga som handlar om Halfdan Branas Foster Son</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="416r" to="458v">pp. 831-916</locus>
+                     <title type="uniform" ref="#ssst">Sörla saga sterka <note>[Swedish]</note></title>
+                     <rubric>Här begynnes Sagan af Sorle den Starka</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="460r" to="531v">pp. 919-1062</locus>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga <note>[Swedish]</note></title>
+                     <author role="translator">Johan Peringskiöld</author>
+                     <rubric>Gange Hrolfs Sturlöger Sohns Saga. Af den gambla Giötiskan Öferersatt af Johan
+                        Peringsckiöld.</rubric>
+                     <rubric>Här begynned Gange Hrólfs historia</rubric>
+                     <textLang mainLang="sv"/>
+                     <note>With its own title page</note>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="534r" to="545v">pp. 1063-1090</locus>
+                     <title type="uniform">Samsons saga fagra <note>[Swedish]</note></title>
+                     <rubric>Sogunn af Samsonar Fagra</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="546r" to="605r">pp. 1091-1209</locus>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka <note>[Swedish]</note></title>
+                     <rubric>K<ex>onung</ex> Hrolf Krakes samt Adills Upsala Konung Saga Af den gambla Götiskan öfversatt af
+                        Giödrickr Biörßon</rubric>
+                     <rubric>Här begynnes konung Hrólf krakes historia och Handlar här först om Frodes bedrifter</rubric>
+                     <textLang mainLang="sv"/>
+                     <note>With its own title page</note>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="606r" to="637v">pp. 1211-1274</locus>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar <note>[Swedish]</note></title>
+                     <rubric>Halfdan Östensons Historia</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="15" class="edd">
+                     <locus from="638r" to="694r">pp. 1275-1387</locus>
+                     <title type="supplied">Eddukvæði [Excerpts]</title>
+                     <rubric>Edda Saemunar ins Fröþa</rubric>
+                     <textLang mainLang="la" otherLangs="de is"/>
+                     <filiation>
+                        <ref type="ms" ana="protograph">Excerpt from Grágás (according to note)</ref>
+                     </filiation>
+                     <note>Excerpts in Latin or German with Notes in Icelandic</note>
+
+                     <msItem n="15.1" class="regist">
+                        <locus from="638r" to="638v">pp. 1275-1276</locus>
+                        <title type="supplied">Table of Contents</title>
+                        <textLang mainLang="la" otherLangs="non"/>
+                        <note>Names and terms also given in Icelandic (as notes, mostly in margins)</note>
+                     </msItem>
+                     <msItem n="15.2" class="edd">
+                        <locus from="639r" to="643r">pp. 1277-1285</locus>
+                        <title type="uniform">Sólarljóð <note>[Latin]</note></title>
+                        <rubric>Hic incipuntur Solis Carmina</rubric>
+                        <textLang mainLang="la" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="15.3" class="edd">
+                        <locus from="644r" to="645v">pp. 1287-1290</locus>
+                        <title type="uniform">Hrafnagaldur Óðins <note>[Latin]</note></title>
+                        <rubric>Incantamentum Corvinum Odini, sive Carmen prooemiale</rubric>
+                        <textLang mainLang="la" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="15.4" class="edd">
+                        <locus from="646r" to="648v">pp. 1291-1296</locus>
+                        <title type="uniform">Vafþrúðnismál <note>[Latin]</note></title>
+                        <rubric>Pars V</rubric>
+                        <rubric>Wafthrudneris Sermones</rubric>
+                        <textLang mainLang="la"/>
+                     </msItem>
+                     <msItem n="15.5" class="edd">
+                        <locus from="650r" to="653">pp. 1299-1306</locus>
+                        <title type="uniform">Grímnismál <note>[Latin]</note></title>
+                        <textLang mainLang="la"/>
+                        <msItem n="15.5.1" class="formal">
+                           <locus from="650r" to="650v">pp. 1299-1300</locus>
+                           <title type="uniform">Grímnismál <note>[Prologue, Latin]</note></title>
+                           <rubric>Prooemium ad Sermones Grimneri</rubric>
+                           <textLang mainLang="la"/>
+                        </msItem>
+                        <msItem n="15.5.2" class="edd">
+                           <locus from="651r" to="653v">pp. 1301-1306</locus>
+                           <title type="uniform">Grímnismál <note>[Latin]</note></title>
+                           <rubric>Pars VI</rubric>
+                           <rubric>Prooemium ad Sermones Grimneri</rubric>
+                           <textLang mainLang="la" otherLangs="non"/>
+                        </msItem>
+                     </msItem>
+                     <msItem n="15.6" class="edd">
+                        <locus from="654r" to="656r">pp. 1307-1311 </locus>
+                        <title type="uniform">Alvíssmál <note>[Latin]</note></title>
+                        <rubric>Pars VII</rubric>
+                        <rubric>Alvisi (Omniscij) Nani cujusdam Sermones</rubric>
+                        <textLang mainLang="la" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="15.7" class="edd">
+                        <locus from="656r" to="659v">pp. 1311-1318</locus>
+                        <title type="uniform">Lokasenna <note>[Latin]</note></title>
+                        <rubric>Pars VIII</rubric>
+                        <rubric>Aegeris Convivium</rubric>
+                        <textLang mainLang="la" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="15.8" class="edd">
+                        <locus from="660r" to="661v">pp. 1319-1322</locus>
+                        <title type="uniform">Þrymskviða <note>[Latin]</note></title>
+                        <rubric>Pars IX</rubric>
+                        <rubric>Mallei Expostulatio</rubric>
+                        <textLang mainLang="la" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="15.9" class="edd">
+                        <locus from="662r" to="663v">pp. 1323-1326</locus>
+                        <title type="uniform">Skírnismál <note>[Latin]</note></title>
+                        <rubric>Iter Skirneris</rubric>
+                        <textLang mainLang="la" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="15.10" class="edd">
+                        <locus from="664r" to="664v">pp. 1327-1328</locus>
+                        <title type="uniform">Baldurs draumur <note>[German]</note></title>
+                        <title type="parallel">Vegtams kviða</title>
+                        <rubric>Pars XIII</rubric>
+                        <rubric>Wegtams Kwiþa</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.11" class="edd">
+                        <locus from="664v" to="665v">pp. 1328-1330</locus>
+                        <title type="uniform">Völunda kviða <note>[Latin]</note></title>
+                        <rubric>Pars XIV</rubric>
+                        <rubric>Waulundar Kwiþa</rubric>
+                        <textLang mainLang="la"/>
+                     </msItem>
+                     <msItem n="15.12" class="edd">
+                        <locus from="665v" to="667r">pp. 1330-1333</locus>
+                        <title type="uniform">Helga kviða Hjörvarðssonar <note>[German]</note></title>
+                        <rubric>Pars XVI</rubric>
+                        <rubric>Helga Kwiþa Haddinga=Skata</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.13" class="edd">
+                        <locus from="667r" to="669r">pp. 1333-1337</locus>
+                        <title type="uniform">Helga kviða Hundingsbana <note>[German]</note></title>
+                        <rubric>Pars XVII</rubric>
+                        <rubric>Helga Kwipa Hundingsbana. Aunur. Fra Wolsungom</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.14" class="edd">
+                        <locus from="669r" to="670r">pp. 1337-1339</locus>
+                        <title type="uniform">Frá dauða Sinfjötla <note>[German]</note></title>
+                        <rubric>Pars XVIII</rubric>
+                        <rubric>Sinfiotla lok</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.15" class="edd">
+                        <locus from="670r" to="670r">pp. 1339</locus>
+                        <title type="uniform">Grípisspá <note>[German]</note></title>
+                        <rubric>Pars XIX</rubric>
+                        <rubric>Sigurþar Kwiþa Fafnis=bana</rubric>
+                        <rubric>Fyrsta Gripis Spa</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.16" class="edd">
+                        <locus from="670r" to="672r">pp. 1339-1343</locus>
+                        <title type="uniform">Reginsmál <note>[German]</note></title>
+                        <rubric>Pars XX</rubric>
+                        <rubric>Sigurþar Kwiþa Fafnis=bana, Aunur.</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.17" class="edd">
+                        <locus from="672r" to="672v">pp. 1343-1344</locus>
+                        <title type="uniform">Fáfnismál <note>[German]</note></title>
+                        <rubric>Pars XXI</rubric>
+                        <rubric>Sigurpar Kwipa Fafnis bana in þriþia Fafnis-mäl.</rubric>
+                        <textLang mainLang="la" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="15.18" class="edd">
+                        <locus from="672v" to="678v">pp. 1344-1356</locus>
+                        <title type="uniform">Sigurdrífumál <note>[German]</note></title>
+                        <rubric>Pars XXII</rubric>
+                        <rubric>Brynhilldar Kwiþa Buþla Döttur Fyrsta.</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.19" class="edd">
+                        <locus from="678v" to="679r">pp. 1356-1357</locus>
+                        <title type="uniform">Dráp Niflunga <note>[German]</note></title>
+                        <rubric>Pars XXVI</rubric>
+                        <rubric>Niflunga lok</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.20" class="edd">
+                        <locus from="679v:1" to="679v:14">pp. 1358</locus>
+                        <title type="uniform">Guðrúnakviða II <note>[German]</note></title>
+                        <rubric>Pars XXVII</rubric>
+                        <rubric>Goþruna Kwiþa</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.21" class="edd">
+                        <locus from="679v:15" to="579v:25">pp. 1358</locus>
+                        <title type="uniform">Brot af Sigurðarkvíðu <note>[German]</note></title>
+                        <rubric>Brynhilldar Kwiþa annur</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.22" class="edd">
+                        <locus from="679v:26" to="680r:4">pp. 1358-1359</locus>
+                        <title type="uniform">Oddrúnargrátur <note>[German]</note></title>
+                        <rubric>Pars XXIX</rubric>
+                        <rubric>Oddrunnar Grättur</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.23" class="edd">
+                        <locus from="680r:5" to="680r:11">p. 1359</locus>
+                        <title type="uniform">Atlakviða <note>[German]</note></title>
+                        <rubric>Goþrunar Hefna</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.24" class="edd">
+                        <locus from="680r:12" to="680r:14">pp. 1359</locus>
+                        <title type="uniform">Atlamál <note>[German]</note></title>
+                        <rubric>Pars .....</rubric>
+                        <textLang mainLang="non"/>
+                        <note>Only a note: <q>Enn segir gleggra i Atla Mälom Endom Grönlenskom</q></note>
+                     </msItem>
+                     <msItem n="15.25" class="edd">
+                        <locus from="680r:15" to="680r:30">pp. 1359</locus>
+                        <title type="uniform">Guðrúnahvöt <note>[German]</note></title>
+                        <rubric>Pars XXXI</rubric>
+                        <rubric>Goþrunar Hwata</rubric>
+                        <textLang mainLang="de"/>
+                     </msItem>
+                     <msItem n="15.26" class="edd">
+                        <locus from="680v" to="681r">pp. 1360-1361</locus>
+                        <title type="uniform">Grottasöngur <note>[Prologue, German]</note></title>
+                        <rubric>Vorrede zu Grotta Sang</rubric>
+                        <textLang mainLang="de"/>
+                        <colophon>Endar Sæmundar Eddu</colophon>
+                        <note>Preceeded by references to <title type="unifomr">Hamðismál</title>, <title type="uniform">Fjölsvinnsmál</title> and <title type="uniform">Gróagaldur</title>.</note>
+                     </msItem>
+                     <msItem n="15.27" class="edd attat">
+                        <locus from="681v" to="685v">pp. 1362-1370</locus>
+                        <title type="uniform">Hyndluljóð <note>[With Genealogical Table]</note></title>
+                        <rubric>Hyndlu-Ljoþ</rubric>
+                        <textLang mainLang="non" otherLangs="la"/>
+                        <note>With genealogical tables and notes in Latin, including variants taken from GKS 1005 fol.</note>
+                     </msItem>
+                     <msItem n="15.28" class="edd textfr">
+                        <locus from="686r" to="687v">pp. 1371-1374</locus>
+                        <title type="supplied">Excerpts and Variants of some Eddic poems <note>[German, Latin]</note></title>
+                        <textLang mainLang="de" otherLangs="la"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="16" class="other">
+                     <locus from="688r" to="689v">pp. 1375-1378</locus>
+                     <title type="supplied">Kort-Berättelse om then Stora Ättebacken i Upland </title>
+                     <colophon>C. L. von Schantz</colophon>
+                     <rubric>Kort-Berättelse om then Stora Ättebacken i Upland Semminghundra Härad, och Orkesta Sochn på Wapthuna
+                        Skatte ägor belägen, och dess Upgräfning, som effter Kongl<ex>iliga</ex> Maÿ<ex>estetz</ex> nådigste
+                        Ordres toog sin begÿnnelse, d<ex>en</ex> 8. Junij A<ex>nno</ex> 1724.</rubric>
+                     <textLang mainLang="sv"/>
+                     <note>Possibly an autograph</note>
+                  </msItem>
+                  <msItem n="17" class="other">
+                     <locus from="689v" to="691r">pp. 1379-1381</locus>
+                     <title type="supplied">Historia. Praefatio L. I.</title>
+                     <author>Arius Sacerdos</author>
+                     <textLang mainLang="la"/>
+                     <filiation><ref type="ms" ana="protograph">Excerpt from "Ms. des Hl. Gyllengryp" (According to note on fol.
+                              <locus>691r</locus>)</ref></filiation>
+                  </msItem>
+                  <msItem n="18" class="edd textfr">
+                     <locus from="691v" to="694r">pp. 1382-1387</locus>
+                     <title type="supplied">Various Comments and Excerpts</title>
+
+                     <msItem n="18.1" class="edd textfr">
+                        <locus from="691v:1" to="691v:22">p. 1382</locus>
+                        <title type="supplied">On Snorra Edda [Comments, Excerpts]</title>
+                        <incipit>Von der Edda Snorri Sturlesons</incipit>
+                        <explicit>en raku ä burt Elenum</explicit>
+                        <textLang mainLang="non" otherLangs="de"/>
+                     </msItem>
+                     <msItem n="18.2" class="attat">
+                        <locus from="691v:23" to="691v:53">pp. 1382</locus>
+                        <title type="supplied">Ættartala Hákonar jarls <note>[German]</note></title>
+                        <textLang mainLang="la"/>
+                        <!-- not sure this and the note for the next item qualify as filiations -->
+                        <filiation><ref type="ms" ana="protograph">Excerpt from Grágás</ref></filiation>
+                        <note>List of names</note>
+                     </msItem>
+                     <msItem n="18.3" class="kal">
+                        <locus from="692r" to="694r">pp. 1383-1387</locus>
+                        <title type="supplied">Calendarium</title>
+                        <textLang mainLang="la"/>
+                        <filiation><ref type="ms" ana="protograph">Excerpt from Grágás</ref></filiation>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4"/>
+                           <num type="book-block" value="694"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="315"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes">possibly Maid of Dort "Pro Patria"</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">Contemporary pagination in a different hand (same hand as in <ref type="ms" target="#Mss-philol-78_2">Mss. philol. 78/2</ref>)</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="26 50">
+                           <num type="wpl" atLeast="5" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="250" atMost="305"/>
+                              <width unit="mm" atLeast="150" atMost="175"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="12">
+                     <handNote scribeRef="unknown" scope="major" script="hum cursiva"><locus>1r-360v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"><locus>361r-392v</locus>. Rurbics in
+                        chancery</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="late kurrent"><locus>393r-458v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="late kurrent"><locus>460r-533v</locus> and
+                           <locus>546r-595r</locus>. Rubrics in chancery</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="late kurrent"><locus>534r-545v</locus> and
+                           <locus>594v-637v</locus>. Rubrics in chancery</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"><locus>638r-681r</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"><locus>681v-687v</locus>. Hum cursiva for
+                        Latin text, a mixed script (hybrida?) for Icelandic text and tables, kurrent for notes.</handNote>
+                     <handNote scribeRef="#KarSch001" scope="minor" script="kurrent">C. L. v<ex>on</ex> Schantz wrote
+                           <locus>688r-689v</locus>. Mostly in late kurrent. Chancery is used for rubrics.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"><locus>690r-691r</locus>. A note on the
+                        bottom of p. 691r is written in kurrent.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hybrida"><locus>691v:1-691v:22</locus>. Both hybrida and
+                        kurrent are used</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hybrida"><locus>691v:23-691v:52</locus>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"><locus>692r-694r</locus>
+                     </handNote>
+
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="illustration">A scaled drawing of a cave on p. 1375</decoNote>
+                     <decoNote type="paratext">Squiggles at the end of some texts.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Very few corrections and additions to the text.</p>
+                     <p>Shelf marks (mostly former shelf marks) on the inside of the front cover: <q>Mss. philol. 78.1-13</q>,
+                              <q><del>Scand. fol. 55</del></q>, <q>II-398</q>. Other notes: <q>Tom. 3</q>
+                     </p><p>On the first and last page, there is a stamp of the university library Rostock.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>White parchment binding on thick boards without any marks; red cut. The manuscript is covered in an
+                           additional layer of paper, which reads <q>Mss. philol. 78</q> on the spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1725" notAfter="1799"/>
+                     <origPlace key="SE"/>
+                     <note>According to title page, at least partly written in Stockholm</note>
+                  </origin>
+                  <provenance>
+                     <p>Items 16-18 seem to have been added later, as they are not accounted for in the table of contents. </p>
+                     <p>The whole manuscript used to belong to <name type="organisation" role="owner" key="BMRLR">Bibliothek der
+                           Mecklenburgischen Ritter- und Landschaft Rostock</name> with the signature Scand. fol. 55</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:29.385+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-08-09" who="#BES">Added info from catalog record of UB Rostock</change>
+         <change when="2013-08-12" who="#BES">Added information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

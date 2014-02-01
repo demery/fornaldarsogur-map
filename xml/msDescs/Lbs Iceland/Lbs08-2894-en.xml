@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2894 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-2894-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2894 8vo</idno>
+               </msIdentifier>
+
+               <history>
+                  <origin>
+                     <origDate from="1843" to="1916"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="SigSig012">Sigurjón Sigtryggsson</name>
+                  </provenance>
+               </history>
+
+               <msPart n="1">
+                  <altIdentifier type="partial">
+                     <idno>Lbs 2894 8vo I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="contemporary">
+                        <titlePart>Bók er inniheldur nokkra íslenzka og norræna söguþætti
+                           eftir ýmsum heimildum páruð af Sigtryggi Davíðssyni MCMXVI</titlePart>
+                     </titlePage>
+                     <msItem n="1" class="tjos">
+                        <locus from="2r:1" to="4r:19">2r-4r</locus>
+                        <title type="uniform">Gríms saga Skeljungsbana</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Þáttur af Grími Skeljungsbana</rubric>
+                        <colophon>Eftir handritasafni Jónatans Þorlákssonar Nr. 1304.8 á Landsbókasafninu.</colophon>
+                        <incipit>Á bæ þeim er Kot heitir í Norðurárdal</incipit>
+                        <explicit>Svo er úr <damage>m</damage>inni liðið hvort hann hefir til Íslands <damage>komið</damage> eða eigi.</explicit>
+                        <note>At the end, there are comments about the origin of the story.</note>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="4v:1" to="15v:17">4v-15v</locus>
+                        <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Æfinýri af Eiríki Þrándarsyni er kallaður var Víðförli</rubric>
+                        <colophon>Handritasafn Jónatans Þorlákssonar frá Þórðarstöðum í Fnjóskadal Nr. 1304.8 á Landsbókasafninu.</colophon>
+                        <incipit>Þrándur var kóngur nefndur, sá er fyrst réði fyrir Þrándheimi.</incipit>
+                        <explicit>og heita þar Sveins-Kvíjar, suður og upp af bænum.</explicit>
+                        <note>A comment is written below: "Aths. Í Árbókum Espólíns VI.d.21.bls. stendur að hestavígið hafi verið árið
+                           1623 og mun það réttara."</note>
+                     </msItem>
+                     <msItem n="3" class="avit">
+                        <locus from="16r:1" to="21r:21">16r-21r</locus>
+                        <title type="supplied">Sagnir um Einar prófast Sigurðsson í Eydölum og son hans Odd biskup í Skálholti</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Sagnir um Einar prófast Sigurðsson í Eydölum og son hans Odd biskup í Skálholti</rubric>
+                        <incipit>Einar prófastur Sigurðsson, seinast í Eydölum, var fæddur á Hrauni í Aðalreykjavdal 1539</incipit>
+                        <explicit>Helga kona Odds biskups, fór að Leirá til Árna sonar síns, og andaðist þar í góðri elli.</explicit>
+                        <note>A supplement is written on 41v - 42r</note>
+                     </msItem>
+                     <msItem n="4" class="">
+                        <locus from="21v:1" to="26r:14">21v-26r</locus>
+                        <title type="supplied">Sagnir úr Illugastaðasókn í Fnjóskadal</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Sagnir úr Fnjóskadal einkum frá Móðuhallærinu 1783 og taldir nokkrir bændur þar</rubric>
+                        <colophon>Handr. Bjarna frá Sellandi. bls. 997</colophon>
+                        <incipit>a. Þórðarstaðir. Páll sonur Ásmundar í Nesi í Höfðahverfi</incipit>
+                        <explicit>Dauðavorið flutti Árni sig frá Hjaltadal að Stein-Kirkju..............</explicit>
+                        <note>A comment below: "Aths: Hér endar handrit Bjarna í Sellandi; er útlit fyrir að hann hafa ætlað
+                           að bæta við, þó ei hafi af orðið; því nokkur blöð eru óskrifuð í bókinni."</note>
+                        <note>A comment below: "Fyrirsögnin „Sagnir úr Fnjóskadal“ er skökk hjá mér; á að vera:
+                           Sagnir úr Illugastaðasókn í Fnjóskadal."</note>
+                        <!-- Class? -->
+                     </msItem>
+                     <msItem n="5" class="avit">
+                        <locus from="26v:1" to="27r:18">26v-27r</locus>
+                        <title type="supplied">Helgi Benediktsson</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Helgi Benediktsson</rubric>
+                        <incipit>var fyrst prestur að Svalbarði í Þistilfirði, 1786-1791</incipit>
+                        <explicit>og ýmsa atburði úr heilagri ritningu.</explicit>
+                        <colophon>Þetta er tekið úr efnisskrá í Hvarfsbók III eftir Þorstein Þorkelsson. Lbs 1760 8bo.
+                           Þar er eitthvað af kveðlingum Helga prests.</colophon>
+                     </msItem>
+                     <msItem n="6" class="kvad">
+                        <locus from="27v:1" to="29r:9">27v-29r</locus>
+                        <title type="supplied">Gimbilsbragur</title>
+                        <textLang mainLang="is"/>
+                        <author>Þórarinn Sigfússon á Tjörn í Svarfaðardal</author>
+                        <rubric>Gimbilsbragur kveðinn af séra Þórarni Sigfússyni á Tjörn í Svarfðardal</rubric>
+                        <colophon>Handrit Þorsteins Þorkelssonar. Hvarfsbók V. Lbs 1762 8vo.</colophon>
+                        <incipit>Kona Þórarins prests á Tjörn hét Anna Þorleifsdóttir frá Siglunesi</incipit>
+                        <explicit>meðan fæ eg hér að vera.</explicit>
+                     </msItem>
+                     <msItem n="7" class="kvad">
+                        <locus from="29r:10" to="30r:20">29r-30r</locus>
+                        <title type="supplied">Skinnbuxnavísur Jóns í Skeljavík</title>
+                        <textLang mainLang="is"/>
+                        <author key="HjaTho004">Hjálmar Þorsteinsson í Tröllatungu</author>
+                        <rubric>Skinnbuxnavísur Jóns í Skeljavík gamankvæði eftir séra Hjálmar Þorsteinsson í Tröllatungu</rubric>
+                        <colophon>Handrit Þorsteins Þorkelssonar Hvarfsbók V. 1762 8vo Lbs.</colophon>
+                        <incipit>Skinnbuxur einar skal ég segja</incipit>
+                        <explicit>hef ég ei framar buxna þörf.</explicit>
+                     </msItem>
+                     <msItem n="8" class="kvad">
+                        <locus from="30v:1" to="36r:20">30v-36r</locus>
+                        <title type="supplied">Ljóðmæli</title>
+                        <textLang mainLang="is"/>
+                        <author key="BjoEin004">Látra-Björg (Björg Einarsdóttir)</author>
+                        <rubric>Ljóðmæli eftir Látra-Björgu</rubric>
+                        <colophon>Handrit Þorsteins Þorkelssonar. „Hvarfsbók V.“ Lbs. 1762 8vo</colophon>
+                        <incipit>I. Lausavísur. Björg Einarsdóttir, sem kölluð var Látra-Björf</incipit>
+                        <explicit>menn og dýr þá deyja.</explicit>
+                     </msItem>
+                     <msItem n="9" class="kvad">
+                        <locus from="36v:1" to="38v:17">36v-38v</locus>
+                        <title type="supplied">Lausavísur</title>
+                        <textLang mainLang="is"/>
+                        <author key="SigSig018">Sigurður Sigurðsson</author>
+                        <!-- Is that the right reference code to Sigurður Sigurðsson? -->
+                        <rubric>Lausavísur eftir séra Sigurð Sigurðsson</rubric>
+                        <colophon>Handrit Þorsteins Þorkelssonar „Hvarfsbók“ Lbs. 1762.8</colophon>
+                        <incipit>Séra Sigurður var bróðir Jóns dannebrogsmans Sigurðssonar hins ríka</incipit>
+                        <explicit>Vísa þessi er líklega eldri. Þ.Þ.</explicit>
+                     </msItem>
+                     <msItem n="10" class="kvad">
+                        <locus from="39r:1" to="40r:22">39r-40r</locus>
+                        <title type="supplied">Fólkstal á Urðum í Svarfaðardal</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Fólkstal á Urðum í Svarfaðardal</rubric>
+                        <colophon>Handrit Þ.Þ. „Hvarfsbók V“ Lbs. 1762 8vo</colophon>
+                        <incipit>Á Urðum skal upptelja fólkið allt</incipit>
+                        <explicit>en virkilega prófastur 1804</explicit>
+                     </msItem>
+                     <msItem n="11" class="kvad">
+                        <locus from="40v:1" to="41r:22">40v-41r</locus>
+                        <title type="supplied">Lausavísur</title>
+                        <textLang mainLang="is"/>
+                        <author key="JonHal010">Jón Hallgrímsson frá Karlsá í Svarfaðardal</author>
+                        <rubric>Lausavísur eftir Jón Hallgrímsson frá Karlsá í Svarfaðardal</rubric>
+                        <colophon>Handrit Þ. Þorkelssonar. Hvarfsbók V. Lbs 1762 8</colophon>
+                        <incipit>Hann var skynsemdarmaður</incipit>
+                        <explicit>Báturinn hét Kaggi</explicit>
+                     </msItem>
+                     <msItem n="12" class="avit">
+                        <locus from="41v:1" to="42r:15">41v-42r</locus>
+                        <title type="supplied">Viðbætir við sagnir Einars prófasts og Odds biskups</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Lítill viðbætir við sagnir Einars prófasts og Odds biskups</rubric>
+                        <incipit>Sonur Ólafs prófast í Kirkjubæ</incipit>
+                        <explicit>undan skal ég ganga.</explicit>
+                        <note>Below is written: "Eftirmæli 18. aldar. M.St."</note>
+                        <note>A supplement to 'Sagnir um Einar prófast Sigurðsson í Eydölum og son hans Odd biskup
+                           í Skálholti' that starts on leaf 16r.</note>
+                     </msItem>
+                     <msItem n="13" class="avit">
+                        <locus from="42v:1" to="43v:9">42v-43v</locus>
+                        <title type="supplied">Ormur Bjarnason (1680-1764)</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Ormur Bjarnason (1680-1764)</rubric>
+                        <incipit>Hann var fæddur á Reykjahlíð við Mývatn.</incipit>
+                        <explicit>til dauða stuttu síðar.</explicit>
+                     </msItem>
+                  </msContents>
+
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="43"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="191"/>
+                                 <width unit="mm" quantity="117"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="pag">Paginated 1-83; the foliation is mostly contemporary;
+                              the last two leaves are not foliated.</foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="23">
+                              <num type="wpl" atLeast="6" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="177"/>
+                                 <width unit="mm" quantity="99"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#SigDav002" scope="sole" script="hum cursiva">Sigtryggur Davíðsson</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                     <bindingDesc>
+                        <binding ana="plain" contemporary="true">
+                           <p>Paper cover.</p>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1916"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart n="2">
+                  <altIdentifier type="partial">
+                     <idno>Lbs 2894 8vo II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="1" class="dagb">
+                        <locus from="44r:1" to="243r:34">44r-243r</locus>
+                        <title type="supplied">Dagbækur Sigurðar Davíðssonar í Kollagerði í Eyjafirði
+                           frá 15. maí 1843 til 31. ágúst 1873</title>
+                        <textLang mainLang="is"/>
+                        <author key="SigDav001">Sigurður Davíðsson í Kollagerði, Eyjafirði</author>
+                        <rubric>Skrifad til Minnis</rubric>
+                     </msItem>
+                     <msItem n="2" class="alm">
+                        <locus from="244r:1" to="267v:18">244r-267v</locus>
+                        <title type="supplied">Uppskriftir almanaka um árin 1840-43, 1850 og 1855</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Almanak. Arid eptir Krists Fædíngu 1840 Sem er Hlaupár</rubric>
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="224"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="174"/>
+                                 <width unit="mm" quantity="106"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="33 39">
+                              <num type="wpl" atLeast="8" atMost="13"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="168"/>
+                                 <width unit="mm" quantity="101"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#SigDav001" scope="sole" script="kurrent">Sigurður Davíðsson</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                     <bindingDesc>
+                        <binding ana="none" contemporary="inapplicable">
+                           <p>Remains of a binding, but the cover is lost. Some quires still hang together.</p>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate from="1843" to="1873"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:22.52+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-09" who="#SK">Catalogue after the manuscript itself 2011-09/&gt;</change>
+         <change when="2012-11-09" who="#SMM">Added some categories to comply to FASNL requirements and translated some text into English</change>
+         <change when="2012-11-13" who="#SMM">Added verse prose, condition, pagination and decoDesc values from photos from the Arnamagnaean collection in Copenhagen and thus completed cataloguing.</change>
+         <change when="2013-09-19" who="#OHA">Catalogued from manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

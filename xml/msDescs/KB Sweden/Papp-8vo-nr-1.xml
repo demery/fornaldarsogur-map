@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 8vo nr 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-8vo-nr-1" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 8vo nr 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="16v"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <rubric>hier skrifast Eigils saga</rubric>
+                     <incipit>Hertriggr hiet konungr hann ried fyrir Russia</incipit>
+                     <textLang mainLang="non"/>
+                     <note>ends defective</note>
+                  </msItem>
+                  <msItem n="2" class="rim">
+                     <locus from="17r" to="38v"/>
+                     <title type="supplied">Óláfs rímur tryggvarsonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="rim" defective="true">
+                     <locus from="39r" to="95v"/>
+                     <title type="supplied">Sjau meistara rímur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="rim">
+                     <locus from="96r" to="103v"/>
+                     <title type="supplied">Geirarðs rímur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="rim">
+                     <locus from="104r" to="112v"/>
+                     <title type="supplied">Mahomeds rímur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="unknown">
+                     <locus from="113r" to="115r:12"/>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="unknown">
+                     <locus from="115r:13" to="117v"/>
+                     <title type="supplied">Diverse metriska försök och anteckningar.</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="117"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="150" atMost="160"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">In pencil.</foliation>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="18 25">
+                           <num type="wpl" atLeast="2" atMost="5"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">ff. 1-16, 96-103</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">ff. 17-23</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">ff. 24-95</handNote>
+                     <handNote scribeRef="#EyjJon003" scope="minor" script="kurrent">ff. 104-117</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">ff. 17r, 19v, 22v, large decorated initials</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Pen trials and scribbles in margins, ff. 4v, 11v, 15v, 38v and many other places.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbelled paper on cardboard. The spine and the corners are in white leather. On the spine the
+                           shelfmark is imprinted with golden letters. <q>COD. ISL. PAPP. 8:o N. 1 EGILS SAGA
+                              .EINHENDA M. M. </q>. </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1640" notAfter="1680"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                     <name type="person" role="signatory" key="ambig">Jón Jónsson, f.112v</name>. 
+                     <name type="person" role="signatory" key="EyjGri001">Eyjólfr Grímólfsson, ff. 38v, 117v</name>. 
+                     <name type="person" role="signatory" key="ambig">Jón Þorarinsson, f. 7v</name>.</p>
+                     <name type="person" role="owner" key="GudOla001"/>
+                     <name type="organisation" role="owner" key="AntKol001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:58.567+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-05" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 283 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0283-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 283 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="40v"/>  							
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <title type="running">Fröda þättur</title>
+                     <title type="running">Frä Hröar ok Helga þessu Halfdanarsonum</title>
+                     <title type="running">Frä Helga konge Hälfdanarsyne</title>
+                     <title type="running">Frä Adels konge og Jrsu drottningu</title>
+                     <title type="running">Frä Hrolfe konge krake</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fröða þättur</rubric>
+                     <incipit>Madur hiet Halfdan en<ex>n</ex> an<ex>n</ex>ar Fröde</incipit>
+                     <finalRubric>Og endar hier sógu Hrölfs kongs kraka og kappa hans.</finalRubric>
+                     
+                     <note>Collated with <ref type="ms" target="#AM02-0009-en">AM 9 fol.</ref> (cf. <ref target="#KriKål1889">Kålund, Katalog I:536</ref>).</note>
+                     
+                  </msItem>
+               
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="40"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>One blank modern flyleaf at the front and back of the volume.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="208"/>
+                              <width unit="mm" quantity="170"/>
+                           </dimensions>
+                           <watermark ana="yes">Circular design.</watermark>
+                        </support>
+                        
+                        <foliation ana="later fol">Foliated in red ink in the upper right hand corner by 
+                           <name type="person" key="KriKaa001">Kålund.</name></foliation>
+                        <condition ana="good"/>
+                     
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="24 28">									
+                           
+                           <num type="wpl" atLeast="10" atMost="15"/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           
+                        </layout>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                  </handDesc>
+                   
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                   
+                  <additions ana="medium">
+                     <p>Several variant readings and emendations present within the text and margins.
+                     </p>
+                     <p>Note in the hand of <name type="person" role="owner" key="ArnMag001">AM</name> on front flyleaf reads: <q>Þetta exemplar er nu samhlioda 
+                        vid exemplar er ritad hefur S<ex>era</ex> Jon Erlendzson i Villingahollte, og mier
+                        liede syslumadurenn Jon Þorlaksson. var in folio</q>.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in modern (late-19th century) marbled boards. Prior to rebinding, the volume
+                           contained MS binding waste bearing fragments of a 1542 ordinance from Kristian III on convents
+                           ('om jomfruklostre') and on married bishops ('om bispevielse'). MS waste now housed as part of
+                        <ref type="ms">AM Acc. 25</ref> (fol. <locus>66</locus>).</p>
+                     </binding>							
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:07.106+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:17.051+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:41:42.249+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2012-12-20" who="#JSL">Added information from Kålund catalog.</change>
+         <change when="2013-01-13" who="#JSL">Cataloged from manuscript.</change>
+         <change when="2013-08-19" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

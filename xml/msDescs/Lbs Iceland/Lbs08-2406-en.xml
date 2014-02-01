@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2406 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-2406-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2406 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="riddst">
+                     <locus from="1r" facs="#Lbs08-2406-0001r" to="14v"/>
+                     <title type="uniform">Faustus saga og Ermenu í Serklandi</title>
+                     <rubric>Sagan af Fástus og Ermena</rubric>
+                  </msItem>
+                  <msItem n="2" class="konth">
+                     <locus from="15r" facs="#Lbs08-2406-0015r" to="24v"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <rubric>Þáttur af Hákoni Hárekssyni norræna</rubric>
+                  </msItem>
+                  <msItem n="3" class="hels">
+                     <locus from="25r" facs="#Lbs08-2406-0025r" to="32v"/>
+                     <title type="uniform">Valtara saga hertoga</title>
+                     <rubric>Sagan af Valtara og Gnaselín</rubric>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="33r" facs="#Lbs08-2406-0033r" to="68v"/>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <rubric>Hér skrifast sagan af Hjálmtýr</rubric>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="69r" facs="#Lbs08-2406-0069r" to="88r"/>
+                     <title type="uniform">Alexanders saga og Loðvíks</title>
+                     <rubric>Hér byrjast saga af Alexandur og Loðvík</rubric>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="88v" facs="#Lbs08-2406-0088v" to="102v"/>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <rubric>Hér byrjast saga af Þorsteini bæjarmagn</rubric>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="103r" facs="#Lbs08-2406-0103r" to="115v"/>
+                     <title type="uniform">Nitida saga</title>
+                     <rubric>Saga af Nitidá hinni frægu</rubric>
+                  </msItem>
+                  <msItem n="8" class="avint">
+                     <locus from="116r" facs="#Lbs08-2406-0116r" to="158v"/>
+                     <title type="supplied">Ævintýri</title>
+                     <note>20 fables (Fyrsta ævintýr-XX. ævintýr)</note>
+                  </msItem>
+                  <msItem n="9" class="sagnps">
+                     <locus from="159r" facs="#Lbs08-2406-0159r" to="160v"/>
+                     <title type="uniform">Gyðinga saga</title>
+                     <rubric>Um Júdas Iskarioth</rubric>
+                     <note>Part of the work</note>
+                  </msItem>
+               	<msItem n="10" class="hels avint">
+                     <locus from="161r" facs="#Lbs08-2406-0161r" to="162r"/>
+                     <title type="uniform">Sjö sofenda saga</title>
+                     <note>Very short</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="162"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="166"/>
+                              <width unit="mm" quantity="104"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+							   <foliation ana="later fol"/>
+							   <condition ana="good">Front and back fol. (<locus from="1r" facs="#Lbs08-2406-0001r" to="3v">1r-3v</locus> and <locus from="158r" facs="#Lbs08-2406-0158r" to="162v">158r-162v</locus>) heavily deteriorated, otherwise condition good.</condition>
+                     </supportDesc>
+							<layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="20 33">
+                           <num type="wpl" atLeast="3" atMost="8"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="3">
+							<handNote scribeRef="unknown" scope="minor" script="unknown"/>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"/>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"/>
+						</handDesc>
+                  <decoDesc ana="high">
+							<decoNote type="initial">Decorated initials throughout</decoNote>
+							<decoNote type="vignette" subtype="tailpiece">Knotwork: <locus from="115v" facs="#Lbs08-2406-0115v" to="115v">115v</locus>, <locus from="160v" facs="#Lbs08-2406-0160v" to="160v">160v</locus>, <locus from="162r" facs="#Lbs08-2406-0162r" to="162r">162r</locus></decoNote>
+						</decoDesc>
+                  <additions ana="low"><p>Names on fol. <locus from="162v" facs="#Lbs08-2406-0162v" to="162v">162v</locus></p></additions>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1791" to="1799"/>
+							<origPlace key="IS">Ísland</origPlace>
+						</origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:56.797+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:54:21.334+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:40.53+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:19:12.257+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2012-07-16" who="#SMM">Rectified xml encoding and added some msDesc categories. Filled out some information based on pictures from handrit.is.</change>
+         <!-- missing information on layoutDesc and bindingDesc -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

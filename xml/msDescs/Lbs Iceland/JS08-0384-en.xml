@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 384 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0384-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 384 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Sögu- og rímnabók</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r" to="19r"/>
+                     <title type="uniform">Rímur af Nitídu frægu</title>
+                     <rubric>Rímur af Nitida frægu ortar af síra Eiríki Einarssyni presti að
+                        Höfða</rubric>
+                     <colophon>Þessar rímur hefur ort Ingimundur Jónsson (<locus from="19r" to="19r">19r</locus>)</colophon>
+                     <note>Above the title: <q>1838. J[ón] J[óns]s[on]</q></note>
+                     <note>Name of author signed in the conclusion</note>
+                     <note>10 rímur</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="19r" to="46v"/>
+                     <title type="uniform">Rímur af Gríshildi</title>
+                     <rubric>Rímur af Gríshildi góðu (þolinmóðu) kveðnar af Páli Sveinssyni
+                     undir Eyjafjöllum</rubric>
+                     <note>Name of author and dedicatee signed in the conclusion</note>
+                     <note>12 rímur</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="47r" to="56v"/>
+                     <title type="uniform">Þorgríms saga konungs</title>
+                     <rubric>Sagan af Þorgrími og köppum hans</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="rimur">
+                     <locus from="56v" to="65v"/>
+                     <title type="uniform">Rímur af Bergálfi jötni</title>
+                     <rubric>Rímur af Bergálfi jötni ortar og skrifaðar að Litla Skarði í
+                        Borgarfirði af Lýð Jónssyni anno Christi 1822 (4)</rubric>
+                     <colophon>Lýður Jónsson (<locus from="65v" to="65v">65v</locus>)</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="kvad">
+                     <locus from="65v" to="67r"/>
+                     <title type="supplied">Kvæði</title>
+                     <rubric>Andsvar uppá Hallgerðar forsvaran. S[igurður] Breiðfjörð</rubric>
+                     <incipit>Sigurður Breiðfjörð svari té</incipit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="kvad">
+                     <locus from="67r" to="67r"/>
+                     <title type="supplied">Kvæði</title>
+                     <rubric>Vísur um stormana haustið 1822</rubric>
+                     <incipit>Spart á rignir rasta tind </incipit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="kvad">
+                     <locus from="67r" to="67v"/>
+                     <title type="supplied">Kvæði</title>
+                     <rubric>Vísa</rubric>
+                     <incipit>Vetur hreta tamur tíð</incipit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="8" class="kvad">
+                     <locus from="67v" to="67v"/>
+                     <title type="supplied">Kvæði</title>
+                     <rubric>Samhendur nokkra</rubric>
+                     <incipit>Bilur á húsum kaldur Kári</incipit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="rimur">
+                     <locus from="68r" to="87v"/>
+                     <author key="GisJon007">Gísli Jónsson</author>
+                     <title type="uniform">Rímur af Álaflekk</title>
+                     <rubric>Rímur af Álaflekk Ríkarðssyni kveðnar af Gísla Jónssyni
+                        Melrakkadal, deyði hastarlega árið 1671</rubric>
+                     <colophon>1839 (<locus from="87v" to="87v">87v</locus>)</colophon>
+                     <note>12 rímur</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="rimur">
+                     <locus from="87v" to="102v"/>
+                     <author key="GisSig004">Gísli Sigurðsson</author>
+                     <title type="uniform">Rímur af Pólenstator og Möndulþvara</title>
+                     <rubric>Rímur af Pólemstator [sic] og Möndulþvara</rubric>
+                     <colophon>1839 (<locus from="102v" to="102v">102v</locus>)</colophon>
+                     <note>Name of author signed in the conclusion</note>
+                     <note>9 rímur</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="isl">
+                     <locus from="102v" to="112r"/>
+                     <title type="uniform">Gunnars saga Keldugnúpsfífls</title>
+                     <rubric>Sagan af Gunnari Keldugnúpsfífli</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="112r" to="124r"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <rubric>Sagan af Hálfdani Eysteinssyni</rubric>
+                     <colophon>Skrifað 1839 (<locus from="124r" to="124r">124r</locus>)</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="124r" to="146r"/>
+                     <locus from="147v" to="148v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <rubric>Sagan af Víkingi og Þorsteini syni hans</rubric>
+                     <note>The text is written in the wrong order; fols. <locus>146v</locus> and <locus>147r</locus> belong to
+                        <title type="uniform">Friðþjófs saga</title>, which is the next item in the manuscript. </note>
+                     <colophon>1839 (<locus from="148v" to="148v">148v</locus>)</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="146v" to="147r"/>
+                     <locus from="148v" to="158v"/>
+                     <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                     <rubric>Saga af Friðþjófi enum frækna</rubric>
+                     <note>The text in not in the right order: The seventh chapter is bound in with <title type="uniform">Þorsteins saga
+                        Víkingssonar</title> earlier in the manuscript. Therefore, fols. <locus>146v-147r</locus> are to be read after
+                        the middle of the page on fol. <locus>154</locus>. The saga then goes on with the eighth chapter on fol. <locus>154</locus>.</note>
+                     <colophon>Aftan við söguna er efnisyfirlit handritsins (<locus from="158v" to="158v">158v</locus>)</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="159"/>
+                         <!--  <num type="back-flyleaf" value=""/>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+							   <!--<foliation ana=""/>
+							   <condition ana=""/>-->
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                           <catchwords ana=""/>
+                        </layout>
+                     </layoutDesc>-->
+						</objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonJon042" scope="sole" script="unknown"/>
+						</handDesc>
+                  <decoDesc ana="low">
+							<decoNote type="initial">Decorated initials in some places</decoNote>
+						</decoDesc>
+                  <additions ana="low">
+                     <p>The title page on flyleaf <locus from="ffl2r" to="ffl2r">ffl2r</locus> is written by
+									<name type="person" key="PalPal003">Páll Pálsson</name>
+								the student, as is <locus from="ffl2v" to="ffl2v">ffl2v</locus> with table of contents </p>
+						</additions>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate from="1838" to="1839">1838-1839</origDate>
+                     
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     
+                     <p>From <name type="person" role="owner" key="JonArn002">Jón Árnason</name> the book-keeper's collection.</p>
+                     <note>3rd volume out of 3 in the collection of sagas and rímur by pastor <name type="person" role="scribe" key="JonJon042">Jón Jónsson</name> í
+                        <placeName>Miðmörk</placeName>.</note>
+						</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:24.237+02:00" who="#EAH">Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:30.628+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:48.895+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-09-12" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <!-- missing information that can be acquired from ms itself only -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

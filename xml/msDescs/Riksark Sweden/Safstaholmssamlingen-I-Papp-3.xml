@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Säfstaholmssamlingen I Papp. 3</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Safstaholmssamlingen-I-Papp-3" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#RAS">Riksarkivet, Stockholm</repository>
+                  <idno>Säfstaholmssamlingen I Papp. 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="159r"/>
+                     <title type="uniform">Knýtlinga saga</title>
+                     <rubric>Knytlinga Sagan Af gambla Götiskan på wårt nu warliga språk öfwersatt af Carl Hagelberg</rubric>
+                     <textLang mainLang="sv"/>
+                     <note>A note on f. 1v mentions the source, two manuscripts in the Kungliga Antiqvitets Archivum.</note>
+                  </msItem>
+                  <msItem n="2" class="forns">
+                     <locus from="160r" to="174v"/>
+                     <title type="uniform">Úlfs saga uggasonar</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <note>In two columns, left-hand column Old Norse and right-hand column Swedish translation.</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="175r" to="216v"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <note>Title on f.175r, text proper begins f.176r</note>
+                     <note>In two columns, left-hand column Old Norse and right-hand column Swedish translation.</note>
+                  </msItem>
+                  <msItem n="4" class="unknown">
+                     <locus from="218r" to="245v"/>
+                     <title type="supplied">Uppsala saga</title>
+                     <author role="translator" key="NilDal001">Nils Hufvudson Dal</author>
+                     <rubric>K: Hrembres i Giötland och K: Augis i Upsala Saga</rubric>
+                     <textLang mainLang="is" otherLangs="sv"/>
+                     <note>On f.218r beneath the title is written: <q>Ifrån Isländska öfwersate af N. H. D.</q></note>
+                  </msItem>
+                  <msItem n="5" class="unknown">
+                     <locus from="248r" to="255v"/>
+                     <title type="supplied">Printed material</title>
+                     <rubric>Historia Von der Konigin DISA</rubric>
+                     <note>A page of text and 7 plates have been pasted in.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="255"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="310"/>
+                              <width unit="mm" atLeast="200" atMost="205"/>
+                           </dimensions>
+                           <watermark ana="yes">Various, Maid of Dort, 'Pro Patria HB', crown on pedestal with two lions
+                              etc.</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">Begins on f. 2r. and runs from 1-315 alongside Knytlinga saga. It starts
+                           again with Ulfs saga and runs from 1-30 following which there is no more pagination.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="26 35">
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="260"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <catchwords ana="yes">For items 1, 3 and 4.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#CarHag001" scope="major" script="kurrent">Item 1</handNote>
+                     <handNote scribeRef="#GusBon001" scope="minor" script="kurrent">Items 2-4.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote>See item 5 - images from books pasted in.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>In the inner front cover there has been written: <q>Säfstahalmssaml. 3.</q> in pencil.</p>
+                     <p>On the first flyleaf there is a list of contents.</p>
+                     <p>A note has been pasted in upon f. 219r describing Nils Hufvedson Dal's translation of this saga.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is colourful marbelled paper on cardboard boards. The spine and corners are covered in white
+                           parchment. On the spine the following has been written in ink: <q>Knytlinga Saga etc. 2 Ulf Uggason 3
+                              Þialar Jons 4. K. Krembres oc K. Augis Sagor</q>. On two white labels below is printed: <q>3</q> and
+                              <q>F.3</q>. Something else has been written in ink below but is partly illegible: <q>Historie um den
+                              Konunginn Desse...?</q>. The fore-edge is speckled red.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="GusBon001">Gustav Bonde</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:17.895+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-09" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

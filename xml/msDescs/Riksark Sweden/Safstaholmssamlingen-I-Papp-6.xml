@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Säfstaholmssamlingen I Papp. 6</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Safstaholmssamlingen-I-Papp-6" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#RAS">Riksarkivet, Stockholm</repository>
+                  <idno>Säfstaholmssamlingen I Papp. 6</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="32v"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <rubric>Fridthiof den Stoltes eller Modiges Saga</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="33r" to="62r"/>
+                     <title type="uniform" ref="#ysv">Yngvars saga víðförla</title>
+                     <rubric>Hier börjar Sagan om Yngwar Widforla eller Widfarande</rubric>
+                     <textLang mainLang="sv"/>
+                     <note>On f.33r a note in the margin reads:<q>Verkerad af E.J.Bioerner</q></note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="64r" to="78r"/>
+                     <title type="uniform" ref="#hsg">Hrómundar saga Gripssonar</title>
+                     <rubric>Hromunder Gripssons Saga</rubric>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="4" class="islth">
+                     <locus from="79r" to="92v"/>
+                     <title type="uniform">Stjörnu-Odda draumur</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="93r" to="138v"/>
+                     <title type="uniform">Bárðar saga snæfellsáss</title>
+                     <textLang mainLang="sv"/>
+                     <note>Below the title: <q>Ifrån gambla Göthiskan verterad Anno 1725 af E. J. Bioerner</q></note>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="139r" to="174r"/>
+                     <title type="uniform">Þórðar saga hreðu</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="7" class="islth">
+                     <locus from="175r" to="194r"/>
+                     <title type="uniform">Orms þáttur Stórólfssonar</title>
+                     <!-- <textLang mainLang=""/> -->
+                  </msItem>
+                  <msItem n="8" class="isl">
+                     <locus from="196r" to="238v"/>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <textLang mainLang="sv"/>
+                     <note>Below the title: <q>Ifrån Isländskan på Swenska öfwersatt, Ao 1740 af Carl Hagelberg</q></note>
+                  </msItem>
+                  <msItem n="9" class="prent">
+                     <locus from="241r" to="355v"/>
+                     <title type="uniform">Printed material</title>
+                     <!-- <textLang mainLang=""/> -->
+                     <note>From 4 different books, on runes. The last is Rudbeck's edition of Ketils saga hængs and Gríms saga
+                        loðinkinna.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="355"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="300"/>
+                              <width unit="mm" atLeast="195" atMost="205"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="23 30">
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="265"/>
+                              <width unit="mm" quantity="170"/>
+                           </dimensions>
+                           <catchwords ana="yes">With flourishes, sometimes cut off due to trimming.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#CarHag001" scope="major" script="kurrent">Items 1-3, 5, 8</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Items 4, 7</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Item 6</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote>f.139r - highly decorative title.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>On the inner front cover there hs been written: <q>Säfstahalmssaml. 3.</q> in pencil.</p>
+                     <p>On the first flyleaf a list of the contents of the codex has been written, 14 items under the title
+                           <q>Sagor som finnes i denne bok</q>.</p>
+                     <p>A royal family tree diagram appears on f.63v.</p>
+                     <p>A family tree diagram appears on f. 139v and 140r - it pertains to item 8.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound in white parchment with some stains on the front. On the spine there is printed in
+                           gilt <q>SAGOR</q>. On two white labels below are printed: <q>6</q> and <q>F.6</q>. The fore-edge is
+                           red.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <!-- written in Sweden? -->
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="GusBon001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:18.159+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-09" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

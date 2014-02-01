@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 7 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0007-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 7 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="47v:1">1r-47v</locus>
+                     <title type="uniform" ref="#vs">Völsunga saga</title>
+                     <rubric>Saga af Ragnar Lodbrok oc morgum k<ex>on</ex>gum m<ex>er</ex>kiligum</rubric>
+                     <incipit>I. Cap. Her hefr up oc segir fra þeim m<ex>anni</ex> er Sigi er nefndr</incipit>
+                     <explicit>oc v<ex>ar</ex>þ þeim þ<ex>at</ex> at aldrlagi</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="47v:2" to="75v:29">47v-75v</locus>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <rubric>xLi Cap</rubric>
+                     <incipit>Heimir i Hlymdolu<ex>m</ex> spyʀ nu þessi tiþinde</incipit>
+                     <explicit>Oc þ<ex>et</ex>ta þotti m<ex>onnu</ex>m und<ex>ar</ex>ligt, oc sogþu siþ<ex>an</ex> f<ex>ra</ex>
+                           oðru<ex>m</ex> m<ex>onnu</ex>m</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="75v:30" to="80v:18">75v-80v</locus>
+                     <title type="uniform">Krákumál</title>
+                     <rubric>Lxij Cap: Krakumal e<ex>r</ex> sum<ex>ir</ex> kalla Lodbrok<ex>ar</ex> kviþu</rubric>
+                     <incipit>Hioɢu<ex>m</ex> v<ex>er</ex> með hiorvi hitt v<ex>ar</ex> ei f<ex>yrir</ex> Longu</incipit>
+                     <explicit>Lifs ero Liþn<ex>ar</ex> stund<ex>ir</ex> hlæiande sk<ex>al</ex> ec deyia</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="80"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="317"/>
+                              <width unit="mm" quantity="202"/>
+                           </dimensions>
+                           <watermark ana="yes">In the book-block, the watermark shows two lions holding an emblem with a large
+                              crown on top. Below the image, the letters AJ can be read. Possibly the same watermark as in AM 34 V
+                              4to and AM 34 VI 4to. Similar to watermarks in AM 11 fol., distinguished by the letters. The
+                              flyleaves show a fool with a five-pointed collar. The central point is longer and ends in three
+                              balls instead of one. Cf. e.g. AM 8 fol. and AM 65 fol.</watermark>
+                        </support>
+                        <foliation ana="fol later pag contemporary">
+                           <p>Foliated with red ink in the top right corners by <name type="person" role="scholar" key="KriKaa001">Kålund</name>. Contemporary pagination in dark ink in the top outer corners.</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="27 31">
+                           <num type="wpl" atLeast="2" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="258"/>
+                              <width unit="mm" quantity="141"/>
+                           </dimensions>
+                           <catchwords ana="yes">Catchwords on fols. <locus>8v, 16v 31v, 32v, 40v, 48v and 56v</locus></catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#AsgJon001" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <additions ana="low">
+                     <p>Some marginalia. <name type="person" role="scribe" key="AsgJon001">The scribe</name> added
+                        variants to <ref xml:lang="is">Krákumál</ref>, most of them in comparison to Ole Worm's edition. On the
+                        first front flyleaf a note from <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>
+                        reads: <q xml:lang="da">fra Salig Assessor Thormod Torvesens Enke 1720.</q>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Light brown parchment binding on card boards. On the spine, presumably <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> wrote: <q xml:lang="is">Ragnars Saga Loðbrok<ex>ar</ex></q>.
+                           The outside of the front cover used to have brown writing and ornaments on it which were scraped off.
+                           The binding was restored and parts of the original pastedowns are glued over the present ones.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1688" notAfter="1705"/>
+                     <origPlace key="NO"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                     <name type="person" role="commissioner" key="ThoTor001"/>
+                     <name type="person" role="owner" key="ThoTor001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:42.922+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:01.541+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:12.904+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:26.324+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:05.932+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-02-14" who="#BES">Prepared for session with ms.</change>
+         <change when="2013-02-15" who="#BES">Added missing information from the ms. itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

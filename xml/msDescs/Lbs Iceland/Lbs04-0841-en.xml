@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 841 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0841-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 841 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="15v"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <rubric>Söguþáttur af Ragnari Loðbrók</rubric>
+                     <colophon>Endað þann 3 marti á sama stað og ári af ÞSsyni</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="kon">
+                     <locus from="16r" to="16v"/>
+                     <title type="uniform">Morkinskinna</title>
+                     <title type="supplied">Samtal Sigurðar kóngs Jórsalafara og Eysteins
+                        kóngs bróður hans</title>
+                     <rubric>Úr Noregskonunga sögum, Samtal Sigurðar kóngs Jórsalafara og Eysteins
+                        kóngs bróður hans</rubric>
+                     <note>Úr Morkinskinnu</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="17r" to="50r"/>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <rubric>Ævisaga Starkaðar gamla</rubric>
+                     <author key="SnoBjo001">Snorri Björnsson compiled</author>
+                     <colophon>Þessi saga var rituð á Veggjum í Altlanshrepp og enduð þann 4 janúari
+                        1776</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="50"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>The flyleaves were added with the binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">From time of cataloguing - sporadic</foliation>
+                        <condition ana="poor">A restoration has been carried out at a previous time</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="26 28">
+                           <num type="wpl" atLeast="12" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="173"/>
+                              <width unit="mm" quantity="134"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoSig007" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low">
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Library binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1776"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:49.115+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-06" who="#SK">Added items classes and other information from the
+            P:E.Ó.-catalogue and other sources</change>
+         <change when="2012-04" who="#SK">Added information from the manuscript itself including an
+            item</change>
+         <change when="2012-09" who="#SK">Added the last bit of information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

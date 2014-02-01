@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>JS 635 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0635-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 635 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="22r"/>
+                     <title type="uniform">Florens saga konungs</title>
+                     <rubric>Sagan af Florens kóng og sona hans</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="22r" to="34v"/>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <rubric>Sagan af Conrad keisarasyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="34v" to="61r"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <rubric>Sagan af Þjalar Jóni Svipdagssyni og Eireki forvitna
+                        Vilhjálmssyni</rubric>
+                     <note>Written in 1775 on the 15th of April by Ormur Arnþórsson á Hamri</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="61v" to="105r"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <rubric>Hér hefur upp söguna af Sigurði þögla</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="107r" to="125v"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <rubric>Hér byrjar sagan af Vilmundi viðutan</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="125v" to="132r"/>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                     <rubric>Hér byrjar sagan af Drauma Jóni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="132r" to="139r"/>
+                     <title type="uniform">Tiodels saga riddara</title>
+                     <rubric>Hér byrjar sagan af einum riddara er Tyodel hét</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="139r" to="145r"/>
+                     <title type="uniform">Sigurðar saga fóts</title>
+                     <rubric>Hér byrjar sagan af Sigurði fót og Ásmundi Húnakonungi</rubric>
+                     <note>Finished on the 16th of December 1777 by Ormur Arnþórsson á Hamri</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="fas">
+                     <locus from="145v" to="157r"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <rubric>Hér byrjar söguþáttur af Katli hæng og Grími loðinskinna sem er undirrétting Örvar Odds sögu</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>                                   
+                  <msItem n="10" class="fas">
+                     <locus from="157r" to="207r"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>                                                
+                     <rubric>Hér byrjar sögn af Örvar-Oddi syni Gríms loðinskinnu</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="207r" to="223v"/>                                   
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <rubric>Hér byrjar sagan af Jall-manni og Hermann kóngi</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="223"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 29">
+                           <num type="wpl" atLeast="8" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="142"/>
+                              <width unit="mm" quantity="112"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#OrmArn001" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="vignette" subtype="tail-piece">Knotwork: <locus from="145r" to="145r">145r</locus></decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Knotwork on page <locus from="105v" to="105v">105v</locus></p>
+                     <p>Written on page <locus from="106" to="106">106</locus>: Síðari
+                        hluti</p>
+                     <p>Title page on front flyleaf <locus from="ffl2r" to="ffl2r">ffl2r</locus> written by <name type="person" key="PalPal003">Páll Pálsson</name> the student:
+                        <q>Sögu- Safn í tveimur deildum bls. 1-209 + 1-236. sjá
+                           næstu bls. Með hendi Orms Arnþórssonar á Hamri (á árunum
+                           1775-17)</q>.</p>
+                     <p>Register on front flyleaf <locus from="ffl2v" to="ffl2v">ffl2v</locus> written by <name type="person" key="PalPal003">Páll Pálsson</name> the student:
+                        <q>Innihald</q></p>
+                  </additions>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1775" notAfter="1779"/>
+                     <origPlace key="IS"/>
+                     <p>13th volume off a collection of sagas in 19 volumes: <ref target="JS04-623" type="ms">JS
+                        623 4to</ref> - <ref target="JS04-641" type="ms">JS 641 4to</ref>
+                     </p>
+                  </origin>
+                  <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     
+                      From bookkeeper <name type="person" role="owner" key="JonArn002">Jón Árnason</name>'s collection.</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:27.444+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-09-06" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2012-09-29" who="#SMM">Added msItems and locus from ms photographs from the Arnamagnaean collection in Copenhagen.</change>
+         <!-- missing information that can be acquired from ms itself only, i.e. bindingDesc -->
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+         </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

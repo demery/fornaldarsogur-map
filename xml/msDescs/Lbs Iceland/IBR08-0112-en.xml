@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 112 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR08-0112-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 112 8vo</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>ÍBR B. 139</idno>
+                  </altIdentifier>                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r" facs="#IBR08-0112-0001r" to="165rv">1r-165r</locus>
+                     <title type="supplied">Kvæðasafn</title>
+                     <note>Named authors: Árni Böðvarsson, séra Árni (Illugason) í Grímsey, séra Bergur Guðmundsson í
+                        Bjarnanesi, Bjarni Thorarensen, Björn Sigurðsson, séra Eiríkur Brynjólfsson, séra Eiríkur Bjarnason, E. J.
+                        s. (formannavísur), Finnur Magnússon, Guðmundur Bergþórsson, séra Gunnar Pálsson, Guttormur Guðmundsson,
+                        séra Hallgrímur Pétursson, Högni Bárðarson, Högni Þorsteinsson (borgfirskur), séra Ingjaldur Jónsson, Jón
+                        biskup Arason, séra Jón Bjarnason á Presthólum, séra Jón Guðmundsson í Reykjadal, J. H. s.
+                        (formannsvísur), Jón Jónsson í Berunesi, Kristín Jónsdóttir, séra Magnús Einarsson, Níels skáldi Jónsson
+                        (ríma af enskum stúdent), Páll Bjarnason (Dalamaður), séra Páll Bjarnason, Páll lögmaður Vídalín, séra
+                        Páll skáldi Jónsson, Pétur Jakobsson, Sigríður Jóhannsdóttir, séra S. I .s. (1771), Sigurður Gíslason,
+                        séra Stefán Ólafsson, Hans Víum sýslumaður, séra Þórarinn Jónsson, Þorsteinn Bárðarson, séra Þorsteinn
+                        Ketilsson, Þórunn Ketilsdóttir.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="10"/>
+                           <num type="book-block" value="165"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="188"/>
+                              <width unit="mm" quantity="117"/>
+                           </dimensions>
+                           <!--<watermark ana="/>"-->
+                        </support>
+                       <!-- <foliation ana=""></foliation>
+                        <condition ana=""></condition>-->
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""></height>
+                              <width unit="mm" quantity=""></width>
+                           </dimensions>
+                           <catchwords ana=""/></layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="2">
+<!--                     <summary>Tvær hendur ; Skrifarar:</summary>-->
+                     <handNote scribeRef="#BerGud001" scope="major" script="unknown">
+                        <name type="person" key="BerGud001">Bergur Guðmundsson Strandalín</name>. </handNote>
+                     <handNote scribeRef="#OlaEyj001" scope="minor" script="unknown">
+                        <name type="person" key="OlaEyj001">Ólafur Eyjólfsson</name>. </handNote>
+                  </handDesc>
+                  <!--<decoDesc ana="">
+                     <decoNote type="">
+                        <p/>
+                     </decoNote>
+                  </decoDesc>-->
+                  <additions ana="low">
+                     <p>Front flyleaf <locus from="2r-FFI" facs="#IBR08-0112-0002r-FFI" to="2r-FFl">2r</locus>: title page in the
+                        hand of <name type="person" key="PalPal003">Pál Pálsson</name> stúdent: <q>Kvæða-safn eptir ýmsa með
+                           hendi Bergs Guðmundssonar Strandalíns VII.</q>
+                     </p>
+                     <p>Front flyleaves <locus from="3r-FFI" facs="#IBR08-0112-0003r-FFI" to="5v-FFl">3r-5v</locus>: table of
+                        contents in the hand of <name type="person" key="PalPal003">Pál Pálsson</name> stúdent: <q>Registur</q>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="" contemporary=""/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1830">1830</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>Gift from <name type="person" key="ValAsm001">Valdimar Ásmundsson</name>, <date when="1872-11-20">20
+                        November, 1872</date>: <q>Móttekið 20/11 72. Gefið bókmenntafélaginu af Valdimar
+                           á Flögu í Þistilfirði, með bréfi frá 11. okt. 1872.</q> (front flyleaf <locus from="1r-FFl" facs="#IBR08-0112-0001r-FFl" to="1r-FFl">1r</locus>). </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:11.967+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:18.232+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:38.384+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2013-11-06" who="#JSL">Translated notes into English.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

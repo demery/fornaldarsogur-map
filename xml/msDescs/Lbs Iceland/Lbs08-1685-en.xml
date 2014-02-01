@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1685 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-1685-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1685 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                      
+                  <msItem n="1" class="ferds">
+                     <locus from="1r" facs="#Lbs08-1685-0001r" to="20v">1r-20v</locus>
+                     <rubric>
+                        Reisusaga Macomet Abdullu einum tyrkneskum kaupmanni er hann hefur sjálfur frá sagt
+                     </rubric>
+                     <textLang mainLang="is"/>
+                     <note>Incomplete</note>
+                  </msItem>
+                  <msItem n="2" class="avint">
+                     <locus from="21r" facs="#Lbs08-1685-0021r" to="23v">21r-23v</locus>
+                     <title type="supplied">Ævintýri</title>
+                     <textLang mainLang="is"/>
+                     <rubric>
+                        er hann hafði riðið um hríð […] gangandi, heilsandi honum og bauð honum […] kóngsson segir að sér sé ei hægt …
+                     </rubric>
+                     <note>Beginning is missing.</note>
+                  </msItem>
+                  <msItem n="3" class="avint">
+                     <locus from="23v" facs="#Lbs08-1685-0023v" to="26v">23v-26v</locus>
+                     <title type="supplied">Ævintýr</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Ævintýr af einnri keisaradóttur</rubric>
+                  </msItem>
+                  <msItem n="4" class="sagnt ">
+                     <locus from="26v" facs="#Lbs08-1685-0026v" to="29v">26v-29v</locus>
+                     <rubric>Ein historía af einum íslenskum manni er Oddur hét</rubric>
+                     <textLang mainLang="is"/>
+                     <note>Incomplete.</note>
+                  </msItem>
+                  <msItem n="5" class="hels">
+                     <locus from="29v" facs="#Lbs08-1685-0029v" to="31v">29v-31v</locus>
+                     <rubric>Ein historí[a]</rubric>
+                     <textLang mainLang="is"/>
+                     <incipit>
+                        Þegar vor elskulegast [sic] herra umgekkst hér á jörðunni á dögum sinnar holdsvistar …
+                     </incipit>
+                  </msItem>
+                  <msItem n="6" class="avint">
+                     <locus from="31v" facs="#Lbs08-1685-0031v" to="36v">31v-36v</locus>
+                     <title type="uniform">Gyðingurinn gangandi</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hér skrifast ævintýr af Gyðinginum gangandi</rubric>
+                  </msItem>
+                  <msItem n="7" class="sagnps">
+                     <locus from="36v" facs="#Lbs08-1685-0036v" to="43v">36v-43v</locus>
+                     <rubric>
+                        Historía um Júdam Ískarioth, hans foreldra, fæðing og lifnað til þess hann varð Kristi postuli
+                     </rubric>
+                     <textLang mainLang="is"/>
+                     <note>Summary of Gyðinga saga</note>
+                  </msItem>
+                  <msItem n="8" class="sagnps">
+                     <locus from="43v" facs="#Lbs08-1685-0043v" to="53r">43v-53r</locus>
+                     <rubric>Ævisaga Pílati landsdómara</rubric>
+                     <textLang mainLang="is"/>
+                     <note>Summary of Pilatus's saga in Gyðinga saga.</note>
+                  </msItem>
+                  <msItem n="9" class="fas">
+                     <locus from="53r" facs="#Lbs08-1685-0053r" to="53v">53r-53v</locus>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Eiríki víðförla</rubric>
+                     <note>Fragment.</note>
+                  </msItem>
+                  <msItem n="10" class="kim">
+                     <locus from="54r" facs="#Lbs08-1685-0054r" to="77r">54r-77r</locus>
+                     <rubric>
+                        Hér hefur upp Lokalæti, það er stuttar frásagnir um þann vonda raugvætt Loka Laufeyjarson … Prentað í Kaupmannahöfn
+                     </rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="kvad">
+                     <locus from="78r" facs="#Lbs08-1685-0078r" to="78v">78r-78v</locus>
+                     <author key="BenTho003">Benedikt Þórðarson</author>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>
+                        Gerðagrátur Benedikts Þórðarsonar til Leirárgarðaprentsmiðju
+                     </rubric>
+                     <incipit>Garðarshólma auðnan er …</incipit>
+                  </msItem>
+                  <msItem n="12" class="kvad">
+                     <locus from="78v" facs="#Lbs08-1685-0078v" to="79v">78v-79v</locus>
+                     <author key="JonSte006">Jón Steinsson Bergmann</author>
+                     <title type="supplied">Vísur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Vísur Jóns Steinssonar Þ.Od. tilskrifaðar</rubric>
+                     <incipit>Aldrei kann sólin svo skær fagurt skína …</incipit>
+                  </msItem>
+                  <msItem n="13" class="kvad">
+                     <locus from="79v" facs="#Lbs08-1685-0079v" to="80r">79v-80r</locus>
+                     <author key="JonSte006">Jón Steinsson Bergmann</author>
+                     <title type="supplied">Vísur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Aðrar vísur Jóns Steinssonar</rubric>
+                     <incipit>Margt reynir sá sem mótlætið ber …</incipit>
+                  </msItem>
+                  <msItem n="14" class="kvad">
+                     <locus from="80r" facs="#Lbs08-1685-0080r" to="80v">80r-80v</locus>
+                     <author key="EinSae001">Einar Sæmundsson</author>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Ljóðmæli ort af Einari Sæmundssyni</rubric>
+                     <incipit>Ástar heilsan upp sest …</incipit>
+                  </msItem>
+                  <msItem n="15" class="kvad">
+                     <locus from="80v" facs="#Lbs08-1685-0080v" to="81v">80v-81v</locus>
+                     <author key="BjaGis001">Bjarni Gissurarsonur</author>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Lukkan og lífið er valt. Síra Bjarni Gissurarsonur</rubric>
+                     <incipit>Veraldar goss eð valt er mjög …</incipit>
+                  </msItem>
+                  <msItem n="16" class="kvad">
+                     <locus from="81v" facs="#Lbs08-1685-0081v" to="82v">81v-82v</locus>
+                     <author key="EirRus001">Eiríkur Rustikusson</author>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Kvæði ort af Eiríki Rustikussyni</rubric>
+                     <incipit>Úr hreiðri sínu haukur óma …</incipit>
+                     <incipit>Hygginn kom mann Hörgár innst af jörð …</incipit>
+                  </msItem>
+                  <msItem n="17" class="laus">
+                     <locus from="82v" facs="#Lbs08-1685-0082v" to="82v">82v</locus>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Vísa</rubric>
+                     <incipit>Herjans daufa harn lá …</incipit>
+                     <colophon>
+                        <name type="person" key="ambig">E.Rs.</name> (Bæsingsfjörður: Vopnafjörður) (
+                        <locus from="82v" facs="#Lbs08-1685-0082v" to="82v">82v</locus>
+                        )
+                     </colophon>
+                  </msItem>
+                  <msItem n="18" class="kvad">
+                     <locus from="83r" facs="#Lbs08-1685-0083r" to="84v">83r-84v</locus>
+                     <author key="ThoHal004">Þorvaldur Hallsson</author>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>
+                        Ljóðmæli Þorvaldar Hallssonar á Búlandsnesi um nokkur Íslands skáld og hvað hvört þeirra ort hafa
+                     </rubric>
+                     <incipit>Ísa hér á landi …</incipit>
+                     <incipit>Kær Jesú Christi</incipit>
+                  </msItem>
+                  <msItem n="19" class="kvad">
+                     <locus from="84v" facs="#Lbs08-1685-0084v" to="86v">84v-86v</locus>
+                     <author key="ThoHal004">Þorvaldur Hallsson</author>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Um nokkur sálmaskáld</rubric>
+                     <incipit>Ræddi eg hér að rímur …</incipit>
+                     <incipit>Kær Jesú Christi</incipit>
+                     <note>Under the title: Með sama tón</note>
+                  </msItem>
+                  <msItem n="20" class="laus">
+                     <locus from="86v" facs="#Lbs08-1685-0086v" to="87v">86v-87v</locus>
+                     <author key="ThoTho008">Þorlákur Þórarinason</author>
+                     <title type="supplied">Vísur</title>
+                     <textLang mainLang="is"/>
+                     <rubric>
+                        Fréttavísur sál. síra Þorláks Þórarinssonar kveðna[r] [17]67, um það er skeði 1765 og 1766
+                     </rubric>
+                     <incipit>Senn að g[r]undar siglu há …</incipit>
+                     <note>In other manuscripts, the Tíðavísur may also be named</note>
+                  </msItem>
+                  <msItem n="21" class="kvad">
+                     <locus from="88r" facs="#Lbs08-1685-0088r" to="89r">88r-89r</locus>
+                     <author key="ThoJon032">[Þórarinn Jónsson]</author>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sendibréf velgáfaðs heiðarlegs stud. Þ.Js.</rubric>
+                     <incipit>Yður fróma …</incipit>
+                  </msItem>
+                  <msItem n="22" class="kvad">
+                     <locus from="89r" facs="#Lbs08-1685-0089r" to="89v">89r-89v</locus>
+                     <author key="JonSig013">Jón Sigurðsson</author>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Jón Sigurðsson sýslumaður í Dölum kvað þetta</rubric>
+                     <incipit>Egill er enn í beygju …</incipit>
+                  </msItem>
+                  <msItem n="23" class="kvad">
+                     <locus from="89v" facs="#Lbs08-1685-0089v" to="89v">89v</locus>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Kimlabönd E[inars] J[óns]s[onar]</rubric>
+                     <incipit>Hjarir Þóra hýr í æru kjörum …</incipit>
+                     <note>Also owned by Árni Grímsson.</note>
+                     <note>Fragment.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="89"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="156"/>
+                              <width unit="mm" quantity="91"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="average">A snippet of text is glued next to fol. <locus from="69r" facs="#Lbs08-1685-0069r" to="69r">69r</locus> and a page strip is glued over the text with a correction on fol. <locus from="74r" facs="#Lbs08-1685-0074r" to="7vr">74r</locus>.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="26 29">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="major" script="chancery">I. Unknown scribe (<locus from="1" facs="#Lbs08-1685-0001r" to="20">1-20</locus>)</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">II. Unknown scribe (<locus from="21" facs="#Lbs08-1685-0021r" to="53">21-53</locus>)</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">III. Unknown scribe (<locus from="54" facs="#Lbs08-1685-0054r" to="77">54-77</locus>, <locus from="85" facs="#Lbs08-1685-0085r" to="87">85-87</locus>)</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">IV. Unknown scribe (<locus from="78" facs="#Lbs08-1685-0078r" to="84">78-84</locus>, <locus from="88" facs="#Lbs08-1685-0088r" to="89">88-89</locus>)</handNote>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="border">Red border: <locus from="74v" facs="#Lbs08-1685-0074v" to="74v">74v</locus></decoNote>
+                     <decoNote type="initial">Decorated initials in black, yellow, red, green and blue ink</decoNote></decoDesc>
+                  <additions ana="low">
+                     <p>The manuscript is a collation.</p>
+                     <p>Folio <locus from="54r" facs="#Lbs08-1685-0054r" to="54r">54r</locus> has previously been a title page.</p>
+                  </additions>
+                <!--  <bindingDesc>
+                     <binding ana="moderate" contemporary="">
+                        <p>Folio 20 has been a flyleaf.</p>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1775" to="1825">[1775-1825?]</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:55.505+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:54:17.432+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:36.634+02:00" who="#EAH"> Extracted pagination and page dimension data from previous version. </change>
+         <change when="2011-05-07T19:19:08.561+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2012-02" who="#SK">Corrected class and where needed</change>
+         <change when="2013-05-29" who="#SMM">Added information after looking at pictures on handrit.is.</change>
+         <change when="2013-09-13" who="#TL">Checked markup consistency</change>
+         <!-- written area + bindingDesc missing  -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 678 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0678-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 678 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <!--<titlePage ana=""></titlePage>-->
+                  <msItem n="1" class="konth">
+                     <locus from="1" to="9"/>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér skrifast historía af þeim nafnkennda Slysa-Hróa</rubric>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9v" to="18r"/>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér skrifast sagan af Gjafa-Ref Reinssyni</rubric>
+                  </msItem>
+                  <msItem n="3" class="sagnfr">
+                     <locus from="18r" to="20v"/>
+                     <title type="supplied">Um Alexander mikla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þetta er sú merkilega ræða sem einn sendimaður úr Schytia gjörði fyrir
+                        Alexandro Magno, áður Alexander vann Schytiam, og er hún útlögð eftir
+                        Curtia. Öngvan veit ég hafa orðið berorðari við Alexandrum en mann þennan og
+                        hafa lærðir menn haft mætur á þessari ræðu, því hún er bæði snotur og
+                        lærdómsrík og furðanlegt að af heiðnum manni skyldi svo vel til máls tekið
+                        vera</rubric>
+                     <author key="QuiCur001">Quintus Curtius Rufus</author>
+                     <note>From Curtius' work, Historiae Alexandri Magni</note>
+                  </msItem>
+                  <msItem n="4" class="isl" defective="true">
+                     <locus from="21r" to="43v"/>
+                     <title type="uniform">Kjalnesinga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast Kjalnesinga saga eður af Búa Andríðssyni</rubric>
+                     <note>Lacking the end</note>
+                  </msItem>
+                  <msItem n="5" class="rimur" defective="true">
+                     <locus from="50r" to="120v"/>
+                     <author/>
+                     <title type="uniform">Remundar rímur</title>
+                     <textLang mainLang="non"/>
+                     <author key="JonGud005">Jón Guðmundsson í Rauðseyjum</author>
+                     <note>Lacking from the 15th ríma (out of 24). Note in the beginning (in a different hand) reads: 
+                        <q>Remundar rímur Rígarðssonar, eftir Jón Jónssson í Berufirði, 24 að tölu. Vantar aftan af 15du rímu og þaðan af (sbr. Bmf. 30.8vo, Bmf. 48.4to)</q></note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="125"/>
+                           <num type="front-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="161" atMost="169"/>
+                              <width unit="mm" atLeast="101" atMost="104"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag">1-48 (<locus>21r-43v</locus>)</foliation>
+                        <condition ana="average">Lacking between folios <locus>41-42</locus></condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">Fols. <locus>1r-20v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown">Fols. <locus>21r-43v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="major" script="unknown">Fols. <locus>50r-120v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Decorated initals, sometimes red, e.g. on fol.
+                        <locus>34v</locus></decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Blank added quire fols. <locus>44-49</locus>. 
+                        Some lacking text added in a different hand on fol. <locus from="1v" to="1v">1v</locus>;
+                      a note added to fol. <locus>50r</locus></p></additions>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1750" notAfter="1860"/> 
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:57.331+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-02" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources</change>
+         <change when="2013-02" who="#SK">Added information from the XML-file on handrit.is</change>
+         <change when="2013-08-20" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

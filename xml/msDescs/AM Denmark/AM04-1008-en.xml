@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 1008 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-1008-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 1008 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>AM Addit. 40a 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+               <supportDesc material="chart">
+                  <support>
+                     <num type="front-flyleaf" value="1"/>
+                     <num type="book-block" value="152"/>
+                     <num type="back-flyleaf" value="1"/>
+                     
+                     <dimensions type="leaf">
+                        <height unit="mm" quantity="195"/>
+                        <width unit="mm" quantity="165"/>
+                     </dimensions>
+                     
+                     <watermark ana="yes">Half of a symbol (crest? mitre?) visible on fol. <locus>15</locus>. Crown visible on fols. <locus>46</locus>, <locus>47</locus> and <locus>140</locus>. 
+                        Beast within a fence on fol. <locus>59</locus>. Foolscap watermark visible on fol. <locus>95</locus>.</watermark>
+                     
+                  </support>
+                  
+                  <foliation ana="contemporary later pag fol">
+                     <p>Separate contemporary pagination for each item in upper corners (Items VII, VIII and IX are not paginated). 
+                        Irregular foliation is continuous in bottom right corners of recto leaves. Fols. <locus>13-15</locus>, <locus>43-47</locus>, <locus>59</locus>, <locus>95</locus> and <locus>140</locus> blank.
+                     </p>
+                  </foliation>
+                  
+                  <condition ana="good">Some text (including an inscription?) has been scraped off of fol. <locus>103r</locus>.</condition>
+                  
+               </supportDesc>
+                  </objectDesc>
+               
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Blind-tooled parchment over wooden boards. Tooled decorations include a floriated outer frame 
+                           and an inner frame of medallions. Initials and dates appear at intervals in both frames, including:
+                           <q>B.I.S. 1747</q> and <q>ION S ANNO 1680</q>. The parchment shows signs of wear and tear.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+                  <provenance>
+                     <p>The manuscript was once in <name type="place" key="Skalh01">Skálholt</name>,
+                        Iceland.</p> <name type="person" role="owner" key="ArnMag001"><!--Árni Magnússon--></name>
+                  </provenance>
+               </history>
+               
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 1008 I 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                                      
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="fas">
+                        <locus from="1r:1" to="9v:13"/>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Hversu Noregr byggðisk</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hversu noregr bygðiz</rubric>
+                        <incipit>Nu sk<ex>al</ex> segia demi til hversu noreghr bygðiz í fystu</incipit>
+                        <explicit>en<ex>n</ex> dott<ex>ir</ex> Valdemars Danak<ex>onung</ex>s, eptir er
+                           hon let fanga Albrikt</explicit>
+                        
+                        <filiation>
+                           
+                           <p>Note at the head of fol. <locus>1r</locus> reads: <q xml:lang="is">Or 
+                              <ref type="ms" target="#GKS02-1005" ana="antigraph">Flateyi<ex>ar</ex>bok</ref> Fol 8</q></p>
+                        </filiation>
+                        
+                        <note>Contains section headings for ættartölur, including <q>ætt Har<ex>alds</ex>
+                        fra Aðam</q> on fol. <locus>7v</locus>. Final six lines on fol. <locus>9v</locus> are in another hand.</note>
+                     </msItem>
+                     
+                     <!-- according to our classification, this is the same work as item 1...? -->
+                     <msItem n="2" class="fas">
+                        <locus from="10r:1" to="12v:21"/>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Fundinn Noregr</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Fundr Noregs</rubric>
+                        <incipit>Forniotr hef<ex>ur</ex> k<ex>onu</ex>n<ex>g</ex>r hæitit han<ex>n</ex> reð fyrir Jotlande</incipit>
+                        <explicit>hins rika oc hins raðsuin<ex>n</ex>a</explicit>
+                        
+                        <filiation>
+                           
+                           <p>Note on fol. <locus>10r</locus>: <q>Skrifad effter <ref type="ms" target="#GKS02-1005" ana="antigraph">Flatey<ex>ar</ex>bok</ref> Fol: 110</q></p>
+                        </filiation>
+                     </msItem>
+                     
+                  </msContents>
+                         
+                  <physDesc>
+                     <objectDesc form="codex">
+                        
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="21">	
+                              <num type="wpl" atLeast="7" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="175"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                     
+                     <handDesc hands="2">
+                        <handNote scribeRef="#AsgJon001" scope="major" script="unknown"/>
+                        <handNote scribeRef="unknown" scope="minor" script="unknown">Fol. <locus>7v:16-21</locus></handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="medium">
+                        <p>Some marginalia by <name type="person" key="ThoTor001">Torfæus</name>. Names underlined in red pencil.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <!-- actually probably written in Norway between 1688 and 1704? -->
+                     <origin>
+                        <p>Written <origDate notBefore="1688" notAfter="1747">s. XVII ex/XVIII 1/2</origDate>.</p>
+                        <origPlace key="unknown"/><!--IS ?-->
+                     </origin>
+                     
+                  </history>
+               
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 1008 II 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="16r:1" to="42r:10"/>
+                        <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                        <title type="parallel">Hálfs saga ok Hálfsrekka</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan<ex>n</ex> af Halfe oc Halfsreckum.</rubric>
+                        <incipit>Alrekr het k<ex>ong</ex>r er bio a Alrekstauðum</incipit>
+                        <explicit>yri het dott<ex>ir</ex> hans, oc er þaþ<ex>an</ex> mikil ætt komin<ex>n</ex></explicit>
+                        
+                        <!-- information on apographs taken from handrit.is record -->
+                        <filiation>
+                           <p>Note on fol. 42r (in Torfæus' hand?) reads: <q xml:lang="is">Þessi Saga Saman<ex>n</ex>lesin<ex>n</ex> 
+                              við Membranam</q>. Copies of this exist in 
+                           <ref type="ms" target="#AM02-0202c" ana="apograph">AM 202c fol</ref>, 
+                           <ref type="ms" target="#NKS04-1698" ana="apograph">NKS 1698 4to</ref>,
+                           <ref type="ms" target="#IB02-0043" ana="apograph">ÍB 43 fol.</ref> and
+                           <ref type="ms" target="#JS04-0629" ana="apograph">JS 629 4to</ref>. </p>
+                        </filiation>
+                        
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">                           
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="20 23">
+                              <num type="wpl" atLeast="3" atMost="8"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        
+                        <handNote scribeRef="#AsgJon001" scope="sole" script="unknown">
+                          <!-- <p>Written by Ásgeir Jónsson.</p>-->
+                        </handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="low">
+                        <p>Some marginalia by <name type="person" key="ThoTor001">Torfæus</name>.</p>
+                     </additions>
+                     
+                  </physDesc>
+                  <!--<origin>
+                     <origDate when=""></origDate>
+                     <origPlace key=""></origPlace>
+                  </origin>-->
+                  
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 1008 III 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <msItem n="1" class="ridd">
+                        <locus from="48r:1" to="58v:6"/>
+                        <title type="uniform">Hróa þáttur heimska</title>
+                        <title type="parallel">Hróa þáttr heimska</title>
+                        <title type="parallel">Slýsaróa saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan<ex>n</ex> af Slysa=Hröa</rubric>
+                        <incipit><supplied reason="omitted" instant="false">I</supplied> þann tima er Sveinn Kongur ulfs
+                           son riede fyrer Danmórk</incipit>
+                        <explicit>oc kom margt gófugra manna frä þeim i Englande. oc
+                           lykur her þessare Sóghu.</explicit>
+                     
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="20 21">
+                              <num type="wpl" atLeast="7" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="145"/>
+                                 <width unit="mm" quantity="105"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="low">
+                        <p>Occasional marginalia in another hand.</p>
+                     </additions>
+                                          
+                  </physDesc>
+                  <!--<origin>
+                     <origDate when=""></origDate>
+                     <origPlace key=""></origPlace>
+                  </origin>-->
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>AM 1008 IV 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <msItem n="1" class="isl">
+                        <locus from="60r:1" to="83v:14"/>
+                        <title type="uniform">Eiríks saga rauða</title>
+                        <title type="parallel">Þorfinns saga karlsefnis</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Her Hefr vpp Sogu þeirra þorfinnz Karlsefnis oc Snorra þorbrandz sonar</rubric>
+                        <incipit>Olafr het herkongr er kalldr var Olafr hviti</incipit>
+                        <explicit>mart stormenni er komit annat fra Karlsefni oc Gudridi þat er ekki
+                           er her skrad</explicit>
+                        <colophon>Veri Gud med oss Amen</colophon>
+                        
+                        <filiation>
+                           <p>Note in a later hand (<name type="person" key="GudVig001">Guðbrandur
+                              Vigfússon</name>) on fol. <locus>60r</locus> reads: <q> eptir 
+                                 <ref type="ms" target="#AM04-0544" ana="antigraph">Hauksbók</ref></q></p>
+                          
+                        </filiation>
+                        
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="20 22">
+                              <num type="wpl" atLeast="8" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="170"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                                          
+                     <additions ana="medium">
+                        <p>Marginal and interlinear corrections in the hand of <name type="person" key="ArnMag001">Árni Magnússon</name>.
+                           <q xml:lang="da">Foræret Mag. <name type="person" key="JonArn003">Joen
+                            Arnesen</name> af A.M.</q> is written in the outer margin of fol. <locus>60r</locus>
+                    and refers to bishop <name type="person" key="JonArn003">Jón Árnason</name>.</p>
+                     </additions>
+                  </physDesc>
+                  <!--<origin>
+                     <origDate when=""></origDate>
+                     <origPlace key=""></origPlace>
+                  </origin>-->
+                  
+                  <history>
+                     <provenance>
+                        <p>According to a note on fol. <locus>60r</locus>, this part of the manuscript once belonged to
+                    bishop <name role="owner" type="person" key="JonArn003">Jón Árnason</name> (d. <date when="1743">1743</date>).</p>
+                     </provenance>
+                  </history>
+                  
+               </msPart>
+               
+               <msPart>
+                  
+                  <altIdentifier type="partial">
+                     <idno>AM 1008 V 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <msItem n="1" class="islt">
+                        <locus from="84r:1" to="94r:17"/>
+                        <title type="uniform">Grænlendinga þáttur</title>
+                        <title type="parallel">Grænlendinga þáttr</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Grænlendinga þattr</rubric>
+                        <incipit>Socki het maðr oc var þorisson han<ex>n</ex> bio i Brattahlið a Grænlandi</incipit>
+                        <explicit>En<ex>n</ex> þ<ex>ei</ex>r Herm<ex>un</ex>dr komu til Jslandz til
+                           ættjarða sin<ex>n</ex>a, oc lykr þ<ex>ar</ex> þessi Sogu.</explicit>
+                        
+                        <filiation>
+                           <p>Note on fol. <locus>84r</locus> reads: <q xml:lang="is">E 
+                              <ref type="ms" target="#GKS02-1005+en" ana="antigraph">codice Flateyensi</ref>.</q></p>
+                                                      
+                        </filiation>
+                        
+                     </msItem>
+                     
+                     <msItem n="2" class="bis kir">
+                        <locus from="94r:18" to="94v:16"/>
+                        <title type="supplied">List of bishops and churches in Greenland</title>
+                        <textLang mainLang="non"/>
+                        <rubric/>
+                        <incipit>Þesser hafa b<ex>isku</ex>par verit a Grænl<ex>and</ex>i Arnalldr Jonn Kauttr</incipit>
+                        <explicit>þriðia í Anavik í Rangafirði.</explicit>
+                     
+                     </msItem>
+                     
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                         <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="19 24">
+                              <num type="wpl" atLeast="8" atMost="11"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="170"/>
+                                 <width unit="mm" quantity="125"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="#AsgJon001" scope="sole" script="unknown">
+                         <!--  <p>Written by Ásgeir Jónsson.</p>-->
+                        </handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="low"/>
+                 </physDesc>
+                  <!--<origin>
+                     <origDate when=""></origDate>
+                     <origPlace key=""></origPlace>
+                  </origin>-->
+               </msPart>
+               
+               <msPart>
+                  
+                  <altIdentifier type="partial">
+                     <idno>AM 1008 VI 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <msItem n="1" class="islt">
+                        <locus from="96r:1" to="102v:15"/>
+                        <title type="uniform">Ölkofra þáttur</title>
+                        <title type="uniform">Ölkofra þáttr</title>
+                        <title type="parallel">Ölkofra saga</title>
+                        <textLang mainLang="non"/>
+                        <!-- not sure if this is the proper way to encode the modified rubric -->
+                        <rubric>Aulkofra Saga 
+                           <note>Rubric changed by a different hand to <q xml:lang="is">Þättur
+                           af Aulkofra <del>Saga</del></q></note>
+                        </rubric>
+                        <incipit><supplied reason="omitted">Þ</supplied>orhallr het m<ex>adr</ex>,
+                           h<ex>ann</ex> bio i bläskogu<ex>m</ex> a þ<ex>or</ex>hallzstóðum</incipit>
+                        <finalRubric><ex>ok</ex> Likr þar sogu olkofra</finalRubric>
+                        
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="20 21">
+                              <num type="wpl" atLeast="11" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="125"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="#AsgJon001" scope="sole" script="chancery">
+                           <p>Written by Ásgeir Jónsson.</p>
+                        </handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="low"/>
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <origPlace cert="medium" key="DK">Denmark</origPlace> 
+                        <origDate notBefore="1686" notAfter="1688">1686-88</origDate>
+                        <note>According to Loth (<bibl>
+                              <ref type="secondary" target="BiblArn20">Om nogle af Ásgeir Jónssons
+                            håndskrifter</ref>, p. 210</bibl>), this part of the manuscript may have been written by 
+                           <name type="person" key="ArnJon001">Ásgeir Jónsson</name> during his stay in Copenhagen
+                           in 1686-88.</note>
+                     </origin>
+                  </history>
+               </msPart>
+               
+               <msPart>
+                  
+                  <altIdentifier type="partial">
+                     <idno>AM 1008 VII 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <msItem n="1" class="samt">
+                        <locus from="103r:1" to="134v:17"/>
+                        <title type="uniform">Hrafns saga Sveinbjarnarsonar</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sagan<ex>n</ex> af Rafne Sveinbiarnar Syne</rubric>
+                        <incipit>Sveinbiórn het madur son <supplied reason="damage">Bardar sv</supplied>arta, Atlasonar.</incipit>
+                        <explicit>Og lukum vier þar sógun<ex>n</ex>e af Rafne Sveinbiarnarsyne, og
+                           hans digdum, dauda og afgange.</explicit>
+                        
+                        <!-- filiation from handrit.is record -->
+                        <filiation>
+                           <p>Copied from <ref type="ms" target="#AM02-0426" ana="antigraph">AM 426 fol. (former Addit. 27
+                fol.)</ref></p>
+                        </filiation>
+                        
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="22 25">
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="#MagSna001" scope="sole" script="unknown">
+                           <!--<p>Written by Magnús Snæbjarnarson (1705-1783).</p>-->
+                        </handNote>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                     
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <p>Written in <origPlace key="IS">Iceland</origPlace> in the <origDate notBefore="1725" notAfter="1783">
+                          mid eighteenth century</origDate>.</p>
+                     </origin>
+                  </history>
+               </msPart>
+               
+               <msPart>
+                  
+                  <altIdentifier type="partial">
+                     <idno>AM 1008 VIII 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <msItem n="1" class="konth">
+                        <locus from="135r:1" to="139r:6"/>
+                        <title type="uniform">Sigurðar þáttur slefu</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Þattr fra Sigurdi konungi Slefu Syni Gunnhildar</rubric>
+                        <incipit>Þat er sagt þa er Gunnhildar synir redu Noregi sat sigurdr konungr
+                           slefva a haurdalandi.</incipit>
+                        <explicit>Nockurum vetrum sidar for olof utan til Noregs til frænda sinna
+                           oc þotti enn mesti kvenskaurungr.</explicit>
+                     
+                     </msItem>
+                     
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="18 19">
+                              <num type="wpl" atLeast="5" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no"/>
+                                           
+                  </physDesc>
+                  <!--<origin>
+                     <origDate when=""></origDate>
+                     <origPlace key=""></origPlace>
+                  </origin>-->
+               </msPart>
+               
+               <msPart>
+                  
+                  <altIdentifier type="partial">
+                     <idno>AM 1008 IX 4to</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <msItem n="1" class="sagnt">
+                        <locus from="141r:1" to="146v:1"/>
+                        <title type="supplied">Vilhjálms þáttur bastards</title>
+                        <title type="parallel">Anshelmus þáttr erkibiskups</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Lytell þättur kyrknaräns og äsökna J Einglande ä dógum<ex>m</ex>
+                           þ<ex>eir</ex>ra tveg<ex>g</ex><ex>ia</ex> B<ex>isku</ex>pa, Erckeb<ex>isku</ex>ps
+                           S. Anshelmi og S. Thomasar Cantuariensis</rubric>
+                        <incipit>Tveir m<ex>er</ex>keleg<ex>ir</ex> k<ex>en</ex>nem<ex>enn</ex>, Berg<ex>ur</ex>
+                           Gun<ex>n</ex>steinsson <ex>og</ex> Jön Hallsson hafa skrifad lyfsógu</incipit>
+                        <explicit>ad han<ex>n</ex> siglde sin<ex>n</ex> kors til Indialands.</explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="2" class="avint">
+                        <locus from="146v:2" to="152v:24"/>
+                        <title type="supplied">Roðberts þáttur</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Rodberts Þättur</rubric>
+                        <incipit>Rodbert lyste þvy fyrer synum<ex>m</ex> Companum Balduina og Godefrey</incipit>
+                        <explicit>og giórdust marger Merkeleig<ex>er</ex> hluter under h<ex>an</ex>nz k<ex>o</ex>ngsdæme. Finis.</explicit>
+                        <colophon>NB. Þesse sóguþattur ä firerfarande ur blódum<ex>m</ex> hefur vered tediceradur Welskreivend<ex>um</ex>
+                           Biskupenu<ex>m</ex> Mag: <name type="person" key="BrySve001"> Bryniölfe salug:
+                           sveinssine</name> af Jöne Gudmundssine (cognam: lærda.)</colophon>
+                     
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                       
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="22 26">
+                              <num type="wpl" atLeast="6" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="2">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                        <handNote scribeRef="unknown" scope="minor" script="unknown"/>
+                     </handDesc>
+                     
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                     
+                  </physDesc>
+                  <!--<origin>
+                     <origDate when=""></origDate>
+                     <origPlace key=""></origPlace>
+                  </origin>-->
+               </msPart>
+            
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:48.405+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:46.628+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T18:42:10.967+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:47.974+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-06-03" who="#JSL">Added information from Kålund and handrit catalogs.</change>
+         <change when="2013-06-11" who="#JSL">Cataloged from manuscript.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

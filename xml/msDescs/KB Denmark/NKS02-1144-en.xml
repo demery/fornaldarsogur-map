@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1144 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1144-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1144 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Excerpta úr Saugunum</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="isl">
+                     <locus from="1v" to="3r"/>
+                     <title type="uniform">Egils saga Skalla-Grímssonar [Excerpts]</title>
+                     <textLang mainLang="non" otherLangs="da la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="3v" to="10r"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka [Excerpts]</title>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="10v" to="11v"/>
+                     <title type="uniform">Úlfs saga Uggasonar [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <title type="uniform" ref="#bsh">Bósa saga [Excerpts and Notes]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                     <msItem n="4.1" class="">
+                     <locus from="12r" to="16r:9"/>
+                        <title type="uniform">Bósa saga [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="4.2" class="">
+                        <locus from="59v:10" to="61r"/>
+                        <title type="uniform">Bósa saga [Notes]</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="16:r10" to="19r:8"/>
+                     <title type="uniform">Króka-refs saga [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="19r:9" to="28r:8"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="28r:9" to="39r:10"/>
+                     <title type="uniform">Sigurgarðs saga frækna [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-b-en" ana="antigraph">Copy of AM 576 b 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="8" class="isl">
+                     <locus from="29r:11" to="30r:5"/>
+                     <title type="uniform">Harðar saga [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="30r:5" to="33v:18"/>
+                     <title type="uniform">Njáls saga [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="33v:19" to="39r:5"/>
+                     <title type="uniform">Bærings saga [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="39r:6" to="44r:8"/>
+                     <title type="uniform">Valdimars saga [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="12" class="isl">
+                     <locus from="44r:9" to="50r:17"/>
+                     <locus from="54r:6" to="55v:6"/>
+                     <title type="uniform">Kjalnesinga saga [Excerpts, Notes]</title>
+                     <textLang mainLang="non" otherLangs="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="13" class="islt">
+                     <locus from="50r:18" to="52v"/>
+                     <locus from="53r" to="54r:5"/>
+                     <locus from="55v:7" to="56r:15"/>
+                     <title type="uniform">Jökuls þáttur Búasonar [Excerpts, Notes]</title>
+                     <textLang mainLang="non" otherLangs="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="14" class="isl">
+                     <locus from="56r:16" to="58v"/>
+                     <title type="uniform">Víga-Glúms saga [Notes]</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="15" class="fas">
+                     <locus from="59r" to="59v:9"/>
+                     <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra [Notes]</title>
+                     <textLang mainLang="is"/>
+                     <note>For following item see 4.2</note>
+                  </msItem>
+                  
+                  <msItem n="16" class="">
+                     <locus from="61r" to="65v"/>
+                     <title type="supplied">Völsunga saga and Ragnars saga loðbrókar</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                     <textLang mainLang="is"/>
+                     <msItem n="16.1" class="fas">
+                        <title ref="#rsl" type="uniform">Ragnars saga loðbrókar <note>[Notes]</note></title>
+                     </msItem>
+                     <msItem n="16.2" class="fas">
+                        <title ref="#vs" type="uniform">Völsunga saga</title>
+                     </msItem>
+                  </msItem>
+                  <msItem n="17" class="fas">
+                     <locus from="66r" to="67r:3"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar [Notes]</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="18" class="fas">
+                     <locus from="67r:4" to="69v:5"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga [Notes]</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-a-en" ana="antigraph">Copy of AM 576 a 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="19" class="konth">
+                     <locus from="69v:6" to="70r"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="20" class="konth">
+                     <locus from="70v" to="71r"/>
+                     <title type="uniform">Hróa þáttur heimska [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+
+                  <!-- note before the beginning of the next item:
+                  <q>Hic incipit Exemplar Lit. B. scriptum propria manu A. Magnæi.</q>-->
+                  <msItem n="21" class="ridd">
+                     <locus from="73r" to="74v"/>
+                     <title type="uniform">Nitida saga [Excerpt]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="22" class="ridd">
+                     <locus from="75r" to="75v"/>
+                     <title type="uniform">Sálus saga og Nikanórs [Excerpt]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="23" class="ridd">
+                     <locus from="76r" to="76r"/>
+                     <title type="uniform">Vilhjálms saga sjóðs [Excerpt]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="24" class="ridd">
+                     <locus from="76v" to="77v"/>
+                     <title type="uniform">Falentíns og Ursins saga [Excerpts]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="25" class="rimur">
+                     <locus from="78r:1" to="78r:8"/>
+                     <title type="supplied">Perseus rímur [Notes]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="26" class="almb">
+                     <locus from="78r:9" to="78r:18"/>
+                     <title type="supplied">Apollonius saga [Notes]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="27" class="ridd">
+                     <locus from="78r:19" to="78v:10"/>
+                     <title type="supplied">Flóres saga konungs og sona hans</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="28" class="ridd">
+                     <locus from="78v:11" to="78v:19"/>
+                     <title type="uniform">Flóvents saga [Notes]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="29" class="fas">
+                     <locus from="78v:20" to="79r:6"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga [Notes]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="30" class="almb">
+                     <locus from="79r:7" to="79r:20"/>
+                     <title type="uniform">Gabons saga og Vigoleis [Notes]</title>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <textLang mainLang="is"/>
+                     <note>Description of the saga's origin</note>
+                  </msItem>
+                  <msItem n="31" class="almb">
+                     <locus from="79v" to="80r:15"/>
+                     <title type="uniform">Huga saga sterka og skaplers konungs</title>
+                     <note>Extract</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="32" class="sagnps">
+                     <locus from="80r:16" to="80v:6"/>
+                     <title type="uniform">Trójumanna saga [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="33" class="rimur">
+                     <locus from="80v:7" to="80v:16"/>
+                     <title type="supplied">Rímur af Haralldi Kvenngjarna [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="34" class="almb">
+                     <locus from="80v:17" to="81r:7"/>
+                     <title type="supplied">Virgilíus saga [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="35" class="ridd">
+                     <locus from="81r:8" to="81r:17"/>
+                     <title type="uniform">Vilmundar saga viðutan [Title]</title>
+                     <note>Title and rubric only</note>
+                     <textLang mainLang="is" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="36" class="ridd">
+                     <locus from="82r:18" to="82r:22"/>
+                     <title type="uniform">Vilhjálms saga sjóðs [Notes]</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                     <note>Description of the saga's origin</note>
+                  </msItem>
+                  <msItem n="37" class="unknown">
+                     <locus from="81r:23" to="81v:5"/>
+                     <title type="supplied">Saga af Theogene og Chariclia</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-c-en" ana="antigraph">Copy of AM 576 c 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="38" class="almb">
+                     <locus from="81v:6" to="82r:9"/>
+                     <title type="uniform">Lykla-Péturs saga og Magelónu fögru</title>
+                     <note>Extracts and description of the story's origin</note>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0576-b-en" ana="protograph">Based on AM 576 b 4to</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="39" class="other">
+                     <locus from="82r:10" to="82v:6"/>
+                     <title type="supplied">Melusina saga [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="40" class="other">
+                     <locus from="82v:7" to="82v:10"/>
+                     <title type="supplied">Görg Wickram von Colmar <note>[Notes]</note></title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="41" class="laus">
+                     <locus from="82v:11" to="82v:24"/>
+                     <title type="supplied">Verse</title>
+                     <author>Þorbjörg digra</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="42" class="ridd">
+                     <locus from="93r:1" to="83r:4"/>
+                     <title type="supplied">Historia Arturi filii Ducis Britania [Notes]</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="43" class="ordb">
+                     <locus from="83r:5" to="83r:7"/>
+                     <title type="supplied">Glossary entry on Mabels</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="44" class="other">
+                     <locus from="83r:8" to="83r:19"/>
+                     <title type="suppllied">Meistari Lucius [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="45" class="regist">
+                     <locus from="83r:20" to="83v:18"/>
+                     <title type="supplied">List of vitæ</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="46" class="regist">
+                     <locus from="83v:19" to="89v"/>
+                     <title type="supplied">List of æfintýri and other sagas</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <!-- note before the beginning of the next item:
+                  <q>Hic incipit exemplar Lit: C /N 576/ scriptum propria manu A. Magnæi.</q>-->
+                  <msItem n="47" class="fas">
+                     <locus from="90r" to="93r:19"/>
+                     <title type="uniform">Þiðreks saga [Excerpt]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="48" class="ridd">
+                     <locus from="93r:20" to="94r"/>
+                     <title type="uniform">Percevals saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="49" class="ridd">
+                     <locus from="94v" to="95r"/>
+                     <title type="uniform">Erex saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="50" class="ridd">
+                     <locus from="95v" to="98v"/>
+                     <title type="uniform">Samsons saga fagra [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="51" class="ridd">
+                     <locus from="99r" to="99v:11"/>
+                     <title type="uniform">Adónías saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="52" class="ridd">
+                     <locus from="99v:12" to="100r:12"/>
+                     <title type="uniform">Ála flekks saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="53" class="riddst">
+                     <locus from="110r:13" to="106v"/>
+                     <title type="uniform">Ambrósíus saga og Rósamundu [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="54" class="rimur">
+                     <locus from="107r" to="109r:2"/>
+                     <title type="supplied">Andra rímur [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="55" class="unkown">
+                     <locus from="109r:3" to="110r:2"/>
+                     <title type="supplied">Befus saga [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="56" class="ridd">
+                     <locus from="110r:3" to="112r:2"/>
+                     <title type="uniform">Blomsturvalla saga [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="57" class="rimur">
+                     <locus from="112r:3" to="114v:2"/>
+                     <title type="supplied">On Callinus Rímur [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="58" class="rimur">
+                     <locus from="114v:3" to="116v:15"/>
+                     <title type="supplied">On Landres rimur [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="59" class="rimur">
+                     <locus from="116v:16" to="117r:21"/>
+                     <title type="supplied">On Polistutors rímur [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="60" class="rimur">
+                     <locus from="117r:22" to="119r:4"/>
+                     <title type="supplied">On rímur af Reinhalldi [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="61" class="rimur">
+                     <locus from="119r:4" to="121v:7"/>
+                     <title type="uniform">On Grímallðs rímur [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="62" class="other">
+                     <locus from="121v:8" to="122v"/>
+                     <title type="supplied">Jóns þáttur Vilkemssonar [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="63" class="ridd">
+                     <locus from="123r" to="123v:12"/>
+                     <title type="uniform">Jóns saga leikara [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="64" class="ridd">
+                     <locus from="123v:13" to="125r:6"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns [Excerpts]</title>
+                     <textLang mainLang="is" otherLangs="la"/>
+                  </msItem>
+                  <msItem n="65" class="ridd">
+                     <locus from="125r:7" to="125r:16"/>
+                     <title type="uniform">Konráðs saga keisarasonar [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="66" class="ridd">
+                     <locus from="125r:17" to="126r:18"/>
+                     <title type="uniform">Mírmanns saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="67" class="ridd">
+                     <locus from="126r:19" to="126v:19"/>
+                     <title type="uniform">Nikulás saga leikara [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="68" class="ridd">
+                     <locus from="126v:20" to="126v:25"/>
+                     <locus from="128r:1" to="128r:18"/>
+                     <title type="supplied">Sigurgarðs saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                     <note>fol. <locus>127</locus> is located within the two leaves of <title type="supplied">Sigurgarðs
+                           saga</title>, however, it belongs to <title type="uniform">Sigurðar saga og Signýjar</title></note>
+                  </msItem>
+                  <msItem n="69" class="ridd">
+                     <locus from="128v" to="129r:14"/>
+                     <title type="uniform">Sigurgarðs saga frækna [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="70" class="ridd">
+                     <locus from="129r:15" to="130r:9"/>
+                     <title type="uniform">Sigurgarðs saga og Valbrands [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="71" class="ridd">
+                     <locus from="130r:10" to="130r:21"/>
+                     <title type="uniform">Sigurðar saga turnara [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="72" class="ridd">
+                     <locus from="130v" to="132r:6"/>
+                     <title type="uniform">Sigurðar saga þögla [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="73" class="ridd attat">
+                     <locus from="132r:7" to="134r:1"/>
+                     <locus from="127r" to="127r"/>
+                     <title type="uniform">Sigurðar saga og Signýjar [Excerpts, Notes]</title>
+                     <note>Genealogical table on fol. <locus>127</locus>.</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="74" class="ridd">
+                     <locus from="134r:2" to="135v:1"/>
+                     <title type="uniform">Tristrams saga og Ísoddar [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="75" class="ridd">
+                     <locus from="135v:2" to="136r:8"/>
+                     <title type="uniform">Tiodels saga riddara [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="76" class="ridd">
+                     <locus from="136r:9" to="136v:15"/>
+                     <title type="uniform">Valdimars saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="77" class="fas">
+                     <locus from="136v:16" to="138v:16"/>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="78" class="ridd">
+                     <locus from="139v:17" to="141r:16"/>
+                     <title type="uniform">Rémundar saga keisarasonar [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="79" class="hms">
+                     <locus from="141r:17" to="141v:12"/>
+                     <title type="supplied">Jacobus de voragine [Excerpts]</title>
+                     <note>From Legenda Aurea in palegio</note>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem n="80" class="rimur">
+                     <locus from="141v:13" to="144r"/>
+                     <title type="supplied">On Amíkus rímur og Amilíus [Notes]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="81" class="ridd">
+                     <locus from="144v" to="145v:13"/>
+                     <title type="uniform">Úlfars saga sterka [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="82" class="forns">
+                     <locus from="145v:14" to="147r"/>
+                     <title type="uniform">Úlfs saga Uggasonar [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="83" class="ridd">
+                     <locus from="147v" to="148r:16"/>
+                     <title type="uniform">Elís saga og Rósamundu [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="84" class="ridd">
+                     <locus from="148r:17" to="149r"/>
+                     <title type="uniform">Dámusta saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="85" class="ridd">
+                     <locus from="149v" to="150r:1"/>
+                     <title type="uniform">Dínus saga drambláta [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="86" class="avis">
+                     <locus from="150r:2" to="151v:2"/>
+                     <title type="uniform">Esópus saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="87" class="almb">
+                     <locus from="151v:3" to="153r:8"/>
+                     <title type="uniform">Ferakuts saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="88" class="ridd">
+                     <locus from="153r:9" to="154r:11"/>
+                     <title type="uniform">Flóvents saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="89" class="ridd">
+                     <locus from="154r:12" to="155r:5"/>
+                     <title type="uniform">Flóres saga konungs og sona hans [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="90" class="ridd">
+                     <locus from="155r:6" to="157r:5"/>
+                     <title type="uniform">Fertrams saga og Platós [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="91" class="ridd">
+                     <locus from="157r:6" to="157v:17"/>
+                     <title type="supplied">Gibbons saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="92" class="almb">
+                     <locus from="167v:18" to="168r:16"/>
+                     <title type="uniform">Griseldis saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="93" class="almb">
+                     <locus from="169r:17" to="169v"/>
+                     <title type="uniform">Helenu saga [Excerpts]</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="169"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="308"/>
+                              <width unit="mm" quantity="198"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort "ALP ProPatria"; "GR" with a crown on top.</watermark>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="average">generally good, but with some waterstains</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23 25">
+                           <num type="wpl" atLeast="4" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoMag014" scope="sole" script="hum cursiva">Chancery for rubrics</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Notes and annotations in the margins in <name type="person" role="owner" key="PetSuh001">Suhm</name>'s
+                        hand. He also supplied some titles and added a note to the verso side of the front flyleaf, which he
+                        signed "PFSuhm". Below Suhm's note is a large <q>571</q>, referring to the shelf mark the manuscript had
+                        in Suhm's library. Moreover, Suhm added to the title page: <q>B begynder p. 145. C --- p. 179.</q>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown leather binding with golden imprint on the spine: floral ornaments and the title. 
+                           Marbeled paper as pastedown and fore-edge painted blue.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1749"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:29.925+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-06-17" who="#BES"/>
+         <change when="2013-08-26" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

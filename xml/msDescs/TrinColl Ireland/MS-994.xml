@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>MS 994</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS-994" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Dublin</settlement>
+                  <repository ref="#TCL">Trinity College Library and Royal Irish Academy, Dublin</repository>
+                  <idno>MS 994</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>MS L.2.5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+
+
+                  <msItem class="fas" n="1">
+                     <locus from="1r" to="18v"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <rubric>Ketil Hængs Saga</rubric>
+                     <incipit>Hallbiorn het madr hann var kalladr halftraull.</incipit>
+                     <explicit>Ketill red fyrir Hrafnistu medan hann lifdi. en Grímur lodinkinni eptir hann. en Ørvar Oddr uar
+                        sonr Gríms. ok lýkr hier þessi søgu.</explicit>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-343a-en" ana="antigraph">AM 343 a 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem class="fas" n="2">
+                     <locus from="19r" to="27v"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <incipit>Svo er sagt af Grími lodinkinna at hann var bædi mikill ok sterkr ok hinn mesti garpr</incipit>
+                     <finalRubric>ok lýkr hier sogu Gríms lodinkinna. en her gengur upp Oruar Oddz Saga ok er mikil
+                        saga.</finalRubric>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-343a-en" ana="antigraph">AM 343 a 4to</ref>.</p>
+                     </filiation>
+                     <note>Blank unpaginated leaf (f. 28) between items 2 and 3.</note>
+                  </msItem>
+                  <msItem class="fas" n="3">
+                     <locus from="29r" to="127r"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <rubric>Ørvar-Odds saga</rubric>
+                     <incipit>Grímr het madr ok uar kalladr Lodinkinni</incipit>
+                     <finalRubric>ok lýkr þar nú saugu Aurvar Oddz eptir þuí sem þer hafit nú heyrt fra sagt.</finalRubric>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-343a-en" ana="antigraph">AM 343 a 4to</ref>.</p>
+                     </filiation>
+                     <note>Younger version.</note>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="127"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="335"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">J Honig &amp; Zoonen; CR with crown; Crowned lion holding sword in fenced
+                              enclosure with knight (?) holding sceptre and the words 'Pro Patria'.</watermark>
+                        </support>
+
+                        <foliation ana="contemporary pag">The items were originally paginated separately but someone has
+                           subsequently added consecutive paginaion throughout.</foliation>
+                        <condition ana="good"/>
+
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="26">
+                           <num type="wpl" atLeast="7" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="230"/>
+                              <width unit="mm" quantity="137"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Same hand as on L.2.1. and L.2.4.</handNote>
+                  </handDesc>
+
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+
+                  <additions ana="low">
+                     <p>Pencil marks on nearly every page indicating points of interest. There are three loose 4to-sized leaves in
+                        the front of the codex on which it is written, possibly by Thorkelin, that the three texts are <q>Ex
+                           Membrana in 4to, qvæ exstat in A. Magnæi Bibliotheca, No. 343.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Cardboard boards with marbled paper; parchment spine and corners</p>
+                     </binding>
+                  </bindingDesc>
+                  <accMat/>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <!--                     <origPlace key=""/>-->
+                  </origin>
+               </history>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:26.547+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2012-11-27" who="#mjd">Catalogued from manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

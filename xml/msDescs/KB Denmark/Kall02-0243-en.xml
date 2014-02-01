@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Kall 243 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Kall02-0243-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Kall 243 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="18v"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <incipit>Hallbiorn het maþur hann var kallaþr halftraull. hann var Son Úlfs hins óarga. hann bió í
+                        eyiunni hrafnisto. hon liggt fyrir Raumsdal.</incipit>
+                     <explicit>Ketill red fyrir Hrafnistu medan hann lifdi. en Grímr Lodinkinni
+                        eptir hann. en Örfar Oddr var sonr Gríms. ok lykr her þessí Sögu.</explicit>
+                     <filiation>
+                        <ref type="ms">copy of AM 343 a 4to</ref>
+                     </filiation>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="19r" to="28r"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <incipit>Svo er sagt at af Grími Lodinkinna. at hann var bædi mikill ok sterkr ok hinn mesti garþr. Þui var
+                        han lodinkinni kalladr at hans (kinn) aunnur uar uaxin med dogt hár ok med
+                        þui var hann alinn.</incipit>
+                     <explicit>Grímr þótti mikill madr fyri sier. hann var ramr at afli ok fullhugi.
+                        hinn mesti ok bió þó miog einn um sitt. hann uard ellidaudr madr. ok lykr
+                        hier sogu Gríms lodinkinna. en hier gengr upp Orvar Odds saga. ok er mikil
+                        saga.</explicit>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0343-is" ana="antigraph">copy of AM 343 a 4to</ref>
+                     </filiation>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="28v" to="133v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <incipit>rímr het madr ok uar kalladr Lodinkinni þuí uar hann suo kalladr at hann uar med þeim
+                        alinn. en þat kom suo til at þá þau Ketill Hængr fadir Gríms ok Hrafnhilldr
+                        Brunadottir gengu í eina sæng sem fyrir er skrifat. at Bruni breiddi á þau
+                        húd eina en hann hafdi bodit til sin finnum morgum.</incipit>
+                     <explicit>en mær sú er Oddr átti eptir é Irlandi er Ragnhilldr het hafdi farit
+                        uestan eptir lidna módur sina ok nordr til Hrafnistu. ok hefir þar uerit
+                        gipt. ok hefer margt manna frá henni komit ok fá ættbogi hefir þar uppuaxit.
+                        ok lykr þar nú saugu Ouruar Odds eptir þui sem þer hafit nú heyrt frá
+                        sagt</explicit>
+                     <filiation>
+                        <ref type="ms" target="#AM04-0343-is" ana="antigraph">copy of AM 343 a 4to</ref>
+                     </filiation>
+                     <note>younger vers.</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="134"/>
+                           <!-- one blank leaf? flyleaves? -->
+                           <note>One blank page in front and back</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Two: 'J Honig (and) Zoonen' and an ornamented shield, with a tree on top and a beehive in the middle.</watermark>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="27 29">
+                           <num type="wpl" atLeast="6" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="235"/>
+                              <width unit="mm" quantity="121"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribeRef="unknown" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <!-- appears to be more than three additions...? perhaps this refers to Kall 241 fol.?-->
+                     <p>Three additions, one in Latin.<list type="bulleted">
+                           <item>
+                              <locus from="1r"/>naumu</item>
+                           <item>
+                              <locus from="36r"/>gudmundr</item>
+                           <item>
+                              <locus from="50r"/>Þeirra </item>
+                           <item>
+                              <locus from="70r"/>eigi er Þat fleira um hvi∂ at vel hefir at farit
+                              Þau skal Þu fagna </item>
+                           <item>
+                              <locus from="126v"/>+ ch. meiltir </item>
+                           <item>
+                              <locus from="126v"/>+ ch. ösla </item>
+                           <item>
+                              <locus from="127r"/>+ ch. lángskipum </item>
+                           <item>
+                              <locus from="127v"/>+ ch. oc Sigur∂r nordan </item>
+                           <item>
+                              <locus from="127v"/>ch. vanda </item>
+                           <item>
+                              <locus from="129r"/>ch. heilum liebum Þá falla </item>
+                           <item>
+                              <locus from="129v"/>ch. firda </item>
+                           <item>
+                              <locus from="129v"/>ch. fiorvi fuipta </item>
+                           <item>
+                              <locus from="131r"/>ch. mæta </item>
+                           <item>
+                              <locus from="131r"/>ch. medan Þar dualdiz </item>
+                           <item>
+                              <locus from="131r"/>ch. med henni són eiga gior∂i at afli olikan Edrum
+                              Þegnum </item>
+                        </list></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="inapplicable" ana="none"><p/></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:33.291+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-11T13:05:05+01:00" who="#SID"/>
+         <change when="2013-04-24" who="#BES">Added refs and adjusted tags.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1618 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1618-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1618 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="1r"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <rubric>Á bók þessari eru eftirfylgjandi sögur</rubric>
+                     <colophon>Sögurnar eru skrifaðar vorið 1892 í Hvítadal af Guðbrandi
+                        Sturlaugssyni</colophon>
+                  </msItem>
+                  <msItem n="2" class="sagnt">
+                     <locus from="2r" to="8r"/>
+                     <title type="supplied">Söguþáttur af Þorvaldi Magnússyni</title>
+                     <rubric>Söguþáttur frá Þorvaldi gamla Magnússyni skáldi á Sauðanesi norður </rubric>
+                     <colophon>Mér hefur verið sagt að hann hafi andast árið 1566 Guðbr.
+                        Sturlaugsson</colophon>
+                  </msItem>
+                  <msItem n="2.1" class="sagnt">
+                     <locus from="8r" to="10r"/>
+                     <title type="supplied">Söguþáttur af Jón bóndi og Ástríði konu hans</title>
+                     <rubric>Lítil saga um Jón bónda og Ástríði konu hans ... í Miðhlíð á
+                        Barðaströnd á öndverðri sautjándu öld</rubric>
+                  </msItem>
+                  <msItem n="3" class="almb">
+                     <locus from="10r" to="55v"/>
+                     <title type="uniform">Flóres saga og Leó</title>
+                     <rubric>Sagan af Flórus og Leó</rubric>
+                     <colophon>Skrifað á Hvítadal arið 1891</colophon>
+                  </msItem>
+                  <msItem n="4" class="avint">
+                     <locus from="56r" to="154v"/>
+                     <title type="supplied">Þorkels saga Álfkelssonar aðalfara</title>
+                     <rubric>Sagan af Þorkeli Alfkelssyni Aðalfara</rubric>
+                     <colophon>Til Þorkels geta þeir menn sem nú lifa talið ætt sína á ýmsa vegusvo
+                        varla vanti í liði</colophon>
+                  </msItem>
+                  <msItem n="5" class="avint">
+                     <locus from="154r" to="192v"/>
+                     <title type="supplied">Agnars saga konungs Hróarssonar</title>
+                     <rubric>Sagan af Agnari konungi Hróarssyni</rubric>
+                     <colophon>Hvítadal 10.júní 1892 Guðbrandur Sturlaugsson</colophon>
+                  </msItem>
+                  <msItem n="6" class="sagnt">
+                     <locus from="194r" to="194v"/>
+                     <title type="supplied">Fundur dönsku Gullhornanna</title>
+                     <rubric>Lítil frásaga</rubric>
+                     <author>Jón Þóroddsson hattasmiður á Látrum</author>
+                     <colophon>Ég hef ritað sögu þessa að gamni mínu eins og Jón Þóroddsson sagði
+                        okkur hana eru nú rúm 50 ár síðan. Guðbrandur Sturlaugsson</colophon>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="195r" to="217r"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <rubric>Sagan af Herrauði og Bósa fóstbróður hans</rubric>
+                     <colophon>Guðbrandur Sturlaugsson skrifaði sögu þessa árið 1892</colophon>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="217v" to="230r"/>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                     <rubric>Sagan af Flórusi kóngi og sonum hans</rubric>
+                     <colophon>Hvítadal árið 1892. Þetta er stórfengleg riddarasaga en eigi vil ég
+                        ábyrgjast sannindi hennar hún er eins og fleiri þess háttar sögur gerð til
+                        gamans og dægrastyttingar sem margur hafði áður gaman af á þeim löngu
+                        vetrarkvöldum en nú er sú skemmtun sögulesturinn farin að ganga úr gildi.
+                        Guðbr. Sturlaugsson</colophon>
+                  </msItem>
+                  <msItem n="9" class="attat">
+                     <locus from="229v" to="229v"/>
+                     <title type="supplied">Ættrakning Guðbrands frá Ermenreki konungi</title>
+                     <colophon>Guðbrandur á Hvítadal sem þetta hefur skrifað að gamni sínu. Mun
+                        varla vanta hér í marga liðu.</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="230"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="206"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <!-- 2x check to see whether there is both contemporary pagination and foliation in this MS -->
+<!--                        <foliation ana="contemporary"/>-->
+                        <foliation ana="contemporary pag">1-458</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="23 24">
+                           <note>The writing space marked beforehand in pencil</note>
+                           <num type="wpl" atLeast="3" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="136"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GudStu001" scope="major" script="hum cursiva">Guðbrandur
+                        Sturlaugsson í Hvítadal</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>"þessa bók hefur Guðbrandur saf.(nað)
+                           saman skrifað</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>leather spine and corners</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1891" notAfter="1892"/>
+                     <origPlace key="IS">West Iceland Dalasýsla</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>Previously owned by <name type="person" role="owner" key="ambig">Jón Jóhannsson söðlasmiður</name> in
+                        1911.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:00.621+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-04" who="#SK">Adapted to FASNL and added information from P.E.Ó-catalogue and other sources.</change>
+         <change when="2012-05" who="#SK">Added some information from the manuscript itself and namecodes</change>
+         <change when="2012-09" who="#SK">Added the last bit of information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 13</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-13" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 13</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="7r"/>
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <note>A-vers.</note>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="9r" to="32v"/>
+                     <title type="uniform">Bærings saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="33r" to="67r:4"/>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <!-- what does this note mean? -->
+                     <note>Primary manuscript.</note>
+                  </msItem>
+                  <msItem n="4" class="forns">
+                     <locus from="67r:5" to="82v"/>
+                     <title type="uniform">Haralds saga hringsbana</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="83r" to="88v"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="89r" to="106v:18"/>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Derived from 
+                        <ref type="ms" target="#GKS02-1006-en" ana="protograph">GKS 1006 fol.</ref></p>
+                     </filiation>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="7" class="fas" defective="true">
+                     <locus from="106v:19" to="119r"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                     <note>older vers., lacking Buslubæn, but most of fol. 109 left blank for it</note>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="121r" to="132v"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd" defective="true">
+                     <locus from="133r" to="144r:6"/>
+                     <title type="uniform">Clarus saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="144"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <note> The edges are untrimmed, the current folio size is the original one. Sturlaugs saga smaller than
+                              the remaining texts. Empty pages at the end of some texts.</note>
+                           <watermark ana="yes"/>
+                           <note>Different watermarks: Watermark with crown and cock. Foolscap. Two lions holding a coat of arms
+                              with a crown on top</note>
+                        </support>
+                        <foliation ana="pag later">
+                           <note>Modern pencil pagination in the upper right hand corner on every tenth page and beginning and end
+                              of new text.</note></foliation>
+                        <condition ana="average">The book is in relatively good condition, has been repaired though.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="28 32">
+                           <num type="wpl" atLeast="10" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                           <catchwords ana="yes">Catchwords, not everywhere.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" script="unknown">Written in up to six different hands that have not been identified. According
+                        to Slay, it has not been possible to confirm that any of the hands is Jón Eggertsson's, as Gödel claims.
+                        Hrólfs saga kraka is in two hands.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">ornamental</decoNote>
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Scholarly additions in the margins, mostly on chapters.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <condition ana="good">Modern binding in excellent condition. Coloured paper with white leather spine and
+                           corners</condition>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1670" notAfter="1680"/>
+                     <note>The dates written in the manuscript are 1673, 1674, 1676.</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:52.104+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-28" who="#BES">Prepared for visit at librabry.</change>
+         <change when="2013-03-07" who="#BES">Measured and checked with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+
+      </body>
+   </text>
+</TEI>

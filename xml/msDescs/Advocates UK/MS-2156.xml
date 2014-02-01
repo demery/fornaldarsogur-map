@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+   
+      <fileDesc>
+         <titleStmt>
+            <title>MS 21.5.6</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS-2156" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#ADV">Advocates' Library, Edinburgh</repository>
+                  <idno>MS 21.5.6</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Flateÿarbók: Nomen ab insula occidentalis Islandiæ Flateÿ contraxit ubi primo Coenobium fundatum
+                        quod postea ad praelium Helgafell translatum est</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="drott">
+                     <locus from="2r" to="2r"/>
+                     <title type="uniform">Geisli</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="GKS02-1005" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                     <note>Just the title: no text follows.</note>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="2v" to="8v"/>
+                     <title type="uniform">Ólafs rímur Haraldssonar</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="GKS02-1005" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="edd" defective="true">
+                     <locus from="8v" to="8v"/>
+                     <title type="uniform">Hyndluljóð</title>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="GKS02-1005" ana="antigraph">GKS 1005 fol. (Flateyjarbók)</ref>.</p>
+                     </filiation>
+                     <note>After the first six lines it would seem as though the rest of the poem
+                        has been removed.</note>
+                  </msItem>
+                  <msItem n="4" class="kirkjus">
+                     <locus from="9r" to="11v"/>
+                     <title type="uniform">Gesta Hammaburgensis Ecclesiae Pontificum</title>
+                     <textLang mainLang="is"/>
+                     <rubric xml:lang="la">Capitulum</rubric>
+                     <incipit>Sva segir í Hamborgar ystoría</incipit>
+                     <explicit>… Sveinn konungur og Eyrikr jarl Hákonarson.</explicit>
+                     <note>Extract</note>
+                  </msItem>
+                  <msItem n="5" class="kon">
+                     <locus from="12r" to="15v"/>
+                     <title type="uniform">Sigurðar þáttur slefu</title>
+                     <rubric>Þáttr af Sigurðe konunge slefu ok Gunnhillde</rubric>
+                     <incipit>Sva er sagt þá er Gunnhilldar syner reðu Norege</incipit>
+                     <explicit>ok þotte enn meste kvennskaurungr</explicit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="16r" to="20r"/>
+                     <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                     <title type="supplied" ref="#ff">Hversu Noregur byggðist</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hversu Noregur byggðist</rubric>
+                     <incipit>Nu skal segia dæme til hversu Noregur bygðíz</incipit>
+                     <explicit>er hann hafde þar sett til landsgæslu</explicit>
+                  </msItem>
+                  <msItem n="7" class="attat">
+                     <locus from="20r" to="26v"/>
+                     <title type="supplied">Ættartölur konunga og konungatöl í Noregi</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Ættartala frá Höð</rubric>
+                     <incipit>Haudr átte þar riki er kallat er Haðaland</incipit>
+                     <explicit>er hon let fanga Albrikt</explicit>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="27r" to="36v"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hér hefr upp sögu Eyriks víðförla</rubric>
+                     <incipit>Þrándr er nefndur konongur</incipit>
+                     <explicit>sem þessi Eyrikr sem nú var frásagt</explicit>
+                  </msItem>
+                  <msItem n="9" class="kon">
+                     <locus from="37r" to="60v"/>
+                     <title type="uniform">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="is"/>
+                     <note>Extracts</note>
+                  </msItem>
+                  <msItem n="9.1" class="isl">
+                     <locus from="37r" to="53r"/>
+                     <title type="uniform">Grænlendinga saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hér hefur Grænlendinga þátt. Capitulum</rubric>
+                     <incipit>Þat er nú þessunæst at Biarne Heriúlfsson</incipit>
+                     <explicit>… nú er nockut orðe á komit</explicit>
+                  </msItem>
+                  <msItem n="9.2" class="kon">
+                     <locus from="53r" to="60v"/>
+                     <title type="uniform">Hálfdanar þáttur svarta</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Her hefr upp þátt Hálfdánar svarta</rubric>
+                     <incipit>Hálfdan svarte tók konongdóm átian vetrúm</incipit>
+                     <explicit>en þat var bannat af frændum hans</explicit>
+                  </msItem>
+                  <msItem n="10" class="kon">
+                     <locus from="60v" to="72r"/>
+                     <title type="uniform">Haralds þáttur hárfagra</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Upphaf ríkis Haralds hárfagra</rubric>
+                     <incipit>At liðnum tíu vetrum</incipit>
+                     <explicit>enn hann gaf bæðe löndinn Sigurðe bróður sínum</explicit>
+                  </msItem>
+                  <msItem n="11" class="kont">
+                     <locus from="72r" to="74r"/>
+                     <title type="supplied">Noregskonungatal</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Frá Harallde kononge</rubric>
+                     <incipit>Haralldr konongr hinn hárfagre átte Ásu</incipit>
+                     <explicit>sögu Ólafs konungs Tryggvasonar</explicit>
+                  </msItem>
+                  <msItem n="12" class="kon">
+                     <locus from="74v" to="83r"/>
+                     <title type="uniform">Hauks þáttur hábrókar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Þáttr Hauks hábrókar</rubric>
+                     <incipit>Beorn at Hauge var í Svíþjóð</incipit>
+                     <explicit>lýkr her svá fra Harallde konongi</explicit>
+                  </msItem>
+                  <msItem n="13" class="kont">
+                     <locus from="83r" to="84r"/>
+                     <title type="supplied">Noregskonungatal</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Konongatal í Norege</rubric>
+                     <incipit>Hálfdan svarte var konongr …</incipit>
+                     <explicit>… sem síðar mun sagt verða.</explicit>
+                  </msItem>
+                  <msItem n="14" class="kon">
+                     <locus from="84r" to="78"/>
+                     <title type="uniform">Haralds þáttur grenska</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Þáttur Haralds grænska. Capitulum</rubric>
+                     <incipit>Cecilía het æin göfug kona</incipit>
+                     <explicit>Haraldur konungur hafði henni ætlat einlæti</explicit>
+                  </msItem>
+                  <msItem n="15" class="kon">
+                     <locus from="88r" to="93r"/>
+                     <title type="uniform">Ólafs þáttur Geirstaðaálfs</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hér er þáttur Ólafs Geirstaðaálfs</rubric>
+                     <incipit>Drengur góður og höfðingi mikill …</incipit>
+                     <explicit>og skipaðist skjótt vıð.</explicit>
+                  </msItem>
+                  <msItem n="16" class="kon">
+                     <locus from="93r" to="355v"/>
+                     <title type="uniform">Ólafs saga helga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hér hefur upp sögu Ólafs konungs Haraldssonar</rubric>
+                     <incipit> Þá er liðit var frá hingað-burð vors herra Jesu Kristi</incipit>
+                     <explicit>en svá sem vér höfum sagt.</explicit>
+                  </msItem>
+                  <msItem n="16.1" class="kon">
+                     <locus from="154r" to="156v"/>
+                     <title type="supplied">Eyvindar þáttur úrarhorns</title>
+                     <rubric>Þáttr Eyvindar úrarhorns</rubric>
+                     <incipit>Eyvindur úrarhorn er maðr nefndr</incipit>
+                     <explicit>miök boðii í því verki.</explicit>
+                  </msItem>
+                  <msItem n="16.2" class="kon">
+                     <locus from="177r" to="181v"/>
+                     <title type="uniform">Styrbjarnar þáttur Svíakappa</title>
+                     <rubric> Hér hefur upp þátt Styrbjarnar Svíakappa er hann barðist við Eirík Svíakonung</rubric>
+                     <incipit>Frá því er að segja að Eiríkur</incipit>
+                     <explicit>svo að menn vissu.</explicit>
+                  </msItem>
+                  <msItem n="16.3" class="kon">
+                     <locus from="181v" to="191v"/>
+                     <title type="uniform">Hróa þáttur heimska</title>
+                     <rubric>Frá Hróa</rubric>
+                     <incipit>Hrói hét maður er upp fæddiz í Danmörku</incipit>
+                     <explicit>og er þar í Svíþjóð frá þeim komið margt göfugmenni</explicit>
+                  </msItem>
+                  <msItem n="16.4" class="isl">
+                     <locus from="206r" to="229v"/>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <rubric>Upphaf Fóstbræðra sögu. Capitulum</rubric>
+                     <incipit>Guð drottinn Jesús Khristus</incipit>
+                     <explicit>þá er hér er komið Ólafs sögu.</explicit>
+                  </msItem>
+                  <msItem n="16.5" class="kon">
+                     <locus from="241r" to="267v"/>
+                     <title type="uniform">Eymundar þáttur Hringssonar</title>
+                     <title type="parallel">Eymundar saga Hringssonar</title>
+                     <rubric> Hér hefur upp þátt Eymundar og Ólafs konungs. Capitulum </rubric>
+                     <incipit>Hringur hefur konongr heitit</incipit>
+                     <explicit>stendur til þá ljósa að gera.</explicit>
+                  </msItem>
+                  <msItem n="16.6" class="fas">
+                     <locus from="267v" to="271r"/>
+                     <title type="uniform" ref="#ttht">Tóka þáttur Tókasonar</title>
+                     <rubric> Hér hefur upp hinn níunda [þátt] Ólafs sögu Haraldssonar. Capitulum </rubric>
+                     <incipit>Í þann tíma er Ólafur konungur sat í Sarpsborg …</incipit>
+                     <explicit>og andaðist í hvítavoðum</explicit>
+                  </msItem>
+                  <msItem n="16.7" class="riddf">
+                     <locus from="271r" to="275v"/>
+                     <title type="supplied">Sigurðar þáttur Ákasonar</title>
+                     <rubric>Sigurður vann tröllkonu</rubric>
+                     <incipit>Sigurður er maður nefndur …</incipit>
+                     <explicit>Sigurður er með Ólafi konungi í góðri virðingu.</explicit>
+                  </msItem>
+                  <msItem n="16.8" class="bisks">
+                     <locus from="275v" to="278r"/>
+                     <title type="uniform">Ísleifs þáttur biskups</title>
+                     <rubric>Ísleifur fékk Döllu er síðan var biskup</rubric>
+                     <incipit>Það er nú þessu næst að segja …</incipit>
+                     <explicit>hann reynda ek svo at öllum hlutum</explicit>
+                  </msItem>
+                  <msItem n="16.9" class="islt">
+                     <locus from="278r" to="285v"/>
+                     <title type="uniform">Egils þáttur Síðu-Hallssonar</title>
+                     <rubric>Ólafur konungur fór til Danmerkur í Limafjörð</rubric>
+                     <incipit> Á einhverju sumri er sagt að Egill son Halls að Síðu … </incipit>
+                     <explicit>og þótti vera hinn besti drengur</explicit>
+                  </msItem>
+                  <msItem n="16.10" class="isl">
+                     <locus from="286r" to="311r"/>
+                     <title type="uniform">Fóstbræðra saga</title>
+                     <rubric> Hér hefur upp þátt Þormóðar Kolbrúnarskálds. Capitulum </rubric>
+                     <incipit>Kongurinn Ólafur var hardla vinsæll …</incipit>
+                     <explicit>spyr nú öll þessi tíðindi og þóttu mikil.</explicit>
+                  </msItem>
+                  <msItem n="16.11" class="kon">
+                     <locus from="311r" to="320r"/>
+                     <title type="supplied">Eymundar þáttur af Skörum</title>
+                     <rubric>Hér hefur upp þátt Eymundar af Skörum. Capitulum</rubric>
+                     <incipit>Litlu eftir þat er Ólafur Svíakonungur</incipit>
+                     <explicit>… svo að framgengt yrði.</explicit>
+                  </msItem>
+                  <msItem n="16.12" class="kon">
+                     <locus from="321v" to="331v"/>
+                     <title type="uniform">Orkneyinga saga</title>
+                     <rubric>Þáttur þeirra Orkneyinga. Capitulum</rubric>
+                     <incipit>Mikill hermaður Einar jarl í Orkneyjum …</incipit>
+                     <explicit>eftir fall Ólafs konungs hins helga.</explicit>
+                  </msItem>
+                  <msItem n="16.13" class="kon">
+                     <locus from="339v" to="347v"/>
+                     <title type="supplied">Guðbrands þáttur kúlu</title>
+                     <rubric>Hér segir frá Dala-Guðbrandi</rubric>
+                     <incipit>Dala-Guðbrandur er maður nefndur</incipit>
+                     <explicit>en hallæri mikið norður þaðan</explicit>
+                  </msItem>
+                  <msItem n="16.14" class="kon">
+                     <locus from="347v" to="355v"/>
+                     <title type="uniform">Indriða þáttur og Erlings</title>
+                     <rubric>Hér er þáttur Indriða og Erlings. Capitulum</rubric>
+                     <incipit>Ólafur konungur sendi boð um vorið …</incipit>
+                     <explicit>konu sína Sigríði og undi vel sínu ráði</explicit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="357"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="167"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <foliation ana="later fol">
+                           <p>Runs up to 356 but the numbering on f. 191 is repeated so one extra leaf is present
+                              (this mirrors the repetition of pages 361 and 362 in the original
+                              foliation).</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="20 22">
+                           <num type="wpl" atLeast="6" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="128"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"> </additions>
+                  <bindingDesc>
+                     <binding contemporary="inapplicable" ana="none">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1850"/>
+                     <origPlace key="DK">Copenhagen</origPlace>
+                  </origin>
+                  <provenance>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:25.469+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-12-12" who="#PTL">Information from Ólafur Halldórsson's unpublished
+            catalogue entered</change>
+         <change when="2013-01-23" who="#PTL">Extra information added</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Rask 21 a</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Rask021a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>Rask 21 a</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="edd">
+                     <locus from="1r:1" to="8r:22"/>
+                     <title type="supplied" xml:lang="en">Preface</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nir formale ifir gomlu Eddu Snorra Sturlu sonar</rubric>
+                     <incipit>Þren<ex>n</ex>ar fin<ex>n</ex>ast meiningar um þad, huadan<ex>n</ex> Eddu nafn
+                        hafe s<ex>e</ex>m rók</incipit>
+                     <explicit>epter firersógn og formala sialfs authors Eddu, er men
+                        meina sie Snorri Sturlu son epter Sæmund froda.</explicit>
+                     <colophon>Edda Islandorum Anno Christi MCCXV primum conscripta per Sorronem Sturla
+                     sonium nomo phylacem</colophon>
+                  </msItem>
+                  
+                  <msItem n="2" class="regist">
+                     <locus from="8va:1" to="8vb:11"/>
+                     <title type="supplied" xml:lang="en">Table of Contents</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þesser ero Þęttir Sæmundar Eddu</rubric>
+                     <incipit>1. Vaulo spá tuaufollo</incipit>
+                     <explicit>31. Hindlu lióþ.</explicit>
+                  </msItem>
+                  
+                  <msItem n="3" class="glos">
+                     <locus from="9ra:1" to="19vb:7"/>
+                     <title type="supplied" xml:lang="en">Glossary</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Forntǫlud riettmæle ür norrænu saman<ex>n</ex>teken ür ymsum sǫgum</rubric>
+                     <incipit>A. äburd<ex>ar</ex> mad<ex>ur</ex> sä sem mickid berst ä</incipit>
+                     <explicit>þurd.r. han<ex>n</ex> giórdi ecke min<ex>n</ex>a vr en<ex>n</ex> var</explicit>
+                  </msItem>
+                 
+                  <msItem n="4" class="glos">
+                     <locus from="20r:1" to="23v:9"/>
+                     <title type="supplied" xml:lang="en">Glossary</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nockrrar Jslendskar glösur sem ecke eru so audskyldar epter þuy sem nü tydkast, 
+                        huoiar ad fin<ex>n</ex>ast, opt i þeim gómlu vysum.</rubric>
+                     <incipit>Vo] þad er ein glösa i þvj gamla mäle</incipit>
+                     <explicit>Baugs suipt.) Er kona, þuj hün sviffter baug , ed<ex>ur</ex> af
+                        hendi si<ex>num</ex></explicit>
+                  </msItem>
+                  
+                  <msItem n="5" class="samt isl">
+                     <locus from="24va:10" to="26rb:22"/>
+                     <title type="uniform">Sturlunga saga <note>(Excerpts)</note></title>
+                     <title type="uniform">Laxdæla saga <note>(Excerpts)</note></title>
+                      <textLang mainLang="non"/>
+                     <rubric>Sturlunga:</rubric>
+                     <incipit>Han<ex>n</ex> var lands horna madur</incipit>
+                     <explicit>Bolli B. son mællti; ydur er of styre ad, leggia mig ad velle.</explicit>
+                  </msItem>
+                  
+                  <msItem n="6" class="edd">
+                     <locus from="28v:1" to="76r:6"/>
+                     <title type="uniform">Eddic Poems</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                     
+                     <msItem n="6.1" class="regist">
+                        <locus from="28v.1" to="28v:15"/>
+                        <title>Table of Contents</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Vavlospá</incipit>
+                        <explicit>Hyndluljóð</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.2" class="edd">
+                        <locus from="29r:1" to="32v:12"/>
+                        <title type="uniform">Völuspá</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Waulo Spá</rubric>
+                        <incipit>Hliods bid ek allar helgar kindir męire ok minni</incipit>
+                        <explicit>flygur voll yfir niþhaugur nai nu mun hón seykvass</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.3" class="edd">
+                        <locus from="33r:1" to="42r:14"/>
+                        <title type="uniform">Hávamál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hava Mál</rubric>
+                        <incipit>Gattin allar aþir gange umskoþass skyli um skygnass skyli</incipit>
+                        <explicit>heill sa er kvass, heill sa er kann, heilir þeir hlyddo.</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.4" class="edd">
+                        <locus from="42r:15" to="45r:17"/>
+                        <title type="uniform">Vafþrúðnismál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Wafþrudnis Mál</rubric>
+                        <incipit>Haþ þu mer nu Fryg<ex>g</ex> als mik fara tiþir</incipit>
+                        <explicit>Nu ek viþ Oþinn deildak mina ord speke þu ert ęvisastur vera</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.5" class="edd">
+                        <locus from="45r:18" to="49r:19"/>
+                        <title type="uniform">Grímnismál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Formale til Grimnis Mála</rubric>
+                        <incipit>Hrauþungur kongur atti tva sono, het annar Agnar enn annar Geirrauþur</incipit>
+                        <explicit>Oþinn hvarf þa, enn Agnar var þar leingi kongur siþan.</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.6" class="edd">
+                        <locus from="49r:20" to="51v:20"/>
+                        <title type="uniform">Skírnismál</title>
+                        <title type="parallel">För Skírnis</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Skirnis For</rubric>
+                        <incipit>Freyr sonur Niardar hafþi setsk j Hlidskialf ok sa um heima alla</incipit>
+                        <explicit>minni þotti enn siá hálf hynott</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.7" class="edd">
+                        <locus from="51v:21" to="54v:11"/>
+                        <title type="uniform">Hárbarðsljóð</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Harbars lióþ.</rubric>
+                        <incipit>Þor for or austurvegi ok kom at sundi eino</incipit>
+                        <explicit>farþu nu þars til þik hafi allan gramir</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.8" class="edd">
+                        <locus from="54v:12" to="57r:4"/>
+                        <title type="uniform">Hýmiskviða</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hymis kviþa</rubric>
+                        <incipit>Ar waltivar veiþar námo ok sumbl samir</incipit>
+                        <explicit>enn vear hverian vel skulo drekka aulþir at Egis eitt harmeitiþ</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.9" class="edd">
+                        <locus from="57r:5" to="61r:25"/>
+                        <title type="uniform">Lokasenna</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Egis Drekka</rubric>
+                        <incipit>Egir er auþro nafni het Gÿmir</incipit>
+                        <explicit>þaþan ero nu kallaþir land skialftar</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.10" class="edd">
+                        <locus from="61v:1" to="63r:23"/>
+                        <title type="uniform">Þrymskviða</title>
+                        <title type="parallel">Hamarsheimt</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hamars Heimt</rubric>
+                        <incipit>Reiþur var þa Wingþórr er hann vaknaþi</incipit>
+                        <explicit>sva kom Oþins son endur at hamri</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.11" class="edd">
+                        <locus from="63v:1" to="64v:12"/>
+                        <title type="uniform">Baldrs draumar</title>
+                        <title type="parallel">Vegtamskviða</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Wegtams Kviþa</rubric>
+                        <incipit>Sem voro Esir <del type="subpunction">ällar</del> <add place="margin">allir</add> a þingi</incipit>
+                        <explicit>er laus Loki liþur or baundom ok Ragnarauk riufendur koma</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.12" class="edd">
+                        <locus from="64v:13" to="66v:12"/>
+                        <title type="uniform">Alvíssmál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Alvis Mál</rubric>
+                        <incipit>Bekki breiþa nu skal bruþur á meþ mier</incipit>
+                        <explicit>Nu skin sunna i sali</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.13" class="edd">
+                        <locus from="66v:13" to="69r:14"/>
+                        <title type="uniform">Grottasöngr</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Her er Margt undan<ex>n</ex> fellt</rubric>
+                        <incipit>Gull er kallat miolfroþa. Þar til saga sia, at Skioldur het sonur Oþins</incipit>
+                        <explicit>haufom froþi senn munom hętta hafa full staþit flioþ at moldri</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.14" class="edd">
+                        <locus from="69r:15" to="70r:21"/>
+                        <title type="uniform">Grógaldr</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Gróu galdur er hun gol syni sinom dauþ</rubric>
+                        <incipit>Waki þu Groa, waki þu goþ kona</incipit>
+                        <explicit>meþan þu min orþ of mant</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.15" class="edd">
+                        <locus from="70v:1" to="73r:13"/>
+                        <title type="uniform">Fjölsvinsmál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Fiol<add place="margin">s</add>vis Mál</rubric>
+                        <incipit>Wtan garþa hann sa upp um koma þursa</incipit>
+                        <explicit>nu er þaþ satt at viþ slita skulom ęvi aldri saman</explicit>
+                     </msItem>
+                     
+                     <msItem n="6.16" class="edd">
+                        <locus from="73r:14" to="76r:6"/>
+                        <title type="uniform">Hyndluljóð</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hyndlu Lióþ</rubric>
+                        <incipit>Waki mer meyia. Waki min vina Hyndla</incipit>
+                        <explicit>hann skal drekka dyrar veygar biþ ek Ottarj aull goþ duga</explicit>
+                     </msItem>
+                  </msItem>
+                  
+                  <msItem n="7" class="fas">
+                     <locus from="77r:1" to="87v:26"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks <note>(Excerpts)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fra Hialmare Hugfulla og Oddi Vidforla.</rubric>
+                     <incipit>Jngi het kongur ad Upsolum</incipit>
+                     <explicit>illur er domur Norma</explicit>
+                     <note>Verses from the U redaction (after Verelius' 1672 edition) with a prose introduction</note>
+                  </msItem>
+                  
+                  <msItem n="8" class="edd">
+                     <locus from="89r:1" to="96r:22"/>
+                     <title type="uniform">Háttatal</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Samtyningur af þvi sem nytt var i einu Skälldu Fragmento</rubric>
+                     
+                     <msItem n="8.1" class="edd">
+                        <locus from="89r:4" to="95rb:18"/>
+                        <title type="uniform">Háttatal</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Metrorum Genera</rubric>
+                        <incipit>i. Ragnars Lodbrökar. Skyrr á skoglar vedri</incipit>
+                        <explicit>steini studd en<ex>n</ex> stillis lof.</explicit>
+                     </msItem>
+                     
+                     <msItem n="8.2" class="glos">
+                        <locus from="95v:1" to="96r:22"/>
+                           <title type="supplied">Additamenta et observationes</title>
+                           <textLang mainLang="non" otherLangs="la"/>
+                           <rubric>Additamenta et Observationes.</rubric>
+                           <incipit>heimur in Edda denotare videtur certam qvandam Regionem</incipit>
+                           <explicit>hrimþussar = Myth. 3.</explicit>
+                     </msItem>
+                  </msItem>
+                  
+                  <msItem n="9" class="edd">
+                     <locus from="97r:1" to="107r:24"/>
+                     <author ref="#ArnBod001">Árni Böðvarsson</author>
+                     <title type="supplied">Hálfs drápa og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier hefr upp ęvi Halfs konungs oc recka hans</rubric>
+                     <incipit>Qveþ ek hier om vapn oc veþe</incipit>
+                     <explicit>fialls hlyd med Jokul Pallar Tantum</explicit>
+                     <note>Poem in seven flokkar, written in 1770 by <name type="person" key="ArnBod001">Árni Böðvarsson</name> for 
+                        sýslumaður <name type="person" key="JonArn004">Jón Árnason</name>. Note in another hand on fol. <locus>107v</locus>
+                        reads: <q>Þessir flockar eru kvednir af Árna Bödvarssyni.</q></note>
+                  </msItem>
+                  
+                  <msItem n="10" class="hymn">
+                     <locus from="109r:1" to="114v:7"/>
+                     <author>Jón Pálsson Maríuskáld</author>
+                     <title type="supplied">Maríulykill</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier skrifast Mariu Likill med jms<ex>um</ex> bragar hättum</rubric>
+                     <incipit>Drottning ædsta dyr af ættum</incipit>
+                     <explicit>so ad verde ender eingin<ex>n</ex>. Amen</explicit>
+                  </msItem>
+                  
+                  <msItem n="11" class="poem" defective="true">
+                     <locus from="115r:1" to="116v:10"/>
+                     <title type="supplied">Háttalykill Þorsteins Magnússonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hätta Likill Þorsteins Magnusssonar a Hæl edur nockur rimna braga
+                        erende med þeirra nöfnum<ex>m</ex></rubric>
+                     <incipit>1. Ferskeitt. Ferskeitt villdeg fræda lag færa af orda</incipit>
+                     <explicit>þat er ej skade i neina stade.</explicit>
+                     <note>Lower margins cropped resulting in some loss of text.</note>
+                  </msItem>
+                 
+                  <msItem n="12" class="poem" defective="true">
+                     <locus from="116v:11" to="118v:22"/>
+                     <title type="supplied">Háttalykill Jóns Guðmundssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hättalykill S<ex>era</ex> Jons Gudmundssonar</rubric>
+                     <incipit>1. Ferskeitt Litars bäru læt eg her</incipit>
+                     <explicit>hrelling kujllr fræ<add place="inline">d</add>inu liöst. Tantum.</explicit>
+                     <note>Lower margins cropped resulting in some loss of text.</note>
+                  </msItem>
+                  
+                  <msItem n="13" class="poem" defective="true">
+                     <locus from="118v:23" to="120r:22"/>
+                     <title type="supplied" xml:lang="is">Háttalykill Leirulæjkar-Fúsa (<name type="person" key="VigJon001">Vigfús Jónsson</name>)</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hätta Lykill kvedin<ex>n</ex> af V. J. S. a Leirulæk Æruryrri gydiu þetta
+                        fäordt</rubric>
+                     <incipit>Dröttqvedid Fyrst ad mer feillum lastas flimtan</incipit>
+                     <explicit>skilian<ex>n</ex>lega upp telja</explicit>
+                     <note>Lower margins cropped resulting in some loss of text.</note>
+                  </msItem>
+                  
+                  <msItem n="14" class="poem" defective="true">
+                     <locus from="120r:23" to="121v:34"/>
+                     <title type="supplied">Háttalykill B. O. S.</title>
+                     <textLang mainLang="non"/>
+                     <rubric>En<ex>n</ex> þä einskonar Hättalykill. B. O. S.</rubric>
+                     <incipit>1. Fyrst mier guded astar oturgiallda hrund</incipit>
+                     <explicit>her ende lykell hendur</explicit>
+                     <note>Lower margins cropped resulting in some loss of text.</note>
+                  </msItem>
+                  
+                  <msItem n="15" class="poem">
+                     <locus from="122r:1" to="127r:21"/>
+                     <author>Óttarr Svarti</author>
+                     <title type="uniform">Höfuðlausn</title>
+                     <title type="supplied">Ólafsvísur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Visur ur lifssogu Olafs helga Haralldzs<ex>onar</ex> eptir Snor<ex>r</ex>a Sturl<ex>u</ex> s<ex>ini</ex></rubric>
+                     <incipit>Um<ex>m</ex> fyrsta h<ex>er</ex>nad Ol<ex>afs</ex> i Danm<ex>erki</ex> Ottar
+                        Sv<ex>ar</ex>ti</incipit>
+                     <explicit>strángr caupscipum ángra in<ex>n</ex>an borz um
+                        un<ex>n</ex>ir kríng<ex>ar</ex> lid veras</explicit>
+                     <note>Extract from Heimskringla</note>
+                  </msItem>
+                  
+                  <msItem n="16" class="glos">
+                     <locus from="128r:1" to="130v:4"/>
+                     <author>Gunnar Pálsson</author>
+                     <title type="supplied">Commentary on Höfuðlausn</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <rubric>Stropha 1a primam partem ita redigo</rubric>
+                     <incipit>Þu konungur vígrackr barst ungr vit á vengisblacki</incipit>
+                     <explicit>hvad lengi þetta ord hefur fram<ex>m</ex> eptir tímum brukast</explicit>
+                     <note>Note in another hand on fol. <locus>130v</locus>: <q>Þetta er med hendi S<ex>e</ex>ra Gunnars
+                     Pálssonar.</q></note>
+                  </msItem>
+                  
+                  <msItem n="17" class="hymn" defective="true">
+                     <locus from="132r:1" to="132r:26"/>
+                     <title type="supplied">O christinn sala athuga</title>
+                     <title type="supplied">Psalm</title>
+                     <textLang mainLang="non"/>
+                     <rubric>O christin<ex>n</ex> säla athuga <del type="overstrike">avallt</del><add place="above">æted</add></rubric>
+                     <incipit>Werked Guds</incipit>
+                     <explicit>Lazarus vesæll liggia kir, lemstrad<ex>ur</ex></explicit>
+                     <note>Ends with verse 9</note>
+                     <note>Folded leaf pasted on to fol. <locus>131r</locus></note>
+                  </msItem>
+               
+               </msContents>
+              
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="132"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>One of the front flyleaves and the rear flyleaf are modern.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                        
+                           <watermark ana="yes">At least two different watermarks, one containing a mitre and another
+                              with a fence (city?).</watermark>
+                           
+                        </support>
+                        
+                        <foliation ana="later pag">
+                           <p>Irregularly paginated with pencil on the bottom right corners. Fols.
+                             <locus> 26v-28r, 76v, 88, 96v, 108, 127v, 131 and 132v</locus> are blank.</p>
+                        </foliation>
+                        
+                        <condition ana="good">
+                           <p>Tears in the margins on fols. <locus>1, 73 and 74</locus> have been repaired with
+                        tape. On fols. <locus>115, 116, 120 and 121</locus> the bottom margins were
+                        cut away with some loss of text. Fol. <locus>132</locus> is pasted over the
+                        blank fol. <locus>131</locus>.</p>
+                        </condition>
+                     
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="21 35">
+                           <num type="wpl" atLeast="7" atMost="11"/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <note>Fols. <locus>8v-19v, 24v-26r and 97r-107r</locus> are written in two columns.
+                              The remainder of the manuscript is written in one column (with the exception of
+                              fol. <locus>95r</locus>, where the last stanza is written in two columns).</note>
+                        </layout>
+                     </layoutDesc>
+                  
+                  </objectDesc>
+                  
+                  <handDesc hands="999">
+                     <handNote scribeRef="#GunPal002" scope="minor" script="unknown">
+                        <p>Fols. <locus>128-130</locus> were written by <name type="person" key="GunPal002">Gunnar Pálsson</name>; other scribes unknown.</p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Occasional marginalia throughout. A note concerning Háttatal is pasted on to fol.
+                    <locus>88v</locus>: <q>Þesse sidare (e<ex>dur</ex> sidarste) partr Eddu sem marg<ex>an</ex> kalla Skälldu,
+                    <ex>og</ex> synest ur odru exemplare, en<ex>n</ex> codice Wormiano. Olafs hvyta skalldz Þord<ex>ar</ex>son<ex>ar</ex>
+                    tractat<ex>us</ex> de orthographia, er hi<ex>er</ex> allr<ex>ar</ex> miket stytter, en<ex>n</ex> mig min<ex>n</ex>er
+                    þar sie.</q></p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in late 19th century marbled boards. Spine bound with strips of manuscript waste containing
+                        unidentified text; strips visible between fols. <locus>37/38</locus>, <locus>45/46</locus> and <locus>47/48</locus>.</p>
+                     </binding>							
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1815">1600-1815</origDate>
+                     <note>Fols. <locus from="1" to="8">1-8</locus> 
+                        and <locus from="29" to="76r">29-76r</locus> were written during the seventeenth
+                        century. Fols <locus from="9" to="26r">9-26r</locus> were written c. 1700. Fol.
+                        <locus>28v</locus> was written at the beginning of the nineteenth century. 
+                        Fols. <locus from="77" to="87">77-87</locus>, <locus from="122" to="127r">122-127r</locus> and <locus from="132r" to="132r">132r</locus> were 
+                        written during the eighteenth century. Fols. <locus from="89" to="96r">89-96r</locus> were written at the beginning of the eighteenth
+                        century. Fols. <locus from="97" to="121">97-121</locus> were written at the end of the eighteenth century. 
+                        Fols. <locus from="128" to="130">128-130</locus> were written during the second half of 
+                        the eighteenth century. Cf. Kålund 1889, II:514-15.</note>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="RasRas001"><!--Rasmus Rask--></name>
+                     <note>Rask's autograph on recto of second front flyleaf.</note>
+                     <name type="person" role="owner" key="ArnMag001"><!--Árni Magnússon--></name>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:59.963+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:55:15.054+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:37:11.75+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:44:38.01+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:20:06.535+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-01-14" who="#JSL">Supplemented information from Kålund and Handrit
+            catalogues.</change>
+         <change when="2013-01-29" who="#JSL">Cataloged from manuscript.</change>
+         <change when="2013-08-15" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

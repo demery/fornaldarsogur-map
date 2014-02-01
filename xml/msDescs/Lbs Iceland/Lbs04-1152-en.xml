@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1152 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1152-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1152 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage>
+                     <titlePart>Ýmsir Söguþættir og sagnabrot hinna seinni alda, Sagnafræði úr
+                        I.Chr, Riise skjalasafni. Íslenskað uppkast veturinn 1837-8.</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="formal">
+                     <locus from="2r" to="2r"/>
+                     <title type="supplied">Formáli skrifara</title>
+                     <rubric>Fyrirmáli</rubric>
+                  </msItem>
+                  <msItem n="2" class="regist">
+                     <locus from="2v" to="4v"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <rubric>Innihald bókarinnar</rubric>
+                  </msItem>
+                  <msItem n="3" class="sagnps">
+                     <locus from="5r" to="11v"/>
+                     <title type="supplied">Aðalráðs þáttur Englakonungs</title>
+                     <rubric>Söguþáttur Álfráðs ins ríka Englakongs eður hins mikla</rubric>
+                  </msItem>
+                  <msItem n="4" class="avint">
+                     <locus from="11v" to="19v"/>
+                     <title type="supplied">Hóruks þáttur og Haíreddins Alsírvíkinga</title>
+                  </msItem>
+                  <msItem n="" class="">
+                     <locus from="" to=""/>
+                     <title type=""/>
+                     <rubric/>
+                  </msItem>
+                  <!--<msItem>
+                     <title type="uniform">Örvar-Odds saga</title>
+                     <note>No Örvar-Odds saga in this manuscript</note>
+                  </msItem>-->
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart"/>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GisKon001" scope="sole" script="hum cursiva">Gísli Konráðsson</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1837" notAfter="1838"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:51.523+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-09" who="#SK">Turned every page in this big manuscript of Gísli
+            Konráðsson 502 folios in all and found no traces of Örvar-Odds saga.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

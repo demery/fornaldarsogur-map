@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 413 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0413-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 413 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="1r">1r</locus>
+                     <title type="supplied">Efnisyfirlit</title>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="1v" to="22r">1v-22r</locus>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <note>The arrangement of leaves is wrong in two places. The correct order would be: 2v, 3v,
+                        3r, 4r and 12v, 13v, 13r, 14r</note>
+                     <colophon>Skrifud árid 1773</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas" defective="true">
+                     <locus from="22v" to="39v">22v-39v</locus>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <colophon>Anno 1775</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="forns">
+                     <locus from="39v" to="40r"/>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <author>Snorri á Húsafelli</author>
+                     <rubric>Um Starkað hin[n] gamla</rubric>
+                     <colophon>Anno 1775</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="kon">
+                     <locus from="40v" to="41r">40v-41r</locus>
+                     <title type="uniform">Ólafs saga frækna</title>
+                     <rubric>Um Ólaf Ingjal[d]sson</rubric>
+                     <colophon>Skrifað anno 1775</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="kon">
+                     <locus from="41r" to="43v">41r-43v</locus>
+                     <title type="supplied">Ólafs saga kóngs hins frækna og annarra kónga</title>
+                     <rubric>Um Ólaf kóng frækna og aðra kónga</rubric>
+                     <colophon>Skrifað 1775</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="sagnfr">
+                     <locus from="43v" to="44v">43v-44v</locus>
+                     <title type="supplied">Um fráfall Odds lögmanns Gottskálkssonar</title>
+                     <rubric>Samanskrif biskupsins herra Odds Einarssonar eftir framburði Þormóðs
+                        Ásmundssonar í Bræðratungu, hvör til Odds [Gottskálkssonar] kom 17 vetra það
+                        sama ár sem hann drukknað[i], og svo hljóðar</rubric>
+                     <colophon>Skrifað anno 1775</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="8" class="tjos">
+                     <locus from="44v" to="45v">44v-45v</locus>
+                     <title type="supplied">Um hval í Hvalvatni og prest í Möðrudal</title>
+                     <colophon>Anno 1775</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="tjos">
+                     <locus from="45v" to="46v">45v-46v</locus>
+                     <title type="supplied">Um prest á Möðrudal á Fjalli</title>
+                     <colophon>Skrifað anno 1775</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="10" class="tjos">
+                     <locus from="46v" to="47r">46v-47r</locus>
+                     <title type="supplied">Um ljúflingskonu á Fjalli</title>
+                     <colophon>Skrifað anno 1775</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="landfr">
+                     <locus from="47r" to="47v">47r-47v</locus>
+                     <title type="supplied">Um eyna Möltu</title>
+                     <colophon>Skrifað anno 1775</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="48r" to="62r">48r-62r</locus>
+                     <title ref="#asb" type="uniform" xml:lang="is">Áns saga bogsveigis</title>
+                     <rubric>Hér byrjum vér sögu af Áni bogsveigir</rubric>
+                     <colophon>Skrifuð anno 1776</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="islt">
+                     <locus from="62r" to="65v">62r-65v</locus>
+                     <title type="uniform">Brandkrossa þáttur</title>
+                     <rubric>Söguþáttur af Brandkrossa</rubric>
+                     <colophon>Skrifuð anno 1776</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="rimur">
+                     <locus from="65v" to="89r">65v-89r</locus>
+                     <title type="uniform">Flóres rímur og sona hans</title>
+                     <rubric>Hér skrifast rímur af Flóres og sonum hans</rubric>
+                     <note>12 rímur</note>
+                     <colophon>Anno 1777</colophon>
+                     <note>The name of the scribe is to be found in the second last verse: Jón
+                        (ioon). Flores rimur exist in versions by many authors</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="rimur">
+                     <locus from="89v" to="97r">89v-97r</locus>
+                     <title type="supplied">Rímur af hvarfi og drukknun Eggerts Ólafssonar
+                        1768</title>
+                     <author>Árni Þorkelsson á Búðum</author>
+                     <rubric>Ein rím sem er reisuhistoría yfir þá ferð sem gjörð var undan
+                        Snæfellsjökli til Vestfjarða sjóleiðis að sækja vísilögmanninn sál. Eggert
+                        Ólafsson þann 18. maii árið 1768</rubric>
+                     <note>2 rímur</note>
+                     <colophon>Enduð anno 1777</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="konth">
+                     <locus from="97r" to="102v">97r-102v</locus>
+                     <title type="uniform">Hauks þáttur hábrókar</title>
+                     <rubric>Söguþáttur af Hauki hábrók og Vígharði</rubric>
+                     <note>Next to the title: úr latínu fljótlega á íslensku snarað</note>
+                     <colophon>Enduð anno 1778 þann 25. janúarii</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="17" class="avint">
+                     <locus from="102v" to="147v">102v-147v</locus>
+                     <title type="uniform">Þúsund og ein nótt</title>
+                     <note>Beginning of the first book, 1.-27. night</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="18" class="fas">
+                     <locus from="148r" to="181r">148r-181r</locus>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <rubric>Hér hefur sögu af Hrólfi Sturlaugsyni</rubric>
+                     <colophon>Enduð þann 17. aprílis anno 1779</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="19" class="regist">
+                     <locus from="181v" to="181v">181v-181v</locus>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <rubric>Registur þessara söguþátta að framan</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="20" class="fas" defective="true">
+                     <locus from="182r" to="197v">182r-197v</locus>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <note>lassing the end</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="197"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="164"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <condition ana="poor">
+                           <p>Torn and worn, although now repaired. </p>
+                           <p>There are leaves missing between leaves <locus from="22" to="23">
+                                 22-23</locus>; Leaves used in binding are from a printed work.
+                              </p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="28 29">
+                           <num type="wpl" atLeast="11" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">First four leaves in different hand due to damage</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="vignette" subtype="border">Border:<locus from="181v" to="181v"> 181v</locus>
+                     </decoNote>
+                     <decoNote type="vignette" subtype="tailpiece">Knotwork: <locus from="1r" to="1r">1r</locus>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="no"/> 
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Leather on wooden boards, decorated</p>
+                        <p>The binding is kept separate as in Lbs 413 4to b</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1773" to="1779"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:33.831+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:44.549+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:02.492+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:36.507+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-06" who="#SK">Put in titles and added further information from the XML-
+         cataloguing on handrit.is as well as the P.E.Ó.-catalogue</change>
+         <change when="2012-08" who="#SK">Added last bit of information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

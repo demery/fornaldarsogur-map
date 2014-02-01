@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 32</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-32" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 32</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kvad">
+                     <locus from="1bisr" to="1bisv"/>
+                     <title type="supplied">16 Verses</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Vysa Hin Firsta</rubric>
+                     <incipit>Gud Bor Alla yþor, An<ex>n</ex>est Viþer greipz (?)</incipit>
+                     <explicit>saga þ<ex>eir?</ex> giæfe. sende þ. gudz i hende.</explicit>
+                     <colophon>Skrifaþ i Staþarenz Arresthtwz J Kiöbenhafn þ<ex>an</ex>n 14. Junij A<ex>nno</ex> 1680</colophon>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="1r" to="10r"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="10v" to="14v"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Anno 1676 8 Augustij</colophon>
+                  </msItem>
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="15r" to="58v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl" defective="true">
+                     <locus from="59r" to="96v"/>
+                     <title type="uniform">Finnboga saga ramma</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd" defective="true">
+                     <locus from="97r" to="130v:15"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="130v:16" to="138v"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="5">A former front cover is preserved and now counted as fourth
+                              front-flyleaf.</num>
+                           <num type="book-block" value="139"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="yes">Large foolscap, the middle point extended and ending in three large
+                              circles</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p/>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="27 38">
+                           <num type="wpl" atLeast="9" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="160" atMost="185"/>
+                              <width unit="mm" atLeast="120" atMost="140"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="#JonEgg001" scope="major" script="kurrent">Jón Eggertsson wrote fols. <locus from="1r" to="58v">1r-58v</locus> and <locus from="97r" to="130v:15">97r-130v:15</locus>. He used kurrent for the main text and chancery for
+                        rubrics.</handNote>
+                     <handNote scribeRef="#ThoSig010" scope="minor" script="chancery">Fols. <locus from="59r" to="69r:2">59r-69r:2</locus></handNote>
+                     <handNote scribeRef="#SigJon036" scope="minor" script="chancery">Fols. <locus from="130v:16" to="138v">130v:16-138v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="early kurrent">Fols. <locus from="69r:2" to="96v">69r:2-96v</locus>, mixed
+                        script with most aspects of early kurrent</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">ornaments in black ink</decoNote>
+                     <decoNote type="other">rubrics decorated</decoNote>
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Scholarly note in the margins, notes and stickers with the shelfmark on the former front cover and the
+                        following flyleaf. 16 Verses written by Jón Eggertsson in Copenhagen 4th of June 1686 on the sixth
+                        front-flyleaf.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbeled paper on cardboard. The spine and the corners are in white leather. On the spine the shelf
+                           mark is imprinted with golden letters. A former front cover is preserved and now counted as
+                           a flyleaf.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1674"/>
+                     <origPlace key="IS DK"/>
+                     <note>Three parts; the oldest one by <name type="person" role="scribe" key="ThoSig010">Þorlákur Sigfússon</name> was written in Iceland. 
+                        The part by <name key="JonEgg001" type="person" role="scribe">Jón Eggerstson</name> was possibly written in Denmark. It was put together in Copenhagen.
+                        </note>
+                  </origin>
+                  <provenance><p>The manuscript was put together from different parts by <name key="JonEgg001" type="person" role="owner">Jón Eggertsson</name> and handed over to the Swedish
+                     <name type="organisation" role="owner" key="AntKol001">Antikvitetskollegiet</name> in 1686.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:54.202+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-04" who="#BES">Measured and evalutated with the manuscript in situ.</change>
+         <change when="2013-04-04" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

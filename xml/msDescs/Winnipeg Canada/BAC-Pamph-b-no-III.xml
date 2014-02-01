@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>BAC Pamph b no III</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BAC-Pamph-b-no-III" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#EDL">The Icelandic Collection, Elizabeth Dafoe Library, Winnipeg, Canada</repository>
+                  <idno>BAC Pamph b no III</idno>
+               </msIdentifier>
+               <msContents>
+                  
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="63v"/>
+                     <title type="uniform">Falentíns og Ursins saga</title>
+                     <textLang mainLang="non"/>
+                     <note>71 chapters</note>
+                     </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="64r" to="88v"/>
+                     <title type="uniform">Adónías saga</title>
+                     <textLang mainLang="non"/>
+                     <note>23 chapters</note>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="89r" to="100v"/>
+                     <title type="uniform">Sigurgarðs saga og Valbrands</title>
+                     <textLang mainLang="non"/>
+                     <note>16 chapters</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="101r" to="113v"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>16 chapters</note>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="114r" to="125r"/>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                     <textLang mainLang="non"/>
+                     <note>19 chapters</note>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="125v" to="138r(?)"/>
+                     <title type="uniform" ref="#ssst">Sörla saga sterka</title>
+                     <textLang mainLang="non"/>
+                     <note>12 chapters</note>
+                  </msItem>
+                  <msItem n="7" class="ridd" defective="true">
+                     <locus from="138r(?)" to="unknown"/>
+                     <title type="uniform">Ectors saga</title>
+                     <textLang mainLang="non"/>
+                     <note>no pagination, part(s) missing</note>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="unknown" to="unknown"/>
+                     <title type="uniform">Nikulás saga leikara</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="unknown" to="unknown"/>
+                     <title type="supplied">Flóres saga og Léo</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block">ca. 200</num>
+                           <watermark ana="unknown"/>
+                           <dimensions type="leaf"> 
+                              <height unit="mm"/> 
+                              <width unit="mm"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="pag contemporary"/>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="999"> 
+                     <handNote scribeRef="unknown" script="unknown"/> 
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+<!--                  <additions ana="no"><p>Nothing known about additions.</p></additions>-->
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>unknown</origDate>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name key="JonBja001" type="organisation" role="owner">Jon Bjarnason Academy Collection</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2013-06-18" who="#BES">Created entry based on Einar G. Pétursson's notes.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

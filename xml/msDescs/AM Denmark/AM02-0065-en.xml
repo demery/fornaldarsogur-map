@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 65 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0065-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 65 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="kon">
+                     <locus from="1bisr:1" to="50v:20">1bis-50v</locus>
+                     <title type="uniform">Magnús saga góða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="kon">
+                     <locus from="50v:21" to="176v:2">50v-176v</locus>
+                     <title type="uniform">Haralds saga harðráða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="178r:1" to="183r:19">178v-183r</locus>
+                     <title type="uniform">Heimskringla</title>
+                     <title type="chapter">Ólafs saga kyrra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="kon">
+                     <locus from="183r:20" to="210r:7">183r-210r</locus>
+                     <title type="uniform">Heimskringla</title>
+                     <title type="chapter">Magnús saga berfætts</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="kon">
+                     <locus from="210r:8" to="250v:17">210r-250v</locus>
+                     <title type="uniform">Magnússona saga</title>
+                     <title type="parallel">Sigurðar saga jórsalafara og bræðra hans, Eysteins og Ólafs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="kon">
+                     <locus from="210v:18" to="263r:20">210v-263r</locus>
+                     <title type="uniform">Magnús saga blinda og Haralds gilla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="kon">
+                     <locus from="263r:19" to="282v:9">263r-282v</locus>
+                     <title type="uniform">Heimskringla</title>
+                     <title type="chapter">Inga saga Haraldssonar og bræðra hans</title>
+                     <title type="parallel">Haraldssona saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="kon">
+                     <locus from="282v:10" to="300r:12">282v-300r</locus>
+                     <title type="uniform">Heimskringla</title>
+                     <title type="chapter">Hákonar saga herðibreiðs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="kon">
+                     <locus from="300r:13" to="316r:8">300r-316r</locus>
+                     <title type="uniform">Heimskringla</title>
+                     <title type="chapter">Magnús saga Erlingssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="kon">
+                     <locus from="317r:1" to="329v:17">317r-329v</locus>
+                     <title type="uniform">Ólafs saga helga</title>
+                     <textLang mainLang="non"/>
+                     <note>Extract</note>
+                  </msItem>
+                  <msItem n="11" class="konth">
+                     <locus from="332r:1" to="344v:25">332r-344v</locus>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="348r:1" to="363:16">348r-363v</locus>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sǫgu-Þättur af Norna Gest</rubric>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="364r:1" to="379v13">364r-379v</locus>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fra Gauta könge inum millda.</rubric>
+                  </msItem>
+                  <msItem n="14" class="drott">
+                     <locus from="380r:1" to="383r:15">380r-383r</locus>
+                     <title type="uniform">Jómsvíkinga drápa</title>
+                     <textLang mainLang="non"/>
+                     <note>With white space indicating lacunae</note>
+                  </msItem>
+                  <msItem n="15" class="kvad">
+                     <locus from="383v:1" to="384v:4">383v-384v</locus>
+                     <title type="uniform">Málsháttakvæði</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="385"/>
+                           <num type="back-flyleaf" value="5"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="300"/>
+                              <width unit="mm" quantity="190"/>
+                           </dimensions>
+                           <watermark ana="yes">various watermarks, on fols. <locus from="1r" to="364v">1-364</locus>, a fool with
+                              five points on his collar. The central one is longer and ends in three balls. Similar to the
+                              watermark in AM 11 fol. In the rest of the codex the watermarks differ, each occurring a few times. </watermark>
+                           <note> fols. 177, 330-331 and 345-347 are blank.</note>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliated by <name type="person" role="scholar" key="KriKaa001">Kålund</name> in red ink in the top
+                              outer corners of the recto pages.</p>
+                        </foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="25 26">
+                           <num type="wpl" atLeast="6" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="130"/>
+                              <width unit="mm" quantity="128"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonErl001" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>On fol. <locus>1r</locus> is written: <q xml:lang="is">Virdulegur Herra Biskupen, M. Brynjolfur Sveins son
+                           ad Ska<ex>a</ex>lholte min<ex>n</ex> dygdarikur, og Elskulegur Velgørda og Æt-brőder, gaf mer þessa
+                              sgubo<ex>o</ex>k, en<ex>n</ex> eg gef hana nú do<ex>o</ex>ttur min<ex>n</ex>e Elene Hakonar
+                              do<ex>o</ex>ttur til eignar, skrifad ad Brædratungu 31 Januarij. Anno 1675. Helga Magnus dottir e
+                           h</q> (only signature written by <name type="person" role="owner" key="HelMag001">Helga
+                           Magnúsdóttur</name>). An AM-slip is glued onto fol. 1r: <q>A bok in folio med hendi Sr. Jons i
+                           Villingaholltr: hia Jone Hakonarsyne, komin<ex>n</ex>e til hans fra Latrafolke en<ex>n</ex> til Helga
+                              M<ex>agnus</ex>dott<ex>ur</ex> fra M. Bryniolfe. Noregs k<ex>onun</ex>ga sögur. Af olafi digurbein
+                           Nornageste Hemnings þattur gautreki k<ex>onung</ex>i <ex>og</ex> Dalafiflu<ex>m</ex> Jomsvikingadrapa
+                              <ex>og</ex> adrar visur aptanvid. Bokina hefr Helga M<ex>agnus</ex>d<ex>ottir</ex> gefid Elinu
+                              Hak<ex>ons</ex>d<ex>ottur</ex> þann 31. Jan. 1675.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Bound in the original binding: embossed dark leather with metal corner pieces and two metal
+                           clasps, the upper one of which is new. Restored in 1928 by Anker Kyster. Size of binding:
+                              <height>335</height> x
+                           <width>223</width> x
+                           <depth>81</depth>mm.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1672">1600-1672</origDate>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>According to a note on fol. <locus>1 bis</locus>, bishop <name type="person" role="owner" key="BrySve001">Brynjólfur Sveinsson</name> gave the manuscript to <name type="person" role="owner" key="HelMag001">Helga Magnúsdóttir</name> who in return gave it in <date when="1675">1675</date> to
+                        her daughter <name type="person" role="owner" key="EliHak001">Elín Hákonardóttir</name>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:47.984+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:04.598+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:34:15.713+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:41:29.436+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:17:08.828+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-02-04" who="#BES">Prepared for session with ms.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>HSk 452 4to</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="HSk04-0452-en" xml:lang="en">
+                    <msIdentifier>
+                        <country>Iceland</country>
+                        <settlement>Sauðárkrókur</settlement>
+                        <repository ref="#HSSSF">Héraðskjalasafn Skagfirðinga, Akureyri</repository>
+                        <idno>HSk 452 4to</idno>
+                        <altIdentifier>
+                            <idno>In catalogue wrongly as HSk 1 fol.</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="contemporary">
+                            <titlePart>DANSKAR og SVENSKAR Søgur; Sømuleidis Vidbæter af Alexander Mikla og Cyro Keysara.
+                                Skrifadar á Hlum í Hiallta Dal. MDCCLXXX Af P.I.S.</titlePart>
+                            <note>From fol. 2r:1 to 2r:15. </note>
+                            <titlePart>Sagann af ALEXANDRO hinum Mikla Fyrst i Latinskum ser Studla Versum
+                                    Saman<ex>n</ex>tekin<ex>n</ex> af PHILIPPO GALTERO INSULENSI Biskupi i Magalone En<ex>n</ex> A
+                                Norrænu útløgd af Brandi II Jons Syne Aböta i Veri og sydast Biskupi A Hlum 1263 og 126<supplied reason="damage" instant="false">4</supplied> Eptir Skipan Þess Agiæta Konungs i Norvege
+                                Magnusar Hakonar Sonar Lagabætirs</titlePart>
+                            <note>Second title page on fol. <locus from="1r:1" to="1r:18">1r</locus>, which belongs to <ref type="title">Alexanders saga</ref>, but was left out when the manuscript was bound and
+                                afterwards added to the front of the book, rather than to the story itself.</note>
+                        </titlePage>
+                        <msItem n="1" class="regist">
+                            <locus from="3r:1" to="3r:9">3r</locus>
+                            <title>Table of contents</title>
+                            <rubric>Þessar Sőgr hefr Bokin<ex>n</ex> in<ex>n</ex>e ad hallda:</rubric>
+                            <incipit>Hrolfe Gautreᴋssyne - " - " - " - " - " - " - " - Hálfdane Brőnufóstra Sørla Sterᴋa Haugna oc
+                                Hédinn Hrolfe Kraᴋa Harallde Hríngsbana Cyro Keysara Alexander Miᴋla</incipit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="2" class="fas" defective="true">
+                            <locus from="4r:1" to="4r:38">4r</locus>
+                            <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                            <title type="parallel">Gjafa-Refs þáttur</title>
+                            <incipit defective="true">tilvin<ex>n</ex>a, at þín Sæmd væri þá m<ex>ei</ex>ri en<ex>n</ex> ádr
+                                    o<ex>c</ex> þiᴋez ec vita at K<ex>o</ex>ngr mune sva vil<ex>ja</ex> f<ex>yrer</ex> sitt
+                                Efne</incipit>
+                            <explicit>en<ex>n</ex> ei er sagt h<ex>ann</ex> v<ex>ære</ex> diúpvit<ex>ur</ex>. h<ex>ann</ex>
+                                    v<ex>ar</ex> vinsæll o<ex>c</ex> stórgiőfull o<ex>c</ex> in<ex>n</ex> hæfverskasti ad
+                                siá,</explicit>
+                            <finalRubric>Endar hi<ex>er</ex> sva Geafa Refs þátt.</finalRubric>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="3" class="fas">
+                            <locus from="4v:1" to="40v:14">4v-40v</locus>
+                            <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                            <rubric>Hier byriar siálfa Sőguna. XIte Cap.</rubric>
+                            <incipit>Vin<ex>er</ex> Gautr<ex>eks</ex> K<ex>ongs</ex> rádlógdu h<ex>onu</ex>m, o<ex>c</ex> bádo
+                                    þ<ex>ess</ex> at h<ex>ann</ex> sᴋillde qvænaz, aptr</incipit>
+                            <explicit>Kemr þad her fram<ex>m</ex> at þad þijᴋest ein<ex>n</ex> heyrt hafa, sem an<ex>n</ex>ar
+                                heyrer ecᴋe.</explicit>
+                            <finalRubric>Lijᴋr her Saugu Hrólfs Kongs Gautreᴋssonar.</finalRubric>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="4" class="fas">
+                            <locus from="41r:1" to="55v:13">41r-55v</locus>
+                            <title ref="#hsb" type="uniform">Hálfdanar saga Brönufóstra</title>
+                            <rubric>Saga af Halfdane Brőnu Fóstra</rubric>
+                            <rubric>Ite Cap.</rubric>
+                            <incipit>Hringr hefr kóngr heitit, han<ex>n</ex> redi fyri Danm<ex>or</ex>k h<ex>ann</ex> var bædi
+                                vitr oc vinsæll.</incipit>
+                            <explicit>attu Son er Hrd<ex>ur</ex> het, h<ex>ann</ex> v<ex>ar</ex> hin<ex>n</ex> mesti afreᴋs
+                                    mad<ex>ur</ex>, oc var u<ex>m</ex> sider un<ex>n</ex>en<ex>n</ex> med Hersᴋillde i Miᴋ
+                                Lagarde.</explicit>
+                            <finalRubric>End<ex>ar</ex> her Sógu Halfd<ex>anar</ex> Brőnufóstra.</finalRubric>
+                            <textLang mainLang="non"/>
+                            <note>Version C. 18 chapters</note>
+                        </msItem>
+                        <msItem n="5" class="fas">
+                            <locus from="56r:1" to="66r:22">56r-66r</locus>
+                            <title ref="#ssst" type="uniform">Sörla saga sterka</title>
+                            <rubric>Saga af Sőrla Sterka.</rubric>
+                            <rubric>Ite Cap:</rubric>
+                            <incipit>A þeim Tijma sem Hálfdan kóng<ex>ur</ex> Brőnufóst<ex>re</ex> stírde Svi þiód hin<ex>n</ex>e
+                                ᴋólldu er h<ex>ann</ex> van<ex>n</ex> af Agnare hinu<ex>m</ex> audga, En<ex>n</ex> sette Astró mág
+                                    sin<ex>n</ex> yf<ex>er</ex> England</incipit>
+                            <explicit>ei er geted um<ex>m</ex> Bőrn þeirra,</explicit>
+                            <finalRubric>endar sva Sógu af Sorla sterᴋa oc han<ex>n</ex>s afreᴋs-verᴋum.</finalRubric>
+                            <textLang mainLang="non"/>
+                            <note>Version A. 16 chapters.</note>
+                        </msItem>
+                        <msItem n="6" class="fas">
+                            <locus from="66v:1" to="70v:7">66v-70v</locus>
+                            <title ref="#hsh" type="uniform">Sörla þáttur</title>
+                            <title type="parallel">Héðins saga og Högna</title>
+                            <rubric>Saga af Høgna og Hedin<ex>n</ex>, Frá Odni og Freyu.</rubric>
+                            <incipit>Fyrir austan<ex>n</ex> Vanaqvísl i Asia v<ex>ar</ex> ᴋallat Asia Land eda Asia Heimr,
+                                    en<ex>n</ex> þ<ex>ad</ex> Folᴋ var ᴋall<ex>ad</ex> æs<ex>er</ex></incipit>
+                            <explicit>En<ex>n</ex> Blód sast á Sverde, Ivars til merᴋia oᴋ alldrei hvorfu þar vardmen<ex>n</ex>
+                                    sidan<ex>n</ex>, for Konungr heim i Riᴋe</explicit>
+                            <finalRubric>oc liᴋr þar frá þeim Hedin<ex>n</ex> oc Hógna at segia.</finalRubric>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="7" class="fas">
+                            <locus from="71r:1" to="96r:3">71r-96r</locus>
+                            <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                            <rubric>Saga af Hrólfe Konge Kraka.</rubric>
+                            <rubric>Ite Cap:</rubric>
+                            <incipit>Madr er nemndr Halfdan enn annar Fróde, þeir voru brædr <ex>oc</ex> konga Sijnir oc styrdu
+                                synu Rijki hver þeirra</incipit>
+                            <explicit>var haugur orpin<ex>n</ex> ijfir hr<ex>olf</ex> k<ex>ong</ex> oc var lagt hiá honum Sverdid
+                                Skofnungur, oc nockur vopn hiá hverium;</explicit>
+                            <finalRubric>Oc endar hier Saugu Hrólfs kóngs oc kappa hanns.</finalRubric>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="8" class="forns">
+                            <locus from="97r:1" to="108v:25">97r-108v</locus>
+                            <title type="uniform">Haralds saga Hringsbana</title>
+                            <rubric>Saga af Harallde Hringsbana</rubric>
+                            <rubric>Ite Cap:</rubric>
+                            <incipit>Hringr hefr k<ex>o</ex>ngr heitit, h<ex>an</ex>n v<ex>ar</ex> kappi mikill og Bardagamadr
+                                    hin<ex>n</ex> mesti, sva fáa m<ex>enn</ex> hafdi h<ex>ann</ex> ser jafna
+                                fund<ex>it</ex></incipit>
+                            <explicit>o<ex>c</ex> átti ein<ex>n</ex> Son er Catalactus het, er þar vard sidan<ex>n</ex> ᴋongur
+                                epter Faudur sin<ex>n</ex></explicit>
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="9" class="almb">
+                            <locus from="109r:1" to="123v:21">109r-123v</locus>
+                            <author>Einar Bjarnason</author>
+                            <title type="uniform">Cyrus saga Persakonungs</title>
+                            <rubric>Saga af Cyro Keisara.</rubric>
+                            <incipit>Historia Valldstiórnar Uppbyriunar oc Endingar þess fyrsta Einvallds Dæmis, var firirmyndad
+                                med Gullhófdi Lykneskiun<ex>n</ex>ar sem ɴebuchadnezar dreymdi</incipit>
+                            <explicit>þessi Saga er útdreigin<ex>n</ex> af Sagnabókum Herodoti, Justini, Melosthenis Plutarchi og
+                                Xeonophonis,</explicit>
+                            <finalRubric>oc lykur so frá Cyro meira ad segia.</finalRubric>
+                            <colophon>Á Islendsku er þessi framanskrifud Saga utlógd af Æruverdugum Kien<ex>n</ex>i man<ex>n</ex>i
+                                Sal: Sa Einari Biarna Sijni ad Backa vid Geirlands , á Sijdu Austur.</colophon>
+                            <textLang mainLang="non"/>
+                            <note>Defective?</note>
+                        </msItem>
+                        <msItem n="10" class="sagnps">
+                            <locus from="124r:1" to="159v:38">124r-159v</locus>
+                            <title type="uniform">Alexanders saga</title>
+                            <incipit defective="true">ef þu ert scaumt i sama Stad, Optlega scaltu <ex>oc</ex> fylkia Lidi þino,
+                                at þ<ex>at</ex> nemi Bardagalyst<ex>ir</ex> oc venist Vapnfimi.</incipit>
+                            <explicit defective="true">er engi má h<ex>onu</ex>m at saunno Sac<ex>ir</ex> fin<ex>n</ex>a játar
+                                    h<ex>ann</ex> oc eng<ex>ar</ex> á hend<ex>ur</ex> ser, oc eigi mundi vera dæmt u<ex>m</ex>
+                                    m<ex>ic</ex> h<ex>er</ex> i D<ex>a</ex>g, nema</explicit>
+                            <textLang mainLang="non"/>
+                            <note>The title page for this item was left out when the manuscript was bound and was afterwards added
+                                to the front of the manuscript, rather than to the beginning of the story.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="1"/>
+                                    <num type="book-block" value="159"/>
+                                    <num type="back-flyleaf" value="1"/>
+                                    <note>Fols. <locus>2v and 96v</locus> are blank; fols. <locus>1v and 3v</locus> were
+                                        originally blank.</note>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="280"/>
+                                        <width unit="mm" quantity="174"/>
+                                    </dimensions>
+                                    <watermark ana="yes">PROPATRIA ALR(?) and a knight with a lance, accompanied by a lion.
+                                        <!-- very similar to the watermark of Ms Germ qu. 936! --></watermark>
+                                </support>
+                                <foliation ana="no">
+                                    <p/>
+                                </foliation>
+                                <condition ana="poor"><p>When the manuscript was bound, the margins were trimmed very closely to
+                                        the text. However, text is lost on fols. <locus>12, 135-137, 139, 151 and 155-156</locus>
+                                        (side margins), on fols. <locus>124-126, 141-142 and 148</locus> (top margins) and on
+                                        fols. <locus>13-20, 68, 71-80, 87-92, 94-96, 99-109 and 114-123</locus> (running titles).
+                                        Fol. <locus>125</locus> has a frayed bottom margin and missing outer bottom with loss of
+                                        text. Some leaves have paper strips pasted over frayed margins. These strips are now often
+                                        very loose so that the text underneath them can be read. Fols. <locus>1-3</locus> were
+                                        covered on their verso sides with other pieces of paper to support them; on fol.
+                                            <locus>1</locus> there is red marbled paper and newspapers pasted on its verso side.
+                                        On fol. <locus>81r</locus> a piece of yellow transparent paper was pasted over a cut in
+                                        the leaf. There is mould on the manuscript.</p></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-separate" columns="1" writtenLines="32 46">
+                                    <num type="wpl" atLeast="11" atMost="13"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="260"/>
+                                        <width unit="mm" quantity="148"/>
+                                    </dimensions>
+                                    <note>Written in one column, except the verses on fols. <locus>67v, 73r-v and 83v</locus> in 2
+                                        columns, with 32 to 46 lines per page, although usually with 38.</note>
+                                    <note>End of items written in half-diamond indention</note>
+                                    <catchwords ana="yes">Catchwords are on every page on fols. <locus>4r-40r, 41r-v, 42r-55r,
+                                            56r-65v, 66v-70r, 71r, 97r-108r, 118r, 126v-136v, 137v and 138v-159v</locus>, and on
+                                        every verso side on fols. <locus>71v-95v and 109v-122v</locus>.</catchwords>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="999">
+                            <handNote scribeRef="#PetJon004" scope="minor" script="unknown">Most likely wrote <locus from="2r" to="2r">title page</locus>. Possibly 4 hands. According to a slip of paper that is kept with
+                                the manuscript, Pétur Jónsson í Svefneyjum wrote the title page.</handNote>
+                            <handNote scribeRef="#MarTho003" scope="minor" script="hybrida">Fols. <locus>71r-96v</locus> and
+                                    <locus>109r-123v</locus> were written by Markús Þorláksson</handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="hybrida">Fols. <locus>124r-138r:19</locus> were
+                                written by hand C.</handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="hybrida">Fols. <locus>138r:20-143v</locus> were
+                                written by hand D.</handNote>
+                        </handDesc>
+                        <decoDesc ana="high">
+                            <decoNote type="paratext">Very ornamental title page. Baroque style with sumptuous thin line
+                                curls.</decoNote>
+                            <decoNote type="initial">Large ornamental initial</decoNote>
+                            <decoNote type="paratext">Large ornamental titles</decoNote>
+                            <decoNote type="paratext">Ornamental V-endings</decoNote>
+                            <decoNote type="paratext">Large ornamental curl endings</decoNote>
+                            <decoNote type="paratext">Ornamental text frame at the end of <title>Cyro saga keisarasonar</title>,
+                                    <locus>119v</locus>
+                            </decoNote>
+                        </decoDesc>
+
+                        <additions ana="medium">On fol. <locus>1v</locus> a large <q xml:lang="is">Do</q> with decoration is
+                            added. On fol. <locus>3r</locus> is added in the same hand as the rubric on this page: <q xml:lang="is">Vitnar sem hen<ex>n</ex>ar rettr Eigande Hoolum i Hialltadal d. 1. Apr. 1780. Petur
+                                Jonsson</q>. Also on this page are single capital letters, <q xml:lang="is">SIGUR</q>, <q xml:lang="is">Saganad</q>, <q xml:lang="is">Sagann af Hogna</q>, <q xml:lang="is">Jón Benidiktsson</q> (same hand that wrote <q>Saganad</q> and <q>Sagann af Hogna</q>?), <q xml:lang="is">Hall</q> and <q xml:lang="is">Sigriðu</q>. Additions on fol. <locus>3v</locus>: <q xml:lang="is">H</q>, <q xml:lang="is">Halldór Jónssini</q> and <q xml:lang="is">Hl Guðmundur</q>.
+                            Fol. <locus>70v</locus>: <q xml:lang="is">Halldor H Jonsson</q>. Fol. <locus>73r</locus>, between
+                            text: <q xml:lang="is">G mar</q>. Fol. <locus>82v-83r</locus>, bottom margin: <q xml:lang="is">han
+                                kunnu Godur</q>. On fol. <locus>84v</locus> there is a crude drawing of a masculine face in the
+                            bottom margin. Fol. <locus>87r</locus>, between text: <q xml:lang="is">Hall</q>. Fol.
+                                <locus>90v</locus>, bottom margin: <q xml:lang="is">Si sig</q>. Fol. <locus>108v</locus>, bottom
+                            margin: <q xml:lang="is">Sigur</q>. On fol. <locus>123v</locus> the epitaph of Cyros is added by the
+                            scribe: <q xml:lang="is">Graf-Skrift Cijri keijsara. Hier liggur S mikli Cijrus, Otti og hrædsla
+                                allrar ɴordur og Austur-Alpu Heimsins.</q> Underneath it is added in a different hand: <q xml:lang="is">Sᴋr. af Mr. Marc: þorl. S.</q> Fol. <locus>130v</locus>, bottom margin: <q xml:lang="is">nafm m</q>. A small sheet of paper is added to the manuscript, written by <name type="person" role="owner" key="">sr. Helgi Konráðsson</name> which reads <q xml:lang="is">Pétur
+                                skrifari Jónsson bóndi í Svefneyjum á 18. öld langalangafi Péturs á Slökkum hefur ef til vill
+                                skrifað titilblaðið. Höndin er lík segir P. á Slökkum Til er eftir Pétur skrifara Vídalínspostilla
+                                skrifuð 1734 á Hvallátrum. Gengur bökin i ættinni.</q></additions>
+                        <bindingDesc>
+                            <binding ana="moderate" contemporary="unknown">
+                                <p>Binding contains green marbled paper lining and black leather corners and spine. White paper
+                                    used for inner lining.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1775" notAfter="1785">c. 1780</origDate>
+                            <origPlace key="IS"/>
+                        </origin>
+                        <provenance><p>
+                                <name key="PetJon008" type="person" role="owner">Pétur Jónsson</name> from <name type="place">Stökkum</name> gave the manuscript to <name key="HelKon001" type="person" role="owner">sr.
+                                    Helgi Konráðsson</name> in <name type="place">Sauðárkrókur</name>. It is not sure how the
+                                manuscript came into Pétur Jónsson´s ownership, but it is likely that <name type="person" role="owner" key="JonBen002">Jón Benediktsson</name>, son of the provost <name type="person" role="other" key="BenVig001">Benedikt Vigfússon</name> in <name type="place">Hólar</name>, and
+                                his son <name type="person" role="owner" key="HalJon021">Halldór Jónsson</name> sold or gave it
+                                away when they emigrated to North America.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2009-07-14">Catalogued by Silvia Hufnagel.</change>
+            <change when="2013-01-14" who="#BES">Adjusted markup. Information on wpl and script type missing.</change>
+            <change when="2013-04-11" who="#BES">Added missing information from TL's files.</change>
+            <change when="2013-09-12" who="#SMM">Proofread.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+</TEI>

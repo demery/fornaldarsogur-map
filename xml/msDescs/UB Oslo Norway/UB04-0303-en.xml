@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+	
+		<fileDesc>
+			<titleStmt>
+				<title>UB 303 4to</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="UB04-0303-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#UBOSL">Universitetsbiblioteket, Oslo</repository>
+						<idno>UB 303 4to</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<!--<titlePage ana="no|contemporary|later">
+							<titlePart/>
+						</titlePage>-->
+						
+						<msItem n="1" class="isl">
+							<locus from="1r:1" to="112v:6"/>  							
+							<title type="uniform">Laxdæla saga</title>
+							<textLang mainLang="non"/>
+							<rubric>Saga þesse kallast Laxdæla af gómlum Jslendingum</rubric>
+							<incipit>Ketill flatnefur hiet madur</incipit>
+							<explicit>Bolle fieck Sigride giaford gófust og lauk vel vid hana</explicit>
+							<finalRubric>og hófum vier ej heirt þessa sógu leinger.</finalRubric>
+							
+							<note>A copy of the 'Z' redaction according to Kålund's edition (cf. typescript catalog). After the saga are two
+							verses about Kjartan and Bolli by Þorður Magnússon á Strjúgi:
+							<q>Visa um Kiartan Olafss<ex>yne</ex> er ordte Þordur Magnusson.
+							Kiært var konge biørtum / Kiartans til i hiarta / kurteis kappin virdte / kirtils tignar snirtir 
+							/ Bar tidt stäl og birti / bert vid dreira
+							herta / styrt gat stiriar kierti / stört han<ex>n</ex> afl ei skorte.
+							On<ex>n</ex>ur visa um Bolla. Bolli snilldar snille / sniallur ä bar hialle / vella værn nam þollur 
+								/ villa aurva spillir / Fiellu frä honum
+								heiller / fullu banda ulli / illa sins han<ex>n</ex> olle / allmiog frænda falle.</q></note>
+																				
+						</msItem>
+						
+						<msItem n="2" class="fas">
+							<locus from="113r:1" to="122r:4"/>  							
+							<title ref="#ksh" type="uniform">Ketils saga hængs</title>
+							<textLang mainLang="non"/>
+							<rubric>Her biriar Søgu þatt af Katle Hæng</rubric>
+							<incipit>Hallbiørn het madur er kalladur var halftroll</incipit>
+							<explicit>Ketill riede fyrer Hrafnistu á medan<ex>n</ex> han<ex>n</ex> lifde</explicit>
+							
+							<filiation>
+								<p>Based on <ref type="ms" target="#AM02-0173-en" ana="protograph">AM 173 fol.</ref> or a related MS (cf. typescript catalog).
+								</p>
+							</filiation>						
+							
+						</msItem>
+						
+						<msItem n="3" class="fas">
+							<locus from="122r:5" to="126v:17"/>  							
+							<title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+							<textLang mainLang="non"/>
+							<rubric>Fra Grime lodin<ex>n</ex>kin<ex>n</ex>a</rubric>
+							<incipit>So er sagt af Grime syne Ketils ad han<ex>n</ex> var bæde mikill og sterkur</incipit>
+							<explicit>hans son var Orvar Oddur er Lopthæna fædde hónum</explicit>
+							<finalRubric>og likur hier so þessum þætte af Grime lodin<ex>n</ex>kin<ex>n</ex>a</finalRubric>
+							
+							<filiation>
+								<p>Based on 
+								<ref type="ms" target="#AM02-0173-en" ana="protograph">AM 173 fol.</ref> or a related MS (cf. typescript catalog).</p>
+							</filiation>
+							
+							<note>Given as a continuation of Ketils saga hængs, albeit with separate chapter enumeration.</note>
+							
+						</msItem>
+						
+						<msItem n="4" class="fas">
+							<locus from="126v:18" to="174v:19"/>  							
+							<title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+							<textLang mainLang="non"/>
+							<rubric>Hier biriar søguna af Orvar Odde syne Grims lodin<ex>n</ex>kin<ex>n</ex>a</rubric>
+							<incipit>Þad er upphaf þessarar sógu ad madur er nefndur Grimur lodin<ex>n</ex>kin<ex>n</ex>e</incipit>
+							<explicit>en<ex>n</ex> su mær sem Oddur ätti i Irlande för nordur til Hrafnistu, og er mikel ætt frä hen<ex>n</ex>e
+							komen<ex>n</ex></explicit>
+							<finalRubric>og lukum vier hier Orvar Odds sógu</finalRubric>
+							
+							<filiation>
+								<p>Based on 
+								<ref type="ms" target="#AM02-0173-en" ana="protograph">AM 173 fol.</ref> or a related MS (cf. typescript catalog).</p>
+							</filiation>						
+							
+							<note>Given as a continuation of Gríms saga loðinkinna with separate chapter enumeration. 
+								This saga, along with the two previous items, are heavily abbreviated. They may be copies of AM 173 fol.
+							or some related MS (cf. redaction E in Rafn's 1829 ed. and typescript catalog).</note>
+							
+						</msItem>
+						
+						<msItem n="5" class="isl">
+							<locus from="175r:1" to="215v:9"/>  							
+							<title type="uniform">Finnboga saga ramma</title>
+							<textLang mainLang="non"/>
+							<rubric>Sagann af Finnboga Ramma</rubric>
+							<incipit>Asbiorn hiet madur han<ex>n</ex> var kalladur Dettiäs</incipit>
+							<explicit>Brandur liet vid og so</explicit>
+							
+							<filiation>
+								<p>Based on 
+								<ref type="ms" target="#AM04-0510-en" ana="protograph">AM 510 4to</ref> or a related MS (cf. typescript catalog).</p>
+							</filiation>		
+							
+							<note>Defective? Seems to be missing part of the penultimate and the final chapter; possibly unfinished 
+								(most of fol. 215v and all of fol 216r-v left blank).</note>
+							
+						</msItem>
+						
+						<msItem n="6" class="forns">
+							<locus from="217r:1" to="276r:26"/>  							
+							<title type="uniform">Ambales saga</title>
+							<textLang mainLang="non"/>
+							<rubric>Hier skrifast Ambaletz Saga</rubric>
+							<incipit>Donrich hiet kongur er riede fyrer Spania</incipit>
+							<explicit>kongur Ambalet stirde loflega riki synu til daudadags og sydan<ex>n</ex> hans son Godfreir. Finis.</explicit>
+							
+							<filiation>
+								<p>Based on 
+								<ref type="ms" target="#AM04-0521c-en" ana="protograph">AM 521c 4to</ref> or a related MS (cf. typescript catalog).</p>
+							</filiation>						
+							
+						</msItem>
+						
+						<msItem n="7" class="konth">
+							<locus from="276v:1" to="280v:18"/>  							
+							<title type="uniform">Hálfdanar þáttur svarta</title>
+							<title type="uniform">Hálfdanar þáttr svarta</title>
+							<textLang mainLang="non"/>
+							<rubric>Hier hefur upp Þatt af Halfdana Svarta</rubric>
+							<incipit>Halfdan kongur tok kongdom XVIII vetra</incipit>
+							<explicit>en<ex>n</ex> þad var ban<ex>n</ex>ad af frændum hans</explicit>
+							<colophon>Skrifad þan<ex>n</ex> 7da. Decemb<ex>e</ex>r 1786.</colophon>
+							
+							<filiation>
+								<p>A copy of 
+								<ref type="ms" target="#GKS02-1005-en" ana="protograph">GKS 1005 fol. (Flateyjarbók)</ref>
+									or a related MS (cf. typescript catalog).</p>
+							</filiation>						
+							
+							
+						</msItem>
+						
+						<msItem n="8" class="isl">
+							<locus from="281r:1" to="296v:22"/>  							
+							<title type="uniform">Hrafnkels saga Freysgoða</title>
+							<textLang mainLang="non"/>
+							<rubric>Hier Biriast Saga af Hrafnkiele Goda</rubric>
+							<incipit>A dógum Haralld<ex>ar</ex> kongs hins hárfagra</incipit>
+							<explicit>og urdu mikler men<ex>n</ex> firer sier</explicit>
+							<finalRubric>og likur hier fra Hrafnkiele ad segia</finalRubric>
+							
+							<filiation>
+								<p>Text is similar to the one in 
+								<ref type="ms" target="#AM04-0443-en" ana="protograph">AM 443 4to.</ref></p>
+							</filiation>						
+							
+						</msItem>
+						
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="book-block" value="296"/>
+									
+									<!--<dimensions type="leaf">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions>-->
+									
+									<!--<watermark ana="no|yes"/>-->
+									
+								</support>
+								
+								<foliation ana="pag">Paginated in upper corners. Fol. 216r-v blank.</foliation>
+								
+								<condition ana="unknown"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-prose" columns="1" writtenLines="24">									
+									
+									<num type="wpl" atLeast="9" atMost="11"/>
+									
+									<!--<dimensions type="written">
+										<height unit="mm" quantity=""/>
+										<width unit="mm" quantity=""/>
+									</dimensions>-->
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#JohBer001" scope="sole" script="cursiva">Written ca. 1786 by Séra Jóhann Bergsveinsson í
+								Árness according to typescript catalog, but some leaves appear to be in another hand (e.g. fols. 117v and 118r).</handNote>
+						</handDesc>
+						
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						
+						<additions ana="low">
+							<p>Autograph of Johann Bergsveinsson on flyleaf. Autograph of a certain Gudmundur on fol. 296v. 
+								Detached front pastedown contains
+							manuscript waste (part of a letter) dated 26 July 1776 at Skálholt. Another letter in MS waste of rear pastedown
+							dated 20 October 1773 and signed <q>Makia [i.e. Maria?] Theod[...]</q>. Table of contents added later on verso
+							of front flyleaf. ToC also mentions vol. IV of Suhm's Historie af Danmark.</p>
+						</additions>
+						
+						<bindingDesc>
+							<binding ana="moderate" contemporary="true">
+								<p>Contemporary blind-tooled leather binding over wooden boards.</p>
+							</binding>							
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<p>Written <origDate when="1786">ca. 1786</origDate> (dated on fol. 280v).</p>
+							<origPlace key="IS"/>
+						</origin>
+						
+						<provenance>
+							<p>Purchased by the UB during the first half of the nineteenth century (cf. typescript catalog).</p>
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-07-19" who="#JSL">Added template elements. Cataloged from photographs.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

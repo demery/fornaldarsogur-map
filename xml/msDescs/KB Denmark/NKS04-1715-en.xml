@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1715 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1715-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1715 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 114 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/> <!-- check! -->
+                  <msItem n="1" class="fas handfr">
+                     <locus from="1r" to="8v"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/> 
+                     <filiation>
+                        <ref type="ms" target="#AM08-109a-I-en" ana="antigraph">copy of AM 109 a I 8vo</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="2" class="fas handfr">
+                     <locus from="9r" to="17r"/>
+                     <title type="uniform">Ketils saga hængs [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-109a-I-en" ana="antigraph">copy of AM 109 a I 8vo</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="3" class="fas handfr">
+                     <locus from="17v" to="40v"/>
+                     <title type="uniform">Örvar-Odds saga [Variants]</title>
+                     <textLang mainLang="non" otherLangs="da la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-109a-I-en" ana="antigraph">copy of AM 109 a I 8vo</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <!-- Kålund's catalog also mentiones Gríms saga loðinkinna (as does the ms) but can't be found! -->
+                  <msItem n="5" class="isl handfr">
+                     <locus from="41r" to="41v:4"/>
+                     <title type="uniform">Svarfdæla saga [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM02-0161-en" ana="antigraph">copy of AM 161 fol.</ref>
+                        <ref type="ms" target="#AM04-0483-en" ana="antigraph">copy of AM 483 4to</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="6" class="isl handfr">
+                     <locus from="41v:5" to="42r:12"/>
+                     <title type="uniform">Valla-Ljóts saga [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM02-0161-en" ana="antigraph">copy of AM 161 fol.</ref>
+                        <ref type="ms" target="#AM04-0496-en" ana="antigraph">copy of AM 496 4to</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="7" class="isl handfr">
+                     <locus from="42r:13" to="43v"/>
+                     <title type="uniform">Reykdæla saga [Variants]</title>
+                     <title type="parallel">Vémundar saga og Víga-Skútu</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM02-0161-en" ana="antigraph">copy of AM 161 fol.</ref>
+                        <ref type="ms" target="#AM04-0496-en" ana="antigraph">copy of AM 496 4to</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="8" class="fas handfr">
+                     <locus from="44r" to="45r:2"/>
+                     <title type="uniform">Hjálmþés saga ok Ölvers [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-109a-I-en" ana="antigraph">copy of AM 109 a I 8vo</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="9" class="fas handfr">
+                     <locus from="45r:3" to="46v:2"/>
+                     <title type="uniform">Hrólfs saga kraka [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-109a-I-en" ana="antigraph">copy of AM 109 a I 8vo</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="10" class="fas handfr">
+                     <locus from="46v:3" to="49r"/>
+                     <title type="uniform">Hálfdanar saga Eysteinssonar [Variants]</title>
+                     <note>A-vers.</note>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-109a-I-en" ana="antigraph">copy of AM 109 a I 8vo</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="11" class="fas handfr">
+                     <locus from="49v" to="52r"/>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-109a-I-en" ana="antigraph">copy of AM 109 a I 8vo</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+                  <msItem n="12" class="fas handfr">
+                     <locus from="53r" to="55v"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga frækna [Variants]</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-109a-I-en" ana="antigraph">copy of AM 109 a I 8vo</ref>
+                     </filiation>
+                     <note>variant readings only</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="front-flyleaf" value="1"/>
+                        <num type="book-block" value="56"/>
+                        <num type="back-flyleaf" value="1"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="200"/> 
+                           <width unit="mm" quantity="158"/>
+                        </dimensions>
+                        <watermark ana="yes">Beehive "JHonig <ex>et</ex> Zoonen"</watermark>
+                     </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="19">
+                           <num type="wpl" atLeast="2" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="170"/>
+                                 <width unit="mm" atLeast="100" atMost="130"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoMag014" scope="sole" script="hum cursiva">Hum cursiva for main text, chancery for rubrics and kurrent for notes.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>
+                     <name key="PetSuh001" type="person" role="owner">Suhm</name> made a note on the verso side of the front
+                     flyleaf and a few notes in the margins, e.g. fol. <locus>15r</locus>.
+                  Two stamps of the Danish Royal Library</p></additions> 
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown paper with brown leather on spine and corners; fore-edge painted blue; golden imprint on the spine: <q>VARIA AD EIGIL EINH SAGA</q>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 114 4to.</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   <revisionDesc>
+      <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+      <change when="2011-05-06T17:54:39.2+02:00" who="#EAH">
+         Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+      <change when="2013-05-02" who="#BES">Added catalog info.</change>
+      <change when="2013-05-23" who="#BES">Added missing information with the manuscript in situ.</change>
+   </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

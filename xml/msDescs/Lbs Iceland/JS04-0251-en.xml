@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 251 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0251-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 251 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="almb">
+                     <locus from="1r" facs="#JS04-0251-0001r" to="65v"/>
+                     <title type="uniform">Pontanus saga og Diocletianus</title>
+                     <title type="parallel">Sjö meistara saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér skrifast historía af þeim sjö vísu meisturum og Pontiano keisara,
+                        einninn hans syni Diocletiano <gap/></rubric>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="65v" facs="#JS04-0251-0065v" to="75r"/>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hrafni og Gunnlaugi ormstungu</rubric>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="75v" facs="#JS04-0251-0075v" to="89v"/>
+                     <title type="uniform">Gunnars saga Keldugnúpsfífls</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Gunnari Keldugnúpsfífli</rubric>
+                  </msItem>
+                  <msItem n="4" class="ferds">
+                     <locus from="90r" facs="#JS04-0251-0090r" to="104r"/>
+                     <title type="uniform">Reisubók séra Ólafs Egilssonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Reisuregistur síra Ólafs Egger[t]ssonar. Þess hertekna fanga úr
+                        Vestmannaeyjum. Á því ári 1618, þann 16. júlí er hann segist fluttur hafa
+                        verið útí Afrika.</rubric>
+                     <author key="OlaEgi001">Ólafur Egilsson</author>
+                  </msItem>
+                  <msItem n="5" class="kvad">
+                     <locus from="104v" facs="#JS04-0251-0104v" to="104v"/>
+                     <title type="supplied">Kvæði</title>
+                     <incipit>Ykkur sem fyrir löngu var veitt</incipit>
+                     <textLang mainLang="is"/>
+                     <colophon>J.Þs.</colophon>
+                     <note>Without a title.</note>
+                  </msItem>
+                  <msItem n="6" class="avint">
+                     <locus from="105r" facs="#JS04-0251-0105r" to="110v"/>
+                     <title type="supplied">Ævintýri af fjórum kaupmönnum</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eitt ævintýr eður frásaga af fjórum kaupmönnum</rubric>
+                  </msItem>
+                  <msItem n="7" class="avint">
+                     <locus from="111r" facs="#JS04-0251-0111r" to="116v"/>
+                     <title type="supplied">Ævintýri af tveimum húsfreyjum</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eitt skemmtið ævintýr af tveimur húsfreyjum</rubric>
+                  </msItem>
+                  <msItem n="8" class="avintkv">
+                     <locus from="117r" facs="#JS04-0251-0117r" to="119r"/>
+                     <title type="supplied">Ævintýri</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þriðja ævintýrskvæði</rubric>
+                     <incipit>Firðum bæði og falda ungri gefni</incipit>
+                  </msItem>
+                  <msItem n="9" class="avintkv">
+                     <locus from="119r" facs="#JS04-0251-0119r" to="120v"/>
+                     <title type="supplied">Ævintýri</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fjórða ævintýrskvæði</rubric>
+                     <incipit>Sagnameistara sérleg mennt</incipit>
+                  </msItem>
+                  <msItem n="10" class="avint">
+                     <locus from="121r" facs="#JS04-0251-0121r" to="122v"/>
+                     <author key="ArnTho003">Árni Þorvarðsson</author>
+                     <title type="supplied">Múks ævintýr</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Í Róm bjó ríkur greifi</incipit>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="122v" facs="#JS04-0251-0122v" to="126v"/>
+                     <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                     <rubric>Ævintýr af Eiríki víðförla</rubric>
+                     <msItem n="11.1" class="kvad">
+                        <locus from="126v" facs="#JS04-0251-0126v" to="126v"/>
+                        <title type="supplied">Vísa</title>
+                        <incipit>Víða Eiríkur framdi för / fræddi hann kongur spakur /
+                           finna vildi fleina bör / fagran ódáins akur. </incipit>
+                     </msItem>
+                  </msItem>
+                  <msItem n="12" class="hels">
+                     <locus from="127r" facs="#JS04-0251-0127r" to="146r"/>
+                     <title type="uniform">Maríu saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér skrifast Maríu saga sem og einnin um barndóminn herrans Christi <gap/></rubric>
+                  </msItem>
+                  <msItem n="13" class="rimur" defective="true">
+                     <locus from="146v" facs="#JS04-0251-0146v" to="146v"/>
+                     <author key="PalBja001">Páll Bjarnason</author>
+                     <title type="uniform">Eylandsrímur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast nýja Englan[d]s rímur</rubric>
+                     <note>Only beginning of the first ríma.</note>
+                  </msItem>
+                  <msItem n="14" class="stjors natfr">
+                     <locus from="147r" facs="#JS04-0251-0147r" to="168r"/>
+                     <title type="supplied">Stjörnuspeki og náttúrufræði</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Heimskringlunnar hegðunarblómstur</rubric>
+                  </msItem>
+                  <msItem n="15" class="landfr">
+                     <locus from="168v" facs="#JS04-0251-0168v" to="178r"/>
+                     <title type="supplied">Landafræði</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Heimskringlunnar landablómstur</rubric>
+                  </msItem>
+                  <msItem n="16" class="landfr stjors alf">
+                     <locus from="178r" facs="#JS04-0251-0178r" to="178v"/>
+                     <title type="supplied">Landafræði, stjörnufræði og alfræði</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Undir hvörju himins teikni hvört kóngsríki eða land er
+                        liggjandi</rubric>
+                  </msItem>
+                  <msItem n="17" class="alf">
+                     <locus from="179r" facs="#JS04-0251-0179r" to="179r"/>
+                     <title type="supplied">Alfræði</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hvörnin vídd landa og sjávar mælist</rubric>
+                  </msItem>
+                  <msItem n="18" class="alf">
+                     <locus from="179r" facs="#JS04-0251-0179r" to="179v"/>
+                     <title type="supplied">Alfræði</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Pólíhæð þeirra nafnkunnustu staða og hafna við sjóinn</rubric>
+                  </msItem>
+                  <msItem n="19" class="annal" defective="true">
+                     <locus from="179v" facs="#JS04-0251-0179v" to="186v"/>
+                     <title type="supplied">Annálar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Á sex dögum skapaði Guð himin og jörð og allar skepnur en hvíldist á
+                        þeim sjöunda degi </rubric>
+                     <note>Ending missing.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="186"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="193"/>
+                              <width unit="mm" quantity="149"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag">
+                           <p>An old pagination 1-128 (1r-64v).</p>
+                        </foliation>
+                        <condition ana="average">
+                           <p>Lacking at the end of the manuscript. Old restoration hides catchwords in some places.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="24 36">
+                           <num type="wpl" atLeast="6" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="172"/>
+                              <width unit="mm" quantity="133"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="9">
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="vignette" subtype="tailpiece">tailpiece: <locus from="126v" facs="#JS04-0251-0126v" to="126v">126v</locus>.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p><locus from="0001r-Fblv" to="0001r-Fbl">Front pastedown</locus>
+                        contains some pen-trials and annotations: <q>Stjerne September 24 Aar
+                           1869. I.K(`)</q></p>
+                     <p><locus from="0001r-FFl" facs="#JS04-0251-0001r-FFl" to="0001r-FFl">Ffl1r</locus>: <q>Bók
+                        þessi segir so velyrt og digðelskandi heiðurskvinna á mig með réttu
+                        Ragnheiður finnsdóttir á Hvilft. Ég bið því alla bókavini að fara vel með
+                        mig og endurbæta mig, þegar þess viðþarf, því ég á það vel skilið fyrir góða
+                        og meinlausa skemmtan mína. En þeim sem illa fara með mig, þeim lofa ég
+                        aungvum að lesa mig. Nú er ég ný innbundin og endurbætt af andrési
+                        Hákonarsyni deg 20 desember árið 1855.</q></p>
+                     <p>
+                        <locus from="F-fl1v" to="F-fl1v">FFl1v</locus>: <q>Nú sendi ég yður bókina, með
+                           hjartkæru þakklæti fyrir lánið á henni, og ég bið uður að forláta þó hún
+                           hafi lengi hjá mér verið og viðgjörðina bið ég yður að virða mér á hægra
+                           veg, og ef við lifum bæði , þá bið ég yður að ljá mér hana í annað sinn,
+                           til að kynna mér hana betur. VErið so guði befalaðar um tíma og eilífð
+                           með sálu og lífi, þess óskar yðar einlægur JSson. </q>
+                        <q>þessa bók hefur Andrés á Hóli innbundið fyrir <gap/></q>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="false">
+                        <p>Embossed leather binding on wooden boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="RagFin001">Ragnheiður
+                           Finnsdóttir</name> á Hvylft owned the manuscript in 1855 and it was bound by
+                           <name type="person" role="bookbinder" key="AndHak001">Andrés
+                           Hákonarson</name> á Hóli (front flyleaf <locus from="0001r-FFl" facs="#JS04-0251-0001r-FFl" to="0001r-FFl">1r</locus>). <name type="person" role="signatory" key="RagMag001">Ragnheiður
+                                 Magnúsdóttir</name> signed it in 1869 (back
+                        flyleaf <locus from="9901v-RFl" facs="#JS04-0251-9901v-RFl" to="9901v-RFl">verso</locus>). </p>
+                     <p><name type="person" role="owner" key="JonSig004">Jón Sigurðsson</name> got the manuscript from <name type="person" role="owner" key="MagOzu001">Magnús Özurarson</name> on the
+                           <date when="1870-01-25">25 January 1870</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:17.354+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:23.701+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:42.897+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2011-05-07T19:18:18.271+02:00" who="#EAH">Extracted layout data from previous
+            version.</change>
+         <change when="2012-07-31" who="#SMM">Added and completed msItems with information gathered
+            from and pictures viewed on handrit.is. Completed FASNL encoding.</change>
+         <change when="2012-11" who="#SK">Adapted to FASNL and added information on layoutDesc and
+            bindingDesc. As well some other information lacking, from the manuscript itself --&gt;
+         </change>
+         <change when="2013-08-28" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

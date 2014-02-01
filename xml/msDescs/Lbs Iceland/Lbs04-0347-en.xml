@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 347 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0347-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 347 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="5r"/>
+                     <title ref="#ff" type="uniform">Frá Fornjóti og ættmönnum hans</title>
+                     <note>Only the text from Frá Fornjóti og hans ættmönnum, defective at the
+                        end</note>
+                     <explicit>. . . Þá Haraldur enn hárfagri er fyrstur var konungur yfir öllum
+                        Noregi so að sögur finnist til. </explicit>
+                     <note>among others Hversu Noregur byggðist</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.2" class="sagnfr">
+                     <locus from="5r" to="5r"/>
+                     <title type="uniform">Rómverjasaga</title>
+                     <rubric>Frá Júlíó og Rómverjahöfðingjum</rubric>
+                     <note>Only a short part</note>
+                     <incipit>Þá er liðið var frá upphafi veralldar fimm þúsundir hundrað fimm tugir
+                        og 4 ár (5154) . . .</incipit>
+                     <explicit>... frá því er Rómaborg var smíðuð af Rómúló, sjö hundruð og fimm
+                        ár.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="annal">
+                     <locus from="5v" to="104"/>
+                     <title type="uniform">Vatnsfjarðaranáll</title>
+                     <note>From the birth of Christ until 1653</note>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="annal">
+                     <locus from="105r" to="110r"/>
+                     <title type="supplied">Annáll frá 1400-1586</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="edd skaldskfr">
+                     <locus from="110v" to="112v"/>
+                     <title type="uniform">Skálda</title>
+                     <note>Annar partur Eddu um kenningar, Skálda kallaður</note>
+                     <textLang mainLang="non"/>
+                     <msItem n="5" class="alfs tjos">
+                        <locus from="113r" to="115v"/>
+                        <title type="supplied">Um álfa</title>
+                        <note>Um álfafólk og fleira, skrifað 1680-1700</note>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="6" class="annal">
+                        <locus from="115v" to="124r"/>
+                        <title type="supplied">Annálar eftir pláguna miklu</title>
+                        <note>Nokkrir annálar sem við hafa borið síðan Miklu plágu</note>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="124"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="later fol">Only by tens at cataloguing</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="23 26">
+                           <num type="wpl" atLeast="10" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="155" atMost="180"/>
+                              <width unit="mm" atLeast="105" atMost="135"/>
+                           </dimensions>
+                           <note>The size of the paper of item 1, Hversu Noregur byggðist, is
+                              slightly smaller than those of the rest of the manuscript </note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="#MagJon006" scope="major" script="cursiva">Magnús Jónsson
+                        prúði</handNote>
+                     <handNote scribeRef="#AriMag001" scope="minor" script="cursiva">Ari Magnússon
+                        sýslumaður í Ögri</handNote>
+                     <handNote scribeRef="#JonAra002" scope="minor" script="kurrent">séra Jón
+                        Arason</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hybrida">Unknown</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1550" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:43.19+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05" who="#SK">Added information from the P.E.Ó-catalogue.</change>
+         <change when="2011-11" who="#SK">Finished the cataloguing with information from the
+            manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

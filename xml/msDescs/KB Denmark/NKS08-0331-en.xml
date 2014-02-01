@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 331 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS08-0331-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 331 8vo</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 111 8vo</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="rimur laus">
+                     <locus from="1r" to="14r"/>
+                     <title type="supplied">Olafs rímur Tryggvarsonar</title>
+                     <textLang mainLang="is"/> 
+                     <note>8 rímur and a verse (skrifaravísa)</note>
+                  </msItem>
+                  <msItem n="2" class="annal">
+                     <locus from="14r" to="16r"/>
+                     <title type="supplied">Annals of the 17th c.</title> 
+                     <textLang mainLang="is"/>
+                     <note>Written around the verses on fols. <locus>14r</locus> and <locus>16r</locus></note>
+                  </msItem>
+                     <msItem n="3" class="kvad laus">
+                        <locus from="16r:2" to="16r:9"/>
+                        <title type="supplied">Praise for Óláfur Tryggvasonar</title>
+                        <author key="#ThoJon041">Þórður Jónsson</author>
+                     </msItem>
+                     <msItem n="4" class="mannt?">
+                        <locus from="16v:1" to="16v:8"/>
+                        <title type="supplied">List of villages in Selárdals kirkjuókn</title> 
+                        <textLang mainLang="is"/>
+                     </msItem>
+                     <msItem n="5" class="mannt?">
+                        <locus from="16v:9" to="16v:17"/>
+                        <title type="supplied">List of Collegia in Copenhagen</title> 
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  <msItem n="6" class="rimur">
+                     <locus from="17r" to="22v"/>
+                     <title type="supplied">Grymalls rímur</title>
+                     <author>Jón A.s<ex>on</ex> Anno 1649</author>
+                     <textLang mainLang="is"/>
+                     <msItem n="6.1" class="laus">
+                        <locus from="22r:19" to="22v"/>
+                        <title type="supplied">Moralizing verses</title>
+                        <note>1670</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="7" class="almb">
+                     <locus from="23r" to="49v"/>
+                     <title type="uniform">Salomons saga og Markólfs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="avint" defective="true">
+                     <locus from="50r" to="63r"/>
+                     <title type="supplied">Ævintýri af einum brögdottum milnumanni</title>
+                     <textLang mainLang="is"/>
+                     <note>Lacuna after fol. <locus>60</locus>.</note>
+                  </msItem>
+                  <msItem n="9" class="avint">
+                     <locus from="63v" to="64v"/>
+                     <title type="supplied">Ævintýri</title>
+                     <rubric>þridia Æfen<ex>n</ex>tyr eptertakanlegt</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="10" class="isl" defective="true">
+                     <locus from="65r" to="86r"/>
+                     <title type="uniform">Kjalnesinga saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Lacuna after fol. <locus>80</locus>.</note>
+                  </msItem>
+                  <msItem n="11" class="islt">
+                     <locus from="86v" to="92r"/>
+                     <title type="uniform">Jökuls þáttur Búasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="isl">
+                     <locus from="92v" to="106r"/>
+                     <title type="uniform">Gunnars saga Keldugnúpsfífls</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="isl" defective="true">
+                     <locus from="106v" to="123r"/>
+                     <title type="uniform">Króka-Refs saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Lacuna after fols. <locus>109</locus> and <locus>118</locus>.</note>                   
+                  </msItem>
+                  <msItem n="14" class="isl">
+                     <locus from="123r" to="142v"/>
+                     <title type="uniform">Víglundar saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="ridd">
+                     <locus from="143r" to="161r"/>
+                     <title type="uniform">Nikulás saga leikara</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="ridd">
+                     <locus from="161v" to="185r"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="17" class="tjodfr?">
+                     <locus from="186r" to="186v"/>
+                     <title type="supplied">About the learned men of King Philip of Makedonia</title>
+                     <rubric>Apologia una</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="18" class="jardfr" defective="true">
+                     <locus from="187v" to="188r"/> 
+                     <title type="supplied">On the age of the earth</title>
+                     <rubric>Scholæ Heliæ</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="19" class="kvad">
+                     <locus from="188v" to="188v"/>
+                     <title type="supplied">Aldarháttur</title>
+                     <textLang mainLang="is"/>
+                     <author key="#HalPet001">Hallgrímur Pétursson</author>
+                     <note>1 verse</note>
+                  </msItem>
+                  <msItem n="20" class="kvad">
+                     <locus from="189r" to="198r"/>
+                     <title type="supplied">Fornkvæði</title>
+                     <rubric>Nochur Fornkvæde til gamans uppskriffud</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="21" class="fas">
+                     <locus from="199r" to="203v"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks [Excerpt]</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hervarar þáttur hin<ex>n</ex> ganle, fin<ex>n</ex>st So skrifadur sem epterfilger.</rubric>
+                     <incipit>So fin<ex>n</ex>st skrifad j fornu<ex>m</ex> bóku<ex>m</ex></incipit>
+                     <explicit>Jólaafftan ad m<ex>enn</ex> skilldu streingia heit ad Brag<ex>ar</ex>fulle 
+                        sem sidur e<ex>r</ex> til Þä streingdu heit Arngrimssiner.</explicit>
+                     <note>Beginning only</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="203"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="160"/> 
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="17 33">
+                           <num type="wpl" atLeast="4" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="120" atMost="160"/>
+                              <width unit="mm" atLeast="75" atMost="90"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Red and green rubrics in the beginning of the manuscript; ornamented rubrics in other parts</decoNote>
+                  <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="high"><p>Autograph on the inside front cover: <q>Ex libris Wigfusi Gudbrnafi A<ex>nno</ex>
+                     1692</q>. Another autograph on manuscript waste within the binding: <q>Ein<ex>ar</ex> Þorsteinsson 1657</q>.
+                     Marginalia and notes.
+                  In the very back, there is a slip stuffed in with information on the parchment waste leaf and its text:
+                  <q>Bindet stammer fra et vulgata-hs. - Recto-siden vender ud, verso-siden begynder midt i Ephes 4,25.
+                  Tekstens anbringelde og afgrænsning viser, at bladet ikke kan stamme fra et missale (evangelier, epistolar el. lign). B-N.</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The binding is a parchment leaf with Latin text and initials in red and blue. According to the slip in the back, 
+                           it was formerly part of a Vulgate Bible. 
+                           Manuscript waste in the binding contains a letter to a certain Margrét Jónsdóttir. <!-- from Stóra-Hvalsá or Stafafell? -->
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 111 8vo</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:46.608+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-07" who="#BES">Added catalog info.</change>
+         <change when="2013-06-03" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

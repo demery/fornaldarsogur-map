@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Add. 2 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Add08-0002-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>KBAdd 2 8vo</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Add. 2 8vo</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="115v"/>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <incipit>med sijnu føru neite</incipit>
+                     <explicit>med vapnum veigin verid.</explicit>
+                     <finalRubric>og endar so sagan<ex>n</ex> af Hrölfi Sturlaugssine</finalRubric>
+                     <colophon>Endud ad melstad þan<ex>n</ex> 17 Feb<ex>ruari</ex> 1718 skrifud af Einare Nichulas sine bæde sunf og illa<gap/> og er 
+                     lesarin<ex>n</ex> <gap/>samleg umbedin<ex>n</ex> ad lag færa þad ifer hefur first sem margt og mikid er</colophon>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="116r" to="155r"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> af Halfdäne Eÿsteinssÿne</rubric>
+                     <rubric>I. Capit<ex>uli</ex></rubric>
+                     <incipit>Ä fÿrreman<ex>n</ex>a aulldum<ex>m</ex> riedi sá kongur f<ex>yrir</ex> Noreige</incipit>
+                     <explicit>var fader Ingegierdar, er ätti gaungu Hrölfur, sem seigir i sögu hans</explicit>
+                     <finalRubric>og lyktar hier so saga þessa af Hälfdäne Eysteinss<ex>in</ex>e</finalRubric>
+                     <colophon>Skrifud ad Mestad af ENS til Merkis mitt Nafn ad Mestad vid mid firod An<ex>n</ex>o 1720
+                     Einnar Nicholásson</colophon>
+                  </msItem>
+                  <msItem n="3" class="laus">
+                     <locus from="157v" to="157v"/>
+                     <title type="supplied">Verse</title>
+                     <textLang mainLang="is"/>
+                     <incipit>Höndin stirnar hrorear syn</incipit>
+                     <explicit>Höndin stirnar Rædan<ex>n</ex> Rynglast, Raad ej hefur</explicit>
+                     <note>1 verse</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="157"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="140"/>
+                              <width unit="mm" quantity="90"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="pag later"/> 
+                        <condition ana="average">The manuscript has been restored.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="17 22"> 
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="120"/>
+                              <width unit="mm" quantity="75"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc n="1">
+                     <handNote scribeRef="#EinNik001" scope="sole" script="chancery">Einar Nikulásson. Colophons in kurrent and hum cursiva, otherwise chancery</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium"><p>Some marginalia,
+                     e.g. on fol. <locus>155r</locus>, where a hand from ca. 1800 wrote: 
+                     <q>Denne Bog kan ikke sælges under 6 rixdaler</q>.
+                  On fol. <locus>156v</locus> a different hand wrote <q>þetta Er NBott blek o fyrer(?) framan<ex>n</ex></q>.</p>
+                  <p>Fol. <locus>103</locus> is a small slip added to the manuscript. Recto side reads: <q>med þvj ad hier hefur
+                     so fram<ex>m</ex> ynred(?) ad sem firr seigs</q>, and on the verso side:
+                  <q>hier skrifasr Rÿmur af góngu hrolfë og</q>.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The manuscript has been rebound. The current binding is a modern standard half binding.
+                           The previous binding (marbeled paper with fabric corners and spine) is housed with the manuscript.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1718" notAfter="1720"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:52:51.99+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-29" who="#BES">Added catalog info after deleting Eric's file.</change>
+         <change when="2013-07-15" who="#BES">Added missing info from photograhs.</change>
+         <change when="2013-08-26" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

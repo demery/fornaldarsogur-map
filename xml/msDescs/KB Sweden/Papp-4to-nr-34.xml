@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 34</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-34" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 34</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="back-flyleaf" value="3"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions ana="medium">
+                     <p>Two parchment leaves in Latin are added to the back of the manuscript. The second one, folio-sized, used
+                        to be the binding and has stickers with the shelf mark on it. The text it contains was identified by as
+                        biblical: Daniel 13, verses 15-54 but without verses 18.31-32.50b (identified by Astrid Marner). The first
+                        is a smaller fragment which can be identified as missals: Commune sanctorum de una virgine martyre and
+                        Proprium Sanctorum for St. Clement (Nov 23th) and Catherine (Nov 25th) (identified by Astrid Marner).</p>
+                     <p>A little slip with text from <q>Annales gronlandici</q> is glued onto fol. <locus>49r</locus>. On the inside
+                     of the front cover, a later hand wrote: <q>Blad 36 överlämnades 30/6 1958 av Riksarkivet ach infogades på sin
+                        plats.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Marbeled paper on cardboard. The spine and the corners are in white leather, on the spine, the
+                           shelfmark is imprinted with golden letters. A former cover is preserved and now bound in at the end the
+                           manuscript.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1700"/>
+                     <origPlace key=""/>
+                     <note>Originating from different countries, among them Denmark and Germany.</note>
+                  </origin>
+                  <provenance>
+                     <name key="JonJon030" type="person" role="owner"/>
+                     <name key="OloVer001" type="person" role="owner"/>
+                     <name key="OloRud001" type="person" role="owner"/>
+                     <name key="OloRud002" type="person" role="owner"/>
+                     <name key="AntKol001" type="organisation" role="owner"/>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Papp 4to nr. 34 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="regis">
+                        <locus from="1r:1" to="1r:18"/>
+                        <title type="supplied">Table of Contents</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="attat">
+                        <locus from="1v" to="2r"/>
+                        <title type="supplied">Genealogical table of Árni Gíslason á Hlíðarenda and biskup Jón Arason</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="ridd lais?">
+                        <locus from="3r" to="7v"/>
+                        <title type="supplied">Strengleikar <note>[Excerpts]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Ur Bretta Streing-Leikum</rubric>
+                     </msItem>
+                     <msItem n="4" class="fas">
+                        <locus from="8r" to="15v:4"/>
+                        <title type="uniform" ref="#hs">Hervarar saga og Heiðreks <note>[Riddles]</note></title>
+                        <title type="parallel">Heiðreks gátur</title>
+                        <textLang mainLang="non" otherLangs="la"/>
+                        <colophon>Scripsit Hafniæ A<ex>nno</ex> 1665 in 8b: J. Rugman m. ppria</colophon>
+                     </msItem>
+                     <msItem n="5" class="alf?">
+                        <locus from="16r:1" to="16r:11"/>
+                        <title type="supplied">On Norwegian kings</title>
+                        <textLang mainLang="la"/>
+                        <rubric/>
+                        <incipit>Haqnus Haqni filius Norvagorum A<ex>nno</ex> 1253</incipit>
+                        <explicit>A<ex>nno</ex> 1273 Contnuata <ex>et</ex> non nihil immutata est.</explicit>
+                     </msItem>
+                     <msItem n="6" class="log?" defective="true">
+                        <locus from="16v" to="20v"/>
+                        <title type="supplied">Laws <note>[excerpts]</note></title>
+                        <!-- is this actually in Old Danish? -->
+                        <textLang mainLang="non" otherLangs="sv"/>
+                        <rubric>K<ex>on</ex>g Friderichz 2 hand festing utg<ex>e</ex>fin år epter gudz burd 1559. þa han
+                              w<ex>ar</ex> krijnt</rubric>
+                        <incipit>Wier Fridrich sa Annar med g<ex>uds</ex> n<ex>ad</ex></incipit>
+                        <explicit>þetta er or Wigfloda: Nu liggr kona a <gap reason="illegible"/></explicit>
+                        <filiation>
+                           <p>Cf. 
+                           <ref type="ms" target="#Papp-4to-nr-34">Papp 4to nr. 34 V item 2</ref>.</p>
+                        </filiation>
+                     </msItem>
+                     <msItem n="7" class="sendbr">
+                        <locus from="21r" to="22r"/>
+                        <title type="supplied">Letter</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Skipta brief barna Loptz ryka.</rubric>
+                        <incipit>Ollum m<ex>onnum</ex> s<ex>em</ex> þ<ex>e</ex>tta b<ex>rie</ex>f sia ed<ex>ur</ex>
+                           heyra</incipit>
+                        <explicit>hvad hun er dyr eller freth(?).</explicit>
+                     </msItem>
+                     <msItem n="8" class="log">
+                        <locus from="25r" to="25v"/>
+                        <title type="supplied">On inheritance</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Huorier arfgeinger ero</rubric>
+                        <incipit>Sa mad<ex>ur</ex> er eigi arfg<ex>ein</ex>ge</incipit>
+                        <explicit>og verd<ex>ur</ex> honum þui kuæri(?) fiorz baugs i gard.</explicit>
+                     </msItem>
+                     <msItem n="9" class="starfr?">
+                        <locus from="26r" to="26r"/>
+                        <title type="supplied">Conversion tables</title>
+                        <textLang mainLang="is"/>
+                        <note>Aura tal, Marka tal, Álna tal.</note>
+                     </msItem>
+                     <msItem n="10" class="log?">
+                        <locus from="26v" to="27bisr"/>
+                        <title type="supplied">Laws <note>[excerpts]</note></title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="28"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">Different watermarks: Gate with two round towers, one on each side. foolscap,
+                                 royal emblem.</watermark>
+                           </support>
+                           <foliation ana="fol contemporary later">
+                              <p/>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="26 28">
+                              <num type="wpl" atLeast="7" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="125"/>
+                              </dimensions>
+                              <catchwords ana="yes">Catchwords present, but not on every page.</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonJon030" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="other">rubrics</decoNote>
+                        <decoNote type="paratext"/>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>fol. <locus>27bis</locus> is added at the end of this part.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+
+
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Papp 4to nr. 34 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="log">
+                        <locus from="28r" to="41v"/>
+                        <title type="supplied">Lögþingsbók 1663</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="14"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">possibly a crown</watermark>
+                           </support>
+                           <foliation ana="fol contemporary later">
+                              <p/>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1 2" writtenLines="28 30">
+                              <num type="wpl" atLeast="10" atMost="12"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#PalGis001" scope="sole" script="chancery"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"> </additions>
+                  </physDesc>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Papp 4to nr. 34 III</idno>
+                  </altIdentifier>
+
+                  <msContents>
+                     <msItem n="1" class="log">
+                        <locus from="42r" to="43v"/>
+                        <title type="supplied">On the construction of buildings</title>
+                        <textLang mainLang="sv"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="3"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="205"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">Foolscap</watermark>
+                           </support>
+                           <foliation ana="later contemporary fol">
+                              <p/>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="18 19">
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="90"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="chancery"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="other">initials</decoNote>
+                     </decoDesc>
+                     <additions ana="no"> </additions>
+                  </physDesc>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Papp 4to nr. 34 IV</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="log">
+                        <locus from="45r" to="45r"/>
+                        <title type="supplied">Laws <note>[excerpts]</note></title>
+                        <textLang mainLang="la"/>
+                     </msItem>
+                     <msItem n="2" class="log?">
+                        <locus from="46r" to="49r"/>
+                        <title type="supplied">On property taxes</title>
+                        <textLang mainLang="sv"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="11"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">different watermarks: A fool with a pointed collar, the middle point extended
+                                 and adorned with three spheres; a different fool with a larger collar and spheres, all points
+                                 equal length. Below the image, the letter "L" can be seen.</watermark>
+                           </support>
+                           <foliation ana="later contemporary fol">
+                              <p/>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="19 22">
+                              <num type="wpl" atLeast="6" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                              <catchwords ana="yes">Only on fol. <locus>46v</locus>.</catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonJon030" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p> A little slip with text from <q>Annales gronlandici</q> is glued onto fol. <locus>49r</locus>.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Papp 4to nr. 34 V</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="hms?">
+                        <locus from="56r" to="57r"/>
+                        <rubric>De Abbate Standenso nvper Helmstadii Ædito.</rubric>
+                        <rubric>1593</rubric>
+                        <author>Henrik Rantzau</author>
+                        <colophon>Marcus Wagner Erimariensis Antiquitatus Inquisitor Ultra 43 Annos in Eutopa.</colophon>
+                        <textLang mainLang="la"/>
+                     </msItem>
+                     <msItem n="2" class="log?" defective="true">
+                        <locus from="58r:1" to="58v:11"/>
+                        <rubric>Konungs fredricks þess Annars Handfestijng: ... 1559..</rubric>
+                        <textLang mainLang="is"/>
+                        <filiation>
+                           <ref type="ms" target="#Papp-4to-nr-34">Cf. Papp 4to nr. 34 I item 6</ref>
+                        </filiation>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="8"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="215"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <watermark ana="yes">Two towers, possibly with a gate in the middle.</watermark>
+                           </support>
+                           <foliation ana="contemporary pag">
+                              <p><q>(233)</q> in the bottom margin of fol. <locus>58r</locus></p>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="13 29">
+                              <num type="wpl" atLeast="5" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="165"/>
+                                 <width unit="mm" quantity="115"/>
+                              </dimensions>
+                              <catchwords ana="yes">only on fol. <locus>58r</locus></catchwords>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <handNote scribeRef="#MarWag001" scope="major" script="hybrida">
+                           <p>The German, Marcus Wagner, wrote fols. <locus from="56r" to="57r">56r-57r</locus>.</p>
+                        </handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="early kurrent">The main script type is early kurrent,
+                           rubrics are written in chancery. <locus from="58r" to="58v">58r-58v</locus></handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                        <decoNote type="other">rubrics</decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>On fol. <locus>58v</locus>.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:54.467+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-04" who="#BES">Measured and evalutated with the manuscript in situ.</change>
+         <change when="2013-04-05" who="#BES">Splitted the document up into different parts and added missing
+            information.</change>
+         <change when="2013-04-11" who="#BES">Added identification of Latin fragments.</change>
+         <!-- most items and classes uncertain. Review necessary -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

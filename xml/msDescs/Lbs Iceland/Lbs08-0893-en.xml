@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 893 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-0893-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 893 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>       
+                  <msItem n="1" class="islt">
+                     <locus from="1r" facs="#Lbs08-0893-0001r" to="6v"/>
+                     <title type="uniform">Þorsteins þáttur stangarhöggs</title>
+                     <rubric>Söguþáttur af Þorsteini stangarhögg</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="7r" facs="#Lbs08-0893-0007r" to="14v"/>
+                     <title type="uniform">Þorsteins saga hvíta</title>
+                     <rubric>Söguþáttur af Þorsteini hvíta</rubric>
+                     <textLang mainLang="non"/>
+                     <note>Incomplete.</note>
+                  </msItem>
+                  <msItem n="3" class="islt">
+                     <locus from="15r" facs="#Lbs08-0893-0015r" to="17r"/>
+                     <title type="uniform">Þorsteins þáttur Austfirðings</title>
+                     <rubric>Þáttur af Þorsteini suðurfara</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="islt">
+                     <locus from="17r" facs="#Lbs08-0893-0017r" to="17v"/>
+                     <title type="uniform">Þorsteins þáttur forvitna</title>
+                     <rubric>Söguþáttur af Þorsteini forvitna</rubric>
+                     <textLang mainLang="non"/>
+                     <note>Ending missing.</note>
+                  </msItem>
+                  <msItem n="5" class="islt">
+                     <locus from="18r" facs="#Lbs08-0893-0018r" to="18r"/>
+                     <title type="uniform">Draumur Þorsteins Síðu-Hallssonar</title>
+                     <rubric>Þorsteini en hann spratt upp og brá sverði og féll [þe]gar aftur á bak dauður …</rubric>
+                     <textLang mainLang="non"/>
+                     <note>Without a title, fragment.</note>
+                  </msItem>
+                  <msItem n="6" class="islt">
+                     <locus from="18v" facs="#Lbs08-0893-0018v" to="19r"/>
+                     <title type="uniform">Kumlbúa þáttur</title>
+                     <rubric>Draumur Þorsteins Þorvarðssonar</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="islt">
+                     <locus from="19v" facs="#Lbs08-0893-0019v" to="20v"/>
+                     <title type="uniform">Þorsteins þáttur sögufróða</title>
+                     <rubric>Þáttur af Þorsteini fróða Austfirðing</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas" defective="true">
+                     <locus from="21r" facs="#Lbs08-0893-0021r" to="22v"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                     <note>Without a title, incompelte</note>
+                     <note>Put in the wrong order, correct order: 22v, 23v, 23r</note>
+                  </msItem>
+                  <msItem n="9" class="fas">
+                     <locus from="23r" facs="#Lbs08-0893-0023r" to="24v"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                     <note>Fol. 23v from Ketils saga hængs. Put in the wrong order, correct order: 23r, 24r, 24v</note>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="24v" facs="#Lbs08-0893-0024v" to="37r"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <rubric>Frá Örvar-Oddi</rubric>
+                     <textLang mainLang="non"/>
+                     <note>Two poems with another hand after the saga on <locus>37v</locus></note>
+                  </msItem>
+                  <msItem n="10.1" class="kvad">
+                     <locus from="37v" facs="#Lbs08-0893-0024v" to="37v">37v</locus>
+                     <title type="supplied">Vísur</title>
+                     <colophon>Grundarfirði þann 3. janúar 1840 <name type="person">J. Daníelsson</name>(<locus from="37v" facs="#Lbs08-0893-0037v" to="37v">37v</locus>)</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="11" class="riddst" defective="true">
+                     <locus from="38r" facs="#Lbs08-0893-0038r" to="68v"/>
+                     <title type="uniform">Marons saga sterka</title>
+                     <note>Without a title, incomplete</note>
+                     <author>written by <name type="person" key="JonHja001">Jón Oddsson Hjaltalín</name></author>
+                  </msItem>
+                  <msItem n="12" class="tyd" defective="true">
+                     <locus from="69r" facs="#Lbs08-0893-0069r" to="104r"/>
+                     <title type="supplied">Zadig</title>
+                     <incipit>Þó Zadig væri ungur að aldri var hann skipaður til að vera yfirdómari yfir öllum dómstólum</incipit>
+                     <textLang mainLang="is"/>                     
+                     <note>Without a title, incomplete</note>
+                     <note>Translation by <name type="person" key="JonHja001">Jón Oddsson Hjaltalín</name> of Zadig by Voltaire (see The
+                        Unwashed Children of Eve by <name type="person" key="MatDri001">M. Driscoll</name>)</note>
+                  </msItem>
+                  <msItem n="13" class="ritas">
+                     <locus from="104v" facs="#Lbs08-0893-0104v" to="105r"/>
+                     <title type="supplied">Historiur lesnar anno 1792</title>
+                     <textLang mainLang="is"/>
+                     <note>List by <name type="person" key="JonHja001">Jón Oddson Hjaltalín</name> over the foreign books he has read between 1792 og 1793</note>
+                  </msItem>
+                  <msItem n="14" class="sendbr">
+                     <locus from="105r" facs="#Lbs08-0893-0105r" to="105r"/>
+                     <title type="supplied">Bréf prússakóngs</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="15" class="ritas">
+                     <locus from="105v" facs="#Lbs08-0893-0105v" to="105v"/>
+                     <title type="supplied">Sögur mínar</title>
+                     <textLang mainLang="is"/>
+                     <note>List by <name type="person" key="JonHja001">Jón Oddsson Hjaltalín</name></note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+						<supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="105"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary fol"/>
+                        <condition ana="poor">Missing leaves between fol. 11 and 12, 48 and 49, 76 and 77 and more</condition>
+                  </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 26">
+                           <num type="wpl" atLeast="7" atMost="12"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonHja001" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+							<decoNote type="initial">Decorated initials, particularly on fol.: <locus from="38" facs="#Lbs08-0893-0038r" to="68">38-68</locus></decoNote>
+                  </decoDesc>
+                  <additions ana="low"> 
+                     <p>One added restoration leaf at the beginning of the manuscript, and also one empty leaf restoration between fol. 76 og 77</p>
+                  </additions>
+              <!--    <bindingDesc>
+                  <!-\-   <binding ana="" contemporary="">
+                        <p/>
+                     </binding>-\->
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1800"/>
+							<origPlace key="IS"/>
+						</origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:52.447+02:00" who="#EAH"> Created as subset of full fileon handrit.is.</change>
+         <change when="2011-05-06T17:54:13.9+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:32.946+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-07-02" who="#SMM">Updated encoding. Added rubric titles, some missing class types, watermark, foliation, condition and layout description based on the pictures from handrit.is.</change>
+         <change when="2013-08-29" who="#TL">Checked markup consistency</change><!--Missing: written area, binding-->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

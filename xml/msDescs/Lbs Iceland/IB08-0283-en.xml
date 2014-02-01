@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 283 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0283-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 283 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">                  
+                  </titlePage>
+                  <msItem n="1" class="islt" defective="true">
+                     <locus from="1r" facs="#IB08-0283-0001r" to="6v">1r-6v</locus>
+                     <title type="uniform">Orms þáttur Stórólfssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Ending missing.</note>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="7r" facs="#IB08-0283-0007r" to="19v">7r-19v</locus>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                     <note>Ending missing.</note>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                      <locus from="20r" facs="#IB08-0283-0020r" to="54v">20r-54v</locus>
+                     <title type="uniform">Þórðar saga hreðu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="55r" facs="#IB08-0283-0055r" to="66r">55r-66r</locus>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>Beginning missing.</note>
+                  </msItem>
+                  <msItem n="5" class="fas" defective="true">
+                     <locus from="66v" facs="#IB08-0283-0066v" to="103r">66v-103r</locus>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Incomplete.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="103"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="111"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor">
+                           <p>Pages missing after fol. <locus>6</locus>. Two pages missing after fol. <locus>19</locus>. 2-3 pages
+                              missing after fol. <locus>54</locus>. 
+                              One page missing after fol. <locus>74</locus>. Some pages have cut out the text.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 25">
+                           <num type="wpl" atLeast="7" atMost="12"/>
+                          <!-- <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#IllGri001" scope="major" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent"><locus>55r-60v</locus> by another scribe from 18th century</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote ana="initials" subtype="display-script">Titles, headings and
+                        beginnings a bit decorated.</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>Ownership notes and names on two originally blank pages: <list>
+                     <!-- inscription appears to be correct, though 'Anno' and '51201' may be in different hands -->
+                     <item><locus from="54v" facs="#IB08-0283-0054v" to="54v">54v</locus> <q>Endar sögubók þessa á með réttu Guðrún Illugadóttir
+                        Anno 51201. Párað af N</q></item>
+                     
+                     <item><locus from="54v" facs="#IB08-0283-0054v" to="54v">54v</locus> <q>Guðni Asgrims Dottir</q></item>
+                    
+                     <item><locus from="54v" facs="#IB08-0283-0054v" to="54v">54v</locus> <q>Sögubók Ásgríms Jónssonar</q></item>
+                     
+                     <item><locus from="54v" facs="#IB08-0283-0054v" to="54v">54v</locus> <q>Ásgrímur, sem hún leggur agað<gap/></q></item> 
+                  
+                     <item><locus from="54v" facs="#IB08-0283-0054v" to="54v">54v</locus>  <q>Einar Halldórsson</q></item>
+                     <item><locus from="54v" facs="#IB08-0283-0054v" to="54v">54v</locus> <q>Hallgrímur Magnússon</q></item>
+                     <item><locus from="103v" facs="#IB08-0283-0103v" to="103v">103v</locus> <q>Þessa sögubók á ég undirskrifaður með réttu og er vel að henni kominn og
+                        fullborguð af mér til merkis mitt nafn að Dað(a)stöðum. Ásgrímur
+                     Jónsson</q></item></list>
+                  </p></additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>In loose leaves</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1690">[1690?]</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="AsgJon002">Ásgrímur Jónsson</name>,
+                        <placeName>Dað[a]stöðum</placeName> 
+                     <name type="person" role="owner" key="GudIll003">Guðrún Illugadóttir</name>
+                     <name type="person" role="signatory" key="EinHal003">Einar Halldórsson</name> 
+                        <name type="person" role="signatory" key="GudAsg002">Guðný Ásgrímsdóttir</name> 
+                        <name type="person" role="signatory" key="HalMag003">Hallgrímur Magnússon</name> 
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:03.156+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:12.656+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:33.594+02:00" who="#EAH"> Extracted pagination and page dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:09.486+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-02-07T19:18:09.486+02:00" who="#EAH"> Added information from digitized version on handrit.is </change>
+         <change when="2013-05-30" who="SMM">Added information after looking at pictures on handrit.is.</change>
+         <!-- information missing, e.g. writing area -->
+         <change when="2013-08-19" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

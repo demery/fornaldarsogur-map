@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1629 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1629-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1629 4to</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="5"/>
+                           <num type="book-block" value="170"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="198"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="moderate">
+                        <p>Leather spine and corners</p>
+                        <p>At the time of binding in Þorsteinn Þorkelsson's ownership Part II has
+                           been added to the manuscript</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1573 4to Part I. </idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="later">
+                        <titlePart>Nokkrar Fornsögur ritaðar af ýmsum</titlePart>
+                     </titlePage>
+                     <msItem n="1" class="samt" defective="true">
+                        <locus from="1r" facs="#Lbs04-1629-0001r" to="26v">1r-26v</locus>
+                        <title type="uniform">Sturlunga saga</title>
+                        <rubric>Áttundi partur Íslendinga af útkomu Þorgils Böðvarssonar, Gissurar
+                           Þorvaldssonar og annarra Íslendinga. Skikkun Hákonar konungs um eignir
+                           Snorra og annað hér á landi. ...</rubric>
+                        <note>A part from Þorgils saga skarða</note>
+                        <note>Missing the ending</note>
+                     </msItem>
+                     <msItem n="2" class="isl" defective="true">
+                        <locus from="27r" facs="#Lbs04-1629-0027r" to="62v">27r-62v</locus>
+                        <title type="uniform">Ljósvetninga saga</title>
+                        <note>Ljósvetninga saga eður Reykdæla</note>
+                        <note>Missing the ending</note>
+                     </msItem>
+                     <msItem n="3" class="isl">
+                        <locus from="63r" facs="#Lbs04-1629-0063r" to="73r">63r-73r</locus>
+                        <title type="uniform">Hænsa-Þóris saga</title>
+                     </msItem>
+                     <msItem n="4" class="avint">
+                        <locus from="73v" facs="#Lbs04-1629-0073v" to="80v">73v-80v</locus>
+                        <title type="uniform">Jasonar saga bjarta</title>
+                     </msItem>
+                     <msItem n="5" class="ridd">
+                        <locus from="81r" facs="#Lbs04-1629-0081r" to="96r">81r-96r</locus>
+                        <title type="uniform">Jarlmanns saga og Hermanns</title>
+                        <colophon>1786</colophon>
+                     </msItem>
+                     <msItem n="6" class="fas">
+                        <locus from="97r" facs="#Lbs04-1629-0097r" to="112r">97r-112r</locus>
+                        <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     </msItem>
+                     <msItem n="7" class="forns">
+                        <locus from="113r" facs="#Lbs04-1629-0113r" to="119v">113r-119v</locus>
+                        <title type="uniform">Úlfs saga Uggasonar</title>
+                     </msItem>
+                     <msItem n="8" class="isl">
+                        <locus from="119v" facs="#Lbs04-1629-0119v" to="132v">119v-132v</locus>
+                        <title type="uniform">Eiríks saga rauða</title>
+                     </msItem>
+                     <msItem n="9" class="fas">
+                        <locus from="133r" facs="#Lbs04-1629-0133r" to="146v">133r-146v</locus>
+                        <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                        <rubric>Sagan af Sturlaugi hinum starfsama</rubric>
+                        <colophon>Anno 1793 </colophon>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="146"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="198"/>
+                                 <width unit="mm" quantity="158"/>
+                              </dimensions>
+                             <!--<watermark ana=""></watermark>-->
+                           </support>
+                           <foliation ana="no"><p>Not present between folios: 26-27 og
+                              62-63</p></foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="29 30">
+                              <num type="wpl" atLeast="13" atMost="16"/>
+                              <!--<dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>-->
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="9">
+                        <handNote scribeRef="#MagEin008" scope="major" script="kurrent">sr. Magnús
+                           Einarsson á <placeName>Tjörn</placeName>
+                           <locus from="1r" facs="#Lbs04-1629-0001r" to="62v">1r-62v</locus> and
+                           maybe more</handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="kurrent"/>
+                     </handDesc>
+                     <!--<decoDesc ana="">
+                        <decoNote></decoNote>
+                     </decoDesc>-->
+                     <additions ana="medium">
+                        <p>On Ffl2 <locus from="2r" facs="#Lbs04-1629-0002r" to="2r">2r</locus> is a
+                           titlepage in the hand of <name type="person" key="ThoTho020">Þorsteins
+                              Þorkelssonar</name> á <placeName>Hvarfi</placeName>: Nokkrar fornsögur
+                           ritaðar af ýmsum</p>
+                        <p>On Ffl3 <locus from="3r" facs="#Lbs04-1629-0003r" to="4r">3r-4r</locus>
+                           is a table of contents in the form of a preface also in the hand of Þorsteinn
+                           Þorkelssons</p>
+                     </additions>
+                     <bindingDesc>
+                        <p>Folio 70 is glued onto a leaf that is part of the binding</p>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate notBefore="1700" notAfter="1799">[1700-1799?]</origDate>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="owner" key="SteArn001">Stefán Arngrímsson</name>
+                        <placeName>Þorsteinsstöðum</placeName> (<locus from="96v" facs="#Lbs04-1629-0096v" to="96v">96v</locus>, <locus from="104v" facs="#Lbs04-1629-0104v" to="104v">104v</locus>, <locus from="112v" facs="#Lbs04-1629-0112v" to="112v">112v</locus>), <name type="person" role="owner" key="ThoTho020">Þorsteinn Þorkelsson</name> á
+                           <placeName>Hvarfi</placeName>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1573 4to Part II. </idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="rett">
+                        <locus from="147r" facs="#Lbs04-1629-0147r" to="170r">147r-170r</locus>
+                        <title type="uniform">Alþingisbækur Íslands</title>
+                        <note>From the Lögþingisbók 1705</note>
+                        <note>Some of the text in Danish</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="24"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <!--<layoutDesc>
+                           <layout ana="" writtenLines="">
+                              <num type="wpl" atLeast="" atMost=""/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity=""/>
+                                 <width unit="mm" quantity=""/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>-->
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">decorated initial <locus from="147r" facs="#Lbs04-1629-0147r" to="147r">147r</locus>
+                        </decoNote>
+                     </decoDesc>
+                     <!--<additions ana=""></additions>-->
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:42.678+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:01.172+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:19.762+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:52.653+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-12-21" who="#SK">Split the file up in 2 parts added information from the
+            digitized version on handrit.is as well as the P.E.Ó.-catalogue</change>
+         <!-- Still left what can only be added from the manuscript itself as in layout the written area-->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

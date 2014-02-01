@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>R 710</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-710" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 710</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="27r:19"/>
+                     <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagann Af Hialmter og Ølver</rubric>
+                     <rubric>I. Cap. Ætt og uppvøxtur Hiälmters og Ølvers</rubric>
+                     <incipit>Þesse Saga Byriast Af einum einum ägiætum könge er Ijnge hiet</incipit>
+                     <explicit>unnu þeir undir sig morg könga Riki</explicit>
+                     <finalRubric>og lukum vier her sógu, hiälmters, Øluers, hringz og hervarar.</finalRubric>
+                     <filiation>
+                        <p>Same text as in <ref type="ms" target="#Papp-4to-nr-30" ana="protograph">Stock. Isl. papp. 4to
+                           30</ref>.</p>
+                     </filiation>
+                     <note>Older vers.</note>
+                  </msItem>
+                  <msItem n="2" class="edd">
+                     <locus from="28r:1" to="37v:10"/>
+                     <title type="uniform">Völundarkviða</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="3" class="edd">
+                     <locus from="38r:1" to="40v:7"/>
+                     <title type="unknown">Frá dau∂a Sinfjötla</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="4" class="edd">
+                     <locus from="42r:1" to="55v:9"/>
+                     <title type="uniform">Grípisspá</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="56"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <note>Fols. 27v, 41r-v and 56r-v blank.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 32">
+                           <!-- fols 1-27 verse-prose, rest verse-separate; whole ms 19-32 lines -->
+                           <num type="wpl" atLeast="8" atMost="13"/><!-- here only for fols 1-27; whole ms 3-13 wpl -->
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <!-- here only for fols 1-27; rest 160 -->
+                              <width unit="mm" quantity="125"/>
+                              <!-- here only for fols 1-27; rest 110 (folded border; text often less wide, as only verses -->
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#GudOla002" scope="major" script="hum cursiva">Fols. 1r-27r Guðmundur Ólafsson, perhaps
+                        also other scribes.</handNote>
+                     <!-- Johan Helin; probably the same as Johannes Heliae -->
+                     <handNote scribeRef="#JohHel001" scope="minor" script="hum cursiva">Fols. 38r-55v Johan Helin.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in white parchment.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1681" notAfter="1725"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <p>The University Library Uppsala acquired <name type="person" role="owner" key="PetSal001">Petter Salan</name>'s collection, among
+                        it this manuscript, in <date when="1717">1717</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:13.724+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-11" who="SH">Added information from catalogue and from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

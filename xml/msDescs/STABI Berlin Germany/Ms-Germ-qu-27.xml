@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+   
+      <fileDesc>
+         <titleStmt>
+            <title>Ms Germ qu. 27</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ms-Germ-qu-27" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#SB">Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Berlin</repository>
+                  <idno>Ms Germ qu. 27</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem n="1" class="isl">
+                     <locus from="2r:1" to="26v:12"/>
+                     <title type="uniform">Reykdælasaga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Ritud á Qvennabrecku 1806. af ThThorsteinsyni</colophon>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="27r:1" to="37r:23"/>
+                     <title type="uniform">Valla-Ljóts saga</title>                     
+                     <textLang mainLang="non"/>
+                     <colophon>Ritad á qvennabrecku 1806. af Th. Thorsteinsyni.</colophon>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="37v:1" to="50v:22"/>
+                     <title type="uniform">Vápnfirðinga saga</title>
+                     <title type="parallel">Brodd-Helga saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Ritud at qvennabrecku 1806. af Th. Thorsteinssyni.</colophon>
+                  </msItem>
+                  <msItem n="4" class="islt">
+                     <locus from="51r:1" to="54r:16"/>
+                     <title type="uniform">Brandkrossa þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="54r:17" to="68r:5"/>
+                     <title type="supplied">Droplaugarsonar saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Ritad á Qvennabrecku árid 1806. af Th. Thorst<ex>ein</ex>s<ex>yni</ex></colophon>
+                  </msItem>
+                  <msItem n="6" class="kon">
+                     <locus from="69r:1" to="74v:10"/>
+                     <title type="supplied">Hákonar þáttur Hárekssonar</title>
+                     <title type="parallel">Hákonar saga norræna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="islt">
+                     <locus from="74v:11" to="75v:11"/>
+                     <title type="uniform">Þorsteins þáttur forvitna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="islt">
+                     <locus from="75v:12" to="76v:24"/>
+                     <title type="uniform">Þorsteins þáttur Austfirðings</title>
+                  </msItem>
+                  <msItem n="9" class="forns">
+                     <locus from="77r:1" to="80v:25"/>
+                     <title type="uniform">Bragða-Ölvis saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="80v:26" to="85v:17"/>
+                     <title type="uniform" ref="#hsgr">Hrómundar saga Gripssonar</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Ritad á Qvennabrecku 1806 af Th. Thorsteinssyni</colophon>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="86r:1" to="99r:23"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Ritad á Qvennabrecku af Th. Thorsteinsyni 1806</colophon>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="99v:1" to="136r:17"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Ritad á qvennabrecku árit 1806, lok<ex>id</ex> 31. Maij af Th:Thorsteinsyni</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="137"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="208"/>
+                              <width unit="mm" quantity="162"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Foliated in top right corners, including the added leaf with the translation of the title-page.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                  <layoutDesc>
+                     <layout ana="verse-separate" columns="1" writtenLines="27 29">		
+                        <num type="wpl" atLeast="11" atMost="15"/>
+                        <dimensions type="written">
+                           <height unit="mm" quantity="150"/>
+                           <width unit="mm" quantity="125"/>
+                        </dimensions>
+                     </layout>
+                  </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoTho049" scope="sole" script="kurrent">Þórður Þorsteinsson á Kvennabrekku</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="mixed">Title-page framed with red colour. Blueish-green book-block. Decorated initial over 4 lines on fol. 54r.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A translation by <name type="person">Rühs</name> of the title-page into German, including some information on the content of the sagas, is added to the front of the manuscript. On the front fly-leaf traces of a note is visible. Numbered paper reading marks glued to the outer margins at beginnings of new items.</p>                     
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Wooden boards covered with dark-brown leather with embossing (frames with flowers?), now very worn.</p>
+                     </binding>							
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1806"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:28.613+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-02" who="SH">Information added from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

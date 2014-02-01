@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westin 85</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Westin-85" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>Westin 85</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem n="1" class="fas">
+                     <locus from="2r:1" to="21v:13">2r-21v</locus>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <author role="translator">Nils Hufvudson Dal</author>
+                     <textLang mainLang="sv"/>
+                     <rubric>1 Capitelet</rubric>
+                     <incipit>Hallbiőrn het en man, som Kallades halftroll</incipit>
+                     <explicit>Och är intet mera att saga om honom,</explicit>
+                     <colophon>utan slutar sig här Kiettil Hängs saga.</colophon>
+                     <!-- shelfmark of Engestr. MS needed? -->
+                     <note>Swedish transl. by Nils Dal, copy of Engestr.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="22r:1" to="30v:17">22r-30v</locus>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <author role="translator">Nils Dal</author>
+                     <textLang mainLang="sv"/>
+                     <rubric>Här Börjas sagan om Grÿm Luditkind</rubric>
+                     <rubric>1sta Capitlet</rubric>
+                     <incipit>Om grÿm är detta vitterligit, att han var en stark och mÿcket kundbar man</incipit>
+                     <explicit>hans son var Orvar Odde,</explicit>
+                     <colophon>och slutar <add place="above">så</add> sagan om
+                        Grÿm Luditkinds förnämblige bedrifter.</colophon>
+                     <filiation><p>Copy of Engestr.</p></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="31"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="187"/>
+                              <width unit="mm" quantity="142"/>
+                           </dimensions>
+                           <note>Fol. 31 blank</note>
+                        </support>
+                        <foliation ana="pag contemporary">Paginated in top outer corners, title page and last page left
+                           out.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="18 22">
+                           <num type="wpl" atLeast="6" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="yes">Catchwords on almost every page.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in thin cardboard with marbled pattern.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="SE"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:24.902+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-05" who="SH">Added missing information from the catalogue by Jónas Kristjánsson and from
+            photographs.</change>
+         <change when="2013-04-08" who="SH">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

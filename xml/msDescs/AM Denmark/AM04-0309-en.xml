@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 309 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0309-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 309 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="kon">
+                     <locus from="1ra:1" to="25v"/>
+                     <title type="uniform">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="non"/>
+                     <filiation><p>Abridged excerpts from
+                        <ref type="ms" target="#GKS02-1005-en" ana="protograph">
+                           Flareyjarbók</ref></p>
+                     </filiation>
+                     <note>Corresponds to chapters 36-37, 45-53, 64-67, 85, 88-93, 118-120, 166-167, 175,
+                        187-188, 190, 192-193, 267-269 and 302-306, 319-326 and 332, 344, 
+                        347-348, 352, 354-355 and 358, 366-388 and 391-394, 397, 406 and 409 of <title type="unifom">Ólafs
+                           saga Tryggvasonar</title> in <ref target="#FlbChria">Flateyjarbók</ref> [handrit.is]</note>
+                  
+                  <msItem n="1.1" class="attat">
+                     <locus from="1ra:1" to="1ra:24">1ra:1-24</locus>
+                     <title type="uniform">Ættartala</title>
+                     <textLang mainLang="non"/>
+                     <rubric>ætt<ex>ar</ex>t<ex>ala</ex></rubric>
+                     <incipit>ADam skap<ex>ad</ex>i G<ex>ud</ex></incipit>
+                     <explicit>m<ex>ed</ex> tauldu<ex>m</ex> bædí adam <ex>ok</ex>
+                        haralldi</explicit>
+                  </msItem>
+                  <msItem n="1.2" class="kont">
+                     <locus from="1ra:24" to="1rb:">1ra:24-b:10</locus>
+                     <title type="supplied">Hverir konungar styrt hafa Noregi</title>
+                     <textLang mainLang="non"/>
+                     <rubric>hv<ex>er</ex>ir k<ex>onun</ex>gar styrt h<ex>afa</ex>
+                        nor<ex>e</ex>gi</rubric>
+                     <incipit>Son h<ex>ar</ex>alldz harf<ex>agra</ex> v<ex>ar</ex> sig<ex>ur</ex>dr
+                        h<ex>ri</ex>si</incipit>
+                     <explicit>ept<ex>ir</ex> e<ex>r</ex> hu<ex>n</ex> liet 
+                        fanga a<supplied reason="illegible">lbrict</supplied></explicit>
+                  </msItem>
+                  <msItem n="1.3" class="islt">
+                     <locus from="10rb" to="11ra"/>
+                     <title type="uniform">Þorvalds þáttur tasalda</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hi<ex>er</ex> Hef<ex>r</ex> up<ex>p</ex> þatt þouv<ex>allde</ex>
+                        tasallda</rubric>
+                     <incipit>Nv þ<ex>ess</ex>o at m<ex>ar</ex>g<ex>ar</ex> ræda <ex>ok</ex>
+                        f<ex>ra</ex> sögu<ex>r</ex> se r<ex>it</ex>ad<ex>ar</ex></incipit>
+                     <explicit><ex>ok</ex> set<ex>t</ex>í h<ex>onu</ex>m þo
+                        opi<ex>n</ex>b<ex>er</ex>líga sk<ex>ri</ex>p<ex>t</ex>
+                        f<ex>irir</ex> þen<ex>n</ex>a lut</explicit>
+                  </msItem>
+                  <msItem n="1.4" class="kon">
+                     <locus from="11va:28" to="12rb:30">11va:28-12rb:30</locus>
+                     <title type="uniform">Sveins þáttur og Finns</title>
+                     <textLang mainLang="non"/>
+                     <rubric>þatt<ex>r</ex> fin<ex>n</ex>z <ex>ok</ex> suei<ex>n</ex>s</rubric>
+                     <incipit>Þess e<ex>r</ex> get<ex>it</ex><ex>ok</ex> suo er
+                        rít<ex>ad</ex></incipit>
+                     <explicit>ol<ex>afr</ex> k<ex>onung</ex>r u<ex>ar</ex>
+                        trẏg<ex>va</ex>s<ex>on</ex> olafs<ex>sonar</ex> haralldz
+                        s<ex>onar</ex> ha<ex>a</ex>r f<ex>agra</ex></explicit>
+                  </msItem>
+                  <msItem n="1.5" class="kon">
+                     <locus from="12rb:30" to="12va:42">12rb:30-va:42</locus>
+                     <title type="uniform">Rauðs þáttur ramma</title>
+                     <textLang mainLang="non"/>
+                     <rubric>þatt<ex>r</ex> raud<ex>s</ex> hi<ex>n</ex>s ram<ex>m</ex>a</rubric>
+                     <incipit>Raudr hin<ex>n</ex> ram<ex>m</ex>e h<ex>et</ex> m<ex>adr</ex>
+                        ein<ex>n</ex></incipit>
+                     <explicit>f<ex>irir</ex> nord<ex>an</ex> a mille <ex>ok</ex>
+                        m<ex>eg</ex>e<ex>n</ex>lan<ex>n</ex>da</explicit>
+                  </msItem>
+                  <msItem n="1.6" class="islt">
+                     <locus from="15ra:47" to="15rb:53">15ra:47-b:53</locus>
+                     <title type="uniform">Þorsteins þáttur skelks</title>
+                     <textLang mainLang="non"/>
+                     <rubric>þatt<ex>r</ex> þ<ex>or</ex>st<ex>eins</ex> skelk<ex>is</ex></rubric>
+                     <incipit>Þat e<ex>r</ex> sagt v<ex>m</ex> sum<ex>ar</ex>id
+                        ept<ex>ir</ex></incipit>
+                     <explicit>m<ex>ed</ex> odru<ex>m</ex> kaup<ex>p</ex>u<ex>m</ex>
+                        k<ex>onun</ex>gs.</explicit>
+                  </msItem>
+                  <msItem n="1.7" class="kon">
+                     <locus from="16rb:21" to="17rb:14">16rb:21-17rb:14</locus>
+                     <title type="uniform">Indriða þáttur ilbreiðs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>hi<ex>er</ex> hef<ex>r</ex> þatt ein<ex>n</ex>d<ex>ri</ex>da
+                        ilb<ex>re</ex>ids <ex>ok</ex> ol<ex>afs</ex> k<ex>onun</ex>gs
+                        t<ex>rygua</ex> s<ex>onar</ex></rubric>
+                     <incipit>A Nockur<ex>um</ex> tí<ex>m</ex>a þa e<ex>r</ex> ol<ex>afr</ex>
+                        k<ex>onung</ex>r h<ex>afdi</ex> míög albu<ex>it</ex> skíp</incipit>
+                     <explicit>f<ex>ra</ex>r <ex>ok</ex> g<ex>ek</ex> a
+                        arv<ex>m</ex></explicit>
+                  </msItem>
+                  <msItem n="1.8" class="fornth">
+                     <locus from="21ra:39" to="21va:39">21ra:39-va:39</locus>
+                     <title type="uniform">Gauts þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>hi<ex>er</ex> hef<ex>r</ex> up<ex>p</ex> Gavt<ex>a</ex> þátt</rubric>
+                     <incipit>Nv sk<ex>al</ex> seígía luti e<ex>r</ex> eg na<ex>m</ex> af
+                        f<ex>ro</ex>du<ex>m</ex> m<ex>onnum</ex></incipit>
+                     <explicit>en<ex>n</ex> þorar<ex>n</ex>í  sagdí síalf<ex>r</ex>
+                        ein<ex>ar</ex> þa<ex>m</ex>barsk<ex>elfer</ex></explicit>
+                  </msItem>
+                  <msItem n="1.9" class="islt">
+                     <locus from="21vb:53" to="23vb:29">21vb:53-23vb:29</locus>
+                     <title type="uniform">Þorsteins þáttur uxafóts</title>
+                     <textLang mainLang="non"/>
+                     <rubric>þatt<ex>r</ex> þorst<ex>eins</ex> ux<ex>a</ex>f<ex>ot</ex>z hm<gap reason="illegible"/></rubric>
+                     <incipit>Þorkell. h<ex>et</ex> m<ex>adr</ex> e<ex>r</ex> bío  k<ex>ro</ex>ssa
+                        uík.</incipit>
+                     <explicit><ex>ok</ex> fell a or<ex>m</ex>ínv<ex>m</ex> langa.</explicit>
+                  </msItem>
+                  <msItem n="1.10" class="fas">
+                     <locus from="23vb:29" to="25rb:24">23vb:29-25rb:24</locus>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>hi<ex>er</ex> hef<ex>r</ex> þatt af nor<ex>n</ex>a gestí h<gap reason="illegible"/>om<ex>ir</ex> ol<gap reason="illegible"/></rubric>
+                     <incipit>Svo <supplied reason="omitted" instant="false">e</supplied><ex>r</ex> sag<ex>t</ex> at
+                        a ein<ex>um</ex> ti<ex>m</ex>a.</incipit>
+                     <explicit>v<ex>m</ex> lífdaga h<ex>an</ex>s s<ex>e</ex>m h<ex>ann</ex>
+                        sag<ex>d</ex>í</explicit>
+                  </msItem>
+                  <msItem n="1.11" class="fas">
+                     <locus from="25rb:24" to="25vb:8">25rb:24-vb:8</locus>
+                     <title type="uniform" ref="#hthth">Helga þáttur Þórissonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>þatt<ex>r</ex> helga þo<ex>ri</ex>ss<ex>onar</ex></rubric>
+                     <incipit>Þor<ex>ir</ex> h<ex>et</ex> m<ex>adr</ex> e<ex>r</ex> bío j
+                        nor<ex>egi</ex></incipit>
+                     <explicit><ex>ok</ex> lẏkr hi<ex>er</ex> f<ex>ra</ex> g<ex>ri</ex>mu<ex>m</ex>
+                        at seigía</explicit>
+                  </msItem>
+                  </msItem> 
+                  <msItem n="2" class="islt" defective="true">
+                     <locus from="206v" to="208r">206v-208r</locus>
+                     <title type="uniform">Sneglu-Halla þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>hier hef<ex>r</ex> þatt af s<ex>neglu</ex> ha<ex>lla</ex></rubric>
+                     <incipit>Þat e<ex>r</ex> up<ex>p</ex> haf þ<ex>ess</ex>ar<ex>ar</ex>
+                        f<ex>ra</ex>sagn<ex>ar</ex></incipit>
+                     <explicit defective="true">uel hafa t<ex>il</ex> vn<ex>n</ex>id h</explicit>
+                  </msItem>
+                  
+                  <msItem n="3" class="isl" defective="true">
+                     <locus from="27ra:1" to="34va:40">27ra-34va</locus>
+                     <title type="uniform">Laxdæla saga [Excerpts]</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">bolli u<ex>ar</ex> þ<ex>ar</ex> j selí</incipit>
+                     <explicit><ex>ok</ex> lykur þar nu sogun<ex>n</ex>e</explicit>
+                  </msItem>
+                  
+                  <msItem n="4" class="isl" defective="true">
+                     <locus from="34va:41" to="38vb:56">34va-38vb</locus>
+                     <title type="uniform">Eyrbyggja saga</title>
+                     <rubric>Hi<ex>er</ex> hef<ex>ur</ex> eyr byggiv <ex>ok</ex> e<ex>r</ex> god
+                        saga</rubric>
+                     <incipit>KEtill flat nef<ex>ur</ex> het hers<ex>ir</ex>
+                        ein<ex>n</ex></incipit>
+                     <explicit defective="true">þ<ex>ei</ex>r lögdu þ<ex>et</ex>ta þoroddi
+                        t<ex>il</ex></explicit>
+                     <note>Larger part missing in the middle and the end. Smaller lacunae due to the
+                        poor condition of the parchment.</note>
+                     <filiation><p>
+                        <ref type="ms" ana="apograph">BL Add. 11110</ref> and <ref type="ms" ana="apograph">AM 124 4to</ref> are direct
+                        copies.</p></filiation>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="39r:1" to="48v">39r-48v</locus>
+                     <title type="uniform">Njáls saga [Excerpts]</title>
+                     <incipit defective="true">ec þ<ex>at</ex> seger a<ex>tli</ex></incipit>
+                     <explicit>markar fliot</explicit>
+                     <note>Consists of four parts.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="48"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="240" atMost="265"/>
+                              <width unit="mm" atLeast="115" atMost="215"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliated in the lower margins.</p>
+                        </foliation>
+                        <condition ana="poor">
+                           <p>The manuscript is defective and rather dark. The script is at some places hard to
+                              decipher or illegible because of wear. Fols. <locus from="27" to="33">27-33</locus> have holes and are damaged at the
+                              top and bottom near the spine. Fols. <locus from="36" to="37">36-37</locus> are damaged in the same
+                              way. Fols. <locus>1, 3, 5,
+                                 17, 24, 27, 38 and 39</locus> have tears or holes. Fols. <locus>39,
+                                    40 and 48</locus> have once been used as binding. Fols. <locus>29-31</locus> are considerably smaller than the other leaves.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1 2" writtenLines="42 57">
+                           <num type="wpl" atLeast="27" atMost="36"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="210" atMost="220"/>
+                              <width unit="mm" atLeast="95" atMost="180"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonOdd001" scope="sole" script="cursiva">
+                        <p>It has been suggested that Jón Oddsson was the scribe of the manuscript
+                              (<bibl>Scott, <ref type="secondary" target="EA-A18">Eyrbyggja
+                                 saga</ref>, p. 110</bibl>).</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="initial">Colored initials and red rubrics throughout the manuscript.</decoNote>
+                     <decoNote type="initial" subtype="historiated">
+                        <p>Fol. <locus>1va</locus> has a 7-line initial A depicting the birth of king Olav Tryygvason: the mother, lying in
+                           childbed holding her child in her hands; another person stands beside the
+                           bed. Fol. <locus>20rb</locus> has a 5-line initial N depicting two people in a boat.</p>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>In the lower margin of the codex are notes and proverbs written in red ink by the
+                        scribe. A later hand added notes and shelf marks in the upper margin.</p>
+                     <p>In the bottom margin of fol. <locus>17v</locus> the scribe wrote: <q xml:lang="is">Jo<ex>n</ex> odds so<ex>n</ex> a m<ex>ik</ex>
+                        <ex>ok</ex> e<ex>r</ex> e<ex>ck</ex>i n<ex>ema</ex> h<ex>an</ex>s
+                        eig<ex>n</ex> </q>.</p>
+                     <p>There are two AM-slips: the recto of the a-slip says: <q xml:lang="is">Olafs Saga
+                        Tryggvasonarvantar  [vantar mikid ï] <add place="bottom">Allar 3 arkirnar
+                           eru  samstaðar og vantar  ekki í nema við endann</add> hefr  ödruvïs upphaf en<ex>n</ex> adrar.  þattur af þorsteini Uxafot. 
+                        þattur af Nornagest.  þattur Helga Þorissonar.  Hallla þattur, vantar
+                         endan<ex>n</ex>. communicavit <name type="person" key="ThoTho003">Th. Th.</name></q>. The verso has a copy of
+                        two of the rubrics: <q xml:lang="is">ætt<ex>ar</ex> t…</q> and <q xml:lang="is">hu<ex>er</ex>ir k<ex>onun</ex>gar styrt h<ex>afa</ex> nor<ex>egi</ex>.</q>
+                        The b-slip has:<q xml:lang="is">Aptan af LaxdælaSögu  framan af
+                           Eyrbyggiu <del>ur Grettis sögu</del> þetta fragment er mitt,  og heyrer manifeste til  hins
+                           fragmentsens qvod  communicavit. Th. Th.  hvar ä er partur framan
+                            af Olafs Sögu Tr. s.  Eg true eg hafi þ<ex>et</ex>ta 
+                           feinged fra Bæ i Floa.</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The binding is a modern standard half-binding with grey fabric and brown leather on corners and spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS">Iceland</origPlace>
+                     <origDate when="1498">1498</origDate> 
+                     <note>On fol.
+                           <locus> 1ra:36-39</locus> the scribe gives the following account: <q xml:lang="is">h<ex>ann</ex> [Ólafr Hákonarson] v<ex>ar</ex> þa
+                              k<ex>onun</ex>gr er s<ex>u</ex>
+                          bok u<ex>ar</ex> sk<supplied reason="illegible">rifu</supplied>d e<ex>r</ex> þ<ex>ess</ex>i bok u<ex>ar</ex>
+                              ept<ex>ir</ex> skrifud þa v<ex>ar</ex> lidit f<ex>ra</ex>
+                           hi<ex>n</ex>gad  bvrd uors h<ex>er</ex>ra i<ex>es</ex>v
+                              <ex>christi</ex>. M. CCC. LXXX. <ex>ok</ex> siau ar. en<ex>n</ex> nu
+                              e<ex>r</ex>v 
+                           <supplied>f<ex>ra</ex> h<ex>an</ex>s
+                                 hi<ex>n</ex>gadb<ex>ur</ex>d e<ex>r</ex>
+                           </supplied> sia bok e<ex>r</ex> sk<ex>ri</ex>fud M. CCCC.
+                              nivtig<ex>ir</ex>
+                           <ex>ok</ex> atta ar</q>.</note>
+                  </origin>
+                  <provenance><p>
+                     <name type="person" key="JonPal004" role="owner"/>
+                              <name type="person" key="BrySve001" role="owner"/>
+                     <name type="person" key="JonOdd001" role="owner"/>
+                     The church of <name type="place" key="Skálh01">Skálholt</name> previously owned this manuscript. 
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:11.348+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:52:19.97+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:41:45.071+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:17:23.417+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2013-07-19" who="#BES">Adopted from handrit.is and added missing information with the manuscript in situ.</change>
+         <change when="2013-08-19" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

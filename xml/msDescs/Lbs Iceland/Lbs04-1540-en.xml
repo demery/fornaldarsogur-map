@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1540 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1540-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1540 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="annal">
+                     <locus from="1r" to="159v"/>
+                     <title type="supplied">Setbergsannáll 1501-1600</title>
+                     <author>Gísli Þorkelsson</author>
+                     <incipit>Kunnugt er það af útlenskum Damerkur kónga Chronicum ...</incipit>
+                  </msItem>
+                  <msItem n="2" class="konth">
+                     <locus from="161r" to="167v"/>
+                     <title type="supplied">Hákonar þáttur Hárekssonar</title>
+                     <rubric>Sagan af Hákoni Hárekssyni norræna</rubric>
+                  </msItem>
+                  <msItem n="3" class="almb">
+                     <locus from="168r" to="213"/>
+                     <title type="supplied">Fortanuatus saga</title>
+                     <rubric>Sagan af Fortunato og sonum hans</rubric>
+                     <colophon>Og endast hér Fortunati saga sem skrifuð og útlögð var að Berufirði,
+                        anno 1690 af sýslumanninum Jóni Þorlákssyni</colophon>
+                     <note>The end of chapter 48 is defective, as is the beginning of chapter 49. |This is due to
+                        lacunas in the exemplar, from which this manuscript was copied, according to the
+                        scribe</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="214r" to="252v"/>
+                     <title ref="#oeos" type="uniform">Örvar-Odds saga</title>
+                     <rubric>Saga af Örvar-Oddi og þeim Hrafnistumönnum</rubric>
+                     <colophon>Smiðjuhóli. Endað þann 18da september 1813 klórað af
+                        J.J.syni</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="252"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="154"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later">214-252 pag</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" writtenLines="23 34">
+                           <num type="wpl" atLeast="10" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="unknown" scope="minor" script="chancery"><locus from="1r" to="28v"/></handNote>
+                     <handNote scribeRef="#OlaBry001" scope="minor" script="kurrent">Ólafur Brynjólfsson
+                        í Kirkjubæ <locus from="29r" to="159v"/>. Same scribe as in ÍB 93 4to, note margin
+                        29r</handNote>
+                     <handNote scribeRef="#"/>
+                     <handNote scribeRef="#JonJon069" scope="minor" script="kurrent">Jón Jónsson á
+                        Smiðjuhóli<locus from="161r" to="252v"/></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="headings"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>
+                        <term key="lrnd">A note concerning the hand 29r</term>.
+                        <term key="cmpt">"Eigandi bókarinnar er með réttu og enginn annar Herra
+                           gullsmiðurinn E: Guðmundsson" 152v</term>.
+                        <term>Einar á Galtarholti <name type="person" key="EinGud010"/><locus from="152v" to="152v"/></term>
+                     </p>
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Leather on wooden boards with clasps</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1730" notAfter="1770"/>
+                     <origDate when="1813"/>
+                     
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:59.237+02:00" who="#EAH"> Introduced repository auth file.
+         Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-09" who="#SK">Added information from the P.E.Ó-catalogue.</change>
+         <change when="2011-11" who="#SK">Added information from the manuscript itself.</change>
+         </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

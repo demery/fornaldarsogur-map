@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>GKS 1005 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed by the University of Copenhagen under
+                  a Creative Commons Attribution-ShareAlike 3.0 Unported License.</licence>
+            </availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS02-1005-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>GKS 1005 fol.</idno>
+                  <altIdentifier type="nickname">
+                     <idno>Flateyjarbók</idno>
+                  </altIdentifier>
+               </msIdentifier>
+
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>GKS 1005 fol I</idno>
+                  </altIdentifier>
+
+                  <msContents>
+                     <titlePage ana="no"> </titlePage>
+
+                     <msItem n="1" class="formal">
+                        <locus from="1v" to="1v">1v</locus>
+                        <title type="supplied">Prologue</title>
+                        <textLang mainLang="non"/>
+                        <note>Leaf <locus from="1r" to="1r">1r</locus> originally blank</note>
+                     </msItem>
+                     <msItem n="2" class="helgkv">
+                        <locus from="2r" to="2v">2r-2v (dálkur 1-3)</locus>
+                        <author key="EinSku001">Einar Skúlason</author>
+                        <title type="uniform">Geisli</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Geisli er Einar Skúlason kvað um Ólaf Haraldsson</rubric>
+                        <incipit>Eins má orð og bænir</incipit>
+                        <explicit>vagn ræfurs enn eg þagna.</explicit>
+                        <note>About Ólaf helgi Haraldsson, King of Norway.</note>
+                     </msItem>
+                     <msItem n="3" class="rimur">
+                        <locus from="2v" to="2v">2v-2v (dálkur 3-4)</locus>
+                        <title type="uniform">Ólafs ríma Haraldssonar</title>
+                        <textLang mainLang="non"/>
+                        <author key="EinGil001">Einar Gilsson</author>
+                        <rubric>Ólafs ríma Haraldssonar er Einar Gilsson kvað</rubric>
+                        <incipit>Ólafur kóngur ör og fríður</incipit>
+                        <explicit>við bragning allra þjóða.</explicit>
+                     </msItem>
+                     <msItem n="4" class="sagkv">
+                        <locus from="2v" to="3r">2v-3r (dálkur 4-5)</locus>
+                        <title type="uniform">Hyndluljóð</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur upp Hyndluhljóð kveðið um Óttar heimska</rubric>
+                        <incipit>Vaki mær meyja</incipit>
+                        <explicit>öll goð duga.</explicit>
+                     </msItem>
+                     <msItem n="5" class="kirkjus">
+                        <locus from="3r" to="3r">3r-3r (dálkur 5-6)</locus>
+                        <author key="Adaooo001">Adam of Bremen</author>
+                        <title type="uniform">Gesta Hammaburgensis Ecclesiae Pontificum <note>[Icelandic excerpt]</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Capitulum</rubric>
+                        <incipit>Svá segir í Hamborgar historía</incipit>
+                        <explicit>Sveinn konungur og Eiríkur jarl Hákonarson.</explicit>
+                     </msItem>
+                     <msItem n="6" class="kon">
+                        <locus from="3r" to="3v">3r-3v (dálkur 6-7)</locus>
+                        <title type="uniform">Sigurðar þáttur slefu</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Þáttur frá Sigurði konungi slefu syni Gunnhildar</rubric>
+                        <incipit>Sat[sic] er sagt þá er Gunnhildar synir réðu</incipit>
+                        <explicit>og þótti enn mesti kvenskörungur.</explicit>
+                     </msItem>
+                     <msItem n="7" class="fas">
+                        <locus from="3v" to="4r">3v-4r (dálkur 8-9)</locus>
+                        <title ref="#ff" type="uniform">Frá Fornljóti og ættmönnum hans</title>
+                        <title type="parallel">Hversu Noregur byggðist</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hversu Noregur byggðist</rubric>
+                        <incipit>Nú skal segja dæmi til hversu Noregur byggðist</incipit>
+                        <explicit>er hann hafði þar sett til landsgæslu.</explicit>
+                     </msItem>
+                     <msItem n="8" class="attat">
+                        <locus from="4r" to="4r">4r-4r (dálkur 9-10)</locus>
+                        <title type="supplied">Ættartölur konunga og konungatöl í Noregi</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Ættartala frá Höð</rubric>
+                        <incipit>Höður átti þar ríki er kallað er Haðaland</incipit>
+                        <explicit>er hún lét fanga Albrict.</explicit>
+                     </msItem>
+                     <msItem n="9" class="fas">
+                        <locus from="4v" to="5v">4v-5v (dálkur 11-15)</locus>
+                        <title ref="#esv" type="uniform">Eiríks saga víðförla</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur upp sögu Eiríks víðförla</rubric>
+                        <incipit>Þrándur er nefndur konungur</incipit>
+                        <explicit>sem þessi Eiríkur sem nú var frá sagt.</explicit>
+                     </msItem>
+                     <msItem n="10" class="kon">
+                        <locus from="5v" to="75r">5v-75r (dálkur 15-295)</locus>
+                        <title type="uniform">Ólafs saga Tryggvasonar</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur upp sögu Ólafs Tryggvasonar</rubric>
+                        <incipit>Haraldur hinn hárfagri réð fyrir Noregi</incipit>
+                        <explicit>hinn mesti ástvin jarla.</explicit>
+                        <note>Ólafs saga Tryggvasonar hin mesta.</note>
+                        <msItem n="10.1" class="kon">
+                           <locus from="13r" to="14r">13r-14r (dálkur 45-50)</locus>
+                           <title type="uniform">Jómsvíkinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur upp Jómsvíkinga þátt</rubric>
+                           <incipit>Þar var frá horfið konungatali</incipit>
+                           <explicit>Haraldur konungur tók það og skildust að því.</explicit>
+                        </msItem>
+                        <msItem n="10.2" class="kon">
+                           <locus from="14r" to="15r">14r-15r (dálkur 50-53)</locus>
+                           <title type="supplied">Ottó þáttur keisara</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Ottó keisara og Gorms konungs</rubric>
+                           <incipit>Ottó keisari er hinn ungi var kallaður</incipit>
+                           <explicit>Haraldur konungur og Ottó keisari og sættust.</explicit>
+                        </msItem>
+                        <msItem n="10.3" class="kon">
+                           <locus from="16v" to="20r">16v-20r (dálkur 59-73)</locus>
+                           <title type="uniform">Færeyinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Þrándar og Sigmundar</rubric>
+                           <incipit>Maður er nefndur Grímur kamban</incipit>
+                           <explicit>og var síðan með Hákoni jarli.</explicit>
+                           <note>End of the saga.</note>
+                        </msItem>
+                        <msItem n="10.4" class="kon">
+                           <locus from="20v" to="27r">20v-27r (dálkur 75-102)</locus>
+                           <title type="uniform">Jómsvíkinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Fæddur Palnír</rubric>
+                           <incipit>Maður er nefndur Tóki</incipit>
+                           <explicit>því að marga vega má sýnast.</explicit>
+                           <note>End of the saga.</note>
+                        </msItem>
+                        <msItem n="10.5" class="kon">
+                           <locus from="27r" to="27r">27r-27r (dálkur 102-103)</locus>
+                           <title type="uniform">Þingamanna þáttur</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Lagasetning Sveins konungs</rubric>
+                           <incipit>Sveinn konungur Saum-Æsuson</incipit>
+                           <explicit>réð því fjóra vetur og xx.</explicit>
+                        </msItem>
+                        <msItem n="10.6" class="islt">
+                           <locus from="27v" to="28v">27v-28v (dálkur 104-108)</locus>
+                           <title type="uniform">Þorleifs þáttur jarlaskálds</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Þorleifs</rubric>
+                           <incipit>Nú skal segja þann ævintýr</incipit>
+                           <explicit>og lýkur hér frá Þorleifi að segja.</explicit>
+                        </msItem>
+                        <msItem n="10.7" class="kon">
+                           <locus from="29r" to="30r">29r-30r (dálkur 110-114)</locus>
+                           <title type="uniform">Orkneyinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Fundinn Noregur</rubric>
+                           <incipit>Fornjótur hefir konungur heitið</incipit>
+                           <explicit>og fengu þá Orkneyingar óðul sín.</explicit>
+                        </msItem>
+                        <msItem n="10.8" class="hels">
+                           <locus from="32r" to="32v">32r-32v (dálkur 122-125)</locus>
+                           <title type="uniform">Seljumanna þáttur</title>
+                           <textLang mainLang="non"/>
+                           <title type="parallel">Albani þáttur og Sunnifu</title>
+                           <rubric>Af lífláti Albani og Sunnifu. Capitulum</rubric>
+                           <incipit>Á dögum Hákonar jarls</incipit>
+                           <explicit>sína stundliga armæðu.</explicit>
+                        </msItem>
+                        <msItem n="10.9" class="landn">
+                           <locus from="32v" to="33r">32v-33r (dálkur 125-126)</locus>
+                           <title type="uniform">Landnáma þáttur</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Er Naddoddur víkingur fann landið</rubric>
+                           <incipit>Þessir menn hafa fundið Ísland</incipit>
+                           <explicit>várs herra Jesú Christi viii hundruð lx og iiii ár.</explicit>
+                        </msItem>
+                        <msItem n="10.10" class="islt">
+                           <locus from="33r" to="34v">33r-34v (dálkur 126-133)</locus>
+                           <title type="uniform">Þorsteins þáttur uxafóts</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Er Naddoddur víkingur fann landið</rubric>
+                           <incipit>Þessir menn hafa fundið Ísland</incipit>
+                           <explicit>várs herra Jesú Christi viii hundruð lx og iiii ár.</explicit>
+                        </msItem>
+                        <msItem n="10.11" class="krist">
+                           <locus from="34v" to="36r">34v-36r (dálkur 133-139)</locus>
+                           <title type="uniform">Kristni þáttur</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Frá landnámsmönnum</rubric>
+                           <incipit>Ingólfur var fyrstur og frægstur allra</incipit>
+                           <explicit>gerði Þorvarður Spak-Böðvarsson kirkju í Ási.</explicit>
+                        </msItem>
+                        <msItem n="10.12" class="fas">
+                           <locus from="36v" to="37v">36v-37v (dálkur 140-144)</locus>
+                           <title ref="#hsh" type="uniform">Sörla þáttur</title>
+                           <title type="parallel">Héðins saga og Högna</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur Sörla þátt</rubric>
+                           <incipit>Fyrir austan Vanakvísl í Asía</incipit>
+                           <explicit>konungur fór heim eftir þetta í ríki sitt.</explicit>
+                        </msItem>
+                        <msItem n="10.13" class="kon">
+                           <locus from="37v" to="38r">37v-38r (dálkur 145-146)</locus>
+                           <title type="uniform">Stefnis þáttur Þorgilssonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Stefnis Þorgilssonar hann kom til Ólafs konungs</rubric>
+                           <incipit>Maður er nefndur Stefnir</incipit>
+                           <explicit>svá að lítt var lest eður ekki.</explicit>
+                        </msItem>
+                        <msItem n="10.14" class="kon">
+                           <locus from="38r" to="39v">38r-39v (dálkur 147-152)</locus>
+                           <title type="uniform">Rögnvalds þáttur og Rauðs</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Rögnvalds. Capitulum</rubric>
+                           <incipit>Maður er nefndur Loðinn</incipit>
+                           <explicit>að þeir gyldi fé frændum Þórólfs skjálgs fyrir brennuna.</explicit>
+                        </msItem>
+                        <msItem n="10.15" class="isl">
+                           <locus from="39v" to="40v">39v-40v (dálkur 152-157)</locus>
+                           <title type="uniform">Hallfreðar saga vandræðaskálds</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Hallfreðar vandræðaskálds</rubric>
+                           <incipit>Á ofanverðum dögum Hákonar Aðalsteinsfóstra</incipit>
+                           <explicit>Hallfreður hélt og skipi sínu til Niðaróss.</explicit>
+                        </msItem>
+                        <msItem n="10.16" class="islt">
+                           <locus from="40v" to="42r">40v-42r (dálkur 157-162)</locus>
+                           <title type="uniform">Kjartans þáttur Ólafssonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Hallfreðar vandræðaskálds</rubric>
+                           <incipit>Á ofanverðum dögum Hákonar Aðalsteinsfóstra</incipit>
+                           <explicit>Hallfreður hélt og skipi sínu til Niðaróss.</explicit>
+                        </msItem>
+                        <msItem n="10.17" class="isl">
+                           <locus from="42r" to="42r">42r-42r (dálkur 162)</locus>
+                           <title type="uniform">Hallfreðar saga vandræðaskálds</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hallfreður hitti í fyrstu Ólaf konung</rubric>
+                           <incipit>Ólafur konungur gekk einn dag</incipit>
+                           <explicit>sem þar voru í bænum.</explicit>
+                        </msItem>
+                        <msItem n="10.18" class="islt">
+                           <locus from="42r" to="42r">42r-42r (dálkur 163)</locus>
+                           <title type="uniform">Kjartans þáttur Ólafssonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Skírður Kjartan og Bolli og Hallfreður</rubric>
+                           <incipit>Ólafur konungur fór um veturinn</incipit>
+                           <explicit>með konungi nýskírðir.</explicit>
+                        </msItem>
+                        <msItem n="10.19" class="isl">
+                           <locus from="43r" to="44r">43r-44r (dálkur 167-170)</locus>
+                           <title type="uniform">Hallfreðar saga vandræðaskálds</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Frá konungi og Hallfreði</rubric>
+                           <incipit>Hallfreður skáld Óttarsson var með Ólafi konungi</incipit>
+                           <explicit>var Hallfreður þá með Ólafi konungi í góðri sæmd.</explicit>
+                        </msItem>
+                        <msItem n="10.20" class="islt">
+                           <locus from="44r" to="45r">44r-45r (dálkur 170-174)</locus>
+                           <title type="uniform">Ögmundar þáttur dytts</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Utanferð Ögmundar og áverki Hallvarðs. Capitulum</rubric>
+                           <incipit>Í þenna tíma voru margir göfgir menn á Íslandi</incipit>
+                           <explicit>og héldu þau síðan rétta trú.</explicit>
+                        </msItem>
+                        <msItem n="10.21" class="islt">
+                           <locus from="45r" to="45r">45r-45r (dálkur 174)</locus>
+                           <title type="uniform">Kjartans þáttur Ólafssonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Konungur bauð Kjartani til Íslands að boða kristni</rubric>
+                           <incipit>Þenna sama vetur sem Gunnar helmingur var í Svíþjóðu</incipit>
+                           <explicit>fór Kálfur með fé þeirra til Englands um sumarið.</explicit>
+                        </msItem>
+                        <msItem n="10.22" class="isl">
+                           <locus from="45r" to="45v">45r-45v (dálkur 174-177)</locus>
+                           <title type="uniform">Hallfreðar saga vandræðaskálds</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Ferð Auðgils og Hallfreðar til Svíþjóðar</rubric>
+                           <incipit>Einn dag um vorið er Hallfreður</incipit>
+                           <explicit>andaðist Ingibjörg kona hans.</explicit>
+                        </msItem>
+                        <msItem n="10.23" class="fas">
+                           <locus from="45v" to="47r">45v-47r (dálkur 177-183)</locus>
+                           <title ref="#ngth" type="uniform">Norna-Gests þáttur</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur þátt af Norna-Gesti</rubric>
+                           <incipit>Svá er sagt að á einum tíma</incipit>
+                           <explicit>þótti sannast um lífdaga hans sem hann sagði.</explicit>
+                        </msItem>
+                        <msItem n="10.24" class="fas">
+                           <locus from="47r" to="47v">47r-47v (dálkur 183-185)</locus>
+                           <title ref="#hthth" type="uniform">Helga þáttur Þórissonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Helga Þórissonar</rubric>
+                           <incipit>Þórir hét maður er bjó í Noregi</incipit>
+                           <explicit>lýkur hér frá Grímum að segja.</explicit>
+                        </msItem>
+                        <msItem n="10.25" class="kon">
+                           <locus from="47v" to="47v">47v-47v (dálkur 185)</locus>
+                           <title type="uniform">Færeyinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Ólafur konungur gerði orð Sigmundi</rubric>
+                           <incipit>Nú er þar til að taka er fyrr var frá horfið</incipit>
+                           <explicit>er hann vildi gerast hans maður.</explicit>
+                        </msItem>
+                        <msItem n="10.26" class="kon">
+                           <locus from="48r" to="48v">48r-48v (dálkur 186-189)</locus>
+                           <title type="uniform">Færeyinga saga</title>
+                           <rubric>Sigmundur Bestisson tók við trú</rubric>
+                           <textLang mainLang="non"/>
+                           <incipit>Ólafur konungur fór norðan úr Þrándheimi</incipit>
+                           <explicit>svo sem segir í Færeyinga sögu.</explicit>
+                        </msItem>
+                        <msItem n="10.27" class="islt">
+                           <locus from="50r" to="50v">50r-50v (dálkur 194-197)</locus>
+                           <title type="uniform">Þorvalds þáttur tasalda</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur upp þátt Þorvalds tasalda. Capitulum</rubric>
+                           <incipit>Nú þó að margar ræður og frásagnir</incipit>
+                           <explicit>og þótti vera mikilmenni.</explicit>
+                        </msItem>
+                        <msItem n="10.28" class="kon">
+                           <locus from="51r" to="52r">51r-52r (dálkur 199-202)</locus>
+                           <title type="uniform">Sveins þáttur og Finns</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Sveins og Finns. Capitulum</rubric>
+                           <incipit>Þess er getið og svo er ritað</incipit>
+                           <explicit>skjótt við víkjast konungs erindi.</explicit>
+                        </msItem>
+                        <msItem n="10.29" class="kon">
+                           <locus from="52r" to="52r">52r (dálkur 202-203)</locus>
+                           <title type="uniform">Rauðs þáttur ramma</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Rauðs hins ramma</rubric>
+                           <incipit>Rauður hinn rammi hét maður einn</incipit>
+                           <explicit>fyrir norðan og á milli og meginlands.</explicit>
+                        </msItem>
+                        <msItem n="10.30" class="islt">
+                           <locus from="54r" to="55r">54r-55r (dálkur 211-214)</locus>
+                           <title type="uniform">Hrómundar þáttur halta</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Hrómundar halta. Capitulum</rubric>
+                           <incipit>Eyvindur sörkvir hét maður</incipit>
+                           <explicit>og lýkur hér frá honum að segja.</explicit>
+                        </msItem>
+                        <msItem n="10.31" class="islt">
+                           <locus from="55r" to="55r">55r-55r (dálkur 214-215)</locus>
+                           <title type="uniform">Þorsteins þáttur skelks</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Þorsteins skelkis</rubric>
+                           <incipit>Það er sagt um sumarið eftir</incipit>
+                           <explicit>með öðrum köppum konungs.</explicit>
+                        </msItem>
+                        <msItem n="10.32" class="islt">
+                           <locus from="55v" to="55v">55v-55v (dálkur 216-217)</locus>
+                           <title type="uniform">Þiðranda þáttur og Þórhalls</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Þiðranda og Þórhalls</rubric>
+                           <incipit>Svá er sagt þá er Haraldur hinn hárfagri</incipit>
+                           <explicit>sem nú skal frá segja.</explicit>
+                        </msItem>
+                        <msItem n="10.33" class="krist">
+                           <locus from="55v" to="56v">55v-56v (dálkur 217-221)</locus>
+                           <title type="uniform">Kristni þáttur</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þangbrandur kom til Íslands og bauð kristni</rubric>
+                           <incipit>Þá er Ólafur konungur Tryggvason hafði ii vetur</incipit>
+                           <explicit>með konungi um veturinn vel haldnir.</explicit>
+                        </msItem>
+                        <msItem n="10.34" class="isl">
+                           <locus from="56v" to="57r">56v-57r (dálkur 221-222)</locus>
+                           <title type="uniform">Eiríks saga rauða</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Eiríks rauða. Capitulum</rubric>
+                           <incipit>Þorvaldur hét maður son Ósvalds Úlfssonar</incipit>
+                           <explicit>hann bjó í Brattahlíð í Eiríksfirði.</explicit>
+                        </msItem>
+                        <msItem n="10.35" class="islt">
+                           <locus from="57v" to="58r">57v-58r (dálkur 225-227)</locus>
+                           <title type="uniform">Svaða þáttur og Arnórs kerlingarnefs</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Svaða og Arnórs kerlingarnefs</rubric>
+                           <incipit>Mikil og margföld er miskunn allsvaldanda guðs</incipit>
+                           <explicit>Bjarnarsonar járnsíðu Ragnarssonar loðbrókar.</explicit>
+                        </msItem>
+                        <msItem n="10.36" class="islt">
+                           <locus from="58r" to="58v">58r-58v (dálkur 227-228)</locus>
+                           <title type="uniform">Þórhalls þáttur knapps</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Ólafur konungur vitraðist Þórhalli á Knappstöðum</rubric>
+                           <incipit>Maður er nefndur Þórhallur knappur</incipit>
+                           <explicit>um allar veraldir amen.</explicit>
+                        </msItem>
+                        <msItem n="10.37" class="isl">
+                           <locus from="59v" to="60r">59v-60r (dálkur 233-234)</locus>
+                           <title type="uniform">Hallfreðar saga vandræðaskálds</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hallfreður kom til Íslands og hitti Kolfinnu</rubric>
+                           <incipit>Litlu síðar um vorið</incipit>
+                           <explicit>Hallfreður var þar um veturinn.</explicit>
+                        </msItem>
+                        <msItem n="10.38" class="islt">
+                           <locus from="60r" to="60v">60r-60v (dálkur 235-237)</locus>
+                           <title type="uniform">Kjartans þáttur Ólafssonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Útkoma Kjartans Ólafssonar</rubric>
+                           <incipit>Þá spurði Ólafur konungur þau tíðindi</incipit>
+                           <explicit>og óhamingja í verki þessu.</explicit>
+                        </msItem>
+                        <msItem n="10.39" class="kon">
+                           <locus from="60v" to="61v">60v-61v (dálkur 237-241)</locus>
+                           <title type="uniform">Indriða þáttur ilbreiðs</title>
+                           <title type="parallel">Eindriða þáttur ilbreiðs</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur þátt Eindriða ilbreiðs og Ólafs konungs</rubric>
+                           <incipit>Á nokkurum tíma þá er Ólafur konungur</incipit>
+                           <explicit>og þótti æ vera hinn ágætasti maður.</explicit>
+                        </msItem>
+                        <msItem n="10.40" class="islt">
+                           <locus from="67v" to="68r">67v-68r (dálkar 264-267)</locus>
+                           <title type="uniform">Halldórs þáttur Snorrasonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Einar hjálpaði Halldóri eftir víg</rubric>
+                           <incipit>Halldór son Snorra goða af Íslandi</incipit>
+                           <explicit>og fyrir það hafði hann reiði á honum.</explicit>
+                        </msItem>
+                        <msItem n="10.41" class="kon">
+                           <locus from="69r" to="69v">69r-69v (dálkur 271-272)</locus>
+                           <title type="supplied">Eiríks þáttur Hákonarsonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér er þáttur Eiríks Hákonarsonar. Capitulum</rubric>
+                           <incipit>Það segja fróðir menn</incipit>
+                           <explicit>sem segir í sögu virðulegs herra Ólafs konungs Tryggvasonar.</explicit>
+                           <note>From <title>Ólafs saga helga</title>.</note>
+                        </msItem>
+                        <msItem n="10.42" class="islt">
+                           <locus from="69v" to="71r">69v-71r (dálkur 272-279)</locus>
+                           <title type="uniform">Orms þáttur Stórólfssonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér er þáttur Orms Stórólfssonar</rubric>
+                           <incipit>Hængur hét maður son Ketils Naumdælajarls</incipit>
+                           <explicit>allra manna fríðastur er menn hafa séð.</explicit>
+                        </msItem>
+                        <msItem n="10.43" class="isl">
+                           <locus from="71r" to="71v">71r-71v (dálkur 279-280)</locus>
+                           <title type="uniform">Hallfreðar saga vandræðaskálds</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Hallfreðar vandræðaskálds</rubric>
+                           <incipit>Nú er þar til að taka</incipit>
+                           <explicit>og eru margir menn frá honum komnir.</explicit>
+                        </msItem>
+                        <msItem n="10.44" class="kon">
+                           <locus from="71v" to="71v">71v-71v (dálkur 280-281)</locus>
+                           <title type="supplied">Erlings þáttur Skjálgssonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Er Erlingur frétti Svoldrarorustu</rubric>
+                           <incipit>Þá er Erlingur Skjálgsson</incipit>
+                           <explicit>og öllum kom hann til nokkurs þroska.</explicit>
+                           <note>from <title>Ólafs saga helga</title>.</note>
+                        </msItem>
+                        <msItem n="10.45" class="isl">
+                           <locus from="71v" to="73v">71v-73v (dálkur 281-288)</locus>
+                           <title type="uniform">Grænlendinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur Grænlendinga þátt. Capitulum</rubric>
+                           <incipit>Það er nú þessu næst að Bjarni Herjúlfsson</incipit>
+                           <explicit>nú er nokkuð orði á komið.</explicit>
+                        </msItem>
+                        <msItem n="10.46" class="kon">
+                           <locus from="73v" to="73v">73v-73v (dálkur 288)</locus>
+                           <title type="supplied">Einars þáttur þambarskelfis</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér segir af Einari þambarskelfi</rubric>
+                           <incipit>Eftir Svoldrarorustu gaf Eiríkur jarl</incipit>
+                           <explicit>hinn mesti styrkur og ástvinur.</explicit>
+                           <note>from <title>Ólafs saga helga</title>.</note>
+                        </msItem>
+                        <msItem n="10.47" class="kon">
+                           <locus from="73v" to="74v">73v-74v (dálkur 288-293)</locus>
+                           <title type="uniform">Færeyinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur af Sigmundi Brestissyni</rubric>
+                           <incipit>Sveinn og Eiríkur jarlar sendu orð</incipit>
+                           <explicit>og er góður bóndi.</explicit>
+                        </msItem>
+                        <msItem n="10.48" class="kon">
+                           <locus from="74v" to="75r">74v-75r (dálkur 293-294)</locus>
+                           <title type="uniform">Orkneyinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur jarlanna. Einars, Þorfinns, Sumarliða</rubric>
+                           <incipit>Litlu síðar en þeir</incipit>
+                           <explicit>ríki það er hann átti í Orkneyjum.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="11" class="kon">
+                        <locus from="75r" to="76r">75r-76r (dálkur 295-298)</locus>
+                        <title type="uniform">Hálfdanar þáttur svarta</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur upp þátt Hálfdanar svarta</rubric>
+                        <incipit>Hálfdan svarti tók konungdóm átján vetra</incipit>
+                        <explicit>en það var bannað af frændum hans.</explicit>
+                     </msItem>
+                     <msItem n="12" class="kon">
+                        <locus from="76r" to="77r">76r-77r (dálkur 298-302)</locus>
+                        <title type="uniform">Haralds þáttur hárfagra</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Upphaf ríkis Haralds hárfagra. Capitulum</rubric>
+                        <incipit>Að liðnum tíu vetrum</incipit>
+                        <explicit>en hann gaf bæði löndin Sigurði bróður sínum.</explicit>
+                     </msItem>
+                     <msItem n="13" class="kont">
+                        <locus from="77r" to="77r">77r-77r (dálkur 302-303)</locus>
+                        <title type="supplied">Noregskonungatal</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Frá Haraldi konungi</rubric>
+                        <incipit>Haraldur konungur hinn hárfagri átti Ásu</incipit>
+                        <explicit>sögu Ólafs konungs Tryggvasonar.</explicit>
+                     </msItem>
+                     <msItem n="14" class="kon">
+                        <locus from="77r" to="78r">77r-78r (dálkur 303-306)</locus>
+                        <title type="uniform">Hauks þáttur hábrókar</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Þáttur Hauks hábrókar</rubric>
+                        <incipit>Björn að Haugi var í Svíþjóð</incipit>
+                        <explicit>lýkur svá hér frá Haraldi konungi.</explicit>
+                     </msItem>
+                     <msItem n="15" class="kont">
+                        <locus from="78r" to="78r">78r-78r (dálkur 306)</locus>
+                        <title type="supplied">Noregskonungatal</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Konungatal í Noregi</rubric>
+                        <incipit>Hálfdan svarti var konungur</incipit>
+                        <explicit>sem síðar mun sagt verða.</explicit>
+                     </msItem>
+                     <msItem n="16" class="kon">
+                        <locus from="78r" to="78v">78r-78v (dálkur 306-308)</locus>
+                        <title type="uniform">Haralds þáttur grenska</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Þáttur Haralds grænska. Capitulum</rubric>
+                        <incipit>Cecilía hét ein göfug kona</incipit>
+                        <explicit>Haraldur konungur hafði henni ætlað einlæti.</explicit>
+                        <note>Precedes <title>Ólafs saga helga</title>.</note>
+                     </msItem>
+                     <msItem n="17" class="kon">
+                        <locus from="78v" to="79r">78v-79r (dálkur 308-310)</locus>
+                        <title type="uniform">Ólafs þáttur Geirstaðaálfs</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér er þáttur Ólafs Geirstaðaálfs</rubric>
+                        <incipit>Drengur góður og höfðingi mikill</incipit>
+                        <explicit>og skipaðist skjótt vıð.</explicit>
+                        <note>Precedes <title>Ólafs saga helga</title>.</note>
+                     </msItem>
+                     <msItem n="18" class="kon">
+                        <locus from="79r" to="145r"/>
+                        <title type="uniform">Ólafs saga helga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur upp sögu Ólafs konungs Haraldssonar</rubric>
+                        <incipit>Þá er liðið var frá hingaðburð vors herra Jesú Christi</incipit>
+                        <explicit>en svá sem vér höfum sagt.</explicit>
+                        <msItem n="18.1" class="kon">
+                           <locus from="85r" to="85r">85r-85r (dálkur 334)</locus>
+                           <title type="supplied">Eyvindar þáttur úrarhorns</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Eyvindar úrarhorns</rubric>
+                           <incipit>Eyvindur úrarhorn er maður nefndur</incipit>
+                           <explicit>mjög misboðið í því verki.</explicit>
+                        </msItem>
+                        <msItem n="18.2" class="kon">
+                           <locus from="87r" to="87v">87r-87v (dálkur 342-344)</locus>
+                           <title type="uniform">Styrbjarnar þáttur Svíakappa</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur upp þátt Styrbjarnar Svíakappa er hann barðist við Eirík Svíakonung</rubric>
+                           <incipit>Frá því er að segja að Eiríkur</incipit>
+                           <explicit>svo að menn vissu.</explicit>
+                        </msItem>
+                        <msItem n="18.3" class="kon">
+                           <locus from="87v" to="88v">87v-88v (dálkur 344-348)</locus>
+                           <title type="uniform">Hróa þáttur heimska</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Frá Hróa</rubric>
+                           <incipit>Hrói hét maður er upp fæddist í Danmörku</incipit>
+                           <explicit>og er þar í Svíþjóð frá þeim komið margt göfugmenni.</explicit>
+                        </msItem>
+                        <msItem n="18.4" class="isl">
+                           <locus from="90r" to="92r">90r-92r (dálkur 354-363)</locus>
+                           <title type="uniform">Fóstbræðra saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Upphaf Fóstbræðra sögu. Capitulum</rubric>
+                           <incipit>Guð drottinn Jesús Christus</incipit>
+                           <explicit>þá er hér er komið Ólafs sögu.</explicit>
+                        </msItem>
+                        <msItem n="18.5" class="kon">
+                           <locus from="93v" to="96r">93v-96r (dálkur 368-378)</locus>
+                           <title type="uniform">Eymundar þáttur Hringssonar</title>
+                           <title type="parallel">Eymundar saga Hringssonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur upp þátt Eymundar og Ólafs konungs. Capitulum</rubric>
+                           <incipit>Hringur hefir konungur heitið</incipit>
+                           <explicit>stendur til þá ljósa að gera.</explicit>
+                        </msItem>
+                        <msItem n="18.6" class="fas">
+                           <locus from="96r" to="96r">96r-96r (dálkur 378-379)</locus>
+                           <title ref="#ttht" type="uniform">Tóka þáttur Tókasonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur upp hinn níunda [þátt] Ólafs sögu Haraldssonar. Capitulum</rubric>
+                           <incipit>Í þann tíma er Ólafur konungur sat í Sarpsborg</incipit>
+                           <explicit>og andaðist í hvítavoðum.</explicit>
+                        </msItem>
+                        <msItem n="18.7" class="ridd?">
+                           <locus from="96r" to="96v">96r-96v (dálkur 379-381)</locus>
+                           <title type="supplied">Sigurðar þáttur Akasonar</title>
+                           <title type="parallel">Sigurðar saga Akasonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Sigurður vann tröllkonu</rubric>
+                           <incipit>Sigurður er maður nefndur</incipit>
+                           <explicit>Sigurður er með Ólafi konungi í góðri virðingu.</explicit>
+                        </msItem>
+                        <msItem n="18.8" class="bisks">
+                           <locus from="96v" to="97r">96v-97r (dálkur 381-382)</locus>
+                           <title type="uniform">Ísleifs þáttur biskups</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Ísleifur fékk Döllu er síðan var biskup</rubric>
+                           <incipit>Það er nú þessu næst að segja</incipit>
+                           <explicit>hann reynda eg svo að öllum hlutum.</explicit>
+                        </msItem>
+                        <msItem n="18.9" class="islt">
+                           <locus from="97r" to="97v">97r-97v (dálkur 382-385)</locus>
+                           <title type="uniform">Egils þáttur Síðu-Hallssonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Ólafur konungur fór til Danmerkur í Limafjörð</rubric>
+                           <incipit>Á einhverju sumri er sagt að Egill son Halls að Síðu</incipit>
+                           <explicit>og þótti vera hinn besti drengur.</explicit>
+                        </msItem>
+                        <msItem n="18.10" class="isl">
+                           <locus from="97v" to="100v">97v-100v (dálkur 385-396)</locus>
+                           <title type="uniform">Fóstbræðra saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur upp þátt Þormóðar Kolbrúnarskálds. Capitulum</rubric>
+                           <incipit>Kongurinn Ólafur var hardla vinsæll</incipit>
+                           <explicit>spyr nú öll þessi tíðindi og þóttu mikil.</explicit>
+                        </msItem>
+                        <msItem n="18.11" class="kon">
+                           <locus from="100v" to="101r">100v-101r (dálkur 396-399)</locus>
+                           <title type="supplied">Eymundar þáttur af Skörum</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur upp þátt Eymundar af Skörum. Capitulum</rubric>
+                           <incipit>Litlu eftir það er Ólafur Svíakonungur</incipit>
+                           <explicit>svo að framgengt yrði.</explicit>
+                        </msItem>
+                        <msItem n="18.12" class="kon">
+                           <locus from="101v" to="102v">101v-102v (dálkur 400-405)</locus>
+                           <title type="uniform">Orkneyinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur þeirra Orkneyinga. Capitulum</rubric>
+                           <incipit>Mikill hermaður Einar jarl í Orkneyjum</incipit>
+                           <explicit>eftir fall Ólafs konungs hins helga.</explicit>
+                        </msItem>
+                        <msItem n="18.13" class="kon">
+                           <locus from="103r" to="103v">103r-103v (dálkur 407-410)</locus>
+                           <title type="supplied">Guðbrands þáttur kúlu</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér segir frá Dala-Guðbrandi</rubric>
+                           <incipit>Dala-Guðbrandur er maður nefndur</incipit>
+                           <explicit>en hallæri mikið norður þaðan.</explicit>
+                        </msItem>
+                        <msItem n="18.14" class="kon">
+                           <locus from="103v" to="104v">103v-104v (dálkur 410-413)</locus>
+                           <title type="uniform">Indriða þáttur og Erlings</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér er þáttur Indriða og Erlings. Capitulum</rubric>
+                           <incipit>Ólafur konungur sendi boð um vorið</incipit>
+                           <explicit>konu sína Sigríði og undi vel sínu ráði.</explicit>
+                        </msItem>
+                        <msItem n="18.15" class="isl">
+                           <locus from="104v" to="108r">104v-108r (dálkur 413-428)</locus>
+                           <title type="uniform">Fóstbræðra saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Þormóðar er hann er með Knúti konungi í Danmörk. Capitulum</rubric>
+                           <incipit>Prýðimaður mikill var Þormóður Kolbrúnarskáld</incipit>
+                           <explicit>eftir hann dauðan sem enn mun síðar sagt verða.</explicit>
+                        </msItem>
+                        <msItem n="18.16" class="kon">
+                           <locus from="108r" to="109v">108r-109v (dálkur 428-435)</locus>
+                           <title type="supplied">Ásbjarnar þáttur Selsbana</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur Ásbjarnar selsbana. Capitulum</rubric>
+                           <incipit>Kvæði mörg þau er skáldin hafa ort</incipit>
+                           <explicit>og kom það fyrir Þóri hund í Bjarkey.</explicit>
+                        </msItem>
+                        <msItem n="18.17" class="kon">
+                           <locus from="110r" to="111r">110r-111r (dálkur 437-441)</locus>
+                           <title type="uniform">Færeyinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Færeyinga þáttur og Ólafs konungs.</rubric>
+                           <incipit>Réttliga hafa fróðir menn svo ritað</incipit>
+                           <explicit>og óx hann þar upp.</explicit>
+                        </msItem>
+                        <msItem n="18.18" class="kon">
+                           <locus from="111v" to="112r">111v-112r (dálkur 442-444)</locus>
+                           <title type="supplied">Knúts þáttur ríka</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur þeirra konunganna Ólafs og Knúts</rubric>
+                           <incipit>Svá er sagt að Knútur hinn ríki</incipit>
+                           <explicit>báðu hann öngrar vináttu vænta af Önundi konungi.</explicit>
+                        </msItem>
+                        <msItem n="18.19" class="islt">
+                           <locus from="112v" to="113r">112v-113r (dálkur 447-449)</locus>
+                           <title type="uniform">Steins þáttur Skaptasonar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur upp þátt Steins Skaptasonar</rubric>
+                           <incipit>Trúfastur maður og traustur var hinn heilagi Ólafur konungur </incipit>
+                           <explicit>þá hét hann ferð sinni og hafði engi orð fyrir.</explicit>
+                        </msItem>
+                        <msItem n="18.20.1" class="kon">
+                           <locus from="116v" to="116v">116v-118r (dálkur 463-464)</locus>
+                           <title type="uniform">Rauðúlfs þáttur</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Rauðúlfs þáttur. Capitulum</rubric>
+                           <incipit>Úlfur hét maður er kallaður var Rauðúlfur</incipit>
+                           <explicit>hafde t<ex>il</ex> allra hluta ór lausri þ<ex>at</ex> u<ex>ar</ex> simir at
+                              k<ex>onun</ex>gi</explicit>
+                           <note>Continues in vol. II.</note>
+                        </msItem>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">
+                           <support>
+                              <num type="front-flyleaf" value="2"/>
+                              <num type="book-block" value="116"/>
+                              <num type="back-flyleaf" value="2"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" atLeast="415" atMost="422"/>
+                                 <width unit="mm" atLeast="290" atMost="297"/>
+                              </dimensions>
+                           </support>
+                           <foliation ana="later col">The manuscript is foliated by column in the hand of <name type="person"
+                                 key="BrySve001">Brynjólfur Sveinsson</name>. The first volume contains columns 1-463, without
+                              numbers 77, 404 and 426. </foliation>
+                           <condition ana="good">The manuscript is in pretty good condition. Some stains present, and some leaves
+                              are cut. </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1 2" ana="verse-prose" writtenLines="57 62">
+                              <note>fol. <locus>1v</locus> has only one column, otherwise two columns.</note>
+                              <num type="wpl" atLeast="32" atMost="37"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="325"/>
+                                 <width unit="mm" quantity="230"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>GKS 1005 fol. II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="18" class="kon">
+                        <locus from="79r" to="145r"/>
+                        <title type="uniform">Ólafs saga helga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur upp sögu Ólafs konungs Haraldssonar</rubric>
+                        <incipit>Þá er liðið var frá hingaðburð vors herra Jesú Christi</incipit>
+                        <explicit>en svá sem vér höfum sagt.</explicit>
+                        <msItem n="18.20.2" class="kon">
+                           <locus from="117r" to="118r">117r-118r (dálkur 465-468)</locus>
+                           <title type="uniform">Rauðúlfs þáttur</title>
+                           <textLang mainLang="non"/>
+                           <incipit>uar adr kun<ex>n</ex>ikt en sumt visse</incipit>
+                           <explicit>hann var eigi af lífi tekinn.</explicit>
+                           <note>Continuation from vol. I.</note>
+                        </msItem>
+                        <msItem n="18.21" class="kon">
+                           <locus from="121v" to="122r">121v-122r (dálkur 483-485)</locus>
+                           <title type="uniform">Völsa þáttur</title>
+                           <rubric>Konungur kristnaði menn norður ókunniga</rubric>
+                           <incipit>Ólafur konungur spurði þá enn að nýju</incipit>
+                           <explicit>og alla aðra að guði hefir líkað.</explicit>
+                        </msItem>
+                        <msItem n="18.22" class="isl">
+                           <locus from="122v" to="122v">122v-122v (dálkur 486-487)</locus>
+                           <title type="uniform">Fóstbræðra saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Skipan Ólafs konungs um liðið</rubric>
+                           <incipit>Ólafur konungur hafði þá til sanns spurt</incipit>
+                           <explicit>og hafa allir einn náttstað.</explicit>
+                        </msItem>
+                        <msItem n="18.23" class="isl">
+                           <locus from="123r" to="123r">123r-123r (dálkur 488-489)</locus>
+                           <title type="uniform">Fóstbræðra saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Viðurtal konungs og Þormóðar</rubric>
+                           <incipit>Þá nátt er Ólafur konungur lá í safnaðinum</incipit>
+                           <explicit>víggruður eður þar liggjum.</explicit>
+                           <note>Ends with a stanza.</note>
+                        </msItem>
+                        <msItem n="18.24" class="isl">
+                           <locus from="125r" to="126r">125r-126r (dálkur 497-500)</locus>
+                           <title type="uniform">Fóstbræðra saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Viðurtal þeirra Þormóðs og Dags</rubric>
+                           <incipit>Svo er sagt þá er lokið var bardaganum</incipit>
+                           <explicit>með þessum atburðum sem nú voru sagðir.</explicit>
+                        </msItem>
+                        <msItem n="18.25" class="kon">
+                           <locus from="129v" to="130v">129v-130v (dálkur 516-520)</locus>
+                           <title type="uniform">Færeyinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þáttur frá Þrándi og frændum hans</rubric>
+                           <incipit>Í þann tíma er Sveinn var konungur</incipit>
+                           <explicit>Sigmundar Brestissonar eður afkvæmis hans.</explicit>
+                        </msItem>
+                        <msItem n="18.26" class="kon">
+                           <locus from="131r" to="144r">131r-144r (dálkur 521-580)</locus>
+                           <title type="uniform">Orkneyinga saga</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Orkneyinga þáttur</rubric>
+                           <incipit>Ólafur konungur Haraldsson fékk enga lýðskyldu</incipit>
+                           <explicit>síðan tók Jón jarls nafn yfir öllum Orkneyjum.</explicit>
+                        </msItem>
+                        <msItem n="18.27" class="kont">
+                           <locus from="144r" to="144v">144r-144v (dálkur 580-582)</locus>
+                           <title type="uniform">Noregskonungatal</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér hefur Noregskóngatal er Sæmundur fróði orti</rubric>
+                           <incipit>Það verður skylt ef að skilum yrkja</incipit>
+                           <explicit>allan aldur og unaðs njóti.</explicit>
+                           <note>Kvæði.</note>
+                        </msItem>
+                        <msItem n="18.28" class="kon">
+                           <locus from="144v" to="145r">144v-145r (dálkur 582-583)</locus>
+                           <title type="supplied">Brenna Adams biskups</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Brenna Adams biskups</rubric>
+                           <incipit>Þá er Jón biskup andaðist á Katanesi</incipit>
+                           <explicit>en svá sem vér höfum sagt.</explicit>
+                           <note>See <title>Orkneyinga saga</title>.</note>
+                        </msItem>
+                     </msItem>
+                     <msItem n="19" class="kon">
+                        <locus from="145r" to="164r">145r-164r (dálkur 583-659)</locus>
+                        <title type="uniform">Sverris saga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur upp sögu Sverris konungs Sigurðarsonar</rubric>
+                        <incipit>Í þann tíma er stýrðu Noregi</incipit>
+                        <explicit>frá falli Magnúss konungs Erlingssonar.</explicit>
+                        <finalRubric>Lýkur hér nú sögu Sverris Noregskonungs.</finalRubric>
+                        <msItem n="19.1" class="formal">
+                           <locus from="145r" to="145r">145r</locus>
+                           <title type="supplied">Prologue</title>
+                           <textLang mainLang="non"/>
+                           <rubric>prologus</rubric>
+                        </msItem>
+                     </msItem>
+                     <msItem n="20" class="kon">
+                        <locus from="164r" to="186v">164r-186v (dálkur 659-750)</locus>
+                        <title type="uniform">Hákonar saga Hákonarsonar</title>
+                        <title type="parallel">Hákonar saga gamla</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur upp sögu Hákonar konungs gamla</rubric>
+                        <incipit>Hér hefur upp sögu Hákonar gamla</incipit>
+                        <explicit>síðan Baglar höfðu brotið.</explicit>
+                     </msItem>
+                     <msItem n="21" class="kon">
+                        <locus from="186v" to="187v">186v-187v (dálkur 750-754)</locus>
+                        <title type="uniform">Ólafs saga helga</title>
+                        <textLang mainLang="non"/>
+                        <incipit><supplied reason="omitted">Þ</supplied>essir smáir articuli</incipit>
+                        <explicit>áleitni við konunginn eður nokkurra illinda.</explicit>
+                        <note>Initial left blank.</note>
+                        <!-- 'from' instead of 'form'? -->
+                        <note>Additional chapters form <title>Lífssaga Ólafs helga</title> by <name type="person">Styrmi
+                              fróða</name>.</note>
+                     </msItem>
+                     <msItem n="22" class="kon">
+                        <locus from="188r" to="204v">188r-204v (dálkur 755-821)</locus>
+                        <title type="uniform">Magnús saga góða og Haralds harðráða</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur sögu Magnús [konungs og Haralds konungs]</rubric>
+                        <incipit>Þar hefjum vér upp frásögn er Jarisleifur konungur</incipit>
+                        <explicit>annar son Vilhjálms bastarðar.</explicit>
+                        <finalRubric>Og lýkur hér sögu Haralds Sigurðarsonar.</finalRubric>
+                        <note>Contains several dependant þættir.</note>
+                     </msItem>
+                     <msItem n="23" class="kon" defective="true">
+                        <locus from="204v" to="205v">204v-205v (dálkur 821-826)</locus>
+                        <title type="uniform">Hemings þáttur Áslákssonar</title>
+                        <textLang mainLang="non"/>
+                        <incipit><supplied reason="omitted" instant="false">Þ</supplied>að er upphaf þessa máls að Haraldur
+                           konungur</incipit>
+                        <explicit defective="true">og þar eru þeir á bænum Áslákur og Björn.</explicit>
+                        <note>Missing text at the end indicated by blank space on fol. <locus>205v</locus>.</note>
+                     </msItem>
+                     <msItem n="24" class="islt">
+                        <locus from="206r" to="206v">206r-206v (dálkur 828-830)</locus>
+                        <title type="uniform">Auðunar þáttur vestfirska</title>
+                        <textLang mainLang="non"/>
+                        <incipit><supplied reason="omitted" instant="false">M</supplied>aður hét Auðun vestfirskur</incipit>
+                        <explicit>og margir aðrir góðir menn.</explicit>
+                     </msItem>
+                     <msItem n="25" class="islt">
+                        <locus from="206v" to="208r">206v-208r (dálkur 830-836)</locus>
+                        <title type="uniform">Sneglu-Halla þáttur</title>
+                        <textLang mainLang="non"/>
+                        <incipit><supplied reason="omitted" instant="false">Þ</supplied>að er upphaf þessar frásagnar</incipit>
+                        <explicit>á grauti mundi greyið sprungið hafa.</explicit>
+                        <finalRubric>Lýk ég þar sögu frá Sneglu-Halla.</finalRubric>
+                     </msItem>
+                     <msItem n="26" class="islt">
+                        <locus from="208r" to="208v">208r-208v (dálkur 836-838)</locus>
+                        <title type="uniform">Halldórs þáttur Snorrasonar</title>
+                        <textLang mainLang="non"/>
+                        <incipit><supplied reason="omitted" instant="false">Þ</supplied>á er Halldór Snorrason goða var með
+                           Haraldi konungi</incipit>
+                        <explicit>vingan sinni við Halldór. Og lýkur þar þessi frásögn.</explicit>
+                     </msItem>
+                     <msItem n="27" class="islt">
+                        <locus from="208v" to="209r">208v-209r (dálkur 838-839)</locus>
+                        <title type="uniform">Þorsteins þáttur forvitna</title>
+                        <textLang mainLang="non"/>
+                        <incipit><supplied reason="omitted" instant="false">Þ</supplied>orsteinn hét einn íslenskur
+                           maður</incipit>
+                        <explicit>en þó féll hann með konungi á Englandi.</explicit>
+                     </msItem>
+                     <msItem n="28" class="islt">
+                        <locus from="209r" to="209r">209r-209r (dálkur 839-840)</locus>
+                        <title type="uniform">Þorsteins þáttur tjaldstæðings</title>
+                        <textLang mainLang="non"/>
+                        <incipit><supplied reason="omitted" instant="false">Ú</supplied>lfur hét maður er bjó á Þelamörk</incipit>
+                        <explicit>föður Lopts föður Gunnlaugs smiðs.</explicit>
+                     </msItem>
+                     <msItem n="29" class="kon">
+                        <locus from="209r" to="210r">209r-210r (dálkur 840-843)</locus>
+                        <title type="uniform">Blóð-Egils þáttur</title>
+                        <textLang mainLang="non"/>
+                        <incipit><supplied reason="omitted" instant="false">R</supplied>agnar hét maður og var ættaður suður á
+                           Jótlandi</incipit>
+                        <explicit>sjálfræði og siðleysu. Og lýkur þar þessum þætti.</explicit>
+                        <note>Fol. <locus from="210r" to="210v">210r-210v</locus> partly blank.</note>
+                     </msItem>
+                     <msItem n="30" class="islt">
+                        <locus from="211r" to="212r">211r-211v (dálkur 847-850)</locus>
+                        <title type="uniform">Grænlendinga þáttur</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Grænlendinga þáttur</rubric>
+                        <incipit>Sokki hét maður og var Þórisson</incipit>
+                        <explicit>til ættjarða sinna. Og lýkur þar þessi sögu.</explicit>
+                     </msItem>
+                     <msItem n="31" class="bis kir">
+                        <locus from="211v" to="212r">211v-212r (dálkur 850-851)</locus>
+                        <title type="supplied">Biskupa- og kirknatal á Grænlandi</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Þessir hafa biskupar verið á Grænlandi</incipit>
+                        <explicit>í Ánavík í Rangafirði.</explicit>
+                     </msItem>
+                     <msItem n="32" class="kon">
+                        <locus from="212r" to="212r">212r-212r (dálkur 851-852)</locus>
+                        <title type="uniform">Helga þáttur og Úlfs</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Frá Helga og Úlfi</rubric>
+                        <incipit>Sigurður jarl Löðversson réð fyrir Orkneyjum</incipit>
+                        <explicit>og bjuggu þar til elli. Og lýkur þar þessi sögu.</explicit>
+                     </msItem>
+                     <msItem n="33" class="kon">
+                        <locus from="212r" to="213r">212r-213r (dálkur 852-856)</locus>
+                        <title type="uniform">Játvarðar saga helga</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Saga hins heilaga Játvarðar</rubric>
+                        <incipit>Játvarður konungur hinn helgi</incipit>
+                        <explicit>og þeirra synir þar byggt síðan.</explicit>
+                     </msItem>
+                     <msItem n="34" class="annal">
+                        <locus from="213r" to="225v">213r-225v (dálkur 856-905)</locus>
+                        <title type="uniform">Flateyjarannáll</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hér hefur annál frá hans upphafi og tölu Jeroními prests</rubric>
+                        <incipit>Guð skapaði alla skepnu</incipit>
+                        <explicit>Grasvöxtur lítill, fellir nokkur.</explicit>
+                        <note>Fol. <locus>225v</locus> partly blank.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="perg">
+                           <support>
+                              <num type="front-flyleaf" value="2"/>
+                              <num type="book-block" value="109"/>
+                              <num type="back-flyleaf" value="2"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" atLeast="418" atMost="422"/>
+                                 <width unit="mm" atLeast="283" atMost="297"/>
+                              </dimensions>
+                           </support>
+                           <foliation ana="later col">The manuscript is foliated by column in the hand of <name type="person"
+                                 key="BrySve001">Brynjólfur Sveinsson</name>. The second volume contains columns 464-906, without
+                              numbers 504, 543-544 and 551-554.</foliation>
+                           <condition ana="good">The manuscript is in good condition. Some stains are present, and some leaves are
+                              cut. </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2" ana="verse-prose" writtenLines="62 68">
+                              <num type="wpl" atLeast="32" atMost="36"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="325"/>
+                                 <width unit="mm" quantity="233"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="5">
+                        <handNote scope="major" script="textualis" scribeRef="#JonTho021">Jóns Þórðarsonar wrote fols. <locus
+                              from="4va" to="27va:58">4va-27va:58</locus>, <locus from="27va:60" to="27vb:9"
+                           >27va:60-27b:9</locus>, <locus from="27vb:17" to="36vb:41">27va:17-36vb:41</locus>, <locus
+                              from="36vb:45" to="108ra:36">36vb:45-108rb:26</locus>, <locus from="108rb:29" to="110rb:13"
+                              >108rb:29-110rb:13</locus>, <locus from="110ra:22" to="110va:22">110rb:22-110vb:22</locus>, <locus
+                              from="110vb:31" to="111ra:6">110vb:31-111ra:6</locus>, <locus from="111ra:17" to="111rb:28"
+                              >111ra:17-111rb:28</locus>, <locus from="111rb:36" to="134va:60">111rb:36-134va:60</locus>. </handNote>
+                        <handNote scope="minor" script="cursiva" scribeRef="#MagTho005">Magnúsar Þórhallssonar wrote fols. <locus
+                              from="1v" to="4r">1v-4r</locus>, <locus from="27va:59" to="27va:60">27va:59-27va:60</locus>, <locus
+                              from="27vb:9" to="27vb:17">27vb9-27vb:17</locus>, <locus from="36vb:41" to="36vb:44"
+                              >36vb:41-36vb:44</locus>, <locus from="134va:61" to="187vb">134va:61-187vb</locus>, <locus
+                              from="211ra" to="225v">211ra-225v</locus>. </handNote>
+                        <handNote scope="minor" script="textualis" scribeRef="unknown">An unknown scribe later added fol. <locus
+                              from="108ra" to="108rb">108r</locus>
+                        </handNote>
+                        <handNote scope="minor" script="textualis" scribeRef="unknown">An unknown scribe wrote fols. <locus
+                              from="110rb:13" to="110rb:22">110rb:13-110rb:22</locus>, <locus from="110vb:22" to="110vb:31"
+                              >110vb:22-110vb:31</locus>, <locus from="111ra:6" to="111ra:17">111ra:6-111ra:17</locus>, <locus
+                              from="111rb:29" to="111rb:36">111rb29-111rb:36</locus>. </handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="textualis">
+                           <p>It is possible that <name type="person" key="JonTho021">Jón Þórðarson</name> wrote the words <q>nú
+                                 slitið þinginu</q> on fol. <locus from="110v" to="110v">110vb:24</locus> [cf. handrit.is].</p>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc ana="high">
+                        <decoNote type="mixed">
+                           <p>Coloured initials throughout by <name key="MagTho005" type="person">Magnús Þórhallsson</name> (see
+                              prologue on fol. <locus from="1v" to="1v">1v</locus>). The same type of initials are in the Stjórn
+                              manuscript <ref target="AM02-0226" type="ms">AM 226 fol.</ref>, and it seems plausible that Magnús
+                              Þórhallsson also illuminated that manuscript (see <bibl>
+                                 <ref>Guðbjörg Kristjánsdóttir 1993:26</ref>
+                              </bibl> and <bibl>
+                                 <ref>Matthías Þórðarson 1931:340</ref>
+                              </bibl>). Very similar initials also in the Jónsbók manuscripts <ref target="GKS04-3268" type="ms"
+                                 >GKS 3268 4to</ref> and <ref target="GKS04-3270" type="ms">GKS 3270 4to</ref> from the middle of
+                              the 14th century (<bibl>
+                                 <ref>Guðbjörg Kristjánsdóttir 1993:25</ref>
+                              </bibl>).</p>
+                        </decoNote>
+                        <decoNote type="miniature">
+                           <p>Marginalia in three places of importance in the manuscript: <list type="simple">
+                                 <item>Fol. <locus from="5v" to="5v">5v</locus>: Drawing at the beginning of Ólafs saga
+                                    Tryggvasonar.</item>
+                                 <item>Fol. <locus from="9v" to="9v">9v</locus>: Drawing at the beginning of the chapter on Ólafur
+                                    Tryggvason's birth.</item>
+                                 <item>Fol. <locus from="79r" to="79r">79r</locus>: Drawing at the beginning of Ólafs saga
+                                    helga.</item>
+                              </list>
+                           </p>
+                        </decoNote>
+                        <decoNote type="initial" subtype="historiated">
+                           <p>Very big historied initials (8-27 lines) at the beginning of chapters or new stories: <list
+                                 type="simple">
+                                 <item>Fol. <locus from="5v" to="5v">5v</locus> (column 15): H (10 lines) at the beginning of
+                                    Ólafs saga Tryggvasonar.</item>
+                                 <item>Fol. <locus from="9v" to="9v">9v</locus> (column 31): A (9 lines) at the beginning of the
+                                    chapter on Ólafur Tryggvason's birth.</item>
+                                 <item>Fol. <locus from="75r" to="75r">75r</locus> (column 295): H (11 lines) at the beginning of
+                                    Hálfdanar þáttur svarta.</item>
+                                 <item>Fol. <locus from="76r" to="76r">76r</locus> (column 298): A (8 lines) at the beginning of
+                                    Haralds þáttur hárfagra.</item>
+                                 <item>Fol. <locus from="79r" to="79r">79r</locus> (column 310): Þ (14 lines) at the beginning of
+                                    Ólafs saga helga.</item>
+                                 <item>Fol. <locus from="145r" to="145r">145r</locus> (column 584): I (27 lines) at the beginning
+                                    of Sverris saga.</item>
+                                 <item>Fol. <locus from="164r" to="164r">164r</locus> (column 659): H (10 lines) at the beginning
+                                    of Hákonar saga Hákonarsonar.</item>
+                              </list> These letters contain drawings of people or events that are related to the saga, story or
+                              chapter that follows. Five colours are used with the same arrangement in every letter: yellow or
+                              brownish yellow in the letters themselves, grey-blue in the background, green and red in in the
+                              foliage decoration and green, red, browinsh red and greyish-blue in the illustrations. Letters,
+                              illustrations and decorations all have contours drawn with ink. </p>
+                           <p>Smaller historiated initials (5-6 lines) in some places: <list type="simple">
+                                 <item>Fol. <locus from="3v" to="3v">3v</locus> (column 8): N (5 lines) at the beginning of Hversu
+                                    Noregur byggðist.</item>
+                                 <item>Fol. <locus from="4v" to="4v">4v</locus> (column 11): Þ (5 lines) at the beginning of
+                                    Eiríks saga víðförla.</item>
+                                 <item>Fol. <locus from="13r" to="13r">13r</locus> (column 45): Þ (5 lines) at the beginning of
+                                    Jómsvíkinga saga.</item>
+                                 <item>Fol. <locus from="60v" to="60v">60v</locus> (column 237): A (6 lines) at the beginning of
+                                    Indriða þáttur ilbreiðs.</item>
+                                 <item>Fol. <locus from="65v" to="65v">65v</locus> (column 257): N (5 lines) at the beginning
+                                    of Ólafs saga Tryggvasonar.</item>
+                                 <item>Fol. <locus from="68r" to="68r">68r</locus> (column 267): S (5 lines) at the beginning of
+                                    Ólafs saga Tryggvasonar.</item>
+                                 <item>Fol. <locus from="69v" to="69v">69v</locus> (column 272): H (5 lines) at the beginning of
+                                    Orms þáttur Stórólfssonar.</item>
+                                 <item>Fol. <locus from="145r" to="145r">145r</locus> (column 583): H (5 lines) at the beginning
+                                    of Sverris saga's prologue.</item>
+                                 <item>Fol. <locus from="155r" to="155r">155r</locus> (column 623): E (6 lines) at the beginning
+                                    of Sverris saga.</item>
+                                 <item>Fol. <locus from="156v" to="156v">156v</locus> (column 630): H (5 lines) at the beginning
+                                    of Sverris saga.</item>
+                                 <item>Fol. <locus from="157v" to="157v">157v</locus> (column 634): Þ (5 lines) at the beginning of
+                                    Sverris saga.</item>
+                              </list> Three to five colours are used in each letter (red, brownish red, yellow, green and or
+                              grey-blue). The letters are in two different colours with some sort of decoration or pattern. </p>
+                        </decoNote>
+                        <decoNote type="initial" subtype="inhabited">
+                           <p>Middle-sized flourished initials (4-6 lines) or with drawings of various types of animals and
+                              monsters at every beginning of an important short story or new chapter. Three to four colours are
+                              used (red, brownish red, green and/or grey-blue) and the letters themselves are mostly two-coloured
+                              with same kind of decoration or pattern as the historiated initials of the same size. Insertion
+                              leaves <locus from="188r" to="210v">188-210</locus> contains big flourished initials with
+                              pictures of monsters and smaller flourished initials.</p>
+                        </decoNote>
+                        <decoNote type="initial" subtype="flourished">
+                           <p>Smaller flourished initials (3 lines), one-coloured with the flourish in another colour at most
+                              chapter beginnings.</p>
+                        </decoNote>
+
+                        <decoNote type="initial">
+                           <p>Unflourished initials on fols. <locus from="55v" to="59r">55v-59r</locus>, <locus from="75v" to="75v"
+                                 >75v</locus>, <locus from="76v" to="76v">76v</locus> and <locus from="211v" to="213v"
+                                 >211v-213v</locus>, probably not finished.</p>
+                        </decoNote>
+                        <decoNote type="secondary">
+                           <p>Blanks for initials and rubrics on fol. <locus from="186v" to="187v">186vb-187v</locus> and
+                              insertion leaf <locus from="204r" to="210v">204-210</locus>.</p>
+                           <p>Red colours on fol. <locus from="2r" to="3r">2r-3r</locus> and on instertion leaves <locus
+                                 from="188r" to="204v">188r-204v</locus> to drawn attention.</p>
+                        </decoNote>
+                        <decoNote type="secondary" subtype="rubric">
+                           <p>Red rubrics everywhere at the beginning of new stories or chapters.</p>
+                        </decoNote>
+
+                     </decoDesc>
+                     <additions ana="high">
+                        <p>Fols. <locus from="188r" to="210v">188-210</locus> are insertion leaves which <name type="person"
+                              key="ThoBjo004">Þorleifur Björnsson</name> in Reykhólar had someone write at some time during the <date
+                              from="1400" to="1499">15th century</date>.</p>
+                        <p>Comments in the margin — 1st volume: <list type="simple">
+                              <item>Reading variants: <locus from="76v" to="76v">76v</locus>.</item>
+                              <item>Scribal corrections: <locus from="15r" to="15r">15r</locus>, <locus from="16r" to="16r"
+                                    >16r</locus>, <locus from="29r" to="29r">29r</locus>, <locus from="59v" to="59v">59v</locus>,
+                                    <locus from="66r" to="66r">66r</locus>, <locus from="78r" to="78r">78r</locus>, <locus
+                                    from="116r" to="116r">116r</locus>.</item>
+                              <item>Later corrections: <locus from="12v" to="12v">12v</locus> (<name key="ArnMag001" type="person"
+                                    >Árni Magnússon</name>), <locus from="56r" to="56r">56r</locus>, <locus from="58r" to="58r"
+                                    >58r</locus>, <locus from="77v" to="77v">77v</locus>.</item>
+                              <item>Comments on text: <locus from="3v" to="3v">3v</locus>, <locus from="4r" to="4r">4r</locus>,
+                                    <locus from="8v" to="8v">8v</locus>, <locus from="9v" to="9v">9v</locus>, <locus from="11r"
+                                    to="11r">11r</locus>, <locus from="12v" to="12v">12v</locus>, <locus from="15v" to="15v"
+                                    >15v</locus>, <locus from="16r" to="16r">16r</locus>, <locus from="17v" to="17v">17v</locus>,
+                                    <locus from="18r" to="18r">18r</locus>, <locus from="19r" to="19r">19r</locus>, <locus
+                                    from="20r" to="20r">20r</locus>, <locus from="24v" to="24v">14v</locus>, <locus from="25v"
+                                    to="25v">25v</locus>, <locus from="27v" to="27v">27v</locus>, <locus from="29r" to="29r"
+                                    >29r</locus>, <locus from="30r" to="30r">30r</locus>, <locus from="31v" to="31v">31v</locus>,
+                                    <locus from="33r" to="33r">33r</locus>, <locus from="34v" to="34v">34v</locus>, <locus
+                                    from="35r" to="36v">35r-36v</locus>, <locus from="37v" to="38r">37v-38r</locus>, <locus
+                                    from="39r" to="39r">39r</locus>, <locus from="40v" to="42r">40v-42r</locus>, <locus from="44v"
+                                    to="44v">44v</locus>, <locus from="47r" to="49r">47r-49r</locus>, <locus from="51v" to="52r"
+                                    >51v-52r</locus>, <locus from="54r" to="54r">54r</locus>, <locus from="55v" to="57r"
+                                    >55v-57r</locus>, <locus from="58r" to="58r">58r</locus>, <locus from="59v" to="59v"
+                                    >59v</locus>, <locus from="60v" to="60v">60v</locus>, <locus from="62v" to="62v">62v</locus>,
+                                    <locus from="66r" to="66v">66r-v</locus>, <locus from="68v" to="69v">68v-69v</locus>, <locus
+                                    from="71v" to="72r">71v-72r</locus>, <locus from="73v" to="73v">73v</locus>, <locus from="74v"
+                                    to="75r">74v-75r</locus>, <locus from="76r" to="76r">76r</locus>, <locus from="78r" to="78r"
+                                    >78r</locus>, <locus from="81v" to="82r">81v-82r</locus>, <locus from="87r" to="87r"
+                                    >87r</locus>, <locus from="90r" to="90r">90r</locus>, <locus from="93v" to="93v">93v</locus>,
+                                    <locus from="111r" to="111r">111r</locus>.</item>
+                              <item>Comments of various types: <locus from="1r" to="1r">1r</locus>, <locus from="2r" to="2r"
+                                    >2r</locus>, <locus from="87r" to="87r">87r</locus>.</item>
+                              <item>Year count: <locus from="12v" to="13r">12v-13r</locus>, <locus from="15r" to="15r"
+                                 >15r</locus>, <locus from="18v" to="20r">18v-20r</locus>, <locus from="32v" to="32v">32v</locus>,
+                                    <locus from="33v" to="34v">33v-34v</locus>, <locus from="36r" to="36r">36r</locus>, <locus
+                                    from="38r" to="39v">38r-39v</locus>, <locus from="46r" to="46r">46r</locus>, <locus from="48r"
+                                    to="50v">48r-50v</locus>, <locus from="53r" to="53r">53r</locus>, <locus from="55r" to="57v"
+                                    >55r-57v</locus>, <locus from="58v" to="58v">58v</locus>, <locus from="69r" to="69v"
+                                    >69r-v</locus>.</item>
+                              <item>Provenance: <locus from="1v" to="1v">1v</locus>.</item>
+                              <item>Numbering in letters: <locus from="5v" to="5v">5v</locus>, <locus from="12v" to="12v"
+                                    >12v</locus>, <locus from="15r" to="15r">15r</locus>, <locus from="22r" to="22r">22r</locus>,
+                                    <locus from="25r" to="25r">25r</locus>, <locus from="26r" to="26v">26r-v</locus>, <locus
+                                    from="60r" to="60r">60r</locus>, <locus from="87r" to="87r">87r</locus>.</item>
+                              <item>Scribbling: <locus from="1r" to="1v">1r-v</locus>.</item>
+                              <item>Nota-marks: <locus from="12v" to="12v">12v</locus>, <locus from="15v" to="16v"
+                                 >15v-16v</locus>, <locus from="20r" to="20r">20r</locus>, <locus from="25r" to="25r">25r</locus>,
+                                    <locus from="26r" to="26r">26r</locus>, <locus from="27r" to="27v">27r-v</locus>, <locus
+                                    from="28v" to="28v">28v</locus>, <locus from="30r" to="30r">30r</locus>, <locus from="33r"
+                                    to="33v">33r-v</locus>, <locus from="35v" to="35v">35v</locus>, <locus from="36v" to="38r"
+                                    >36v-38r</locus>, <locus from="41r" to="41r">41r</locus>, <locus from="42r" to="42r"
+                                    >42r</locus>, <locus from="43r" to="43v">43r-v</locus>, <locus from="44v" to="44v"
+                                 >44v</locus>, <locus from="45v" to="46r">45v-46r</locus>, <locus from="47r" to="47v"
+                                    >47r-v</locus>, <locus from="49r" to="49r">49r</locus>, <locus from="50v" to="50v"
+                                 >50v</locus>, <locus from="52r" to="53r">52r-53r</locus>, <locus from="54r" to="54r">54r</locus>,
+                                    <locus from="57r" to="57v">57r-v</locus>, <locus from="59r" to="59r">59r</locus>, <locus
+                                    from="60r" to="60r">60r</locus>, <locus from="66r" to="66r">66r</locus>, <locus from="68r"
+                                    to="68r">68r</locus>, <locus from="72r" to="72r">72r</locus>, <locus from="73r" to="73r"
+                                    >73r</locus>, <locus from="78r" to="78r">78r</locus>, <locus from="81r" to="81r">81r</locus>,
+                                    <locus from="87r" to="87v">87r-v</locus>.</item>
+                              <item>Reference letters: <locus from="3r" to="4r">3r-4r</locus>, <locus from="6r" to="6r"
+                                 >6r</locus>, <locus from="7r" to="8v">7r-8v</locus>, <locus from="11v" to="12r">11v-12r</locus>,
+                                    <locus from="14v" to="15r">14v-15r</locus>, <locus from="16r" to="16r">16r</locus>, <locus
+                                    from="25r" to="26r">25r-26r</locus>, <locus from="27v" to="28v">27v-28v</locus>, <locus
+                                    from="29v" to="29v">29v</locus>, <locus from="32v" to="32v">32v</locus>, <locus from="35v"
+                                    to="35v">35v</locus>, <locus from="36v" to="36v">36v</locus>, <locus from="37v" to="38r"
+                                    >37v-38r</locus>, <locus from="40r" to="40v">40r-v</locus>, <locus from="42r" to="42r"
+                                    >42r</locus>, <locus from="43r" to="43r">43r</locus>, <locus from="45r" to="47v"
+                                    >45r-47v</locus>, <locus from="52v" to="52v">52v</locus>, <locus from="53v" to="53v"
+                                    >53v</locus>, <locus from="54v" to="54v">54v</locus>, <locus from="56r" to="57r"
+                                    >56r-57r</locus>, <locus from="60r" to="60v">60r-v</locus>, <locus from="62r" to="62r"
+                                    >62r</locus>, <locus from="63r" to="63r">63r</locus>, <locus from="64r" to="66v"
+                                    >64r-66v</locus>, <locus from="69r" to="71v">69r-71v</locus>, <locus from="75r" to="75r"
+                                    >75r</locus>, <locus from="76v" to="77r">76v-77r</locus>, <locus from="78r" to="78v"
+                                    >78r-v</locus>, <locus from="79v" to="82r">79v-82r</locus>, <locus from="83r" to="84r"
+                                    >83r-84r</locus>, <locus from="85r" to="85v">85r-v</locus>, <locus from="86v" to="87r"
+                                    >86v-87r</locus>, <locus from="90v" to="91r">90v-91r</locus>, <locus from="92v" to="93r"
+                                    >92v-93r</locus>, <locus from="98v" to="100r">98v-100r</locus>, <locus from="102r" to="103r"
+                                    >102r-103r</locus>, <locus from="104r" to="104r">104r</locus>, <locus from="105r" to="105r"
+                                    >105r</locus>, <locus from="106r" to="106v">106r-v</locus>, <locus from="108r" to="108r"
+                                    >108r</locus>, <locus from="109v" to="109v">109v</locus>, <locus from="111v" to="111v"
+                                    >111v</locus>, <locus from="114v" to="115r">114v-115r</locus>, <locus from="116r" to="116v"
+                                    >116r-v</locus>.</item>
+                              <item>Guide letters: <locus from="6r" to="7v">6r-7v</locus>, <locus from="69r" to="69r"
+                                    >69r</locus>.</item>
+                              <item>Symbols: <locus from="4v" to="4v">4v</locus>, <locus from="57r" to="57r">57r</locus>, <locus
+                                    from="60r" to="60r">60r</locus>, <locus from="61v" to="61v">61v</locus>, <locus from="64r"
+                                    to="64r">64r</locus>, <locus from="73v" to="73v">73v</locus>, <locus from="81r" to="81r"
+                                    >81r</locus>, <locus from="83v" to="83v">83v</locus>, <locus from="87r" to="87r">87r</locus>,
+                                    <locus from="88r" to="88r">88r</locus>, <locus from="96r" to="96r">96r</locus>, <locus
+                                    from="101v" to="101v">101v</locus>.</item>
+                           </list> Comments in the margin - 2nd volume: <list type="simple">
+                              <item>Scribal corrections: <locus from="136r" to="136r">136r</locus>, <locus from="138v" to="138v"
+                                    >138v</locus>, <locus from="141r" to="141r">141r</locus>, <locus from="143r" to="143r"
+                                    >143r</locus>, <locus from="148r" to="148r">148r</locus>, <locus from="174r" to="174v"
+                                    >174r-v</locus>, <locus from="181v" to="181v">181v</locus>, <locus from="188r" to="188r"
+                                    >188r</locus>, <locus from="203r" to="203r">203r</locus>, <locus from="206r" to="206r"
+                                    >206r</locus>, <locus from="208r" to="208r">208r</locus>.</item>
+                              <item>Later corrections: <locus from="130v" to="130v">130v</locus>, <locus from="146v" to="146v"
+                                    >146v</locus>, <locus from="208v" to="208v">208v</locus>, <locus from="218r" to="218r"
+                                    >218r</locus>, <locus from="220r" to="220r">220r</locus>.</item>
+                              <item>Additions: <locus from="188r" to="188r">188r</locus>, <locus from="219v" to="219v"
+                                    >219v</locus> (possibly <name key="JonFin001" type="person">Jón Finnsson</name> í Flatey),
+                                    <locus from="222r" to="222r">222r</locus> (scribe), <locus from="225r" to="225r">225r</locus>
+                                 (scribe).</item>
+                              <item>Comments on text: <locus from="121r" to="121r">121r</locus>, <locus from="122r" to="122r"
+                                    >122r</locus>, <locus from="123v" to="123v">123v</locus>, <locus from="125v" to="125v"
+                                    >125v</locus>, <locus from="130v" to="130v">130v</locus>, <locus from="134r" to="134r"
+                                    >134r</locus>, <locus from="135r" to="135r">135r</locus>, <locus from="136r" to="136r"
+                                    >136r</locus>, <locus from="139v" to="139v">139v</locus>, <locus from="144r" to="144r"
+                                    >144r</locus>, <locus from="153v" to="153v">153v</locus>, <locus from="171r" to="171r"
+                                    >171r</locus>, <locus from="187v" to="187v">187v</locus>, <locus from="189r" to="189v"
+                                    >189r-v</locus>, <locus from="191v" to="191v">191v</locus>, <locus from="204r" to="204r"
+                                    >204r</locus>, <locus from="213r" to="213r">213r</locus>, <locus from="215v" to="215v"
+                                    >215v</locus>, <locus from="217v" to="217v">217v</locus> (<name key="ThoTor001" type="person"
+                                    >Þormóður Torfason</name>), <locus from="216v" to="218v">216v-218v</locus>, <locus from="219v"
+                                    to="219v">219v</locus>, <locus from="220v" to="220v">220v</locus>, <locus from="221v"
+                                    to="222v">221v-222v</locus>.</item>
+                              <item>Comments of various types: <locus from="121v" to="121v">121v</locus>, <locus from="188r"
+                                    to="188r">188r</locus>, <locus from="190v" to="190v">190v</locus>, <locus from="196r"
+                                    to="196r">196r</locus>, <locus from="204r" to="204r">204r</locus>, <locus from="205r"
+                                    to="205v">205r-v</locus>, <locus from="209r" to="209r">209r</locus> (possibly a fragment of a
+                                 poem), <locus from="209r" to="210v">209r-210v</locus>, <locus from="220v" to="220v">220v</locus>,
+                                    <locus from="225v" to="225v">225v</locus>.</item>
+                              <item>Marginal drawing: <locus from="199r" to="199r">199r</locus>.</item>
+                              <item>References: <locus from="140r" to="140r">140r</locus>.</item>
+                              <item>Year count: <locus from="215v" to="221v">215v-221v</locus>, <locus from="223r" to="224r"
+                                    >223r-224r</locus>.</item>
+                              <item>Names: <locus from="133v" to="133v">133v</locus>, <locus from="208r" to="208r"
+                                 >208r</locus>.</item>
+                              <item>Scribbling: <locus from="150v" to="150v">150v</locus>, <locus from="178v" to="178v"
+                                    >178v</locus> (villuletur?), <locus from="189r" to="189r">189r</locus>, <locus from="190v"
+                                    to="190v">190v</locus>, <locus from="198v" to="198v">198v</locus>, <locus from="201r"
+                                    to="201r">201r</locus>, <locus from="204r" to="204r">204r</locus>, <locus from="210v"
+                                    to="210v">210v</locus>, <locus from="219v" to="219v">219v</locus> (villuletur?), <locus
+                                    from="220r" to="220r">220r</locus>.</item>
+                              <item>Nota-marks: <locus from="129v" to="129v">129v</locus>, <locus from="171v" to="171v"
+                                    >171v</locus>, <locus from="189v" to="189v">189v</locus>, <locus from="215v" to="216r"
+                                    >215v-216r</locus>, <locus from="217v" to="220v">217v-220v</locus>, <locus from="221v"
+                                    to="222v">221v-222v</locus>, <locus from="223v" to="223v">223v</locus>, <locus from="224v"
+                                    to="225r">224v-225r</locus>.</item>
+                              <item>Reference letters: <locus from="118r" to="120r">118r-120r</locus>, <locus from="121v"
+                                    to="124v">121v-124v</locus>, <locus from="125v" to="127v">125v-127v</locus>, <locus
+                                    from="128v" to="128v">128v</locus>, <locus from="129v" to="129v">129v</locus>, <locus
+                                    from="130v" to="132r">130v-132r</locus>, <locus from="133r" to="133r">133r</locus>, <locus
+                                    from="134r" to="134r">134r</locus>, <locus from="135r" to="136v">135r-136v</locus>, <locus
+                                    from="138v" to="141r">138v-141r</locus>, <locus from="142r" to="142r">142r</locus>, <locus
+                                    from="149v" to="149v">149v</locus>, <locus from="151v" to="152r">151v-152r</locus>, <locus
+                                    from="154v" to="154v">154v</locus>, <locus from="160r" to="160r">160r</locus>, <locus
+                                    from="164r" to="164r">164r</locus>, <locus from="166r" to="166r">166r</locus>, <locus
+                                    from="167v" to="169r">167v-169r</locus>, <locus from="170r" to="171r">170r-171r</locus>,
+                                    <locus from="172v" to="173r">172v-173r</locus>, <locus from="174v" to="176r"
+                                 >174v-176r</locus>, <locus from="177r" to="179v">177r-179v</locus>, <locus from="180v" to="183v"
+                                    >180v-183v</locus>, <locus from="184v" to="187r">184v-187r</locus>, <locus from="188r"
+                                    to="188r">188r</locus>, <locus from="189r" to="190v">189r-190v</locus>, <locus from="191v"
+                                    to="192v">191v-192v</locus>, <locus from="193v" to="194v">193v-194v</locus>, <locus
+                                    from="195v" to="196r">195v-196r</locus>, <locus from="197r" to="198r">197r-198r</locus>,
+                                    <locus from="199r" to="200v">199r-200v</locus>, <locus from="201v" to="202r"
+                                 >201v-202r</locus>, <locus from="203r" to="204r">203r-204r</locus>, <locus from="207r" to="207r"
+                                    >207r</locus>, <locus from="208r" to="208r">208r</locus>, <locus from="209r" to="209r"
+                                    >209r</locus>.</item>
+                              <item>Guide letters: <locus from="123v" to="124r">123v-124r</locus>, <locus from="126v" to="126v"
+                                    >126v</locus>, <locus from="191v" to="192r">191v-192r</locus>, <locus from="193v" to="193v"
+                                    >193v</locus>, <locus from="195v" to="195v">195v</locus>, <locus from="196v" to="197v"
+                                    >196v-197v</locus>, <locus from="198v" to="198v">198v</locus>, <locus from="202r" to="202v"
+                                    >202r-v</locus>.</item>
+                              <item>Symbols: <locus from="122v" to="122v">122v</locus>, <locus from="127v" to="127v">127v</locus>,
+                                    <locus from="129v" to="129v">129v</locus>, <locus from="166r" to="166r">166r</locus>, <locus
+                                    from="168r" to="168v">168r-v</locus>, <locus from="169v" to="170v">169v-170v</locus>, <locus
+                                    from="173v" to="173v">173v</locus>, <locus from="178v" to="179r">178v-179r</locus>, <locus
+                                    from="184r" to="184r">184r</locus>, <locus from="189r" to="189v">189r-v</locus>, <locus
+                                    from="190v" to="191r">190v-191r</locus>, <locus from="192v" to="192v">192v</locus>, <locus
+                                    from="193v" to="193v">193v</locus>, <locus from="198v" to="198v">198v</locus>, <locus
+                                    from="203r" to="203r">203r</locus>, <locus from="205r" to="205r">205r</locus>, <locus
+                                    from="215r" to="215r">215r</locus>, <locus from="219r" to="224v">219r-224v</locus>.</item>
+                           </list>
+                        </p>
+                     </additions>
+                     <bindingDesc>
+                        <binding ana="decorative" contemporary="false">
+                           <p>Both volumes are bound in the same way using light brown leather on card boards. Embossed with gold
+                              at the edges with patterns of straight lines and foliage. There is golden imprint on the spine:
+                                 <q>CODEX FLATEYENSIS</q> and <q>PARS I</q> or <q>PARS II</q>, respectively. The pastedown is made
+                              out of marbeled paper.</p>
+                        </binding>
+                     </bindingDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1387" notAfter="1394"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <!-- this section needs revision -->
+                        <p><name type="organisation" role="owner" key="AMIS">Stofnun Árna Manússonar</name> received the manuscript on
+                              the <date when="1971-04-21">21st of April 1971</date>. 
+                           <name type="person" key="Friooo005" role="owner">King Frederik III</name> got the manuscript from Brynjólfur
+                              Seinsson in <date when="1656">1656</date>.
+                           <name key="BrySve001" type="person" role="owner">Brynjólfur Sveinsson</name> was given the manuscript by Jón
+                              Finnson.
+                           <name key="JonFin001" type="person" role="owner">Jón Finnsson</name> was given the manuscript by his
+                              grandfather, <name type="person" key="JonBjo007" role="owner">Jóni Björnssyni bóndi í <name
+                                 type="place">Flatey</name></name>. The manuscript was in all likelyhood inherited in the family
+                           of Jón Björnsson: <name key="BjoTho003" type="person" role="owner">Björn Þorleifsson á <name
+                                 type="place">Reykhólum</name></name>, <name type="person" key="ThoBjo004" role="owner">Þorleifur
+                              hirðstjóri Björnsson</name>. <name type="person" key="ThoBjo004" role="commissioner">Þorleifur
+                                 Björnsson</name> most likely commissioned fols. <locus from="188r" to="210v">188-210 </locus>.
+                           <name key="BjoTho002" role="owner" type="person">Björn ríki Þorleifsson hirðstjóri á <name type="place"
+                                 >Skarði</name></name>.
+                           <name key="ThoArn003" type="person" role="owner">Þorleifur Árnason</name> bought half of <name type="place"
+                                 >Víðidalstunga</name> and its property from <name type="person"
+                              role="owner" key="GudJon045">Guðný Jónssdóttir</name>.
+                           <name type="person" key="JonHak002" role="owner">Jón Hákonarson í <name
+                              type="place">Víðidalstungu</name></name>. It is possible to assume that 
+                           <name key="OddEin001" type="person" role="other">Oddur Einarsson</name> had the
+                              manuscript on loan in <name type="place">Skálholt</name> for some years around <date when="1612"
+                                 >1612</date> [cf. handrit.is].</p>
+                     </provenance>
+                  </history>
+               </msPart>
+
+
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:54.563+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:04.043+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T15:35:08.226+02:00" who="#EAH"> Inserted origDate and origPlace elements based on previous data,
+            now removed. </change>
+         <change when="2011-05-07T18:49:47.037+02:00" who="#EAH"> Extracted pagination and page dimension data from previous
+            version. </change>
+         <change when="2011-05-07T19:18:02.884+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-07-15" who="#SMM">Translated based on Icelandic record on handrit.is.</change>
+         <!-- rubrics, incipits and explicits in modern Icelandic spelling!-->
+         <change when="2013-07-17" who="#BES">Adopted markeup to FASNL standards. Missing information added from facsimile
+            ed.</change>
+         <!-- incipits and explicits are in standadized spelling (not original!)-->
+         <change when="2013-08-26" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

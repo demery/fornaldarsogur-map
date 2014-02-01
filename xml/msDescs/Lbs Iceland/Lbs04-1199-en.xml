@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1199 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1199-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1199 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Edda Snorra Sturlusonar lögsögumanns.</titlePart>
+                     <titlePart> Samantekin árið 1215 ásamt ýmsum öðrum
+                        fornfræðaritlingum. Samanfest í eitt á Flatey á Breiðafirði árið
+                        1830.</titlePart>
+                     <note>
+                        The titlepage is on the former of two later added leaves Ffl. 4r with the
+                           text in the hand of síra Ólafs Sívertsen í Flatey
+                     </note>
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="5"/>
+                           <num type="book-block" value="220"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="23 38">
+                           <num type="wpl" atLeast="10" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="115"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="9">
+                     <summary>Various hands</summary>
+                     <handNote scribeRef="#" scope="major" script="unknown"/>
+                  </handDesc>
+                  <additions>
+                     <p>There are both older and younger flyleaves addes to the manuscript. Front flyleaves 1-2 have
+                        clearly previously been a binding, as evidenced by the traces of paste on them. 
+                        The same can be said of the end flyleaves 2-3.</p>
+                     <p>
+                        <locus from="0000v-FB" facs="#Lbs04-1199-0000v-FB" to="0000v-FB">Front
+                           flyleaf</locus> is a letter dated 14. apríl 1841.</p>
+                     <p>Fremra saurblað <locus from="0001r-FFl" facs="#Lbs04-1199-0001r-FFl" to="0001v-FFl">1</locus> (laust spjaldblað) er bréf dagsett 30. apríl
+                        1841.</p>
+                     <p>Front flyleaves 4-5 are younger. On the front leaf <locus from="0004r-FFl" facs="#Lbs04-1199-0004r-FFl" to="0004r-FFl">4r</locus> stands the title:
+                           <quote>Edda Snorra Sturlusonar lögsögumanns. Samantekin árið 1215 ásamt
+                           ýmsum öðrum fornfræðaritlingum. Samanfest í eitt á Flatey á Breiðafirði
+                           árið 1830.</quote>
+                     </p>
+                     <p>On the front flyleaf <locus from="0005r-FFl" facs="#Lbs04-1199-0005r-FFl" to="0005v-FFl">5 </locus> is a summary of the manuscript contents and
+                        and a titlepage in the hand of síra <name type="person" key="OlaSiv001">Ólafs
+                           Sívertsen</name> í <placeName> Flatey </placeName>
+                     </p>
+                     <p>On back flyleaf <locus from="9902v-RFl" facs="#Lbs04-1199-9902v-RFl" to="9902v-RFl">2v</locus> there is a comment by síra Ólafs Sívertsen concerning
+                        the manuscript</p>
+                     <p>On back flyleaf <locus from="9903r-RFl" facs="#Lbs04-1199-9903r-RFl" to="9903v-RFl">3</locus> is a letter dated 13. apríl 1841.</p>
+                     <p>
+                        <locus from="9999r-RB" facs="#Lbs04-1199-9999r-RB" to="9999r-RB"></locus> back cover leaf is a letter.</p>
+                  </additions>
+                  <bindingDesc>
+                     <p>Leather binding, with printed text and loose spine</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     
+                     <origDate from="1650" to="1860">[1650-1860?]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>From the collection of <name type="person" key="EirKul001">Eiríks Kúld</name> 8/5 94
+                        (front flyleaf 3r)</p>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1199 4to part I.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="formal nafnfr">
+                        <locus from="1r" facs="#Lbs04-1199-0001r" to="1v">1r-1v</locus>
+                        <title type="supplied">Edda með sínum ævintýrum</title>
+                        <note>"Preface I" of Snorra-Eddu (see Anthony Faulkes 1979)</note>
+                     </msItem>
+                     <msItem n="2" class="sagnps">
+                        <locus from="2r" facs="#Lbs04-1199-0002r" to="2r">2r</locus>
+                        <title type="supplied">Frásögn sjálfs Eddu autors</title>
+                     </msItem>
+                     <msItem n="3" class="sagnps">
+                        <locus from="2r" facs="#Lbs04-1199-0002r" to="2v">2</locus>
+                        <title type="supplied">Önnur innleiðsla</title>
+                     </msItem>
+                     <msItem n="4" class="formal sagnps">
+                        <locus from="3r" facs="#Lbs04-1199-0003r" to="8v">3r-8v</locus>
+                        <title type="supplied">Formáli nýgjörður</title>
+                        <note>"Preface II" of Snorra-Eddu (see Anthony Faulkes 1979)</note>
+                     </msItem>
+                     <msItem n="5" class="edd godfrn fas">
+                        <locus from="10r" facs="#Lbs04-1199-0010r" to="39v">10r-39v</locus>
+                        <title type="uniform">Edda</title>
+                        <note>
+                           <locus from="35r" to="39v"/>
+                           <title type="uniform">Volsungasaga</title>
+                           <note>A part of the saga from the Poetic-Edda's Skáldskaparmál</note>
+                        </note>
+                        <note>
+                           <list type="simple">
+                              <item>On leaf 9v in the hand of síra Ólafs Sívertsen there stands: <quote>Edda
+                                    Snorra Sturlusonar lögsögumanns. Samantekin anno xti
+                                    1215</quote>
+                              </item>
+                              <item>Laufás-Edda</item>
+                           </list>
+                        </note>
+                     </msItem>
+                     <msItem n="6" class="sagnps">
+                        <locus from="41r" facs="#Lbs04-1199-0041r" to="48r">41r-48r</locus>
+                        <title type="supplied">Bylting Cromwells</title>
+                        <note>
+                           <list type="simple">
+                              <item>About Cromwell's revolution in England and Charles I</item>
+                              <item>Without a title in the manuscript</item>
+                              <item>Blue colophon seems to be missing on account of cutting</item>
+                           </list>
+                        </note>
+                     </msItem>
+                     <msItem n="7" class="edd">
+                        <locus from="49r" facs="#Lbs04-1199-0049r" to="53v">49r-53v</locus>
+                        <title type="uniform">Hávamál</title>
+                     </msItem>
+                     <msItem n="8" class="gat">
+                        <locus from="53v" facs="#Lbs04-1199-0053v" to="55r">53v-55r</locus>
+                        <title type="uniform">Heiðreks gátur</title>
+                     </msItem>
+                     <msItem n="9" class="gat">
+                        <locus from="55v" facs="#Lbs04-1199-0055v" to="55v">55v</locus>
+                        <title type="supplied">Gáta</title>
+                     </msItem>
+                     <msItem n="10" class="bragfr">
+                        <locus from="56r" facs="#Lbs04-1199-0056r" to="63v">56r-63v</locus>
+                        <title type="uniform">Háttatal</title>
+                     </msItem>
+                     <msItem n="11" class="bragfr">
+                        <locus from="64r" facs="#Lbs04-1199-0064r" to="67v">64r-67v</locus>
+                        <title type="uniform">Háttalykill hinn skemmri</title>
+                     </msItem>
+                     <msItem n="12" class="bragfr">
+                        <locus from="67v" facs="#Lbs04-1199-0067v" to="70v">67v-70v</locus>
+                        <title type="supplied">Bragarhættir á rímum</title>
+                     </msItem>
+                     <msItem n="13" class="kvad sidfr">
+                        <locus from="72r" facs="#Lbs04-1199-0072r" to="75v">72r-75v</locus>
+                        <title type="uniform">Hugsvinnsmál</title>
+                        <note>Íslensk gerð Disticha Catonis</note>
+                     </msItem>
+                     <msItem n="14" class="sidfr">
+                        <locus from="75v" facs="#Lbs04-1199-0075v" to="79v">75v-79v</locus>
+                        <title type="supplied">Skynsamlegar spurningar og andsvör</title>
+                     </msItem>
+                     <msItem n="15" class="edd">
+                        <locus from="80r" facs="#Lbs04-1199-0080r" to="80v">80r-80v</locus>
+                        <title type="uniform">Sigurdrífumál</title>
+                        <note>Part of the poem</note>
+                     </msItem>
+                     <msItem n="16" class="run kvsk edd">
+                        <locus from="81r" facs="#Lbs04-1199-0081r" to="89v">81r-89v</locus>
+                        <title type="supplied">Nokkuð lítið samtak um rúnir</title>
+                     </msItem>
+                     <msItem n="17" class="edd">
+                        <locus from="90r" facs="#Lbs04-1199-0090r" to="91v">90r-91v</locus>
+                        <title type="uniform">Völuspá</title>
+                     </msItem>
+                     <msItem n="18" class="edd">
+                        <locus from="92r" facs="#Lbs04-1199-0092r" to="93r">92r-93r</locus>
+                        <title type="uniform">Vafþrúðnismál</title>
+                     </msItem>
+                     <msItem n="19" class="helgkv leidkv midalkv">
+                        <locus from="93r" facs="#Lbs04-1199-0093r" to="95v">93r-95v</locus>
+                        <title type="uniform">Sólarljóð</title>
+                     </msItem>
+                     <msItem n="20" class="godfrn">
+                        <locus from="96r" facs="#Lbs04-1199-0096r" to="100r">96r-100r</locus>
+                        <title type="uniform">Edda</title>
+                        <note>
+                           <list type="simple">
+                              <item>Gylfaginning</item>
+                              <item>Title in the manuscript illegible on account of cutting</item>
+                              <item>Only part of the work</item>
+                           </list>
+                        </note>
+                     </msItem>
+                     <msItem n="21" class="ordsk">
+                        <locus from="101r" facs="#Lbs04-1199-0101r" to="110r">101r-110r</locus>
+                        <title type="supplied">Réttmæli úr norrænu</title>
+                        <note>Many blanks spaces on the leaves, possibly intended to be filled in at a later time</note>
+                     </msItem>
+                     <msItem n="22" class="nafsk ordsk">
+                        <locus from="111r" facs="#Lbs04-1199-0111r" to="132v">111r-132v</locus>
+                        <title type="supplied">Mannanöfn og merking þeirra</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="132"/>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                     <handDesc hands="4">
+                        <summary>Four hands. Scribes:</summary>
+                        <handNote scribeRef="#" scope="major" script="other">I. Unknown scribe (1r-8v, 10r-33v,
+                           34r-39v, 41r-48r, 49r-55v, 64r-70v, 72r-100r, 101r-110r,
+                           111r-132v)</handNote>
+                        <handNote scribeRef="unknown" scope="minor" script="hum cursiva">II.
+                           Unknown scribe, 34r-39v</handNote>
+                        <handNote scribeRef="#" scope="minor" script="other">III. Unknown scribe
+                           (56r-63v)</handNote>
+                        <handNote scribeRef="#OlaSiv001" scope="minor" script="other">IV. Síra <name type="person" key="OlaSiv001"> Ólafur Sívertsen</name> (9v,
+                           34r-39v)</handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote type="initial">Many decorated initials</decoNote>
+                        <decoNote type="initial">Ornamented initials: <locus from="49r" facs="#Lbs04-1199-0049r" to="49r">49r</locus>, <locus from="53v" facs="#Lbs04-1199-0053v" to="53v">53v</locus>, <locus from="82v" facs="#Lbs04-1199-0082v" to="82v">82v</locus>, <locus from="89v" facs="#Lbs04-1199-0089v" to="89v">89v</locus>
+                        </decoNote>
+                     </decoDesc>
+                     <additions>
+                        <p>Leaves <locus from="34r" facs="#Lbs04-1199-0034r" to="39v">34-39</locus>
+                           have been added in the hand of síra <name type="person" key="OlaSiv001">Ólafs
+                              Sívertsen</name>
+                        </p>
+                        <p>Páll Eggert Ólason points out in the catalogue that hand I is similar to
+                           that of Hákon Ormsson sýslumaður (1614 - 13. Nov.
+                           1656)</p>
+                        <p>There are many marginal comments in the Edda section of the mnauscript.
+                           In the summary on the front flyleaf <locus from="0005r-FFl" facs="#Lbs04-1199-0005r-FFl" to="0005r-FFl">5r </locus>
+                           Gunnar Pálsson is attributed as the source</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate from="1650" to="1860">[1650-1860?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1199 4to part II.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="mals kvad">
+                        <locus from="133r" facs="#Lbs04-1199-0133r" to="137r">133r-137r</locus>
+                        <title type="supplied">Orðskviðir og heilræði</title>
+                        <note>
+                           <list type="simple">
+                              <item>Without a title in the manuscript</item>
+                              <item>Aphorisms and proverbs in poetry and alphabetic order. Occasional explanations in Latin. Attributed to Magnúss
+                                 Jónsson prúði in the catalogue</item>
+                           </list>
+                        </note>
+                     </msItem>
+                     <msItem n="2" class="edd">
+                        <locus from="137v" facs="#Lbs04-1199-0137v" to="140v">137v-140v</locus>
+                        <title type="uniform">Hávamál</title>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="8"/>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <summary>One hand</summary>
+                        <handNote scribeRef="#" scope="major" script="other"/>
+                     </handDesc>
+                     <additions>
+                        <list type="simple">
+                           <item>In the catalogue the hand in this part of the manuscript is said to be from 1700</item>
+                           <item>
+                              <quote>Málshættir</quote>. Added in a different hand to that mentioned
+                              on leaf <locus from="133r" facs="#Lbs04-1199-0133r" to="133r">133r </locus>
+                           </item>
+                        </list>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate from="1680" to="1720">[1680-1720?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1199 4to part III.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="heim blek list">
+                        <locus from="141r" facs="#Lbs04-1199-0141r" to="162v">141r-162v</locus>
+                        <title type="supplied">Um farva og blek</title>
+                        <note>The name of the author (Alexius Pedemontanus) is the pseudonym or artistic name of
+                           Girolamo Ruscelli, d. 1566</note>
+                     </msItem>
+                     <msItem n="2" class="lakn tjodfr">
+                        <locus from="163r" facs="#Lbs04-1199-0163r" to="163r">163r-163r</locus>
+                        <title type="supplied">Brennivínsdyggðir</title>
+                     </msItem>
+                     <msItem n="3" class="tjodfr matr">
+                        <locus from="163r" facs="#Lbs04-1199-0163r" to="163v">163r-163v</locus>
+                        <title type="supplied">Um edik</title>
+                     </msItem>
+                     <msItem n="4" class="tjodfr matr">
+                        <locus from="163v" facs="#Lbs04-1199-0163v" to="163v">163v-163v</locus>
+                        <title type="supplied">Að sjóða lög eða laka</title>
+                     </msItem>
+                     <msItem n="5" class="tjodfr matr">
+                        <locus from="164r" facs="#Lbs04-1199-0164r" to="164r">164r-164r</locus>
+                        <title type="supplied">Ediksgerð</title>
+                     </msItem>
+                     <msItem n="6" class="tjodfr matr">
+                        <locus from="164r" facs="#Lbs04-1199-0164r" to="164r">164r-164r</locus>
+                        <title type="supplied">Edikstilreiðsla</title>
+                     </msItem>
+                     <msItem n="7" class="tjodfr matr">
+                        <locus from="164r" facs="#Lbs04-1199-0164r" to="164v">164r-164v</locus>
+                        <title type="supplied">Um matreiðslu eggja</title>
+                        <note>Several methods, each with a title but without a common title in the manuscript
+                        </note>
+                     </msItem>
+                     <msItem n="8" class="heim blek list">
+                        <locus from="165r" facs="#Lbs04-1199-0165r" to="195r">165r-195r</locus>
+                        <title type="supplied">Konstrík Illuminerbók</title>
+                     </msItem>
+                     <msItem n="9" class="fisk atv lakn heims tjodfr">
+                        <locus from="195v" facs="#Lbs04-1199-0195v" to="196v">195v-196v</locus>
+                        <title type="supplied">Nokkuð um fiskirí</title>
+                        <note>Advice on fishing and various other pieces of wise counsel</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="56"/>
+                           </support>
+                           <foliation> Old foliations 13-40 (147r-160v), 1-57 (165r-193r).
+                           </foliation>
+                        </supportDesc>
+                     </objectDesc>
+                     <handDesc hands="2">
+                        <summary>Two hands. Scribes:</summary>
+                        <handNote scribeRef="#PalBjo001" scope="major" script="other">I. Síra <name type="person" key="PalBjo001">Páll Björnsson</name> í <placeName>
+                              Selárdal </placeName> (149v-164v, 173r-188v, 191r-194v)</handNote>
+                        <handNote scribeRef="#" scope="minor" script="other">II. Unknown scribe (141r-148v,
+                           165r-172v, 189r-190v, 195r-196v)</handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote type="initial">Decorated initials on leaves <locus from="141r" facs="#Lbs04-1199-0141r" to="141r">141r </locus> og <locus from="165r" facs="#Lbs04-1199-0165r" to="165r"> 165r </locus> which are
+                           title leaves</decoNote>
+                     </decoDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate from="1650" to="1750">[1650-1750?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>Lbs 1199 4to part IV.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem class="alf">
+                        <locus from="197r" facs="#Lbs04-1199-0197r" to="220v">197r-220v</locus>
+                        <title type="supplied">Alfræði</title>
+                        <note>Various pieces of learned writing</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="24"/>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <summary>One hand</summary>
+                        <handNote scribeRef="#" scope="major" script="other"/>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        
+                        <origDate notBefore="1700" notAfter="1799">[1700-1799?]</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:40.462+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:52.629+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:10.988+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:44.506+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-09-13" who="#SK">added some information from the manuscript itself
+            concerning the fas-items in the Poetic-Edda.</change>
+         <!-- Not a real fas items only some intertwined in the edda-text -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

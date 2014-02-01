@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 824 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0824-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 824 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="22r"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="22r" to="31r"/>
+                     <title type="uniform">Sigurgarðs saga og Valbrands</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="forns">
+                     <locus from="31v" to="40r"/>
+                     <title type="uniform">Haralds saga Hrings bana</title>
+                     <rubric>Sagan af Haraldi Hringsbana</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="40r" to="49r"/>
+                     <title type="uniform">Elís saga og Rósamundu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="49r" to="56v"/>
+                     <title type="uniform">Fertrams saga og Platós</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="riddst" defective="true">
+                     <locus from="56v" to="77r"/>
+                     <title type="uniform">Líkafróns saga og kappa hans</title>
+                     <note>Missing the ending</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="77r" to="94r"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <rubric>Saga af Völsunga og Ragnari loðbrók</rubric>
+                     <note>Chapter 1 - 40</note>
+                     <explicit> ... Hann mælti: "Þér skuluð berja þá grjóti í hel". So var og gjört
+                        og þá flugu úr öllum áttum steinar að þeim og varð það þeim að
+                        aldurlagi."</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="94r" to="103"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <note>Chapter 41 - 60</note>
+                     <incipit>Heimir í Hlyndölum spyr nú þessi tíðendi ...</incipit>
+                     <explicit> ... Þetta þótte mönnum undarlegt og sögðu síðan frá öðrum mönnum og
+                        endar hér so að segja af Ragnari og sonum hans</explicit>
+                     <colophon>Krákumál er sumir kalla Loðbrókarkviðu, og h... sem eftir
+                        fylgir.</colophon>
+                     <note>Krákumál seems to have at one time followed on from here but does not
+                        anymore.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="103"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="164"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Dating from the time of cataloguing, on every tenth leaf. Leaf 76 is
+                           missing but an empty leaf, a blue one, has been added in its place at the time of
+                           binding</foliation>
+                        <condition ana="poor">Old repair</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="43 48">
+                           <num type="wpl" atLeast="15" atMost="23"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="cursiva">cursiva and hum cursiva</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>A list of contents on front-flyleaf 2v and on front-flyleaf 2r:
+                           Sögusafn </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Library binding, rexine and paper on paper boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <!--<origPlace key=""></origPlace>-->
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:48.585+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-06" who="#SK">Added items and classes and other information from the
+            P.E.Ó.-catalogue</change>
+         <change when="2012-08" who="#SK">Added locus layout and other information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 3625 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-3625-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 3625 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <note>The first two leaves containing the title page, a table of contents and the beginning of 
+                        <title type="uniform">Þorsteins þáttur bæjarmagns</title> are an addition in the hand of 
+                        <name type="person" key="HalGud002">Halldór Guðmundsson</name></note>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" to="9r">2r-9r</locus>
+                     <title ref="#ththb" type="uniform">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Þorsteini bæjarmagn</rubric>
+                     <note>Fol. 1r is a title page, table of contents on fol. 1v</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9r" to="24r">9r-24r</locus>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Eigli einhenta og Ásmundi berserkjabana</rubric>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="24r" to="47r">24r-47r</locus>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Hrólfi Gautrekssyni</rubric>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="47r" to="62r">47r-62r</locus>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Skafnatungs þáttur</rubric>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="62r" to="72v">62r-72v</locus>
+                     <title type="uniform">Gunnars saga Keldugnúpsfífls</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Gunnari Keldugnúpsfífli</rubric>
+                  </msItem>
+                  <msItem n="6" class="avis">
+                     <locus from="72v" to="83v">72v-83v</locus>
+                     <title type="uniform">Skanderberg saga fursta</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Schanderberg, þeim nafnfræga fursta í Epíró</rubric>
+                     <note>Incorrectly bound. One folio of the saga is bound with Nikulás saga
+								leikara (fol. 85). Correct order is fol. 81v, 85v, 85r, 83r. Fol. 82, part of Nikulás saga leikara, is upside down.</note>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="84r" to="94r">84r-94r</locus>
+                     <title type="uniform">Nikulás saga leikara</title>
+                     <rubric>Saga af Nikulási leikara</rubric>
+                     <note>Wrongly bound. One folio of the saga is bound with Skanderberg saga fursta
+								fursta (fol. 82). Correct order is fol. 84v, 82v, 82r, 86r. Fol. 85, part of Skanderberg saga fursta, is upside down.</note>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="94v" to="111v">94v-111v</locus>
+                     <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefur upp sögu af Þjalar Jóni</rubric>
+                     <note>End missing</note>
+                  </msItem>
+                  <msItem n="9" class="ridd" defective="true">
+                     <locus from="112r" to="142r">112r-142r</locus>
+                     <title type="uniform">Úlfars saga sterka</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">[h]ans góða og guðhrædda föður</incipit>
+                     <note>Beginning missing</note>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="142r" to="159r">142r-159r</locus>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Ólöfu dóttur Pippins kóngs af Frakklandi</rubric>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="159v" to="184r">159v-184r</locus>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast sagan af Sturlaugi starfsama</rubric>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="184r" to="243r">184r-243r</locus>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Hér hefur Göngu Hrólfs sögu</note>
+                     <note>End missing</note>
+                     </msItem>
+                  <msItem n="13" defective="true" class="laus">
+                        <locus from="243r" facs="#Lbs04-3625-0243r" to="243r">243r</locus>
+                     <title type="supplied">Vísa</title>
+                     <textLang mainLang="non"/>
+                        <incipit>Þessi penni þóknast mér</incipit>
+                        <note>Fol. <locus>243</locus> is glued onto a younger folio on which (<locus>243v</locus>) there is a poem without a title by a younger scribe.</note>
+                     </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="243"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="146"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag">
+									<p>Traces of old pagination</p>
+								</foliation>
+							   <foliation ana="later pag"/>
+                        <condition ana="good">
+									<p>Missing back of manuscript as well as material between folios 111-112 and perhaps more.</p>
+									<p>Writing has been pasted over in some places</p>
+								</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="32">
+                           <num type="wpl" atLeast="10" atMost="14"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#HalGud002" scope="minor" script="unknown">Folios 1-2</handNote>
+							<handNote scribeRef="unknown" scope="major" script="unknown"/>
+						</handDesc>
+                  <decoDesc ana="medium">
+							<decoNote type="initial">Decorated letters throughout</decoNote>
+						</decoDesc>
+                  <additions ana="medium">
+                     <p>Folios 1-2 are insertion leaves (in the hand of <name type="person" key="HalGud002">Halldór Guðmundsson</name>) where folios were missing.</p>
+							<p>According to the table of contents on fol. <locus>1v</locus> written by <name type="person" key="HalGud002">Halldór Guðmundsson</name> í <name type="place">Suðurríki á
+								Mýrum</name> the saga of Nitida fræga should be right before the saga of Þjalar-Jón</p>
+							
+                     <p>Fragment of a ríma (<title type="upphaf">Hilmir þjóða
+                        hermdi þá ...</title>) on back paste-down leaf.</p>
+                     <p>Names on front paste-down leaf: <name type="person" role="signatory" key="GudJon016">Guðlaugur Magnús Jónsson</name>
+                        <name type="place">Kattarnesi</name> 1877, <name type="person" role="signatory" key="RagSve001">Ragnheiður Sveinbjörnsdóttir</name>, 
+                        <name type="person" role="signatory" key="VigGes001">Vigfús Gestsson</name>. </p>
+					    </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate from="1800" to="1850">1800-1850?</origDate>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+							<p>Autographs of possible owners: <name type="person" role="signatory" key="GudJon016">Guðlaugur Magnús Jónsson</name>
+								, <name type="place"> Kattarnesi</name>, 1877, <name type="person" role="signatory" key="RagSve001">Ragnheiður Sveinbjörnsdóttir</name>, 
+							   <name type="person" role="signatory" key="VigGes001">Vigfús Gestsson</name>. </p>
+                     <p>
+                        <name type="person" role="other" key="LeoBre001">Leo Breiðfjörð</name>, son of
+									<name type="person" role="owner" key="SigBar001">Sigurður Bárðarson</name>,
+								sent the manuscript to Háskóli Íslands in 1952, later handed to <name type="organisation" role="owner" key="LBS">Landsbókasafn</name>.</p>
+							
+						</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:47.953+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:54:08.731+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:27.606+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-12-13" who="#SMM">Rectified FASNL encoding. Filled out information where possible from pictures on handrit.is</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

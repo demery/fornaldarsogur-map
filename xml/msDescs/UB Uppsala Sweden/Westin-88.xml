@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westin 88</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Westin-88" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>Westin 88</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="26v:10"/>
+                     <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagann af STURLAUGI STARFSAMA</rubric>
+                     <rubric>Ite Cap</rubric>
+                     <incipit>Haralldur hiet köngr eyrn han<ex>n</ex> riede fyrer noreg</incipit>
+                     <explicit>Rögnvaldur Vardi Ryke Sturlaugs og Fieck ägiætt konfäng</explicit>
+                     <finalRubric>og endar hier Sögu Sturlaugs Starfsama Fynis</finalRubric>
+                     <note>younger vers.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="27"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <note>Fol. 27r-v blank.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Printed foliation in top outer corners.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="25 26">
+                           <num type="wpl" atLeast="7" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="113"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Decorated initial over 5 lines on fol. 1.</decoNote>
+                     <decoNote type="other">First line of new chapters written in different script. Ending written in half-diamond
+                        indention.</decoNote>
+                  </decoDesc>
+                  <additions ana="no"/>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in cardboard with marbled pattern.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <p>The manuscript once belonged to <name type="person" role="owner" key="BirTho001">Birger Thorlacius</name>, after
+                     whose death <name type="person" role="owner" key="JacWes001">Jacob Westin</name> bought it at an auction in <date when="1830">1830</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:25.673+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-08" who="SH">Added information from cagalogue and the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

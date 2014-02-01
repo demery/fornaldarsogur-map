@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>GKS 1006 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS02-1006-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>GKS 1006 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="35r:30"/>
+                     <title type="uniform" ref="#vs">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="35r:31" to="55r:6"/>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <rubric>XLI: C<ex>a</ex>p<ex>itul</ex>e</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="55r:7" to="60v">pp. 109-120</locus>
+                     <title type="uniform">Krákumál</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="61r" to="103v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="107r" to="121r"/>
+                     <title type="uniform" ref="#bsh">Bósa saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="123r" to="148r"/>
+                     <title type="uniform">Hávarðar saga Ísfirðings</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="155r" to="162v"/>
+                     <title type="uniform">Valdimars saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="konth" defective="true">
+                     <locus from="163r" to="171v"/>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <explicit>fram<ex>m</ex> vm<ex>m</ex> jölin<ex>n</ex></explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="isl">
+                     <locus from="183r" to="205r"/>
+                     <title type="uniform">Bárðar saga Snæfellsáss</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="207r" to="226r"/>
+                     <title type="uniform">Króka-Refs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="231r" to="244v"/>
+                     <title type="uniform" ref="#asb">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="fas">
+                     <locus from="245r" to="260v"/>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <!-- second folder of photographs starts here-->
+                  <msItem n="12" class="ridd">
+                     <locus from="261r" to="274r"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="fas">
+                     <locus from="277r" to="289r"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="293r" to="300r:2"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="fas">
+                     <locus from="300r:3" to="303v"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="fas">
+                     <locus from="309r" to="357r"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="17" class="kon">
+                     <locus from="365r" to="447v"/>
+                     <title type="uniform">Knýtlinga saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="18" class="fas">
+                     <locus from="450r" to="466r"/>
+                     <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="19" class="fas">
+                     <locus from="468r" to="474r:8"/>
+                     <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                     <title type="parallel">Hversu Noregur byggðist</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="20" class="attat">
+                     <locus from="474r:9" to="474v"/>
+                     <title type="supplied">Ættartölur konunga og konungatöl í Noregi</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="21" class="kvad">
+                     <locus from="475r:1" to="475r:5"/>
+                     <title type="supplied">Vísa um fall Sörla sterka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="22" class="fas">
+                     <locus from="475v" to="502v"/>
+                     <title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="23" class="islt">
+                     <locus from="509r/" to="517v"/>
+                     <title type="uniform">Orms þáttur stórólfssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="24" class="regist">
+                     <locus from="524v" to="524v"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support> 
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="524"/> 
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="333"/>
+                              <width unit="mm" quantity="194"/>
+                           </dimensions>
+                           <watermark ana="yes">Circular watermarks, some with castle inside (three towers) others possibly with cross.</watermark>
+                                 </support>
+                                 <foliation ana="pag contemporary">
+                                    <p/>
+                                 </foliation>
+                                 <condition ana="average">close to poor</condition>
+                              </supportDesc>
+                              <layoutDesc>
+                                 <layout ana="verse-separate" columns="1" writtenLines="26 29">
+                                    <num type="wpl" atLeast="8" atMost="13"/>
+                                    <dimensions type="written">
+                                       <height unit="mm" atLeast="320" atMost="335"/>
+                                       <width unit="mm" quantity="200"/>
+                                    </dimensions>
+                                    <catchwords ana="yes">catchwords on some pages</catchwords>
+                                 </layout>
+                              </layoutDesc>
+                           </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scope="major" scribeRef="#JonErl001" script="hybrida"/>
+                     <handNote scope="minor" scribeRef="#ThoTor001" script="hybrida">Torfæus wrote the table of contents <locus from="524v" to="524v"/></handNote>
+                  </handDesc>
+                           <decoDesc ana="low">
+                              <decoNote type="initial">decorated rubrics and initials</decoNote>
+                              <decoNote type="paratext">diamond shaped endings</decoNote>
+                           </decoDesc>
+                           <additions ana="high">
+                              <p>Plenty of marginalia, many of them by
+                                 <name key="ThoTor001" type="person" role="scholar">Torfæus</name>. On fols. 
+                                 <locus from="121v" to="122r"/>, he added genealogical tables, on fol. <locus from="524v" to="524v">524v</locus> a table of contents</p>
+                           </additions>
+                           <bindingDesc>
+                              <binding ana="decorative" contemporary="unknown">
+                                 <p>Brown marbeled paper on thick card boards; light brown leather on corners and spine, golden imprint on spine: <q>R VII</q>, 
+                                    <q>Sylloge Sagarum Islandicarum</q>, <q>MS: chartaceum.</q> and ornaments. Watermark on the flyleaves and pastedown: beehive "C <ex>et</ex> I Honing".
+                                    The binding is in rather bad shape.</p>
+                              </binding>
+                           </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="other" key="ThoTor001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:04.335+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-04-18" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-05-01" who="#BES">Added information from black-and-white photographs.</change>
+         <change when="2013-08-26" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 7 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS02-0007-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 7 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="51v">1r-51v</locus>
+                     <title type="uniform">Orkneyinga saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="isl">
+                     <locus from="52r" to="85r">52r-85r</locus>
+                     <title type="uniform">Fljótsdæla saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2.1" class="isl">
+                     <locus from="79r" to="85r">79r-85r</locus>
+                     <title type="uniform">Droplaugarsona saga</title>
+                     <textLang mainLang="non"/>
+                     <note>The latter part of <title type="uniform">Droplaugarsona saga</title> is added
+                        here to <title type="uniform">Fljótsdæla
+                        saga</title></note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="86r" to="92v">86r-92v</locus>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="93r" to="104v">93r-104v</locus>
+                     <title type="uniform">Gunnlaugs saga ormstungu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="105r" to="130v">105r-130v</locus>
+                     <title type="uniform">Bjarnar saga Hítdælakappa</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="bisks">
+                     <locus from="131r" to="141r">131r-141r</locus>
+                     <title type="uniform">Hungurvaka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="bis annal">
+                     <locus from="141v" to="175v">141v-175v</locus>
+                     <title type="uniform">Biskupaannálar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="islt">
+                     <locus from="176r" to="177v">176r-177v</locus>
+                     <title type="uniform">Þorsteins þáttur stangarhöggs</title>
+                     <textLang mainLang="non"/>
+                     <note>In a different hand</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="177"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="295"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later pag">
+                        </foliation>
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""></height>
+                              <width unit="mm" quantity=""></width>
+                           </dimensions>
+                           <catchwords ana=""/></layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"><locus from="176r" to="177v">176r-177v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="major" script="unknown">According to the P.E.Ó. manuscript catalogue the
+                        manuscript was
+                           mostly written ca. 1680 by <name type="person" key="AsgJon001">Ásgeir Jónsson</name> but according to
+                        Prof. Jón Helgason's
+                           notes in "Byskupasögur sögur" 1938-1978 it is in an unknown
+                           hand.</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Decorated initials in many places.</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>The front pastedown is part of a letter to rev.
+                           <name type="person" key="BjoHja001">Björn Hjálmarsson</name> from <name type="person" key="SooVid001">S. Vídalín</name>
+                     </p>
+                     <p>The rear pastedown is a letter to rev. <name type="person" key="BjoHja001">Björn Hjálmarsson</name> from
+                        <name type="person" key="KriMag001">Kristín Magnúsdóttir</name>.<!--, texti einnig á límhlið - also text
+                           on glue? not sure to what this refers --></p>
+                  </additions>
+                 <!-- <bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p>Leather binding</p>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1700" to="1750"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="OlaJoh001"/>
+                     <name type="person" role="owner" key="JonSig004"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:12.393+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:20.022+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:39.812+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2012-04" who="#SK">Adapted to FASNL and added information from XML-file on
+            handrit.is and other sources</change>
+         <change when="2013-08-29" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 171 a fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0171a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 171 a fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="11r">1r-11r</locus>
+                     <title ref="#ssst" type="uniform">Sörla saga sterka</title>
+                     <textLang mainLang="non"></textLang>
+                     <msItem n="1.2" class="laus">
+                        <locus from="11r" to="11r">11r</locus>
+                        <title type="supplied">Vísa um Sörla sögu</title>
+                        <incipit type="upphaf">Saga enduð sýnist mér / af Sörla hinum sterka / lýðir sjá hún lofsverð er / sökum lista frægðarverka.</incipit>
+                        <note>Poem writtten by same scribe.</note>
+                        <textLang mainLang="non"></textLang>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="11v" to="18v">11v-18v</locus>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="18"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="306"/>
+                              <width unit="mm" quantity="191"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="40 55">
+                           <num type="wpl" atLeast="11" atMost="22"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="270"/>
+                              <width unit="mm" quantity="163"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="9">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Various hands.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Flourished and filled-in initials.</decoNote>
+                     <decoNote type="secondary">Line filler on fols. <locus from="2r" to="2r">2r</locus>, <locus from="3r" to="3v">3r-v</locus>, <locus from="6v" to="6v">6v</locus>, <locus from="7r" to="7r">7r</locus>.</decoNote> 
+                     <decoNote type="frieze">Gilded knotwork on fol. <locus from="11r" to="11r">11r</locus>.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Marginalia on fol. <locus from="15v" to="15v">15v</locus>, probably written by scribe.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" when="1983" contemporary="false">
+                        <p/>
+                     </binding>
+                     <binding ana="plain" notBefore="1772" notAfter="1780" contemporary="false">
+                        <p>Old binding from 1772-1780.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:52.938+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:07.591+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:18.523+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:32.577+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:11.743+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-03-18" who="#SMM">Rectified some codes. Translated into English.</change>
+         <change when="2013-03-22" who="#SMM">Added information from black and white photos in the Arnamagnaean Collection, Copenhagen.</change>
+         <!-- watermark missing -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

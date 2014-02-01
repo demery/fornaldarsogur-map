@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 17</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-17" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 17</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="75v"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <rubric>Saga frä Hrölfe Gautrekssyne</rubric>
+                     <filiation>
+                        <ref type="ms" target="#Perg-4to-nr-7" ana="antigraph">The Icelandic text is copied from Perg 4to nr.
+                           7</ref>
+                     </filiation>
+                     <note>older vers., Icelandic text with Danish translation</note>
+                  </msItem>
+
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="76r" to="96v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <rubric>Saga fra Ørvar Ødde</rubric>
+                     <explicit>Um hausted bydur Hjalmar Odde til Svijþjödar, og þvij næst fara þeir Asmundur og Sig:</explicit>
+                     <note>Icelandic text with Danish translation, ends defective</note>
+                  </msItem>
+
+                  <msItem n="3" class="ridd" defective="true">
+                     <locus from="97r" to="132r:8"/>
+                     <title type="uniform">Mírmanns saga</title>
+                     <incipit>En<ex>n</ex> frä þvij er ad seigja ad sött lyster meistaran<ex>n</ex>, og liet lijf sitt.</incipit>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <note>Beginning missing. Icelandic text with Danish translation</note>
+                     <note>Fols. 138v-140v are blank.</note>
+                  </msItem>
+
+                  <msItem n="4" class="fas">
+                     <locus from="132r:9" to="138r"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <rubric/>
+                     <note>C-vers., Icelandic text with Danish translation</note>
+                  </msItem>
+
+                  <msItem n="5" class="kon">
+                     <locus from="141r" to="182r"/>
+                     <title type="uniform">Jómsvíkinga saga</title>
+                     <rubric/>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <note>Icelandic text with Danish translation. Only partly in separate colomns, otherwise alternating line by
+                        line.</note>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#Perg-4to-nr-7" ana="antigraph">Perg. 4:o nr 7:3</ref>.</p>
+                     </filiation>
+                  </msItem>
+
+                  <msItem n="6" class="fas">
+                     <locus from="185r" to="200r"/>
+                     <title type="uniform" ref="#ask">Ásmundar saga kappabana</title>
+                     <rubric>Asmund Käupubanes Sage</rubric>
+                     <textLang mainLang="non" otherLangs="da"/>
+                     <note>Icelandic text with Danish transl.</note>
+                     <filiation>
+                        <p>The Icelandic text is a copy of <ref type="ms" target="#Perg-4to-nr-7" ana="antigraph">Perg. 4:o nr
+                              7:4</ref>.</p>
+                     </filiation>
+                  </msItem>
+
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="200"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="323"/>
+                              <width unit="mm" quantity="200"/>
+                           </dimensions>
+                           <watermark ana="yes">A gate with two large towers, one on either side. The gate has a pointy roof and
+                              below the image, an 8-like symbol can be seen. On the flyleaves, the watermark is a beehive with
+                              floral ornaments around it. Below the hive is '1839', with "HOWARD" on the opposite
+                              site.</watermark>
+                        </support>
+                        <foliation ana="fol later">Later foliation with pencil in the outer right corner on ca. every tenth
+                           page.</foliation>
+                        <condition ana="average">Water damage on the upper part of almost all leaves. Some text was lost,
+                           some was filled in again later after the leaves were repaired.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="26 39">
+                           <num type="wpl" atLeast="3" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="280"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <!-- this scribe's name displays oddly since he has 2 in the authority file; change stylesheet? -->
+                     <handNote scribeRef="#PalHal002" script="kurrent" scope="sole"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Scholarly comments in the inner margin, partly in Latin. Some additions possibly by the scribe himself. On
+                        the first front flyleaf, a later hand noted <q>Island. Chart. in folio. No 17 s. (Katal. s. 49). Inbunden
+                           år 1843 G. O. H. C.</q>. On fol <locus>96r</locus>, a later hand added: <q>membrana n:o 84 fol:
+                        113</q>. On fol. <locus>97r</locus>, the title <q>Mirmiantz saugu fragm.</q> is added.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Cardboard binding with leather spine. On the spine, <q>SAGA fra HROLFE GAUTREKSS. Isl. og Dan.</q>, is
+                           imprinted in golden letters.</p>
+                     </binding>
+                  </bindingDesc>
+
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1630" notAfter="1670"/>
+                     <origPlace key="DK"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="commissioner" key="JorSee001"/>
+                     <name type="person" role="owner" key="JorSee001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:01.926+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-02-22" who="#BES">Prepared for visit at the library.</change>
+         <change when="2013-03-05" who="#BES">Measured and checked at the library, added information from the manuscript
+            itself.</change>
+         <change when="2013-03-19" who="#BES">Added missing information from the black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

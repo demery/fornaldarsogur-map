@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Jón Samsonarson (4to-brot 480 s.)</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Jon-Samsonarson-2-4to" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#PRIV1">Private collections</repository>
+                  <idno>Jón Samsonarson 2 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="28v">pp. 1-56</locus>
+                     <title type="uniform">Mírmanns saga</title>
+                     <textLang mainLang="non"/>
+                     <note>21 chapters</note>
+                     <colophon>Hvítadal 16 Mars 1872</colophon>
+                  </msItem>
+                  <msItem n="2" class="riddst">
+                     <locus from="29r" to="60v">pp. 57-120</locus>
+                     <title type="uniform">Rígabels saga konungs og Alkanus</title> 
+                     <textLang mainLang="is"/>
+                     <note>20 chapters</note>
+                  </msItem>
+                  
+                  <msItem n="3" class="riddst">
+                     <locus from="61r" to="67v">pp. 121-134</locus>
+                     <title type="uniform">Faustus saga og Ermenu í Serklandi</title>
+                     <textLang mainLang="is"/>
+                     <note>6 chapters</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="68r" to="87r">pp. 135-173</locus>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <colophon>Hvítadal 29 Mars 1872. Guðbrandr Sturlaugsson.</colophon>
+                     <textLang mainLang="non"/>
+                     <note>15 chapters</note>
+                  </msItem>
+                  <msItem n="5" class="riddst">
+                     <locus from="87v" to="112v">pp. 174-224</locus>
+                     <title type="supplied">Natons saga Persakonungs</title>
+                     <textLang mainLang="is"/>
+                     <colophon>Endað þann 4 Apríl 1872</colophon>
+                     <note>13 chapters</note>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="113r" to="166v">pp. 225-332</locus>
+                     <title type="uniform">Adónías saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Enduð á Hvítadal á Sumardaginn fyrsta, árið 1872 af Guðbr. Sturlaugss</colophon>
+                     <note>50 chapters</note>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="167r" to="204v">pp. 333-408</locus>
+                     <title type="uniform">Ectors saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Enduð á Hvítadal 28 Nóvember 1872</colophon>
+                     <note>26 chapters</note>
+                  </msItem>
+                  <msItem n="8" class="riddst">
+                     <locus from="205r" to="239r">pp. 409-477</locus>
+                     <title type="uniform">Marons saga sterka</title>
+                     <textLang mainLang="is"/>
+                     <note>20 chapters</note>
+                  </msItem>
+                  <msItem n="9" class="riddst" defective="true">
+                        <locus from="239v" to="240v">pp. 378(478)-380(480)</locus>
+                        <title type="supplied">Natons saga Persakonungs</title>
+                     <textLang mainLang="is"/>
+                     <finalRubric>Sagan af Natani Persiska, hún er hér framar í bókinni hún er eins og aðrar riddara sögur
+                     nokkuð ótrúleg.</finalRubric>
+                  <note>Ends in the beginning of the third chapter.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <!--<num type="front-flyleaf" value="1"/>--> <!-- at least one with the title page on it -->
+                           <num type="book-block" value="240"/>
+                           <!--<num type="back-flyleaf" value=""/>-->
+                          <!-- <dimensions type="leaf">
+                              <height unit="mm" quantity="">in 4to</height>
+                              <width unit="mm" quantity="">in 4to</width>
+                           </dimensions>-->
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p>Erroneous pagination on fols. <locus>239v-240v</locus>.</p>
+                        </foliation>
+                       <!-- <condition ana=""/> <!-\- check -\->-->
+                     </supportDesc>
+                     <!--<layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GudStu001" scope="sole" script="unknown"><!--Guðbrandur Sturlaugsson í Hvítadal--></handNote>
+                  </handDesc>
+                  <!--<decoDesc ana=""> <!-\- check -\->
+                     <decoNote/>
+                  </decoDesc>-->
+                  <additions ana="low">
+                     <p>Comments by the scribe. 
+                        On fol. <locus>87r</locus>: <q>Sagan af Friðþjófi frækna
+                           er með ágjætustu fornsögum og eru miklar líkur, til að hún sé sönn saga hefur Friðþjófur
+                           verið með ágjætustu mönnum í fornum sið, hið merkilegasta göfugmenni</q>
+                        On fol. <locus>112v</locus>: <q>Þessi saga er ei merkileg og illa samin og mun lítil tilhæfa
+                        vera í henni og hef eg skrifað hana að gamni mínu. Guðbr: Sturlaugsson. - Addaníusar saga sem
+                        hér kémur á eptir er laung og stappsöm. tel eg hana lítt merka enn þó er sumt í henni ei með
+                        öllu ónýtt, en um hana að seigja eins og aðrar riddara sögur að þær eru gjörðar meira til gamans
+                        enn gagns, Guðbrandur Sturlaugsson. - Það er ætlan mín að sagan af Hektori og köppum hans sé
+                        tillhæfulaus skröksaga og að þeir menn sem þar eru nefndir hafi aldrei verið til. Guðbr. Sturlaugsson</q>
+                        On fol. <locus>239v</locus>, he writes:
+                        <q>Á þessari bók eru nokkrar Sögur og er sagan af Friðþjófi láng best, af þeim öllum.</q></p>
+                  </additions>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary=""/> <!-\- check -\->
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1872"/>
+                     <origPlace key="IS">Hvítadal</origPlace>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSam001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2013-07-24" who="#BES">Created file and cataloged as far as possible based on Einar G. Pétursson's notes.</change>
+         <change when="2013-09-12" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

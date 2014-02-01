@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 299 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0299-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 299 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                        <titlePart>Til ágætis - vid. Snorra Eddu setjast þessir
+                           eftirfylgjandi kviðlingar úr Sæmundar Eddu framan við bókina.</titlePart>
+                        <titlePart>Skrifuð Anno 1764. (<locus from="1r" facs="#IB04-0299-0001r" to="1r">1r</locus>)</titlePart>
+                     
+                        <titlePart>Bókin Edda hvörja samansett hefur Snorri Sturluson
+                           lögmaður Ao. Xti M. CCXV.</titlePart>
+                        <titlePart>Prentuð í Kaupenh. í íslensku, dönsku og latínu. Anno
+                           Domini 1665. (<locus from="58r" facs="#IB04-0299-0058r" to="58r">58r</locus>)</titlePart>
+                     
+                     <note>PHILOSOPHIA ANTIQVISSIMA NORVEGO-DANICA dicta Woluspa qvæ est pars Eddæ
+                        Sæmundi, Eddâ Snorronis non brevi antiqvioris / Islandicè et Latinè publici
+                        juris primùm facta à Petro Joh. Resenio. HAVNIÆ, M. DC. LXV.</note>
+                  </titlePage>
+                  <msItem n="1" class="edd godkv hetkv">
+                     <locus from="1r" facs="#IB04-0299-0001r" to="34r">1r-34r</locus>
+                     <title type="uniform">Sæmundar-Edda</title>
+                     <textLang mainLang="non"/>
+                  <msItem n="1.1" class="regist">
+                     <locus from="1r" to="1r"/>
+                     <title type="supplied">Table of Contents (of Sæmunda Edda)</title>
+                     <rubric>Til ágætis við Snorra Eddu setjast þessir eftirfylgjandi kviðlingar og
+                        Sæmundar Eddu framan við bókina</rubric>
+                     <colophon>Skrifuð Anno 1764</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="1.2" class="edd godkv">
+                     <locus from="2r" to="4v"/>
+                     <title type="uniform">Völuspá</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.3" class="edd godkv">
+                     <locus from="4v" to="9v"/>
+                     <title type="uniform">Hávamál</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.4" class="edd godkv">
+                     <locus from="9v" to="10v"/>
+                     <title type="uniform">Alvíssmál</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.5" class="edd">
+                     <locus from="10v" to="11v"/>
+                     <title type="uniform">Gunnarsslagur</title>
+                     <author key="GunPal002">Gunnar Pálsson</author>
+                     <textLang mainLang="non"/>
+                     <note>In a younger hand: <q>NB. Autor hujus Odæ est Doctiss. Dns. G. Pauli.</q> (<locus from="11v" to="11v"> 11v</locus>)</note>
+                  </msItem>
+                  <msItem n="1.6" class="edd godkv">
+                     <locus from="12r" to="15v"/>
+                     <title type="uniform">Vafþrúðnismál</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.7" class="ordsk edd">
+                     <locus from="15v" to="18r"/>
+                     <title type="supplied">Orðskýringar</title>
+                     <rubric>Metaphrasis</rubric>
+                     <colophon>Tantum de his</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.8" class="edd godkv">
+                     <locus from="18r" to="20v"/>
+                     <title type="uniform">Grímnismál</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.9" class="edd">
+                     <locus from="21v" to="22r"/>
+                     <title type="uniform">Grottasöngur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.10" class="edd hetkv fas">
+                     <locus from="22r" to="24r"/>
+                     <title type="uniform">Grípisspá</title>
+                     <title type="uniform">Sigurðarkviða Fáfnisbana hin fyrsta</title>
+                     <rubric>Sigurðarkviða Fáfnisbana eður Grípisspá</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.11" class="edd hetkv fas">
+                     <locus from="24v" to="26r"/>
+                     <title type="uniform">Reginsmál</title>
+                     <title type="uniform">Sigurðarkviða Fáfnisbana önnur</title>
+                     <rubric>Sigurðarkviða Fáfnisbana önnur. Um uppruna Fáfnis</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.12" class="edd hetkv fas">
+                     <locus from="26r" to="28r"/>
+                     <title type="uniform">Fáfnismál</title>
+                     <rubric>Fáfnismál</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.13" class="edd hetkv fas">
+                     <locus from="28r" to="69r"/>
+                     <title type="uniform">Sigurdrífumál</title>
+                     <rubric>Brynhildarkviða Buðladóttur</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="1.14" class="edd hetkv fas">
+                     <locus from="32r" to="33r"/>
+                     <title type="uniform">Guðrúnarkviða hin fyrsta</title>
+                     <title type="uniform">Guðrúnarkviða I</title>
+                     <rubric>Guðrúnarkviða Gjúkadóttur</rubric>
+                     <textLang mainLang="non"/>
+                  <msItem n="1.14.1" class="edd hetkv fas">
+                     <locus from="33r" to="33r"/>
+                     <title type="uniform">Helreið Brynhildar</title>
+                     <textLang mainLang="non"/>
+                     <note>Only the prose epilogue</note>
+                  </msItem>
+                  <msItem n="1.14.2" class="edd hetkv fas">
+                     <locus from="33r" to="33r"/>
+                     <title type="uniform">Guðrúnarkviða hin forna</title>
+                     <textLang mainLang="non"/>
+                     <note>Only the prose epilogue</note>
+                  </msItem>
+                  <msItem n="1.14.3" class="edd hetkv fas">
+                     <locus from="33r" to="33v"/>
+                     <title type="uniform">Atlakviða</title>
+                     <textLang mainLang="non"/>
+                     <note>Only a prose epilogue</note>
+                  </msItem>
+                  </msItem>
+                  <msItem n="1.15" class="edd hetkv fas">
+                     <locus from="33v" to="34r"/>
+                     <title type="uniform">Guðrúnarhvöt</title>
+                     <rubric>Guðrúnar lok</rubric>
+                     <textLang mainLang="non"/>
+                     <note>The prose preface and the last third part of the poem. From verse 13 until
+                        the twenty second and last</note>
+                  </msItem>
+                  </msItem>
+                  <msItem n="2" class="skaldskfr bokmfr kvsk attat">
+                     <locus from="34r" to="44v"/>
+                     <title type="supplied">Völuspárútlegging Björns á Skarðsá</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="run">
+                     <locus from="44v" to="57r"/>
+                     <title type="supplied">Rúnaútlegging Björns á Skarðsá</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="edd godkv hetkv">
+                     <locus from="58r" to="127v"/>
+                     <title type="uniform">Snorra-Edda</title>
+                     <textLang mainLang="non"/>
+                 
+                  <msItem n="4.1" class="kvad">
+                     <locus from="58v" to="58v"/>
+                     <title type="supplied">Eddukvæði Thomas Bartholin</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4.2" class="ordsk">
+                     <locus from="61r" to="62r"/>
+                     <title type="supplied"/>
+                     <rubric>Útlegging nokkurra fornyrða eftir stafrófi</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4.3" class="stafr">
+                     <locus from="62r" to="62v"/>
+                     <title type="supplied">Fáein norðurheimsbúa stafró</title>
+                     <rubric>Svo ei sé auð eftirfylgjandi blaðsíða setjast hér fáein norðurheimsbúa
+                        stafró</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4.4" class="edd att">
+                     <locus from="63r" to="63v"/>
+                     <!-- no title? -->
+                     <rubric>Ættartala Óðins</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4.5" class="stafr">
+                     <locus from="63v" to="63v"/>
+                     <title type="supplied">Stafróf</title>
+                     <rubric>Til uppfyllingar þessari blaðsíðu setjast þessi stafróf</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4.6" class="formal">
+                     <locus from="64r" to="75r"/>
+                     <title type="supplied">Formálar og athugsemdir</title>
+                     <msItem n="4.6.1" class="formal">
+                        <locus from="64r" to="64vr"/>
+                        <title type="supplied">Fyrsti formáli</title>
+                        <rubric>Formáli til Eddu</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="4.6.2" class="formal">
+                        <locus from="64v" to="67r"/>
+                        <title type="supplied">Annar formáli</title>
+                        <rubric>Annar formáli nýgjörður</rubric>
+                        <msItem n="4.6.2.1" class="skaldskfr">
+                           <locus from="67v" to="68r"/>
+                           <rubric>Notatio de Venere</rubric>
+                           <textLang mainLang="non" otherLangs="la"/>
+                        </msItem>
+                        <msItem n="4.6.2.2" class="skaldskfr">
+                           <locus from="68v" to="69v"/>
+                           <rubric>Notatio de Idolomania</rubric>
+                           <colophon>Endir þess annars formála bókarinnar Snorra-Eddu.</colophon>
+                           <textLang mainLang="non" otherLangs="la"/>
+                        </msItem>
+                     </msItem>
+                     <msItem n="4.6.3" class="formal">
+                        <locus from="70r" to="70v"/>
+                        <author key="ArnJon001">Arngrímur Jónsson</author>
+                        <title type="supplied">Þriðji formáli</title>
+                        <rubric>Formáli séra Arngríms Jónssonar að Mel í Miðfirði.</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="4.6.4" class="formal">
+                        <locus from="71r" to="75r"/>
+                        <author key="SnoStu001">Snorri Sturluson</author>
+                        <title type="supplied">Fjórði formáli</title>
+                        <rubric>Inngangurinn</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="4.7" class="skaldskfr godfr bragfr edd">
+                     <locus from="75r" to="105v"/>
+                     <title type="supplied">Fyrsti partur Snorra-Eddu</title>
+                     <rubric>I. Dæmisaga. Gylfaginning, Hás lygi</rubric>
+                     <textLang mainLang="non"/>
+                     <note>A register over the first part of Snorra Edda is located at the end of the MS on fol. 
+                           <locus from="151v" to="151v">151v</locus></note>
+                  </msItem>
+                  <msItem n="4.8" class="skaldskfr godfr bragfr edd">
+                     <locus from="106r" to="127v"/>
+                     <title type="supplied">Annar partur Snorra-Eddu</title>
+                     <rubric>Annar partur Snorra-Eddu sem eru nöfn og kenningar eftir
+                        stafrófi.</rubric>
+                     <colophon>Endir þess annars parts Snorra-Eddu. Tɛλos.</colophon>
+                     <textLang mainLang="non" otherLangs="gr"/>
+                  </msItem>
+                  </msItem>
+                  <msItem n="5" class="fas tyd bokmfr"> 
+                     <locus from="128r" to="134r"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar [Excerpt]</title>
+                   <textLang mainLang="is"/> 
+                     <note>An abstract from Olof Verelius´ book on Gautrekssaga</note>
+                     <filiation>
+                        <ref type="book" target="#OlaVer1664" ana="protograph">Based on Olof Verelius' edition
+                           (1664)</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="6" class="run">
+                     <locus from="135r" to="146v"/>
+                     <title type="supplied">Um rúnir</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="vis">
+                     <locus from="150v" to="151r"/>
+                     <title type="supplied">Krists vísur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="regist">
+                     <locus from="151v" to="151v"/>
+                     <title type="supplied">Table of Contents of Snorra Edda (first part)</title>
+                     <rubric>Registur yfir fyrsta part Snorra Eddu <locus from="75r" to="105v"/></rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="152"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="193"/>
+                              <width unit="mm" quantity="146"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="fol later">The foliation is irregular</foliation>
+                        <condition ana="poor">The manuscript has been restored</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="29 33">
+                           <num type="wpl" atLeast="13" atMost="15"/>
+                         <dimensions type="written">
+                                 <height unit="mm" quantity="175"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                           <!-- dimensions based on scaled pictures on handrit.is -->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JakSig001" scope="sole" script="chancery">Jakob
+                        Sigurðsson wrote in chancery and kurrent.</handNote>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="illustration">
+                        <p>Six full page illustrations and a highly decorated titlepage</p>
+                        <list type="simple">
+                           <!-- loci displaying twice - fix in stylesheet? -->
+                           <item> <locus from="1r" facs="#IB04-0299-0001r" to="1r"/>:
+                              A framed titlepage in two colours with a register on the poems from
+                              Sæmundar-Eddu the poetic Edda.</item>
+                           <item> <locus from="1v" facs="#IB04-0299-0001v" to="1v">1v</locus>:
+                              Coloured drawing of Cybele Valva.</item>
+                           
+                           <item> <locus from="58r" facs="#IB04-0299-0058r" to="58r">58r</locus>:
+                              A three-coloured, highly decorated titlepage for Snorra Edda with frame
+                              of drawings with motifs from the mythology.</item>
+                           <item> <locus from="59r" facs="#IB04-0299-0059r" to="59r">59r</locus>:
+                              A drawing of three spears in ink with text in Latin. Beneath it in
+                              Icelandic: <q>Gott er til geirs að taka</q>
+                           </item>
+                           <item> <locus from="59v" facs="#IB04-0299-0059v" to="59v">59v</locus>:
+                              A drawing of: Fyrsti Hár eður þriðji, Jafnhár and Hár in a three-tiered throne with Gangleri
+                              standing infront of the threesome.</item>
+                           <item> <locus from="60r" facs="#IB04-0299-0060r" to="60r">60r</locus>:
+                              Picture of Mars or Týr.</item>
+                           <item> <locus from="60v" facs="#IB04-0299-0060v" to="60v">60v</locus>:
+                              Ink drawing of a runestone with a drawing of Gestum blinda.</item>
+                           <item> <locus from="134v" facs="#IB04-0299-0134v" to="134v">134v</locus>: A runestone</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>In a younger hand on fol. <locus from="11v" to="11v">11v</locus>: <q>NB. Autor hujus Odæ est Doctiss. Dns. G. Pauli.</q></p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in a cardboard binding covered with dark marbled
+                           paper.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1764">1764</origDate>
+                  </origin>
+                  <provenance><name type="person" role="owner" key="SigLon001">Sigmundur Mattíasson Long</name></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:00.284+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:10.813+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:32.18+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2012-03" who="#SK">Adapted to FASNL and added some information from the the
+            manuscripts XML-file and the digital version on handrit.is</change>
+         <change when="2013-08-07" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

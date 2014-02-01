@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rål. fol. nr 25</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ral-fol-nr-25" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Rål. fol. nr 25</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="annal">
+                     <locus from="1r" to="7v"/>
+                     <title type="supplied">Prosaiska Krönikan</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="15r" to="63v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <rubric>Gånge Hrolfs Sturlogers Sohns Saga, af then gambla Giötiskan öfwersatt af Johan Peringskiöldh</rubric>
+                     <incipit>Således begÿnnes thenne Historia, att en konungh är Hreggwid benämad</incipit>
+                     <textLang mainLang="sv"/>
+                     <note>Swedish transl. by Johan F. Periongskiöld</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="64r" to="101r"/>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <rubric>Konungs Hrolf Krakes sampt Adills Upsala Konungs Saga af dhen gamble Giöthiskan öfwersatt af 
+                        Giödrickr Biörnsson hirdman. Gustaf Bonde.</rubric>
+                     <textLang mainLang="sv"/>
+                     <note>Swedish transl., copy of Säfstaholmssamlingen</note>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="102r" to="119v"/>
+                     <title type="uniform" ref="#hse">Hálfdanar saga Eysteinssonar</title>
+                     <rubric>Halfdan Östensons Historia</rubric>
+                     <incipit>Uthi dhe förrige tÿder stÿrdes Norriges Rÿke af en konungh, som heet Östen</incipit>
+                     <textLang mainLang="sv"/>
+                     <note>B-vers., Swedish transl., copy of Säfstaholmssamlingen</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="120r" to="126r"/>
+                     <title type="uniform" ref="#ask">Ásmundar saga kappabana</title>
+                     <textLang mainLang="sv"/>
+                     <note>Swedish transl. by Johan F. Peringskiöld</note>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="127r" to="139v"/>
+                     <title type="uniform">Samsons saga fagra</title>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="140r" to="156r"/>
+                     <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                     <rubric>Hialmters och Olwers Saga</rubric>
+                     <incipit>Thenna saga tager sin begÿndelse af en widt berömd konungh, hwilken Ÿnge heet</incipit>
+                     <textLang mainLang="sv"/>
+                     <note>Older vers., Swedish transl., copy of Engestr.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="158"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="307"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort</watermark>
+                        </support>
+                        <foliation ana="fol">
+                           Every tenth page is foliated in pencil: 11, 21, 31 etc. (although sometimes it breaks off).
+                           There is also a contemporary ink foliation which runs from ff. 16-156 (pp.3-283).
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="37 41">
+                           <num type="wpl" atLeast="9" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="148"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="illustration">On f. 101r there is a family tree to accompany the preceding saga.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A piece of paper with a typed list of contents ('Innehåll') appears on the inside front cover.</p>
+                     <p>On f. 14v there is a list of the sagas which follow in the volume.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound with colourful marbeled paper on cardboard boards with dark brown leather on the spine 
+                           and corners. On the spine there is a red paper label, upon which has been written <q>Kroniku ok Sagor.</q> 
+                           On a yellow label pasted over the spine below is printed: <q>Riks-Bibliotek STOCKHOLM Handskrifter. 
+                           Rålambs samling No.</q>, but no number has been filled in.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1749"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:10.577+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-08" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

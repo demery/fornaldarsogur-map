@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 281 4to</title>
+         </titleStmt>
+
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc xml:id="AM04-0281-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 281 4to</idno>
+               </msIdentifier>
+
+               <msContents>
+
+                  <titlePage ana="no"/>
+
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="28v:6"/>
+                     <title type="uniform" ref="#vs">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan<ex>n</ex> Af Ragnare Lodbrők sem fordum var Kongur yf<ex>er</ex> Danmørk, Norege, Sviarike,
+                           <supplied reason="damage">Biarma</supplied>lande, Finlande, Englande, Skotlande, Irlande, Windlande og
+                        Saxlande,: Dö i Englande þä h<ex>an</ex>n hafde Kongur verid i 24 är. Anno christi 841. Reiknast af
+                        chronologis sä 57 i Danskra kongatale. þesse Saga h<ex>e</ex>fst med Wolsungaþætte af Sigurde Fofnisbana,
+                        Giukungum etc.</rubric>
+                     <incipit>Hier h<ex>e</ex>f<ex>ur</ex> up<ex>p</ex> o<ex>g</ex> seg<ex>ir</ex> f<ex>ra</ex> þ<ex>ei</ex>m m<ex>anne</ex>
+                           e<ex>r</ex> Siggeir e<ex>da</ex> Sige er nefnd<ex>ur</ex></incipit>
+                     <explicit>o<ex>g</ex> þa flugu vr óllu<ex>m</ex> ättu<ex>m</ex> stein<ex>ar</ex> ad þ<ex>ei</ex>m,
+                           <ex>og</ex> v<ex>ar</ex>d þ<ex>ei</ex>m þ<ex>ad</ex> ad alld<ex>ur</ex> lægi.</explicit>
+                     <!--<bibl>Rafn, <ref type="primary-3" target="FASNRafn">Fornaldar Sögur Nordrlanda</ref><biblScope type="volume"
+                           >I</biblScope><biblScope type="pages">113-234</biblScope><note>Ed. I</note></bibl>-->
+
+                  </msItem>
+
+                  <msItem n="2" class="fas">
+                     <locus from="28v:7" to="46r:14"/>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Heimer j hlinsdølu<ex>m</ex> sp<ex>ir</ex> nu þ<ex>ess</ex>e tydinde</incipit>
+                     <explicit>Og þotti þetta møn<ex>n</ex>um vndarlegt, og søgdu þetta sydan<ex>n</ex> frä ødrum
+                        møn<ex>n</ex>um</explicit>
+                     <!--<bibl>Rafn, <ref type="primary-3" target="FASNRafn">Fornaldar Sögur Nordrlanda</ref><biblScope type="volume"
+                           >I</biblScope><biblScope type="pages">235-299</biblScope><note>Ed. I</note></bibl>-->
+                     
+                     <note>Continuous with Völsunga saga. Begins with ch. XLI</note>
+
+                  </msItem>
+
+                  <msItem n="3" class="hist">
+                     <locus from="47r:1" to="63r:27"/>
+                     <title type="uniform">Trójumanna saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Hefur Tröiu Man<ex>n</ex>a Saugu og seiger fyrst af Saturnus af Krit</rubric>
+                     <incipit>A døgum Josue er høfdinge var a Jörsalal<ex>an</ex>de yf<ex>er</ex> Gidinga lÿd</incipit>
+                     <explicit>ad allra man<ex>n</ex>a virdingu þeirra er vitrer eru, <ex>og</ex> flest<ex>ar</ex>
+                           fräsagn<ex>er</ex> eru kun<ex>n</ex>ar, en<ex>n</ex> hi<ex>er</ex> ept<ex>er</ex> hefur søgu
+                           f<ex>rä</ex> Enea og þeim er Bretland bÿgdu.</explicit>
+
+                     <filiation>
+                        <p>Copied (indirectly?) from <ref type="ms" target="#AM04-0544-en" ana="protograph">AM 544 4to (Hauksbók)</ref>.</p>
+                     </filiation>
+                     
+                     <note>Rubric on fol. <locus>61r</locus> reads: <q>Frasøgn Romveria</q> (as in <ref type="ms" target="#AM04-0597b-en">AM 597b 4to</ref>).</note>
+
+                  </msItem>
+
+                  <msItem n="4" class="hist">
+                     <locus from="63r:28" to="82v:26"/>
+                     <title type="uniform">Breta sögur <note>(Including Merlínusspá)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Hefur Søgu af Enea</rubric>
+                     <incipit>Nu er ad seigia frä Enea hinum millda ad h<ex>ann</ex> rakst l<ex>e</ex>nge i hafe þa er
+                           h<ex>ann</ex> f<ex>or</ex> af Troio</incipit>
+                     <explicit>h<ex>ann</ex> föstradi Hakon son Harallds k<ex>on</ex>gs härfagra etc.</explicit>
+                     
+                     <note>Text ends on fol. <locus>81r</locus> and is followed (as in <ref type="ms" target="#AM04-0597b-en">AM 597b 4to</ref>) 
+                        by two 'parts' of <title type="uniform">Merlínusspá</title></note>
+                     
+                        <msItem n="4.1" class="kvad">
+                           <locus from="81r:24" to="82r:2"/>
+                           <title type="uniform">Merlínusspá</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Af Merlino spaman<ex>n</ex>e er var a døgum Vortigernis k<ex>on</ex>gs</rubric>
+                           <incipit>Vortigernes k<ex>on</ex>gur ættlade ad läta</incipit>
+                           <explicit>hier ept<ex>er</ex> Gun<ex>n</ex>laug<ex>ur</ex> mukur ort kuæde þad er
+                              heit<ex>er</ex> Merlini spä o<ex>g</ex> e<ex>r</ex> næsta m<ex>ik</ex>il</explicit>
+                           
+                        </msItem>
+                        
+                        <msItem n="4.2" class="kvad">
+                           <locus from="82r:3" to="82v:"/>
+                           <title type="uniform">Merlínusspá</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Merlinus spaa 1 partur</rubric>
+                           <incipit>Radunst s. svabalz vidum</incipit>
+                           <explicit>hafi hille Guds og hime ryke: a<ex>men</ex></explicit>
+                           <finalRubric>F I N I S</finalRubric>
+                        </msItem>
+                        
+                  </msItem>
+
+                  <msItem n="5" class="bref">
+                     <locus from="83r:1" to="83r:27"/>
+                     <title type="supplied">Report of Greenland by Priest Halldór for Priest Arnaldur</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Þesse tydinde ritadi Halldor prest<ex>ur</ex> af Græna l<ex>an</ex>di t<ex>il</ex> Arnallz prestz
+                        grænlendska, er þa v<ex>ar</ex> hirdprest<ex>ur</ex> Magnus k<ex>on</ex>gz</incipit>
+                     <explicit>Syd<ex>an</ex> f<ex>or</ex>u þ<ex>ei</ex>r heim apt<ex>ur</ex> i Garda rÿke etc.</explicit>
+
+                     <note><q xml:lang="is">Hier vantar eitt blad i sóguna</q> written in the upper margin of fol.
+                           <locus>83r</locus>.</note>
+
+                     <!--<bibl>Eiríkur and Finnur Jonsson, <ref type="primary-3" target="Hauksbok1892-96">Hauksbók</ref><biblScope
+                           type="pages">500-501</biblScope><note>Ed. 281</note></bibl>-->
+                  </msItem>
+
+                  <msItem n="6" class="isl">
+                     <locus from="83v:1" to="93r:24"/>
+                     <title type="uniform">Eiríks saga rauða</title>
+                     <title type="parallel">Þorfinns saga karlsefnis</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier Hef<ex>ur</ex> Søgu Þorfins Kallsefnis þord<ex>ar</ex>son<ex>ar</ex></rubric>
+                     <incipit>Olaf<ex>ur</ex> hiet herkong<ex>ur</ex> er kallad<ex>ur</ex> v<ex>ar</ex> Olaf<ex>ur</ex>
+                        hvijte</incipit>
+                     <explicit>margt Stormen<ex>n</ex>e er kom<ex>id</ex> an<ex>n</ex>ad a Jslandi fra Kallzefni og Gudrÿde þad
+                        ecki er hier skräd.</explicit>
+                     <colophon>Vere Gud med oss</colophon>
+
+                     <filiation>
+                        <p>Derived from <ref type="ms" target="#AM04-0544-en" ana="antigraph">AM 544 4to (Hauksbók)</ref>.</p>
+                     </filiation>
+                     <!--<listBibl>
+                        <bibl>Rafn, <ref type="primary-3" target="AntA">Antiqvitates Americanæ</ref><biblScope type="pages"
+                              >84-167</biblScope><note>Ed. G</note></bibl>
+                        <bibl>Finnur Magnússon og Rafn, <ref type="primary-3" target="GHM">Grönlands historiske
+                              Mindesmærker</ref><biblScope type="volume">I</biblScope><biblScope type="pages"
+                              >352-442</biblScope><note>Ed. G</note></bibl>
+                     </listBibl>-->
+                  </msItem>
+
+                  <msItem n="7" class="isl">
+                     <locus from="93r:25" to="94r:4"/>
+                     <title type="uniform">Fóstbræðra saga <note>(Extracts)</note></title>
+                     <textLang mainLang="non"/>
+                     <incipit>An<ex>n</ex>all vr søgu Þormod<ex>ar</ex> Kolbrun<ex>ar</ex> skalldz hv<ex>er</ex>su til er hättad j
+                           Eir<ex>eks</ex> firde <ex>og</ex> Ein<ex>ar</ex>z f<ex>irde</ex></incipit>
+                     <explicit>þar sat Liötur ad fiske vid fiörda man<ex>n</ex>. etc.</explicit>
+                  </msItem>
+
+                  <msItem n="8" class="unknown">
+                     <locus from="94r:5" to="95r:8"/>
+                     <title type="supplied">Annalistic and Geographical Notes</title>
+                     <!--<bibl>Eiríkur and Finnur Jónsson, <ref type="primary-1" target="Hauksbok1892-96">Hauksbók</ref><biblScope
+                           type="pages">501-503</biblScope></bibl>-->
+
+                     <msItem n="8.1" class="annal">
+                        <locus from="94r:5" to="94r:8"/>
+                        <title type="supplied">Greenland's Bishops in Igaliku</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Grænlands Biskupar i Gørdum.</rubric>
+                        <incipit>1. Eirek<ex>ur</ex>, 2 Arnalldur, 3 Jon</incipit>
+                        <explicit>7 Olafur, 8 Þordur, 9 Arne</explicit>
+
+                     </msItem>
+
+                     <msItem n="8.2" class="annal">
+                        <locus from="94r:9" to="94r:22"/>
+                        <title type="supplied">Hard Winters in Iceland</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Oalld<ex>ar</ex> vet<ex>ur</ex> hin<ex>n</ex> m<ex>ik</ex>le v<ex>ar</ex> a Islandi
+                              þeg<ex>ar</ex> i heidni, þa ätu m<ex>enn</ex> hrafna</incipit>
+                        <explicit>skillde fasta xij dag Jöla ef ei bæri ä drottinz dag.</explicit>
+
+                     </msItem>
+
+                     <msItem n="8.3" class="landfr">
+                        <locus from="94r:23" to="94r:26"/>
+                        <title type="supplied">Bishoprics in Norway</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Biskups stölar i Norege</rubric>
+                        <incipit>1 J Nidaröse, 2 J Biørgvin, 3 Stafangur</incipit>
+                        <explicit>j Orkneÿum J kyrkiu vogie</explicit>
+
+                     </msItem>
+
+                     <msItem n="8.4" class="landfr">
+                        <locus from="94r:27" to="94r:30"/>
+                        <title>Bishoprics in England</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Biskups Stolar j Einglande</rubric>
+                        <incipit>Erke stoll j Kantara Berge, og i Jork</incipit>
+                        <explicit>j vincestur, j Laeceastro.</explicit>
+
+                     </msItem>
+
+                     <msItem n="8.5" class="landfr">
+                        <locus from="94v:1" to="94v:4"/>
+                        <title type="supplied">Bishoprics in Scotland</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Þesser er B<ex>isku</ex>ps Stolar i Skotlande</rubric>
+                        <incipit>Ad Andreas stofu, i Glerskögum, j Brechin</incipit>
+                        <explicit>j Sudur Eyum og Bäreÿum.</explicit>
+
+                     </msItem>
+
+                     <msItem n="8.6" class="landfr">
+                        <locus from="94v:4" to="94v:5"/>
+                        <title type="supplied">Bishoprics in Saxony</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Erckistölar næster i Saxlandi</incipit>
+                        <explicit>J Brimum og i Spiru, j Strasborg og Meginzu.</explicit>
+
+                     </msItem>
+
+                     <msItem n="8.7" class="landfr">
+                        <locus from="94v:6" to="94v:22"/>
+                        <title type="supplied">Distances to Rome</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Wegur til Röms.</rubric>
+                        <incipit>Af Libiku til Mylnu 4. mÿlur, til Tertinborg<ex>ar</ex> 5. mÿlur</incipit>
+                        <explicit>til S: Päls k<ex>ir</ex>kiu 4 mÿl<ex>ur</ex>.</explicit>
+
+                     </msItem>
+
+                     <msItem n="8.8" class="ords">
+                        <locus from="94v:23" to="94v:25"/>
+                        <title type="supplied">Terms for Time</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Nófn stundan<ex>n</ex>a</rubric>
+                        <incipit>Aulld, fordu<ex>m</ex>, lyf, alld<ex>ur</ex></incipit>
+                        <explicit>sydla, j sin<ex>n</ex>, firra dag.</explicit>
+
+                     </msItem>
+
+                     <msItem n="8.9" class="landfr">
+                        <locus from="94v:26" to="94v:30"/>
+                        <title type="supplied">Parts of Norway</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Aull Fin<ex>n</ex>mørk, Haloga Land, Naumudaler</incipit>
+                        <explicit>þ<ex>ess</ex>e lønd <ex>og</ex> filke heira t<ex>il</ex> Noregs kongs fie hirdslu med
+                              øllu<ex>m</ex> skottu<ex>m</ex> og skÿlldum.</explicit>
+
+                     </msItem>
+
+                     <msItem n="8.10" class="landfr">
+                        <locus from="95r:1" to="95r:8"/>
+                        <title type="supplied">Districts (fylki) in Norway</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Filke i Norege</rubric>
+                        <incipit>1. Haleigia Filke, 2, Naumdæla Filke</incipit>
+                        <explicit>26 Ringaryke, 27 Gudbrandzdal<ex>ir</ex>.</explicit>
+
+                     </msItem>
+
+                  </msItem>
+
+                  <msItem n="9" class="landfr">
+                     <locus from="95r:9" to="95r:13"/>
+                     <title type="supplied">Distances of the Icelandic Coast</title>
+                     <title type="supplied">Tylftatal</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Fra Horne e<ex>r</ex> tal<ex>id</ex> dæg<ex>ra</ex> sigling til Hiørleifs høfda</incipit>
+                     <explicit>ad sigla fyrer hvørt nes.</explicit>
+                     <!--<listBibl>
+                        <bibl>Kålund, <ref target="KKBidrag" type="primary-3">Bidrag til en historisk-topografisk Beskrivelse af
+                              Island</ref><biblScope type="pages">374</biblScope></bibl>
+                        <bibl>Jón Sigurðsson, <ref type="primary-3" target="DiplIsl">Diplomatarium Islandicum</ref><biblScope
+                              type="volume">III</biblScope><biblScope type="pages">17-198</biblScope><note>Ed. 281</note></bibl>
+                        <bibl>Jón Helgason, <ref type="primary-3" target="HauksbokJH">Til Hauksbóks historie i det 17.
+                              århundrede</ref><biblScope type="pages">7</biblScope><note>Ed. 281</note></bibl>
+                     </listBibl>-->
+
+                  </msItem>
+
+                  <msItem n="10" class="annal">
+                     <locus from="95r:14" to="95r:22"/>
+                     <title type="supplied">Annals</title>
+                     <textLang mainLang="non"/>
+                     <incipit>Beda prestur andadist m<ex>ei</ex>r en<ex>n</ex> c. ärum äd<ex>ur</ex> en<ex>n</ex> jsland
+                        bÿgdest</incipit>
+                     <explicit>h<ex>ann</ex> h<ex>a</ex>fdi xxiiij vetur b<ex>isku</ex>p v<ex>er</ex>id, en<ex>n</ex>
+                           h<ex>ann</ex> rykte allz xxxvj är.</explicit>
+
+                  </msItem>
+
+                  <msItem n="11" class="misc">
+                     <locus from="95r:23" to="98v:18"/>
+                     <title type="supplied" xml:lang="la">Geographica qvædam et physica, Theologica qvædam ex sermonibus
+                        Augustini, Varia, atqve inter ea Astronomica qvædam</title>
+                     <title type="supplied" xml:lang="is">Heimslýsing ok helgifræði</title>
+                     
+                     <filiation>
+                        <p>Copied from <ref type="ms" target="#AM04-0544-en" ana="antigraph">AM 544 4to 
+                           (Hauksbók)</ref>. Cf. note on fol. <locus>95v</locus>.</p>
+                     </filiation>
+                     
+                     <msItem n="11.1" class="bibl">
+                        <locus from="95r:23" to="95v:20"/>
+                        <title type="supplied">How Noah's Sons Divided the World Amongst Themselves</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier seig<ex>er</ex> fra þui hvar hv<ex>or</ex> Nöa sona bÿgde heimen<ex>n</ex></rubric>
+                        <incipit>Sÿn<ex>er</ex> Noa voru iij, þ<ex>ei</ex>r skiptu óllu<ex>m</ex> heime m<ex>ed</ex>
+                           si<ex>er</ex></incipit>
+                        <explicit>þa v<ex>er</ex>da tung<ex>er</ex> allz lxxii en<ex>n</ex> þiodlønd þusundrad.</explicit>
+                                                
+                     </msItem>
+
+                     <msItem n="11.2" class="geog">
+                        <locus from="95v:21" to="96v:9"/>
+                        <title type="supplied">On Famous Rivers and Miraculous Springs</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Wm votn j Heimenum</rubric>
+                        <incipit>Brun<ex>n</ex>ur er e<ex>ir</ex>n j Paradysu er vr falla iiij är hingad i þen<ex>n</ex>a
+                           heim.</incipit>
+                        <explicit>en<ex>n</ex> ef hia þ<ex>ei</ex>m er latid lyn klæde ella vll ed<ex>ur</ex> smä trie þa
+                              v<ex>er</ex>dur allt ad steine.</explicit>
+
+                     </msItem>
+
+                     <msItem n="11.3" class="biblHist">
+                        <locus from="96v:10" to="96v:21"/>
+                        <title type="supplied">Prologus</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Þad er sagt ad Moyses tæke þ<ex>ad</ex> räd first<ex>ur</ex> ad sk<ex>ri</ex>fa ä böku<ex>m</ex>
+                           adburd tydinda</incipit>
+                        <explicit>ad skrifa ä böku<ex>m</ex> þau tydinde er ei skylldu ür min<ex>n</ex>e lÿda</explicit>
+                     </msItem>
+
+                     <msItem n="11.4" class="geog">
+                        <locus from="96v:21" to="96v:29"/>
+                        <title type="supplied">On Paradise</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Fra Paradisu</rubric>
+                        <incipit>Svo er sagt ad Paradÿser hin<ex>n</ex> ædste hlut<ex>ir</ex> þ<ex>ess</ex>ar<ex>ar</ex>
+                              v<ex>er</ex>alld<ex>ar</ex>, þ<ex>ar</ex> v<ex>ar</ex> Adam sett<ex>ur</ex></incipit>
+                        <explicit>o<ex>g</ex> veria Bi<ex>or</ex>g og hit<ex>ar</ex> ad m<ex>enn</ex> skule ei þangad
+                           komast.</explicit>
+
+                     </msItem>
+
+                     <msItem n="11.5" class="geog">
+                        <locus from="96v:30" to="98v:2"/>
+                        <title type="supplied">A Geographical Compendium</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hvorsu lønd liggia j Verølldin<ex>ne</ex></rubric>
+                        <incipit>Þessar<ex>ar</ex> bÿgd<ex>ar</ex> þa er Jndia land yst</incipit>
+                        <explicit>þar er Meilans Borg, i hen<ex>n</ex>e var Abrosius b<ex>isku</ex>p:</explicit>
+
+                     </msItem>
+
+                     <msItem n="11.6" class="geog">
+                        <locus from="98v:3" to="98v:18"/>
+                        <title type="supplied">On Foreign Towns and the Burial Places of Saints</title>
+                        <textLang mainLang="non"/>
+                        <rubric/>
+                        <incipit>Roma borg er ÿf<ex>er</ex> øllu<ex>m</ex> borgu<ex>m</ex></incipit>
+                        <explicit>j borg þ<ex>eir</ex>re er heiter Florica, En<ex>n</ex> Nicholaus biskup i bär.</explicit>
+
+                     </msItem>
+
+                  </msItem>
+
+                  <msItem n="12" class="misc">
+                     <locus from="98v:19" to="98v:28"/>
+                     <title type="supplied" xml:lang="la">Theologica qvædam, videntur esse úr Adamsbók</title>
+                     <title type="supplied" xml:lang="is">Heimspeki og helgifræði</title>
+
+                     <msItem n="12.1" class="vita">
+                        <locus from="98v:19" to="98v:28"/>
+                        <title type="supplied">Adam's burial place</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Seth Son<ex>ur</ex> Adams jardadi fødur sin<ex>n</ex> j dalnu<ex>m</ex> Ebron</incipit>
+                        <explicit>ad Gydingar giørdu wr kross Drottins.</explicit>
+
+                     </msItem>
+
+                  </msItem>
+
+                  <msItem n="13" class="fas">
+                     <locus from="98v:29" to="101r:7"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks <note>(Extracts)</note></title>
+                     <title type="parallel">Hervarar saga ok Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier eru Gätur Heidreks kongs Hoffund<ex>ar</ex>sonar og Hervar<ex>ar</ex> dottur Angantyrs
+                           Arngrimsson<ex>ar</ex> er er ödin<ex>n</ex> vppbar i raun rietter en<ex>n</ex> liest v<ex>er</ex>a
+                           gest<ex>ur</ex> blindi hin<ex>n</ex> sä vijse.</rubric>
+                     <incipit>Hafa jeg þ<ex>ad</ex> villda er eg hafda i giær, kong<ex>ur</ex> giettu til hvad þ<ex>ad</ex>
+                           v<ex>ar</ex>.</incipit>
+                     <explicit>Og a þ<ex>eir</ex>re nott var kongur drepin<ex>n</ex></explicit>
+                     <!--<listBibl>
+                        <bibl>Pedersen, <ref type="primary-3" target="hervararsaga1847">Hervarar Saga ok Heiðreks
+                              Konungs</ref><biblScope type="pages">32-43</biblScope></bibl>
+                     </listBibl>-->
+                     
+                     <note>The riddles from the 'H' redaction of <title type="uniform">Hervarar saga og Heiðreks</title>. 
+                        Possibly copied from <ref type="ms" target="#AM04-544-en">Hauksbók (AM 544 4to)</ref> prior
+                     to the text becoming defective?</note>
+                     
+                  </msItem>
+
+                  <msItem n="14" class="misc">
+                     <locus from="101r:8" to="101v:30"/>
+                     <title type="supplied" xml:lang="la">Geographica qvædam et physica, Theologica qvædam ex sermonibus
+                        Augustini, Varia, atqve inter ea Astronomica qvædam</title>
+                     <title type="supplied" xml:lang="is">Heimslýsing ok helgifræði</title>
+
+                     <msItem n="14.1" class="unknown">
+                        <locus from="101r:8" to="101r:20"/>
+                        <title type="supplied">On Sacrifices</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hvadan<ex>n</ex> Blöt höfust.</rubric>
+                        <incipit>Risar giørdu Stopul þan<ex>n</ex> er Babel hiet, en<ex>n</ex> h<ex>ann</ex> v<ex>ar</ex> lx
+                              <ex>og</ex> iiij mÿlna här.</incipit>
+                        <explicit>Vr Babilon mun koma høggorm<ex>ur</ex> sa er svelgia mun allan<ex>n</ex> heim
+                           en<ex>n</ex>.</explicit>
+
+                     </msItem>
+
+                     <msItem n="14.2" class="unknown">
+                        <locus from="101r:21" to="101r:28"/>
+                        <title type="supplied">On the Trumpet</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Vm mothorn.</rubric>
+                        <incipit>Huad er hid efsta Mothorn, Mothorns Rødd v<ex>ar</ex> heird fordu<ex>m</ex> tÿd</incipit>
+                        <explicit>en<ex>n</ex> Johan<ex>n</ex>es deide j sialfre vp<ex>p</ex>numningu og Endurlifnade</explicit>
+
+                     </msItem>
+
+                     <msItem n="14.3" class="unknown">
+                        <locus from="101r:22" to="101v:23"/>
+                        <title type="supplied">On Heathen Gods</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Suo s<ex>ei</ex>gia oss helg<ex>ar</ex> bæk<ex>ur</ex> ad eingi mad<ex>ur</ex> sk<ex>al</ex>
+                           blota heidn<ex>ar</ex> vætt<ex>ir</ex></incipit>
+                        <explicit>h<ex>ann</ex> v<ex>ar</ex> hin<ex>n</ex> ellste fad<ex>er</ex> allra þ<ex>eir</ex>ra
+                           Guda:</explicit>
+
+                     </msItem>
+
+                     <msItem n="14.4" class="serm">
+                        <locus from="101v:24" to="101v:30"/>
+                        <author>St. Augustine of Hippo</author>
+                        <title type="supplied">Augustine's Explanation of Female Behaviour</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Svo seig<ex>er</ex> S: Augustin<ex>us</ex> i sin<ex>n</ex>e ken<ex>n</ex>ingu til læresveina
+                              sin<ex>na</ex></rubric>
+                        <incipit>Sum<ex>ar</ex> kon<ex>ur</ex> e<ex>ru</ex> so vitlausar <ex>og</ex> blind<ex>ar</ex></incipit>
+                        <explicit>og til þ<ex>ess</ex> ad þau sk<ex>ul</ex>i þa bet<ex>ra</ex> halldast og vel hafa.</explicit>
+
+                     </msItem>
+                  </msItem>
+
+                  <msItem n="15" class="unknown">
+                     <locus from="101v:30" to="102r:4"/>
+                     <title type="supplied">De Dialectica</title>
+                     <textLang mainLang="es"/>
+                     <rubric>De Dialectica</rubric>
+                     <incipit>An<ex>n</ex>o de mil y qvinientos y cincuenta y siete</incipit>
+                     <explicit>tiene feedello el secretario delas vniversidad</explicit>
+                  </msItem>
+
+                  <msItem n="16" class="unknown">
+                     <locus from="102r:4" to="102r:17"/>
+                     <title type="supplied">Warrant of Titulus</title>
+                     <textLang mainLang="es"/>
+                     <rubric>Kongsbrefa titul<ex>us</ex> Hispan<ex>us</ex>.</rubric>
+                     <incipit>Don philippe por la gratia de dios Reij de Castilion illa de Licon</incipit>
+                     <explicit>la fire estrivio porsu mandado con acuerdu del del su conscio.</explicit>
+
+                  </msItem>
+
+                  <msItem n="17" class="misc">
+                     <locus from="102r:18" to="103r:10"/>
+                     <title type="supplied">Excerpts, notes</title>
+
+                     <msItem n="17.1" class="landn">
+                        <locus from="102r:19" to="102v:8"/>
+                        <title type="supplied">Settlement in the Eastfjörds</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Vr austfirdinga Landnäme</rubric>
+                        <incipit>Þa er Vlfliot<ex>ur</ex> v<ex>ar</ex> lx ad alldri lógmad<ex>ur</ex></incipit>
+                        <explicit>til goda hofs sin<ex>s</ex> nu t<ex>il</ex> k<ex>ir</ex>kiu tyu<ex>n</ex>d,</explicit>
+                        <!--<bibl>Eiríkur and Finnur Jónsson, <ref type="primary-1" target="Hauksbok1892-96">Hauksbók</ref><biblScope
+                              type="pages">503</biblScope></bibl>-->
+                     </msItem>
+
+                     <msItem n="17.2" class="forn">
+                        <locus from="102v:9" to="102v:13"/>
+                        <title type="uniform">Íslendingabók <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Þa Giztur b<ex>isku</ex>p v<ex>ar</ex> i Skalhollte</incipit>
+                        <explicit>er þy<ex>n</ex>gfar<ex>ar</ex> kaupe ättu ad gegna</explicit>
+
+                     </msItem>
+
+                     <msItem n="17.3" class="hist">
+                        <locus from="102v:14" to="102v:18"/>
+                        <title type="uniform">Breta sögur <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Anno D<ex>omi</ex>ni ara og lxx v<ex>ar</ex> þ<ex>ad</ex> m<ex>ik</ex>la öär j
+                           Einglandi</incipit>
+                        <explicit>Sydan<ex>n</ex> voru Breta k<ex>on</ex>g<ex>ar</ex> af sialfra ættu<ex>m</ex></explicit>
+                     </msItem>
+
+                     <msItem n="17.4" class="bisks">
+                        <locus from="102v:19" to="102v:24"/>
+                        <title type="uniform">Kristni saga <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Gyzt<ex>ur</ex> b<ex>isku</ex>p son Jsleifs b<ex>isku</ex>ps med rädi Sæmund<ex>ar</ex>
+                           fröda</incipit>
+                        <explicit>fra holldgan v<ex>or</ex>z H<ex>er</ex>ra Jesu christi M. C. xviij r.</explicit>
+
+                     </msItem>
+
+                     <msItem n="17.5" class="geog">
+                        <locus from="102v:25" to="102v:27"/>
+                        <title type="supplied">Placenames of Iceland's Westfjords</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Rauda sand<ex>ur</ex>, keflavÿk,</incipit>
+                        <explicit>Ønund<ex>ar</ex> f<ex>jordur</ex> Suganda f<ex>jordur</ex></explicit>
+
+                     </msItem>
+
+                     <msItem n="17.6" class="landn">
+                        <locus from="102v:28" to="102v:30"/>
+                        <title type="uniform">Landnámabók <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Þurijdur sunda filler seiddi til þ<ex>ess</ex> i hallære ä häloga landi</incipit>
+                        <explicit>af hvoriu<ex>m</ex> bonda j Jsaf<ex>ir</ex>de</explicit>
+                     </msItem>
+
+                     <msItem n="17.7" class="geog">
+                        <locus from="102v:31" to="103r:10"/>
+                        <title type="supplied">Placenames in Southern and Eastern Iceland</title>
+                        <textLang mainLang="non"/>
+                        <rubric>vr austfirdinga Landnami</rubric>
+                        <incipit>Länga nes, Fin<ex>n</ex>a f<ex>jordur</ex>, vid f<ex>jordur</ex></incipit>
+                        <explicit>Reikia Nes, alfta Nes.</explicit>
+                        
+                        <note>A later hand has added: <q>Seltiarnarnes, kialarnes akranes</q> to the end of the list.</note>
+                     </msItem>
+                  </msItem>
+
+                  <msItem n="18" class="attat">
+                     <locus from="103r:11" to="104r:8"/>
+                     <title type="supplied">Genealogy from Adam to Haralldr hárfagri</title>
+                     <title type="supplied">Ættartal</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biri<ex>ar</ex> gømul an<ex>n</ex>al og ættartølur</rubric>
+                     <incipit>Þad er frödra m<ex>ann</ex>a søgn ad þ<ex>ad</ex> væ<ex>re</ex> sid<ex>ur</ex> i
+                        firndin<ex>n</ex>e</incipit>
+                     <explicit>en<ex>n</ex> sydan<ex>n</ex> lagdi h<ex>ann</ex> vnder sig allan<ex>n</ex> Noreg.</explicit>
+                     <!--<listBibl>
+                        <bibl>Eiríkur and Finnur Jónsson, <ref type="primary-1" target="Hauksbok1892-96">Hauksbók</ref><biblScope
+                              type="pages">503-506</biblScope></bibl>
+                        <bibl>Jón Sigurðsson, <ref type="primary-1" target="DiplIsl">Diplomatarium Islandicum</ref><biblScope
+                              type="volume">III</biblScope><biblScope type="pages">5-8</biblScope><note>Fols 103r:19-v:18. Ed.
+                              281</note></bibl>
+                     </listBibl>-->
+                  </msItem>
+
+                  <msItem n="19" class="misc">
+                     <locus from="104r:9" to="104v:18"/>
+                     <title type="supplied">Extracts, notes</title>
+
+                     <msItem n="19.1" class="landn">
+                        <locus from="104r:9" to="104r:19"/>
+                        <title type="uniform">Landnámabók <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Vr landnämu Vestfirdinga.</rubric>
+                        <incipit>Wlf<ex>ur</ex> hin<ex>n</ex> skiälgi nam Reijkia Nes allt mille þorskafi<ex>ar</ex>d<ex>ar</ex>
+                           og hafrafells</incipit>
+                        <explicit>er leinge hafdi verid i Hlymrek a Irlandi so q<ex>vad</ex> þork<ex>e</ex>ll
+                           geitiss<ex>on</ex>.</explicit>
+                     </msItem>
+
+                     <msItem n="19.2" class="bisks">
+                        <locus from="104r:19" to="104r:22"/>
+                        <title type="uniform">Kristni saga <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Þa andadist Paskal<ex>us</ex> pape Kyrialax</incipit>
+                        <explicit>an<ex>n</ex>ad i heidni an<ex>n</ex>ad i christni A<ex>nno</ex> M. cxviij ar</explicit>
+                     </msItem>
+
+                     <msItem n="19.3" class="landn">
+                        <locus from="104r:23" to="104r:30"/>
+                        <title type="uniform">Landnámabók <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>J alldar fars bök Beda prestz er getid þ<ex>ess</ex> landz er Thile heiter</incipit>
+                        <explicit>er og þ<ex>ess</ex> getid ä böku<ex>m</ex> enskum ad þan<ex>n</ex> 
+                           tÿma var farid mille landan<ex>n</ex>a</explicit>
+
+                     </msItem>
+
+                     <msItem n="19.4" class="landn">
+                        <locus from="104r:31" to="104v:8"/>
+                        <title type="uniform">Landnámabók <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>So seigia vitrer m<ex>enn</ex> ad vr Norege fra Stadi sie vij dæg<ex>ra</ex> Sigling til
+                           Horns</incipit>
+                        <explicit>en<ex>n</ex> dæg<ex>ur</ex> sigling er fra kolbeins eÿ nord<ex>ur</ex> til Grænlandz
+                           obigda.</explicit>
+                        <!--<bibl>Jón Sigurðsson, <ref type="primary-1" target="DiplIsl">Diplomatarium Islandicum</ref><biblScope
+                              type="volume">III</biblScope><biblScope type="pages">19-20</biblScope></bibl>-->
+                     </msItem>
+
+                     <msItem n="19.5" class="geog">
+                        <locus from="104v:9" to="104v:12"/>
+                        <title type="supplied">Course Eiríksstefna</title>
+                        <textLang mainLang="non"/>
+                        <incipit>þen<ex>n</ex>an<ex>n</ex> gaml<ex>an</ex> Islendskan<ex>n</ex> Rekning 96 vik<ex>ur</ex>
+                              und<ex>an</ex> Snæfells jokle</incipit>
+                        <explicit>ad halda styst nær Eirekz stefnu <ex>etc.</ex></explicit>
+                        <!--<bibl>Jón Sigurðsson, <ref type="primary-1" target="DiplIsl">Diplomatarium Islandicum</ref><biblScope
+                              type="volume">III</biblScope><biblScope type="pages">20</biblScope><note>Footnote 1</note></bibl>-->
+                     </msItem>
+
+                     <msItem n="19.6" class="landn">
+                        <locus from="104v:13" to="104v:18"/>
+                        <title type="uniform">Landnámabók <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <incipit>Son Rolfs k<ex>on</ex>gs vr Bergi Suasa Iotuns nordan af Dofra</incipit>
+                        <explicit>og nämu Alfta fiórd hin<ex>n</ex> sydra j austfiørdum. Þetta er vr austfirdinga
+                           landnäme</explicit>
+                        <!--<bibl>Jón Helgason, <ref type="primary-3" target="HauksbokJH">Til Hauksbóks historie i det 17.
+                              århundrede</ref><biblScope type="pages">8</biblScope><note>Ed. 281</note></bibl>-->
+                     </msItem>
+                  </msItem>
+
+                  <msItem n="20" class="edd">
+                     <locus from="104v:19" to="107v:14"/>
+                     <title type="uniform">Völuspá</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Wølvo spä</rubric>
+                     <incipit>Hliöds bid eg allar helg<ex>ar</ex> kinder, meire og min<ex>n</ex>e</incipit>
+                     <explicit>flÿgur vóll yfir Nidhaugur nae nu mun han<ex>n</ex> seykvass.</explicit>
+                  </msItem>
+
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="107"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Front and rear flyleaves modern.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes">Coat of arms [?] partially visible on fol. <locus>46</locus>.</watermark>
+                           
+                        </support>
+                        
+                        <foliation ana="fol later">
+                           <p>Foliated in violet pencil in lower margins. Paginated in upper corners. 
+                           </p>
+                        </foliation>
+                        
+                        <condition ana="good"/>
+                                                
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="26 31">
+                           <!--<p>Written in one column with 26 to 31 lines per page. Running
+                              titles on fols <locus>2r-46r</locus>.</p>-->
+                           <num type="wpl" atLeast="15" atMost="17"/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity="160"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <note>Fol. <locus>46v</locus> blank.</note>
+                        </layout>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#SigJon008" scope="sole" script="unknown"><p><!--Written by Sigurður Jónsson of
+                        Knörr.--></p></handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Face drawn into initial on fol. <locus>63r</locus>. A few floriated initials throughout</decoNote>
+                  </decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Contains occasional marginalia. On fol. <locus>59</locus> in <ref type="ms" target="#AM04-0597b-en">AM 597 b 4to</ref> 
+                        there is a table of contents referring to
+                        the excerpts and extracts of <ref type="ms" target="#AM04-0544-en">Hauksbók</ref> in <ref type="ms" target="#AM04-0281-en">AM 281 4to</ref>.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in modern (late 19th century?) marbled paper boards.</p>
+                     </binding>							
+                  </bindingDesc>
+                                    
+               </physDesc>
+               
+               <history>
+                  <origin><p>Written in  at <origDate notBefore="1685" notAfter="1699">the end of
+                           the seventeenth century</origDate>.</p></origin>
+                  <provenance><p>It is possible that the manuscript was written for <name type="person" role="patron" key="SigBjo001">Sigurður Björnsson</name> at Saurbær (Kjalarnes).
+                     According to a letter to <name type="person" key="JonHal004" role="other">Jón Halldórsson</name> in <date when="1729">1729</date> (cf. <bibl>Jón Margeirsson, <ref type="primary-1" target="BiblArn31">Bréf Árna
+                              Magnússonar til Íslands 1729 og fleiri skjöl hans í Ríkisskjalasafni Dana</ref>,p. 147</bibl>), 
+                     <name type="person" key="ArnMag001" role="owner">Árni Magnússon</name>
+                     acquired the manuscript from <name type="person" key="SigBjo001" role="owner">Sigurður Björnsson</name> at Saurbær (Kjalarnes),
+                        brother-in-law of the manuscript's scribe.</p></provenance>
+               </history>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:16.49+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-07-29" who="#JSL">Added template elements and details from handrit description.</change>
+         <change when="2013-07-30" who="#JSL">Cataloged from manuscript.</change>
+         <change when="2013-08-19" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

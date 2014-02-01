@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 411 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS08-0411-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 411 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">  <!-- Has to be checked! Most likely by Páll stúdent Pálsson #PalPal003, being a slightly later addition -->
+                     <titlePart>Sögusafn V</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="almb">
+                     <locus from="1r" to="53v"/>
+                     <title type="uniform">Apollonius saga</title>
+                     <rubric>Saga Appollóníuss konungs</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="54r" to="88v"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <rubric>Saga Vilmundar viðutan</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="89r" to="130v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <rubric>Saga Göngu-Hrólfs</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="1311r" to="159v"/>
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <rubric>Saga Sigurgarðs frækna</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="160r" to="168v"/>
+                     <title type="uniform">Valdimars saga</title>
+                     <rubric>Saga Valdimars</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+							<supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="168"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="162"/>
+                              <width unit="mm" quantity="104"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+							   <foliation ana="contemporary pag"/>
+							   <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="25 30">
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="144"/>
+                              <width unit="mm" quantity="88"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+						</objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="#SigMag005" scope="sole" script="unknown">Various other hands
+                      </handNote>
+						</handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low"><p>Some contemporary corrections added in the margin.</p></additions> <!-- also: title page added later? -->
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p/>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+							<origDate notBefore="1700" notAfter="1900"/>
+                     <origPlace key="IS"/>
+						</origin>
+                  <provenance>
+                        <name type="person" role="owner" key="JonSig004"/>
+                     <p>From <name type="person" role="owner" key="JonArn002">Jón Árnason</name>'s collection,
+                        book-keeper.</p>
+                     <note>5th volume in a 5 volume collection: <ref target="JS 08-407" type="ms">JS
+                        407 8vo</ref> - <ref target="JS08-411">JS 411 8vo</ref>.</note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:26.798+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:32.427+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:50.551+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2012-09-13" who="#SMM">Updated encoding to FASNL requirements. Filled out sections where possible.</change>
+         <change when="2012-11-27" who="#SMM">Added some information from black and white picture from the Arnamagnaean collection in Copenhagen.</change>
+         <!-- bindingDesc and watermark missing. Items locus might be inaccurate. -->
+         <change when="2013-08-27" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

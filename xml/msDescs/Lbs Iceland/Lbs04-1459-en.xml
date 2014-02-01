@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1459 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1459-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1459 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     <titlePart>No</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="kvad">
+                     <locus from="1" to="3"/>
+                     <title type="supplied">Skjöldur</title>
+                  </msItem>
+                  <msItem n="1.1" class="fornkv">
+                     <locus from="3" to="4"/>
+                     <title type="uniform">Veróníkukvæði</title>
+                  </msItem>
+                  <msItem n="2" class="bokmfr bokms" defective="true">
+                     <locus from="5r" to="16"/>
+                     <title type="supplied">Fyrirlestrar um íslenskar bókmenntir</title>
+                     <rubric>Forelæsninger over Islandsk literaturhistorie ved docent G.
+                        Brynjúlfsson 1875</rubric>
+                     <note>In the hand of Sigurður Sigurðsson</note>
+                  </msItem>
+                  <msItem n="3" class="tyd sidfr uppeldi">
+                     <locus from="18r" to="52v"/>
+                     <title type="uniform">Konungsskuggsjá</title>
+                     <rubric>Fyirlestrar Gísla Brynjólfssonar um 16.- 23. kap.
+                        Konungsskuggsjár</rubric>
+                     <note>A lecture in Danish translation</note>
+                  </msItem>
+                  <msItem n="4" class="sagnt">
+                     <locus from="54" to="73"/>
+                     <title type="supplied">Þáttur Staðar-Jóns og Staðarmanna</title>
+                  </msItem>
+                  <msItem n="5" class="sendbr">
+                     <locus from="76" to="148"/>
+                     <title type="supplied">Einkaskjöl P.H.J. Hansens</title>
+                  </msItem>
+                  <msItem n="6" class="tjos">
+                     <locus from="149" to="191"/>
+                     <title type="supplied">Þjóðsögur af Snæfellsnesi</title>
+                  </msItem>
+                  <msItem n="6.1" class="sagnfr ">
+                     <locus from="149" to="191"/>
+                     <title type="supplied">Saga Snæfellinga- og Hnappdælinga</title>
+                  </msItem>
+                  <msItem n="6.2" class="landfr">
+                     <locus from="149" to="191"/>
+                     <title type="supplied">Árbók, Lýsing Snæfellsness</title>
+                     <note>With Páll Melsteð's notes</note>
+                  </msItem>
+                  <msItem n="7" class="fre" defective="true">
+                     <locus from="192" to="213"/>
+                     <title type="supplied">Fréttir frá Íslandi 1895</title>
+                  </msItem>
+                  <msItem n="7" class="annal">
+                     <locus from="192" to="213"/>
+                     <title type="supplied">Árbók 1891</title>
+                  </msItem>
+                  <msItem n="8" class="fas" defective="true">
+                     <locus from="214r" to="222v"/>
+                     <note>9 folios, lacking at least one leaf, in chapter 8 and 9</note>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <rubric>Sagan af þeim Egli einhenda og Ásmundi berserkjarbana</rubric>
+                     <note>Written ca 1750</note>
+                     <note>This manuscript, as with Lbs 1458, contains diverse items bought by the library
+                        or given to it over a period of time and subsequently put together into a bundle and given
+                        a single shelfmark. At the end and the oldest of the items are 9 leaves with Egils saga
+                        einhenda. The cataloguing that follows will be as if this was catalogued as
+                        a part, so the cataloguing from physical description onwards applies
+                        only to this item, the fornaldarsaga Egils saga einhenda.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="9"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="197"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="no"/>
+                        <foliation ana="later pag">1-9 from time of restoration</foliation>
+                        <condition ana="poor">Upper margin has been trimmed, dirty and torn. Restored with
+                           poor technique.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="34 36">
+                           <!--<num ana="wpl" atLeast="14" atMost="18"/>--><!-- verse-separate/prose? -->
+                           <dimensions type="written">
+                              <height unit="mm" quantity="183"/>
+                              <width unit="mm" quantity="144"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="kurrent">Scribe
+                        unknown</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="no"/>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+                        <p>Loose leaves</p>
+                     </binding>
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1730" notAfter="1770"/>
+                     <note>This manuscript, as with Lbs 1458, contains diverse items bought by the library
+                        or given to it over a period of time and subsequently put together into a bundle and given
+                        a single shelfmark.</note>
+                  </origin>
+                  <provenance>
+                     <p>Previously owned by 
+                     <name type="person" role="owner" key="ambig">Ásgeir Eyþórsson</name>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:54.823+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07-31" who="#SK">Added items and classes and other information from the
+            P.E.Ó.-catalogue and other sources. </change>
+         <change when="2012-09-20" who="#SK">Added information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

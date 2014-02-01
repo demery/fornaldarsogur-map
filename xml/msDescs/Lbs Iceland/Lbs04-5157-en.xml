@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt> 
+                <title>Lbs 5157 4to</title> 
+            </titleStmt> 
+            
+            <publicationStmt> 
+                <availability status="restricted"> 
+                    <p>Not ready for publication.</p> 
+                </availability> 
+                <authority>Den Arnamagnæanske Samling, København</authority>                 
+            </publicationStmt> 
+            
+            <sourceDesc> 
+                <msDesc xml:id="Lbs04-5157-en" xml:lang="en"> 
+                    <msIdentifier> 
+                        <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository> 
+                        <idno>Lbs 5157 4to</idno> 
+                    </msIdentifier> 
+                    
+                    <msContents> 
+                        
+                        <titlePage ana="no"> 
+                        </titlePage> 
+                        
+                        <msItem n="1" class="isl"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Gull-Þóris saga</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="2" class="isl"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Grettis saga</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="3" class="isl"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Fóstbræðra saga</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="4" class="isl"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Flóamanna saga</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="5" class="isl"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Þorsteins saga hvíta</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="6" class="isl"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Vopnfirðinga saga</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="7" class="islt"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Þorsteins þáttur stangarhöggs</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="8" class="islt"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Bandkrossa þáttur</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="9" class="isl"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Droplaugarsona saga</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="10" class="konth"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform">Hróa þáttur heimska</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                        <msItem n="#" class="fas"> 
+                            <!--<locus from="X" to="X"/> -->    
+                            <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title> 
+                            <textLang mainLang="non"/>
+                        </msItem>
+                    </msContents>              
+                    
+                    <physDesc> 
+                        <objectDesc form="codex">                           
+                            <supportDesc material="chart">                                 
+                                <support> 
+                                    <num type="front-flyleaf" value="1"/> 
+                                    <num type="book-block" value="251"/> 
+                                    <num type="back-flyleaf" value="1"/> 
+                                    <dimensions type="leaf"> 
+                                        <height unit="mm" quantity="202"/> 
+                                        <width unit="mm" quantity="168"/> 
+                                    </dimensions> 
+                                    <!--<watermark ana="no|yes"/>--> 
+                                </support> 
+                                <!--<foliation ana="no|contemporary|later|pag|col|fol"/>-->
+                                <!--<condition ana="terrible|poor|average|good|excellent"/>-->
+                            </supportDesc> 
+                            <!--<layoutDesc> 
+                                <layout ana="verse-separate|verse-prose" columns="x" writtenLines="x x">  
+                                    <num type="wpl" atLeast="" atMost=""/>
+                                    <dimensions type="written"> 
+                                        <height unit="mm" quantity=""/> 
+                                        <width unit="mm" quantity=""/> 
+                                    </dimensions>
+                                </layout> 
+                            </layoutDesc>--> 
+                            
+                        </objectDesc> 
+                        
+                        <handDesc hands="1"> 
+                            <handNote scribeRef="GudPet003" scope="sole" script="XXX"/> 
+                        </handDesc>
+                        <!--<decoDesc ana="no|low|medium|high"> 
+                            <decoNote type="border"/> 
+                        </decoDesc>--> 
+                        <!--<additions ana="no|low|medium|high"> 
+                            <p> 
+                            </p> 
+                        </additions>--> 
+                        <!--<bindingDesc> 
+                            <binding ana="plain|moderate|decorative" contemporary="false"> 
+                                <p/> 
+                            </binding>                             
+                        </bindingDesc> -->
+                    </physDesc> 
+                    
+                    <history> 
+                        <origin> 
+                            <origDate when="1884"/> 
+                            <origPlace key="IS"/> 
+                        </origin>
+                        <provenance> 
+                            <p><name type="person" role="owner" key="IngGud003">Ingimundur Guðmundsson</name> <date when="1890-03-25">25 March 1890</date></p>
+                            <p><name type="person" role="unknown" key="MagRaf001">Magnús Rafnsson</name> delivered in lieu of the Bókasafn Kaldraneshrepps<date when="1986-07-11">11 July 1986</date> a box with manuscripts. The manuscripts came from two book clubs of the district. 
+                        <!-- add MagRaf001 and IngGud003 to the authority file --></p>
+                        </provenance> 
+                    </history>                     
+                    
+                </msDesc> 
+                
+            </sourceDesc> 
+            
+        </fileDesc> 
+        <revisionDesc> 
+            <change when="2011" who="#EAH">Auto-generated from FASNL bibliography data</change> 
+            <change when="2014-01-23" who="#SH">Document created by Silvia Hufnagel with information from the unprinted Lbs-catalogue draft Handritaskrá 1964-2013</change>
+        </revisionDesc> 
+    </teiHeader> 
+    
+    <facsimile> 
+        <surface/> 
+    </facsimile> 
+    
+    <text> 
+        <body> 
+            <p/> 
+        </body> 
+    </text> 
+</TEI> 

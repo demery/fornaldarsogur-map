@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 10 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR04-0010-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 10 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>ÍBR. A. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Fornkonunga sögur III. Sagan af Hrólfi kongi kraka aftan við er Saga
+                        af Böðvari bjarka og Frumvarp til stutts tímatals yfir Norðurlanda
+                        fornsögur, samið af sýslumanni J. Espólín.</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" facs="#IBR04-0010-0002r" to="41v">2r-41v</locus>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hrólfi kongi kraka og Fróða þáttur</rubric>
+                     <colophon>Endar so sögu Hrólfs kraka kongs og kappa hans þann 9da marti
+                        1801</colophon>
+                  </msItem>
+                  <msItem n="2" class="fornth">
+                     <locus from="42r" facs="#IBR04-0010-0042r" to="64v">62r-64v</locus>
+                     <title type="uniform">Böðvars þáttur bjarka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefur sögu af Böðvari bjarka</rubric>
+                  </msItem>
+                  <msItem n="3" class="kont">
+                     <locus from="66r" facs="#IBR04-0010-0066r" to="71r">66r-71r</locus>
+                     <author key="JonEsp001">Jón Espólín</author>
+                     <title type="supplied">Stutt tímatal yfir Norðurlanda fornsögur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frumvarp til stutts tímatals yfir Norðurlanda fornsögur samið af
+                        sýslumanni Jóni Espólín</rubric>
+                     <rubric>Þessu er þannig stuttlega framvarpað allt fram til sagnatíðanna með
+                        tilstyrk þeirra áhalda er ég hafdi við hönd. Breyting hér í afbið ég ekki en
+                        þigg með þakklæti.</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="71"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>One additional front flyleaf part of the binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="203" atMost="217"/>
+                              <width unit="mm" quantity="167"/>
+                           </dimensions>
+                           <note>The pages of the last part are smaller than the rest</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">In pencil at the time of digitisation</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="20 31">
+                           <num type="wpl" atLeast="5" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="174"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="hum cursiva"/>
+                     <handNote scribeRef="#JonKon001" scope="minor" script="kurrent">Kurrent and chancery
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Front flyleaf<locus from="0001r-FFl" facs="#IBR04-0010-0001r-FFl" to="0001r-FFl">1r</locus> in the hand of
+                        <name type="person" role="scribe" key="PalPal003">Páls Pálsson</name> stúdent: <q>Fornkonungasögur
+                           III.</q>.</p>
+                     <p>Front flyleaf<locus from="0001r-FFl" facs="#IBR04-0010-0001r-FFl" to="0001r-FFl">1r</locus> has a register
+                        in the hand of <name type="person" role="scribe" key="PalPal003">Pál Pálsson</name> stúdent.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false" notBefore="1865" notAfter="1877">
+                        <p>Binding from around 1865. <locus from="0000r-FB" facs="#IBR04-0010-0000r-FB" to="0000r-FB">Paper covered cardboard
+                           </locus> with <locus from="Spine" facs="#IBR04-0010-Spine" to="Spine">linen spine.</locus>
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1801" to="1816">1801-1816</origDate>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name type="person" role="donor" key="GudEin005">Guðmundur Einarsson</name>, county clerk,
+                        donated the manuscript to <name type="organisation" role="owner" key="IslBom">The Icelandic literary
+                           society's Reykjavík division (Reykjavíkurdeild Hins íslenska bókmenntafélags)</name> 
+                        in <date when="1865">1865</date>. Its former shelfmark is ÍBR. A. 16.  The
+                        <name type="organisation" role="owner" key="LBS">Landsbókasafn</name> bought the whole collection in <date when="1901">1901</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:07.863+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:15.737+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:36.116+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:11.879+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-01" who="#SK">Adapted to FASNL and added information from the
+            P.E.Ó-catalogue and the digital version of the manuscript itself</change>
+         <change when="2012-05" who="#SK">Added information from the
+            manuscript itself</change>
+         <change when="2013-08-20" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

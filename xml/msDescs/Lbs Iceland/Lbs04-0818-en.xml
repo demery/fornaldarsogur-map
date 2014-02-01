@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 818 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0818-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 818 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Innihald þessarar bókar er sem fylgir, Hávamál en gömlu ...,
+                        Kenningar úr Eddu ..., Um galdra ..., Útleggingar Björns á Skarðsá yfir
+                        Eddu, Kveðlingar Egils Skallagrímssonar ..., Kviða Sigurðar Fáfnisbans og
+                        Brynhildar ..., sem og margra fornaldarmanna spakmæli .... Samanteínt og í
+                        eitt bindi innsett og skrifað á Hrappsey 1801 af Ólafi Sveinssyni.
+                           <note>Part I</note><note>Part II mainly Poetc Edda plus Hrafnagaldur and
+                           an old 'Jólaskrá Óbed prests frá Englandi'</note></titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="2v"/>
+                     <note>Part II</note>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks</title>
+                     <rubric>Formáli að Gestsspeki og getspeki Heiðreks kóngs.</rubric>
+                     <note>Heiðreks gátur</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart"/>
+                  </objectDesc>
+                  <!--<handDesc hands="2">
+                     <handNote scribeRef="#">Ólafur Sveinsson á Hrappsey, Jón Ólafsson á Grímsstöðum and
+                        others</handNote>
+                  </handDesc>-->
+                  <!--<decoDesc ana="">
+                     <decoNote></decoNote>
+                  </decoDesc>-->
+                  <!--<additions ana=""></additions>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:48.319+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+      <change when="2012-09" who="#SK">Added some information from the manuscript itself</change>
+         <!-- Eddic manuscript. Text from both prose and poetic Edda plus some different texts. 
+            No independent fornaldarsögur  -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

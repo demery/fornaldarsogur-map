@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1264 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1264-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1264 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><note>three titlepages, one for the book, one for item 1, one for items ... (p. 481)</note></titlePage>
+               <msItem n="1" class="sagnfr">
+                  <locus from="3r" to="10r">pp. 5-19</locus> 
+                  <title type="supplied">Ártal Josephus Flavii</title>
+                  <textLang mainLang="is"/> 
+                  <filiation>
+                     <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                  </filiation>
+               </msItem>
+                  <msItem n="2" class="kir">
+                     <locus from="10v" to="17r">pp. 20-33</locus>
+                     <title type="supplied">List of Churces in Iceland</title>
+                  <rubric>Kirkjustaðir á Íslandi</rubric>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="kont attat">
+                     <locus from="17v" to="21r">pp. 34-41</locus> 
+                  <title type="supplied">Ættartala Noregskonunga</title>
+                  <note>Follows the Flateyjar annals, from <q>Bure</q> Tyrkjakóngr to Ólafr Hákonarsonar.</note> 
+                 <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="4" class="sagnfr">
+                     <locus from="21v" to="44r">pp. 42- 88</locus> 
+                  <title type="supplied">Þýskalands saga</title>
+                  <rubric>Um þær víðfrægu nafnkunnigu Þýskalands allar karlmannspersónur ...</rubric> 
+                  <note>The text is based on a German translation of
+                     <title>Heinrici Pantaleonis Prosopographia heroum atque 
+                        illustrium virorum totius Germaniae, Basileæ 1565-66</title>.</note>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="5" class="sagnfr">
+                     <locus from="44r" to="131v:19">pp. 88-262</locus>
+                     <title type="supplied">On famous kings and other persons since Adam</title> 
+                     <rubric>Fyrste Partur</rubric>
+                     <rubric>Uppteiknan vm þær víðfræga Personur.</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="sagnfr">
+                     <locus from="131v:20" to="141v:14">pp. 262-284</locus> 
+                     <title type="supplied">Keisaratöl</title>
+                     <rubric>Uppteiknan Griska, Romberskra og Þýskra keisara. eins eptir annann.</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="7" class="paf">
+                     <locus from="141v:15" to="151v:11">pp. 284-304</locus>
+                     <title type="supplied">List of popes</title>
+                     <rubric>Páfva Registur sem verið hafa í Róm</rubric>
+                     <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>From the year 70 to 1560.</note>
+                  </msItem>
+                  <msItem n="8" class="annal">
+                     <locus from="151v:12" to="210v">pp. 304-424</locus>
+                     <title type="annal">Annals</title>
+                     <textLang mainLang="non"/>
+                     <note>from the year 76 to 515</note>
+                  </msItem>
+                  
+                  <msItem n="9" class="stett"> 
+                     <locus from="211r" to="213v">pp. 425-430</locus> 
+                     <title type="supplied">Danmerkur kónga- og Íslands hirðstjóra registur</title>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>Up to the year 1670.</note>
+                  </msItem>
+                  
+                     <msItem n="10" class="bis">
+                     <locus from="214r" to="217v:8">pp. 431-440</locus> 
+                  <title type="supplied">Biskuparegistur á Íslandi</title>
+                  <textLang mainLang="is"/> 
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                        </filiation>
+                        <note>Goes to 1672 (Skálholt) and 1684 (Hólar).</note>
+                  </msItem>
+                  <msItem n="11" class="logmt">
+                     <locus from="217v:9" to="221v">pp. 440-448</locus> 
+                     <title type="supplied">Lögmanna registur Íslands</title>
+                     <textLang mainLang="non"/>
+                     <note>From 930 until 1679</note>
+                  </msItem>
+                  
+                     <msItem n="12" class="starfr">
+                     <locus from="222r" to="222v">pp. 449-450</locus>
+                     <title type="supplied">Markatal</title>
+                  <rubric>Markatal skrifað til hundraðatölu og álna</rubric>
+                  <textLang mainLang="is"/> 
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                        </filiation>
+                     </msItem>
+                  <msItem n="13" class="stilfr"> 
+                     <locus from="223r" to="228v:5">pp. 451-464</locus> 
+                  <title type="supplied">On rubics and titles (Titulaturer)</title> 
+                     <rubric>Form hvörnin sérhvör einn hvörs embættis sem hann er, virðingar og æru, skal skrifast</rubric>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                  </msItem>  
+                  <msItem n="14" class="logfr">
+                     <locus from="228v:6" to="235v">pp. 464-480</locus>              
+                     <title type="supplied">Um testamentisgjörðir</title>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>Partially based on Heinrich Gessler and partially with explanations of Danish-Icelandic legislation.</note>
+               </msItem> 
+                  
+                  <msItem n="15" class="annal">                     
+                     <locus from="236r" to="298r">pp. 481-603</locus> 
+                     <title type="supplied">Annals of kings and emperors</title>
+                  <rubric>Annáll eður tabula annorum mundi</rubric> 
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>From Julius Ceasar to 1530 (1612), mostly about Germany.</note>
+               </msItem>
+                  
+                  <msItem n="16" class="paf">
+                     <locus from="298v" to="316v">pp. 604-640</locus>
+                     <title type="supplied">List of popes</title>
+                     <rubric>Páfa Nöfn Og hvad mörg ár mánuðe og daga hvor hefur ríkt í Róm frá Sancte Petre. og inn til Þessa dags.</rubric>
+                     <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>From the year 70</note>
+                  </msItem>
+                  <msItem n="17" class="person">
+                     <locus from="317r" to="327v">pp. 641-664</locus> 
+                  <title type="supplied">Konunganöfn</title>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>On kings in France, England, Scotland, Spain, Poland and Turkey in the 16th century.</note>
+                  
+               </msItem>
+                  <msItem n="18" class="fas">
+                     <locus from="328r" to="334r:5">pp. 665-677</locus> 
+                     <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans</title>
+                  <title type="parallel">Hversu Noregur byggðist</title>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note> <title>Flateyjarbók</title> version.</note>
+                  </msItem>
+                  <msItem n="19" class="attat">
+                     <locus from="334r:6" to="350v:8">pp. 679-716</locus>
+                     <title type="norm">Ættartala frá Adam</title>
+                     <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>Genealogy of Norwegian and Danish kings until 1596.</note>
+                  </msItem>
+                     
+                  <msItem n="20" class="kong attat"> 
+                     <locus from="350v:9" to="357v">pp. 716-730</locus> 
+                     <title type="supplied">Ættartöl</title>
+                  <rubric>Registur og Ættartala þeirra fyrstu Dönsku konunga frá Adam sem Arnalld Hvitfelld og Saxo Grammaticus umskrifa</rubric>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                     
+                  <msItem n="21" class="sagnfr">
+                     <locus from="358r" to="375v:14">pp. 731-768</locus> 
+                     <title type="uniform">Crymogæa [Icelandic excerpt]</title>
+                  <rubric>Hæc de Islandia qvædam annotata</rubric>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>Excerpts and translations of <name type="person" key="ArnJon001">Arngrímr Jónsson</name>'s
+                        <title>Crymogæa</title>.</note>
+                  <note>Ends with a list of kings up to Christian V.</note>
+                     <note>Runic alphabet with names in runes on pp. 735-736.</note>
+               </msItem>
+                     
+                     <msItem n="22" class="stett"> 
+                        <locus from="375v:15" to="422v">pp. 768-864</locus> 
+                        <title type="supplied">Danmerkur kónga- og Íslands hirðstjóra registur</title>
+                        <textLang mainLang="is"/>
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                        </filiation>
+                        <note>From the Settlement up to the year 1670.</note>
+                       </msItem>
+                     
+                     <msItem n="23" class="stett">
+                        <locus from="423r" to="425v">pp. 865-870</locus> 
+                        <title type="supplied">Konungatal</title>
+                        <textLang mainLang="is"/> 
+                        <filiation>
+                           <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                        </filiation>
+                        <note>Norwegian kings from the Ynglingar until Christian VI</note>
+                     </msItem>
+                  <msItem n="24" class="stett">
+                     <locus from="426r" to="428v">pp. 871-876</locus> 
+                  <title type="supplied">Íslenskt hirðstjóratal</title>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>Until 1649.</note>
+               </msItem>
+                  <msItem n="25" class="stett">
+                     <locus from="428r" to="431r">pp. 877-883</locus> 
+                  <title type="supplied">Íslenskt lögsögumanna- og lögmannatal</title>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>Until 1666 with the addition of three younger lawmen.</note>
+               </msItem>
+                  <msItem n="26" class="bis">
+                     <locus from="431v" to="434r">pp. 884-889</locus>
+                  <title type="supplied">Nöfn Skálholtsbiskupa, Hólabiskupa og Skálholtsskólameistara</title>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>Ends ca. 1685.</note>
+               </msItem>
+                  <msItem n="27" class="annal">
+                     <locus from="434v" to="629r">pp. 890-1261</locus> 
+                  <title type="supplied">Flateyjarannáll</title>
+                  <textLang mainLang="is"/> 
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#AM04-0418-en" ana="antigraph">AM 418 4to</ref>.</p>
+                     </filiation>
+                     <note>Up to the year 1661 and with an addition up to 1694.</note> 
+               </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="629"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="309"/>
+                              <width unit="mm" quantity="196"/> 
+                           </dimensions>
+                              <watermark ana="yes">Maid of Dort</watermark>
+                        </support>
+                        <foliation ana="pag contemporary"/> 
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="26 28"> 
+                           <num type="wpl" atLeast="4" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="235"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>    
+                  </objectDesc>
+                  <handDesc n="1">
+                     <handNote scribeRef="#GudHel001" script="hum cursiva" scope="sole">Hum cursiva for main text, chancery for rubrics and title</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>
+                        <name key="PetSuh001" type="person" role="owner">Suhm</name> made a note on fol. <locus>1r</locus>, which reveals that he confused the scribe of the antigraph 
+                        <name key="ArnMag002" type="person" role="scribe">Árni Magnússon í Bolungavík</name> with <name key="ArnMag001" type="person" role="owner">Árni Magnússon</name>, the owner of AM 418 4to.</p>
+                  </additions>
+                     <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown leather binding with golden imprint on the spine: <q>ANNALES AF A MAGNAEI</q></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="owner"/>
+                     <note>Formerly Suhm's collection no 754 fol.</note>
+                  </provenance> 
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:35.575+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-30" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-05-14" who="#BES">Added missing information with manucsript in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

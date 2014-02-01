@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 4827 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-4827-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 4827 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="islt">
+                     <locus from="1r" facs="#Lbs04-4827-0001r" to="8v">1r-8v</locus>
+                     <title type="uniform">Bergbúa þáttur</title>
+                     <rubric>Bergbúa þáttur [m. vísnaskýringum]</rubric>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifað eftir gömlum sundurrotnum blöðum. E[inar] (<locus from="8v" facs="#Lbs04-4827-0008v" to="8v">8v</locus>)</colophon>
+                  </msItem>
+                  <msItem n="2" class="konth">
+                     <locus from="9r" facs="#Lbs04-4827-0009r" to="15r">9r-15r</locus>
+                     <title type="uniform">Hauks þáttur hábrókar</title>
+                     <rubric>Söguþáttur af Hauki hábrók og Vígharði</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="islst">
+                     <locus from="15v" facs="#Lbs04-4827-0015v" to="24v">15v-24v</locus>
+                     <title type="uniform">Atla saga Ótryggssonar</title>
+                     <rubric>Söguþáttur af Atla Ótryggssyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="25r" facs="#Lbs04-4827-0025r" to="62v">25r-62v</locus>
+                     <title type="uniform">Bjarnar saga Hítdælakappa</title>
+                     <rubric>Saga Bjarnar Hítdælakappa</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="63r" facs="#Lbs04-4827-0063r" to="90r">63r-90r</locus>
+                     <title type="uniform">Kormáks saga</title>
+                     <rubric>Hér ritast Kormáks saga</rubric>
+                     <note>Orðamunur neðanmáls</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="rimur">
+                     <locus from="91r" facs="#Lbs04-4827-0091r" to="106v">91r-106v</locus>
+                     <title type="uniform">Rímur af Skáld-Helga</title>
+                     <rubric>Rímur af Skáld-Helga sögu</rubric>
+                     <colophon>Rímur þessar hef ég í fyrstu ritað eftir nýlegu fínt og smátt
+                        skrifuðu exempl., af þeim mér léðu austan af landi … Annars munu rímur
+                        þessar vera orðnar stórum afbakaðar ærið víða [skrifari fjallar hér um
+                        forrit sitt og uppskrift sína] (<locus from="106v" facs="#Lbs04-4827-0106v" to="106v">106v</locus>)</colophon>
+                     <textLang mainLang="is"/>
+                     <note>7 rímur</note>
+                  </msItem>
+                  <msItem n="7" class="islst" defective="true">
+                     <locus>accompanying fragment</locus>
+                     <title type="uniform">Þóris þáttr hasts</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas" defective="true">
+                     <locus>Accompanying fragments</locus>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" defective="true" class="fas">
+                     <locus>Accompanying fragments, remains of pagination in the upper corner, here
+                        p. 187</locus>
+                     <title ref="#hsk" type="uniform">Hrólfs saga kraka</title>
+                     <incipit>arr at eiga Øgn. oc settizt sva at riki meþ Nordra kon ongi mági
+                        sinom;</incipit>
+                     <explicit>oc reifar hann innani þesso huþfati síþan fær hon til menn oc letr
+                        flytia hann til Scipa sin<ex>n</ex>a </explicit>
+                     <filiation>........</filiation>
+                     <note>One leaf fragment from Helga þáttr</note>
+                  </msItem>
+                  <msItem n="10" defective="true" class="ban">
+                     <locus>Accompanying fragments</locus>
+                     <title type="supplied">brot úr hátíðarbænum (fragments of festive
+                        prayers)</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="106"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="188"/>
+                              <width unit="mm" quantity="153"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good">A newspaper strip has been glued onto the back
+                           flyleaf</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="22 25">
+                           <num type="wpl" atLeast="7" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="163"/>
+                              <width unit="mm" quantity="128"/>
+                           </dimensions>
+                           <note>Blank leaves: 46v and 47r, accidentally skipped by the
+                              scribe</note>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#EinBja003" scope="sole" script="hum cursiva">
+                        <name type="person" key="EinBja003">Einar Bjarnason</name> á <name type="place">Starrastöðum</name></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Initials in certain places, large and
+                        decorated</decoNote>
+                     <decoNote type="initial">Titles moderately to richly decorated</decoNote>
+                     <decoNote type="paratext">Plain text lining in yellow at individual places and
+                        pencil text box in the <title type="uniform">Hrólfs saga kraka</title>
+                        fragment.</decoNote>
+                     <decoNote type="paratext">V-ending</decoNote>
+                     <decoNote type="paratext">Line at the end of text</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>Several comments added to poems in the margin</p>
+                     <p>Pieces of Þóris þáttur hasts (1 folio), Hálfs saga og Hálfsrekka (5 folios),
+                        Hrólfs saga kraka (1 folio) and a fragment of hátíðabænir (4 folios) are
+                        kept with the manuscript (see item 7-10). A typed note on a slip of paper
+                        inserted at the back: <q> Til Landsbókasafns. Meðfylgjandi handrit mun hafa
+                           verið í eigu <name key="ThuLan001" type="person" role="owner">Þuríðar
+                              Lange</name>, líklegast úr eigu föður hennar Jóels á Spákonufelli á
+                           Skagaströnd. <name key="ThoMag017" type="person" role="scholar">Þór
+                              Magnússon</name>. Kom <date>23/12 '77</date>. </q></p>
+                     <p>The name of <name key="PalTom001" type="person" role="owner">Séra Páll Tómasson</name> á
+                        <placeName>Knappsstöðum í Stíflu</placeName> can be found on fols. <locus from="1r" facs="#Lbs04-4827-0001r" to="1r">1r</locus>, <locus from="24v" facs="#Lbs04-4827-0024v" to="24v">24v</locus>, <locus from="62v" facs="#Lbs04-4827-0062v" to="62v">62v</locus>, <locus from="90v" facs="#Lbs04-4827-0090v" to="90v">90v</locus> and possibly on the verso side of the front fly leaf.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Leather binding with wooden covers, embossed. On a snip of paper at the
+                           rear plate, there are the remains of a seal.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1801" to="1856"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>Owners of the manuscript: <name type="person" role="owner" key="TomPal001">Tómas
+                        Pálsson</name> [perhaps the son of reverend Páll, or at least
+                        his descendant, they lived at Skagaströnd (cf. Manuscript
+                        Catalogue)]; reverend <name type="person" role="owner" key="PalTom001">Páll Tómasson</name> at <placeName>Knappsstaðir
+                           in Stífla</placeName> (cf. Manuscript
+                        Catalogue); <name key="ThuLan001" type="person" role="owner">Þuríður Lange</name> and <name type="person" key="JakJos001" role="owner">Jakob Jósefsson</name> in 
+                     <name type="place">Árbakka á Skagaströnd</name> (cf. Manuscript
+                     Catalogue). </p>
+                     <p>
+                        <name type="person" role="other" key="ThoMag017">Þór Magnússon</name>, director of
+                        the National Museum of Iceland, handed the manuscirpt over <date when="1977-12-23">23rd December 1977</date>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:51.568+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:54:11.47+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:43:30.413+02:00" who="#EAH">Extracted pagination and page
+            dimension data from previous version.</change>
+         <change when="2012-12-19" who="#SMM">Completed msItems and other descriptions (+translated)
+            from information on handrit.is.</change>
+         <change when="2013-04-12" who="#BES">Checked and completed information, mostly based on
+            TL's files.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

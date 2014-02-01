@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 2207 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-2207-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 2207 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="skalds">
+                     <locus from="1r:1" to="54r:24">1-107</locus>
+                     <title type="supplied">Artimundar saga sterka</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Saga af Artímunð Úlfvar syni = sterka</rubric>
+                     <rubric>1 Capituli</rubric>
+                     <incipit>So fin<ex>n</ex>st skráð i fornum<ex>m</ex> frædibókum</incipit>
+                     <explicit>fræði bókúm sem hann hefur eptirlatid af Artimúnd sterka Ulfarssyni</explicit>
+                     <colophon>endad a Volasela þann 27 Martius 1859 af Eyriki Halldorssyni á 17 aldurs ári</colophon>
+                  </msItem>
+                  <msItem n="2" class="kvad">
+                     <locus from="54v:1" to="56v:35">108-112</locus>
+                     <title type="supplied">Various short poems</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Imislegar visur</rubric>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="57r:1" to="95r:26">113-189</locus>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér hefst saga af Þjalar-Joni og Eiríki forvitna</rubric>
+                     <rubric>1 Capituli</rubric>
+                     <incipit>Vilhjálmur hefúr Kongur heitid er réd fyrir Frakklandi</incipit>
+                     <explicit>hét annar Vilhjalmr eptir födur hans, en annar Svipdagr eptir jarlinum födur hennar.</explicit>
+                     <finalRubric>Og liktum vér svo þessa sögu af Jóni Svipdagssyni og Eiríki hinum forvitna.</finalRubric>
+                     <colophon>Endad á Volaseli þann 16 Maii 1862 af Haldóri Ketilssyni</colophon>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="95v:1" to="106v:21">190-212</locus>
+                     <title type="supplied">Poems by Sigurður Breiðfjörð</title>
+                     <textLang mainLang="is"/>
+                     <author key="SigBre001">Sigurður Breiðfjörð</author>
+                     <msItem n="4.1" class="kvad"><rubric>Formanna vísur Kvednar af Sigurdi Breidfjörd</rubric></msItem>
+                  <msItem n="4.2" class="kvad"><rubric>Lising Høfundarins</rubric></msItem>
+                     <msItem n="4.3" class="kvad"><rubric>Kvædi eftir Sigurd Breiðfjörð</rubric></msItem>
+                     <msItem n="4.4" class="kvad"><rubric>Sigling fra Jslandi til kaupman<ex>n</ex>ahafnar arid 1814</rubric></msItem>
+                  </msItem>
+                  <msItem n="5" class="smas">
+                     <locus from="107r:1" to="111v:27">213-222</locus>
+                     <title type="supplied">Short stories</title>
+                     <textLang mainLang="is"/> 
+                     <msItem n="5.1" class="smas"><rubric>Skipiðá hafinu eða Maðurinn í Heiminum</rubric></msItem>
+                     <msItem n="5.2" class="smas"><rubric>Reikúrinn af réttúnúm</rubric></msItem>
+                     <msItem n="5.3" class="smas"><rubric>Bjarndýrid glimir við tún<ex>n</ex>ú</rubric></msItem>
+                     <msItem n="5.4" class="smas"><rubric>Kötturinn i rúkkúnni</rubric></msItem>
+                     <msItem n="5.5" class="smas"><rubric>Refurinn i aldingardinúm</rubric></msItem>
+                     </msItem>
+                  <msItem n="6" class="kvad">
+                     <locus from="112r:1" to="113v:8">223-226</locus>
+                     <title type="supplied">Short poems</title>
+                     <textLang mainLang="is"/>
+                     <note>Vysur um<ex>m</ex> Fiskaran<ex>n</ex> og Flidruna</note>
+                     <note>Hestavisúr</note>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="113"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Two flyleaves were added by a later bookbinder, one at the front
+                              and one at the back.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="166"/>
+                              <width unit="mm" quantity="104"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="pag contemporary">Paginated 1-226</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="26 33">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="140"/>
+                              <width unit="mm" quantity="82"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#EirHal002" scope="major" script="unknown">Eiríkur Halldórsson í Volaseli</handNote>
+                     <handNote scribeRef="#HalKet002" scope="major" script="unknown">Halldór Ketilsson í Volaseli</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Lightly decorated initials in black ink throughout.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <note>Owners' names have been scribbled in various places.</note>
+                     <note>A table of contents has been written at a later time on the additional flyleaf at the front.</note>
+                     <note>Three stanzas have been written on the verso side of the original flyleaf at the back.</note>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="inapplicable">
+                        <p>Bound in 1896 while owned by Sigmundur M. Long.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1859" to="1862"/>
+                    <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="SigLon001">Sigmundur M. Long</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:19.962+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2012-07-11" who="#SMM">Added msItems (some classes missing) and msDesc codes</change>
+         <change when="2013-03-25" who="#SK">Added some classes and other information</change>
+         <change when="2013-09-16" who="#OHA">Catalogued from manuscript.</change>
+         <change when="2013-10-02" who="#TL">Checked markup</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

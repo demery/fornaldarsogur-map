@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Säfstaholmssamlingen I Papp. 12</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Safstaholmssamlingen-I-Papp-12" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#RAS">Riksarkivet, Stockholm</repository>
+                  <idno>Säfstaholmssamlingen I Papp. 12</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="11v"/>
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="sv"/>
+                     <note>Swedish translation based on Guðmundur Ólafsson's edition.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="17r" to="38v"/>
+                     <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                     <rubric>Hår beginnes den Saga som handlar om Halfdani Branas foster Sön</rubric>
+                     <rubric>Förmaler om Konung Hring i Danmarck och hans barn</rubric>
+                     <incipit>Hringur war en Konung benåmd, Hen her regeradi öfwer danmark</incipit>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="43r" to="83v"/>
+                     <title type="uniform" ref="#ssst">Sörla saga sterka</title>
+                     <rubric>Hår begÿnnes Sagan af Sorle den Starka</rubric>
+                     <rubric>i. Cap: Om Konung Erling i Upland och dess barn</rubric>
+                     <incipit>På hen tÿden som Halfdan Branu Foster hade wäldet öfwer Sverige</incipit>
+                     <textLang mainLang="sv"/>
+                  </msItem>
+                  <msItem n="4" class="prent">
+                     <locus from="88r" to="109v"/>
+                     <title type="supplied">SOGUBROT Af Nockorum Fornkongum i Dana oc Svia velldi</title>
+                     <textLang mainLang="sv"/>
+                     <note>Johann Peringskiold, 1719</note>
+                     <note>This text talks about 'Kong Ring</note>
+                  </msItem>
+                  <msItem n="5" class="prent">
+                     <locus from="110r" to="155r"/>
+                     <title type="supplied">Hialmthers Och Olvers SAGA</title>
+                     <textLang mainLang="sv"/>
+                     <note>Johann Peringskiold, 1720</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="155"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="202"/>
+                              <width unit="mm" quantity="164"/>
+                           </dimensions>
+                           <watermark ana="yes">two lions standing next to a pedestal with a crown on top</watermark>
+                        </support>
+                        <foliation ana="no">Printed material is, however, paginated.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 23">
+                           <num type="wpl" atLeast="7" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="173"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <!-- apparantly decorated, but type and extent unknown -->
+                  <!--<decoDesc ana="yes">
+                     <decoNote/>
+                  </decoDesc>-->
+                  <additions ana="low">
+                     <p>On the inner front cover at the top a list of the contents of the codex has been written, 5 items.</p>
+                     <p>On the inner front cover there has been written: <q>Säfstahalmssaml. 12.</q> in pencil.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound in white parchment, now somewhat dirty. On the spine the following has been written
+                           in ink: <q>M. S. S. 1 Illuga Grydar fostras 2 halfdan Brana
+                             fostras 3 Sorla Starkas 4 Bravalla 5 Hialmters och
+                              Olfiers Saga</q>. There are also two white labels below on which are printed: <q>83</q>
+                           and <q>F.12</q>. The fore-edge is red.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1690" notAfter="1710"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="GusBon001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:17.388+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-04-09" who="#PTL">Completed details in Stockholm with manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

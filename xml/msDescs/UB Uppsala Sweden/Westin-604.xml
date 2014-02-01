@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westin 604</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Westin-604" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>Westin 604</idno>
+                  <!-- ONLY FOR VOLUME 1!!! vol 2 ignored in this file -->
+               </msIdentifier>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="246"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="185" atMost="203"/>
+                              <width unit="mm" atLeast="110" atMost="164"/>
+                           </dimensions>
+                           <note>Several blank pages and leaves.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <!-- what is 'printed' foliation? surely not from set type? -->
+                        <foliation ana="fol later">Printed foliation in top right corners, including front and back fly-leaves.
+                           Fol. 226 left out.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"/>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Half binding; cardboard covered with marbled paper, red leather spine and corners, gold embossing on
+                           spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance>
+                     <p>The manuscript once belonged to Archbishop <name type="person" role="owner" key="CarMen001">C. F.
+                     Mennander</name></p>.
+                  </provenance>
+               </history>
+
+               <msPart>
+                     <altIdentifier>
+                        <idno>Westin 604 IV</idno>
+                     </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <msItem n="1" class="fas">
+                        <locus from="34r:1" to="49v:12"/>
+                        <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                        <textLang mainLang="non" otherLangs="la"/>
+                        <rubric>Variantes Lectiones ad Hervarar Saga i.e. Historiam Hervaræ, a b. VERELIO editam, quas in marginæ
+                           exemplaris, quod in Archivo Antiquitatum Regio habetur, ex codice fortasse BRYNOLPH SVENONII, Ep.
+                           Scalh. postea ad ARN. MAGNÆUM devoluto (vid. TORF. Ser. Dynast. Reg. Dan. p. 309. et 363.) annotaverat
+                           olim GUDMUNDUS OL. Transl. Jsl.</rubric>
+                        <rubric>Cum Reg. Societate communicavit M. v. CELSE. Canc. Reg. Consiliarius.</rubric>
+                        <note>Variant readings from Papp. fol. nr 120. Fol. 34 is repeated on fol. 35.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="16"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="203"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="fol later">Printed foliation in top right corners.</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="28 30">
+                              <num type="wpl" atLeast="3" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="185"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#MagCel001" scope="sole" script="unknown">Magnus von Celse used a mixed script with aspects
+                           of hum cursiva and chancery</handNote>
+                        <!-- not sure about script, is a mixture -->
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>Some corrections and notes.</p></additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1750" notAfter="1784"/>
+                        <origPlace key="SE"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <!-- Latin notes on Hjálmþérs saga do not include text of saga itself (or excerpts/extracts), therefore not included in this file -->
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:22.774+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-10" who="SH">Added information from catalogue and from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

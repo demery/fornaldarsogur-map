@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1793 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1793-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1793 4to</idno>
+                  <altIdentifier>
+                     <idno>Suhm's collection no. 99 4to</idno>
+                  </altIdentifier>
+
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     
+                     <note>With a comment about the quality of the exemplar</note>
+                  </titlePage>
+                  <msItem n="1" class="handfr">
+                     <locus from="1v" to="1v"/>
+                     <title type="supplied">Copy of AM-slip</title>
+                     <textLang mainLang="non" otherLangs="la"/>
+                  </msItem>
+                  <msItem n="2" class="fas" defective="true">
+                     <locus from="2r" to="155r"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Orvar=Odds-Saga</rubric>
+                     <rubric>Cap: 1</rubric>
+                     <incipit>Grímur het madr oc var kallaður lodinkinne</incipit>
+                     <explicit>Nú beð ek þess at Guð almáttugur láti aungvan.....</explicit>
+                     <filiation><ref type="ms" target="#AM04-0344a-en" ana="antigraph">copy of AM 344 a 4to and another, unknown
+                           paper manuscript</ref></filiation>
+                     <note>Copied with the notes from the exemplar as footnotes</note>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="157r" to="214v"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga [Excerpt]</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Cap. xviij.</rubric>
+                     <incipit>Svo er sagt ad Oddur gieck einn dag fram á biörg nockur</incipit>
+                     <explicit>ok lauk svo þeirra skiptum. Nú situr Oddur i ríki sinn etc.</explicit>
+                     <note>Excerpt from a different manuscript to fill in a missing part (as stated in the preceding note).</note>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="217v" to="229v"/>
+                     <title type="supplied">Örvar-Odds drápa</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Her byriast drápa Ørvar=Odds.</rubric>
+                     <incipit>Hlyde segger enn ek segia mun,</incipit>
+                     <explicit>kvediu mína, kem eg ej þar.</explicit>
+                     <!-- What does this mean? -->
+                     <note>Meant to be a supplement.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="229"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           <watermark ana="yes">Beehive "JHonig <ex>et</ex> Zoonen"</watermark>
+                        </support>
+                        <foliation ana="contemporary pag later fol">later foliation on a few leaves only.</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate verse-prose" columns="1" writtenLines="16 18">
+                           <num type="wpl" atLeast="4" atMost="6"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoMag014" scope="sole" script="hum cursiva">Rubrics partially in chancery
+                        script.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext"/>
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low"><p>Few notes and comments in the margins, some of them probably by <name key="PetSuh001" type="person" role="owner">Suhm</name>.</p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown leather binding; fore-edge painted blue; marbled paper on the pastedown; golden imprint on the spine: title and
+                           floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknwon"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no 99 4to</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:46.608+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-05-03" who="#BES">Added catalog info.</change>
+         <change when="2013-05-31" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

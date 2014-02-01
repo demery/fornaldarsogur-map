@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LUB 4to nr 6</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den ArnamagnÃ¦anske Samling, KÃ¸benhavn</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="LUB-4to-nr-6" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBLND">Lunds Universitets Bibliotek</repository>
+                  <idno>LUB 4to nr 6</idno>
+                  <altIdentifier type="formerShelfmark">
+                     <idno>Bibl. Mscr. H. b) Saga L. 4˚ 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     
+                     <note>The title page is an attempt to reproduce the appearance of the title page from the printed edition.
+                        'Sagan af ILLAUGA GRŸDARFOSTRA Eller Illuge Grÿdur Fostre. Fordom på gammal Göthiske skrifwen, och nu på svensku uttolkud
+                        af Gudmund Olofsson, Reg: Translat: Lingv: Antiquae. Tryckt i Upssala Anno 1695'</note>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2r" to="21r"/>
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="non"/>
+                     <rubric>1. Capitule - Upphaf Sigurdar og Illauga</rubric>
+                     <incipit>Sa kongur riede fýrir Danmorko er Hringur hiet</incipit>
+                     <explicit>og lukum wier swo þessare sogu af Illauga, Grydar Fostra</explicit>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="book" target="#GuðÓla1695" ana="antigraph">Guðmundur Ólafsson's Edition (Uppsala 1695)</ref>.</p>
+                     </filiation>
+                     <note>Text in the first column, to the left.</note>
+                  </msItem>
+                  <msItem n="2" class="fas tyd">
+                     <locus from="2r" to="21r"/>
+                     <title type="uniform" ref="#isg">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="sv"/>
+                     <rubric>1. Capitlet - Om Sigurds ock Illauges upphaf</rubric>
+                     <incipit/>
+                     <explicit/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="book" target="#GuðÓla1695" ana="antigraph">Guðmundur Ólafsson's Edition (Uppsala 1695)</ref>.</p>
+                     </filiation>
+                     <note>Text in the second column, to the right.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="24"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="168"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort</watermark>
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="poor">Binding is falling off. Some interior pages have become detached.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="18 25">
+                           <note>The Old Norse text has fewer written lines (18-20) than the translated text (22-25)</note>
+                           <num type="wpl" atLeast="2" atMost="5"/>
+                           <note>Words per column, 2-4 in text, 205 in translation.</note>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote>On 21r after the end of the saga there is a flourish in the shape of a whirwind
+                        with several hashtags inside the swirls.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>On the title page a later hand has added 'Bibl. Mscr. H. b) Saga L. 4˚ 6'</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Binding is made of marbled paper pasted onto paper taken from a printed book (the text is Latin).
+                           On the back cover, the marbled paper has fallen off that taken from a printed book.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <!-- Sweden? -->
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:36.947+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-02-13" who="#BES">Prepared for visit at the library</change>
+         <change when="2013-08-28" who="#JSL">Updated file missing (?) from SVN. Supplied details from header to PTL's
+            transcription of LUB 4to nr 6 during proofreading.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

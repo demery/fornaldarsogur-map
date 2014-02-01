@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 468 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0468-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 468 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                     
+                  </titlePage>
+                  <msItem n="1" class="almb">
+                     <locus from="1r" to="41v">1r-41v</locus>
+                     <title type="uniform">Cyrus saga Persakonungs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="almb">
+                     <locus from="42r" to="77r">42r-77r</locus>
+                     <title type="uniform">Pontanus saga og Diocletianus</title>
+                     <title type="parallel">Sjö meistara saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="gat">
+                     <locus from="77v" to="77v">77v-77v</locus>
+                     <title type="supplied">Gátur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="kon">
+                     <locus from="78r" to="128r">78r-128r</locus>
+                     <title type="uniform">Færeyinga saga</title>
+                     <note>Folio 78r is a titlepage
+                        for the saga</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="130r" to="159r">130r-159r</locus>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <note>Has a title page, 129r, without the title itself.</note>
+                     <colophon>Söguna endar skrifa 2. febrúar 1857, Einar Guðnason</colophon>
+                     <note>The scribe's name in runic letters</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5.1" class="laus kvad fas">
+                     <locus from="159r" to="159r"/>
+                     <title type="Lausavísa"/>
+                     <incipit>Víkings arfi örn gaf ná . . .</incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="160"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="167"/>
+                           </dimensions>
+                           <!--<watermark ana=""/>-->
+                        </support>
+                        <foliation ana="contemporary pag">Empty pages 1v, 78v, 128v, 159v and
+                           160</foliation>
+                        <!--<condition ana=""/>-->
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="34 30">
+                           <num type="wpl" atLeast="9" atMost="14"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#EinGud003" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote>Decorated titlepages, 1r, 129r; in red: 42r, 78r</decoNote>
+                     <decoNote type="initial">Numerous decorated initials, some in red</decoNote>
+                     <decoNote type="vignette" subtype="tailpiece">Tailpieces 41v, 128r,
+                        159r</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>The scribes initials in runic letters, 
+                           128r, 159r</p>
+                     <p>Beneath the year on page 1r (a titlepage) is written in a different hand: Með hendi (in the hand of)
+                        Einars Guðnasonar á Sleggjulæk</p>
+                     <p>Front-flyleaf 1r, in a different hand: Frá E. Guðnasyni 3/7 1888 </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                     <p>Dark-brown leather on paper boards</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1853" to="1857"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:34.27+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:45.089+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:03.04+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:37.028+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2013-04-18" who="#SK">Adapted to FASNL and added information from the digital version and a file on handrit.is and other sources</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

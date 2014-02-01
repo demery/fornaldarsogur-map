@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westin 76</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Westin-76" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>Westin 76</idno>
+               </msIdentifier>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="107"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Fols. 52v-54r, 55r-56v, 101v-102v, 104v, 105v and 107v blank.</note>
+                        </support>
+                        <foliation ana="later fol">
+                           <note>Printed foliation 1-102 in top right corner, back fly-leaf also foliated, fols 37 and 103-107
+                              left out.</note>
+                        </foliation>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Half binding; cardboard covered with marbled paper, spine and corners dark brown leather with gold
+                           embossing on spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1849"/>
+                     <origPlace key="SE"/>
+                  </origin>
+               </history>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Westin 76 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="contemporary"/>
+                     <msItem n="1" class="formal">
+                        <locus from="2v" to="2v"/>
+                        <title type="supplied">Preface</title>
+                        <textLang mainLang="sv"/>
+                        <note>Information on filiation</note>
+                     </msItem>
+                     <msItem n="2" class="kvad">
+                        <locus from="3r" to="5r:4"/>
+                        <title type="supplied">Verses</title>
+                        <textLang mainLang="sv"/>
+                        <incipit>Vid bräden af en liten flod, Invid en poppel-lund</incipit>
+                        <explicit>Åt alla väsen's hulde Far En lofsång stämma opp!</explicit>
+                     </msItem>
+                     <msItem n="3" class="fas">
+                        <locus from="6r" to="46v:12"/>
+                        <title type="uniform" ref="#vs">Völsunga saga</title>
+                        <textLang mainLang="sv"/>
+                        <author role="translator">C. G. Kröningsvärd</author>
+                        <rubric>1. Cap. Sige blifver Konung i Hunaland.</rubric>
+                        <incipit>Hår begynner det att förtäljas om en man, vid namn Sige</incipit>
+                        <explicit>Vill jag städse följa, Så länge lifvet mig forunnas.</explicit>
+                        <!-- Probably NKS 1824 b 4to? -->
+                        <filiation><p>Based on a MS from GKS in Cph, from Bishop Brynjólfur Sveinsson to King Frederik III, s. xv
+                           in</p></filiation>
+                        <note>Swedish transl., chapters 1-20</note>
+                     </msItem>
+                     <msItem n="4" class="bok">
+                        <locus from="47r" to="52r:4"/>
+                        <title type="supplied">Notes</title>
+                        <textLang mainLang="sv"/>
+                        <rubric>Upplysningar och Anmärkningar.</rubric>
+                        <incipit>1) "Varagr i veum", som står i texten, kallades egentligen den, som hade ofredat tempet och
+                           helgedomar</incipit>
+                        <explicit>vid Ragnarök, eller verldens undergång.</explicit>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="55"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="contemporary pag">Preface paginated with Roman numerals in top margins; verses
+                              separately paginated in top margins.</foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="23 32">
+                              <num type="wpl" atLeast="4" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="115"/>
+                                 <width unit="mm" quantity="70"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                     </handDesc>
+
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1845"/>
+                        <origPlace key="SE"/>
+                        <!-- does this mean this MS was printed at some point? -->
+                        <note>Published in Stockholm by <name type="person" role="publisher">Schultze &amp; Co.</name></note>
+                     </origin>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>Westin 76 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="55r" to="96v:35"/>
+                        <title type="uniform" ref="#vs">Völsunga saga</title>
+                        <textLang mainLang="sv"/>
+                        <rubric>21. Cap. Brynhild gifver Sigurd goda råd.</rubric>
+                        <incipit>Sigurd sade derefter: aldrig finner man en visare qvinna i verlden</incipit>
+                        <explicit>och tillade: nu hoppas jag, att</explicit>
+                        <note>Chapters 21-43</note>
+                     </msItem>
+                     <msItem n="2" class="bok">
+                        <locus from="97r:1" to="101r:24"/>
+                        <title type="supplied">Notes</title>
+                        <rubric>Upplysningar och Anmärkningar</rubric>
+                        <textLang mainLang="sv"/>
+                        <incipit>1. Sålunda benämndes de Nordbor hvilka utgjorde en del af de Österländske Kejsarnes i
+                           Constantinopel lifvagt.</incipit>
+                        <explicit>å hvars vägnar en sådan dryck framräcktes.</explicit>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="47"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="355"/>
+                                 <width unit="mm" quantity="220"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-separate" columns="1" writtenLines="34 35">
+                              <num type="wpl" atLeast="4" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="305"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Some corrections and numbers in the left margins.</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier>
+                     <idno>Westin 76 III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="bok">
+                        <locus from="103r:1" to="107:12"/>
+                        <title type="supplied">Notes</title>
+                        <textLang mainLang="sv"/>
+                        <note>Lists of books and lemmata</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="5"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" atLeast="164" atMost="220"/>
+                                 <width unit="mm" atLeast="105" atMost="170"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2 4" writtenLines="9 25">
+                              <num type="wpl" atLeast="2" atMost="4"/>
+                              <dimensions type="written">
+                                 <height unit="mm" atLeast="80" atMost="190"/>
+                                 <width unit="mm" atLeast="75" atMost="170"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"/>
+                  </physDesc>
+               </msPart>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:23.065+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-08" who="SH">Added information from the catalogue and from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

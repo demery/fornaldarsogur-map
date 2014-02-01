@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>R 704</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-704" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 704</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"/>
+                  <msItem n="1" class="fas">
+                     <locus from="3r:1" to="29v:8"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <rubric>Sagann af Fridþiófe Frækna</rubric>
+                     <rubric>I Cap. Frä bórnum og andlati Bela köngs oc þorstein<supplied reason="omitted">s</supplied> Vikings
+                        sonar.</rubric>
+                     <incipit>Suo bijriar þessa sógu at Beli köngur stijrdi S<supplied reason="omitted">v</supplied>ijgna-fijlki</incipit>
+                     <explicit>Sijni tuo ättu þau, Gunnþiöf ok Hundþiöf: urdu þeir miklir menn fijrir sier,</explicit>
+                     <finalRubric>ok endar hier nu sóguna af Fridþiófi frækna. Endir.</finalRubric>
+                     <note>copy of the same manuscript as Stock. Isl. papp. 4to nr 52. Only chapter 1 (fols. 3r-5r) with Swedish
+                        translation.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="29"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="205"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <note>Fols 1v-2v blank.</note>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="25 32">
+                           <num type="wpl" atLeast="4" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="70"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JacRee001" scope="sole" script="cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>On title-page: <q>johanHinric Lidén. vpsala. 1764.</q> On back paste-down information on the filiation of
+                        the text.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in cardboard covered with cream paper. White spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1660" notAfter="1700"/><!-- ath catalogue says s. XVII 2/2 -->
+<!--                     <origPlace key=""/>-->
+                  </origin>
+                  <provenance>
+                     <p>The manuscript once belonged to <name type="person" role="owner" key="JohLid001">Johan Henrik
+                     Lidén</name>.
+                  The manuscript came with Lidén's collection to the
+                     University Library Uppsala in <date when="1787">1787</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:12.148+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-10" who="SH">Added information from catalogue and the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

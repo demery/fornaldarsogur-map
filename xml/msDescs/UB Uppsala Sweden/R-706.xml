@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>R 706</title>
+            <!-- compare with my original msdesc!!! this here is not ok -->
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-706" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 706</idno>
+               </msIdentifier>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="95"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Half binding; cardboard covered with paper, white corners and spine, gold embossing on spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance>
+                     <p>The University Library Uppsala acquired <name type="person" role="owner" key="PetSal001">Petter Salan</name>'s collection, among
+                        it these parts of manuscripts, in <date when="1717">1717</date>.</p>
+                  </provenance>
+               </history>
+
+               <msPart n="1">
+                  <altIdentifier>
+                     <idno>R 706 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="contemporary"/>
+                     <msItem n="1" class="sagnps" defective="true">
+                        <locus from="2r:1" to="7v:20"/>
+                        <title type="uniform">Trójumanna saga</title>
+                        <textLang mainLang="non"/>
+                        <note>Beginning only</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="7"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="213"/>
+                                 <width unit="mm" quantity="160"/>
+                              </dimensions>
+                              <note>Fol. 1v blank.</note>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="contemporary pag">Fols 2r-7v paginated 1-12 in dark ink in the top outer
+                              corners.</foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="2" writtenLines="17 20">
+                              <num type="wpl" atLeast="4" atMost="16"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="75"/>
+                              </dimensions>
+                              <note>Fols. 2r-7v in two columns, but only left column with text.</note>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>Fol. 1r, bottom margin: <q>b:</q> in pencil. Fol. 7r, right margin: <q>NB sic in
+                              Heraudz Bosi saga.<gap/></q> Fol. <locus>7v</locus>, right margin: <q xml:lang="se">Jfr.<!-- jamnför --> nsta blad!</q> in pencil.</p></additions>
+                  </physDesc>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 706 II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="sagnps" defective="true">
+                        <locus from="8r:1" to="36v:26">8r-36v</locus>
+                        <title type="uniform">Trójumanna saga</title>
+                        <textLang mainLang="non"/>
+                        <note>Lacuna between fols. 35 and 36.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="29"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="215"/>
+                                 <width unit="mm" quantity="165"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="later pag">Paginated 13-74 in dark ink in the outer top corners.</foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="18 29">
+                              <num type="wpl" atLeast="10" atMost="16"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="147"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#HarWys001" scope="sole" script="hum cursiva">Harald Wysing?</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>Some marginalia. Fol. 31r: <q>A<ex>nno</ex> 82. 6 Martij</q></p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate when="1682"/>
+                        <origPlace key="SE"/>
+                     </origin>
+                     <provenance>
+                        <p>These leaves were once part of ms 72 4to of <name type="person" role="owner" key="PetSal001">Petter Salan</name>'s collection.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+
+               <msPart>
+                  <altIdentifier>
+                     <idno>R 706 III</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="37r:1" to="72v:18"/>
+                        <title type="uniform" ref="#ssst">Sörla saga sterka</title>
+                        <!--                        <textLang mainLang=""/>-->
+                        <filiation><p>Copy of <ref type="ms" target="#Papp-fol-nr-56" ana="antigraph">Stock. Isl. papp. fol. nr.
+                                 56</ref> which itself is a copy of <ref type="ms" target="#Papp-8vo-nr-7">Stock. Isl. papp. 8vo
+                                 nr. 7</ref>.</p>
+                        </filiation>
+                        <note>Version B.</note>
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="73r:1" to="94r:9"/>
+                        <title type="uniform" ref="#hsb">Hálfdanar saga Brönufóstra</title>
+                        <!--                        <textLang mainLang=""/>-->
+                        <filiation><p>Copy of <ref type="ms" target="#Papp-fol-nr-56" ana="antigraph">Stock. Isl. papp. fol. nr.
+                                 56</ref> which itself is a copy of <ref type="ms" target="#Papp-8vo-nr-7">Stock. Isl. papp. 8vo
+                                 nr. 7</ref>.</p>
+                        </filiation>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="58"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="155"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <foliation ana="contemporary pag"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="16 22">
+                              <num type="wpl" atLeast="9" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="155"/>
+                                 <width unit="mm" quantity="110"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudOla002" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Decorated initials on fols. 37r and 73r.</decoNote>
+                     </decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1683" notAfter="1695"/>
+                        <origPlace key="SE"/>
+                     </origin>
+                     <provenance>
+                        <p>These leaves were once part of mss 73 and 74 4to in <name type="person" role="owner" key="PetSal001">Petter Salan</name>'s collection.</p>
+                     </provenance>
+                  </history>
+               </msPart>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:12.415+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-12" who="SH">Added information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 102</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-102" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 102</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="18v:11"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-4to-nr-32" ana="antigraph">Papp. 4to nr 32</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="19r" to="28r:6"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-4to-nr-32" ana="antigraph">Papp. 4to nr 32</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="29r" to="159r:16"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <note>younger vers.</note>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-4to-nr-32" ana="antigraph">Papp. 4to nr 32</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="161r" to="175v:15"/>
+                     <title type="uniform" ref="#esv">Eiríks saga víðförla</title>
+                     <textLang mainLang="non"/>
+                     <note>A-vers.</note>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-4to-nr-13" ana="antigraph">Papp. 4to nr 13</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="177r" to="227r:18"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of 
+                        <ref type="ms" target="#Papp-4to-nr-32" ana="antigraph">Papp. 4to nr 32</ref>.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="4">The front cover of an older paper cover is preserved in the front
+                              of the manuscript. It is now counted as second front-flyleaf</num>
+                           <num type="book-block" value="227"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="205"/>
+                           </dimensions>
+                           <watermark ana="yes">Two lions holding a coat of arms with a crown on top.</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p/>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="2" writtenLines="21 22">
+                           <num type="wpl" atLeast="1" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="240"/>
+                              <width unit="mm" quantity="80"/>
+                           </dimensions>
+                           <note>two columns, outer column blank</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <!-- name displays oddly; change authority file? -->
+                     <handNote scribeRef="#LopJos001" scope="sole" script="chancery"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">rendered in black ink</decoNote>
+                  </decoDesc>
+                  <additions ana="medium"><p>Scholarly corrections and additions to the text, mostly in the outer columns.</p> <p>On the
+                     fourth front flyleaf, <name key="JohPer001" type="person" role="scholar">Johan Peringskiöld</name> added
+                           <q>H<ex>erra</ex> Loftur Jose afskrifvit. A<ex>nno</ex> 1687.</q> and a table of contents.</p> <p>Between the
+                     third and fourth front flyleaf, a little slip is inserted: <q>21/26</q>.</p> <p>On the original front cover, there
+                     are two stickers with the shelfmark, and two differnt notes: <q>L. N 20</q> and <q>Kätil Hängs och Erik
+                        Widsærlas Sagor m. fl.</q></p> <p>On the verso side of the former front cover, there are three little slips of
+                     printed material glued onto the page.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with marbeled paper on the boards, spine and corners in white leather. The
+                           golden imprint on the spine reads: <q>Cod. Isl. Papp. Fol. N:o 102</q>. The front cover of an older
+                           binding is preserved and now counted as a front flyleaf.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1687"/>
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <name key="AntKol001" type="organisation" role="commissioner">Antikvitetskollegiet</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:00.89+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. catalog info still missing.</change>
+         <change when="2013-03-06" who="#BES">Measured and checked at the library.</change>
+         <change when="2013-03-26" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

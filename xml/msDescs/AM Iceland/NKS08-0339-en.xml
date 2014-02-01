@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 339 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+               Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+               3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS08-0339-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <!-- delivered to Iceland -->
+                  <idno>NKS 339 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Stutt Ꜳgrip úr Rett rita Bók Íslendínga. En<ex>n</ex> Titulus er þ<ex>ar</ex> þ<ex>ess</ex>e:
+                        Nockr<ex>ar</ex> O-regluleg<ex>ar</ex> Regl<ex>ur</ex> (Regulæ qvædam tumultuariæ) J Spurníngum fram settar Epter A B C um
+                        þ<ex>at</ex> Hvorn veg Rett eige ad Tala Bókstafa og Skrifa þꜳ nú Lifande Jslendsku Túngu - Fyrsta Ꜳvarp, Sem J flýte
+                        v<ex>ar</ex> sam<ex>an</ex> tek<ex>et</ex> Ꜳr<ex>et</ex> 1762.</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+<!--                     <locus from="" to=""/>-->
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka <note>(fragment)</note></title>
+                     <textLang mainLang="non"/>
+                     <incipit>þettad Være lytil tydende þott Regn Være ute, ed<ex>ur</ex> Kongs Men<ex>n</ex> smidudu</incipit>
+                     <explicit>geingur Kongur þa til Hallardira og sier ad hollen<ex>n</ex> er alla veg</explicit>
+                     <note>A fragment from chapter 5.</note>
+                     <note>Part of the binding.</note>
+                  </msItem>
+                  <msItem n="2" class="malfr">
+                     <locus from="1r:1" to="63v:24"/>
+                     <title type="supplied">On characters for Icelandic</title>
+                     <textLang mainLang="is"/>
+                     <incipit>[Merk um þ<ex>et</ex>ta Compendium] Min<ex>n</ex> kiære Samlande Vin og Bróder!</incipit>
+                     <explicit>en<ex>n</ex> tví=bura ríkiun<ex>um</ex> <ex>og</ex> oss Samlaundu<ex>um</ex> aullum til vegs o<ex>g</ex> velf<ex>er</ex>d<ex>ar</ex>
+                        og ævelegra nota!</explicit>
+                     <author key="#EggOla001">Eggert Ólafsson</author>
+                  </msItem>
+                  <msItem n="3" class="malfr">
+                     <locus from="64r:1" to="65r:29"/>
+                     <title type="supplied">De Ratione Inter pungendi</title>
+                     <textLang mainLang="da"/>
+                     <rubric>De Ratione Inter pungendi Det er Om Forskiæls Tegn udi Skrive Rigtig ljeden.</rubric>
+                     <incipit>I Com<ex>m</ex>a. Hvis Form er et bagvent c Saaleedes</incipit>
+                     <explicit>Tantum.</explicit>
+                  </msItem>
+                  <msItem n="4" class="fas">
+<!--                     <locus from="" to=""/>-->
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka <note>(fragment of a Latin translation)</note></title>
+                     <textLang mainLang="lat"/>
+                     <incipit>regi fores Reiginus adest sedet unus et alter</incipit>
+                     <explicit>hostibus obsessa postanimadvertit</explicit>
+                     <note>A fragment of a Latin translation of Hrólfs saga kraka, corresponding to the other fragment (i.e. from chapter 5).</note>
+                     <note>Part of the binding.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="65"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="160"/> <!-- check -->
+                              <width unit="mm" quantity="102"/> <!-- check -->
+                           </dimensions>
+                           <!--                           <watermark ana=""/>-->
+                        </support>
+                        <foliation ana="no"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="23 25">
+                           <num type="wpl" atLeast="5" atMost="9"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="true"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc n="1">
+                     <handNote scope="sole" scribeRef="unknown" script="chancery kurrent"/>
+                     <handNote scope="minor" scribeRef="unknown" script="unknown">The fragments of Hrólfs saga kraka in the binding are written in a different hand.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no">
+                     <decoNote/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>There is a protrait medaillon of the Austrian emperor Leopold glued onto recto side of the front flyleaf.
+                        On the verso side, Werlauff wrote: <q>Bekommet af Hr. Jon Olafsson 1810. Skienket det
+                           store kgl. Bibl. 6. Febr. 1850.</q> On the bottom of the titlepage (<locus>1r?</locus>)
+                        there is a scholarly note on the relationship between the text and its original. Fol.
+                        <locus>36</locus> is a later addition.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p><!-- The binding is stuffed with a paper??? <!-\- check -->
+                           Fragments of
+                           <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>, written in two columns, in both Icelandic
+                           and Latin. The "dirt-leaves" are two letters to
+                           <name key="SveBja001" type="person" role="owner">Sveinbjörn Bjarnason á Þverfell í Borgarfirði</name>.
+                           On the front cover, there is an erroneous note on the identity of the scribe. <!-- check, additions? -->
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key=""/>
+                  </origin>
+                  <provenance>
+                     <name key="SveBja001" type="person" role="owner"/>
+                     <p>In 1810 <name key="JonOla012" type="person" role="owner">Jón Ólafsson</name> gave the manuscript to
+                        <name key="EriWer001" type="person" role="owner">Werlauff</name>, who presented it to the
+                        <name key="KBDK" type="organisation" role="owner">Royal Library in Copenhagen</name> in 1850. Subsequently
+                     transfered to The Arnamagnæan Institute in Reykjavík.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:51.003+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-12-04" who="#OHA">Added missing information from photos and verified what was possible to check.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

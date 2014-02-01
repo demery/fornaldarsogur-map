@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 251 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0251-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 251 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="forns">
+                     <locus from="1r" to="42v"/>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <rubric>Sagan af Starkaði gamla</rubric>
+                     <note>A rubric on fol. <locus from="42v" to="42v">42v</locus>, between chapters 17 and 18.</note>
+                     <rubric>Sagan af Ívari víðfaðma. Helga hvassa, Hræreki kóngi. Haraldi hilditönn. og Brávallabardaga</rubric>
+                     <author key="SnoBjo001">Snorri Björnsson á Húsafelli</author>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="avis">
+                     <locus from="43r" to="44v">43r-44v</locus>
+                     <title type="supplied">Ágrip af ævisögu Snorra Sturlusonar</title>
+                     <colophon>Skrifuð árið 1806.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="isl">
+                     <locus from="45r" to="91r">45r-91r</locus>
+                     <title type="uniform">Vatnsdæla saga</title>
+                     <colophon>Þessi saga var skrifuð dag 15 december, anno 1806</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="laus">
+                     <locus from="91v" to="91v"/>
+                     <title type="supplied">Nokkrar vísur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="5" class="tyd avis">
+                     <locus from="92r" to="105v"/>
+                     <title type="uniform">Skanderbeg saga fursta</title>
+                     <author key="LudHol001">Ludvig Holberg</author>
+                     <author key="JonHja0011">Jón Hjaltalín translated to Icelandic</author>
+                     <colophon>Sk. árið 1806. Arnljóts rímur sk. 1807.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5.1" class="laus">
+                     <locus from="105v" to="105v"/>
+                     <title type="supplied">Skanderbergs rímur</title>
+                     <note>Only a beginning</note>
+                     <incipit>Öðlings ævi langa, elfdi stríðið Davíð</incipit>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="6" class="rimur">
+                     <locus from="106r" to="126v"/>
+                     <title type="uniform">Arnljóts rímur Upplendingakappa</title>
+                     <author key="SnoBjo001">Snorri Björnsson</author>
+                     <textLang mainLang="is"/>
+                     <note>11 rímur</note>
+                  </msItem>
+                  <msItem n="7" class="fas">
+                     <locus from="127r" to="139v"/>
+                     <title ref="#fsf" type="uniform">Friðþjófs saga</title>
+                     <rubric>Sagan af Friðþjófi enum frækna</rubric>
+                     <!-- why are these three nested under Friðþjófs saga? -->
+                     <msItem n="7.1" class="kon" defective="true">
+                        <locus from="139r" to="139r"/>
+                        <title type="uniform">Ynglinga saga</title>
+                        <note>Fragment</note>
+                        <incipit>Ivar kóngur víðfaðmi í Skáni</incipit>
+                        <explicit>og alla ströndina sunnan fjalla í Norvegi.</explicit>
+                     </msItem>
+                     <msItem n="7.2" class="fas" defective="true">
+                        <locus from="139r" to="139v"/>
+                        <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                        <rubric>Úr sögu Áns bogsvegirs</rubric>
+                        <note>Fragment</note>
+                        <incipit>Björn var bóndi nefndur</incipit>
+                        <explicit>hans son Sigurður Bjóðaskalli ágætur maður í
+                           Norvegi.</explicit>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="7.3" class="isl" defective="true">
+                        <locus from="139v" to="139v"/>
+                        <title type="uniform">Njáls saga</title>
+                        <note>Fragment</note>
+                        <incipit>Böðvar hét maður hann var son Víkinga Kára</incipit>
+                        <explicit>Böðvar var faðir Ólafar móður Gissurar hvíta.</explicit>
+                        <colophon>Bjarnason 1807</colophon>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="8" class="rimur">
+                     <locus from="139v" to="156r"/>
+                     <title type="uniform">Brávallarímur</title>
+                     <author key="ArnBod001">Árni Böðvarsson</author>
+                     <rubric>Rímur af Haraldi kongi Hilditönn [and later addition]: kveðnar af því
+                        ypparlega skáldi Hr. Árna Böðvarsyn</rubric>
+                     <textLang mainLang="is"/>
+                     <note>10 rímur</note>
+                  </msItem>
+                  <msItem n="8.1" class="ordsk">
+                     <locus from="153r" to="156r"/>
+                     <title key="supplied">Skýringar</title>
+                     <rubric>Notæ</rubric>
+                     <colophon>Þessar rímur voru skrifaðar árið 1807</colophon>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="9" class="regist">
+                     <locus from="156v" to="156v"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <rubric>Bókin hefur inni að halda</rubric>
+                     <textLang mainLang="is"/>
+                     <note>The page is covered in scribbles.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="156"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="194"/>
+                              <width unit="mm" quantity="156"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag contemporary">
+                           <p>An old pagination: 1-32 (1r-16v), 40-312 (20v-156r). The manuscript
+                              has been sewn incorrectly and thus the pagination has become confused,
+                              as can been seen from its register, 1-20 (106r-115v), 93-100
+                              (128r-131v)</p>
+                        </foliation>
+                        <condition ana="average">Sewn in wrong order. Correct order would be: 92, 93, 98, 99, 94-97,
+                           100-105 </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="30 37">
+                           <num type="wpl" atLeast="8" atMost="13"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva">
+                        On fol. <locus from="156v" to="156v">156v</locus> is written: Sögubók
+                              <name type="person" key="EinBja003">Einars Bjarnasonar</name>, skrifuð
+                           á <placeName>Brúnastöðum Skagafirði</placeName>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="diagram">A drawing of a battle array:<locus from="35r" to="35r"/></decoNote>
+                     <decoNote type="paratext">Red title and beginning:<locus from="1r" to="1r"/></decoNote>
+                     <decoNote type="paratext">Ornated rubric; equivalent of a titlepage in red:<locus from="45r" to="45r"/></decoNote>
+                     <decoNote type="initial">Red initial:<locus from="127r" to="127r"/></decoNote>
+                     <decoNote type="initial">Initials occasionally enlarged and a sparsely ornamented.</decoNote>
+                     <decoNote type="vignette" subtype="paratext">Vignette on fol. <locus from="45r" to="45r"/></decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>
+                     <list>
+                    <item>Some learned additions</item>
+                     <item><locus from="24v" facs="#IB04-0251-0024v" to="24v"/> At
+                        the end of Starkaðar saga is a heading: Sagan af Ívari víðfaðma,
+                        Helga hvassa, Hræreki kóngi, Haraldi Hilditönn and: Brávallarbardaga. XVIII
+                        Cap. Hrærekur hefur Konungur heitið, hann var son Halfdanar ens snjalla og
+                        Sigríðar ennar mikillátu, hann <gap/></item>
+                        <item><locus from="139v" to="139v"/> At the top of the page is a verse about a pen</item>
+                     <item><locus from="139r" to="139v"/> On the lower half of leaf 139r to the top of 139v are parts from three
+                        differnt sagas without titles: <q>From the kings' saga Heimskringla</q> (139r), 
+                        <q>Án saga bogsveigis</q> (139r), 
+                       <q>From Njáls saga</q> (139v)</item>
+                        <item><locus from="156v" to="156v"/> There are some verses on Árni
+                        Böðvarsson (in an formerly empty space).</item>
+                     <item><locus from="156v" facs="#IB04-0251-0156v" to="156v"/> Written note:: <q>Sögubók <name type="person" key="EinBja003">Einars
+                           Bjarnasonar</name>, skrifuð á <placeName>Brúnastöðum
+                           Skagafirði</placeName></q></item>
+                     </list>
+                    </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Paper binding with marbled paper. Linen cloth on spine and corners.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS">Brúnastaðir Skagafjörður North Iceland</origPlace>
+                     <origDate from="1806" to="1807">1806-1807</origDate> <!--Page <locus from="156v" to="156v">156v</locus> Sögubók <name type="person" key="EinBja003">Einars Bjarnasonar</name>, skrifuð á <placeName>Brúnastöðum
+                        Skagafirði</placeName><locus from="139v" to="139v">E. Bjarnason 1807</locus>-->
+                  </origin>
+                  <provenance>
+                    <name type="person" role="owner" key="JonSve006">Jón Sveinsson</name>
+                        <locus from="1r" to="1r"/>
+                        <name type="person" role="signatory" key="JonSve006">Jón Sveinsson</name>
+                        <locus from="1r" to="1r"/>
+                        <name type="person" role="owner" key="HalTho006">Halldór
+                        Þorkelsson</name>(1842) <locus from="1r" to="1r"/> and <name type="person" role="signatory" key="HalTho006">Halldór Þorkelsson</name><locus from="1r" to="1r"/>
+                        <name type="person" role="owner" key="EinBja003">Einar Bjarnason</name> á
+                           <placeName>Brúnastöðum</placeName><locus from="139v" to="139v"/>
+                        <name type="person" role="signatory" key="EinBja003">Einar Bjarnason</name>
+                        á <placeName>Brúnastöðum</placeName><locus from="139v" to="139v"/> and
+                           <locus from="156v" to="156v"/>
+                        <name type="person" key="ThoTho023" role="signatory">Þorsteinn Þorsteinsson</name> <!-- rather autograph than signatory?? -->
+                        <placeName>Skeiði</placeName>
+                        <locus from="139v" to="139v"/> and <locus from="156v" to="156v"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:58.457+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:09.803+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:31.331+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:07.365+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-04" who="#SK"> Corrected and adapted to FASNL from the digitalized
+            version of the manuscript on handrit.is</change>
+         <change when="2012-11" who="#SK">Added the last information from the manuscript itself</change>
+         <change when="2013-08-07" who="#BES">Proofread.</change>
+         <change when="2013-11-29" who="#SMM">Added bindingDesc from handrit.is.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

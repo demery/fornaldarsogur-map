@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 43 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR08-0043-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 43 8vo</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>ÍBR B. 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Sögu-Safn. XI. með hendi Gísla Þormóðssonar á
+                        Lambast<ex>öðum</ex> og Þórðar Jónssonar í Flagveltu </titlePart>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="ffl2v" to="ffl2v"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Innihald</rubric>
+                     <note>A later addition in the hand of <name type="person" role="scribe" key="PalPal003">Páll stúdent Pálsson</name></note>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="1r" to="27r"/>
+                     <title type="uniform">Marons saga sterka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Maroni sterka</rubric>
+                     <note>In the hand of Gísli Þormóðsson (later addition)</note>
+                  </msItem>
+                  <msItem n="3" class="konth">
+                     <locus from="27v" to="34v"/>
+                     <title type="unifotm">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Söguþáttur af Rauðúlfi og sonum hans</rubric>
+                     <note>In the hand of Gísli Þormóðsson</note>
+                  </msItem>
+                  <msItem n="4" class="lakn grasafr">
+                     <locus from="34v" to="38v"/>
+                     <title type="supplied">Lækningajurtir</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af jurtunum</rubric>
+                  </msItem>
+                  <msItem n="5" class="kvad lofkv">
+                     <locus from="38v" to="39r"/>
+                     <author>Finnur Magnússon</author>
+                     <title type="supplied">Minni Jóns Jónssonar assesors</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fyri(r) minni landsyfirréttar assisors og alþingismanns Jónss Jónssens
+                        í Kaupmannahöfn 1848</rubric>
+                     <rubric>F.M.</rubric>
+                  </msItem>
+                     <msItem n="6" class="kvad formvis">
+                        <locus from="39r" to="40v"/>
+                        <title type="supplied">Formannavísur</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="41v" to="83v"/>
+                     <title type="uniform">Rémundarsaga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast sagan af Remundi Rígarðssyni keisara</rubric>
+                     <note><locus from="41r" to="41r"/>Separate titlepage (added later): <q>Saga af Remundi
+                        Rígarðssyni keisara með hendi Þórðar Jónssonar á Flagveltu</q></note>
+                     <colophon>Þann o8 febrúarí 1857 ÞJs Flagveltu</colophon>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="84r" to="98v"/>
+                     <title type="uniform">Konráðss saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Konrað keisarasyni</rubric>
+                     <colophon>Endað að skrifa þann 26 maí 1857 Þórður</colophon>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="99r" to="140v"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast Sagan af Sigurði þögla</rubric>
+                     <colophon>Nu vantar hafa eina síðu?</colophon>
+                  </msItem>
+                  <msItem n="10" class="konth">
+                     <locus from="141r" to="148v"/>
+                     <title type="uniform">Hemings þáttur Áslákssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast Sagan af Hemingi Áslákssyni og Haraldi kóngi</rubric>
+                     <colophon>Enduð að skrifa þann 27. febrúarí 1855 Þórður Jónsson</colophon>
+                  </msItem>
+                  <msItem n="11" class="godfrr timafr">
+                     <locus from="149r" to="156v"/>
+                     <title type="supplied">On the names of the months</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Ágrip um siðferði heiðingjanna í sérhverjum mánuði og hvar af
+                        mánuðirnir hafa sitt nafn</rubric>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="157r" to="173v"/>
+                     <title type="uniform">Jarlmanns saga og Hermanns</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér skrifast Sagan af Jarlmann og Hermanni</rubric>
+                     <colophon>Endað að skrifa þann 2an Marsi 1851 Flagveltu ÞJS</colophon>
+                  </msItem>
+                  <msItem n="13" class="ridd">
+                     <locus from="174r" to="195v"/>
+                     <title type="uniform">Viktors saga og Blávus</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast Sagan af Viktor og Bláfus</rubric>
+                     <colophon>Lyktar svo sögu af Viktor og Bláfus 1855 Þórður Jónsson</colophon>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="196r" to="216v"/>
+                     <title ref="#sss" type="uniform">Sturlaugs saga starfsama</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Sturlaugi Starfsama m.h. Gísla Þormóðssonar (added in a
+                        different hand)</rubric>
+                  </msItem>
+                  <msItem n="15" class="avint">
+                     <locus from="217r" to="22v"/>
+                     <title type="supplied">Ævintýr af Alikogja kaupmanni í Bagdad</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="avint">
+                     <locus from="222v" to="227v"/>
+                     <title type="supplied">Frásaga frá Feneyjum</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frásaga frá Fenidý 1756</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="227"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>Flyleaves from the time of binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="170"/><!-- from scaled pics! to be varified -->
+                              <width unit="mm" quantity="110"/><!-- from scaled pics! to be varified -->
+                           </dimensions>
+                           <watermark ana="unknown">Some of the paper is some sort of a trading
+                              paper or official letterhead with coats of arms printed on it with text text: No 9
+                              Anden klasse for sum af over 1250 til tkke over 1500 Rbd 1852. And
+                              in writing: Beulsius Halling</watermark>
+                        </support>
+                        <foliation ana="later pag">Some times only on every other page (the recto
+                           side of each leaf).</foliation>
+                        <condition ana="average">Average, mostly good but partly poor</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="27 29">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                        <dimensions type="written">
+                           <height unit="mm" quantity="160"/><!-- from scaled pics! to be varified -->
+                           <width unit="mm" quantity="95"/><!-- from scaled pics! to be varified -->
+                           </dimensions>
+                           <catchwords ana="no"/></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#GisTho010" scope="major" script="hum cursiva">Gísli
+                        Þormóðsson á Lambastöðum</handNote>
+                     <handNote scribeRef="#ThoJon039" scope="major" script="hum cursiva">Þórður
+                        Jónsson í Flagveltu</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">Unidentified scribe, fols.
+                        <locus>149r-156v</locus> </handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>
+                     <list>
+                        <item> <locus from="ffl2r" to="ffl2r"/> A later title page in the hand of <name type="person" role="scribe" key="PalPal003">Páll stúdent Pálsson</name></item> 
+                        <item> <locus from="ffl2r" to="ffl2r"/> The current shelf mark <q>ÍBR.43,8vo</q> and the former <q>Áðr ÍBR.B.26</q> written in pencil by a later hand</item>
+                        <item><locus from="ffl2v" to="ffl2v"/> A later table of contents in the hand of <name type="person" role="scribe" key="PalPal003">Páll stúdent Pálsson</name> </item>
+                        <item><locus from="1r" to="1r"/> <q>m.h. Gísla Þormóðssonar</q></item>
+                        <item><locus from="41r" to="41r"/> An extra titlepage (for item 7) in the hand of <name type="person" role="scribe" key="PalPal003">Páll stúdent Pálsson</name>: <q>Saga af Remundi Rígarðssyni keisara með hendi Þórðar Jónssonar í
+                           Flagveltu</q></item>
+                     </list></p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Marbeled paper on card boards from <name type="person" role="scribe" key="PalPal003">Páll stúdent Pálsson</name>'s time.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1850" to="1860"/>
+                  </origin>
+               <provenance><p>
+                  <name type="organisation" role="owner" key="LBS">Landsbókasafn</name> bought the whole collection of 
+                  <name type="organisation" role="owner" key="IslBom">The Icelandic literary society's Reykjavík division 
+                     (Reykjavíkurdeild Hins íslenska bókmenntafélags)</name> in <date when="1901">1901</date>.
+               </p></provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:11.496+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:17.904+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:38.095+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2012-01" who="#SK">Added items from the P.E.Ó-catalogue and the digital
+            version of the manuscript on handrit.is</change>
+         <change when="2013-02" who="#SK">Added further information from the P.E.Ó-catalogue and the
+            digital version of the manuscript on handrit.is</change>
+         <change when="2013-08-21" who="#BES">Proofread</change>
+         <!-- dimensions based on scaled pictures on handrit.is -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

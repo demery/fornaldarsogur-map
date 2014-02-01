@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 998 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0998-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 998 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Nokkrar Fornmannasögur. GES I BID</titlePart>
+                     <note>GES=Guðbrandur Einarsson</note>
+                     <note>In the hand of Magnús Jónsson í Tjaldanesi</note>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="2" to="16"/>
+                     <title ref="#ysv" type="uniform">Yngvars saga víðförla</title>
+                     <rubric>Sagan af Ingvari Eymundarsyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="17" to="34"/>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fornth">
+                     <locus from="34" to="34"/>
+                     <title type="uniform">Jóns þáttur Upplendingakonungs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <locus from="35" to="44"/>
+                     <title type="uniform">Flóres saga og Blankiflúr</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="44" to="53"/>
+                     <title type="uniform">Sigurðar saga turnara</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="forns">
+                     <locus from="53" to="56"/>
+                     <title type="uniform">Hálfdanar saga Barkarsonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="56" to="62"/>
+                     <title type="uniform">Ambrosius saga og Rósamundu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="63" to="88"/>
+                     <title type="uniform">Fertrams saga og Platós</title>
+                     <colophon>Skrifað á Dritvík af Ólafi Sveinssyni árið 1805</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="89" to="98"/>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="99" to="108"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="108" to="120"/>
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="120" to="127"/>
+                     <title type="uniform">Nítídu saga frægu</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="ridd">
+                     <locus from="127" to="138"/>
+                     <title type="ridd">Nikulás saga leikara</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="138"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="186"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later">From when the manuscript was repaired</foliation>
+                        <condition ana="average">Cut, dirty, in loose leaves after repair</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="30 32">
+                           <num type="wpl" atLeast="16" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote scribeRef="#MagJon014" scope="minor" script="hum cursiva">1r- 3v</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">5r-9r</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="hum cursiva">9r-61v and 98r-137r; mainly hum cursiva, partly chancery</handNote>
+                     <handNote scribeRef="#OlaSve001" scope="minor" script="chancery">62r-97v</handNote>
+
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                    <additions ana="low">
+                       <p>Extra two leaves in the hand of Magnús Jónsson í Tjaldanesi with a text from Yngvars saga víðförla/Sagan af Ingvari Eymundarsyni and a titlepage: Sagan af Ljósvetningum </p>
+                       <p>Gudbrandur Einarsson á bók. Nú til heimilis á Knarrarhöfn í Hvammssveit. Vitnar Magnús Jónsson dag 2. jan. 1861</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Wooden boards covered with flower-patterned cloth</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1800" notAfter="1899"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="GudEin003">Guðbrandur Einarsson á
+                        Knarrarhöfn í Hvamssveit</name>
+                     <name type="person" role="owner" key="SolVig001">Sölvi Vigfússon á
+                        Arnheiðarstöðum</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:50.478+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07" who="#SK">Added items and classes and other information from the
+            P.E.Ó.-catalogue and other sources</change>
+         <change when="2012-09" who="#SK">Added layout and other information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

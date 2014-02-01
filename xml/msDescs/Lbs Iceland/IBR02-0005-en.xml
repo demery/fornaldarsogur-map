@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍBR 5 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IBR02-0005-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍBR 5 fol.</idno>
+                  <altIdentifier>
+                     <idno>ÍBR. B. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later contemporary">
+                     <titlePart>Sögusafn I. a. með hendi Magnúsar Jónssonar í
+                        Vigur [later, <locus from="FFI2r">second front flyleaf</locus>]</titlePart>
+                     <titlePart>Fróðlegur bóksagnasjóður innihaldandi vel margar
+                        afbragðs vænar historiur þeim til fróðleiks sem þvílíkt girnast
+                        vilja. Eftir þeim orðréttustu og æfielstu fundamentis sem til
+                        hafa fengist.Upp skrifaðar af ærugöfugum höfðingsmanni Magnúsi
+                        Jónssyni að Vigur á Ísafjarðardjupi. Anno Domino 1680 [contemporary; fol.<locus from="1r" facs="#IBR02-0005-0001r" to="1r">1r</locus>]</titlePart>
+                     <note>two title pages; one contemporary, one later</note>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="1v" to="1v"/>
+                     <title type="supplied">Register</title>
+                     <textLang mainLang="non"/>
+                     <rubric><gap/>rum þessara Sögubókar</rubric>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="2r" to="26r"/>
+                     <title type="uniform">Bevis saga</title>
+                     <title type="parallel">Bevers saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric><supplied reason="damage">Hér byrjar</supplied> söguna af 
+                        <supplied reason="damage">Befusi son greif</supplied>a sem ad Gujon hét
+                        <gap/></rubric>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="26r" to="40r"/>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Konráð keisarasyni</rubric>
+                  </msItem>
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="40r" facs="#IBR02-0005-0040r" to="53v"/>
+                     <title type="uniform" ref="#hso">Hjálmþérs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Hjálmþér og Ölver</rubric>
+                     <note>Lacking at the end</note>
+                     <explicit>þar til að móðir vor tók sótt og andaðist, var haugur orpinn eftir
+                        hana og þreyði nú kongur drottningu sína. Kongur átti sér ráðgjafa
+                        trúverðugan, hann gekk einn <gap/></explicit>
+                  </msItem>
+                  <msItem n="5" class="ridd" defective="true">
+                     <locus from="56r" to="78v"/>
+                     <title type="uniform">Elis saga og Rósamundu</title>
+                     <textLang mainLang="non"/>
+                     <note>Lacking at the beginning and in the middle</note>
+                     <incipit>Nú sem Elis understóð síns kæra föðurs tölu </incipit>
+                     <colophon>Nú er sagan komin á enda/ en meistarinn sögunnar biður guð oss frá
+                        illu ve(r)nda/ og láta í himnaríkið dýrðar sælu lenda/ það veiti oss Jesus
+                        Christur án enda/ og láti oss þangað venda.</colophon>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="79r" to="98r"/>
+                     <title type="uniform">Bærings saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar Bærings sögu.</rubric>
+                  </msItem>
+
+                  <msItem n="7" class="ridd">
+                     <locus from="98r" to="107v"/>
+                     <title type="uniform">Partalópa saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Partalópa</rubric>
+                  </msItem>
+                  <msItem n="8" class="avint forns">
+                     <locus from="107v" to="112r"/>
+                     <title type="uniform">Ála flekks saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjast Sagan af Álaflekk</rubric>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="112v" to="142r"/>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar Sögu Sigurðar þögla</rubric>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="142r" to="59v"/>
+                     <title type="uniform">Flóvents saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar sögu af Flóvent frakkakóngi</rubric>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="161v" to="180v"/>
+                     <title type="uniform">Ektors saga</title>
+                     <title type="uniform">Hektors saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hér byrjar söguna af Ector og hans köppum</rubric>
+                     <note>Catchword: Sagan af <gap/>; cf. the first item in <ref type="ms" target="#IBR02-0006-en">ÍBR 6 fol</ref>.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="181"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>The flyleaves are contemporary to the binding.</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="280"/>
+                              <width unit="mm" quantity="180"/>
+                           </dimensions>
+                           <!--<watermark ana=""></watermark>-->
+                        </support>
+                        <foliation ana="later pag">Paginated in upper right hand corner</foliation>
+                        <condition ana="poor">Very rough shape with many repairs; some text loss</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="36 39">
+                        <num type="wpl" atLeast="13" atMost="16"/>
+                        <dimensions type="written">
+                           <height unit="mm" quantity="250"/>
+                           <width unit="mm" quantity="160"/>
+                        </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#MagJon008" scope="major" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">Supplied text lost to damage on fols. <locus from="5r" to="5v"/></handNote>
+                     <handNote scribeRef="#PalPal003" scope="minor" script="hum cursiva">Notes and filled in text.</handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="border">The title page is framed with a broad decorative border (dark ink).</decoNote>
+                     <decoNote type="initial">In the added leaves (<locus from="4r" to="6v">4r-6v</locus>), there are decorated intitals</decoNote>
+                  </decoDesc>
+                  <additions ana="high"><list>
+                    <item><locus from="FFl1r"/> <q>Vigrarbók I</q></item>
+                     <item><locus from="FFl2r"/> The later title page (see above). The part that reads <q>Með hendi Magnúsar Jónssonar í
+                        Vigur</q> is a later addition to the additional title page and is glued onto the page.</item>
+                     <item><locus from="FFl2v"/> A later register</item>
+                    
+                     <item> <locus from="FFl0001v" to="FFl0001v"/> <name type="person" key="PalPal003">Páll Pálsson, stúdent</name> wrote:
+                        <q>NB. Bókin áður í einu bindi en öll
+                           sundurtætt, og sumt af henni glatað, - er lagfærð og henni skipt í tvo
+                           bindi árið 1870.</q> He also filled in text in places where it was lacking due to
+                        poor condition</item></list></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Thin wood boards covered in black fabric</p> <!-- to be varified! taken from pics -->
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1680">1680</origDate>
+                     
+                  </origin>
+                  <provenance>
+                     <p><ref type="ms" target="#IBR02-0005-en">ÍBR 5 fol.</ref> and <ref type="ms" target="IBR02-0006">ÍBR 6 fol.</ref> 
+                        used to be one manuscript (called ÍBR. B. 16). Both manuscripts have similarly themed contents. The manuscript was split
+                        up in <date when="1870">1870</date>, as Páll Pálsson stúdent states in a note on the verso side of the first front flyleaf.
+                        <name type="person" role="owner" key="BjaBjo002">Bjarni Björnsson</name> sold the manuscript to the
+                        Reykjavík division of the <name type="organisation" role="owner" key="IslBom">Icelandic Literary Society - Reykjavíkurdeild Hins
+                           íslenska bókmenntafélags</name>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:05.86+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:14.524+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-02" who="#SK">Adapted for the FASNL and added information from the
+            P.E.Ó-catalogue and the digital version of the manuscript itself on Handrit.is</change>
+         <change when="2013-02" who="#SK">Added information from the P.E.Ó.-catalogue</change>
+         <change when="2013-08-20" who="#BES">Added most of the missing info from pics on handrit while proofreading.</change>
+         <!-- watermark and binding still to be varified -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

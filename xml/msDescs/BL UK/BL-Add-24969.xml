@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 24969</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-24969" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 24969</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="fas" n="1">
+                     <locus from="1v" to="15v"/>
+                     <title ref="#vs" type="uniform">Völsunga saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Sagan af Volsungum og Ragnari lodbrók</rubric>
+                     <incipit>Hier hefur upp og seigir frá þeim manni er Sigi er nefndur</incipit>
+                     <note>1733 for Völsunga saga</note>
+                  </msItem>
+                  <msItem class="fas" n="2">
+                     <locus from="16r" to="24v"/>
+                     <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                     <textLang mainLang="is"/>
+                     <colophon>nü lïkur hier sögu þeirra Budlunga Volsunga Giukunga Sigurdar Fafnersbana Ragnars kongs lodbrökar
+                        ok sona hans Anno 1733 d. 4 Marti</colophon>
+                     <note>With Krákumál</note>
+                     <note>Völsunga saga and Ragnars saga are treated as a single text.</note>
+                  </msItem>
+                  <msItem class="sagnps" n="3">
+                     <locus from="25r" to="36r"/>
+                     <title type="uniform">Breta sögur</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="sagnps" n="4">
+                     <locus from="37r" to="37r"/>
+                     <title type="uniform">Um þann sterka Aristomenem</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="ferdb" n="5">
+                     <locus from="37r" to="60v"/>
+                     <title type="uniform">Travels of Friderik Bollin</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="ridd" n="6">
+                     <locus from="61r" to="69r"/>
+                     <title type="uniform">Bærings saga fagra</title>
+                     <textLang mainLang="is"/>
+                     <note>F. 61 seems to be a later addition containing a normalised text of part of the saga on f.62.</note>
+                  </msItem>
+                  <msItem class="riddst" n="7">
+                     <locus from="69v" to="73v"/>
+                     <title type="uniform">Ambrósíus saga og Rósamundu</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="almb" n="8">
+                     <locus from="74r" to="76v"/>
+                     <title type="uniform">Remundar saga og Melissínu</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="kon" n="9">
+                     <locus from="77r" to="78r"/>
+                     <title type="uniform">Skjöldunga Saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="ridd" n="10">
+                     <locus from="78v" to="80r"/>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="konth" n="11">
+                     <locus from="80v" to="82v"/>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <textLang mainLang="is"/>
+                     <note>Followed by a list of Icelandic literature.</note>
+                  </msItem>
+                  <msItem class="ridd" n="12">
+                     <locus from="83r" to="90v"/>
+                     <title type="uniform">Úlfars saga sterka</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="13">
+                     <locus from="91r" to="93r"/>
+                     <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Saga af Illuga Grydarfostra</rubric>
+                     <incipit>Kongur sa riede firer Danmork er Hryngur hiet</incipit>
+                     <colophon>ok lukum vier þar Sogu Illauga Grydarfostra</colophon>
+                  </msItem>
+                  <msItem class="ridd" n="14">
+                     <locus from="94r" to="102v"/>
+                     <title type="uniform">Elís saga og Rósamundu</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="isl" n="15">
+                     <locus from="102v" to="111r"/>
+                     <title type="uniform">Bárðar saga Snæfellsáss</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="16">
+                     <locus from="111r" to="119r"/>
+                     <title ref="#hso" type="uniform">Hjálmþérs saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Saga af Hialmtyr og Øliuer</rubric>
+                     <incipit>Þesse saga biriast af agiæture konge er Inge hiet</incipit>
+                     <colophon>ok lükum hier so þessare lygasogu Ao 1731 d. 24 February</colophon>
+                  </msItem>
+                  <msItem class="fas" n="17">
+                     <locus from="119r" to="125v"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Saga af Háldane Eysteynssyne</rubric>
+                     <incipit>Þrandur hefr kongur heijted, vid hann er kendur Þrandheimur i Norege</incipit>
+                     <colophon>og er margt stormenne fra þeim komed i Noreg og Orkneium og lukum vier so þessare sogu</colophon>
+                  </msItem>
+                  <msItem class="rimur" n="18">
+                     <locus from="126r" to="128v"/>
+                     <title type="uniform">Tíma Rima</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="sagnps" n="19">
+                     <locus from="128v" to="151v"/>
+                     <title type="uniform">Alexanders saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="" n="20">
+                     <locus from="152r" to="207v"/>
+                     <title type="uniform">Þiðreks saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="landfr" n="21">
+                     <locus from="208r" to="208v"/>
+                     <title type="uniform">Um þau sjö heims undurverk</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="almb" n="22">
+                     <locus from="209r" to="238v"/>
+                     <title type="uniform">Fortunatus saga</title>
+                     <textLang mainLang="is"/>
+                     <colophon>Tantum Ao 1734</colophon>
+                  </msItem>
+                  <msItem class="isl" n="23">
+                     <locus from="239r" to="268v"/>
+                     <title type="uniform">Eyrbyggja saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="sagnps" n="24">
+                     <locus from="269r" to="270r"/>
+                     <title type="uniform">Herkúlesar saga sterka</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="forns" n="25">
+                     <locus from="270r" to="279v"/>
+                     <title type="uniform">Ásmundar saga víkings</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="26">
+                     <locus from="280r" to="284v"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier biriar Søgu af Asmunde ok Eigle einhenta</rubric>
+                     <incipit>Hertriggur hefur kongue heited, hann riede fyrer austur i Russia</incipit>
+                     <colophon>og endum vier so þessa sogu af Asmunde ok Eigle einhenta Anno 1733</colophon>
+                     <note>Defective, and leaves seem to be in the wrong order (the end of the saga is on f. 283v)</note>
+                  </msItem>
+                  <msItem class="isl" n="27">
+                     <locus from="285r" to="312v"/>
+                     <title type="uniform">Egils saga Skallagrímssonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="112"/>
+                           <num type="back-flyleaf" value="4"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="310"/>
+                              <width unit="mm" quantity="195"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later fol"> </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="41 56">
+                           <num type="wpl" atLeast="12" atMost="20"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="275"/>
+                              <width unit="mm" quantity="155"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="999">
+                     <handNote scribeRef="#GisBja003" script="kurrent"/>
+                     <handNote scribeRef="unknown" script="kurrent">Unknown</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no"> </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1730" notAfter="1773"/>
+                     <origPlace key="IS">Iceland</origPlace>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="SabBar001">Reverend Sabine Baring-Gould</name> (according to note on
+                        flyleaf, purchased from him in September 1862). </p>
+                     <p><name type="person" role="signatory" key="GudGud011">Guðmundur Guðmundsson</name>, f. 279v (son of Guðmundur
+                        Jónsson son of Jón Jónsson?)</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:56.741+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-14" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

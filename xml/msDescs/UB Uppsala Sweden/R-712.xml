@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>R 712</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="R-712" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#UBUPP">Universitetsbibliotek, Uppsala</repository>
+                  <idno>R 712</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r:1" to="10v:7"/>
+                     <title type="uniform" ref="#eseab">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="sv"/>
+                     <note>Draft of a Swedish translation, based on DG 4-7. Begins defective.</note>
+                  </msItem>
+                  <msItem n="2" class="bok">
+                     <locus from="11r:1" to="83v"/>
+                     <title type="supplied">Drafts of translations, comments and notes</title>
+                     <textLang mainLang="sv" otherLangs="non la"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="84ra:1" to="84rb:17"/>
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <textLang mainLang="non" otherLangs="sv"/>
+                     <rubric>Af Gautreki oc Hrolfi</rubric>
+                     <rubric>Cap: I:</rubric>
+                     <incipit>Þar hefium vier eina Kattliga Frasogu</incipit>
+                     <explicit>ok Þotti haunom Þad hin mesta Skemtan.</explicit>
+                     <note>Beginning only.</note>
+                  </msItem>
+                  <msItem n="4" class="bok">
+                     <locus from="84r:18" to="88v:22"/>
+                     <title type="supplied">Commentary</title>
+                     <textLang mainLang="la" otherLangs="non sv"/>
+                     <rubric>Observationes</rubric>
+                     <note>Includes short extracts of Hervarar saga and Bósa saga</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="140"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="163" atMost="210"/>
+                              <width unit="mm" atLeast="95" atMost="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="20 21">
+                           <!-- NUMBERS AND MEASUREMENTS ONLY FOR ITEM 1 -->
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#PetSal001" scope="sole" script="hum cursiva">Petter Salan</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="high">
+                     <p>Heavily annotated and corrected.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Half binding; cardboard covered with paper, white corners and spine, gold embossing on spine.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1674"/><!-- says so in the original msDesc file; catalogue says s. XVII 2/2; Salan died in 1697 -->
+                     <origPlace key="SE"/>
+                  </origin>
+                  <provenance>
+                     <p>The University Library Uppsala acquired <name type="person" role="owner" key="PetSal001">Petter Salan</name>'s collection, among
+                        it this manuscript, in <date when="1717">1717</date>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:13.989+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

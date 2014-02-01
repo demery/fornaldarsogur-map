@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>GKS 1017 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS02-1017-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>GKS 1017 fol.</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="unknown"><p>Fols. <locus from="1r" to="684v"/></p></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"><p>Fols. <locus from="685r" to="772r"/></p> 
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Some inititals are slightly decorated</decoNote>
+                     <decoNote>In the frist part of vol. I, some of the verses in Old Norse are rendered in a bold fractura script.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>The numbers 1 to 48 are evenly added throughout the manuscript. The numbers are written with a thick brown pencil in the lower margin of the recto side of the leaves.
+                        On the inside of the second volume's back cover, a conservator wrote: <q>restaureret 1970</q> </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Marbeled paper on card boards; leather corners and spine. 
+                           On the spine, lines are drawn and <q>NORRIGES HIST. TOM. I.</q> and 
+                           <q>NORRIGES HIST. TOM. II.</q> is tooled into the leather.
+                        The bindings were restored in 1970.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1750">ca. 1700</origDate>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                  </provenance>
+               </history>
+               
+               
+               <msPart>    
+                  <altIdentifier type="vol">
+                     <idno>GKS 1017 fol. I</idno>
+                  </altIdentifier>
+              
+               <msContents>
+               <titlePage ana="no"/>
+               <msItem n="1" class="fas">
+                     <locus from="1r" to="9v"/>
+                     <title type="uniform" ref="#ff">Frá Fornjóti og hans ættmönnum [Danish]</title>
+                     <title type="parallel">Hversu Noregur byggðist</title>
+                     <textLang mainLang="da" otherLangs="non"/>
+                     <filiation>
+                        <p>Based on <ref type="ms" target="#GKS02-1005-en" ana="protograph">Flateyjarbók</ref>.</p>
+                     </filiation>
+                  <msItem n="2.1" class="attat">
+                     <locus from="7v:5" to="9v"/>
+                     <title type="supplied">Ættartölur konunga og konungatöl í Noregi [Danish]</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+               </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="10r" to="392v"/> 
+                     <title type="uniform">Ólafs saga Tryggvasonar [Danish, Part I]</title>
+                     <textLang mainLang="da" otherLangs="non">Verses party written twice: original and translated.</textLang>
+                     <filiation>
+                        <ref type="ms" target="#GKS02-1005-en" ana="protograph">based on Flateyjarbók</ref>
+                     </filiation>
+                     <note>Ólafs saga Tryggvasonar hin mesta with the inserted sagas and þættir.</note>
+                        <note>Only a few divisions.</note>                     
+                  <msItem n="3.12" class="fas">
+                     <locus from="269v" to="278v"/>
+                     <title type="uniform" ref="#hsh">Sörla þáttur [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="3.23" class="fas">
+                     <locus from="366r" to="386v"/>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  <msItem n="3.24" class="fas">
+                     <locus from="387r" to="392v"/>
+                     <title type="uniform" ref="#hthth">Helga þáttur Þórissonar [Danish]</title>
+                     <textLang mainLang="da" otherLangs="non"/>
+                  </msItem>
+                  </msItem>
+               </msContents>
+                  <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="392"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="340"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Coat of arms</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Later foliation on every tenth leaf.</p>
+                        </foliation>
+                        <condition ana="good">Margins untrimmed.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="21 27">
+                           <num type="wpl" atLeast="4" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="130"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  </physDesc>
+               </msPart>
+               
+               <msPart>
+                  <altIdentifier type="vol">
+                     <idno>GKS 1017 fol. II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="no"/>
+                     <msItem n="3" class="kon">
+                        <locus from="1r" to="728v"/> 
+                        <title type="uniform">Ólafs saga Tryggvasonar [Danish, Part II]</title>
+                        <textLang mainLang="da" otherLangs="non">verses party written twice: original and translated</textLang>
+                        <filiation>
+                           <ref type="ms" target="#GKS02-1005-en" ana="protograph">based on Flateyjarbók</ref>
+                        </filiation>
+                        <note>Ólafs saga Tryggvasonar hin mesta with the inserted sagas and þættir.</note>
+                     </msItem>
+                     <msItem n="4" class="kon">
+                        <locus from="728v" to="736r"/>
+                        <title type="uniform">Hálfdanar þáttur svarta [Danish]</title>
+                        <textLang mainLang="da"/>
+                     </msItem>
+                     <msItem n="5" class="kon">
+                        <locus from="736r" to="748r"/>
+                        <title type="uniform">Haralds þáttur hárfagra [Danish]</title>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="6" class="kont">
+                        <locus from="748r" to="750v"/>
+                        <title type="supplied">Noregskonungatal [Danish]</title>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="7" class="kon">
+                        <locus from="750v" to="761r"/>
+                        <title type="uniform">Hauks þáttur hábrókar [Danish]</title>
+                        <textLang mainLang="da" otherLangs="non"/>
+                     </msItem>
+                     <msItem n="8" class="kont">
+                        <locus from="761r" to="762r"/>
+                        <title type="supplied">Noregskonungatal [Danish]</title>
+                        <textLang mainLang="da"/>
+                     </msItem>
+                     <msItem n="9" class="kon">
+                        <locus from="762r" to="767r"/>
+                        <title type="uniform">Haralds þáttur grenska [Danish]</title>
+                        <textLang mainLang="da"/>
+                        <note>Undanfari Ólafs sögu helga.</note>
+                     </msItem>
+                     <msItem n="10" class="kon">
+                        <locus from="767r" to="772r"/>
+                        <title type="uniform">Ólafs þáttur Geirstaðaálfs [Danish]</title>
+                        <textLang mainLang="da"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="380"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="340"/>
+                              <width unit="mm" quantity="210"/>
+                           </dimensions>
+                           <watermark ana="yes">Two lions holding a coat of arms.</watermark>
+                        </support>
+                        <foliation ana="fol later">
+                           <p>Foliation on every tenth leaf.</p>
+                        </foliation>
+                        <condition ana="good">Margins untrimmed.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="18 21">
+                           <num type="wpl" atLeast="6" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:05.021+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-04-19" who="#BES">Added infirmation form Kålund's catalog.</change>
+         <change when="2013-06-20" who="#BES">Added missing information as far as possible with manuscript in situ
+            (the subitems of Ólafs saga Tryggvasonar are not identified and located except for the fas).</change>
+         <change when="2013-08-26" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

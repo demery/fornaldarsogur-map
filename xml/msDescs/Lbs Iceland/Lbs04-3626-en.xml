@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 3626 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-3626-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 3626 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="91v:24">1 - 190</locus>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier biriar Sögu af Hrólfi kóngi Gautreks syni</rubric>
+                     <incipit>1 Cap. Gauti hiet kóngur eirn er riedi firir vestra Gautlandi, það liggur
+                        liggur á milli Norvegs, og Sviþiodar</incipit>
+                     <explicit>sie getið i morgum sogum<ex>m</ex> þótt vier höfum<ex>m</ex> þær ej allar, heirt</explicit>
+                     <finalRubric>og lúkum<ex>m</ex> vier so sögu Hrolfs k<ex>onun</ex>gs Gautreks sonar</finalRubric>
+                     <note>Includes Gauta þáttur and Gjafa-Refs þáttur at the beginning.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="92r:1" to="171v:2">191 - 349</locus>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagann af Hrolfi Sturlaugs Syni.</rubric>
+                     <incipit>1 Cap. Hreggvidur er kongur nemdur han<ex>n</ex> Riedi firir Garda Ryki han<ex>n</ex> var
+                        Rjkur kongur <ex>og</ex> vinsæll af alþjdu</incipit>
+                     <explicit>ekki hefur margur verid frægur og sigur sæll um<ex>m</ex> syna daga</explicit>
+                     <finalRubric>og svo lúkumm vier þessari søgu af þeim fræga Hrolfi Sturlaugsini.</finalRubric>
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="171"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="205"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="pag contemporary">Paginated 1 - 349; pages 146-155 are not counted and page 261
+                           counted twice</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="22 25">
+                           <num type="wpl" atLeast="7" atMost="11"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="129"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>On front fly-leaf:
+                        <q>Sigurður Bárðarson á þessa bók með rjettu dag 11. júlí 1886 á ferð
+                           til Ameríku um borð í Camóens</q>
+                        <q>Þessi bók tileinkuð Íslandi
+                           Sigurður Bárðarson mars 26, 1952
+                           Leo B. (S) Bárðarson</q>
+                     </p>
+                     <p>On back fly-leaf: <q>Sigurður Barðarson un í Winnipeg</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Leather binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1850" notAfter="1886"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>Previous owners include <name type="person" role="owner" key="SigBar001">Sigurður Bárðarson</name> and his
+                        son, Leó. The latter most likely gave the manuscript to the Landsbókasafn in 1952 along with Lbs 3627 4to.</p>
+                     <!-- i.e. Leó Breiðfjörð, son of Sigurður Bárðarson?; cf. provenance information for handrit.is file on Lbs
+                        3627 4to --> 
+<!--                     <name type="person" role="owner">Leó B. Bárðarson</name>-->
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:09.006+02:00" who="#EAH">Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-03-21" who="#SK">Added information from the P.E.Ó.-catalogue</change>
+         <change when="2013-09-10" who="#OHA">Catalogued from manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

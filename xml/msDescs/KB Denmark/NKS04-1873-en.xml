@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1873 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1873-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1873 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 32 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="regist">
+                     <locus from="1v" to="1v"/>
+                     <title>Table of contents</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="2" class="edd">
+                     <locus from="2r" to="25r"/>
+                     <title type="uniform">Vafþrúðnismál</title>
+                     <textLang mainLang="non"/>
+                     <note>with the commentary by Einar Eyjólfsson</note>
+                  </msItem>
+                  <msItem n="3" class="fas gat">
+                     <locus from="26r" to="40v"/>
+                     <title type="uniform" ref="#hs">Hervarar saga ok Heiðreks [Riddles]</title>
+                     <title type="parallel">Heiðreksgátur</title>
+                     <textLang mainLang="non"/>
+                     <note>with a preface</note>
+                  </msItem>
+                  <msItem n="4" class="edd">
+                     <locus from="42r" to="46r"/>
+                     <title type="uniform">Baldurs draumur</title>
+                     <title type="parallel">Vegtamskviða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="edd">
+                     <locus from="48r" to="54v"/>
+                     <title type="supplied">Grottasöngur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="edd">
+                     <locus from="56r" to="66v"/>
+                     <title>Gullkársljóð</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="kvad">
+                     <locus from="68r" to="69v"/>
+                     <title>Ljúflingsljóð</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="69"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="162"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort "ProPatria"; "J Honig <ex>et</ex> Zoonen"</watermark>
+                        </support>
+                        <foliation ana="pag contemporary">Paginated 1-293</foliation>
+                        <condition ana="average">Water stains</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="17 21">
+                           <num type="wpl" atLeast="3" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="110"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">According to Kålund <name key="JacLan001" type="person" role="owner">Langebek</name> wrote the table of contents on fol.
+                           <locus>1v</locus>. However, an addition (see below) on the same page suggests a different
+                        hand.</handNote>
+                     <handNote scribeRef="unknown" scope="major" script="hum cursiva">Early hum cursiva with aspects of chancery
+                        fractura; kurrent for comments and other notes, fols. <locus from="2r" to="69v"/></handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>On fol. <locus>1v</locus>, below the table of contents, a different hand added:
+                           <q>[Manus Stephan(?)]</q>. Scholarly notes and additions in the margins, partly in a different
+                        hand.</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Plain cardboard binding; handwritten title on the spine (difficult to read)</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no 32 4to</name></p>
+                     <p><name key="JacLan001" type="person" role="owner">; "e bibl. Langebekiana"</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:46.608+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-05-08" who="#BES">Added catalog info.</change>
+         <change when="2013-06-03" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

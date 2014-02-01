@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>AM 298 I-III 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM04-0298-I-III-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 298 I-III 4to</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="70"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="195"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="21 25">
+                           <num type="wpl" atLeast="6" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+                     <handNote scribeRef="#JohTho001" scope="major" script="kurrent"/>
+                     <handNote scribeRef="#EirBja002" scope="major" script="late kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="semihybrida"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial"/>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+<!--               <history/>-->
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 298 I 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="forns">
+                        <locus from="1r" to="28v">1r-28v</locus>
+                        <title type="uniform">Haralds saga Hringsbana</title>
+                        <rubric>Hier bÿrjar søgu af Harallde hrings bana</rubric>
+                        <textLang mainLang="non"/>
+                        <note>In Árni Magnússon's hand pasted in at the start of the saga:
+                        <q>þessa Harallds sögu Hringsbana hefi eg fengid hia Assessor Þormodi Torfasyne. Mun ver med hendi Sr Johans i Laugardælum.</q></note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="28"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="152"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="no"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="23 24">
+                              <num type="wpl" atLeast="9" atMost="13"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="168"/>
+                                 <width unit="mm" quantity="130"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JohTho001" scope="sole" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no">
+                        <p/>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1650" notAfter="1700"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                     <provenance>
+                        <p><name key="ArnMag001" role="owner" type="person">Árni Magnússon</name> got the manuscript from <name
+                           key="ThoTor001" role="owner" type="person">Þormóður Torfason</name> (see note).</p>
+                     </provenance>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 298 II 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="forns">
+                        <locus from="1r" to="38v">1r-38v</locus>
+                        <title type="uniform">Haralds saga Hringsbana</title>
+                        <textLang mainLang="non"/>
+                        <note>In Árni Magnússon's hand pasted in at the start of the saga:
+                           <q>Þesse Harallds Hringsbana er ritud i Kaupenhafn, af Eiriki Biarnasyne sem sidan vard prese i Fliotsdalsherade. Eg man eigi nu, eptir hvada exemplari.</q></note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="38"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="152"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="21 25">
+                              <num type="wpl" atLeast="6" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="163"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#EirBja002" scope="sole" script="late kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="medium">
+                        <decoNote type="initial">Titles and initials in titles decorated in black ink.</decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>Some missing words added in the margins by scribe.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1650" notAfter="1700"/>
+                        <origPlace key="DK"/>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>AM 298 III 4to</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="1r" to="4v">1r-4v</locus>
+                        <title ref="#isg" type="uniform">Illuga saga Gríðarfóstra</title>
+                        <rubric>Sagan af Illuga Grÿdarfostra</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="4"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="195"/>
+                                 <width unit="mm" quantity="152"/>
+                              </dimensions>
+                              <watermark ana="unknown"/>
+                           </support>
+                           <foliation ana="later fol"/>
+                           <condition ana="poor"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="23 25">
+                              <num type="wpl" atLeast="12" atMost="16"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="175"/>
+                                 <width unit="mm" quantity="135"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="sole" script="semihybrida"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low">
+                        <p>The last page's lower half is filled out with pen trials.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate notBefore="1650" notAfter="1700"/>
+                        <origPlace key="IS"/>
+                     </origin>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:10.503+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:52:19.418+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T15:34:29.172+02:00" who="#EAH">Inserted origDate and origPlace elements based on previous data, now removed.</change>
+         <change when="2011-05-07T18:41:44.504+02:00" who="#EAH">Extracted pagination and page dimension data from previous version.</change>
+         <change when="2011-05-07T19:17:22.903+02:00" who="#EAH">Extracted layout data from previous version.</change>
+         <change when="2013-04-15" who="#SMM">Rectified some codes. Translated into English.</change>
+         <change when="2013-04-17" who="#SMM">Added information from black and white photos in the Arnamagnaean Collection, Copenhagen.</change>
+         <change when="2013-09-19" who="#PTL">Added information with manuscript in Reykjavík.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>HSk 340 8vo</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="HSk08-340-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#HSSSF">Héraðsskjalasafn Skagfirðinga, Akureyri</repository>
+                        <idno>HSk 340 8vo</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="no"/>
+                        <msItem n="1" class="fas">
+                            <locus from="1r:1" to="14r:12"/>
+                            <title type="uniform" ref="#asb">Áns saga bogasveigis</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Sagan af Án Bogsveigir</rubric>
+                            <incipit>Cap 1. Fyrir Naumudoolum<ex>m</ex> i Noregi reðu fylkis k<ex>onun</ex>g<ex>ar</ex></incipit>
+                            <explicit>Fundust þ<ex>ei</ex>r fedg<ex>ar</ex> opt, og v<ex>ar</ex> m<ex>ed</ex> þ<ex>ei</ex>m en mesti
+                                kærleiki.</explicit>
+                            <finalRubric>og endar svo h<ex>ier</ex> m<ex>ed</ex> Söguna af Áni Bogsveigir</finalRubric>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="15r:1" to="21v:23"/>
+                            <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                            <textLang mainLang="non"/>
+                            <incipit>1 <ex>cap</ex> Svo byrjast soguþa<ex>tt</ex>, at Beli k<ex>onun</ex>gr stýrdi Sygna fylki í Norvegi</incipit>
+                            <explicit>Syni áttu þau 2 Gun<ex>n</ex>þjóf og Húnþjóf; urdu þeir miklir men<ex>n</ex> fyrir sér</explicit>
+                            <finalRubric>Og endar her söguna af Friðþjófi Frækna.</finalRubric>
+                            <note>At the very end, the scribe has added an overview of the saga's chapters with short descriptions of each.</note>
+                            <note>Leaves 16 - 21 are folded into a leaf 15, which is twice as high.</note>
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="book-block" value="21"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="170"/>
+                                        <width unit="mm" quantity="104"/>
+                                    </dimensions>
+                                    <watermark ana="no"/>
+                                </support>
+                                <foliation ana="no"/>
+                                <condition ana="good"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-prose" columns="1" writtenLines="32 36">
+                                    <num type="wpl" atLeast="10" atMost="14"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="164"/>
+                                        <width unit="mm" quantity="98"/>
+                                    </dimensions>
+                                    <catchwords ana="yes"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scribeRef="unknown" scope="sole" script="hum cursiva"/>
+                        </handDesc>
+                        <decoDesc ana="no"><decoNote/></decoDesc>
+                        <additions ana="low"/>
+                        <bindingDesc>
+                            <binding ana="none" contemporary="inapplicable">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1850" notAfter="1900"/>
+                            <origPlace key="IS">Iceland</origPlace>
+                        </origin>
+                        <provenance>
+                            <name type="person" role="owner" key="DadDav001"/> <!-- Daði Davíðsson á Gilá -->
+                            <p>
+                                <name type="person" role="owner" key="MarSig003">Marteinn Ágúst Sigurðsson á Gilá</name> donated
+                                the manuscript to the archives 2 November 1987.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-09-09" who="#OHA">File created; catalogued from manuscript.</change>
+            <change when="2013-09-12" who="#SMM">Created and added owner ref. Proofread.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

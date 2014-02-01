@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rål. 4to nr 43</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ral-4to-nr-43" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Rål. 4to nr 43</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="fas">
+                     <locus from="1v" to="239v"/>
+                     <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                     <rubric>Hier hefur upp søgu af Gaungu Hrolfe</rubric>
+                     <rubric>I. Capitule. Frá hreggwide konge, og hanns herbunade.</rubric>
+                     <incipit>Swa byrjar þessa sógu, ad hreggvidur we köngur nefndur, hann riede fyrer hölmgarda</incipit>
+                     <explicit>og ei vilja sier ad sagne , eda samne verda läta.</explicit>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#Papp-fol-nr-88" ana="antigraph">Papp. fol. nr 88</ref>.</p>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="439"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="201"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="fol later">
+                           Every 10th leaf has been marked on the recto, starting with 1, 12, 22, 32 etc. (proceeding until 442 on the final flyleaf).
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="12 13">
+                           <num type="wpl" atLeast="4" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="115"/>
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                           <note>Writing only on verso leaves. Recto leaves left blank for
+                              translation</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GudOla001" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote>Chapter headings are enlarged and written in a more florid script.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>On the inner front cover there are several additions: <q>N. 20</q>, <q>Ms 2: No 43</q>, 
+                        <q>61</q> (crossed out), <q>E.3</q> and something else which has been crossed out in blank ink
+                     and is thus illegible.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>The volume is bound in white parchment with dark stains from usage on the front.
+                        On the spine there is a red paper label, upon which has been written <q>Gaungu Sagu på gammal Gothiskar.</q> 
+                        On a yellow label below is printed: <q>Riks-Bibliotek STOCKHOLM Handskrifter. 
+                       Rålambs samling No.</q>, but no number has been filled in.
+                       The fore-edge has been speckled in red ink.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1681" notAfter="1695"/>
+                     <origPlace key=""/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNLbibliography data</change>
+         <change when="2011-05-06T17:55:10.298+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-08" who="#PTL">Completed description with manuscript in Stockholm.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

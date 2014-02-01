@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Winnipeg grey box MS 7</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Winnipeg-grey-box-MS-7" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#EDL">The Icelandic Collection, Elizabeth Dafoe Library, Winnipeg, Canada</repository>
+                  <idno>Winnipeg grey box MS 7</idno>
+               </msIdentifier>
+               <msContents>
+                  
+                  <msItem n="1" class="rimur">
+<!--                     <locus/>-->
+                     <title type="supplied">Rímur af Hjálmari og Ingibjörgu</title>
+                     <author key="#SigBja001">Sigurður Bjarnason</author>
+                     <rubric>Hjálmar og Ingibjörg kveðið 1860 af Aigurði Bjarnasyni. Skrifað af Þorsteini Oddsyni</rubric>
+                     <textLang mainLang="non"/>
+                     </msItem>
+                  <msItem n="2" class="fas" defective="true">
+<!--                     <locus/>-->
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+<!--                     <locus/>-->
+                     <title type="supplied">Kvæði eftir Kristján Jónsson</title>
+                     <author key="#KriJon002">Kristján Jónsson</author>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="vidsk">
+<!--                     <locus/>-->
+                     <title type="supplied">Viðskiftabók</title>
+                     <rubric>Viðskiftabók Þorsteins Oddssonar Presthvammi Arið 1886</rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                 
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block">unknown</num>
+                           <watermark ana="unknown"/>
+                           <dimensions type="leaf"> 
+                              <height unit="mm"/> 
+                              <width unit="mm"/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="999"> 
+                     <handNote scribeRef="unknown" script="unknown"/> 
+                  </handDesc>
+<!--                  <decoDesc ana=""><decoNote/></decoDesc>-->
+<!--                  <additions ana=""><p></p></additions>-->
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1882" notAfter="1900"/>
+                     <origPlace key="unknown"/>
+                     <note>Item 1 was written in 1882</note>
+                  </origin>
+                  <provenance>
+                     <name key="JonBja001" type="organisation" role="owner"/>
+                     <note>Marked as <q>handrit i vasabókabroti</q></note>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2013-06-25" who="#BES">Created entry based on Einar G. Pétursson's notes.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

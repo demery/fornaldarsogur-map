@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1179 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1179-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1179 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><note>Title page on a smaller leaf but by the same scribe</note></titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="37r"/> 
+                     <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM02-0152-1-2-is" ana="antigraph">copy of AM 152 fol.</ref>
+                     </filiation>
+                     <note>younger vers.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="38"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="301"/> 
+                              <width unit="mm" quantity="190"/>
+                           </dimensions>
+                           <watermark ana="yes">Maid of Dort "ProPatria", "C<ex>et</ex>IHonig"</watermark>
+                        </support>
+                        <foliation ana="pag contemporary"/> 
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="24 25"> 
+                           <num type="wpl" atLeast="3" atMost="7"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="230"/>
+                              <width unit="mm" quantity="115"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva">The main text is written in hum cursiva, chancery is used for rubrics and title.
+                   <p>This is the same scribe as in NKS 1178 fol. but different from NKS 1161 fol.
+                        The hand also occurs in <ref type="ms" target="#Kall04-0620-en">Kall 620 4to</ref>, which Kålund asignes 
+                        to "a well known Icelandic scribe".</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">On the front flyleaf, there is a note signed by <name key="PetSuh001" type="person" role="owner">P.F. Suhm</name>.
+                  A smaller leaf (titlepage) is inserted in the front. It is written in the same hand as the main text.</additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Cardboard binding with leather spine and corners; golden imprints on the spine: <q>GIAFA REFS SAGA</q> and floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name key="PetSuh001" type="person" role="owner"/>
+                     <p>Formerly Suhm's collection no. 98 fol.</p>
+                  </provenance> 
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:32.497+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-04-29" who="#BES">Added information from Kålund's catalog.</change>
+         <change when="2013-05-14" who="#BES">Added missing information with manucsript in situ.</change>
+         <change when="2013-08-27" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

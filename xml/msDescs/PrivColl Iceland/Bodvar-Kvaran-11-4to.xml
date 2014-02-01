@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Böðvar Kvaran 11 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Bodvar-Kvaran-11-4to" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#PRIV1">Private collections</repository>
+                  <idno>Böðvar Kvaran 11 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><titlePart>Fornmannasögur Norðurlanda, 8. b. 1914</titlePart></titlePage>
+                  <msItem n="1" class="ridd">
+                     <title type="uniform">Adónías saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="other">
+                     <title type="supplied">Filippusar saga fagra</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="other">
+                     <title type="supplied">Sagan af þeim fóstbræðrum Persival og Blávus</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="ridd">
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="almb">
+                     <title type="uniform">Griseldis saga</title>
+                     <rubric>Saga af Gríshildi drottningu þolinmóðu</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="forns">
+                     <title type="supplied">Haka saga og Hagbarðs</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <title type="uniform">Clarus saga</title>
+                     <rubric>Saga af Klarus keisarasyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                       <!-- <support>
+                          <num type="front-flyleaf" value=""/>
+                           <num type="book-block" value=""/>
+                           <num type="back-flyleaf" value=""/>
+                         <dimensions type="leaf">
+                              <height unit="mm" quantity="">in 4to</height>
+                              <width unit="mm" quantity="">in 4to</width>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>-->
+                       <!-- <foliation ana="">
+                           <p/>
+                        </foliation>
+                        <condition ana=""/> -->
+                     </supportDesc>
+                  <!--   <layoutDesc>
+                        <layout ana="" columns="" writtenLines="">
+                           <num type="wpl" atLeast="" atMost=""/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>-->
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#MagJon001" scope="sole" script="unknown">Magnús Jónsson í Tjaldanesi</handNote>
+                  </handDesc>
+                 <!-- <decoDesc ana=""> <!-\- check -\->
+                     <decoNote/>
+                  </decoDesc>-->
+                  <additions ana="low">
+                     <p>There is a table of contents added to the beginning of the manuscript [cf. Einar G. Pétursson, p.6].</p>
+                  </additions>
+                 <!-- <bindingDesc>
+                     <binding ana="" contemporary=""/> 
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1914"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="BodKva001"/>
+                     <p>The manuscript was on loan at <name type="organisation" key="AMIS" role="other">Árnastofnun</name> for a
+                        long time.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc><change when="2013-07-23" who="#BES">Created file and cataloged as far as possible based on Einar G. Pétursson's notes.</change>
+         <change when="2013-09-12" who="#BES">Proofread as far as possible.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

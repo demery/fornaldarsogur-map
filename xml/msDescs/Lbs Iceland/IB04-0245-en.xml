@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 245 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0245-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 245 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="fas" defective="true">
+                     <locus from="1r" to="14v"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <note>Lacking at the beginning</note>
+                     <incipit defective="true">Ei er hér við mennska menn að eiga, og munum við skjótt sigrast ef
+                        þannin gengur lengi</incipit>
+                     <explicit>Bósi átti son er Sviði hét, hann var faðir Vilmundar viðutan. Höfum
+                        ei heyrt þessa sögu lengri og endast hún með so orðnu niðurlagi, að þökk
+                        hafi sá sem las en hinn engva er skrifaði en heill þeir eð
+                        hlýddu.</explicit>
+                     <colophon>Skrifuð ef so má kalla á Bakka við Bjarnarfjörð af Benjamín
+                        Bjarnasyni Anno 1804.</colophon>
+                     <textLang mainLang="non"/>
+                     <!-- an unknown variant? -->
+                     <note>Seems to be a special version of Bósa saga</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="14"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <note>The fly-leaves come with the binding</note>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="190" atMost="207"/>
+                              <width unit="mm" atLeast="150" atMost="165"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later pag">from time of cataloguing</foliation>
+                        <condition ana="poor">Has been restored</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="34 37">
+                           <num type="wpl" atLeast="13" atMost="15"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="180" atMost="188"/>
+                              <width unit="mm" atLeast="140" atMost="15"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#BenBja001" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>Some drawings and scribal information on the last page</p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Plain library binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1804"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonBor001">Jón Borgfirðingur</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <!-- This manuscript has as an only item Bósa sögu og Herrauðs and is fragmentary. 
+            In at least a couple of ÍB-manuscripts there has been leaves from Bósa saga used in the binding. 
+            This has to been looked at wether they derive from this one perhaps.   -->
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:51.527+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change who="#SK" when="2012-04">Added information from the P.E.Ó.-catalogue</change>
+         <change when="2012-11" who="#SK">Added more and more accurate information from the
+            manuscript itself </change>
+         <change when="2013-08-07" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

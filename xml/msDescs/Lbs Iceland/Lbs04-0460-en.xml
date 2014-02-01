@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Lbs 460 4to</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="LBS04-0460-en" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                        <idno>Lbs 460 4to</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="" class="">
+                            <locus from="" to=""/>
+                            <title type=""/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="book-block" value="395"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity=""/>
+                                        <width unit="mm" quantity=""/>
+                                    </dimensions>
+                                    <watermark ana=""/>
+                                </support>
+                                <foliation ana=""/>
+                                <condition ana="">Many pages blank.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="" writtenLines="">
+                                    <num type="wpl" atLeast="" atMost=""/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity=""/>
+                                        <width unit="mm" quantity=""/>
+                                    </dimensions>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <handNote scribeRef="#SveEgi00" scope="" script="unknown"/>
+                            <handNote scribeRef="#" scope="" script="unknown">Jón Sigurðsson <!-- perhaps manuscript can narrow down the possibilities for this scribe --></handNote>
+                        </handDesc>
+                        <decoDesc ana="">
+                            <decoNote type=""/>
+                        </decoDesc>
+                        <additions ana="">
+                            <p/>
+                        </additions>
+                        <bindingDesc>
+                            <binding ana="" contemporary="">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1830" to="1850"/>
+                            <origPlace key="IS"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-07-22" who="#SMM">Created file and added information from PEÓ catalogue.</change>
+            <change when="2013-29-11" who="#SMM">Added some more information from the catalogue. Pictures not available.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

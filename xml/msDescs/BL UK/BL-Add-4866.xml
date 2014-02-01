@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BL Add. 4866</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="BL-Add-4866" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#BL">British Library, London</repository>
+                  <idno>BL Add. 4866</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="kon" n="1">
+                     <locus from="4r" to="7v"/>
+                     <title type="uniform">Skjöldunga saga</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="kon" n="2">
+                     <locus from="7v" to="53v"/>
+                     <title type="uniform">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="fas" n="3">
+                     <locus from="53v" to="58r"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks <note>[Riddles]</note></title>
+                     <title type="supplied">Heiðreks gátur</title>
+                     <textLang mainLang="is"/>
+                     <note>Fragment</note>
+                  </msItem>
+                  <msItem class="edd" n="4">
+                     <locus from="58r" to="63v"/>
+                     <title type="uniform">Vafþrúðnismál</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="misc" n="5">
+                     <locus from="63v" to="69r"/>
+                     <title type="supplied">Notes on Vafþrúðnismál ???</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="edd" n="6">
+                     <locus from="69r" to="71r"/>
+                     <title type="uniform">Baldurs draumar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Vegtams kvida</rubric>
+                  </msItem>
+                  <msItem class="misc" n="7">
+                     <locus from="71r" to="72v"/>
+                     <title type="supplied">Commentary on Baldurs draumar</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem class="edd" n="8">
+                     <locus from="72v" to="73v"/>
+                     <title type="supplied">Various Lists</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Eyar heite</rubric>
+                  </msItem>
+                  <msItem class="edd" n="9">
+                     <locus from="73v" to="106v"/>
+                     <title type="supplied">Snorra Edda</title>
+                     <textLang mainLang="is"/>
+                     <note>Extracts with commentary</note>
+                  </msItem>
+                  <msItem class="edd" n="10">
+                     <locus from="106v" to="107r"/>
+                     <title type="uniform">Ljúflings Ljóð</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">							
+                     <supportDesc material="chart">								
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="102"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="320"/>
+                              <width unit="mm" quantity="100"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="contemporary fol"/>
+                        <condition ana="good"/>	
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="41 45">									
+                           <num type="wpl" atLeast="5" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="293"/>
+                              <width unit="mm" quantity="82"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>	
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent">Unknown, poetry is in chancery and prose in kurrent</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="no">
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p/>
+                     </binding>							
+                  </bindingDesc>	
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JosBan001">Joseph Banks</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:52:59.117+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-01-04" who="#PTL">Information supplemented</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 658 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0658-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 658 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><titlePart>Alphabetum runicum, literatura runica, sem á nokkrum legsteinum má
+                     finna í Svíaríki og annarstaðar. Skrifað úr Hervararsögu sem útgengin er á
+                     prent að Uppsölum í Svíaríki. Anno 1672.</titlePart>
+                  <note>Title page for item 1</note></titlePage>
+                  <msItem n="1" class="fas run">
+                     <locus from="1r" to="72r"/>
+                    <author>Olaf Verelius</author>
+                     <title type="supplied">Commentary on Hervarar saga og Heiðreks [Excerpts]</title>
+                     <title type="parallel" ref="#hs">Hervarar saga og Heiðreks [Commentary]</title>
+                     <textLang mainLang="la" otherLangs="non"/>
+                     <incipit>Incriptio Lapidis Kiulensis</incipit>
+                     <explicit>Vil eg gödan<ex>n</ex> gunstug<gap/>bara Vinsamlega saluteradan hafa</explicit>
+                     <filiation><p>Copy of <ref type="book" target="#OlaVer1672" ana="antigraph">Verelius' ed. (1672)</ref></p></filiation>
+                     <note>Extract from Verelius' commentary to the saga, part of which considers runes; may draw from additional
+                        sources as well</note>
+                   <msItem n="1.1" class="avint">
+                     <locus from="49r" to="49v"/>
+                     <title type="supplied">Unidentified ævintýri</title> 
+                     <rubric>Ein Lytil og fähend(?) fra Saga</rubric>
+                     <incipit>Eitt adfange kvolld Jóla villdv</incipit>
+                     <explicit>En vysurnar s<ex>e</ex>m qvednaz voru hliöda sem efter filger</explicit>
+                      <note>Presented as introduction to the following runic material</note>
+                  </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="72"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="135"/>
+                              <width unit="mm" quantity="82"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol">Foliated at least three times. One of them erroneously counting 73 leaves.</foliation>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="17 21"> 
+                           <num type="wpl" atLeast="4" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="115"/>
+                              <width unit="mm" quantity="58"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="major" script="early kurrent">Different script types for different purposes; early kurrent for prose commentary, early hum cursiva(?) for Latin text.</handNote>
+                  </handDesc>
+                  <additions ana="low"><list>
+                     <item><locus from="1r" to="1r"/> <q>Petur Jakobsson á Oddastoðum/70</q></item>
+                     <item><locus from="1r" to="1r"/> <q>Ísl. Bókm.fel No 658</q></item>
+                     <item>Illegible scribbling on fol. <locus from="72v" to="72v">72v</locus></item></list>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none" contemporary="inapplicable">
+                        <p>No binding</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate notBefore="1660" notAfter="1700"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                     <name type="person" role="owner" key="PetJak002">Pétur Jakobson</name> á Oddsstöðum was the owner in
+                        <date when="1870">1870</date></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:51:57.057+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-02" who="#SK">Added information from the P.E.Ó.-catalogue and other
+            sources.</change>
+         <change when="2013-02" who="#SK">Added information from XML-file on handrit.is and other
+            sources</change>
+         <change when="2013-08-20" who="#BES">Corrected and added missing information based on pictures on handrit.is in the process of proofreading.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

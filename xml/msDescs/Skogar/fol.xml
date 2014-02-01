@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Skógar (no shelfmark)</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="fol" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#BSSKG">Byggðasafnið á Skógum</repository> 
+                        <idno>Skógar (no shelfmark)</idno> 
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage ana="no"/>
+                        <msItem n="1" class="isl">
+                            <locus from="1r:1" to="16v:32"/>
+                            <title type="uniform">Flóamanna saga</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Hier Hefur Søgu af Þorgils Orrabeins-Fostra, og Flooa møn<ex>n</ex>um<ex>m</ex></rubric>
+                            <incipit>I. Cap. Haralld<ex>ur</ex> Gullskiegg<ex>ur</ex> ried f<ex>yrir</ex> Sogne, h<ex>an</ex>n átti Sólvøru
+                                dótt<ex>ur</ex> hundólfs Jalls</incipit>
+                            <explicit>fød<ex>ur</ex> Grijms f<ex>ødur</ex> Gudlꜷg<ex>ar</ex> mód<ex>ur</ex> Jørud<ex>ar</ex> B<ex>isku</ex>ps,</explicit>
+                            <finalRubric>og lijkur hier Søgu Þorgils Oʀabeins fóstra, og an<ex>n</ex>ara Floa Man<ex>n</ex>a.</finalRubric>
+                            <colophon>Byriad ad skrifa 28. Januarj endad 10 Februar 1815.)</colophon>
+                            <note>Possibly contains a hitherto unknown variant redaction?</note>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="17r:1" to="36r:24"/>
+                            <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Sagan<ex>n</ex> af Jóni Svipdags syni sem kalladist Þialar Jon. Og Eyriki Wilhiálms syni er nefnist
+                                hin<ex>n</ex> forvitni.</rubric>
+                            <incipit>I. Capituli Kong<ex>ur</ex> h<ex>e</ex>f<ex>ur</ex> Vilhiálm<ex>ur</ex> heitad er räd<ex>it</ex> h<ex>e</ex>f<ex>ir</ex>
+                                fyr<ex>ir</ex> Vallandi h<ex>an</ex>n v<ex>ar</ex> rÿk<ex>ur</ex> k<ex>on</ex>g<ex>ur</ex></incipit>
+                            <explicit>en<ex>n</ex> sagt er þ<ex>ei</ex>r hafi leingi stiörn<ex>ad</ex> Rÿkium<ex>m</ex> synum<ex>m</ex> <ex>og</ex> vinsæler
+                                høfdingiar verid, slijtandi alldrei vináttu medan<ex>n</ex> lifdu.</explicit>
+                            <finalRubric>og endar hier af ad seigia, Jone Svipdagssyne og Eyrike Vilhiálms syne hinum<ex>m</ex> forvitna.</finalRubric>
+                            <colophon>Endud ad skalakote s 3. Decemb 1816. af SEinarss<ex>yni</ex></colophon>
+                        </msItem>
+                        <msItem n="3" class="isl">
+                            <locus from="36r:25" to="67v:19"/>
+                            <title type="uniform">Fóstbræðra saga</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Hier byriar Saugu Föstbrædran<ex>n</ex>a Þorgeirs Hꜳvars Sonar og Þormödar Bessasonar.</rubric>
+                            <incipit>I. Capitule. Gud DROTTEN<ex>N</ex> Jesus Christus Sꜳ til þess þørf vera all<ex>ra</ex> Nordm<ex>ann</ex>a</incipit>
+                            <explicit>dagshrÿdar spor swyða sagde han<ex>n</ex> svo munde skallded vilia kvedid hafa/:</explicit>
+                            <finalRubric>Nu lijkur svo <damage>s</damage>vo æfe Þormoðs med þessum<ex>m</ex> atburdum<ex>m</ex> sem nú voru sagder.</finalRubric>
+                            <colophon>Þesse saga er ütdreigen<ex>n</ex> sem näkvæmlegast orded hefur úr søu Ölafs kongs Haralldssonar hins Helga,
+                                Af SEinarssyne ꜳ Skálakote og endúd þan<ex>n</ex> 21 Marti 1827.</colophon>
+                        </msItem>
+                        <msItem n="4" class="kvad laus">
+                            <locus from="67v:20" to="67v:21"/>
+                            <title type="supplied">Skrifaravísa</title>
+                            <textLang mainLang="is"/>
+                            <note>Er hier sógun<ex>n</ex>ar Ende,
+                                  Laús af min<ex>n</ex>e hende
+                                  Gud oss geime frÿdur,
+                                  þacke heirande lýdur/:</note>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="book-block" value="67"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="182"/>
+                                        <width unit="mm" quantity="150"/>
+                                    </dimensions>
+                                    <watermark ana="no"/>
+                                </support>
+                                <foliation ana="no"/>
+                                <condition ana="poor">The text is usually not damaged, but the leaves are damaged on
+                                    the margins because of moisture. Needs conservation.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-prose" columns="1" writtenLines="23">
+                                    <num type="wpl" atLeast="12" atMost="15"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="151"/>
+                                        <width unit="mm" quantity="123"/>
+                                    </dimensions>
+                                    <catchwords ana="yes"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scribeRef="#SigEin004" scope="sole" script="chancery">Mostly with chancery script but occasionally kurrent
+                            </handNote>
+                        </handDesc>
+                        <decoDesc ana="low">
+                            <decoNote>Slightly decorated initials in black ink throughout.</decoNote>
+                        </decoDesc>
+                        <additions ana="no"/>
+                        <bindingDesc>
+                            <binding ana="none" contemporary="inapplicable">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1815" notAfter="1827"/>
+                            <origPlace key="IS">Iceland, Skálaholt</origPlace>
+                        </origin>
+                        <provenance>
+                            <name type="person" role="owner" key="SigEin004">Sighvatur Einarsson</name>
+                            <name type="person" role="owner" key="EinSig002">Einar Sighvatsson, hreppsstjóri á Ystaskála</name>
+                            <name type="person" role="owner" key="EinEin006">Einar Einarsson á Bjólu (d. 1900)</name>
+                            <name type="person" role="owner" key="VigEin001">Vigfús Einarsson á Önundarstöðum í Flóa</name>
+                            <name type="person" role="owner" key="ambig">Jón Vigfússon í Hafnarfirði</name>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-09-06" who="#OHA">File created; catalogued from manuscript.</change>
+            <change when="2013-09-12" who="#SMM">Created and added some owner keys and proofread.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

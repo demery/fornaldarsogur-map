@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 65 a 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM08-0065a-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 65 a 8vo</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="log">
+                     <locus from="1r:1" to="9v:5"/>
+                     <title type="uniform">Búalög <note>(Extracts)</note> </title>
+                     <textLang mainLang="non"/>
+                     <rubric><gap/>sem galmir <gap/> lagt hier j Islanda</rubric>
+                     <!-- illegible in images -->
+                     <incipit>Sæker þess ad men<ex>n</ex> vita</incipit>
+                     <explicit>8 h<ex>ann</ex> sie fätækur <ex>og</ex> þujlykt</explicit>
+                     
+                     <note>Ends with the sections on 'tíundargerð' and 'auratali'.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="2" class="logfr dom">
+                     <locus from="9v:6" to="12v:8"/>
+                     <title type="supplied">Legal documentation</title>
+                     <title type="supplied">Skjöl</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Lagasteffna</rubric>
+                     <incipit>Eg :-o-: ss stefne hier :-o-: ss rietta laga steffnu</incipit>
+                     <explicit>9 ad vera jafn vid fätæka og ryka</explicit>
+                     
+                     <note>Contains contract formulae, a section on the duties of judges and various exhortations/commandments.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="3" class="log">
+                     <locus from="12v:x" to="18v:24"/>
+                     <title type="uniform">Jónsbók <note>(Extracts)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saktal wr Islendynga logbök</rubric>
+                     <incipit>Ef walls madur huor j sin<ex>n</ex>e syslu gielld<ex>ur</ex> e<ex>ck</ex>i</incipit>
+                     <explicit>sek<ex>ur</ex> hu<ex>or</ex> vid landeyg<ex>an</ex>da</explicit>
+                     
+                     <note>Contains a summary (table of contents?) of Jónsbók beginning with þingfararbálkr and ending with rekabálkr.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="4" class="log">
+                     <locus from="19r:1" to="42v:28"/>
+                     <title type="supplied">Bessastaðabók</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit>Vitnes burd<ex>ar</ex> brief v<ex>id</ex> reka i millv<ex>m</ex> klauf<ex>ar</ex></incipit>
+                     <explicit>suma 5 lest<ex>ir</ex> 3 <ex>hundrad</ex> <ex>og</ex> 60 fyk<ex>ra</ex>.</explicit>
+                     
+                     <note>Contains letters and agreements (charters?) from Bessastaðabók; cf. note from Árni Magnússon.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="5" class="bibl">
+                     <locus from="43r:1" to="48v:8"/>
+                     <title type="supplied">Bible, O.T. <note>(Extracts)</note></title>
+                     <title type="supplied">Biblían</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nockrar grein<ex>er</ex> vr gudz lögv<ex>m</ex></rubric>
+                     <incipit>Af ad no<ex>ck</ex>ur slær j augad ä synu<ex>m</ex> þionustu</incipit>
+                     <explicit>Kong<ex>ar</ex>ner skulu læra gudz ord <ex>og</ex> fram<ex>m</ex> filgia þui.</explicit>
+                     
+                     <note>Contains judgments from the Old Testament (Exodus 22, Leviticus 19-20).</note>
+                  
+                  </msItem>
+                  
+                  <msItem n="6" class="ordsk">
+                     <locus from="48v:9" to="49v:6"/>
+                     <title type="supplied">Fornyrði</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fornyrde vr frodleikz bokv<ex>m</ex> saman<ex>n</ex> tijnd</rubric>
+                     <incipit>Afl gnydia gialf<ex>ur</ex> A lopt vind<ex>ra</ex></incipit>
+                     <explicit>Gagl __ heit<ex>ir</ex> giæf<ex>ar</ex> vnge</explicit>
+                     
+                     <note>Contains explinations of terms/phrases beginning with letters A-G.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="7" class="fas">
+                     <locus from="49v:7" to="50r:20"/>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks <note>(Extracts)</note></title>
+                     <title type="parallel">Gátur Gestumblinda <note>(Extracts)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nockrar gat<ex>ur</ex> s<ex>m</ex> Oden<ex>n</ex> vp bar f<ex>irir</ex> Heidrike konge vnd<ex>ir</ex>
+                     personu Gestz hins blinda</rubric>
+                     <incipit>1 Gest<ex>ur</ex> sagde, hv<ex>or</ex> er sa hin<ex>n</ex> mikle</incipit>
+                     <explicit>þo ad han<ex>n</ex> være agiæt<ex>ur</ex> þa vard han<ex>n</ex> ad deyia. Finiz</explicit>
+                     
+                     <note>Contains part of the riddle prologue and a selection (8) riddles from the R redaction of the saga.</note>
+                  
+                  </msItem>
+                  
+                  <msItem n="8" class="annal">
+                     <locus from="50r:21" to="55v:23"/>
+                     <title type="supplied">Annals</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Nockvd af an<ex>n</ex>alv<ex>m</ex> <ex>og</ex>
+                        adskilian<ex>n</ex>legv<ex>m</ex> til
+                        burdv<ex>m</ex></rubric>
+                     <incipit>A dogv<ex>m</ex> Macomets saust jmes leig<ex>ir</ex> til Bu<supplied reason="damage">r</supplied>d<ex>ir</ex>
+                     <ex>og</ex> Griklande</incipit>
+                     <explicit>lyka eitt barn<ex>n</ex> fædt m<ex>ed</ex> laungv<ex>m</ex> sex tónv<ex>m</ex> <ex>og</ex> af skaplega storu hófde.</explicit>
+                     
+                     <note>Contains descriptions of extraordinary events abroad up until 1456.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="8" class="unknown">
+                     <locus from="55v:24" to="57r:12"/>
+                     <title type="supplied">Summary of ecumenical councils</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fim hafa stor þing vered</rubric>
+                     <incipit>Hid firsta <ex>og</ex> Nisena. A dogv<ex>m</ex> Constantyny <ex>og</ex> July pava þa
+                     var Ariuss fyr<ex>ir</ex> dæmd<ex>ur</ex></incipit>
+                     <explicit>hafde veróllde<ex>n</ex> staded 3941 ar en<ex>n</ex> nu sid<ex>an</ex> Christi fæding.</explicit>
+                     
+                     <note>Contains short descriptions of the first five ecumenical councils.</note>    
+                                    
+                  </msItem>
+                  
+                  <msItem n="10" class="avint">
+                     <locus from="57r:13" to="58v:11"/>
+                     <title type="supplied">Ævintýri um herramann sem varð að hundi</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eitt æfen<ex>n</ex>tyr vm eirn<ex>n</ex> herra 
+                        man<ex>n</ex> s<ex>e</ex>m v<ex>ar</ex>d ad hunde
+                        ä .5. stundv<ex>m</ex></rubric>
+                     <incipit>An<ex>n</ex>o 1633. 10 mylur fra þui eirn<ex>n</ex>e soltau j þ<ex>ei</ex>m stad lig<ex>ur</ex>
+                     eirn<ex>n</ex> landz byr ad nafne Beinen</incipit>
+                     <explicit>en<ex>n</ex> ongv<ex>m</ex> man<ex>n</ex>e skal han<ex>n</ex> gi<ex>or</ex>a mein<ex>n</ex>. Finez</explicit>
+                     
+                  </msItem>
+                  
+                  <msItem n="11" class="avint">
+                     <locus from="58v:12" to="58v:31"/>
+                     <title type="supplied">Story of three men in Gufudal</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit>An<ex>n</ex>o 1616 far þad vid vest<ex>ur</ex> j Gufudal</incipit>
+                     <explicit><ex>og</ex> j þ<ex>ui</ex> byle datt bite vr k<ex>ir</ex>kiun<ex>n</ex>e ä halz h<ex>onu</ex>m so af f<ex>or</ex>
+                     hófudid. Ende</explicit>
+                  
+                  </msItem>
+                  
+                  <msItem n="12" class="avint">
+                     <locus from="59r:1" to="64r:25"/>
+                     <title type="uniform">Seths för í Paradísum</title>
+                     <title type="uniform">Origo crucis</title>
+                     <title type="parallel">Seth's journey to paradise</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eitt æfintir af Adam</rubric>
+                     <incipit>So er sagt sidan<ex>n</ex> Adam o<ex>g</ex> Efa varv vt rekin<ex>n</ex></incipit>
+                     <explicit>og sanadest so saga drottningarin<ex>ar</ex>. Finez</explicit>
+                     
+                  </msItem>
+                  
+                  
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="64"/>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="167"/>
+                              <width unit="mm" quantity="105"/>
+                           </dimensions>
+                           
+                           <!--<watermark ana="no|yes"/>-->
+                           
+                        </support>
+                        
+                        <foliation ana="pag fol">Foliated in upper, inner margin of recto leaves. Switches to pagination on fol. 19r.</foliation>
+                        
+                       <!-- <condition ana="poor|average|good">
+                           <p>Fols. 1 and 2 have been heavily damaged. Fols. 1-18 have extensive wear on the outer edges.</p>
+                           <!-\- condition information taken from Kålund and handrit -\->
+                        </condition>-->
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1 3" writtenLines="26 31">
+                           <p>Some parts of Búalög are written in two or three columns.</p>
+                           <num type="wpl" atLeast="8" atMost="10"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="999">
+                     <handNote scribeRef="unknown" scope="major" script="unknown"/>
+                  </handDesc>
+                  
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  
+                  <additions ana="low">
+                     <p>Two laid-in notes in the hand of Árni Magnússon. The first reads: <q>Bergsteins i
+                        Skilldinganese til lans</q>. The second: <q>óll brefin ur libro
+                           Bessested. n. 142. hefi eg sied i gegn um usque greiner ur Guds
+                           lógum.</q> Numerous pen tests and some autographs on fol. 18r. Contains occasional marginalia.</p>
+                  </additions>
+                  
+                  <!--<bindingDesc>
+                     <!-\- modern binding information taken from handrit.is record -\->
+                     <binding ana="plain|moderate|decorative" notBefore="1974" notAfter="1974" contemporary="false">
+                        <p>Rebound in November 1974. Previously bound in parchment MS waste containing a Latin liturgical text (gradual). 
+                           Now housed as HS 9 in AM Accessoria 7.</p>
+                     </binding>
+                     
+                  </bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Dated by Kålund (Katalog, II:369) to the 17th century</p>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <p>Once loaned to <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> by a certain Bergsteinn í Skildinganes (mod. Reykjavík),
+                        possibly Bergsteinn Bjarnarson, whose autograph
+                        appears on fol. <locus>18r</locus>.</p>
+                     
+                     <note>According to the list of contents in AM's catalog (<ref type="ms">AM 435 a 4to</ref>), this MS is now lacking several items,
+                        including Hugsvísmál.</note>
+                  </provenance>
+               
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:50.193+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:48.407+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:54.881+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:12.081+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:49.028+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-03-25" who="#JSL">Supplemented with information from handrit and Kålund catalogs. Cataloged from
+            photographs of MS.</change>
+         <change when="2013-08-23" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

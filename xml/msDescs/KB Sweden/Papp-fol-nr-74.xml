@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. fol. nr 74</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-fol-nr-74" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. fol. nr 74</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2">An older paper cover is preserved and now counted as second
+                              flyleaf.</num>
+                           <num type="book-block" value="56"/>
+                           <num type="back-flyleaf" value="6"/>
+                           <watermark ana="yes">A different watermarks on the fly-leaves.</watermark>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Modern cardboard binding with marbeled paper on the boards, spine and corners in white leather. The
+                           golden imprint on the spine reads: <q>Cod. Isl. Papp. Fol. N:o 74</q>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1699"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <name key="JohPer001" type="person" role="owner"/>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp. fol. nr 74 I</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <titlePage ana="contemporary">
+                        <titlePart>Forna Konungars Langfädgatal utaf gamla handskrefna Böcker samlat af J. P.</titlePart>
+                     </titlePage>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" to="7r:17"/>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans <note>[excerpts]</note></title>
+                        <incipit><del>Extract Ur gamalli Bök</del> umm
+                           Norvegs Bygging, oc hvorsu Könga ætter höfust þar</incipit>
+                        <explicit>hann var þä köngur er Flateyar könga Bök var skrifud, þä var lidit frä hingadburdi vors herra
+                           Jesu Christi. MCCCLXXXVII är.</explicit>
+                        <textLang mainLang="non"/>
+                        <filiation><p>Based on 
+                           <ref type="book" target="#TheTho1689" ana="protograph">Theodorus Thorlacius's ed. (1589)</ref>.</p>
+                        </filiation>
+                        <note>Excerpts of Hversu Noregur byggðist</note>
+                     </msItem>
+                     <msItem n="2" class="kont">
+                        <locus from="8r" to="26v:9"/>
+                        <title type="supplied">Konungatöl</title>
+                        <textLang mainLang="non"/>
+                        <filiation><p>Copy of
+                           <ref type="ms" target="#Papp-fol-nr-76" ana="antigraph">Papp fol. nr. 76</ref>.</p>
+                        </filiation>
+                     </msItem>
+                     <msItem n="3" class="kont">
+                        <locus from="28r" to="32v"/>
+                        <title type="supplied">Langfeðgatal konunga</title>
+                        <rubric>Langfedgatal till nockurra Danmerkur og Noregs Konga.</rubric>
+                        <textLang mainLang="non"/>
+                        <filiation><p>Copy of
+                           <ref type="ms" target="#Papp-fol-nr-76" ana="antigraph">Papp fol. nr. 76</ref>.</p>
+                        </filiation>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="32"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="330"/>
+                                 <width unit="mm" quantity="200"/>
+                              </dimensions>
+                              <watermark ana="yes">"ACH": two lions holding coat of arms with a crown on top.</watermark>
+                           </support>
+                           <foliation ana="pag contemporary fol later">
+                              <p/>
+                           </foliation>
+                           <condition ana="average">Water stain in the outer upper corner</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1 3" writtenLines="24 28">
+                              <note>Varies between 1 and 3 columns</note>
+                              <num type="wpl" atLeast="2" atMost="8"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="260"/>
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scribeRef="#GudOla001" scope="minor" script="chancery">Guðmundur Ólafsson wrote <locus from="1r" to="7r">1r-7v</locus>. The script is a mixture of chancery and hum cursiva</handNote>
+                        <handNote scribeRef="#JohPer001" scope="major" script="chancery">Johan Peringskiöld wrote <locus from="8r" to="32v">8r-32v</locus> and the title page. The script is a mixture of chancery and hum cursiva.</handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="low"><p>Scholarly notes in a later hand concerning sources of the texts.</p></additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp fol. nr. 74 II (4to)</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="attat">
+                        <locus from="33r" to="35v"/>
+                        <title type="supplied">Ættartala fra Adam till Þorleyfs Arnasonar</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="6"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="163"/>
+                              </dimensions>
+                              <watermark ana="yes">"ACH": two lions holding coat of arms with a crown on top.</watermark>
+                           </support>
+                           <foliation ana="pag contemporary fol later">
+                              <p/>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="18 22">
+                              <num type="wpl" atLeast="2" atMost="8"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="120"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#GudOla001" scope="minor" script="chancery"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial"/>
+                     </decoDesc>
+                     <additions ana="no"><p/></additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp fol. nr. 74 III (4to)</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="attat">
+                        <locus from="39r" to="39v"/>
+                        <title type="supplied">Ættartala Sverrirs kongs föður</title>
+                        <rubric>Ættar tala Sverrirs Kongz Fodur Hakonar kongz, F: Hakonar K<ex>on</ex>gs, F: Magnus Kongs
+                              s<ex>e</ex>m Logbokena end<ex>er</ex>bætte</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2" class="attat">
+                        <locus from="40r" to="44r"/>
+                        <title type="supplied">Langfeðgatal konunga</title>
+                        <rubric>Langfedgatal til nockurra Danmerkur og Noregz Konga</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="gat">
+                        <locus from="44v:1" to="44v:28"/>
+                        <title type="supplied">Cryptographic text</title>
+                        <rubric>Talbyrdyng<ex>ur</ex> hin<ex>n</ex> gamle med sijnum<ex>m</ex> Prikstoffum<ex>m</ex></rubric>
+                        <incipit>H f 1. S l m e l </incipit>
+                        <explicit>f g u n o 1615</explicit>
+                        <textLang mainLang="non"/>
+                        <note>Reference to Johannes Trithemius' Polygraphiæ</note>
+                     </msItem>
+                     <msItem n="4" class="fas">
+                        <locus from="47r" to="49r"/>
+                        <title type="uniform" ref="#ff">Frá Fornljóti og ættmönnum hans <note>[excerpts]</note></title>
+                        <title type="parallel">Fundinn Noregur</title>
+                        <incipit>Forniotr h<ex>e</ex>f<ex>ur</ex> k<ex>onungur</ex> heit<ex>it</ex></incipit>
+                        <explicit>hetu halladur og hrollaugur <ex>og</ex> fin<ex>n</ex>ar han<ex>n</ex> var Ingstr.</explicit>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="11"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="163"/>
+                              </dimensions>
+                              <watermark ana="yes">two lions holding a round coat of arms with a crown on top.</watermark>
+                           </support>
+                           <foliation ana="pag contemporary fol later">
+                              <p/>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1 2" writtenLines="20 25">
+                              <num type="wpl" atLeast="2" atMost="10"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="115"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JohPer001" scope="sole" script="unknown">Mixed
+                           script.</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="medium">
+                        <p>Scholarly notes in the margins from at least two different hands</p>
+                     </additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp fol. nr. 74 IV (4to)</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="attat">
+                        <locus from="50r" to="51v"/>
+                        <title type="supplied">Genealogical notes</title>
+                        <author key="#JohPer001">Johan Peringskiöld</author>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="2"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="80"/>
+                              </dimensions>
+                              <watermark ana="no"/>
+                           </support>
+                           <foliation ana="pag contemporary fol later">
+                              <p/>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="16 29">
+                              <num type="wpl" atLeast="2" atMost="7"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="200"/>
+                                 <width unit="mm" quantity="75"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JohPer001" scope="sole" script="unknown">Mixed script.</handNote>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>Some additions in the margins.</p></additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp fol. nr. 74 V (4to)</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="attat">
+                        <locus from="52r" to="57v"/>
+                        <title type="supplied">Ættartala frá Adam</title>
+                        <rubric>Ættartal fra Adam</rubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="6"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="210"/>
+                                 <width unit="mm" quantity="155"/>
+                              </dimensions>
+                              <watermark ana="yes">A fool with a pointed collar, the middle point ending in three large
+                                 spheres.</watermark>
+                           </support>
+                           <foliation ana="pag contemporary fol later">
+                              <p/>
+                           </foliation>
+                           <condition ana="average"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="10 31">
+                              <num type="wpl" atLeast="1" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="180"/>
+                                 <width unit="mm" quantity="100"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonJon030" scope="sole" script="hum cursiva"/>
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="low"><p>Some additions in the margins.</p></additions>
+                  </physDesc>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="other">
+                     <idno>Papp fol. nr. 74 VI</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="regis">
+                        <locus from="58r:1" to="58r:15"/>
+                        <title type="supplied">Table of Contents</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="1"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="330"/>
+                                 <width unit="mm" quantity="20"/>
+                              </dimensions>
+                              <watermark ana="yes">Two lions holding a coat of arms with a crown on top and the letters "GERDG"</watermark>
+                           </support>
+                           <foliation ana="pag contemporary fol later">
+                              <p/>
+                           </foliation>
+                           <condition ana="good"/>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="15">
+                              <num type="wpl" atLeast="1" atMost="6"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="220"/>
+                                 <width unit="mm" quantity="170"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JohPer001" scope="sole" script="chancery"/> 
+                     </handDesc>
+                     <decoDesc ana="no"><decoNote/></decoDesc>
+                     <additions ana="no"><p/></additions> 
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:55:05.805+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-02-27" who="#BES">quick prep. for library. catalog info still missing.</change>
+         <change when="2013-03-06" who="#BES">Measured and checked at the library.</change>
+         <change when="2013-03-25" who="#BES">Added missing information from Catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

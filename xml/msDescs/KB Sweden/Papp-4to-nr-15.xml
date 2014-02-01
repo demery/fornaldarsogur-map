@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 15</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-15" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 15</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="konth">
+                     <locus from="1r" to="8v"/>
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="9r" to="14r"/>
+                     <title type="uniform" ref="#ngth">Norna-Gests þáttur</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <p>Derived from 
+                        <ref type="ms" target="#GKS04-2845-is" ana="protograph">GKS 2845 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="14v" to="19r"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <note>older vers.</note>
+                     <filiation>
+                        <p>Derived from 
+                        <ref type="ms" target="#GKS04-2845-is" ana="protograph">GKS 2845 4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <!-- is this really defective? I don't believe that it is -->
+                  <msItem n="4" class="fas" defective="true">
+                     <locus from="19v" to="27r"/>
+                     <title type="uniform" ref="#hs">Hervarar saga og Heiðreks</title>
+                     <textLang mainLang="non"/>
+                     <note>R-vers.</note>
+                  </msItem>
+                  <msItem n="5" class="isl" defective="true">
+                     <locus from="28r" to="42v:4"/>
+                     <title type="uniform">Finnboga saga ramma</title>
+                     <textLang mainLang="non"/>
+                     <note>fol. <locus>32r</locus> is left blank.</note>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="46r" to="49v:18"/>
+                     <title type="uniform">Drauma-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="isl">
+                     <locus from="49v:19" to="57v"/>
+                     <title type="uniform">Hrafnkels saga Freysgoða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="rimur">
+                     <locus from="58r" to="62r"/>
+                     <title type="supplied">Skikkju rímur</title>
+                     <textLang mainLang="non"/>
+                     <note>abridged</note>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="66r" to="79v:6"/>
+                     <title type="uniform">Hænsa-Þóris saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="79"/>
+                           <num type="back-flyleaf" value="3"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="205" atMost="210"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes">different watermarks: water lily and simple heart on opposite side; a larger
+                              watermark, possibly two lions holding coat of arms with a crown</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p/>
+                        </foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="26 42">
+                           <num type="wpl" atLeast="12" atMost="18"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <note>several leaves left blank at the end of items.</note>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="5">
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Kurrent for main text, chancery for rubrics:
+                        fols. <locus from="1r" to="27v">1r-27v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Kurrent for main text, chancery for rubrics:
+                           <locus from="28r" to="45v">28r-45v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Kurrent for main text, chancery for rubrics:
+                           <locus from="46r" to="57v">46r-57v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Kurrent for main text, chancery for rubrics:
+                           <locus from="58r" to="65v">58r-65v</locus></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">Kurrent for main text, chancery for rubrics:
+                           <locus from="66r" to="79v">66r-79v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">rendered with black ink</decoNote>
+                     <decoNote type="paratext"/>
+                     <decoNote type="other">Some rubrics in different ink</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>A paper slip is glued onto fol. <locus>50r</locus>. It reads <q>No 1 S. af Hrafnkiel Goda</q>. Another slip
+                        is glued onto fol. <locus>2r</locus>, reading: <q>No 2 Søgu þattur aff Nornagieste</q>. On fol.
+                           <locus>58r</locus>, the slip reads: <q>No 3 Sekikur Rymur</q> Scholarly notes in the margins and
+                        underlining. On the front cover, there are two stickers with the shelfmark and some writing in black ink:
+                           <q>34</q>, <q>175</q> and a possibly a <q>G[..]vid(?) Sig [...]pr [...]ng</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Pressed leather on card boards(?), traces of two metal clasps. In the ornaments there are a total of
+                           sixteen coin-like images of Roman emperors with their names (repeating). On the spine, <q>Cod Isl. Papp.
+                              4:o N:o 15</q> and three crowns are imprinted in gold. According to V. Gödel, p. 278, the leather
+                           cover was formerly used for another codex.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1674"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name key="JonEgg001" type="person" role="owner"/>
+                     <name type="organisation" role="owner" key="AntKol001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:52.375+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-01" who="#BES">quick prep. for library. still catalog info missing.</change>
+         <change when="2013-03-07" who="#BES">Measured and checked with the manuscript in situ.</change>
+         <change when="2013-04-04" who="#BES">Added missing information from catalog and black-and-white photographs.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

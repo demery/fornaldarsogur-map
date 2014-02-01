@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Kall 616 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Kall04-0616-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Kall 616 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><titlePart>Danmerkur Könga Nöfn og Voben Rykian<ex>n</ex>a. Þorbergur Eynarson</titlePart></titlePage> 
+                  <msItem n="1" class="kont">
+                     <locus from="1v" to="3v"/>
+                     <title type="supplied">Nafnatal Dana konunga</title>
+                     <textLang mainLang="is"/>
+                     </msItem>
+                   <msItem n="2" class="other">
+                      <locus from="4r" to="4v"/> 
+                      <title type="supplied">Denmark's coats of arms</title>
+                      <rubric>Danmerkur Rykia voben</rubric> 
+                      <textLang mainLang="is"/> 
+                   </msItem>
+                  <msItem n="3" class="bis paf">
+                     <locus from="5r" to="11vb:17"/>
+                     <title type="supplied">Nafnatala biskupa og páfa</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="4" class="laus">
+                     <locus from="11vb:18" to="11vb:25"/>
+                     <title type="supplied">Verse [Latin]</title>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem n="5" class="hels?">
+                     <locus from="12r" to="12r"/>
+                     <title type="supplied">Sjö sofenda saga</title>
+                     <textLang mainLang="is"/> 
+                  </msItem>
+                  <msItem n="6" class="ferdb">
+                     <locus from="13r" to="32v"/> 
+                     <title type="supplied">Reisubók Jóns Ólafssonar Indíafara</title>
+                     <author key="#JonOla004">Jón Ólafsson Indísafrai</author>
+                     <textLang mainLang="is"/> 
+                  </msItem>
+                  <msItem n="7" class="ferdb">
+                     <locus from="33r" to="39v:13"/>
+                     <title type="supplied">Ný týðindi um Grænland</title>
+                     <author key="#HanEge001">Hans Egede</author>
+                     <textLang mainLang="is"/> 
+                     <note>Translated from Danish in 1729</note>
+                  </msItem>
+                  <msItem n="8" class="heims kenb sidfr">
+                     <locus from="39v:14" to="40r:13"/>
+                     <title type="supplied">Konungs skuggsjá [Excerpts]</title>
+                     <textLang mainLang="non"/> 
+                  </msItem>
+                  <msItem n="9" class="tjodt?">
+                     <locus from="40r:14" to="40v"/> 
+                     <title type="supplied">Um álfakyn</title>
+                     <textLang mainLang="is"/> 
+                     <note>Supposedly an excerpt from Björn að Skarðsá's work, cf. additions</note>
+                  </msItem>
+                  <msItem n="10" class="isl">
+                     <locus from="41r" to="60v"/>
+                     <title type="uniform">Droplaugarsona saga</title>
+                     <textLang mainLang="non"/> 
+                     <note>longer version</note>
+                     <!-- fol 49 and 49a -->
+                  </msItem>
+                  <msItem n="11" class="isl">
+                     <locus from="61r" to="66v"/> 
+                     <title type="uniform">Eiríks saga rauða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="draum">
+                     <locus from="67r" to="67v"/>
+                     <title type="supplied">Draumer Hans Sachs</title>
+                     <textLang mainLang="is"/> 
+                  </msItem>
+                  <msItem n="13" class="isl">
+                     <locus from="68r" to="89v"/> 
+                     <title type="supplied">Ljósvetninga saga</title>
+                     <textLang mainLang="non"/> 
+                  </msItem>
+                  <msItem n="14" class="isl">
+                     <locus from="90r" to="94v"/> 
+                     <title type="supplied">Hænsa-Þóris saga</title>
+                     <textLang mainLang="non"/> 
+                     <msItem n="14.1" class="laus">
+                        <locus from="96v:24" to="96v:33"/>
+                        <title type="supplied">Verse about Hænsa-Þóris saga</title>
+                        <author>Magnús Js<ex>on</ex> ad Wigur</author> <!-- check ref -->
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+                  <msItem n="15" class="ferdb person"> 
+                     <locus from="95r" to="95v"/> 
+                     <title type="supplied">On Christophus Columbus</title>
+                     <rubric>Þaattur af Christophoro Columbo</rubric>
+                     <textLang mainLang="is"/> 
+                  </msItem>
+                  <msItem n="16" class="person ferdb"> 
+                     <locus from="96r" to="96v:23"/> 
+                     <title type="supplied">On Amerigo Vespucci</title>
+                     <rubric>Þaattur Americi Vesputii</rubric>
+                     <textLang mainLang="is"/>
+                     <note/>
+                  </msItem>
+                  <msItem n="17" class="bisks">
+                     <locus from="97r" to="107r"/> 
+                     <title type="uniform">Jóns saga helga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="18" class="fas">
+                     <locus from="107v" to="124r:7"/>
+                     <title type="uniform" ref="#vs">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="19" class="fas">
+                     <locus from="124r:7" to="132v"/>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <rubric>41. Cap.</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="20" class="isl">
+                     <locus from="133r" to="158v"/> 
+                     <title type="supplied">Finnboga saga ramma</title>
+                     <textLang mainLang="non"/> 
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/> 
+                           <num type="book-block" value="158"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/> 
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes">hard to see, possibly a coat of arms with crown on top.</watermark>
+                        </support>
+                        <foliation ana="fol later"/>
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1 2" writtenLines="31 48">
+                           <num type="wpl" atLeast="15" atMost="22"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="180"/>
+                              <width unit="mm" quantity="140"/>
+                           </dimensions>
+                           <catchwords ana="yes">in some parts</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2"> 
+                     <handNote scribeRef="unknown" scope="major" script="unknown"><locus from="1r" to="132v"/></handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="unknown"><locus from="133r" to="158v"/></handNote> 
+                  </handDesc>
+                  <decoDesc ana="high"> 
+                     <decoNote type="initial">red and yellow initials and ornaments in first part, colorful title page</decoNote>
+                     <decoNote type="initial">ornaments and decorations on rubric and initials in later parts (monochrome)</decoNote>
+                     <decoNote type="illustration">red and yellow images</decoNote>
+                     <decoNote type="paratext">squiggles and diamond shaped writing pattern at the end of each item.</decoNote>
+                  </decoDesc>
+                  <additions ana="low"><p>
+                  On the second front-flyleaf, a later hand added a table of contents.
+                  On fol. <locus>12v</locus>, <name key="ThoEin004" type="person" role="owner">Þorbergur Einarsson</name>  
+                     wrote:<q>Þorbergur Einarsson er riettue eigande þessarar Sagna=Booar. 1749</q>.
+                     On fol. <locus>40r</locus>, a later hand added a comment on the author note: <q>(er úr riti Jóns lærða)</q>.</p></additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Brown half binding: leather spine and corners, golden imprint on spine: <q>Islendskar Sögur</q> and floral ornaments</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1700" notAfter="1799"/>
+                     <origPlace key="IS" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JohKal001">Kall</name>
+                     <name key="ThoEin004" type="person" role="owner"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:35.825+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-05-13" who="#BES">Added catalog info.</change>
+         <change when="2013-06-07" who="#BES">Added missing information with manscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

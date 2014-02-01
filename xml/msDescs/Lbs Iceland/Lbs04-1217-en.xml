@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1217 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1217-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1217 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Sögubók skrifuð á Vatnshorni í Haukadal 1817 af J(ónasi)
+                        Jónssyni</titlePart>
+                     
+                     <note/>
+                  </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="16r">1r-16r</locus>
+                     <title type="uniform">Konráðs saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="16r" to="26v">16r-26v</locus>
+                     <title ref="#ssst" type="uniform">Sturlaugs saga starfsama</title>
+                     <rubric>Hér byrjar söguna af Sturlaugi hinum starfsama</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="27r" to="34v">27r-34v</locus>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <rubric>Sagan af Hálfdáni kóngi Eystei[nssyni]</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="isl" defective="true">
+                     <locus from="34v" to="37v">34v-37v</locus>
+                     <title type="uniform">Þorsteins saga hvíta</title>
+                     <rubric>Sagan af Þorsteini hvíta</rubric>
+                     <note>Missing the ending</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="riddst">
+                     <locus from="38r" to="50v">38r-50v</locus>
+                     <title type="uniform">Bernótus saga Borneyjarkappa</title>
+                     <incipit>
+                        <locus from="38r" to="38r">[...] og bindur utan um allan sinn búk
+                           ...</locus>
+                        <note>Composed by Jón Oddson Hjaltalín</note>
+                     </incipit>
+                     <note>The title is on fol. 38v since that leaf (fol. 38) is the wrong way round. The correct
+                        order of the text would be: 38v, 38r, 39r.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="riddst">
+                     <locus from="50v" to="79r">50v-79r</locus>
+                     <title type="uniform">Líkafróns saga og kappa hans</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6.1" class="laus">
+                     <locus to="88v" from="88v"/>
+                     <title type="supplied">Lausavísa</title>
+                     <note>Without a title</note>
+                     <incipit>flest mun dvína ánauð oks ...</incipit>
+                     <colophon>Enduð að Stóra-Vatnshorni í Haukadal 1ta marsí, annó 1817 af
+                        J.Js.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="riddst" defective="true">
+                     <locus from="79v" to="85v">79v-85v</locus>
+                     <title type="uniform">Rígabels saga konungs og Alkanus</title>
+                     <note>Missing the the beginning</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="riddst" defective="true">
+                     <locus from="86r" to="88v">86r-88v</locus>
+                     <title type="uniform">Faustus saga og Ermenu í Serklandi</title>
+                     <note>Missing the beginning</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8.1" class="laus">
+                     <locus to="88v" from="88v"/>
+                     <title type="supplied">Lausavísa</title>
+                     <note>Without a title</note>
+                     <incipit>Búin saga Bernóti ...</incipit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="ridd">
+                     <locus from="89r" to="100r">89r-100r</locus>
+                     <title type="uniform">Nikulás saga leikara</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="ridd">
+                     <locus from="100r" to="125r">100r-125r</locus>
+                     <title type="uniform">Adónías saga</title>
+                     <colophon>Enduð að Stóra-Vatnshorni í Haukadal 25ta apríl 1817 ...</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="125v" to="136v">125v-136v</locus>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="137r" to="146v">137r-146v</locus>
+                     <title type="uniform">Sigurgarðs saga frækna</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="forns">
+                     <locus from="147r" to="163v">147r-163v</locus>
+                     <title type="uniform">Starkaðar saga gamla</title>
+                     <note>Composed by Snorri Björnsson at Húsafell</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="fas">
+                     <locus from="163v" to="166v">163v-166v</locus>
+                     <title ref="#hsgr" type="uniform">Hrómundar saga Gripssonar</title>
+                     <note>M.a.h. hefur verið bætt við: það er sannferðugt</note>
+                     <colophon>Enduð að Stóra-Vatnshorni í Haukadal dag 29da maii 1817 af J.
+                        Jónssyni. Illa klóruð</colophon>
+                     <note>Probably added later</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="fas">
+                     <locus from="167r" to="175v">167r-175v</locus>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <rubric>Hér byrjar söguna af Áni bogsveg …</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="forns">
+                     <locus from="175v" to="197v">175v-197v</locus>
+                     <title type="uniform">Hálfdanar saga gamla</title>
+                     <note>Hálfdáni correction for Hákoni under the title</note>
+                     <colophon>Enduð á Stóra-Vatnshorni þann 6ta desemberba 1817 af J.
+                        Jónssyni</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="17" class="konth">
+                     <locus from="197v" to="201v">197v-201v</locus>
+                     <title type="uniform">Hákonar þáttur Hárekssonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="18" class="hels">
+                     <locus from="202r" to="205v">202r-205v</locus>
+                     <title type="uniform">Placidus saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="205"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="163"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <condition ana="poor">In loose leaves, leaves missing between 37-38
+                           and 85-86</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="35">
+                           <num type="wpl" atLeast="14" atMost="17"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="141"/>
+                           </dimensions>
+                           <catchwords ana="yes">But rarely visible due to condition</catchwords>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JohJon004" scope="sole" script="kurrent">J. Jónsson
+                           <placeName>Vatnshorni í Haukadal</placeName>
+                     </handNote>
+                  </handDesc>
+                  <additions ana="medium">
+                     <p>Along with the manuscript is a double folio in the hand of <name type="person" key="JonTho010">Jóns Þorkelssonar</name>, with information
+                        about the manucript's origin as well as a list of contents. Kom 4.11.1896 frá Daða
+                           Daviðssyni á Kötlustöðum í Vatnsdal, fyrir milligöngu Björns
+                           alþingismanns Sigfússonar í Grímstungum</p>
+                     <p>Both the P.E.Ó.-catalogue and Jón Þorkelsson consider the scribe to be <name type="person" key="JonJon047">Jónas Jónsson</name> á
+                           <placeName>Stóra-Vatnshorni</placeName>. Kristinn Kristjánsson, in a
+                        thesis 1979 states that the scribe is <name type="person" key="JohJon004">Jóhannes Jónsson</name> (1798-1877), Jóhannes the blind, a farmhand at
+                           <placeName>Stóra-Vatnshorni</placeName>, later a farmer at
+                           <placeName>Smyrlahóll</placeName>
+                     </p>
+                     <p>On ffl2r-ffl2v there is a later table of contents</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>Leather cover</p>
+                        <p>now separate</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate when="1817">1817</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="DadDav001">Daða Davíðssyni</name> at
+                        <placeName>Kötlustaðir in Vatnsdal </placeName>
+                     <name type="person" role="owner" key="JonTho010">Jón Þorkelsson´s collection
+                        1904 </name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:40.921+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:52.943+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:11.277+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:44.765+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-07-24" who="#SK">Adapted to FASNL and dded some information from the
+            XML-file and the manuscripts digitised version on handrit.is</change>
+         <change when="2012-09-13" who="#SK">Added the last bit of information from the manuscript
+            itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

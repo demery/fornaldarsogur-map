@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1891 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1891-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1891 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 170 4to</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/> 
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="2r"/>
+                     <title type="supplied">Table of contents</title>
+                     <textLang mainLang="la"/>
+                     <note>With a note on the antigraph and the signature of the scribe.</note>
+                  </msItem>
+                  <msItem n="2" class="kosmo">
+                     <locus from="3r" to="15v"/> 
+                     <title type="supplied">Nöfn pláneta og mánaða</title>
+                     <rubric>Nøfn þeirra Sió Máneta</rubric>
+                     <incipit>Túngl heiter máne þar vid kiendur mánudagur</incipit>
+                     <explicit>Þock sem þiðer riett hvort orð.</explicit>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167a-en" ana="antigraph">Copy of AM 167a 8vo</ref>
+                     </filiation>
+                     <msItem n="2.1" class="laus">
+                        <locus from="15v:5" to="15v:9"/>
+                        <title type="supplied">A verse</title>
+                        <textLang mainLang="is"/>
+                     </msItem>
+                  </msItem>
+                  
+                  <msItem n="3" class="kirkjus pres" defective="true">
+                     <locus from="16r" to="18r"/> 
+                     <title type="supplied">Tala kirkna og presta í Noregi, Færeyjum, Íslandi</title>
+                     <rubric>Heiðarlegu Islands Yfervallde</rubric>
+                     <incipit>so skrifelegre kyrkiu þíonande</incipit>
+                     <explicit>samaukum sem þier veglegu hásko ...</explicit>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167a-en" ana="antigraph">Copy of AM 167a 8vo</ref>
+                     </filiation>
+                     <note>Beginning only</note>
+                  </msItem>
+                  <msItem n="4" class="attat">
+                     <locus from="18v" to="21v"/> 
+                     <title type="supplied">Ættartala</title>
+                     <textLang mainLang="is"/>
+                     <note>From Adam to Árni lögmaður Oddsson</note>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167b-en" ana="antigraph">Copy of AM 167b 8vo</ref>
+                     </filiation>
+                  </msItem>
+                  
+                  <msItem n="5" class="edd">
+                     <locus from="22r" to="29r"/> 
+                     <title type="uniform">Hávamál [Excerpt]</title>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167b-en" ana="antigraph">Copy of AM 167b 8vo</ref>
+                     </filiation>
+                     <note>Verses 1-52</note>
+                  </msItem>
+                  <msItem n="6" class="fas gat">
+                     <locus from="29v" to="50v"/> 
+                     <title type="uniform" ref="#hs">Hervarar saga <note>(Extracts)</note></title>
+                     <textLang mainLang="non"/>
+                     <rubric>Vr sogu Heidrekz kongz</rubric>
+                     <note>Contains only the riddles with an abridged version of Björn Jónsson á Skarðsá's commentary</note>
+                     <incipit>Heidrekur kongur liet ala gollt mikin<ex>n</ex></incipit>
+                     <explicit>þ<ex>ei</ex>r toku Suerded tyrfing og allt fie þad er inne var og hofdu a burt
+                        med sier.</explicit>
+                     <colophon>Hier endast gátur úr Heiðreks kóngs sógu</colophon>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167b-III-en" ana="antigraph">Copy of AM 167b III</ref>
+                     </filiation>
+                     <msItem n="7" class="gat">
+                        <locus from="51r" to="52r:8"/> 
+                        <title type="supplied">Bird riddles and Year riddle</title>
+                        <textLang mainLang="non"/>
+                        <incipit>Bonde spurde huskarl sin<ex>n</ex> þuy han<ex>n</ex> hefdi so leinge burtt verid</incipit>
+                        <explicit>xij manuder iv vikur vij dagar</explicit>              
+                        <filiation>
+                           <ref type="ms" target="#AM08-0167b-III-en" ana="antigraph">Copy of AM 167b III</ref>
+                        </filiation>
+                     </msItem>
+                     <msItem n="8" class="texfr?">
+                        <locus from="52r:9" to="68v:6"/>
+                        <title type="supplied">Commentary on Sigrdrífumál</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Radnyng Brinhilldar </rubric>
+                        <incipit>lióda hvor Brinhalldur Budladotter kvad til Sigurðar fofnsbana</incipit>
+                        <explicit>og var kóllud Vidfinna vólufegre</explicit>
+                        <filiation>
+                           <ref type="ms" target="#AM08-0167b-III-en" ana="antigraph">Copy of AM 167b III</ref>
+                        </filiation>
+                     </msItem>
+                     
+                     <msItem n="9" class="edd">
+                        <locus from="68v:9" to="71v:4"/> 
+                        <title type="uniform">Hárbarðsljóð <note>(Extracts)</note></title>
+                        <textLang mainLang="non"/>
+                        <rubric>Ur Harbards liódum</rubric>
+                        <incipit>Þór for austur og kom ad sunde einu</incipit>
+                        <explicit>sú skal verda ef vier lyfum Eike(?) kilfann. óþórf dónum.</explicit>
+                        <note>A prose summary of Hárbarðsljóð</note>
+                     </msItem>
+                     
+                     <msItem n="10" class="kvad">
+                        <locus from="71v:5" to="79r"/> 
+                        <title type="supplied">Vísur Páls Jónssonar</title>
+                        <author>Páll Jónsson</author>
+                        <textLang mainLang="is"/>
+                        <rubric>Hier koma vísur Pals Jóns sonar</rubric>
+                        <incipit>Hvort skal haginum breita</incipit>
+                        <explicit>óordið af Sunder adrer lágu tynder. Finis.</explicit>
+                        <filiation>
+                           <ref type="ms" target="#AM08-0167b-en" ana="antigraph">Copy of AM 167b 8vo</ref>
+                        </filiation>
+                        <note>30 verses</note>
+                     </msItem>
+                     <msItem n="11" class="hattal">
+                        <locus from="80v" to="89r:5"/> 
+                        <title type="supplied">Háttalykill Lopts Guttomssonar [Excerpts]</title>
+                        <author>Loptur Guttormsson</author>
+                        <incipit>Naqveded ..tt þeinker þú þidust kringa</incipit>
+                        <explicit>qiórast Spreingur af þvileinge</explicit>
+                        <textLang mainLang="is"/>
+                        <filiation>
+                           <ref type="ms" target="#AM08-0167b-en" ana="antigraph">Copy of AM 167b 8vo</ref>
+                        </filiation>
+                     </msItem>
+                  </msItem>
+                  <msItem n="12" class="laus">
+                     <locus from="89r:6" to="89v:6"/>
+                     <title type="supplied">Vísur [Excerpts]</title>
+                     <rubric>Vísur Odds Þordarsonar</rubric>
+                     <author>Oddur Þórðarson</author>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167b-en" ana="antigraph">Copy of AM 167b 8vo</ref>
+                     </filiation>
+                     <note>With lacunae (as in the source MS)</note>
+                  </msItem>
+                  <msItem n="12" class="laus">
+                     <locus from="89v:7" to="89v:17"/> 
+                     <title type="supplied">Vísa</title>
+                     <author>Björn Jónsson á Skarðsá</author>
+                     <rubric>Ein visa Refhverf Bjórns Jonssonar</rubric>
+                     <textLang mainLang="is"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167b-en" ana="antigraph">Copy of AM 167b 8vo</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="13" class="godfrn">
+                     <locus from="90r" to="90v"/> 
+                     <title type="supplied">Story about Óðinn [Excerpt]</title>
+                     <incipit>Þorir vott hiet eirn madur sem bio i fiszeli á Neri</incipit>
+                     <textLang mainLang="is"/> 
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167b-en" ana="antigraph">Copy of AM 167b 8vo</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="14" class="edd" defective="true">
+                     <locus from="91r" to="97r:10"/> 
+                     <title type="supplied">Sólarjlóð</title>
+                     <rubric>Hier skrifast Sólarlioð</rubric>
+                     <incipit>Fie og Fiorverænte firda kind</incipit>
+                     <textLang mainLang="non"/> 
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167b-en" ana="antigraph">Copy of AM 167b 8vo</ref>
+                     </filiation>
+                  </msItem>
+                  <msItem n="15" class="kvad">
+                     <locus from="97r:11" to="149r"/> 
+                     <title type="supplied">Skagfirðinga drápa</title>
+                     <rubric>Skagfyrdinga edur Hugardóms Drápa Halls Magnussonar</rubric>
+                     <textLang mainLang="non"/>
+                     <filiation>
+                        <ref type="ms" target="#AM08-0167b-en" ana="antigraph">Copy of AM 167b 8vo</ref>
+                     </filiation>
+                  </msItem>
+                  
+                     
+                    
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>
+                        <num type="front-flyleaf" value="2"/>
+                        <num type="book-block" value="149"/>
+                        <num type="back-flyleaf" value="1"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="195"/> <!-- check -->
+                           <width unit="mm" quantity="155"/>
+                        </dimensions>
+                        <watermark ana="yes">Maid of Dort "ProPatria ALP"; GR with crown on top</watermark>
+                     </support>
+                        <foliation ana="pag contemporary">Paginated 1-293</foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="17 18">
+                           <num type="wpl" atLeast="5" atMost="9"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="170"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#ThoMag014" scope="sole" script="hum cursiva"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="paratext"/>
+                  </decoDesc>
+                  <additions ana="low"><p>On the verso side of the first front flyleaf, <name key="PetSuh001" type="person" role="owner">Suhm</name>
+                  made a note and signed it <q>PFSuhm</q>. Suhm also made some comments and additions in the margins. Several
+                     shelfmarks and stamps.</p>
+                  </additions>
+                  <bindingDesc> 
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown leather binding; fore-edge painted blue; marbled paper on pastedown; golden imprint on spine: title and floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="unknown"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no 170 4to</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:46.608+02:00" who="#EAH">
+            Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+         </change>
+         <change when="2013-05-08" who="#BES">Added catalog info.</change>
+         <change when="2013-06-03" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

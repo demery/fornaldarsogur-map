@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Papp. 4to nr 16</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Papp-4to-nr-16" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBSE">Kungliga biblioteket, Stockholm</repository>
+                  <idno>Papp. 4to nr 16</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>[...] En<ex>n</ex> nú ad min efter Bön Vijrduzlegz heidúrz Súeinz Magnus<ex>s</ex>ar Jonzsonar.
+                           Up<ex>p</ex>skrifadar af Þorde Jonzsyne An<ex>n</ex>o 1654. M.J.S.</titlePart>
+                     <note>the title page is contemporary but by a different (third) hand.</note>
+                  </titlePage>
+                  <msItem n="1" class="regis">
+                     <locus from="2v:1" to="2v:13"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="konth">
+                     <locus from="3r" to="18v"/>
+                     <title type="uniform">Rauðulfs þáttur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="19r" to="64v"/>
+                     <title type="uniform">Rémundar saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="65r" to="97v"/>
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="5" class="ridd tjos">
+                     <locus from="98r" to="111r"/>
+                     <title type="uniform">Flóres saga og Léo</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skriffad J Schaalawijk Anno 1654 þann 29 Januarij.</colophon>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="111v" to="127r"/>
+                     <title type="uniform">Viktors saga og Bávus</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="ridd">
+                     <locus from="127v" to="133v:13"/>
+                     <title type="uniform">Tiodels saga riddara</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="133v:14" to="141r"/>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="141v" to="160v:19"/>
+                     <title type="uniform">Víglundar saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="islt">
+                     <locus from="160v:20" to="167r"/>
+                     <title type="uniform">Jökuls þáttur Búasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="ridd">
+                     <locus from="167v" to="204v"/>
+                     <title type="uniform">Dínus saga drambláta</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Anno 1654 þan<ex>n</ex> 28 februarij</colophon>
+                  </msItem>
+                  <msItem n="12" class="fas">
+                     <locus from="206r" to="234v"/>
+                     <title type="uniform" ref="#jss">Þjalar-Jóns saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifad Anno 1659. 20 Ap<ex>ri</ex>lis.</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="237"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="150"/>
+                           </dimensions>
+                           <watermark ana="yes">possibly a foolscap.</watermark>
+                        </support>
+                        <foliation ana="later fol">
+                           <p/>
+                        </foliation>
+                        <condition ana="average">The leaves have been trimmed, cutting some of the marginalia of item 1.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="18 29">
+                           <num type="wpl" atLeast="8" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="120"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#ThoJon027" scope="major" script="kurrent">Þórður Jónsson í Skálavík wrote fols. <locus from="19r" to="205v">19-205</locus> and fols. <locus from="206r" to="234v">206-237</locus>. He used
+                        kurrent for the main text, chancery for rubrics.</handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">Fols. <locus from="3r" to="18v">3r-18v</locus></handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">rendered in black ink</decoNote>
+                     <decoNote type="paratext"/>
+                     <decoNote type="other"> rubrics rendered with red pencil and black or brown ink.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <!-- inscription on fol. 1r missing? -->
+                     <p>On fol. <locus>1r</locus> Magnús Jónsson wrote: On fol <locus>205v</locus>
+                        <q>Þesse bok kostade mig Tolf aura (?) [...]</q>. On fol. <locus>19r</locus> probably Magnús Jónsson
+                        himself wrote: <q>Eign Magnúsar Jónssonar ad Watzfirde er Bökin<ex>n</ex> An<ex>n</ex>o 1659</q>.
+                        Between the front flyleaf and the book-block, three leaves are inserted, two fragments by Þórður Jónsson
+                        and an account leaf from 1671. Between fols. 25 and 26, there is a slip with Þórður Jónssons hand on it. It
+                        is vertically bound in and cut down to a small strip. </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="true">
+                        <p>Brown leather on wooden boards. Remnants of two metal clasps. Two stickers with the shelf mark on
+                           it.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1654" notAfter="1667"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name key="MagJon021" type="person" role="commissioner"/>
+                     <name key="JonEgg001" type="person" role="owner"/>
+                     <name key="SaeMag002" type="person" role="owner"/>
+                     <name key="MagBjo005" type="person" role="owner"/>
+                     <name key="AntKol001" type="organisation" role="owner"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:52.639+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-03-01" who="#BES">quick prep. for library. still catalog info missing.</change>
+         <change when="2013-04-04" who="#BES">Added missing information from catalog and the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

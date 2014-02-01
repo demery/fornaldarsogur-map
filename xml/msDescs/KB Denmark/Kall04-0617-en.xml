@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Kall 617 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Kall04-0617-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>Kall 617 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><titlePart>Gammelt Nyt: Det er en historie om kong Gothriks, 
+                     oc kong Rollof Gothriksöns mandelige bedriffter [...] OWorm 1684</titlePart></titlePage> 
+                  <msItem n="1" class="fas">
+                     <locus from="2r" to="49r"/> 
+                     <title type="uniform" ref="#gsgr">Gautreks saga [Danish]</title>
+                     <textLang mainLang="da"/>
+                     <note>Danish transl. only</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="50v" to="77v"/> 
+                     <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar [Danish]</title>
+                     <textLang mainLang="da"/>
+                     <note>Danish transl. only</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                     <num type="front-flyleaf" value="1"/>
+                     <num type="book-block" value="77"/>
+                     <num type="back-flyleaf" value="4"/>
+                     <dimensions type="leaf">
+                        <height unit="mm" atLeast="210" atMost="215"/> 
+                        <width unit="mm" atLeast="160" atMost="165"/>
+                     </dimensions>
+                     <watermark ana="yes">Two lions holding a coat of arms</watermark>
+                     </support>
+                     <foliation ana="fol later">every tenth leaf</foliation>
+                     <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="30 34">
+                           <num type="wpl" atLeast="8" atMost="14"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="205"/>
+                              <width unit="mm" atLeast="120" atMost="150"/>
+                           </dimensions>
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#OleWor002" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">A few corrections by the scribe himself in the margins.
+                  A slip and a note with the shelfmark</additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Brown paper on card boards; leather corners and spine. Golden imprint in the spine: title and floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1684"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JohKal001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:36.083+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-05-13" who="#BES">Added catalog info.</change>
+         <change when="2013-06-11" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

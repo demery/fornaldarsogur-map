@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+
+      <fileDesc>
+         <titleStmt>
+            <title>Ms Germ qu. 25</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ms-Germ-qu-25" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#SB">Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Berlin</repository>
+                  <idno>Ms Germ qu. 25</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Mikid fródlegar og ágiætar Fornman<ex>n</ex>aSøgur af hvórium<ex>m</ex> Su fornemsta og firsta er,
+                        svokóllud Lax=dæla. Øn<ex>n</ex>ur af Þorsteini Víkingssyni, Þridia af Fridþiófe enum<ex>m</ex> frækna,
+                        Fiórda af Hálfi og Hálfs Reckum<ex>m</ex>, og fimta af Hallbirni Hálf Tróll, Katli Hang og Grími
+                        Lodinkinna. Hvórium<ex>m</ex> óllum<ex>m</ex> i eitt hefur safnad og Siálfur ritad Velæruverdugur Sr:
+                        Þórdur Þorsteinsson Prestur til Breiduvíkurþínga, aarid 1803.</titlePart>
+                  </titlePage>
+                  <msItem n="1" class="isl">
+                     <locus from="2r:1" to="112v:9"/>
+                     <title type="uniform">Laxdæla saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Þessa Laxdælu ritadi standandi, i Breckubæ vid Hellna, árit 1803. ThThorsteinson</colophon>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="114r" to="147r:6"/>
+                     <title type="uniform" ref="#thsv">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifad á Stórakambe árit 1803 af ThThorsteinsyni</colophon>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="147v" to="163r:10"/>
+                     <title type="uniform" ref="#fsf">Friðþjófs saga</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifud á Stórakambe árit 1803 af Th. Thorsteinsyni</colophon>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="163v" to="175v:18"/>
+                     <title type="uniform" ref="#hskh">Hálfs saga og Hálfsrekka</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifad á Stórakambe árid 1803 af Th: Thorsteinsyne</colophon>
+                     <filiation>
+                        <p>Copy of <ref type="ms" target="#IB02-0043-en" ana="antigraph">ÍB 43 fol.</ref></p>
+                     </filiation>
+                     <note>older vers.</note>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="176r" to="186r:23"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="186r:24" to="190v:27"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                     <colophon>Skrifat at Stóra=kambe árit 1803 af Th:Thorsteinsyni</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="191"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1 2" writtenLines="24 26">
+                           <num type="wpl" atLeast="10" atMost="16"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="140"/>
+                              <width unit="mm" quantity="115"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <!-- possibly the same as ThoTho049, who wrote Ms. Germ qu. 27? No mention of Brekkubær or Stóra-Kambi in æviskrár but of relatively close places-->
+                     <handNote scribeRef="#ThoTho049" scope="sole" script="kurrent"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="other">Red book-block, framed title-page written in half-diamond indention with red and dark
+                        ink and with decorated initials.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>A translation by Rühs of the title-page into German, including some information on the content of the
+                        sagas, is added to the front of the manuscript. Remnants of paper reading marks glued to the outer margins
+                        at beginnings of new items.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="true">
+                        <p>Wooden board, covered with dark brown leather.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1803"/>
+                     <origPlace key="IS"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:28.071+02:00" who="#EAH"> Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key. </change>
+         <change when="2013-04-30" who="SH">Information added from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

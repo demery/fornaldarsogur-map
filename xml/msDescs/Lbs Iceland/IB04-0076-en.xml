@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 76 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB04-0076-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 76 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="171"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <note>Front and back flyleaves are from a Latin printed book on
+                              literature.</note>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding contemporary="false" ana="decorative">
+                        <p>Leather on wooden boards. Holes from bookworms in binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1797" to="1849">1797-[1849?]</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="ThoSve006"/><p>Þórður Sveinbjörnsson
+                        dómstjóri (according to P.E.Ó. manuscript catalogue)</p>
+                     
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>ÍB 76 4to I.</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="1r" facs="#IB04-0076-0001r" to="22r">1r-</locus>
+                        <title ref="#vs" type="uniform">Völsunga saga</title>
+                        <rubric>Sagan af Ragnari loðbrók og mörgum kongum mekilegum</rubric>
+                        <incipit>Hér hefur upp og segir af þeim manni er Sigi hét</incipit>
+                        <explicit>Kóngur ansar "Gef oss ráð til ef þú kannt" Hann mælti "ég gef yður
+                           þat ráð að þér skuluð berja þá grjóti í hel og so var gjört féllu þá
+                           steinar úr öllum áttum að þeim og varð þeim það að aldurlagi.</explicit>
+                       
+                        <textLang mainLang="non"/>
+                        <note>Ragnars saga and Völsunga saga presented as a continuous text.</note>
+                       
+                     </msItem>
+                     <msItem n="2" class="fas">
+                        <locus from="22r" to="35r"/>
+                        <title ref="#rsl" type="uniform">Ragnars saga loðbrókar</title>
+                        <rubric>41 Capituli</rubric>
+                        <incipit>Heimir í Hlyndölum spyr þau tíðindi að dauður er Sigurður
+                           Fáfnisbani og so Brynhildur Buðladóttir</incipit>
+                        <explicit>þetta þótti mönnum undarlegt og sögðu síðan frá öðrum
+                           mönnum</explicit>
+                        <finalRubric>Nú lýkur hér sögu þeirra Buðlunga Völsunga Gjúkunga Ragnars kóngs
+                           loðbrókar og sona hans d 14 juni 1800</finalRubric>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="3" class="forns">
+                        <locus from="36r" facs="#IB04-0076-0036r" to="50v">36r-50v</locus>
+                        <title type="uniform">Ásmundar saga víkings</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="4" class="fas">
+                        <locus from="51r" facs="#IB04-0076-0051r" to="61r">51r-61r</locus>
+                        <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                        <title type="parallel">Gautreks saga konungs</title>
+                        <rubric>Hér byrjast sagan Hrólfs kongs Gautrekssonar og segir hér fyrst fra
+                           Gauta kongi í Gautlandi og Gautrekssyni</rubric>
+                        <finalRubric>og lýkur hér Gjafa-Refs sögu</finalRubric>
+                        <textLang mainLang="non"/>
+                        <note>Gautreks saga and Hrólfs are written here as one text.</note>
+                        
+                     </msItem>
+                     <msItem n="5" class="fas">
+                        <locus from="61r" facs="#IB04-0076-0061r" to="92vr">61r-92v</locus>
+                        <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                        <rubric>Hér eftir segir frá Hrólfi Gautrekssyni sjálfum 13 cap:</rubric>
+                        <incipit>Þar hefjum vér þessa frásögu er Gautrekur kongur réði fyrir
+                           Gautlandi.</incipit>
+                        <explicit> so segja fróðir menn að mörg afreksverk hafi Hrólfur kongur
+                           unnið sem ei eru skrifuð í þessa sögu og sé getið í mörgum sögum þó vér
+                           höfum þær ei allar heyrt</explicit>
+                        <finalRubric>og endar so sagan af Hrólfi kongi Gautrekssyni
+                           og hans frægu bræðrum</finalRubric>
+                        <colophon>d 8 martsi 1802</colophon>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="6" class="isl">
+                        <locus from="93r" facs="#IB04-0076-0093r" to="100v">93r-100v</locus>
+                        <title type="uniform">Gunnars saga Keldugnúpsfífls</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="7" class="isl">
+                        <locus from="101r" facs="#IB04-0076-0101r" to="135v">101r-135v</locus>
+                        <title type="uniform">Eyrbyggja saga</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="8" class="isl">
+                        <locus from="136r" facs="#IB04-0076-0136r" to="151v">136r-151v</locus>
+                        <title type="uniform">Flóamanna saga</title>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="9" class="islst">
+                        <locus from="151v" facs="#IB04-0076-0151v" to="167v">151v-167v</locus>
+                        <title type="uniform">Ármanns saga og Dalmanns</title>
+                        <colophon>1797 24 apr og endar so þessa sögu af Ármann og Grámann</colophon>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="167"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="196"/>
+                                 <width unit="mm" quantity="158"/>
+                              </dimensions>
+                              <watermark ana="yes"/>
+                           </support>
+                           <!--<folitation ana=""></folitation>-->
+                           <condition ana="average">Paper dark and dirty but whole. In a few places
+                              a bit of text is lost from cutting at binding as well due to
+                              restoration. A piece of paper has been glued over bit of
+                              text.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="28 35">
+                              <num type="wpl" atLeast="15" atMost="20"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="177"/>
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions>
+                              <catchwords ana="yes"/>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="#JonEir002" scope="sole" script="hum cursiva"> Jón
+                           Eiríksson á Þrándarstöðum. (In <ref target="IR08-0038-en" type="ms">ÍBR 38 8vo</ref> Jón Eiríksson is
+                              said to live in Þrándarholti. And in the Páll Eggert Ólason catalogue
+                              register, Jón Eiríksson in Þrándarholti is said to be the scribe of ÍBR
+                              38 8vo and ÍB 76 4to) </handNote>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="miniature">Decorative miniature from print on fol. <locus from="135v" facs="#IB04-0076-0135v" to="135v">135v</locus>. Under it the initials:
+                           J.Es.</decoNote>
+                        <decoNote type="initial">Decorative</decoNote>
+                        <decoNote type="paratext">Heading and initial in red on fol. <locus from="36r"/></decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>On fol. <locus>1r</locus> next to the title is written <q>L Laurus E. Sveinbjörnsson novbr
+                           1857</q></p>
+                        <p>At the end of fol. <locus>35r</locus> can be read: giukunga. Ragnars kongs lod</p>
+                        <p>On fol. <locus from="35v" facs="#IB04-0076-0035v" to="35v">35v</locus> are the names Ólafur Jónsson AD
+                           and some other name scribbles; difficult to read because of either dirt or ink smear.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1797" to="1802">1797-1802</origDate>
+                     </origin>
+                  </history>
+               </msPart>
+               <msPart>
+                  <altIdentifier type="partial">
+                     <idno>ÍB 76 4to II</idno>
+                  </altIdentifier>
+                  <msContents>
+                     <msItem n="1" class="islt">
+                        <locus from="168r" facs="#IB04-0076-0168r" to="168v">168r-168v</locus>
+                        <locus from="170r" facs="#IB04-0076-0170r" to="170v">170r-170v</locus>
+                        <title type="uniform">Þorsteins þáttur Austfirðings</title>
+                        <textLang mainLang="non"/>
+                        <note>Misbound</note>
+                     </msItem>
+                     <msItem n="2" class="islt">
+                        <locus from="169r" facs="#IB04-0076-0169r" to="169r">169r-169r</locus>
+                        <locus from="170v" facs="#IB04-0076-0170v" to="170v">170v</locus>
+                        <title type="uniform">Þorsteins þáttur sögufróða</title>
+                        <note>Misbound</note>
+                     </msItem>
+                     <msItem n="3" class="islt">
+                        <locus from="169v" facs="#IB04-0076-0169v" to="169v">169v-169v</locus>
+                        <locus from="171r" facs="#IB04-0076-0171r" to="171v">171r-171v</locus>
+                        <title type="uniform">Þorsteins þáttur forvitna</title>
+                        <note>Misbound</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="book-block" value="4"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="193"/>
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions>
+                            <!--  <watermark ana=""></watermark>-->
+                           </support>
+                             <!-- <foliation ana=""></foliation>-->
+                           <condition ana="poor">Pages cropped during binding; some damage to pages. Leaves misbound.</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" writtenLines="21 29">
+                              <num type="wpl" atLeast="9" atMost="19"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="190"/>
+                                 <width unit="mm" quantity="145"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc hands="1">
+                        <handNote scribeRef="unknown" scope="major" script="kurrent"/>
+                     </handDesc>
+                     <decoDesc ana="low">
+                        <decoNote type="initial">Big and a bit decorated</decoNote>
+                     </decoDesc>
+                     <additions ana="low">
+                        <p>On fol. <locus from="171v" facs="#IB04-0076-0171v" to="171v">171v</locus> the name of <name type="person" key="JonEir002">Jón
+                              Eiríksson</name> á <placeName>Þrándarstöðum</placeName> is scribbled
+                           a few times.</p>
+                     </additions>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace key="IS"/>
+                        <origDate from="1800" to="1849">[1800-1849?]</origDate>
+                     </origin>
+                     <provenance>
+                        <name type="person" role="signatory" key="JonEir002">Jón
+                           Eiríksson</name>
+                     </provenance>
+                  </history>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:56.005+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:07.985+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:29.924+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:06.078+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-02" who="#SK">Adapted part I of ÍB 76 4to to FASNL, splitting up items
+            with two fornaldarsögur catalogued in one. Added information from P.E.Ó-catalogue and
+            the digital version of the manuscript of on handrit.is</change>
+         <change when="2012-05" who="#SK">Added lacking information from the manuscript itself.</change>
+         <change when="2013-08-06" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

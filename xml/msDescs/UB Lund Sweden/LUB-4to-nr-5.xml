@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <!-- more recent version of this file seems to have been lost? -->
+            <titleStmt>
+                <title>LUB 4to nr 5</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+                <authority>Den Arnamagnæanske Samling, København</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="LUB-4to-nr-5" xml:lang="en">
+                    <msIdentifier>
+                        <repository ref="#UBLND">Lunds Universitets Bibliotek</repository>
+                        <idno>LUB 4to nr 5</idno>
+                        <!-- might have a different shelfmark now. In Jónas Kristiánsson's cataloge marked as "9. LUB pappírshandrit" -->
+                    </msIdentifier>
+                    <msContents>
+<!--                        <titlePage ana=""> </titlePage>-->
+                        <msItem n="1" class="fas">
+                            <locus from="1r" to="6v">pp. 1-12</locus>
+                            <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                            <textLang mainLang="non"/>
+                            <rubric/>
+                            <incipit>Hier byrias Sogu af Katle Haeng</incipit>
+                            <explicit/>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="7r" to="10r">pp. 13-19</locus>
+                            <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                            <textLang mainLang="non"/>
+                            <rubric>Sagan af Grime Lodinn Kinnu</rubric>
+                            <incipit/>
+                            <explicit/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+<!--                                    <num type="front-flyleaf" value=""/>-->
+                                    <num type="book-block" value="10"/>
+                                    <num type="back-flyleaf" value="1"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="210"/>
+                                        <width unit="mm" quantity="166"/>
+                                    </dimensions>
+                                    <!-- check dimensions -->
+<!--                                    <watermark ana=""/>-->
+                                </support>
+<!--                                <foliation ana=""/>-->
+<!--                                <condition ana=""/>-->
+                            </supportDesc>
+                            <!--<layoutDesc>
+                                <layout ana="" columns="" writtenLines="">
+                                    <num type="wpl" atLeast="" atMost=""/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity=""/>
+                                        <width unit="mm" quantity=""/>
+                                    </dimensions>
+                                    <catchwords ana=""/>
+                                </layout>
+                            </layoutDesc>-->
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                        </handDesc>
+                        <!--<decoDesc ana="">
+                            <decoNote type=""/>
+                        </decoDesc>
+                        <additions ana="">
+                            <p/>
+                        </additions>-->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1700" notAfter="1799"/>
+<!--                            <origPlace key=""/>-->
+                        </origin>
+                        <provenance/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2013-02-13" who="#BES">Created file.</change>
+            <change when="2013-02-13" who="#BES">Prepared for visit at the library</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

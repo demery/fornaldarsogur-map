@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1707 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS04-1707-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1707 4to</idno>
+                  <altIdentifier type="former_shelfmark">
+                     <idno>Suhm's collection no. 113 4to</idno>
+                  </altIdentifier>
+                  
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/> 
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="1r"/>
+                     <title type="supplied">Table of contents</title>
+                     <textLang mainLang="da"/>
+                     <note>Includes a note on the source manuscript.</note>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="2r" to="30r"/>
+                     <title type="uniform" ref="#ksh">Ketils saga hængs</title>
+                     <rubric/>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="#AM04-0343a-en" ana="antigraph">copy of AM 343 a 4to</ref></filiation>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="30v" to="45v"/>
+                     <title type="uniform" ref="#gsl">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                     <filiation><ref type="ms" target="#AM04-0343a-en" ana="antigraph">copy of AM 343 a 4to</ref></filiation>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="46r" to="218r"/>
+                     <title type="uniform" ref="#oeos">Örvar-Odds saga</title>
+                     <textLang mainLang="non"/>
+                     <note>Younger vers.</note>
+                     <filiation><ref type="ms" target="#AM04-0343a-en" ana="antigraph">copy of AM 343 a 4to</ref></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                        <num type="book-block" value="220"/>
+                           <num type="back-flyleaf" value="1"/>
+                        <dimensions type="leaf">
+                           <height unit="mm" quantity="191"/> 
+                           <width unit="mm" quantity="146"/>
+                        </dimensions>
+                        <watermark ana="yes">"JHonig <ex>et</ex> zoon"; Maid of Dort "ProPatria". 
+                           The watermark on fols. <locus>218-219</locus> is a circle with a double line and a lion with a raised sword inside.</watermark>
+                        </support>
+                        <foliation ana="contemporary pag"/>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="17 19">
+                           <num type="wpl" atLeast="2" atMost="8">
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="160"/>
+                                 <width unit="mm" quantity="114"/>
+                              </dimensions>
+                              <catchwords ana="no"/>
+                           </num>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scribeRef="unknown" scope="sole" script="hum cursiva">Rubrics in chancery.</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low"><p>A few scholarly notes and comments in the margins, mostly chapter indicators.
+                     On the verso side of the front flyleaf, <name key="PetSuh001" type="person" role="owner">Suhm</name> made a
+                     note and signed it <q>PFSuhm</q>; shelf mark written beneath signature.
+                     In the back, a little slip (typical for the shelf mark) is inserted. It reads <q>113</q>, which is the number the manuscript had in Suhm's collection.
+                  </p></additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="unknown">
+                        <p>Brown leather binding with fore-edge painted blue and marbled paper as pastedown. Golden imprint on the spine: title of item 1 and floral ornaments.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1750" notAfter="1799"/>
+                     <origPlace key="DK" cert="high"/>
+                  </origin>
+                  <provenance>
+                     <p><name key="PetSuh001" type="person" role="owner">Formerly Suhm's collection no. 113 4to.</name></p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:39.2+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-05-02" who="#BES">Added catalog info.</change>
+         <change when="2013-05-22" who="#BES">Added missing information with the manuscript in situ.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

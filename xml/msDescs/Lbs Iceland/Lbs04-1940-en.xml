@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 1940 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-1940-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 1940 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="1r"/>
+                     <title type="supplied">Table of Contents</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Þessi bók hefur inni að halda.</rubric>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="2r" to="29v"/>
+                     <title type="uniform">Hálfdanar rímur Brönufóstra</title>
+                     <textLang mainLang="is"/>
+                     <author key="SnoBjo001">Snorri Björnsson á Húsafelli</author>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="30r" to="35r"/>
+                     <title ref="#ksh" type="uniform">Ketils saga hængs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Katli hæng</rubric>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="35v" to="38v"/>
+                     <title ref="#gsl" type="uniform">Gríms saga loðinkinna</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Frá Grími loðinkinna</rubric>
+                  </msItem>
+                  <msItem n="5" class="fas">
+                     <locus from="38v" to="48v"/>
+                     <title ref="#asb" type="uniform">Áns saga bogsveigis</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Án bogsveigir</rubric>
+                  </msItem>
+                  <msItem n="6" class="forns">
+                     <locus from="48v" to="53r"/>
+                     <title type="uniform">Þóris saga háleggs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Þórir hálegg</rubric>
+                     <note>Reconstruction of a lost saga from rimur</note>
+                  </msItem>
+                  <msItem n="7" class="konth">
+                     <locus from="53r" to="57v"/>
+                     <title type="uniform">Hemings þáttur Áslákssonar </title>
+                     <textLang mainLang="non"/>
+                     <rubric>Þáttur af Hemingi Áslákssyni</rubric>
+                  </msItem>
+                  <msItem n="8" class="forns">
+                     <locus from="57v" to="61v"/>
+                     <title type="uniform">Bragða-Ölvis saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Ölver sterka eða Bragða Ölver</rubric>
+                     <note>Constructed from rimur in the 16th century</note>
+                  </msItem>
+                  <msItem n="9" class="forns">
+                     <locus from="61v" to="64r"/>
+                     <title type="uniform">Úlfhams saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Þáttur af Úlfham</rubric>
+                     <note>Reconstruction from the 19th century from rimur composed in the
+                        14th century of a later lost saga </note>
+                  </msItem>
+                  <msItem n="10" class="fas">
+                     <locus from="64r" to="76v"/>
+                     <title ref="#eseab" type="uniform">Egils saga einhenda og Ásmundar berserkjabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Eigli einhenta</rubric>
+                  </msItem>
+                  <msItem n="11" class="avint">
+                     <locus from="76v" to="82v"/>
+                     <title type="uniform">Ála flekks saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Álaflekk</rubric>
+                  </msItem>
+                  <msItem n="12" class="ridd">
+                     <locus from="82v" to="97v"/>
+                     <title type="uniform">Villifers saga frækna</title>
+                     <title type="uniform">Villifers saga og Gríms</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af þeim bræðrum Villifer og Grími</rubric>
+                  </msItem>
+                  <msItem n="13" class="rimur">
+                     <locus from="98r" to="113r"/>
+                     <title type="uniform">Ingvars rímur Ölvessonar</title>
+                     <textLang mainLang="non"/>
+                     <author>Magnús Hallsson</author>
+                     <rubric>Rimur af Ingvari</rubric>
+                  </msItem>
+                  <msItem n="14" class="rimur">
+                     <locus from="113r" to="114r"/>
+                     <title type="uniform">Búlandsríma</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Fabúla</rubric>
+                     <author>Hallgrímur Pétursson?</author>
+                     <author>Jón Eyjólfsson</author>
+                     <rubric>Fabúla</rubric>
+                  </msItem>
+                  <msItem n="15" class="ridd">
+                     <locus from="114v" to="123v"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Vilmundi viðutan</rubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="113"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="193"/>
+                              <width unit="mm" quantity="158"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary fol">Obviously done by the scribe but he is not
+                           too certain of the numbering and there are errors in places.</foliation>
+                        <condition ana="good">Good but dirty</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="30 34">
+                           <num type="wpl" atLeast="12" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="150"/>
+                              <width unit="mm" quantity="135"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#SveSig001" scope="major" script="kurrent">Sveinn
+                        Sigurðsson á Kirkjubóli</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="medium">
+                     <p>Flyleaves front and back and inner board lining are letters. I. Adressed to:
+                        hreppstjóri Sgr. B. Gíslason Ármúla við Ísafjörð, from Hólmfríður Jónsdóttir
+                        II. Written at: Kirkjubóli 2. apríl 1845. Signed: Am Halldórsson</p>
+                     <p>Fol. <locus>1r</locus>: Sveinn Sigurðsson hefur skrifað þessa bók heima hjá sér á
+                        Kirkjubóli. Árið 1820 </p>
+                     <p>Fol. <locus>1v</locus>: Þessa bók á með réttu Madame Ólöf Jónsdóttir (Johnsdottir) á
+                        Kirkjubóli í Skutilsfirði og enginn annar. Guð blessi þá sem bókina
+                        á.</p>
+                     <p><locus>Back fly leaf 1v</locus>: <q>Gísli Bjarnason á Ármúla á bókina og enginn annar 1846. Fengin
+                        honum af Sölva Sveinssyni á Kirkjubóli</q></p>
+                     <p>Scribbles here and there: <q>Guðmundur</q>, <q>Gísli Bjarnason</q>, <q>Auður Jónsdóttir</q>, <q>B. Gíslason</q>,
+                        <q>Gísli Bjarnason Ármúla á Langadals</q>, <q>Össur Mag</q>, <q>Eirík Jónsson</q></p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Leather on wooden boards</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key=""/> <!-- IS? -->
+                     <origDate when="1820"/>
+                  </origin>
+                  <provenance> 
+                     <p>
+                        <name type="person" role="owner" key="OloJon001">Ólöf Jónsdóttir Kirkjubóli í Skutilsfirði</name>
+                        <name type="person" role="owner" key="SolSve002">Sölvi Sveinsson, Kirkjubóli, son of Ólöf Jónsdóttir</name>
+                        <name type="person" role="owner" key="ambig">Gísli Bjarnason, Ármúla</name>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:03.31+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-07" who="#SK">Added topics and classes and other information from the
+            P.E.Ó.-catalogue</change>
+         <change when="2012-11" who="#SK">Added locus, layout and other information lacking from the manuscript itself</change>
+         <change when="2013-08-30" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 586 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc xml:id="AM04-0586-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>AM 586 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <titlePage ana="no"/>
+                  
+                  <msItem n="1" class="avint" defective="true">
+                     <locus from="1r:1" to="2r:10"/>
+                     <title type="supplied">Af þremur kumpánum</title>
+                     <title type="parallel">Um kóngsson, hertogason og jarlsson</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <!-- incipit and explicit from handrit; illegible in images -->
+                     <incipit defective="true">ásamt á einum degi</incipit>
+                     <explicit>Og lýkur hér þessu ævintýri en guð geymi vor allra. Amen.</explicit>                   
+                     
+                  </msItem>
+                  
+                  <msItem n="2" class="avint">
+                     <locus from="2r:11" to="3v:5"/>
+                     <title type="supplied">Af þremur þjófum í Danmörk</title>
+                     <title type="parallel">Af Ill, Verra og Versta</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit><supplied reason="omitted">I</supplied> Danmörk segia m<ex>enn</ex> at v<ex>er</ex>it hafe þrir þiof<ex>ar</ex></incipit>
+                     <explicit><ex>og</ex> er nu ute [..........] en gud geyme vor allra. Amen.</explicit>
+                     
+                  </msItem>
+                  
+                  <msItem n="3" class="avint">
+                     <locus from="3v:6" to="5r:13"/>
+                     <title type="supplied">Um bryta einn í Þýskalandi</title>
+                     <title type="parallel">Af bryta og bónda</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <!-- incipit from handrit; illegible in photographs -->
+                     <incipit><supplied reason="omitted">E</supplied>inn ríkur maður var í Þýskalandi</incipit>
+                     <explicit>og mér ber að umbuna.</explicit>
+                     <colophon>sá sami gud híalpe oss nu <ex>og</ex> at eilifu. Amen.</colophon>
+                  
+                  </msItem>
+                  
+                  <msItem n="4" class="avint">
+                     <locus from="5r:14" to="6r:8"/>
+                     <title type="supplied">Af meistara Perus</title>
+                     <title type="parallel">Af meistara Pero og hans leikum</title>
+                     <textLang mainLang="non"/>
+                     
+                     <msItem n="4.1" class="avint">
+                        <locus from="5r:14" to="5v:1"/>
+                        <rubric/>
+                        <incipit><supplied reason="omitted">S</supplied>uo e<ex>r</ex> sagt at eírn rikr haufdíngi er pi<ex>n</ex>a er kalladr</incipit>
+                        <explicit defective="true"><ex>og</ex> kem<ex>r</ex> h<ex>ann</ex> uida u<ex>id</ex> saug<ex>r</ex> þar for nuna</explicit>
+                        
+                     </msItem>
+                     
+                     <msItem n="4.2" class="avint">
+                        <locus from="5v:2" to="6r:8"/>
+                        <rubric/>
+                        <incipit><supplied reason="omitted">Þ</supplied>at er upphaf eirn<ex>ar</ex> frasagnar at brædr tueir toku riki</incipit>
+                        <explicit><ex>og</ex> lykr her at segía fra meistara perus, en gud geymi uor allra. Amen.</explicit>
+                        
+                     </msItem>
+                     
+                  </msItem>
+                  
+                  <msItem n="5" class="avint" defective="true">
+                     <locus from="6r:9" to="6v:47"/>
+                     <title type="supplied">Af Vilhjálmi bastarði og sonum hans</title>
+                     <title type="parallel">Anselmus þáttur erkibiskups</title>
+                     <title type="parallel">Af Tómasi erkibiskupi</title>                  
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit><supplied reason="omitted">M</supplied>erkilig<ex>ir</ex> tueír ken<ex>n</ex>em<ex>enn</ex> 
+                        bergr gunsteinsson <ex>og</ex> jón hollt</incipit>
+                     <explicit defective="true">af uóndu<ex>m</ex> krapte þar</explicit>
+                     
+                     <note>Fragment. Lacks ending.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="6" class="avint">
+                     <locus from="7r:1" to="7r:14"/>
+                     <title type="uniform">Roðberts þáttur</title>
+                     <title type="parallel">Frá ferðum Roðberts og hans manna</title>
+                     <title type="parallel">Af Baldvin Jórsalakonungi</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit defective="true">í lid heiding<ex>ia</ex> flydar burt uid ueg<ex>ar</ex></incipit>
+                     <explicit>til elli og var öllum harmdauði.</explicit>
+                     <colophon>ut e<ex>r</ex> þetta en gud geyme uor allra Amen</colophon>
+                     
+                  </msItem>
+                  
+                  <msItem n="7" class="ridd">
+                     <locus from="7r:15" to="12v:23"/>
+                     <title type="uniform">Flóres saga konungs og sona hans</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit><supplied reason="omitted" instant="false">E</supplied>f m<ex>enn</ex> girnazt at heyra forn<ex>ar</ex> frasagn<ex>ir</ex></incipit>
+                     <explicit>þuj luku<ex>m</ex> vær þar nu saugu flores k<ex>onun</ex>gs <ex>og</ex> sona h<ex>an</ex>s, 
+                        e<ex>n</ex> gud geymí vor allra. am<ex>en</ex>.</explicit>
+                     
+                  </msItem>
+                  
+                  <msItem n="8" class="fas">
+                     <locus from="12v:24" to="19r:18"/>
+                     <title ref="#bsh" type="uniform">Bósa saga</title>
+                     <title type="parallel">Bósa saga og Herrauðs</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit><supplied reason="omitted">Þ</supplied>esse saga hefst eigi af lokleysu þ<ex>eir</ex>re er lærer menn skraukua</incipit>
+                     <explicit>edr her nauckut til feingit edr gott at giort. Amen.</explicit>
+                     
+                     <note>Some of the more graphic parts of the text have been scraped away 
+                        (e.g. fols. <locus>16v</locus>, <locus>17r</locus>, <locus>17v</locus> and elsewhere).</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="9" class="ridd" defective="true">
+                     <locus from="19r:19" to="25r:36"/>
+                     <title type="uniform">Vilmundar saga viðutan</title>
+                     <title type="parallel">Sagan af Vilmundi viðutan</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit><supplied reason="omitted">V</supplied>iseualldr hefir k<ex>onun</ex>gur nefndr u<ex>er</ex>et</incipit>
+                     <explicit>þa kyssi þ<ex>ei</ex>r a razen á auskubusku</explicit>
+                     
+                     <note>Defective. Three paper leaves supplied at the front of the volume to fill in a lacuna
+                     following fol. <locus>20v</locus>. Last line and a half of text scraped away.</note>
+                      
+                  </msItem>
+                  
+                  <msItem n="10" class="fas" defective="true">
+                     <locus from="25v:1" to="26v:45"/>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <!-- incipit faded and barely legible in images -->
+                     <incipit><supplied reason="omitted">Þ</supplied>rändr hef<ex>ur</ex> k<ex>on</ex>gr heitid</incipit>
+                     <explicit defective="true">af handboga <ex>og</ex> lásboga</explicit>
+                     
+                     <note>Defective. Contains only the first half of the saga.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="11" class="ridd" defective="true">
+                     <locus from="27r:1" to="27r:12"/>
+                     <title type="uniform">Hrings saga og Tryggva</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <!-- text illegible in photographs -->
+                     <incipit defective="true"/>
+                     <explicit/>
+                     
+                     <note>Contains only the last twelve lines of the saga. Text heavily worn and difficult to read.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="12" class="isl" defective="true">
+                     <locus from="27r:13" to="30r:48"/>
+                     <title type="uniform">Þórðar saga hreðu</title>
+                     <title type="parallel">Sagan af Þórði hreðu</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <!-- incipit illegible in photographs -->
+                     <incipit/>
+                     <explicit><ex>og</ex> lykr h<ex>er</ex> saugu þ<supplied reason="damage">ordar</supplied> 
+                        hred<supplied reason="damage">u</supplied></explicit>
+                     
+                     <note>Fragment. Text on fol. <locus>27r</locus> is heavily worn.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="13" class="isl" defective="true">
+                     <locus from="30v:1" to="32v:48"/>
+                     <title type="uniform">Króka-Refs saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit><supplied reason="omitted">A</supplied> daugu hakonar k<ex>on</ex>gs adalsteins fostra</incipit>
+                     <explicit defective="true">hu<ex>er</ex> uar m<ex>adr</ex> þessi oss oku<gap/></explicit>
+                     
+                     <note>Two fragments. Lacunae in the middle and at the end.</note>
+                     
+                  </msItem>
+                  
+                  <msItem n="14" class="fas" defective="true">
+                     <locus from="33r:1" to="33v:46"/>
+                     <title ref="#ask" type="uniform">Ásmundar saga kappabana</title>
+                     <textLang mainLang="non"/>
+                     <rubric/>
+                     <incipit defective="true">uína sín<ex>n</ex>a <ex>og</ex> bar malet</incipit>
+                     <explicit defective="true"><ex>og</ex> v<ex>ar</ex> þ<ex>ad</ex> hit fysta h<gap/></explicit>
+                     
+                     <note>Fragment.</note>
+                     
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="33"/>
+                           <num type="back-flyleaf" value="1"/>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" atLeast="200" atMost="220"/>
+                              <width unit="mm" atLeast="170" atMost="190"/>
+                           </dimensions>
+                           
+                           <watermark ana="no"/>
+                           
+                        </support>
+                        
+                        <foliation ana="later fol">
+                           <p>Later foliation in the upper corners of recto leaves.</p>
+                        </foliation>
+                        
+                        <!-- condition information taken from handrit.is -->
+                        <condition ana="poor">
+                           <p>Several leaves lacking:
+                              Quire I: lacks 2 leaves near the end (between fols. <locus>6</locus> and <locus>7</locus>).
+                              Quire II: lacks bifolium in the middle (between fols. <locus>9</locus> and <locus>10</locus>).
+                              Quire IV: lacks 1 leaf at the beginning and one at the end (between fols. 
+                              <locus>20-21</locus> and <locus>26-27</locus>).
+                              Quire V: lacks c7 (?) leaf (between fols. <locus>26</locus> and <locus>27</locus>).
+                              Quire VI: lacks 2 bifolia in the middle (between fols. <locus>29</locus> and <locus>30</locus>).
+                              Quire VII: lacks 2 leaves at the beginning (between fols. <locus>30</locus> and <locus>31</locus>), 2 fols. in the middle (between
+                              fols. <locus>32</locus> and <locus>33</locus>) and 2 at the end.
+                            </p>
+                        </condition>
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="38 48">
+                           <num type="wpl" atLeast="19" atMost="23"/>
+                           <dimensions type="written">
+                              <height unit="mm" atLeast="172" atMost="182"/>
+                              <width unit="mm" atLeast="154" atMost="164"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="2">
+                    
+                     <handNote scope="major" script="textualis" scribeRef="unknown">I. bl. <locus>1r-8v:22</locus>,
+                        <locus>9r:1-9</locus>; <locus>9r:12-19v</locus>; <locus>20r:12-26v</locus>; <locus>27r:12-47</locus>;
+                        <locus>27v:10-20</locus>; <locus>28r:1-13</locus>; <locus>28r:27-v17</locus>; <locus>29r:1-19</locus>;
+                        <locus>29v:1-6</locus>, <locus>29v:32-30v:17</locus>; <locus>31r-33v</locus>. Same as in <ref type="ms" target="AM04-0589a">AM
+                           589a 4to</ref> (cf. <ref type="secondary-1" target="EIMF11">Loth
+                              1977:17</ref>).</handNote>
+                     <handNote scope="minor" script="textualis" scribeRef="unknown">II. bl. 8v22-39;
+                        9r9-11; 20r1-12; 27r1-11; 27v1-9; 27v20-49; 28r14-26; 28v17-46, 29r20-45,
+                        29v6-32; 30v17-45. Unknown scribe. Same as in <ref type="ms" target="AM04-0589a">AM
+                           589a 4to</ref> (cf. <ref type="secondary-1" target="EIMF11">Loth
+                              1977:17</ref>).</handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="low">
+                     <decoNote type="border" subtype="decorated">
+                        <p>Floral divisions between sagas on fols. <locus from="5v" to="5v">5v</locus>, 
+                           <locus from="12v" to="12v">12v</locus> and <locus>30r</locus>.</p>
+                     </decoNote>
+                  </decoDesc>
+                  
+                  <additions ana="low">
+                     <!-- some further additions (e.g. fols. 8v and 26r) are given in the handrit record but are illegible in the photographs -->
+                     <p>Leaf inserted by AM reads:
+                        <q>Aptan af hrings og Tryggva s<supplied reason="damage">ogu</supplied> 
+                           Þordar saga hredu. 
+                           kroka Refs saga, vantar vid endan<ex>n</ex>. 
+                           + um Asmund, Eyvind og Hillde brand hunakappa, fragment {ur Asmundar sögu kappabana,
+                           qvam integram edidit Peringskioldius. 
+                           <supplied reason="damage">þæ?</supplied>ttir um k<ex>on</ex>gsson, hertugason
+                           <ex>og</ex> jarlsson. 
+                           um Jll, verra og verst, þria þiofa i Danmórk. 
+                           um Brita einn i Þyskalandi. 
+                           af meistara Perus. 
+                           α{+ af <del rend="underline">Thomas</del> <add place="inline">Anshelme</add> erkibiskupe lited framan af <ex>og</ex> 
+                           + af Balldvin Jorsala ko<ex>on</ex>gi nockr<ex>ar</ex> linur apt<ex>an</ex> af. 
+                           af Flores k<ex>on</ex>gi og sonum hans. 
+                           + Bosa og Herrauds saga. 
+                           Vilmundar saga vidutan, vant<ex>ar</ex> i midiuna. 
+                           + halfdanar saga Eysteinssonar, vantar mikid aptanvid. 
+                           α) þetta kallar Jon lærde: litinn þätt=kirknaräns.</q></p>
+                        <p>Three paper leaves inserted at the front with text filling the gap following fol. 20v.</p>
+                        <p>Occasional pen trials and words written in the lower margins.</p>
+                        <p>Contemporary marginal note on fol. 10r reads: <q>aue maria</q>.
+                      </p>
+                  </additions>
+                  
+                  <!-- binding information from handrit -->
+                  <bindingDesc>
+                     <binding ana="plain" when="1967-04" contemporary="false">
+                        <p>Bound in April 1967. Dimensions: 
+                              <height>231</height>mm x
+                              <width>217</width>mm x
+                              <depth>35</depth>mm. Modern half-calf over cloth boards.</p>
+                     </binding>
+                     <binding ana="plain" contemporary="false">
+                        <p>Previously bound in a wrapper of manuscript waste from a liturgical text (Salisbury use). Now housed 
+                           as <ref type="ms">AM Acc. 7c</ref>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1450" notAfter="1499"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>
+                        <name key="ArnMag001" role="owner" type="person">Árni Magnússon</name> likely acquired
+                        the manuscript from <name key="BjaBja001" role="owner" type="person">Björn Bjarnason</name> í
+                           <name type="place">Arnarbæli</name> (cf. <bibl>
+                           <ref>Agnete Loth 1977</ref>
+                        </bibl>). Árni referred to the manuscript as Arnarbælisbók (cf. <ref target="AM04-0435a" type="ms">AM 435 a 4to</ref>).</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:36.882+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:38.171+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:46.7+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:42:03.008+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:40.491+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-06-10" who="#JSL">Supplemented record with details from handrit and Kålund catalogs.</change>
+         <change when="2013-06-12" who="#JSL">Cataloged from photographs.</change>
+         <change when="2013-08-22" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

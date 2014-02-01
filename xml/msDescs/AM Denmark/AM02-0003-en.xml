@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 3 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="AM02-0003-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 3 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no">
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" to="52v:7">pp. 1-104</locus>
+                     <title type="uniform" ref="#vs">Völsunga saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga Af Ragnar Lodbrok ok Morgum kongum Merkelegum.</rubric>
+                     <rubric>1. Cap.</rubric>
+                     <incipit>Hier hefur upp og seiger fra þeim Manne er Sigi er nefndur</incipit>
+                     <explicit>ok vard þeim þad ad alldur lægi</explicit>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="52v:8" to="84v:29">pp. 104-168</locus>
+                     <title type="uniform" ref="#rsl">Ragnars saga loðbrókar</title>
+                     <rubric>XLI. Cap.</rubric>
+                     <incipit>Heimir i Hlyms dólum (Heimdolum) spyr nu þeße tïðinde</incipit>
+                     <explicit>Og þetta þötte mønnum undarlegt ok Saugdu Siðann frá ødrum Mónnum.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="85r:1" to="90v:20">pp. 169-180</locus>
+                     <title type="uniform">Krákumál</title>
+                     <rubric>Kraku Mal Er Sumer Kalla Lodbrőkar qvidu</rubric>
+                     <rubric>I.</rubric>
+                     <incipit>Hiuggum Ver met Hiørvi, Hitt var ei fyrer laungu,</incipit>
+                     <explicit>Lifs ero lidnar stunder Læande skol ek deya.</explicit>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="90"/>
+                           <num type="back-flyleaf" value="1"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="312"/>
+                              <width unit="mm" quantity="197"/>
+                           </dimensions>
+                           <watermark ana="yes">"PR" and two lions holding a coat of arms, "AT(?)" underneath it.</watermark>
+                        </support>
+                        <foliation ana="later fol pag contemporary">
+                           <p>Foliated 1-90 in red ink by <name type="person" key="KriKaa001">Kålund</name> in the top margins; 
+                              older contemporary pagination 1-180 in the outer top corners.</p>
+                        </foliation>
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="29 39">
+                           <num type="wpl" atLeast="6" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="245"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="kurrent">Chancery for rubrics, kurrent for main text (with aspects of chancery)</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial"/>
+                     <decoNote type="paratext"/>
+                     <decoNote type="other">rubrics slightly decorated.</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>There are several marginalia and corrections to the text, some by <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>. Most marginal notes have been erased later on.
+                        On fol. <locus>24v-26r</locus>, a later hand capitalized the words "rúner" in all 9 instances; other corrections in the same hand.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>The manuscript was formerly bound in one large bifolio from a Latin liturgical book with musical
+                    notation, written in Iceland in the <date notBefore="1450" notAfter="1474">third
+                        quarter of the fifteenth century</date>, now <ref type="ms">AM Access. 
+                        7aβ, HS 2</ref>. The parchment on the boards was removed in 1911 and replaced with marbeled paper. The
+                           parchment on the spine was retained in the newer binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1600" notAfter="1699"/>
+                     <origPlace key="unknown"/>
+                     <note>Iceland or Denmark</note>
+                  </origin>
+                  
+                  <provenance>
+                     <name type="person" role="owner" key="ArnMag001"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:41.19+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:00.44+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:11.898+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:25.21+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:04.874+02:00" who="#EAH">
+                Extracted layout data from previous version.
+         </change>
+         <change when="2013-02-18" who="#BES">Prepared for session with ms.</change>
+         <change when="2013-04-10" who="#BES">Added missing information from the manuscript itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

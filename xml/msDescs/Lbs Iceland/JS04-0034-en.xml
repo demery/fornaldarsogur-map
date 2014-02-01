@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>JS 34 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="JS04-0034-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>JS 34 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"> </titlePage>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" facs="#JS04-0034-0001r" to="54v">1r-54v</locus>
+                     <title type="uniform">Bevers saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Bjefusar saga</rubric>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="55r" facs="#JS04-0034-0055r" to="68v">55r-68v</locus>
+                     <title type="uniform" ref="#ththb">Þorsteins þáttur bæjarmagns</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Þorsteini Bæjarmagn</rubric>
+                  </msItem>
+                  <msItem n="3" class="islt">
+                     <locus from="69r" facs="#JS04-0034-0069r" to="74v">69r-74v</locus>
+                     <title type="uniform">Þorsteins þáttur stangarhöggs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Söguþáttur af Þorsteini stangarhöggi</rubric>
+                     <colophon>Enduð d. 12. febrúarii 1803 af G[uðmundi] I[lluga]s[yni]</colophon>
+                  </msItem>
+                  <msItem n="4" class="kont">
+                     <locus from="75r" facs="#JS04-0034-0075r" to="80v">75r-80v</locus>
+                     <title type="uniform">Rauðúlfs þáttur</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Söguþáttur af Rauðúlfi og sonum hans</rubric>
+                  </msItem>
+                  <msItem n="5" class="fas" defective="true">
+                     <locus from="81r" facs="#JS04-0034-0081r" to="97r">81r-97r</locus>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">aldrei gest átt á ævi okkar og þess get ég að þú sért enginn ótrisin [sic] gestur … </incipit>
+                     <note>Beginning is missing</note>
+                  </msItem>
+                  <msItem n="6" class="laus">
+                     <locus from="97v" facs="#JS04-0034-0097v" to="97v">97v</locus>
+                     <title type="supplied">Lausavísa</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Ef þér lætur lukkan há</rubric>
+                     <note>Without a title</note>
+                  </msItem>
+                  <msItem n="7" class="laus">
+                     <locus from="97v" facs="#JS04-0034-0097v" to="97v">97v</locus>
+                     <title type="supplied">Lausavísa</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Fyrir lánið málma meiður</rubric>
+                     <note>Without a title</note>
+                  </msItem>
+                  <msItem n="8" class="ridd">
+                     <locus from="98r" facs="#JS04-0034-0098r" to="159r">98r-159r</locus>
+                     <title type="uniform">Adónías saga</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Addonio</rubric>
+                     <colophon>Enduð í Sviðholti d. 18. febrúari af G[uðmundi] Illugasyni 1804 (<locus to="159r" facs="#JS04-0034-0159r" from="159r">159r</locus>)</colophon>
+                  </msItem>
+                  <msItem n="9" class="avis tyd">
+                     <locus from="160r" facs="#JS04-0034-0160r" to="173v">160r-173v</locus>
+                     <author key="LudHol001">Ludvig Holberg</author>
+                     <title type="uniform">Skanderbeg saga fursta</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Saga af Skanderbeg, þeim nafnfræga fursta í Epiro</rubric>
+                  </msItem>
+                  <msItem n="10" class="almb">
+                     <locus from="174r" facs="#JS04-0034-0174r" to="207v">174r-207v</locus>
+                     <author key="EinBja003">Einar Bjarnason</author>
+                     <title type="uniform">Cyrus saga Persakonungs</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Sagan af Cyró keisara</rubric>
+                     <note>The saga is bound in the wrong order, but the right order is indicated at the bottom corners of the
+                        page. Pagination follows the pencil pagination before in the manuscript and therefore doesn't agree with
+                        the count of folios here (two folios are wrongly numbered)</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="207"/>
+                           <!-- <num type="back-flyleaf" value=""></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="203"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="later fol"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="21 25">
+                           <num type="wpl" atLeast="7" atMost="12"/>
+                           <!--<dimensions type="written">
+                              <height unit="mm" quantity=""/>
+                              <width unit="mm" quantity=""/>
+                           </dimensions>-->
+                           <catchwords ana="no"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#GudIll002" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote>Knotwork on fol. (<locus from="173v" facs="#JS04-0034-0173v" to="173v">173v</locus>) and (<locus from="207v" facs="#JS04-0034-0207v" to="207v">207v</locus>)</decoNote>
+                  </decoDesc>
+                  <additions ana="medium">
+                     <p>At the front of the manuscript is a folio out of its quire, a printed fragment of "Margvíslegt gaman og
+                        alvara", the first part of which is on pages 101, 102, 107 and 108 (published by <name type="person" key="MagSte001">Magnúsi
+                           Stephensen</name>) and some fragments from poem by <name type="person" key="JonTho011">Jón
+                           Þorláksson</name>.</p>
+                     <p>Also at the beginning of the manuscript is a couplet written in Latin and Danish on pages 15-18. The names
+                           <name type="person" key="MarJon004">Margrét Jónsdóttir</name> and <name type="person" key="GudSig006">Guðmundur Sigurðsson</name>, <placeName>Kílabær</placeName> are written on it. </p>
+                     <p>Autographs found in the manuscript: <name type="person" role="owner" key="GudIll002">Guðmundur
+                           Illugason</name> á <placeName>Skógtjörn</placeName> (<locus>fflr1r, ffl1v, 97v</locus>), <name type="person" role="signatory" key="JonSig004">Jón Sigurðsson</name> (flyleaf <locus from="1r" facs="#JS04-0034-0001r" to="1r">1r</locus>), <name type="person">[R.] Eyjólfsson</name>, <name type="person" role="signatory">B. Ólafsson</name> and <name type="person">Sigurður Guðmundsson</name>
+                        (flyleaf <locus from="2v" facs="#JS04-0034-0002v" to="2v">2v</locus>), <name type="person" key="PetOdd001">Pétur Oddsson</name> and <name type="person" role="borrower" key="JonIva001">Jón Ívarsson</name>
+                           (<locus from="97v" facs="#JS04-0034-0097v" to="97v">97v</locus>) </p>
+                     <p>An addition in pencil counts the flyleaves and therefore doesn't agree with the page count here, two
+                        folios are wrongly numbered </p>
+                  </additions>
+                  <!--<bindingDesc>
+                     <binding ana="" contemporary="">
+							    <p>Leather binding ripped with paper cover (other one lost)</p>
+                     </binding>
+						</bindingDesc>-->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1803" to="1804"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <name type="person" role="owner" key="JonSig004"/>
+                     <name type="person" role="owner" key="GudIll002">Guðmundur Illugason</name> á
+                        <placeName>Skógtjörn</placeName>
+                     <name type="person" role="signatory" key="JonSig004">Jón Sigurðsson</name>
+                     <name type="person" role="signatory" key="ambig">[R.] Eyjólfsson</name>
+                     <name type="person" role="signatory" key="SigGud011">Sigurður Guðmundsson</name>
+                     <name type="person" role="signatory" key="ambig">B. Guðmundsson</name>
+                     <name type="person" role="signatory" key="ambig">B. Ólafsson</name>
+                     <name type="person" role="signatory" key="PetOdd001">Pétur Oddsson</name>
+                     <name type="person" role="borrower" key="JonIva001">Jón Ívarsson</name>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:16.448+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:53:23.041+02:00" who="#EAH">Introduced repository auth file. Updated repository element
+            pointing, adding @ref and removing @key.</change>
+         <change when="2011-05-07T18:42:42.344+02:00" who="#EAH">Extracted pagination and page dimension data from previous
+            version.</change>
+         <change when="2012-07-30" who="#SMM">Added and completed msItems with information gathered from pictures viewed on
+            handrit.is.</change>
+         <change when="2012-11-14" who="#SMM">Translated.</change>
+         <change when="2013-08-28" who="#BES">Proofread as far as possible.</change>
+         <!-- missing information regarding layoutDesc and bindingDesc -->
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

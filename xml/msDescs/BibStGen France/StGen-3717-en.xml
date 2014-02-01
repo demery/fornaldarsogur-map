@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>Bibliothèque Sainte-Geneviève MS. 3717</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="StGen-3717-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#StGen">Bibliothèque Sainte-Geneviève, Paris</repository>
+						<idno>MS. 3717</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="no">
+							
+							<note>Contains translations of sagas into French. First four items have translations
+								on verso leaves and notes on recto. The remainder have translations on recto leaves
+								and notes on verso.</note>
+						</titlePage>
+						
+						<msItem n="1" class="regist">
+							<locus from="1:1" to="1r:3"/>
+							<title type="supplied">Table of Contents</title>
+							<textLang mainLang="fr"/>
+							<incipit>1. Hversu Noregr bygðist (Flateyjarbók)</incipit>
+							<explicit>3. Af Upplendinga konungum (Hauksbók)</explicit>
+							<note>List of contents for first three items, followed by a note which reads:
+								<q>Tome II des Fornaldar sǫgur Norðrlanda. Reykjavík</q></note>
+							
+						</msItem>
+						
+						
+						<msItem n="2" class="fas">
+							<locus from="1v:1" to="15v:2"/>  							
+							<title ref="#ff" type="uniform">Frá Fornljóti og ættmönnum hans <note>(French)</note></title>
+							
+							<msItem n="2.1" class="fas">
+								<locus from="1v:1" to="11v:13"/>  							
+								<title ref="#ff" type="supplied">Hversu Noregr byggðist <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Comment se peupla le Nóregr</rubric>
+							<incipit>Nous allons maintenant raconter comment à l'origine</incipit>
+							<explicit>Valdemarr roi des Danis apris qu'elle est fait faire prisonnier albritt.</explicit>
+							
+							</msItem>
+							
+							<msItem n="2.2" class="fas">
+								<locus from="12v:1" to="15v:2"/>
+								<title ref="#ff" type="supplied">Fundinn Noregr <note>(French)</note></title>
+								<textLang mainLang="fr"/>
+								<rubric>Le Nóregr dicouvert</rubric>
+								<incipit>Il y avait un roi nommé Fornjótr</incipit>
+								<explicit>pere du jarl Rögnvaldr enn ríki ok enn uidhsvinni</explicit>
+							</msItem>
+							
+							<note>Treated as separate texts in the MS</note>
+						</msItem>
+						
+						<msItem n="3" class="fas">
+							<locus from="15v:3" to="18vb:22"/>  							
+							<title ref="#upp" type="uniform">Af Upplendinga konungum <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Af Upplendinga konungum</rubric>
+							<incipit>Óláfr, fils d'Ingjaldr illrádhi roi du Svíaríki</incipit>
+							<explicit>du nom de qui provient alui des Ynglingar.</explicit>
+							<note>Indices on fols. 17v-18v.</note>
+							
+						</msItem>
+						
+						<msItem n="4" class="fas">
+							<locus from="19r:1" to="45v:25"/>  							
+							<title ref="#snfdsv" type="uniform">Sögubrot af nokkrum fornkonungum í Dana 
+								og Svíaveldi <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Sǫgubrot af nokkurum fornkonungum i Dana- ok Svíaveldi</rubric>
+							<incipit>... puis refuser. Le roi répond</incipit>
+							<explicit>de tout le Víkr ...</explicit>
+							<note>Note on fol. 19r: <q>Dans Fornaldar sǫgur Nordhrlanda Tome I. Edition de Reykjavík</q></note>
+							<note>Fols. 39v-45v contain indices</note>
+							
+						</msItem>
+						
+						<msItem n="5" class="fas">
+							<locus from="47r:1" to="153r:5"/>  							
+							<title ref="#hs" type="uniform">Hervarar saga og Heiðreks <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Hervarar saga ok Heidhreks</rubric>
+							<incipit>On racconte qu' au temps jadis ce qui est au nord, en Finmörk</incipit>
+							<explicit>il ne fut roi que peu de temps.</explicit>
+							<note>Note on fol. 47r: <q>Fornaldar sögur Nordhrlanda. Edition de Reykjavík. 1891.</q></note>
+							<note>Indices on fols. 145r-153r.</note>
+							<note>Note on the front cover reads: <q>Les énigmas de Gestumblindi appartiennent au chapitre onze 
+								de la Hervarar saga ok Heiðreks</q></note> 
+							
+						</msItem>
+						
+						<msItem n="6" class="islt">
+							<locus from="154r:1" to="161r:11"/>  							
+							<title type="uniform">Þorsteins þáttur skelks <note>(French)</note></title>
+							<title type="parallel">Þorsteins þáttr skelks</title>
+							<textLang mainLang="fr"/>
+							<rubric>Thorsteins tháttr skelkis</rubric>
+							<incipit>On raconte que l'été suivant le roi Óláfr (Tryggvason)</incipit>
+							<explicit>l'Ormr enn langi avec d'autres preux du roi.</explicit>
+							<note>Note on fol. 154r: <q>Extrait de l'Óláfs saga Tryggvasonar du Flateyjarbók. T I. p. 406-418.
+							Kristiania. 1860.</q></note>
+							<note>Fols. 154-161 have been mounted on tabs of previously excised leaves.</note>
+							
+						</msItem>
+						
+						<msItem n="7" class="isl">
+							<locus from="162r:1" to="265r:29"/>  							
+							<title type="uniform">Bárðar saga Snæfellsáss <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Bárðar saga Snæfellsáss</rubric>
+							<incipit>Il y avait un roi appelé Dumbr</incipit>
+							<explicit>Et se termine ici la saga de Bárdhr Snæfellsáss et de son fils Gestr.</explicit>
+							<note>Note on fol. 162r: <q>Edition de Reykjavík. 1902.</q></note>
+							<note>Indices on fols. 252r-265r.</note>
+							
+						</msItem>
+						
+						<msItem n="8" class="islt">
+							<locus from="266r:1" to="309r:27"/>  							
+							<title type="uniform">Þorvalds þáttur víðförla <note>(French)</note></title>
+							<title type="parallel">Þorvalds þáttr víðförla</title>
+							<textLang mainLang="fr"/>
+							<rubric>Tháttr Thorvalds ens vidhförla</rubric>
+							<incipit>Il y avait un homme appelé Eilífr örn</incipit>
+							<explicit>Trois hivers plus tard Thorvardhr fils de Spakklödhvarr fils bâlir une église à Víss.</explicit>
+							<note>Note on fol. 266r: <q>Edition B. Kahle. Halle 1905.</q></note>
+							<note>Indices and supplementary material on fols. 301r-309r. Supplementary text from AM 262 fol.
+							and Hungrvaka ch. 3 according to notes on fols. 301r and 309r</note>
+							
+						</msItem>
+						
+						
+						
+						
+						
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="1"/>
+									<num type="book-block" value="309"/>
+									<num type="back-flyleaf" value="1"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="270"/>
+										<width unit="mm" quantity="210"/>
+									</dimensions>
+									
+									<watermark ana="no"/>
+									
+								</support>
+								
+								<foliation ana="contemporary fol">Foliation numbers are given in each opening. Foliated 
+									in red ink on recto leaves and in
+								black ink on verso leaves. Red foliation is continuous, while black ink
+								foliation restarts with each item.</foliation>
+								
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-separate" columns="1 2" writtenLines="15 28">									
+									<note>Some index material written in dual columns.</note>
+									<num type="wpl" atLeast="6" atMost="13"/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity="230"/>
+										<width unit="mm" quantity="160"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#LouLeP001" scope="sole" script="hum cursiva"/>
+						</handDesc>
+						
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						
+						<additions ana="no"/>
+						
+						
+						<bindingDesc>
+							<binding ana="plain" contemporary="true">
+								<p>Bound in contemporary paper bindings with later laminate reinforcement.</p>
+							</binding>							
+						</bindingDesc>
+					
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1905"/>
+							<origPlace key="FR"/>
+							<note>Written some time after 1905, the date of Kahle's edition given on fol.
+								266r</note>
+						</origin>
+						
+						<provenance>
+							<name key="LouLeP001" type="person" role="owner"/> 
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-01-18" who="#JSL">Generated record from Calames catalogue</change>
+			<change when="2013-02-18" who="#JSL">Cataloged from manuscript</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

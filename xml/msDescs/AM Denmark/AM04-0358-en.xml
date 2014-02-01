@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 358 4to</title>
+         </titleStmt>
+         
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+        
+         <sourceDesc>
+            <msDesc xml:id="AM04-0358-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 358 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+              
+                  <titlePage ana="contemporary">
+                     <note>Title page on fol. <locus>1r</locus> decorated with green and red inks</note>
+                  </titlePage>
+                                 
+                  <msItem n="1" class="formal">
+                     <locus from="2r:1" to="2v:27"/>
+                     <title type="supplied">Preface</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Eirn<ex>n</ex> lyttell for mäle fyrer framan<ex>n</ex> þessa sögu</rubric>
+                     <incipit>Þesse sagä seiger fyrst frä Gauta konge.</incipit>
+                     <explicit>Og bid eg Gȯdfwsan<ex>n</ex> lesana þetta lagfæra <ex>og</ex> j mälid
+                           ad lesa. Wale</explicit>
+                  </msItem>
+                  
+                  <msItem n="2" class="fas">
+                     <locus from="3r:1" to="13v:29"/>
+                     <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                     <textLang mainLang="non"/>
+                     
+                     <msItem n="2.1" class="fas">
+                        <locus from="3r:1" to="7r:3"/>
+                        <title type="uniform">Gauts þáttur</title>
+                        <title type="running">Sagann af Gauta konge</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hier byriast sagan<ex>n</ex> af Gauta konge, er fyrst bygde
+                                  Gautland og var þar sydan<ex>n</ex> kongur ifer</rubric>
+                        <incipit>Þaa hefum wier eina dä fallega historiu af einum könunge er Gaute hiet</incipit>
+                        <explicit>Og endast hier so saga af Gauta könge</explicit>
+                     </msItem>
+                      
+                     <msItem n="2.2" class="fas">
+                       <locus from="7r:4" to="13v:29"/>
+                        <title ref="#gsgr" type="uniform">Gautreks saga</title>
+                        <title type="parallel">Gautreks saga og Gjafa-Refs</title>
+                       <title type="running">Sagann af Gautrek konge</title>
+                       <rubric>Sagan<ex>n</ex> af Gautrek konge</rubric>
+                       <incipit>Gautrechur kongur war miog <add place="inline">ägiætur</add> fyrer margra 
+                          hluta saker</incipit>
+                       <explicit>Og lykur hier sögu Gautreckz kongs hinz giaf myllda</explicit>
+                     </msItem>
+                  
+                  </msItem>
+                  
+                  <msItem n="3" class="fas">
+                     <locus from="14r:1" to="61r:18"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <title type="running">Sagann af Hrolfe Gautrecksyni</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Hier hefur upp saugu af Hrolfe könge Gautrechssyne er styrde Suya riche <ex>og</ex> 
+                        Gautlande</rubric>
+                     <incipit>Þad er nu þessu næst. ad Hrölfur giordest brätt stor megtugur</incipit>
+                     <explicit>Og skylldustum wier so hier vid sögu Hrȯlfz kȯngs Gautrechsonar og hans föstbrædra 
+                           og þeirra hreistewerka</explicit>
+                     
+                  <note>All three items treated as one text in this manuscript. Chapter enumeration is continuous throughout.</note>
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="61"/>
+                           <num type="back-flyleaf" value="0"/>
+                           
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="203"/>
+                              <width unit="mm" quantity="160"/>
+                           </dimensions>
+                           
+                           <watermark ana="yes"/>
+                           
+                        </support>
+                        <foliation ana="later fol">
+                           <p>Foliated by <name type="person" key="KriKaa001">Kålund</name> in red ink in the top right corner 
+                              of the recto side of each leaf.</p>
+                        </foliation>
+                        <condition ana="good"/>
+                        
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="1" writtenLines="30">
+                           
+                           <num type="wpl" atLeast="10" atMost="13"/>
+                           
+                           <dimensions type="written">
+                              <height unit="mm" quantity="155"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                        
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="1">
+                     <handNote scribeRef="#JonEin006" scope="sole" script="unknown">
+                        <p>Written by Jón Einarsson at <name type="place" key="Þórod01">Þóroddsstaðir</name>. Cf. fol. <locus>1r</locus>:
+                        <q>Skrifad ä Þoroddstodum Hrosinhuala nese. Anno 1694. Jon Einarsson mehendi</q></p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Contains decorated initials in red and green ink</decoNote>
+                  </decoDesc>
+                  
+                  <additions ana="no"/>
+                                    
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>The manuscript was formerly bound in parchment leaves from an Icelandic
+                        gradual from the <date notBefore="1450" notAfter="1499">second half of the
+                        fifteenth century</date>. These two bifolia are now in <ref type="ms">Access.
+                        7b, Hs 16</ref>. Current binding is modern (19th c.?) marbled paper boards.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origDate when="1694"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  
+                  <provenance>
+                     <name key="ArnMag001" type="person" role="owner"/>
+                  </provenance>
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:12:20.648+02:00" who="#EAH"> Created as subset of full file
+                        on handrit.is.</change>
+         <change when="2011-05-06T17:52:26.238+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2011-05-07T15:34:35.754+02:00" who="#EAH">
+                Inserted origDate and origPlace elements based on previous data, now removed.
+              </change>
+         <change when="2011-05-07T18:41:51.489+02:00" who="#EAH">
+                Extracted pagination and page dimension data from previous version.
+              </change>
+         <change when="2011-05-07T19:17:29.509+02:00" who="#EAH">
+                Extracted layout data from previous version.
+              </change>
+         <change when="2013-01-08" who="#JSL">Added information from Kålund and handrit catalogs</change>
+         <change when="2013-01-09" who="#JSL">Cataloged manuscript in situ.</change>
+         <change when="2013-08-16" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>NKS 1148 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="NKS02-1148-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>NKS 1148 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="160v">pp. 1-320</locus>
+                     <title type="uniform">Karlamagnús saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="2" class="almb">
+                     <locus from="167r" to="211v">pp. 333-422</locus>
+                     <title type="uniform">Huga saga Skaplers</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="sagnps">
+                     <locus from="212r" to="278v">pp. 423-560</locus>
+                     <title type="uniform">Trójumanna saga</title>
+                     <colophon>Saugu skrifut Anno <date>1765</date> Endut 31 Maii.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="heimsp">
+                     <locus from="279r" to="377r">pp. 561-755</locus>
+                     <title type="uniform">Konungs skuggsjá</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="sagnps">
+                     <locus from="377v" to="391v:17">pp. 756-782</locus>
+                     <title type="uniform">Breta sögur</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="ridd">
+                     <locus from="391v:18" to="397v:14">pp. 782-796</locus>
+                     <title type="uniform">Saga af Artus konungi</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="kon">
+                     <locus from="397v:15" to="404r:9">pp. 796-807</locus>
+                     <title type="uniform">Játvarðar saga hins helga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="fas">
+                     <locus from="404r:10" to="438v">pp. 807-876</locus>
+                     <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Af Hrólfi Kraka. Dana Kóngi. I. Froða þáttur.</rubric> 
+                     <rubric>I Cap.</rubric>
+                     <incipit>Maþr er nefnðr Hálfðan, en<ex>n</ex> an<ex>n</ex>ar Fródi
+                        b<ex>ræ</ex>th<ex>u</ex>r ii z k<ex>on</ex>ga s<ex>yn</ex>er</incipit>
+                     <explicit>og endar her sauguna Hrólfs k<ex>on</ex>gs Kraka og kappa
+                        h<ex>an</ex>s.</explicit>
+                     <filiation>
+                        <p>Derived from <ref type="ms" target="#Lbs04-2319-en" ana="antigraph">Lbs 2319
+                        4to</ref>.</p>
+                     </filiation>
+                  </msItem>
+                  <msItem n="9" class="almb">
+                     <locus from="439r" to="446v">pp. 877-892</locus>
+                     <title type="uniform">Griseldis saga</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="3"/>
+                              <num type="book-block" value="446"/>
+                              <num type="back-flyleaf" value="3"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="320"/>
+                                 <width unit="mm" quantity="200"/>
+                              </dimensions>
+                              <watermark ana="yes">Two different watermarks: A small watermark in the shape of coat of arms with a
+                                 crown on the top and a water lily in the middle, and the letters "LG"; A larger coat of arms held by two lions, with a crown above.</watermark>
+                           </support>
+                           <foliation ana="pag contemporary">
+                              <p>Paginated by the scribe in the upper outer
+                                 corner. The item on <locus>561-755</locus>, <title type="uniform">Konungs skuggsjá</title>, has a separate pagination 1-192, which has
+                              been crossed out and substituted by a continuous pagination of the larger
+                              manuscript.</p>
+                           </foliation>
+                           <condition ana="good">The manuscript is in excellent condition. It shows few traces of
+                              use, since the paper is relatively clean, and there are very few
+                              marginalia.</condition>
+                        </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="26 31">
+                           <num type="wpl" atLeast="10" atMost="12"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="260"/>
+                              <width unit="mm" quantity="165"/>
+                           </dimensions>
+                           <catchwords ana="yes">There are underlined or ticked catchwords on almost every
+                              page. The appearance of catchwords is somewhat irregular.</catchwords>
+                        </layout>
+                     </layoutDesc>
+                     </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#OlaGis003" scope="sole" script="kurrent">
+                        <p>Written by reverend Ólafur Gíslason of Staðarhóll and Hvóll.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc ana="low">
+                     <decoNote type="initial">Slightly enlarged and ornamental intital in the rubric
+                        and text of <title type="uniform">Hrólfs saga kraka</title>. Slightly larger
+                        and more ornamental initials at other places, such as <locus>ff. 1, 209,
+                           333, 877</locus>
+                     </decoNote>
+                     <decoNote type="paratext">horizontal bow at the top of the rubric, <locus>p.
+                        807</locus>
+                     </decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>
+                        <list type="simple">
+                           <item>
+                              <locus>Inside front cover</locus>: <q>Ny kgl. Sml. 1148-2°</q>, and
+                              a stamp of the Bibliotheca Regia Hafniensis</item>
+                           <item>
+                              <locus>Fly-leaf 2</locus>: <q> Skrevet af Sr Olaf Gislesen Præst
+                                 til Stadarhol og Hvol i Dale Sysel udi Island.</q>
+                           </item>
+                           <item>
+                              <locus>Fly-leaf 3</locus>: Table of contents (in a different hand)</item>
+                           <item>
+                              <locus>P. 15</locus>: Scribal correction, addition</item>
+                           <item>
+                              <locus>p. 22</locus>: Correction <q>yrkun</q>, may be the same
+                              hand</item>
+                           <item>
+                              <locus>p. 38</locus>: Addition: <q>+ og afhöfdad<ex>ur</ex>
+                                 m<ex>ed</ex> litilli prydi</q>
+                           </item>
+                           <item>
+                              <locus>P. 39</locus>: Addition: <q>x en<ex>n</ex>
+                                 fram<ex>ar</ex>.</q>
+                           </item>
+                           <item>
+                              <locus>P. 53</locus>: Note: <q>Oddg<ex>ei</ex>r var
+                              rit<ex>at</ex> i apographo</q>. - insted of Olegyr, same hand as main
+                              text</item>
+                           <item>
+                              <locus>P. 69</locus>: Note: <q>Danimon efft<ex>er</ex>
+                              Olg<ex>ei</ex>rs saugu</q>. - instead of Danam kgss</item>
+                           <item>
+                              <locus>P. 74</locus>: Correction: <q>Herkúles</q> - instead of
+                              Helenus</item>
+                           <item>
+                              <locus>P.77</locus>: Note: <q>Feridans s: i apographo</q> - instead of
+                              Ferdinands kgs</item>
+                           <item>
+                              <locus>P.177</locus>: Note: <q>Grútelin er her skrifad í þesu apograho
+                              er þ<ex>e</ex>tta er ritad effter</q>.</item>
+                        </list>
+                     </p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="unknown">
+                        <p>Solid wooden binding lined with leather. The imprinted pattern on the front and back side consists of:
+                           box with crossed over rectangle in an outer box, both lined with floral
+                           ornaments. The spine also has floral ornaments at the top and bottom.
+                           </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1765" notAfter="1770"/>,
+                     <origPlace key="IS">Iceland</origPlace> 
+                     <note>Written around 1765. The copying was probably paused when the
+                        scribe left for Denmark and resumed when he returned to Iceland.</note>
+                  </origin>
+               </history>               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:54:30.427+02:00" who="#EAH">
+        Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.
+      </change>
+         <change when="2013-04-12" who="#BES">Changed markup and added missing information based on TL's file.</change>
+         <change when="2013-04-24" who="#BES">Added missing information with the ms in situ.</change>
+         <change when="2013-08-26" who="#TL">Checked markup consistency.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

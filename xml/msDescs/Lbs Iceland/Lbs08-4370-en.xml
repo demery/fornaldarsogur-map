@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 4370 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs08-4370-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 4370 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r" to="43r"/>
+                     <title type="uniform">Rímur af Maroni sterka</title>
+                     <title type="uniform">Marons rímur sterka</title>
+                     <note>eftir Jón Jónsson í Bárðarbúð</note>
+                     
+                     <note>12 rímur</note>
+                     <colophon>Endi Amen</colophon>
+                  </msItem>
+                  <msItem n="2" class="fas rimur">
+                     <locus from="43v" to="93r"/>
+                     <title type="uniform">Rímur af Hervöru og Heiðreki konungi</title>
+                     <title ref="#hsh" type="uniform">Hervarar rímur og Heiðreks konungs</title>
+                     <note>eftir Gísla Konráðsson</note>
+                     <note>14 rímur</note>
+                     <colophon>Punktum - Satis - Endir</colophon>
+                  </msItem>
+                  <msItem n="3" class="rimur">
+                     <locus from="93v" to="119v"/>
+                     <title type="uniform">Rímur af Helga Hundingsbana</title>
+                     <title type="uniform">Helga rímur Hundingsbana</title>
+                     <note>eftir Gísla Konráðsson</note>
+                     <note>7 rímur</note>
+                     <colophon>Endi 1885</colophon>
+                     </msItem>
+                     <msItem n="4" class="rimur">
+                        <locus from="120r" to="145r"/>
+                        <title type="uniform">Rímur af Partalopi og Marmoríu</title>
+                        <title type="uniform">Partalopa rímur og Marmoríu</title>
+                        <note>eftir Helgu þórarinsdóttur</note>
+                        <note>7 rímur</note>
+                        <note>Beginning defective. The title on page 120r only, succeeded by three
+                           empty pages</note>
+                        <note>Starts with verse 47 in ríma 1 <locus from="121v" to="121v"/></note>
+                        <incipit>Enginn maður augum sá ....</incipit>
+                        <note>Cholophone, Endi: 1885</note>
+                     </msItem>
+                     <msItem n="5" class="rimur">
+                        <locus from="145r" to="155v"/>
+                        <title type="uniform">Geiplur</title>
+                        <note>eftir Gísla Konráðsson</note>
+                        <note>5 rímur</note>
+                        <colophon>Endi</colophon>
+                     </msItem>
+                     <msItem n="6" class="rimur">
+                        <locus from="156r" to="176v"/>
+                        <title type="uniform">Rímur af Hjálmari hugumstóra</title>
+                        <title type="uniform">Hjálmars rímur hugumstóra</title>
+                        <note>eftir Hallgrím Jónsson</note>
+                        <note>Kveðnar af sveitalæknir, Hallgrími Jónssyni á Miklagarði í Skagafirði
+                           1857</note>
+                        <note>6 rímur</note>
+                        <note>Ends defective in the 6th ríma, verse 126</note>
+                        <explicit>Jötuns væng úr fleina frey ... hæng í hægum þey höfn á þreyða
+                           renndi. ...</explicit>
+                     </msItem>
+                     <msItem n="7" class="ridd">
+                        <locus from="177r" to="235v"/>
+                        <title type="uniform">Mágus saga jarls</title>
+                        <note>Begins defective</note>
+                        <incipit>... hún kvaðst ei mundi af því láta. Áki kemur nú að máli við
+                           mmanninn</incipit>
+                        <colophon>Enduð árið 1884 á gamlársdag.</colophon>
+                     </msItem>
+                     <msItem n="8" class="ridd">
+                        <locus from="236r" to="273r"/>
+                        <title type="uniform">Flóvents saga</title>
+                     </msItem>
+                     <msItem n="9" class="fas">
+                        <locus from="276r" to="283v"/>
+                        <title ref="#jss" type="uniform">Þjalar-Jóns saga</title>
+                        <note>ends defective in 5th chapter</note>
+                        <explicit>skal ég honum trúliga umbuna þessi þín orð ef ég vinnumst til.
+                           Settust síðan niður ...</explicit>
+                     </msItem>
+                     <msItem n="10" class="rimur">
+                        <locus from="284r" to="296v"/>
+                        <title type="supplied">Brot úr óþekktri rímu</title>
+                        <note>defective Starts in verse 17</note>
+                        <incipit>... Kinnar slyngur reifði rár rósa hringur blóma heiti Ingibjargar
+                           bar björkin fingra ljóma </incipit>
+                        <note>Ends at verse 203</note>
+                        <explicit>... Sæmdar þrótt í sverða byl sáða grótt</explicit>
+                     </msItem>
+                     <msItem n="11" class="skrif">
+                        <locus from="297r" to="298v"/>
+                        <title type="supplied">Skriftaræfing</title>
+                     </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="0"/>
+                           <num type="book-block" value="298"/>
+                           <num type="back-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="175"/>
+                              <width unit="mm" quantity="107"/>
+                           </dimensions>
+                           <watermark ana="no"/>
+                        </support>
+                        <foliation ana="fol later"/>
+                        <foliation ana="later"/>
+                        <condition ana="poor"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="23 36">
+                           <num type="wpl" atLeast="7" atMost="10"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="169"/>
+                              <width unit="mm" quantity="106"/>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="unknown" scope="major" script="hum cursiva"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">From
+                        276r</handNote>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">
+                     <p>The name of Jónas Vilhelm Lárusson on 298v, the last page
+                           that contains script examples</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="none">
+                        <p>
+                           <note>There is an indication that before accquistion the manuscript has
+                              had boards. It is sewn together.</note></p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1875" notAfter="1899"/>
+                     <note>The topics of the manuscripts, or rather their authors, point to its origin
+                        beeing in West-Iceland</note>
+                  </origin>
+                  <provenance>
+                     <p><name type="person" role="owner" key="ambig">Jóhannes Skúlason</name> purchased the MS in an
+                        antiquarian bookstore while acquiring rímur from <name type="person" role="owner" key="ambig">Jónas Vilhelm
+                        Lárusson</name>.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:54:24.667+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2012-05" who="#SK">Added some information from the manuscript
+            itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

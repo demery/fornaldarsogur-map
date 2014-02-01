@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 443 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0443-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 443 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <!--<titlePage ana="later/contemporary?">
+                     <titlePart>Saga af Hálfi og Hálfs rekkum</titlePart>
+                     <titlePart>Historia Halfi et eius Athletarum</titlePart>
+                  </titlePage>-->
+                  <msItem class="fas">
+                     <locus from="1v" to="72v"/>
+                     <title ref="#hskh" type="uniform">Hálfs saga og Hálfsrekka</title>
+                     <note>A translation in latin of the first part <locus from="1r" to="12r"/></note>
+                     <note>A philological work</note>
+                     <filiation>
+                        <ref type="ms" target="AM 202 b fol. and AM 202 c fol." ana="protograph">derived from AM 202 b fol. and AM 202 c fol.</ref>
+                     </filiation>
+                     <textLang mainLang="la"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="book-block" value="72"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="210"/>
+                              <width unit="mm" quantity="164"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="pag">1-144, the verso-side numbered only and from leaf 13r
+                           the text is only written on the verso-side </foliation><!-- later/contemporary? -->
+                        <condition ana="good">The paper of the latter part is in original form,
+                           uncut</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="15">
+                           <num type="wpl" atLeast="2" atMost="8"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="114"/>
+                              <width unit="mm" quantity="129"/>
+                           </dimensions>
+                           
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="#BenGro002" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="no"><decoNote/></decoDesc>
+                  <additions ana="low">A loose piece of paper, a
+                           slip (<locus from="35v" to="36r">35v-36r</locus>)</additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="unknown">
+                        <p>A cardboard cover with a letter or envelope used as the lining or inner cover</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1786" notAfter="1791"/>
+                     <origPlace key="DK"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL
+            bibliography data</change>
+         <change when="2011-05-06T17:53:44.811+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-07" who="#SK">Added information from the P.E.Ó.-catalogue and other
+         sources</change>
+         <change when="2011-11" who="#SK">Added information from the manuscript itself</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

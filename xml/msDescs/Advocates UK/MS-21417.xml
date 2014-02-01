@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Den Arnamagnæanske Samling</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="MS-21-4-17">
+                    <msIdentifier>
+                        <!--<country>United Kingdom</country>
+                        <settlement>Edinburgh</settlement>-->
+                        <repository ref="#ADV">Advocates' Library, Edinburgh</repository>
+                        <idno>MS 21.4.17</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="fas">
+                            <locus from="1r:1" to="10v:11">1r-11v</locus>
+                            <title type="uniform" ref="#gsgr">Gautreks saga</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="2" class="fas">
+                            <locus from="11r:1" to="73r:8">11r-73r</locus>
+                            <title type="uniform" ref="#hsg">Hrólfs saga Gautrekssonar</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="3" class="fas">
+                            <locus from="74r:1" to="92v:21">74r-92v</locus>
+                            <title type="uniform" ref="#sss">Sturlaugs saga starfsama</title>
+                            <textLang mainLang="is"/>
+                            <colophon>Endat 3 Decemb<ex>e</ex>r Anno 1720</colophon>
+                        </msItem>
+                        <msItem n="4" class="fas">
+                            <locus from="94r:1" to="164r:17">94r-164r</locus>
+                            <title type="uniform" ref="#ghs">Göngu-Hrólfs saga</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                        <msItem n="5" class="fas">
+                            <locus from="165r:1" to="199r:11">165r-199r</locus>
+                            <title type="uniform" ref="#hsk">Hrólfs saga kraka</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <num type="front-flyleaf" value="2"/>
+                                    <num type="book-block" value="199"/>
+                                    <num type="back-flyleaf" value="2"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="190"/>
+                                        <width unit="mm" quantity="140"/>
+                                    </dimensions>
+                                    <watermark ana="yes">Various papers used, one, for example, with a royal crown
+                                        watermark.</watermark>
+                                </support>
+                                <!-- ana="later fol" instead of "contemporary pag"?? -->
+                                <foliation ana="pag contemporary">
+                                    <p>Foliation in pencil added later in the upper right hand corner. Pagination added in ink in
+                                        the mid bottom margin of item 2, where parts of missing text were added later.</p>
+                                </foliation>
+                                <condition ana="average"> The edges of the paper have crumbled away at several places and have
+                                    been repaired with strips of paper. </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ana="verse-prose" columns="1" writtenLines="24 27">
+                                    <num type="wpl" atLeast="12" atMost="15"/>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="170"/>
+                                        <width unit="mm" quantity="135"/>
+                                    </dimensions>
+                                    <catchwords ana="yes"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scribeRef="unknown" scope="major" script="hybrida">Hand 1: Item 1</handNote>
+                            <handNote scribeRef="unknown" scope="major" script="hybrida">Hand 2: Items 2, 4, 5</handNote>
+                            <handNote scribeRef="unknown" scope="minor" script="kurrent">Hand 3: Additions in item 2</handNote>
+                            <handNote scribeRef="unknown" scope="major" script="kurrent">Hand 4: Item 3</handNote>
+                        </handDesc>
+                        <decoDesc ana="medium">
+                            <decoNote type="initial">Ornamental initials at the beginning of texts and chapters.</decoNote>
+                            <decoNote type="paratext">Catchwords with ornamental horizontal curls or curls with small double
+                                lines.</decoNote>
+                            <decoNote type="paratext">V ending, <locus>92v</locus>.</decoNote>
+                        </decoDesc>
+                        <additions ana="high">
+                            <!-- comments here are remarkably similar to one of the BL MSS -->
+                            <p>Marginalia consist of scribal corrections, user signatures, writing exercises and scribbles. The
+                                latter category is in empty spaces at ends of texts. The first item contains a foreword describing
+                                the antigraph and a list of Old Icelandic texts related to Iceland at the back. There are also
+                                several NB marks in the margin. This is a clear indicaiton of a scholarly interest. The remaining,
+                                older parts of the text, nevertheless, contain no marginalia indicating a scholarly interest.<list>
+                                    <item>
+                                        <locus>1r</locus>, Adv. Bib</item>
+                                    <item>
+                                        <locus>1v-4r</locus>, Text filled in on the repair strip.</item>
+                                    <item>
+                                        <locus>10v</locus>, Thorstein<ex>n</ex> Benedic Son a.</item>
+                                    <item>
+                                        <locus>10v</locus>, Name unreadable</item>
+                                    <item>
+                                        <locus>11r</locus>, Thorgrimur Finnsson</item>
+                                    <item>
+                                        <locus>11r</locus>, Stephan þetta er godur gammanan skrif 1805 1805</item>
+                                    <item>
+                                        <locus>43v</locus>, ...</item>
+                                    <item>
+                                        <locus>46v</locus>, Vide intra, star</item>
+                                    <item>
+                                        <locus>46v</locus>, I glod<ex>u</ex>m asstar</item>
+                                    <item>
+                                        <locus>63v</locus>, icipe ante folia 91</item>
+                                    <item>
+                                        <locus>64rv</locus>, item post folia 91</item>
+                                    <item>
+                                        <locus>46v</locus>, Gudmun</item>
+                                    <item>
+                                        <locus>46v</locus>, Gudmund</item>
+                                    <item>
+                                        <locus>46v</locus>, Sonar Direction</item>
+                                    <item>
+                                        <locus>46v</locus>, Hrolfur gauv res son y se</item>
+                                    <item>
+                                        <locus>46v</locus>, ÿu nge Gudmund</item>
+                                    <item>
+                                        <locus>83r</locus>, 3329 3r88S 288S</item>
+                                    <item>
+                                        <locus>84r</locus>, addition</item>
+                                    <item>
+                                        <locus>92v</locus>, A line around ornamental v ending and a copy of colophon: Endat 3
+                                            Decemb<ex>e</ex>r Anno 1720</item>
+                                    <item>
+                                        <locus>93r</locus>, BBiorn</item>
+                                    <item>
+                                        <locus>93r</locus>, Hier Endar Søguþatt af sturlaugi starfsama sem kong<supplied reason="damage">ur</supplied> / vard yfir Svyþiöd sem seigir i so<supplied reason="damage">gu</supplied> / hans þo ....</item>
+                                    <item>
+                                        <locus>93r</locus>, B þo ad þad þettad er </item>
+                                    <item>
+                                        <locus>93r</locus>, IEinarsson</item>
+                                    <item>
+                                        <locus>93r</locus>, Arne Arna So</item>
+                                    <item>
+                                        <locus>93r</locus>, Þettad er mÿn setta skrÿft</item>
+                                    <item>
+                                        <locus>93r</locus>, Efftir þessu attu ad srkÿfa ef þu g.. / fallegt er ad farfa
+                                        letur</item>
+                                    <item>
+                                        <locus>93r</locus>, Biørn Bi</item>
+                                    <item>
+                                        <locus>93r</locus>, Farfa letur fa eg eg eke / skryfad þoau Brøgnu<ex>m</ex>m þike þad /
+                                        þeim sæma sem skrifa Blad / Jon Eynarsson</item>
+                                    <item>
+                                        <locus>93v</locus>, ....</item>
+                                    <item>
+                                        <locus>93r</locus>, Nu er þettad skrifad hver er þa skryfad </item>
+                                    <item>
+                                        <locus>93r</locus>, þorleifur Joson</item>
+                                    <item>
+                                        <locus>93r</locus>, þorleifur Jons son a Storu briduvi</item>
+                                    <item>
+                                        <locus>199r</locus>, Eyjolfur Gu / Gudmundson</item>
+                                    <item>
+                                        <locus>199r</locus>, Arngrýmur Jons son</item>
+                                    <item>
+                                        <locus>199r</locus>, Eigande þessarar/ Bókar/ er/ Discipel Þorsteinn Jónsson / Si(e) þeim
+                                        lof sem liede</item>
+                                    <item>
+                                        <locus>199r</locus>, Þessar Hrolfs Søgur a med Riettu M Þorun</item>
+                                    <item>
+                                        <locus>199r</locus>, Arne Thorsteinsson</item>
+                                    <item>
+                                        <locus>199r</locus>, Jón Bogason</item>
+                                    <item>
+                                        <locus>199r</locus>, Bok þessa a Jon Einarsson</item>
+                                </list>
+                            </p>
+                        </additions>
+                        <bindingDesc>
+                            <binding contemporary="false" ana="moderate">
+                                <p>Binding relatively well preserved, but old and used. The edges are worn and the leather on the
+                                    spine is crumbling off. The binding is greasy and dark brown, probably smoked like the paper
+                                    of the manuscript. The binding may therefore come from Iceland, with the gilded title
+                                    inscription on the spine added later. </p>
+                                <p>Old binding all lined with leather on the sides and spine. Gilt incription <q>ICELANDIC SAGAS
+                                        M.S.</q> on the spine. </p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1700" notAfter="1750"/>
+                            <origPlace key="IS"/>. <note>There is a colophon: Endat 3 Decembris Anno 1720 on
+                                <locus>92v</locus></note>. </origin>
+                        <provenance><p>Several persons have written their names in the manuscript: <name type="person" role="signatory" key="ThoJon005">Þorsteinn Jónsson</name>, <name type="person" role="signatory" key="ambig">M Þorun</name>, <name type="person" role="signatory" key="ThoBen001">Mr Thorsteinn
+                                    Benedic Son</name>. </p>
+                            <p>Þórunn Björnsdóttir is the wife of lögmaður <name type="person" key="BenTho001">Benedikt
+                                    Þorsteinsson</name>; <name type="person" key="ThoBen001">Þorsteinn Benediktsson</name> is her
+                                son. <name type="person" key="ThoJon005">Þorsteinn Jónsson</name>, student, may have been the man who
+                                married the daughter of séra <name type="person" key="JonJon070">Jón Jónsson</name> of <name type="place">Helgastaðir</name>, the tutor of Þorsteinn Benediktsson above. The manuscript
+                                came to the Advocates' Library after <date>1830</date>.
+                            </p></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>Tereza Lansing's original work.</change>
+            <change when="2013-04-16" who="#PTL">Adapted file to FAS project's format.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+</TEI>

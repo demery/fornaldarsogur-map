@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Lbs 896 4to</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Lbs04-0896-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>Lbs 896 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="later">
+                     <titlePart>Ein nytsa[mle]g sögu- og rímnabók, til fróðleiks og skemmtunar af
+                        ýmsum samanteknar af fornum fræðibókum og framandi ritgjörðum, hefur að gjöf
+                        lögréttumannsins monseiur [sic] Thorkels Jónssonar anno 1791 þann 15.
+                        janúari með réttu eignast Sigríður sál. Sigurðardóttur [sic] Hansen
+                     </titlePart>
+                  </titlePage>
+                  <msItem n="1" class="regist">
+                     <locus from="2r" to="2v"/>
+                     <title type="supplied">Efnisyfirlit</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="almb tyd">
+                     <locus from="3r" to="12v"/>
+                     <title type="uniform">Virgilíus saga</title>
+                     <colophon>„Skrifuð að nýju þann 24. febrúar anno 1756 af Þorkeli Jónssyni
+                        (12v)“</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="almb tyd">
+                     <locus from="13r" to="45v"/>
+                     <title type="uniform">Pontanus saga og Diocletianus</title>
+                     <title type="uniform">Sjö meistara saga</title>
+                     <colophon>Var að nýju skrifuð á Hrauni í Grindavík af Þorkeli Jónssyni 1757 d.
+                        14 Marti</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="45v" to="60r"/>
+                     <title ref="#hs" type="uniform">Hervarar saga og Heiðreks</title>
+                     <incipit>Svo finnst ritað í fornum bókum að Jötunheimar voru kallaðir norður um
+                        Gandvík en fyrir sunnan Hundingsland ...</incipit>
+                     <explicit>... illur er dómur norna.</explicit>
+                     <colophon>Nú að nýju skrifuð anno 1758 dag 21. febrúar af Þorkeli Jónssyni á
+                        Hrauni í Grindavík </colophon>
+                     <note>See: The Uppsala edition from 1672</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="almb tyd">
+                     <locus from="60r" to="64r"/>
+                     <title type="supplied">Samtal stallsystra, Barböru og Agötu</title>
+                     <colophon>Anno 1758 d. 3. marti </colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="fas">
+                     <locus from="64v" to="83v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <incipit>Logi hefur kóngur heitið, hann réði fyrir því héraði er liggur í
+                        norður frá Noreg ...</incipit>
+                     <explicit>Þess er getið í fornum sögum að Haraldur kesja hafi hefnt föður síns
+                        og drepið Jökul á Vallandi í orustu og lýkur hér svo að segja frá Þorsteini
+                        og félögum hans.</explicit>
+                     <colophon>Skrifað af Þorkeli Jónssyni á Hrauni í Grindavík anno 1758. d. 5.
+                        september</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="rimur">
+                     <locus from="83v" to="91v"/>
+                     <title type="uniform">Sigurðar rímur fóts og Ásmundar Húnakóngs</title>
+                     <author key="GunOla001">Gunnar Ólafsson</author>
+                     <note>5 rímur</note>
+                     <note>Composed 1758</note>
+                     <colophon>Endað að skrifa dag 16. augústi 1759 á Hrauni í Grindavík af Þorkeli
+                        Jónssyni</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="rimur">
+                     <locus from="92r" to="138v"/>
+                     <title type="uniform">Grettis rímur</title>
+                     <author key="KolGri001">Kolbeinn Grímsson</author>
+                     <note>20 rímur.</note>
+                     <note>Composed in 1658.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="isl">
+                     <locus from="139r" to="154r"/>
+                     <title type="uniform">Bárðar saga Snæfellsáss</title>
+                     <colophon>Endað að skrifa dag 4. desember anno 1762 af Þorkeli Jónssyni á
+                        Hrauni í Grindavík </colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="10" class="rimur">
+                     <locus from="154r" to="169r"/>
+                     <title type="uniform">Líbertíns rímur Ölvis</title>
+                     <author key="GunOla001">Gunnar Ólafsson</author>
+                     <note>8 rímur.</note>
+                     <colophon>Hér endast rímur af Líbertín og Ölver ortar og endaðar í Selvogi dag
+                        9da nóvember 1762 af Gunnari Ólafssyni. Nú að nýju skrifaðar dag 3. maí 1763
+                        af Þorkeli Jónssyni á Hrauni í Gr</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="11" class="kvad">
+                     <locus from="168v" to="175r"/>
+                     <title type="uniform">Þegjandi dans</title>
+                     <colophon>Skrifað anno MDCCLXIII, dag XV. október af Þorkeli Jónssyni á Hrauni
+                        í Grindavík</colophon>
+                     <note>After the colophon are some verses that are missing from the poem.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="12" class="rimur">
+                     <locus from="175r" to="179v"/>
+                     <title type="uniform">Ingibjargar rímur kóngsdóttur</title>
+                     <author>Jón</author>
+                     <note>The authors name is intwined in the end og 2. ríma: Jón but not clear
+                        which one. Those have been mentioned: Jóni á Laugarvatni, Jóni á Gufuskálum,
+                        sr. Jóni Guðmundssyni í Reykjadal eða Jóni Þorsteinssyni úr Fjörðum.</note>
+                     <note>2 rímur.</note>
+                     <colophon>Endað að skrifa dag 1. marti 1767</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="13" class="rimur">
+                     <locus from="179v" to="184r"/>
+                     <title type="uniform">Lúcíus rímur flóttamanns</title>
+                     <author key="JonTho032">Jón Þorsteinsson úr Fjörðum</author>
+                     <note>2 rímur.</note>
+                     <colophon>Skrifað anno 1767</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="14" class="rimur">
+                     <locus from="184r" to="189r"/>
+                     <title type="uniform">Ævintýri af tveim konum</title>
+                     <rubric>Rímur tvær af tveimur konum</rubric>
+                     <note>The author is Jón according to the penultimate verse.</note>
+                     <colophon>Endað að skrifa á Hrauni í Grindavík dag 21. marti 1767 af Þorkeli
+                        Jónssyni</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="15" class="rimur">
+                     <locus from="188r" to="202v"/>
+                     <title type="uniform">Ármanns rímur</title>
+                     <author key="JonGud003">Jón Guðmundsson</author>
+                     <note>8 rímur.</note>
+                     <colophon>Endað að skrifa dag 8. desember, anno 1769 á Hrauni í Grindavík af
+                        Þorkeli Jónssyni</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="16" class="ridd">
+                     <locus from="202v" to="224v"/>
+                     <title type="uniform">Úlfars saga sterka</title>
+                     <colophon>Endað að skrifa d. 20. jan<ex>úar</ex> 1774.</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="17" class="tyd sagnfr">
+                     <locus from="224r" to="234r"/>
+                     <title type="supplied">Lukkunnar forsvar</title>
+                     <colophon>Skrifað 1774 d. 31. desember</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="18" class="tyd sagnfr">
+                     <locus from="233r" to="243v"/>
+                     <title type="supplied">Sannferðug undirrétting um heimullega samtök</title>
+                     <rubric>Sannferðug undirrétting um þau heimuglegu samtök sem lukkulega urðu
+                        opinber nóttina milli þess 16da og 17da jan. 1772 þegar fyrir guðs forsjón
+                        einni yfirhangandi ólukk varð af vent frá þeim konunglega stað Kaupenhavn og
+                        öllum kóngsins ríkjum og löndum ásamt með stuttri og sannferðugri
+                        undirréttingu um E. Brandt og J. F. Struenses aumkunarlega þó sáluhjálplega
+                        endalykt og síðasta útstandandi dauðastraff. Prentað í Kaupenhavn
+                        1772</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="19" class="rimur">
+                     <locus from="242v" to="263r"/>
+                     <title type="uniform">Elenu rímur</title>
+                     <author key="GunOla001">Gunnar Ólafsson</author>
+                     <note>11 rímur.</note>
+                     <colophon>Hér endar rímur af Elena sorgmæddu kveðnar af Gunnari Ólafssyni og
+                        eftir hans eigin hendi skrifaðar af Þorkeli Jónssyni á Kirkjuvogi í Höfnum
+                        anno 1777, dag 17. desember</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="20" class="avint">
+                     <locus from="263r" to="264v"/>
+                     <title type="supplied">Ævintýr af Virga vígtama</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="21" class="avint">
+                     <locus from="264v" to="265r"/>
+                     <title type="supplied">Ævintýri af kristnun kóngs í Afríku</title>
+                     <colophon>1777</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="22" class="avint">
+                     <locus from="265r" to="265r"/>
+                     <title type="supplied">Ævintýri af þýskum kaupmanni</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="23" class="riddst">
+                     <locus from="265v" to="293v"/>
+                     <title type="uniform">Líkafróns saga og kappa hans</title>
+                     <colophon>Og endar hér sögu Líkafróns d. 19. október 1778</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="24" class="avint">
+                     <locus from="293v" to="305r"/>
+                     <title type="uniform">Sagan af Sindbað sæfara</title>
+                     <note>From the Arabian Nights</note>
+                     <colophon>Endað að skrifa d. 24. desember 1778 af Þ Jsyni</colophon>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="25" class="skalds">
+                     <locus from="304r" to="319v"/>
+                     <title type="uniform">Parmes saga loðinbjarnar</title>
+                     <author key="JonBja002">Jón Bjarnason</author>
+                     <colophon>Endað að skrifa dag 8. janúari anno 1779 af Þorkeli
+                        Jónssyni</colophon>
+                     <note>17779 in the manuscript corrected to 1779.</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="26" class="sendbr annal">
+                     <locus from="320r" to="321v"/>
+                     <title type="supplied">Eitt sendibréf skrifað 1763</title>
+                     <note>Foreign news</note>
+                     <note>The end is missing</note>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="3"/>
+                           <num type="book-block" value="322"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="200"/>
+                              <width unit="mm" quantity="152"/>
+                           </dimensions>
+                           <watermark ana="yes"/>
+                        </support>
+                        <foliation ana="contemporary fol">
+                           <p>Quires counted, A i - Eeee iiij (3r-322r).</p>
+                        </foliation>
+                        <foliation ana="later pag"/>
+                        <condition ana="poor">Leaves damaged from wear and tear both at the
+                           beginning and end.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="27 28"><!-- verse-prose/separate? -->
+                           <num type="wpl" atLeast="16" atMost="19"/>
+                           <dimensions type="written">
+                              <height unit="mm" quantity="185"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribeRef="#ThoJon018" scope="sole" script="kurrent"/>
+                     <handNote scribeRef="unknown" scope="minor" script="hum cursiva">Leaves 1 and
+                        two in a different and younger hand</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="initial">Decorated initials in places</decoNote>
+                     <decoNote type="vignette" subtype="tailpiece">Many tailpieces</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>On front-flyleaf 3r-3v, a later added leaf, there is an extra table of contents
+                        in a 20th century hand. There is also a little slip with a note containing information on when and from
+                        whom the manuscript was purchased by the National library.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="moderate" contemporary="false">
+                        <p>Leather spine</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS"/>
+                     <origDate from="1756" to="1779">1756-1779?</origDate>
+                  </origin>
+                  <provenance>
+                     <name type="person" key="ThoJon018" role="owner"/>
+                     <name type="person" key="SigSig010" role="owner"/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:37.39+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:49.389+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:43:07.544+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+         <change when="2011-05-07T19:18:41.299+02:00" who="#EAH"> Extracted layout data from
+            previous version. </change>
+         <change when="2012-06" who="#SK">Added information from the digitised images and XML-file
+            on handrit.is and other sources</change>
+         <change when="2012-09" who="#SK">Added the last bit of information from the manuscript
+            itself.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

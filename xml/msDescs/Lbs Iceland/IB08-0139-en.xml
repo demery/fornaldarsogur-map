@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>ÍB 139 8vo</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="IB08-0139-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#LBS">Landsbókasafn Íslands, Reykjavík</repository>
+                  <idno>ÍB 139 8vo</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="no"/>
+                  <msItem n="1" class="riddst forns">
+                     <locus from="1r" facs="#IB08-0139-0001r" to="34r">1r-34r</locus>
+                     <title type="uniform">Líkafróns saga og kappa hans</title>
+                     <rubric>Sagan af Lycofron og hans fylgjurum </rubric>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="ridd">
+                     <locus from="34r" facs="#IB08-0139-0034r" to="74r">34r-74r</locus>
+                     <title type="uniform">Vilhjálms saga sjóðs</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="3" class="ridd">
+                     <locus from="74v" facs="#IB08-0139-0074v" to="91r">74v-91r</locus>
+                     <title type="uniform">Fertrams saga og Platós</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="4" class="fas">
+                     <locus from="91v" facs="#IB08-0139-0091v" to="101v">91v-101v</locus>
+                     <title ref="#hse" type="uniform">Hálfdanar saga Eysteinssonar</title>
+                     <rubric>Sagan af Hálfdani Eysteinssyni</rubric>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="5" class="ridd">
+                     <locus from="101v" facs="#IB08-0139-0101v" to="137r">101v-137r</locus>
+                     <title type="uniform">Sigurðar saga þögla</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="6" class="islt">
+                     <locus from="137v" facs="#IB08-0139-0137v" to="142r">137v-142r</locus>
+                     <title type="uniform">Jökuls þáttur Búasonar</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="7" class="damis">
+                     <locus from="143r" facs="#IB08-0139-0143r" to="147r">143r-147r</locus>
+                     <title type="uniform">Jónatas ævintýri</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="8" class="avint">
+                     <locus from="147r" facs="#IB08-0139-0147r" to="149v">147r-149v</locus>
+                     <title type="supplied">Ævintýri</title><!-- not very specific... -->
+                     <textLang mainLang="non"/>
+                  </msItem>
+                  <msItem n="9" class="islt">
+                     <locus from="149v" facs="#IB08-0139-0149v" to="150v">149v-150v</locus>
+                     <title type="uniform">Þorsteins þáttur sögufróða</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                         <!--  <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="150"/>
+                           <!--<num type="back-flyleaf" value=""></num>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="161"/>
+                              <width unit="mm" quantity="103"/>
+                           </dimensions>
+                           <!--<watermark ana=""></watermark>-->
+                        </support>
+                        <foliation ana="fol later">In pencil from the time of restoration</foliation>
+                        <condition ana="average"/>
+                     </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="28 30">
+                        <num type="wpl" atLeast="10" atMost="12"/>
+                        <!--<dimensions type="written">
+                        <height unit="mm" quantity=""/>
+                           <width unit="mm" quantity=""/>
+                        </dimensions>-->
+                        <catchwords ana="yes">Every other page verso-side</catchwords>
+                     </layout>
+                  </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">     
+                     <handNote scribeRef="unknown" scope="sole" script="unknown"/>
+                  </handDesc>
+                  <decoDesc ana="low">
+                  <decoNote type="initial">Initals and headings</decoNote> 
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>On fol. <locus from="150v" facs="#IB08-0139-0150v" to="150v">150v</locus>,
+                       there is the name: <q>Sigurður Þorkel<gap/></q> (might be the scribe) but there are also the names
+                        <q>Ólafur
+                        Jónsson</q> and <q>Jón Vigfússon</q> as well as <q>anno 1832</q></p>
+                  </additions>
+                 <!-- <bindingDesc>
+                     <binding ana="" contemporary="">
+                    <p></p>
+                  </binding>
+                  </bindingDesc> -->   <!--  it is likly that there is a binding kept separately and then it would be: Leather covered wooden boards, moderate -->
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace key="IS">Ísland</origPlace>
+                     <origDate from="1824" to="1826">1824-1826</origDate>
+                  </origin>
+                  <!--<provenance></provenance>-->
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:13:02.604+02:00" who="#EAH"> Created as subset of full file on
+            handrit.is.</change>
+         <change when="2011-05-06T17:53:12.268+02:00" who="#EAH"> Introduced repository auth file.
+            Updated repository element pointing, adding @ref and removing @key. </change>
+         <change when="2011-05-07T18:42:33.3+02:00" who="#EAH"> Extracted pagination and page
+            dimension data from previous version. </change>
+            <change when="2013-04-25" who="#SK">Added information from the digital version of the manuscript on handrit.is. </change>
+         <!-- Dimensions, binding, flyleaves missing -->
+         <change when="2013-08-15" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

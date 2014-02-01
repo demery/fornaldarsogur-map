@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>GKS 1003 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS02-1003-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>GKS 1003 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary"><note>partly scratched out by Björn Þorleifsson</note>
+                  </titlePage>
+                  <msItem n="1" class="fas">
+                     <locus from="1v" to="24v"/>
+                     <title ref="#hsg" type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="25r" to="48v"></locus>
+                     <title ref="#ghs" type="uniform">Göngu-Hrólfs saga</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+                  <msItem n="3" class="fas">
+                     <locus from="49r" to="63v"/>
+                     <title ref="#thsv" type="uniform">Þorsteins saga Víkingssonar</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+                  <msItem n="4" class="isl">
+                     <locus from="65r" to="110v"/>
+                     <title type="uniform">Njáls saga</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+                  <msItem n="5" class="isl">
+                     <locus from="110v" to="124r"/>
+                     <title type="uniform">Finnboga saga ramma</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+                  <msItem n="6" class="isl">
+                     <locus from="124v" to="132v"/>
+                     <title type="uniform">Þórðar saga hreðu</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+                  <msItem n="7" class="isl">
+                     <locus from="133r" to="139r"/>
+                     <title type="uniform">Kjalnesinga saga</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+                  <msItem n="8" class="islt">
+                     <locus from="139r" to="141r"/>
+                     <title type="uniform">Jökuls þáttur Búasonar</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+                  <msItem n="9" class="islt">
+                     <locus from="141r" to="144r"/>
+                     <title type="uniform">Orms þáttur Stórólfssonar</title>
+                     <textLang mainLang="non"></textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                         <!--  <num type="front-flyleaf" value=""/>-->
+                           <num type="book-block" value="144"/>
+                         <!--  <num type="back-flyleaf" value=""/>-->
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="310"/>
+                              <width unit="mm" quantity="240"/>
+                           </dimensions>
+                        </support>
+                        <foliation ana="later fol"/>                        
+                        <condition ana="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-prose" columns="2" writtenLines="32 36">
+                           <num type="wpl" atLeast="19" atMost="25"/>
+                          <!-- <dimensions type="written">
+                                 <height unit="mm"/> <!-\- add quantity -\->
+                              <width unit="mm"/>  <!-\- add quantity -\->
+                           </dimensions>-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribeRef="unknown" scope="sole" script="textualis"/>
+                  </handDesc>
+                  <decoDesc ana="high">
+                     <decoNote type="initial">Decorated titles and initials at chapter beginnings throughout.</decoNote>
+                  </decoDesc>
+                  <additions ana="low">
+                     <p>Table of contents by <name key="ArnMag001" type="person" role="scholar">Árni Magnússon</name> at the front.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding ana="decorative" contemporary="true">
+                        <p>Red velvet binding</p>
+                        <p>The binding dimensions are: 
+                           <height>320</height>mm x
+                           <width>270</width>mm x
+                           <depth>100</depth>mm
+                        
+                        </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1650" notAfter="1692"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript and its first part, <ref target="#GKS02-1002-en">GKS 1002 fol.</ref>, were 
+                        written for <name type="person" key="JonEyj005" role="commissioner">Jón Eyjólfsson of <name type="place">Eyvindarmúli in Fljótshlíð</name>
+                        </name>. They came to <name type="place">Copenhagen</name>
+                        about twenty years after they were written. The two volumes vere
+                        presented to <name type="person" role="owner" key="Kri002">king Christian V</name> by reverend
+                        <name type="person" role="owner" key="BjoTho004">Björn Þorleifsson</name>.
+                        They were returned to Iceland in 1971.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-20T19:52:20.934+02:00" who="#EAH">Auto-generated from FASNL bibliography data</change>
+         <change when="2011-05-06T17:53:03.728+02:00" who="#EAH">Introduced repository auth file. Updated repository element pointing, adding @ref and removing @key.</change>
+         <change when="2013-07-08" who="#SMM">Added information from black and white pictures from the Arnamagnæaen collection in Copenhagen.</change>
+         <change when="2013-07-17" who="#BES">Added layout, binding and provenance info.</change>
+         <!-- info on fly leaves and writing surface missing -->
+         <change when="2013-08-23" who="#BES">Proofread.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

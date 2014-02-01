@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>AM 1 b fol.</title>
+         </titleStmt>
+
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc xml:id="AM02-0001b-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMDK">Den Arnamagnæanske Samling, Copenhagen</repository>
+                  <idno>AM 1 b fol.</idno>
+               </msIdentifier>
+
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="10"/>
+                           <num type="back-flyleaf" value="1"/>
+                           
+                           <watermark ana="yes">Monogram (JVC?) topped with crown visible on second front flyleaf.</watermark>
+                           
+                        </support>
+                        
+                        <foliation ana="fol pag">
+                           <p>One modern and one earlier (but not contemporary?) flyleaf at the front and one modern flyleaf at the rear 
+                              of volume. Foliated in red ink in upper corners of recto leaves and in pencil in lower corners of recto leaves.
+                              Paginated in upper margins.</p>
+                        </foliation>
+                        
+                        <condition ana="average">
+                           <p>Several leaves repaired. Traces of earlier marginalia visible in upper corner of fol. 1v. Small packet
+                              of fragments containing text (preserved during conservation) housed with MS.</p>
+                        </condition>
+                        
+                     </supportDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands="4">
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">
+                        <p>Scribe I (fols. 1-2): Unknown.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="chancery">
+                        <p>Scribe II (fols. 3-4): Unknown.</p>
+                     </handNote>
+                     <handNote scribeRef="unknown" scope="minor" script="kurrent">
+                        <p>Scribe III (fol. 5): Unknown.</p>
+                     </handNote>
+                     <handNote scribeRef="#ThoKla001" scope="major" script="cursiva">
+                        <p>Scribe IV (fols. 6-10): Þorleifur Clausson of Útskálar (cf. note on fol. 5v).</p>
+                     </handNote>
+                  </handDesc>
+                  
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Bound in modern (20th c.) beige and tan linen over paper boards.</p>
+                     </binding>							
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  <provenance>
+                     <p>Compiled by <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> from three (cf. Kålund)
+                        or four different manuscripts.</p>
+                  </provenance>
+               </history>
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 1 b I fol.</idno>
+                  </altIdentifier>
+
+                  <msContents>
+                     <titlePage ana="no"/>
+
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="1r:1" to="2v:31"/>
+                        <title ref="#snfdsv" type="uniform">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Af nockrum fornkongum i Dana <ex>og</ex> Suiavelde Yvari vydfadma Hrareke Helga inu<ex>m</ex>
+                        huassa Harande[sic] Hilldeton<ex>n</ex> med Bravallar Bardaga <ex>og</ex> nockud af Sigurde hring epter þui
+                        sem fundist[?] hafa ritud a nidlags saurblada rifrilldum.</rubric>
+                        <incipit>Se eg ad þetta mäl þarf ad litt</incipit>
+                        <explicit defective="true">og let sem han<ex>n</ex> sæc h<ex>an</ex>n</explicit>
+
+                        <filiation>
+                           <p>Fragmentary copy of of <ref type="ms" target="#AM02-0001a-en" ana="antigraph">AM 1 a fol.</ref>
+                           </p>
+                        </filiation>
+                        
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="2"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="300"/>
+                                 <width unit="mm" quantity="200"/>
+                              </dimensions>
+                              
+                              <watermark ana="unknown"/>
+                              
+                           </support>
+
+                        </supportDesc>
+
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="31">
+                              <num type="wpl" atLeast="11" atMost="12"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="240"/>
+                                 <width unit="mm" quantity="140"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+
+                     <additions ana="low">
+                        <p>In the margin of fol. 1r <name type="person" key="ArnMag001">Árni Magnússon</name> has written: <q xml:lang="la">Corruptissimum Exemplar 
+                              <ex>et</ex> nullius momenti</q>.</p>
+                     </additions>
+
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p>Written in <origPlace key="IS">Iceland</origPlace> in the <origDate notBefore="1600" notAfter="1699">seventeenth
+                           century</origDate>.</p>
+                     </origin>
+
+                  </history>
+               </msPart>
+               
+               <msPart>
+               
+                  <altIdentifier>
+                     <idno>AM 1 b II fol.</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <titlePage ana="no"/>
+                     
+                     <msItem n="1" class="fas" defective="true">
+                        <locus from="3r:1" to="4v:30"/>
+                        <title ref="#snfdsv" type="uniform">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                        <textLang mainLang="non"/>
+                        <rubric/>
+                        <incipit defective="true">eic[?] þa seiger Hrærek ad han<ex>n</ex> hefur lätid bua veizlu</incipit>
+                        <explicit defective="true">siglir huer til syns lands og</explicit>
+                        
+                        <filiation>
+                           <p>According to Kålund (Kat, I:2), this is copied from <ref type="ms" target="#AM02-0001a-en" ana="antigraph">AM 1 a fol.</ref>
+                           </p>
+                        </filiation>
+                        
+                        <note>One line of text supplied (in a contemporary hand?) at the beginning of fol. 4r:
+                        <q>þa var hun gipt h<ex>onu</ex>m med räde Harallds</q></note>
+                        
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="2"/>
+                              <num type="back-flyleaf" value="0"/>
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="300"/>
+                                 <width unit="mm" quantity="200"/>
+                              </dimensions>
+                              
+                              <watermark ana="unknown"/>
+                              
+                           </support>
+                           
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="30">
+                              <num type="wpl" atLeast="10" atMost="12"/>
+                              
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="240"/>
+                                 <width unit="mm" quantity="145"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                        
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p>Written in <origPlace key="IS">Iceland</origPlace> in the <origDate notBefore="1600" notAfter="1699">seventeenth
+                           century</origDate>.</p>
+                     </origin>
+                     
+                  </history>
+               </msPart>
+               
+               <msPart>
+                  
+                  <altIdentifier>
+                     <idno>AM 1 b III fol.</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     <msItem n="1" class="fas">
+                        <locus from="5r:1" to="5v:12"/>
+                        <title ref="#snfdsv" type="uniform">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                        <textLang mainLang="non"/>
+                        <rubric/>
+                        <incipit defective="true">landz og er þetta spir Rädbert</incipit>
+                        <explicit>en<ex>n</ex> an<ex>n</ex>ar Þrandur hin<ex>n</ex> gamle</explicit>
+                        
+                        <filiation>
+                           <p>According to Kålund (Kat, I:2), this is an indirect copy of 
+                              <ref type="ms" target="#AM02-0001a-en" ana="protograph">AM 1 a fol.</ref>
+                           </p>
+                        </filiation>
+                        
+                        <note>Near the bottom of fol. <locus>5r</locus> the scribe has inserted a note into the text: 
+                           <q xml:lang="is">her wantar mikid v<ex>id</ex> fram<ex>m</ex> ad elli dogum Haralldz kongs</q>.</note>
+                        
+                        <note>After line 12 on fol. 5v is another scribal note: <q xml:lang="is">
+                              <del>Hier effter ä ad setiast Brä vallar bardagi s<ex>e</ex>m seiger frä Dauda
+                                 haralldar hilldi Tan<ex>n</ex>ar</del></q>. This note has later been struck-through by 
+                           <name type="person" key="ArnMag001">Árni Magnússon</name>, who has added <q xml:lang="is">
+                              <add place="above" hand="ArnMag001">Bravallar</add></q>.
+                           A note in a later hand following the text reads: <q>Þesse bok a heidurlegur kien<ex>n</ex>eman<ex>n</ex>
+                           s<ex>era</ex> Þrolffur[?] Claussuns</q>.
+                        
+                        </note>
+                        
+                     </msItem>
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="1"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="310"/>
+                                 <width unit="mm" quantity="200"/>
+                              </dimensions>
+                              
+                              <watermark ana="unknown"/>
+                              
+                           </support>
+                                                      
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="44">
+                              <num type="wpl" atLeast="12" atMost="14"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="260"/>
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                   </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <p>Written in <origPlace key="IS">Iceland</origPlace> in the <origDate notBefore="1600" notAfter="1699">seventeenth
+                           century</origDate>.</p>
+                     </origin>                     
+                  </history>
+                  
+               </msPart>
+                              
+               <msPart>
+                  <altIdentifier>
+                     <idno>AM 1 b IV fol.</idno>
+                  </altIdentifier>
+                  
+                  <msContents>
+                     
+                     <msItem n="1" class="konth" defective="true">
+                        <locus from="6r:1" to="6r:33"/>
+                        <title type="uniform">Hálfdanar þáttr svarta ok Haralds hárfagra</title>
+                        <textLang mainLang="non"/>
+                        <rubric/>
+                        <incipit defective="true">vid allar j þrötter mikid gieckst Haralldur wid til waxar og afllz</incipit>
+                        <explicit>allt þar til Olafur kongur Triggua so tok han<ex>n</ex> af so seiger i sógu
+                        han<ex>n</ex>z og endast so þessi þättur</explicit>
+                        
+                        <note>End of text only; struck-through.</note>
+                        
+                     </msItem>
+                     
+                     <msItem n="2" class="fas">
+                        <locus from="6r:34" to="10r:4"/>
+                        <title ref="#snfdsv" type="uniform">Sögubrot af nokkrum fornkonungum í Dana og Svíaveldi</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Bravallar bardage mille Haralldar k<ex>o</ex>ngs hilldetan<ex>n</ex>ar og Sigurdar hryngs</rubric>
+                        <incipit>Þar er Haralldur k<ex>ongur</ex> hilldetón<ex>n</ex> var ordin<ex>n</ex> so gamall</incipit>
+                        <explicit>vm<ex>m</ex> þad folck er Allfar kallast vare miklu frydara en<ex>n</ex>[?] øn<ex>n</ex>ur man<ex>n</ex>kynd
+                        a nordur londum.</explicit>
+                        <finalRubric>Og end<ex>ar</ex> hier sa Bravallar bardaga.</finalRubric>
+                        
+                     </msItem>
+                     
+                  </msContents>
+                  
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <num type="front-flyleaf" value="0"/>
+                              <num type="book-block" value="5"/>
+                              <num type="back-flyleaf" value="0"/>
+                              
+                              <dimensions type="leaf">
+                                 <height unit="mm" quantity="310"/>
+                                 <width unit="mm" quantity="200"/>
+                              </dimensions>
+                              
+                              <watermark ana="yes"/>
+                              
+                           </support>
+                           
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout ana="verse-prose" columns="1" writtenLines="34">
+                              <num type="wpl" atLeast="7" atMost="9"/>
+                              <dimensions type="written">
+                                 <height unit="mm" quantity="240"/>
+                                 <width unit="mm" quantity="150"/>
+                              </dimensions>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                  </physDesc>
+                  
+                  <history>
+                     <origin>
+                        <p>Written in <origPlace key="IS">Iceland</origPlace> in the <origDate notBefore="1600" notAfter="1699">seventeenth
+                           century</origDate>.</p>
+                     </origin>                     
+                  </history>
+                  
+               </msPart>
+               
+               
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2011-04-11T12:11:38.53+02:00" who="#EAH"> Created as subset of full file on handrit.is.</change>
+         <change when="2011-05-06T17:51:58.46+02:00" who="#EAH"> Introduced repository auth file. Updated repository element pointing, adding @ref and
+            removing @key. </change>
+         <change when="2011-05-07T18:41:23.276+02:00" who="#EAH"> Extracted pagination and page dimension data from previous version. </change>
+         <change when="2011-05-07T19:17:02.981+02:00" who="#EAH"> Extracted layout data from previous version. </change>
+         <change when="2013-07-03" who="#JSL">Added template elements and supplied details from Kålund.</change>
+         <change when="2013-07-10" who="#JSL">Cataloged from manuscript.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

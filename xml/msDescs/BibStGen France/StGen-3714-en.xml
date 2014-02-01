@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">	<teiHeader type="text">
+		<fileDesc>
+			<titleStmt>
+				<title>Bibliothèque Sainte-Geneviève MS. 3714</title>
+			</titleStmt>
+			
+			<publicationStmt>
+				<availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+				<authority>Den Arnamagnæanske Samling, København</authority>				
+			</publicationStmt>
+			
+			<sourceDesc>
+					<msDesc xml:id="StGen-3714-en" xml:lang="en">
+					<msIdentifier>
+						<repository ref="#StGen">Bibliothèque Sainte-Geneviève, Paris</repository>
+						<idno>MS. 3714</idno>
+					</msIdentifier>
+					
+					<msContents>
+						
+						<titlePage ana="no">
+							
+						</titlePage>
+						
+						<msItem n="1" class="fas">
+							<locus from="1r:1" to="108v:22"/>  							
+							<title type="uniform" ref="#vs">Völsunga saga <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Völsunga saga</rubric>
+							<incipit>Ici commence (la saga) et elle parle d'un homme appelé Sigi</incipit>
+							<explicit>Maintenant <add place="inline">Áslaug</add> grandit-elle là 
+								dans une extréme pauvreté.</explicit>
+													
+							<note>Fols. 102v-108v contain: table of names and persons, 
+							chapter summaries, table of placenames</note>
+							<note>Note on fol. 1r reads: <q>Edition Ernst Wilhelm (Paderborn 1877), Edition 
+							Reykjavík (1891), traduction: Eiríkur Magnusson et William Morris (anglais) 
+							(London)</q></note>
+													
+						</msItem>
+						
+						<msItem n="2" class="fas">
+							<locus from="109r:1" to="152v:18"/>  							
+							<title type="uniform" ref="#rsl">Ragnars saga loðbrókar <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Saga de Ragnarr <del type="strikethrough">lodhbrók</del> <add place="above">loðbrók</add> 
+								et de ses fils</rubric>
+							<incipit>Il y avait en Gautland un jarl puissant et fameux</incipit>
+							<explicit>ils en parleient à cealdy honeurs.</explicit>
+							<!-- illegible -->
+								
+						
+							<note>
+							Fols. 150v-152v contain: table of names and persons. 
+							Loose leaf between fols. 121 and 122 in Old Norse with
+							rubric "Óláfr Tryggvason [88.89]". Chapter 89 is called 
+							"Frá Eríki jarli Hákonarsyni". Notes on the back.</note> 
+							
+						</msItem>
+						
+						<msItem n="3" class="kvad">
+							<locus from="153r:1" to="160v:31"/>  							
+							<title type="uniform">Krákumál <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Le Krákumál</rubric>
+							<incipit>Nous avons frappé avec l'épée!</incipit>
+							<explicit>en souriant je vais mourir.</explicit>
+							
+							
+							<note>
+							Fol. 160v contains: table of names and persons.</note> 
+							<note>Fol 153r reads: <q>d'après l'édition des "Fornaldar sögur norðurlanda" publiée en 1891
+							à Reykjavík par Valdimar Ásmundarson</q></note>
+						
+							
+						</msItem>
+						
+						<msItem n="4" class="fas">
+							<locus from="161r:1" to="176v:19"/>  							
+							<title type="uniform" ref="#rth">Ragnarssona þáttur <note>(French)</note></title>
+							<title type="parallel">Ragnarssona þáttr</title>
+							<textLang mainLang="fr"/>
+							<rubric>Þáttr af Ragnars sonum</rubric>
+							<incipit>Aprés la morte du roi Hringr son fils Ragnarr</incipit>
+							<explicit>supréme de toute la Nóregr.</explicit>
+							
+							
+							<note>
+							Fols. 172v-176v contain: table of names and persons, placenames	
+							</note> 
+							<note>Fol 161r reads: <q>dans les Fornaldarsögur norðurlanda edition Valdimar Ásmundarson.
+							Reykjavik 1891.</q></note>
+							
+						</msItem>
+						
+						<msItem n="5" class="fas">
+							<locus from="177r:1" to="200v:32"/>  							
+							<title type="uniform" ref="#ngth">Norna-Gests þáttur <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Sǫgu-tháttr af Nornagesti</rubric>
+							<incipit>On dit qu'une fois, pendant que le roi Óláfr</incipit>
+							<explicit>24 jours de sa vie.</explicit>
+							
+						
+							<note>
+							Fols. 197v:19-200v:32 contain tables.	
+							</note> 
+							<note>Fol. 177r reads: <q>d'après l'édition de Ernst Wilhelm (Paderborn 1877)</q></note>
+							
+						</msItem>
+						
+						<msItem n="6" class="fas">
+							<locus from="201r:1" to="215v:8"/>  							
+							<title type="uniform" ref="#hsh">Sörla þáttur <note>(French)</note></title>
+							<textLang mainLang="fr"/>
+							<rubric>Sǫrla Þáttr</rubric>
+							<incipit>En l'est du Vanakvísl, en Asía</incipit>
+							<explicit>chez lui dans son royaume.</explicit>
+							
+							
+							<note>
+							Fols. 213v-216v contain: table of names and person, placenames	
+							</note> 
+							<note>Fol 201r reads: <q>dans Fornaldar sögur Norðurlanda Tome 1. Edition Reykjavik.</q></note>
+							
+						</msItem>
+						
+						<msItem n="7" class="kon">
+							<locus from="217r:1" to="278v:27"/>  							
+							<title type="uniform">Heimskringla <note>(Extracts, French)</note></title>
+							<textLang mainLang="fr"/>
+													
+							<msItem n="7.1" class="kon">
+								<locus from="217r:1" to="218v:22"/>  							
+								<title type="uniform">Prologue <note>(French)</note></title>
+								<textLang mainLang="fr"/>
+								<rubric>Prologue</rubric>
+								<incipit>Dans ce livre j'ai fait écrire les anciens récits</incipit>
+								<explicit>et interprétés avec sagacite.</explicit>
+								
+								
+								<note>
+								No commentary pages, translations on both sides of the leaf	
+								</note>
+								
+							</msItem>
+							
+							<msItem n="7.2" class="kon">
+								<locus from="219r:1" to="265r:4"/>  							
+								<title type="uniform">Ynglinga saga <note>(French)</note></title>
+								<textLang mainLang="fr"/>
+								<rubric>Ynglinga saga</rubric>
+								<incipit>L'orbe du monde qui habitent les peuples</incipit>
+								<explicit>fut appelé "heidhurs hæri."</explicit>
+							
+								<note>
+								Note on fol. 219r: <q>Edition Finnur Jónsson</q>	
+								</note> 
+														
+							</msItem>
+							
+							<msItem n="7.3" class="kon">
+								<locus from="265v:1" to="278v:27"/>  							
+								<title type="uniform">Hálfdanar þáttur svarta <note>(French)</note></title>
+								<textLang mainLang="fr"/>
+								<rubric>Saga de Hálfdan svarti</rubric>
+								<incipit>Hálfdan état âgé d'un hîver quand mourait son père.</incipit>
+								<explicit>tout appelé tertues de Hálfdan.</explicit>
+							
+								
+								<note>
+								Fols. 272v-278v contain: table of names and persons for
+								both Ynglinga saga and Hálfdanar saga svarta	
+								</note> 
+								
+							</msItem>
+							
+						
+						</msItem>
+							
+					</msContents>				
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">								
+								<support>
+									<num type="front-flyleaf" value="2"/>
+									<num type="book-block" value="278"/>
+									<num type="back-flyleaf" value="1"/>
+									
+									<dimensions type="leaf">
+										<height unit="mm" quantity="268"/>
+										<width unit="mm" quantity="207"/>
+									</dimensions>
+									
+									<watermark ana="no"/>
+									
+								</support>
+								
+								<foliation ana="contemporary fol">Two sets of foliation in the upper
+								outer corners. One in green pencil foliates continuously; one in black
+								ink enumerates each item.</foliation>
+								
+								<condition ana="good"/>
+									
+							</supportDesc>
+							<layoutDesc>
+								<layout ana="verse-prose" columns="1" writtenLines="1 32">									
+									
+									<num type="wpl" atLeast="1" atMost="12"/>
+									
+									<dimensions type="written">
+										<height unit="mm" quantity="245"/>
+										<width unit="mm" quantity="170"/>
+									</dimensions>
+								</layout>
+							</layoutDesc>
+							
+						</objectDesc>
+						
+						<handDesc hands="1">
+							<handNote scribeRef="#LouLeP001" scope="sole" script="hum cursiva"/>
+						</handDesc>
+						
+						<decoDesc ana="no"><decoNote/></decoDesc>
+						
+						<additions ana="no"/>
+						
+						<bindingDesc>
+							<binding ana="plain" contemporary="true">
+								<p>Bound in contemporary paper with laminate reinforcement</p>
+							</binding>							
+						</bindingDesc>
+						
+					</physDesc>
+					
+					<history>
+						<origin>
+							<origDate notBefore="1891"/>
+							<origPlace key="FR"/>
+							<!-- ref. to F. Jónsson ed. of Heimskringla may refer to 1911 edition? -->
+							<note>Written some time after 1891, the publication date of one
+								of the editions used to translate Völsunga saga</note>
+						</origin>
+						
+						<provenance>
+							<name key="LouLeP001" type="person" role="owner"/> 
+						</provenance>
+						
+					</history>					
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		<revisionDesc>
+			<change when="2013-01-18" who="#JSL">Generated record from Calames catalogue</change>
+			<change when="2013-02-16" who="#ANH">Catalogued from manuscript</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<surface/>
+	</facsimile>
+
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>
