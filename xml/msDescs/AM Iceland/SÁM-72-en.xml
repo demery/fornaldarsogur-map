@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://fornaldar.dyndns.org/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>SÁM 72</title>
+         </titleStmt>
+         <publicationStmt>
+            <availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distributed by the University of Copenhagen under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License.</licence></availability>
+            <authority>Den Arnamagnæanske Samling, København</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="SAM-72-en" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
+                  <idno>SÁM 72</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage ana="contemporary">
+                     <titlePart>Edda Sæmundar prests hins fróða.</titlePart>
+                     <titlePart>Nú að nýju skrifuð af Árna Böðvarssyni, anno
+                        1743.</titlePart>
+                     <titlePart>Edda Íslendinga.</titlePart>
+                     <titlePart>Samanskrifuð af spakvitrum Íslands fræðimeistara, Snorra
+                        Sturlusyni, með ágætum formála Guðmundar Andréssonar.</titlePart>
+                     <titlePart>Nú að nýju skrifuð af Árna Böðvarssyni, anno
+                        1743.</titlePart>
+                     <note>Two title pages.</note>
+                  </titlePage>
+                  <msItem n="1" class="edd bokmfr">
+                     <locus from="3r" to="82v">3r-82v</locus>
+                     <author key="SnoStu001">Snorri Sturluson</author>
+                     <title type="uniform">Edda</title>
+                     <title type="paralell">Snorra-Edda</title>
+                     <textLang mainLang="non" otherLangs="is"/>
+                     <rubric>Edda Íslendinga</rubric>
+                     <note>Additional items at the end.</note>
+                     <msItem n="1.1" class="edd bokmfr">
+                        <locus from="3r" to="82v">3r-82v</locus>
+                        <title type="supplied">Fyrri partur Eddu</title>
+                        <note>Introduction, Gylfaginning and on Snorri Sturluson.</note>
+                        <msItem n="1.1.1" class="formal">
+                           <locus from="3r" to="11v">3r-11v</locus>
+                           <title type="supplied">Formáli Guðmundar Andréssonar</title>
+                           <textLang mainLang="is"/>
+                           <rubric>Formáli Snorra-Eddu samsettur af Guðmundi Andréssyni</rubric>
+                           <author key="GudAnd001">Guðmundur Andrésson</author>
+                           <incipit>Þrennar finnast meiningar um það hvaðan Eddunafn hafi sín rök
+                              </incipit>
+                           <explicit>eftir fyrirsögn og formála sjálfs authoris Eddu, Snorra
+                              Sturlusonar</explicit>
+                        </msItem>
+                        <msItem n="1.1.2" class="formal">
+                           <locus from="12r" to="12r">12r</locus>
+                           <title type="supplied">Formáli Magnúsar Ólafssonar</title>
+                           <textLang mainLang="is"/>
+                           <author key="MagOla002">Magnús Ólafsson</author>
+                           <rubric>Edda Islandorum Anno Christi M.CC.XV. Primum conscripta per
+                              Snorronem Sturlæ. Filium Nomophylacem. Hvað Edda sé</rubric>
+                           <incipit>Edda er íþrótt af forndiktuðum fróðra manna dæmisögum og
+                              margfundnum heitum hlutanna,</incipit>
+                           <explicit>birtast með þeim formála eður Pologo sem eftir
+                              fylgir.</explicit>
+                        </msItem>
+                        <msItem n="1.1.3" class="formal">
+                           <locus from="12r" to="17r">12r-17r</locus>
+                           <title type="uniform">Prologus Snorra-Eddu</title>
+                           <textLang mainLang="non"/>
+                           <author key="SnoStu001">Snorri Sturluson</author>
+                           <incipit>Almáttugur Guð skapaði í upphafi himin og jörð og alla þá hluti
+                              sem þeim fylgja</incipit>
+                           <explicit>að þeirra tunga Asíumanna varð eigin tunga um öll þessi
+                              lönd.</explicit>
+                        </msItem>
+                        <msItem n="1.1.4" class="edd bokmfr">
+                           <locus from="17r" to="52r">17r-52r</locus>
+                           <title type="uniform">Gylfaginning</title>
+                           <textLang mainLang="non"/>
+                           <author key="SnoStu001">Snorri Sturluson</author>
+                           <rubric>Gylfaginning kap. 1 eður dæmisaga</rubric>
+                           <incipit>Gylfi kóngur réð þar löndum er nú heitir Svíþjóð</incipit>
+                           <explicit>svo sem sjá má og læra í seinna parti þessarar bókar, sem hér
+                              eftir fylgir.</explicit>
+                           <note>On the bottom of fol.
+                               <locus from="52r" to="52r">52r</locus> i a later note in pencil.</note>
+                        </msItem>
+                        <msItem n="1.1.5" class="bokmfr">
+                           <locus from="52v" to="52v">52v</locus>
+                           <textLang mainLang="la"/>
+                           <title type="supplied">Um Snorra Sturluson</title>
+                           <rubric>Snorre Sturlæ Filius natus eft.</rubric>
+                           <incipit>Anno Christi 1179</incipit>
+                           <explicit>cui nomen erat Urækia.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="1.2" class="edd bokmfr">
+                        <locus from="53r" to="77r">53r-77r</locus>
+                        <title type="supplied">Annar partur Eddu</title>
+                        <note>Kenningar, fornvísur.</note>
+                        <msItem n="1.2.1" class="edd bokmfr">
+                           <locus from="53" to="76r">53r-76r</locus>
+                           <title type="supplied">Um kenningar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Um kenningar</rubric>
+                           <incipit>Í hinum fyrra partinum voru ritaðar þær frásögur af hvörjum
+                              teknar eru að fornu og nýju</incipit>
+                           <explicit>Þang eður þara má kenna gras eður skóg sjóar eður fjöru eður
+                              skerja. Item eng sjóar. Fínís. Fínis.</explicit>
+                           <colophon>Nú eru kenningar hér skrifaðar en kunni nokkuð til að vanta má
+                              síðar inn setja. Enda eg svo þessa bók þann 19. january anno 1743.
+                              Árni Böðvarsson.</colophon>
+                           <note>The colophon is on fol. <locus from="76r" to="76r">76r</locus>.
+                           </note>
+                        </msItem>
+                        <msItem n="1.2.2" class="fornkv">
+                           <locus from="76v" to="77r">76v-77r</locus>
+                           <title type="supplied">Nokkrar fornvísur</title>
+                           <textLang mainLang="non"/>
+                           <note>On the otherwise blank leaf <locus from="77v" to="77v">77v</locus>is written: <q>Þessa bók á eg undirskrifaður með réttu og hún er mér
+                                 heimiluð af hennar réttum eiganda mr. <name type="person">Jóni
+                                    Sigurðssyni</name>, <name type="place">Hörðubóli</name> þann
+                                    <date when="1832-06-12" instant="false">12. júní 1832.</date> <gap/> J.
+                                 Grímsson.</q><q>Þessa bók Snorra- og Sæmundar-Eddur á eg
+                                 undirskrifaður, J Grímsson 1832.</q></note>
+                        </msItem>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" defective="true" class="edd hetkv">
+                     <locus from="78r" to="135v">78r-135v</locus>
+                     <title type="uniform">Sæmundar Edda</title>
+                     <title type="paralell">Sæmundar Edda hins fróða</title>
+                     <textLang mainLang="non"/>
+                     <rubric>Edda Sæmundar prests hins fróða</rubric>
+                     <note>A leaf or leaves seem to be missing in between <locus from="132v" to="133r">132v-133r</locus>.</note>
+                     <msItem n="2.1" class="edd hetkv">
+                        <locus from="78r" to="82r">78r-82r</locus>
+                        <title type="supplied">Heiti</title>
+                        <msItem n="2.1.1" class="edd hetkv">
+                           <locus from="78r" to="78v">78r-78v</locus>
+                           <title type="supplied">Óðinn; heiti hans, ætt og uppruni</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér segir fyrst um ætt Óðins frá Trojumönnum</rubric>
+                        </msItem>
+                        <msItem n="2.1.2" class="edd hetkv">
+                           <locus from="79r" to="79v">79r-79v</locus>
+                           <title type="supplied">Ásar og ásynjur</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér uppskrifast ásar og ásynjur</rubric>
+                        </msItem>
+                        <msItem n="2.1.3" class="edd hetkv">
+                           <locus from="80r" to="80r">80r</locus>
+                           <title type="supplied">Nöfn goða og gyðja</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Hér skrifast nöfn heiðingjanna</rubric>
+                        </msItem>
+                        <msItem n="2.1.4" class="edd hetkv">
+                           <locus from="80v" to="80v">80v</locus>
+                           <title type="supplied">Nornanöfn</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Nornanöfn</rubric>
+                        </msItem>
+                        <msItem n="2.1.5" class="edd hetkv">
+                           <locus from="80v" to="81r">80v-81r</locus>
+                           <title type="supplied">Dverganöfn</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Dverganöfn</rubric>
+                        </msItem>
+                        <msItem n="2.1.6" class="edd hetkv">
+                           <locus from="81r" to="81r">81r</locus>
+                           <title type="supplied">Sverðaheiti</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Síðan teljast sverðaheiti</rubric>
+                        </msItem>
+                        <msItem n="2.1.7" class="edd hetkv">
+                           <locus from="81r" to="81v">81r-81v</locus>
+                           <title type="supplied">Skipaheiti</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Skrifa verður skipaheiti</rubric>
+                        </msItem>
+                        <msItem n="2.1.8" class="edd hetkv">
+                           <locus from="81v" to="81v">81v</locus>
+                           <title type="supplied">Sjókenningar</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Síðan teiknast sjókenningar</rubric>
+                        </msItem>
+                        <msItem n="2.1.9" class="edd hetkv">
+                           <locus from="81v" to="82r">81v-82r</locus>
+                           <title type="supplied">Sjávarheiti</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Þetta eru heiti á sjó</rubric>
+                           <colophon>Kenningar má finna í síðari parti Snorra-Eddu. Byrjast því
+                              partar eður kvæði þessarar bókar sem eftir fylgja.</colophon>
+                           <note>The colophon is on leaf <locus from="82r" to="82r">82r</locus>.</note>
+                           <!--<note>Heiti Óðins, ása og ásynja, goða og gyðja, nöfn dverga, skipa og
+                              sjávarheiti eru upplistuð í ofangreindum köflum; um heitin ásamt
+                              kenningum er fjallað í Skáldskaparmálum Snorra-Eddu.</note>-->
+                        </msItem>
+                        <msItem n="2.1.10" class="regist">
+                           <locus from="82v" to="82v">82v</locus>
+                           <title type="supplied">Table of Contents</title>
+                           <textLang mainLang="is"/>
+                           <rubric>Þetta eru partar eður Capita Sæmundar-Eddu sem
+                              eftir fylgja:</rubric>
+                           <incipit>Völuspá, Hávamál, Vafþrúðnismál, Grímnismál,
+                              </incipit>
+                           <explicit>Gátur Gests blinda / getspeki Heiðreks kóngs, Gróuljóð, Fjölvinsmál,
+                              Bjargbúaþáttur.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.2" class="edd godkv">
+                        <locus from="83r" to="86v">83r-86v</locus>
+                        <title type="uniform">Völuspá</title>
+                        <incipit>Hljóðs bið eg allar helgar kindir</incipit>
+                        <explicit>nú mun hún sökkvast.</explicit>
+                        <note>59 stanzas</note>
+                        <textLang mainLang="non"/>
+                     </msItem>
+                     <msItem n="2.3" class="edd godkv">
+                        <locus from="86v" to="90v">86v-90v</locus>
+                        <title type="uniform">Völuspá <note>[Latin]</note></title>
+                        <textLang mainLang="la"/>
+                        <rubric>Vaticinum Volæ [Seu Sibyllinum]</rubric>
+                        <incipit>Sileant omnes, Sanctæ creaturæ</incipit>
+                        <explicit>Níðhöggur funera, nunc ille terra dehiscet.</explicit>
+                        <note>59 stanzas of <title type="uniform">Völuspá</title> in
+                           Latin.</note>
+                     </msItem>
+                     <msItem n="2.4" class="edd godkv">
+                        <locus from="91r" to="106v">91r-106v</locus>
+                        <title type="uniform">Hávamál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hávamál en gömlu með þeirra appendice rúnacapitula af sjálfum Óðni
+                           kóngi ort og samsett</rubric>
+                        <note>165 in total (138+27 (rúnakapituli)).</note>
+                        <msItem n="2.4.1" class="edd godkv">
+                           <locus from="91r" to="106v">91r-106v</locus>
+                           <title type="uniform">Hávamál</title>
+                           <textLang mainLang="non"/>
+                           <incipit>Gáttir allar</incipit>
+                           <explicit>fold skal við flóði taka.</explicit>
+                        </msItem>
+                        <msItem n="2.4.2" class="edd godkv">
+                           <locus from="91r" to="106v">91r-106v</locus>
+                           <title type="uniform">Hávamál</title>
+                           <textLang mainLang="non"/>
+                           <rubric>Rúnakapituli</rubric>
+                           <incipit>Veit eg at eg hékk</incipit>
+                           <explicit>Heilir þeirs hlýddu.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.5" class="edd godkv">
+                        <locus from="107r" to="109r">107r-109r</locus>
+                        <title type="uniform">Vafþrúðnismál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Vafþrúðnismál</rubric>
+                        <incipit>Ráð þú mér nú Frigg</incipit>
+                        <explicit>Þú ert æ vísastur vera.</explicit>
+                     </msItem>
+                     <msItem n="2.6" class="edd godkv">
+                        <locus from="109r" to="111v">109r-111v</locus>
+                        <title type="uniform">Grímnismál</title>
+                        <textLang mainLang="non"/>
+<!--                        <note>Lausamálskaflar eru meðfylgjandi kvæðinu í upphafi þess og lok.</note>-->
+                        <msItem n="2.6.1" class="edd godkv">
+                           <locus from="109r" to="111v">109r-111v</locus>
+                           <title type="supplied">Grímnismál <note>[Prose]</note></title>
+                           <textLang mainLang="non"/>
+                           <rubric>Frá sonum Hrauðungs konungs</rubric>
+                           <incipit>Hrauðungur kóngur átti tvo sonu</incipit>
+                           <explicit>Agnar var þar kóngur lengi síðan.</explicit>
+                        </msItem>
+                        <msItem n="2.6.2" class="edd godkv">
+                           <locus from="109v" to="111v">109v-111v</locus>
+                           <title type="supplied">Grímnismál <note>[Verses]</note></title>
+                           <textLang mainLang="non"/>
+                           <incipit>Heitur ertu hripuður</incipit>
+                           <explicit>allir af einum mér.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.7" class="edd godkv">
+                        <locus from="111v" to="113r">111v-113r</locus>
+                        <title type="uniform">Skírnismál</title>
+                        <title type="paralell">För Skírnis</title>
+                        <textLang mainLang="la"/>
+                        <rubric>För Skírnis</rubric>
+                       <!-- <note>Lausamálskaflar eru í upphafi kvæðis og á milli vísna á tveimur -
+                           þremur stöðum.</note>-->
+                        <msItem n="2.7.1" class="edd godkv">
+                           <locus from="111v" to="111v">111v</locus>
+                           <title type="supplied">Skírnismál <note>[Prose]</note></title>
+                           <textLang mainLang="non"/>
+                           <incipit>Freyr sonur Njarðar</incipit>
+                           <explicit>Freyr stóð úti og kvaddi hann og spurði tíðinda og
+                              kvað:</explicit>
+                        </msItem>
+                        <msItem n="2.7.2" class="edd godkv">
+                           <locus from="111v" to="113r">111v-113r</locus>
+                           <title type="supplied">Skírnismál <note>[Verses]</note></title>
+                           <textLang mainLang="non"/>
+                           <incipit>Rístu nú Skírnir</incipit>
+                           <explicit>enn sjá hálf hýnótt.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.8" class="edd godkv">
+                        <locus from="113r" to="114v">113r-114v</locus>
+                        <title type="uniform">Hárbarðsljóð</title>
+                        <title type="paralell">För Skírnis</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Harbarsljóð</rubric>
+<!--                        <note>Lausamálskafli er í upphafi kvæðis.</note>-->
+                        <msItem n="2.8.1" class="edd godkv">
+                           <locus from="113r" to="113r">113r</locus>
+                           <title type="supplied">Hárbarðsljóð <note>[Prose]</note></title>
+                           <textLang mainLang="non"/>
+                           <incipit>Þór fór úr austurvegi</incipit>
+                           <explicit>var ferjukarlinn með skipið. Þór kallaði:</explicit>
+                        </msItem>
+                        <msItem n="2.8.2" class="edd godkv">
+                           <locus from="113r" to="114v">113r-114v</locus>
+                           <title type="supplied">Hárbarðsljóð [Verses]</title>
+                           <textLang mainLang="non"/>
+                           <incipit>Hver er sá sveinn sveina</incipit>
+                           <explicit>Far þú nú þars þig hafi allan gramir.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.9" class="edd godkv">
+                        <locus from="114v" to="116r">114v-116r</locus>
+                        <title type="uniform">Hymiskviða</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Þór dró Miðgarðsorm</rubric>
+                        <incipit>Ár valtívar / veiðar námu</incipit>
+                        <explicit>ægis, eitt hörmeitið.</explicit>
+                     </msItem>
+                     <msItem n="2.10" class="edd godkv">
+                        <locus from="116r" to="119r">116r-119r</locus>
+                        <title type="uniform">Lokasenna</title>
+                        <textLang mainLang="non"/>
+<!--                        <note>The prose is in the beginning, the end and in three places in the middle.</note>-->
+                        <msItem n="2.10.1" class="edd godkv">
+                           <locus from="116r" to="119r">116r-119r</locus>
+                           <title type="supplied">Lokasenna <note>[Prose]</note></title>
+                           <textLang mainLang="non"/>
+                           <rubric>Frá Ægi og goðum</rubric>
+                           <incipit>Ægir er að öðru nafni hét Gymir</incipit>
+                           <explicit>Það eru nú kallaðir landskjálftar.</explicit>
+                        </msItem>
+                        <msItem n="2.10.2" class="edd godkv">
+                           <locus from="116r" to="119r">116r-119r</locus>
+                           <title type="supplied">Lokasenna <note>[Verses]</note></title>
+                           <textLang mainLang="non"/>
+                           <rubric>Lokasenna</rubric>
+                           <incipit>Seg þú það Eldir</incipit>
+                           <explicit>brenni þér á baki.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.11" class="edd godkv">
+                        <locus from="119r" to="120v">119r-120v</locus>
+                        <title type="uniform">Þrymskviða</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Þrymskviða eður Hamarsheimt</rubric>
+                        <incipit>Reiður var þá Vingþór</incipit>
+                        <explicit>endur að hamri.</explicit>
+                     </msItem>
+                     <msItem n="2.12" class="edd godkv">
+                        <locus from="120v" to="121v">120v-121v</locus>
+                        <title type="uniform">Alvíssmál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Alvíssmál</rubric>
+                        <incipit>Bekki breiða / nú skal brúður með mér</incipit>
+                        <explicit>uppi ertu dvergur um dagaður. Nú skín sól í sali.</explicit>
+                     </msItem>
+                     <msItem n="2.13" class="edd godkv" defective="true">
+                        <locus from="121v" to="122v">121v-122v</locus>
+                        <title type="uniform">Reginsmál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Frá Regin og Sigurði Fáfnisbana</rubric>
+                        <incipit>Kominn er hingað sonur Sigmundar</incipit>
+                        <explicit>og Hugin gladdi.</explicit>
+                        <note>Only part of the poem, i.e. verses 13 and 16-26 (cf. <title type="uniform">Eddukvæði</title> ed. Gísli Sigurðsson 1999:
+                           202-206).</note>
+                     </msItem>
+                     <msItem n="2.14" class="edd godkv" defective="true">
+                        <locus from="122v" to="124r">122v-124r</locus>
+                        <title type="uniform">Sigurdrífumál</title>
+                        <textLang mainLang="non"/>
+                        <note><note>Only part of the poem, begins with verse 5 (cf. <title type="uniform">Eddukvæði</title> ed. Gísli Sigurðsson 1999:
+                              221-228). Ends with prose.</note></note>
+                        <msItem n="2.14.1" class="edd godkv">
+                           <locus from="122v" to="123v">122v-123v</locus>
+                           <title type="supplied">Sigurdrífumál <note>[Verses]</note></title>
+                           <rubric>Brynhildarljóð eður heilræði Brynhildar við Sigurð</rubric>
+                           <incipit>Bjór færi eg þér</incipit>
+                           <explicit>römm eru róg af risin.</explicit>
+                           <note>17 lines of the end are wriiten in another hand on leaf <locus from="123v" to="123v">123v</locus>.</note>
+                        </msItem>
+                        <msItem n="2.14.2" class="edd godkv">
+                           <locus from="122v" to="123v">122v-123v</locus>
+                           <title type="supplied">Sigurdrífumál <note>[End]</note></title>
+                           <incipit>Svo er sagt að Gjúkasynir sviku Sigurð í tryggðum</incipit>
+                           <explicit>hún lagði sig sverði til bana.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.15" class="edd godkv">
+                        <locus from="124r" to="124v">124r-124v</locus>
+                        <title type="uniform">Helreið Brynhildar</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Brynhildur reið Helveg</rubric>
+                        <msItem n="2.15.1" class="edd godkv">
+                           <locus from="124r" to="124v">124r-124v</locus>
+                           <title type="supplied">Helreið Brynhildar <note>[Prose]</note></title>
+                           <textLang mainLang="non"/>
+                           <incipit>Eftir dauða Brynhildar</incipit>
+                           <explicit>þar er gýgur nokkur bjó. Gýgurin kvað:</explicit>
+                        </msItem>
+                        <msItem n="2.15.2" class="edd godkv">
+                           <locus from="124r" to="124v">124r-124v</locus>
+                           <title type="supplied">Helreið Brynhildar <note>[Verses]</note></title>
+                           <textLang mainLang="non"/>
+                           <incipit>Skaltu í gögnum ganga eigi</incipit>
+                           <explicit>gýgjar kyn</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.16" class="edd godkv">
+                        <locus from="124v" to="126r">124v-126r</locus>
+                        <title type="uniform">Guðrúnarkviða I</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Guðrúnarkviða</rubric>
+                        <note>Lausamálskafli er á undan og á eftir kvæðinu.</note>
+                        <msItem n="2.16.1" class="edd godkv">
+                           <locus from="124v" to="126r">124v-126r</locus>
+                           <title type="supplied">Guðrúnarkviða <note>[Prose]</note></title>
+                           <textLang mainLang="non"/>
+                           <incipit>Guðrún sat yfir Sigurði dauðum</incipit>
+                           <explicit>svo sem segir í Sigurðarkviðu inni skömmu.</explicit>
+                        </msItem>
+                        <msItem n="2.16.2" class="edd godkv">
+                           <locus from="124v" to="126r">124v-126r</locus>
+                           <title type="supplied">Guðrúnarkviða <note>[Verses]</note></title>
+                           <incipit>Ár var það er Guðrún gerðist að deyja</incipit>
+                           <explicit>er hún sár um leit á Sigurði.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.17" class="edd godkv">
+                        <locus from="126r" to="126v">126r-126v</locus>
+                        <title type="uniform">Fáfnismál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Frá dauða Fáfnis</rubric>
+                        <colophon>Þetta hefði átt að skrifast fyrri.</colophon>
+                        <note>The colophon is on leaf <locus from="126r" to="126r">126r.</locus></note>
+                        <note>The prose part is in front of the poem. The poem is not copied in full. 
+                           The text ends at the beginning of the 23rd stanza. (Cf. <title type="uniform">Eddukvæði</title> ed. Gísli Sigurðsson 1999: 212.)</note>
+                        <msItem n="2.17.1" class="edd godkv">
+                           <locus from="126r" to="126r">126r</locus>
+                           <title type="supplied">Fáfnismál <note>[Prose]</note></title>
+                           <textLang mainLang="non"/>
+                           <incipit>Sigurður hitti slóð Fáfnis á Gnitaheiði</incipit>
+                           <explicit>Sigurður hljóp úr gröfinni og sá hver þeirra annan. Fáfnir
+                              kvað:</explicit>
+                        </msItem>
+                        <msItem n="2.17.2" class="edd godkv">
+                           <locus from="126r" to="126v">126r-126v</locus>
+                           <title type="supplied">Fáfnismál <note>[Verses]</note></title>
+                           <textLang mainLang="non"/>
+                           <incipit>Sveinn og sveinn</incipit>
+                           <explicit>Fáfnir muni, þitt var nú meira megin.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.18" class="edd godkv">
+                        <locus from="127r" to="128v">127r-128v</locus>
+                        <title type="uniform">Hyndluljóð</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Hyndluljóð hin gömlu</rubric>
+                        <incipit>Vaki mér meyja</incipit>
+                        <explicit>bið eg Óttari öll góð duga.</explicit>
+                     </msItem>
+                     <msItem n="2.19" class="fas">
+                        <locus from="128v" to="131v">128v-131v</locus>
+                        <title ref="#hs" type="uniform">Hervarar saga <note>(Riddles)</note></title>
+                        <title type="parallel">Hervarar saga ok Heiðreks</title>
+                        <textLang mainLang="non"/>
+                        <title type="paralell">Gátur Gestumblinda</title>
+                        <msItem n="2.19.1" class="formal">
+                           <locus from="128v" to="129r">128v-129r</locus>
+                           <title type="supplied">Gátur Gestumblinda <note>[Introduction]</note></title>
+                           <textLang mainLang="is"/>
+                           <rubric>Formáli að getspeki Heiðreks kóngs</rubric>
+                           <incipit>Heiðrekur hét kóngur ágætur</incipit>
+                           <explicit>Þá mælti Gestur:</explicit>
+                        </msItem>
+                        <msItem n="2.19.2" class="fas gat">
+                           <locus from="129r" to="131v">129r-131v</locus>
+                           <title type="supplied">Gátur Gestumblinda [Riddles]</title>
+                           <textLang mainLang="non"/>
+                           <incipit>Hafa vildak / það í gær hafðak</incipit>
+                           <explicit>því ber hann stýfðan stert.</explicit>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.20" class="edd hetkv">
+                        <locus from="131v" to="132v">131v-132v</locus>
+                        <title type="uniform">Grógaldur</title>
+                        <title type="paralell">Svipdagsmál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Gróuljóð er hún gól syni sínum áður en það Óðinn í helju hvarf og
+                           hún var dauð</rubric>
+                        <incipit>Vaki þú Gróa / vaki þú góð kona</incipit>
+                        <explicit>meðan þú mín orð of manst.</explicit>
+                     </msItem>
+                     <msItem n="2.21" defective="true" class="edd hetkv">
+                        <locus from="132v" to="132v">132v</locus>
+                        <title type="uniform">Baldurs draumar</title>
+                        <title type="paralell">Vegtamskviða</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Vegtamskviða</rubric>
+                        <incipit>Senn voru æsir á þingi allir</incipit>
+                        <explicit defective="true">Hvað er manna, það mér ókunnra er mér hefir aukið erfitt
+                          </explicit>
+                        <note>The poem ends defective. The text from the forth word in the fifth stanza onwards is missing.
+                           (Cf. <name type="person">Finnur
+                              Jónsson's ed. </name><date when="1905" instant="false">1905</date>.</note>
+                     </msItem>
+                     <msItem n="2.22" defective="true" class="edd hetkv">
+                        <locus from="133r" to="133v">133r-133v</locus>
+                        <title type="uniform">Fjölsvinnsmál</title>
+                        <title type="paralell">Svipdagsmál</title>
+                        <textLang mainLang="non"/>
+                        <incipit defective="true">Gífur heitir / en Gere annar</incipit>
+                        <explicit>nú er það satt / að við slíta skulum / ævialdri
+                           saman.</explicit>
+                        <note>The bginning is defective.</note>
+                     </msItem>
+                     <msItem n="2.23" class="edd hetkv">
+                        <locus from="134r" to="135v">134r-135v</locus>
+                        <title type="uniform">Grottasöngur</title>
+                        <textLang mainLang="non"/>
+                        <title type="paralell">Hörpusöngurinn</title>
+                        <incipit>Nú erum komnar / til kóngs húsa</incipit>
+                        <explicit>hafa fullstaðið / fljóð að moldri [sic?].</explicit>
+                     </msItem>
+                     <msItem n="2.24" class="islt drott">
+                        <locus from="136r" to="137v">136r-137v</locus>
+                        <title type="uniform">Bergbúaþáttur</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Bjargbúaþáttur</rubric>
+                        <note>After a short introductory chapter, the poem called <title>Hallmundarkviða</title> is given with comments.</note>
+                        <msItem n="2.24.1" class="islt formal">
+                           <locus from="136r" to="136r">136r</locus>
+                           <title type="supplied">Bergbúaþáttur <note>[Introduction]</note></title>
+                           <textLang mainLang="is"/>
+                           <incipit>Það er efni þessarar frásögu</incipit>
+                           <explicit>Hellir þessi fannst aldrei síðan.</explicit>
+                        </msItem>
+                        <msItem n="2.24.2" class="drott">
+                           <locus from="136r" to="137v">136r-137v</locus>
+                           <title type="supplied">Bergbúaþáttur <note>[Verses]</note></title>
+                           <title type="parallel">Hallmundarkviða</title>
+                           <textLang mainLang="non"/>
+                           <incipit>Hrynur að heiða fenri</incipit>
+                           <explicit>ónyt, mikið víti / onyt, mikið víti.</explicit>
+                           <note>Other verses follow, including extracts from epic poems.</note>
+                        </msItem>
+                     </msItem>
+                     <msItem n="2.25" class="drott">
+                        <locus from="137v" to="138v">137v-138v</locus>
+                        <author key="EgiSka001">Egill Skallagrímsson</author>
+                        <title type="uniform">Sonatorrek</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Kvæði Egils Skallagrímssonar er hann kallaði Sonartorrek[sic]</rubric>
+                        <incipit>Mjög erum tregt / tungu að hræra</incipit>
+                        <explicit>og óhryggur / heljar bíða.</explicit>
+                     </msItem>
+                     <msItem n="2.26" class="drott">
+                        <locus from="138v" to="141r">138v-141r</locus>
+                        <author key="EgiSka001">Egill Skallagrímsson</author>
+                        <title type="uniform">Höfuðlausn</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Kvæði Egils Skallagrímssonar nær hann leysti höfuð sitt á
+                           Norðymbralandi, anno 934. Eyrekur blóðöx og hirð hans heyrði á.</rubric>
+                        <incipit>Vestur fór eg um ver</incipit>
+                        <explicit>vagna vára / eður vili tára.</explicit>
+                        <colophon>Drápan er skrifuð eftir Runica Wormi.</colophon>
+                        <note>The colophon is on fol. <locus from="141r" to="141r">141r</locus>.</note>
+                     </msItem>
+                     <msItem n="2.27" class="drott">
+                        <locus from="141r" to="144v">141r-144v</locus>
+                        <title type="uniform">Krákumál</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Ragnars kviða loðbrókar, skrifuð eftir Runica Wormi.</rubric>
+                        <incipit>Hjuggum vér með hjörvi</incipit>
+                        <explicit>læjandi skal eg deyja.</explicit>
+                        <colophon>Endir Loðbrókarkviðu</colophon>
+                        <note>The colophon is on leaf <locus from="144v" to="144v">144v</locus>. Below it a different hand wrote:
+                              <q>Þessi kviða kallast réttar <title type="uniform">Krákumál.</title></q></note>
+                     </msItem>
+                     <msItem n="2.28" class="kvad drott">
+                        <locus from="144r" to="144v">144r-144v</locus>
+                        <title type="supplied">Various poems</title>
+                        <textLang mainLang="non" otherLangs="is"/>
+                        <note>On top of fol. <locus from="144" to="144r">144r</locus> might be written: <q>Úr sögu Hákons konungs gamla</q>.
+                           This is almost illegible, though, due to trimming of the leaf. </note>
+                        <msItem n="2.28.1" class="kvad">
+                           <author>Sturla Þórðarson</author>
+                           <title type="supplied">Verses on king Hákon's warfare to Vermland</title>
+                           <textLang mainLang="is"></textLang>
+                        </msItem>
+                        <msItem n="2.28.2" class="drott">
+                           <title type="uniform">Orkneyinga saga <note>[Verses]</note></title>
+                           <textLang mainLang="non"></textLang>
+                           <note>Some Verses from Orkneyinga saga</note>
+                        </msItem>
+                        <note>Other verses unidentified</note>
+                     </msItem>
+                     <msItem n="2.29" class="run stafr">
+                        <locus from="146r" to="146r">146r</locus>
+                        <title type="supplied">Runic alphabet</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Gamalt alfabet</rubric>
+                     </msItem>
+                     <msItem n="2.30" class="run stafr ordsk">
+                        <locus from="146v" to="148v">146v-148v</locus>
+                        <title type="supplied">Nokkrar deilur</title>
+                        <textLang mainLang="is"/>
+                        <rubric>Deilur nokkrar</rubric>
+                        <colophon>Þessar deilur skrifaði eg eftir gamalli skræðu en veit ei hvert að
+                           öllu réttar eru. Anno <date when="1748">1748</date> A: B: S:</colophon>
+                        <note>The colophon is on leaf <locus from="148v" to="148v">148v</locus>.</note>
+                     </msItem>
+                     <msItem n="2.31" class="tul">
+                        <locus from="149r" to="149v">149r-149v</locus>
+                        <title type="uniform">Þórnaldarþula</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Þornaddarþula</rubric>
+                        <incipit>Hlýði fólk fræði mínu á meðan ég set sök mína í sleða</incipit>
+                        <explicit>vinstra fæti, fótur úr feitleika. Fallið höfuð úr
+                           tönn.</explicit>
+                        <note>One of the oldest known manuscripts of þula (cf. Einar G. Pétursson, <bibl>Gripla
+                              XVIII</bibl>)</note>
+                     </msItem>
+                     <msItem n="2.32" class="helgkv">
+                        <locus from="150r" to="153v">150r-153v</locus>
+                        <title type="uniform">Sólarljóð</title>
+                        <textLang mainLang="non"/>
+                        <rubric>Sólarljóð Sæmundar prests hins fróða</rubric>
+                        <incipit>Óvinum þínum trú þú aldreigi</incipit>
+                        <explicit>hinum líkn en lifa.</explicit>
+                     </msItem>
+                  </msItem>
+               </msContents>
+                  <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="153"/>
+                           <num type="back-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="190"/>
+                              <width unit="mm" quantity="145"/>
+                           </dimensions>
+                           <watermark ana="unknown"/>
+                        </support>
+                        <foliation ana="pag contemporary fol later"/> 
+                        <condition ana="average"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="verse-separate" columns="1" writtenLines="20 30"> 
+                           <num type="wpl"/> <!-- add  atLeast="" atMost="" -->
+                           <dimensions type="written">
+                              <height unit="mm" quantity="165"/>
+                              <width unit="mm" quantity="125"/>
+                           </dimensions>
+                           <catchwords ana="yes"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc n="2">
+                     <handNote scribeRef="#ArnBod001" scope="major" script="kurrent">Mostly written by Árni Böðvarsson, fols. <locus from="1r" to="149v">1r-149v</locus>. Kurrent for main text, chancery for rubrics.</handNote>
+                  <handNote scribeRef="unknown" scope="minor" script="unknown">Fols. <locus from="150r" to="153v">150r-153v</locus> are most likely written in one other hand.</handNote>
+                  </handDesc>
+                  <decoDesc ana="medium">
+                     <decoNote type="border">A red line around the writing surface, a double line around title pages.</decoNote>
+                     <decoNote type="initial"/>
+                     <decoNote type="frieze"/>
+                  </decoDesc>
+                  <additions ana="medium"><p>Marginalia, (e.g. on fol. 
+                     <locus from="144v" to="144v">144v</locus>); a different hand wrote underneath the colophon:
+                     <q>Þessi kviða kallast réttar <title type="uniform">Krákumál.</title></q></p>
+                    <p>On fols. <locus from="1r" to="3r">1r-3r</locus> and <locus from="77v" to="77v">77v</locus>
+                     are names of former owners, e.g on fol. <locus from="2v" to="2v">2v</locus>:
+                     <q>Þessa bók heimila eg
+                        Mr. Jóni Grímssyni til eignar þann <date when="1832-06-12" instant="false">12.
+                           júní 1832</date>. Til merkis mitt nafn <name type="person">Jón Sigurðsson.</name></q> and
+                     on fol. <locus from="77v" to="77v">77v</locus>: <q>Þessa bók
+                        á ég undirskrifaður með réttu og hún er mér heimiluð af hennar
+                        réttum eiganda mr. <name type="person">Jóni
+                           Sigurðssyni</name>, <name type="place">Hörðubóli</name> þann
+                        <date when="1832-06-12" instant="false">12. júní 1832</date>. Testerar J.
+                        Grímsson.</q> and on fol. <locus from="152v" to="152v">152v</locus>: <q><name type="person">Sölvason</name> frá <name type="place">Löngumýri</name> gefur <name type="person">Daníel
+                           Kristjáni(?)</name>þessa bók
+                           <date when="1898" instant="false">1898</date>.</q></p>
+                     <p>In the back, there is a slip with information on the provenance written by the donor.
+                  </p></additions>
+                  <bindingDesc>
+                     <binding ana="plain" contemporary="false">
+                        <p>Modern green leather binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1743"/>
+                     <origPlace key="IS"/>
+                  </origin>
+                  <provenance><p>A certain 
+                     <name type="person" role="owner" key="JonSig044">Jón Sigurðsson</name> gave the manuscript to 
+                     <name type="person" role="owner" key="JonGri002">Jón Grímsson</name> in <name type="place">Hörðuból</name> in
+                     1832. A certain
+                     <name type="person" role="owner" key="ambig">(?) Sölvason</name> from <name type="place">Löngumýri</name> gave the 
+                        manuscript to a certain <name key="ambig" type="person" role="owner">Daníel Kristján</name> in 1898.
+                     <name type="person" role="donor" key="OrnArn001">Örn Arnarson</name> bought the manuscript in Israel and donated to the
+                     <name key="AMIS" type="organisation" role="owner">Stofnun Árna Mangússonar</name> in 2003.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2013-07-15" who="#BES">Created file and added information from extensive record on handirt.is.</change>
+     </revisionDesc> <!-- references fro owners missing (but impossible to obtain?), wpl missing -->
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
