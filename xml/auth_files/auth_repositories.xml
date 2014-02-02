@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://am-dk.net/fasnl/xml/fasnl_text.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -21,9 +20,12 @@
                         <place>
                             <settlement>Edinburgh</settlement>
                             <country key="UK"/>
+                            <location>
+                                <geo>55.953252,-3.188267</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="42" xml:id="AMDK">
                         <orgName>Den Arnamagnæanske Samling</orgName>
                         <!--<orgName>Arnamagnæan Collection</orgName>
@@ -31,255 +33,345 @@
                         <place>
                             <settlement>Copenhagen</settlement>
                             <country key="DK"/>
+                            <location>
+                                <geo>55.676097,12.568337</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="1" xml:id="AMIS">
-<!--                        <orgName>Arnamagnæan Collection</orgName>-->
+                        <!--                        <orgName>Arnamagnæan Collection</orgName>-->
                         <orgName>Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
                         <place>
                             <settlement>Reykjavík</settlement>
                             <country key="IS"/>
+                            <location>
+                                <geo>64.135338,-21.89521</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="24" xml:id="BDL">
                         <orgName>Bodleian Library</orgName>
                         <orgName>Oxford University</orgName>
                         <place>
                             <settlement>Oxford</settlement>
                             <country key="UK"/>
+                            <location>
+                                <geo>51.752021,-1.257726</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="5" xml:id="BL">
                         <orgName>British Library</orgName>
                         <place>
                             <settlement>London</settlement>
                             <country key="UK"/>
+                            <location>
+                                <geo>51.508515,-0.125487</geo>
+                            </location>
                         </place>
-                    </org>                                      
-                    
+                    </org>
+
                     <org n="25" xml:id="BSSKG">
                         <orgName>Byggðasafnið á Skógum</orgName>
                         <place>
                             <settlement>Skógar, V-Skaftafellssýslu</settlement>
                             <country key="IS"/>
+                            <location>
+                                <geo></geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="26" xml:id="DKNVS">
                         <orgName>Det Kongelige Norske Videnskabers Selskabs Bibliotek</orgName>
                         <place>
                             <settlement>Trondheim</settlement>
                             <country key="NO"/>
+                            <location>
+                                <geo>63.430515,10.395053</geo>
+                            </location>
                         </place>
                     </org>
-                                        
+
                     <org n="30" xml:id="EDL">
                         <orgName>Elizabeth Dafoe Library</orgName>
                         <place>
                             <settlement>Winnipeg</settlement>
                             <country key="CA"/>
+                            <location>
+                                <geo>49.899754,-97.137494</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="8" xml:id="HHVD">
                         <orgName>Houghton Library</orgName>
                         <orgName>Harvard University</orgName>
                         <place>
                             <settlement>Cambridge, MA</settlement>
                             <country key="US"/>
+                            <location>
+                                <geo>42.373616,-71.109733</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="29" xml:id="HSSAE">
                         <orgName>Héraðsskjalasafn Akureyrarbæjar og Eyjafjarðarsýslu</orgName>
                         <place>
                             <settlement>Akureyri</settlement>
                             <country key="IS"/>
+                            <location>
+                                <geo>65.683868,-18.11046</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="11" xml:id="HSSBF">
                         <orgName>Héraðsskjalasafn Borgarfjarðar</orgName>
                         <place>
                             <settlement>Borgarnes</settlement>
                             <country key="IS"/>
+                            <location>
+                                <geo>64.53624,-21.929199</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="22" xml:id="HSSSF">
                         <orgName>Héraðsskjalasafn Skagfirðinga</orgName>
                         <place>
                             <settlement>Sauðárkrókur</settlement>
                             <country key="IS"/>
+                            <location>
+                                <geo>65.746111,-19.639444</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="28" xml:id="JHU">
                         <orgName>John Hopkins University</orgName>
                         <place>
                             <settlement>Baltimore</settlement>
                             <country key="US"/>
+                            <location>
+                                <geo>39.290385,-76.612189</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="2" xml:id="KBDK">
                         <orgName>Det Kongelige Bibliotek</orgName>
-<!--                        <orgName>National biblioteket</orgName>-->
+                        <!--                        <orgName>National biblioteket</orgName>-->
                         <place>
                             <settlement>København</settlement>
                             <country key="DK"/>
+                            <location>
+                                <geo>55.676097,12.568337</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="4" xml:id="KBSE">
                         <orgName>Kungliga biblioteket</orgName>
                         <place>
                             <settlement>Stockholm</settlement>
                             <country key="SE"/>
+                            <location>
+                                <geo>59.32893,18.06491</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <!-- defunct; now part of RAA? -->
                     <org n="23" xml:id="KVH">
                         <orgName>Kungl. Vitterhets Historie och Antikvitets Akademien</orgName>
                         <place>
                             <settlement>Stockholm</settlement>
                             <country key="SE"/>
+                            <location>
+                                <geo>59.32893,18.06491</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="3" xml:id="LBS">
                         <orgName>Landsbókasafn Íslands</orgName>
                         <orgName>Handritasafn Landsbóks</orgName>
                         <place>
                             <settlement>Reykjavík</settlement>
                             <country key="IS"/>
+                            <location>
+                                <geo>64.135338,-21.89521</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="10" xml:id="PRIV1">
                         <orgName>Private collection</orgName>
                         <place>
                             <country key="IS"/>
+                            <location>
+                                <geo></geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="43" xml:id="RAA">
                         <orgName>Riksantikvarieämbetet</orgName>
                         <place>
                             <settlement>Stockholm</settlement>
                             <country key="SE"/>
+                            <location>
+                                <geo>59.32893,18.06491</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="12" xml:id="RAS">
                         <orgName>Riksarkivet</orgName>
                         <place>
                             <settlement>Stockholm</settlement>
                             <country key="SE"/>
+                            <location>
+                                <geo>59.32893,18.06491</geo>
+                            </location>
                         </place>
                     </org>
-                                                            
+
                     <org n="7" xml:id="SB">
                         <orgName>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</orgName>
                         <orgName>Preußischer Kulturbesitz</orgName>
                         <place>
                             <settlement>Berlin</settlement>
                             <country key="DE"/>
+                            <location>
+                                <geo>52.520007,13.404954</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="31" xml:id="StGen">
                         <orgName>Bibliothèque Sainte-Geneviève</orgName>
                         <place>
                             <settlement>Paris</settlement>
                             <country key="FR"/>
+                            <location>
+                                <geo>48.856614,2.352222</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="20" xml:id="TCL">
                         <orgName>Trinity College Library and Royal Irish Academy</orgName>
                         <place>
                             <settlement>Dublin</settlement>
                             <country key="IE"/>
+                            <location>
+                                <geo>53.349805,-6.26031</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="13" xml:id="THMS">
                         <orgName>Þjóðminjasafn</orgName>
                         <place>
                             <settlement>Reykjavík</settlement>
                             <country key="IS"/>
+                            <location>
+                                <geo>64.135338,-21.89521</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="6" xml:id="TYL">
                         <orgName>Taylor Institution</orgName>
                         <orgName>University of Oxford</orgName>
                         <place>
                             <settlement>Oxford</settlement>
                             <country key="UK"/>
+                            <location>
+                                <geo>51.752021,-1.257726</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="16" xml:id="UBBRG">
                         <orgName>Universitetsbiblioteket</orgName>
                         <orgName>Bergens Universitet</orgName>
                         <place>
                             <settlement>Bergen</settlement>
                             <country key="NO"/>
+                            <location>
+                                <geo>60.391263,5.322054</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="15" xml:id="UBLND">
                         <orgName>Universitets Bibliotek</orgName>
                         <orgName>Lunds Universitet</orgName>
                         <place>
                             <settlement>Lund</settlement>
                             <country key="SE"/>
+                            <location>
+                                <geo>55.70466,13.191007</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="18" xml:id="UBOSL">
                         <orgName>Universitetsbiblioteket</orgName>
                         <orgName>Oslo Universitet</orgName>
                         <place>
                             <settlement>Oslo</settlement>
                             <country key="NO"/>
+                            <location>
+                                <geo>59.913869,10.752245</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="21" xml:id="UBRST">
                         <orgName>Universitätsbibliothek</orgName>
                         <orgName>Rostock Universitet</orgName>
                         <place>
                             <settlement>Rostock</settlement>
                             <country key="DE"/>
+                            <location>
+                                <geo>54.083419,12.100429</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="14" xml:id="UBUPP">
                         <orgName>Universitetsbibliotek</orgName>
                         <orgName>Uppsala universitet</orgName>
                         <place>
                             <settlement>Uppsala</settlement>
                             <country key="SE"/>
+                            <location>
+                                <geo>59.858564,17.638927</geo>
+                            </location>
                         </place>
                     </org>
-                    
+
                     <org n="9" xml:id="ULYL">
                         <orgName>University Library</orgName>
                         <orgName>Yale University</orgName>
                         <place>
                             <settlement>New Haven, CT</settlement>
                             <country key="US"/>
+                            <location>
+                                <geo>41.308274,-72.927883</geo>
+                            </location>
                         </place>
                     </org>
-                  
-                    
+
+
                 </listOrg>
             </sourceDesc>
         </fileDesc>
